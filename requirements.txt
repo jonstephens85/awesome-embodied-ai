@@ -1,0 +1,6 @@
+# No external dependencies required for Phase 1
+# Uses Python standard library only (urllib, xml, re, datetime, pathlib)
+
+# Future additions for Phase 2+:
+# requests>=2.28.0  # Cleaner HTTP if needed
+# notion-client>=2.0.0  # Notion integration
