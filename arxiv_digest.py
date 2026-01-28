@@ -404,8 +404,8 @@ Edit `.github/workflows/digest.yml` to change the run schedule:
 
 ```yaml
 schedule:
-  - cron: '0 8 * * *'   # 8:00 AM UTC
-  - cron: '0 18 * * *'  # 6:00 PM UTC
+  - cron: '0 16 * * *'   # 8:00 AM PST
+  - cron: '0 22 * * *'  # 2:00 PM PST
 ```
 """
 
