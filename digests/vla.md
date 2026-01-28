@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-01-27 23:49 UTC
+**Last updated:** 2026-01-28 08:35 UTC
 
-**Papers found:** 5
+**Papers found:** 4
 
 [Back to Home](../README.md)
 
@@ -46,41 +46,24 @@ Offering great potential in robotic manipulation, a capable Vision-Language-Acti
 
 ---
 
-### [PEAfowl: Perception-Enhanced Multi-View Vision-Language-Action for Bimanual Manipulation](https://arxiv.org/abs/2601.17885v1)
-
-**Authors:** Qingyu Fan, Zhaoxiang Li, Yi Lu, Wang Chen, Qiu Shen et al. (10 authors)
-
-**Published:** 2026-01-25 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.17885v1) | [PDF](https://arxiv.org/pdf/2601.17885v1.pdf) | [Project Page](https://peafowlvla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Bimanual manipulation in cluttered scenes requires policies that remain stable under occlusions, viewpoint and scene variations. Existing vision-language-action models often fail to generalize because (i) multi-view features are fused via view-agnostic token concatenation, yielding weak 3D-consistent spatial understanding, and (ii) language is injected as global conditioning, resulting in coarse instruction grounding. In this paper, we introduce PEAfowl, a perception-enhanced multi-view VLA poli...
-
-</details>
-
----
-
-### [SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation](https://arxiv.org/abs/2601.17657v1)
-
-**Authors:** Taewan Cho, Taeryang Kim, Andrew Jaeyong Choi
-
-**Published:** 2026-01-25 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.17657v1) | [PDF](https://arxiv.org/pdf/2601.17657v1.pdf) | [GitHub](https://github.com/taewan2002/space-clip)
-
-<details>
-<summary>Abstract</summary>
-
-Contrastive Language-Image Pre-training (CLIP) has accomplished extraordinary success for semantic understanding but inherently struggles to perceive geometric structure. Existing methods attempt to bridge this gap by querying CLIP with textual prompts, a process that is often indirect and inefficient. This paper introduces a fundamentally different approach using a dual-pathway decoder. We present SPACE-CLIP, an architecture that unlocks and interprets latent geometric knowledge directly from a...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [AC^2-VLA: Action-Context-Aware Adaptive Computation in Vision-Language-Action Models for Efficient Robotic Manipulation](https://arxiv.org/abs/2601.19634v1)
+
+**Authors:** Wenda Yu, Tianshi Wang, Fengling Li, Jingjing Li, Lei Zhu
+
+**Published:** 2026-01-27 | **Categories:** cs.RO, cs.MM
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.19634v1) | [PDF](https://arxiv.org/pdf/2601.19634v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet their closed-loop deployment is hindered by the high latency and compute cost of repeatedly running large vision-language backbones at every timestep. We observe that VLA inference exhibits structured redundancies across temporal, spatial, and depth dimensions, and that most existing efficiency methods ignore action context, despite its central role in embodied tasks. To address this gap, we pro...
+
+</details>
+
+---
 
 ### [TC-IDM: Grounding Video Generation for Executable Zero-shot Robot Motion](https://arxiv.org/abs/2601.18323v1)
 
