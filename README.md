@@ -8,7 +8,7 @@ A curated list of world models and vision-language-action models for robotics an
 
 ## Auto-Updated Paper Feeds
 
-This repo automatically pulls new papers from arXiv twice daily (8am & 6pm UTC):
+This repo automatically pulls new papers from arXiv twice daily (8am & 2pm PST):
 
 - **[World Models Papers](digests/world_models.md)** - Papers matching "world model" and "world models"
 - **[VLA Papers](digests/vla.md)** - Papers matching "VLA", "vision language action", and "vision-language-action"
