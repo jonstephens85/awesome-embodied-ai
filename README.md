@@ -1,105 +1,95 @@
-# arXiv Embodied AI Paper Digest
+# Awesome Embodied AI
 
-Automated paper tracking for embodied AI, world models, VLAs, and robotics research.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## What it does
+A curated list of world models, VLAs, and foundation models for robotics and embodied AI.
 
-- Queries arXiv twice daily for papers matching your keywords
-- Detects project pages and GitHub links in abstracts/comments
-- Generates a markdown digest, prioritizing papers with code/demos
-- Commits the digest to this repo automatically
+## Auto-Updated Paper Feeds
 
-## Quick Setup
+This repo automatically pulls new papers from arXiv twice daily (8am & 6pm UTC) covering:
 
-### 1. Create your GitHub repo
+- **[World Models Papers](digests/world_models.md)** - Papers matching "world model" and "world models"
+- **[VLA Papers](digests/vla.md)** - Papers matching "VLA", "vision language action", and "vision-language-action"
 
-```bash
-# Clone this locally or download the files
-git clone <your-repo-url>
-cd arxiv-digest
-```
+Each feed shows papers from the last 2 days, with papers that have project pages or code highlighted at the top. Want to run this yourself? See [SETUP.md](SETUP.md).
 
-### 2. Test locally first
+---
 
-```bash
-# No dependencies to install - uses Python standard library
-python arxiv_digest.py
-```
+## Contents
 
-This creates a `digests/` folder with your first digest.
+- [Foundation Models](#foundation-models)
+- [World Models](#world-models)
+- [Vision-Language-Action Models](#vision-language-action-models)
+- [Simulation Platforms](#simulation-platforms)
+- [Datasets](#datasets)
+- [Companies & Labs](#companies--labs)
 
-### 3. Push to GitHub
+---
 
-```bash
-git add .
-git commit -m "Initial setup"
-git push
-```
+## Foundation Models
 
-### 4. Enable GitHub Actions
+General-purpose models for robotics and embodied AI.
 
-1. Go to your repo on GitHub
-2. Click **Settings** → **Actions** → **General**
-3. Under "Workflow permissions", select **Read and write permissions**
-4. Save
+- [π0](https://www.physicalintelligence.company/blog/pi0) - Physical Intelligence's first generalist robot policy
+- [π0.5](https://www.physicalintelligence.company/blog/pi0-5) - Upgraded foundation model with improved generalization
+- [RT-2](https://robotics-transformer2.github.io/) - Google DeepMind's vision-language-action model
+- [Octo](https://octo-models.github.io/) - Open-source generalist robot policy from Berkeley
 
-The workflow will now run automatically at 8am and 6pm UTC. You can also trigger it manually from the **Actions** tab.
+## World Models
 
-## Customization
+Models that learn predictive representations of environments.
 
-### Edit keywords
+- [Cosmos](https://github.com/NVIDIA/Cosmos) - NVIDIA's world foundation model platform
+- [Genie 2](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/) - Google DeepMind's interactive world model
+- [UniSim](https://universal-simulator.github.io/unisim/) - Universal simulator via learned world models
 
-Open `arxiv_digest.py` and modify the `KEYWORDS` list:
+## Vision-Language-Action Models
 
-```python
-KEYWORDS = [
-    "world model",
-    "VLA",
-    "embodied AI",
-    # Add your own...
-]
-```
+Models bridging vision, language understanding, and robot actions.
 
-### Edit categories
+- [OpenVLA](https://openvla.github.io/) - Open-source VLA from Stanford
+- [RT-X](https://robotics-transformer-x.github.io/) - Cross-embodiment robot learning
 
-Modify the `CATEGORIES` list to search different arXiv categories:
+## Simulation Platforms
 
-```python
-CATEGORIES = [
-    "cs.RO",  # Robotics
-    "cs.CV",  # Computer Vision
-    "cs.LG",  # Machine Learning
-    "cs.AI",  # Artificial Intelligence
-]
-```
+Environments and tools for training embodied AI.
 
-### Change schedule
+- [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim) - Robotics simulation platform
+- [MuJoCo](https://mujoco.org/) - Physics engine for robotics research
+- [SAPIEN](https://sapien.ucsd.edu/) - Realistic simulation for robot learning
 
-Edit `.github/workflows/digest.yml` and modify the cron expressions:
+## Datasets
 
-```yaml
-schedule:
-  - cron: '0 8 * * *'   # 8:00 AM UTC
-  - cron: '0 18 * * *'  # 6:00 PM UTC
-```
+Datasets for training embodied AI systems.
 
-Use [crontab.guru](https://crontab.guru/) to help with cron syntax.
+- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Large-scale robot learning dataset
+- [DROID](https://droid-dataset.github.io/) - Distributed robot interaction dataset
+- [RH20T](https://rh20t.github.io/) - Human-robot interaction dataset
 
-## Output
+## Companies & Labs
 
-Digests are saved to the `digests/` folder:
-- `digest_YYYY-MM-DD_HHMM.md` - Timestamped archives
-- `latest.md` - Always the most recent digest
+Organizations pushing embodied AI forward.
 
-Papers with project pages or GitHub repos are listed first.
+### Companies
+- [Physical Intelligence](https://www.physicalintelligence.company/) - Foundation models for robotics
+- [Figure](https://www.figure.ai/) - Humanoid robots
+- [1X](https://www.1x.tech/) - Androids for the home
+- [Skild AI](https://www.skild.ai/) - Scalable robot learning
+- [Covariant](https://covariant.ai/) - AI for robotic picking
 
-## Future Enhancements
+### Research Labs
+- [Stanford IRIS Lab](https://irislab.stanford.edu/) - Intelligent Robot Interaction & Synthesis
+- [Berkeley RAIL](https://rail.eecs.berkeley.edu/) - Robot AI & Learning Lab
+- [CMU Robotics Institute](https://www.ri.cmu.edu/) - Carnegie Mellon Robotics
+- [Google DeepMind Robotics](https://deepmind.google/discover/blog/shaping-the-future-of-advanced-robotics/) - DeepMind's robotics research
 
-- [ ] Notion database integration
-- [ ] Email delivery
-- [ ] Hugging Face trending papers integration
-- [ ] Paper scoring/ranking system
-- [ ] Slack notifications
+---
+
+## Contributing
+
+Found a paper, project, or resource that should be here? Open a PR or issue!
+
+---
 
 ## License
 
