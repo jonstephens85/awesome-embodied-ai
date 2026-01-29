@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-01-28 22:17 UTC
+**Last updated:** 2026-01-29 16:43 UTC
 
-**Papers found:** 9
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Advancing Open-source World Models](https://arxiv.org/abs/2601.20540v1)
+
+**Authors:**  Robbyant Team, Zelin Gao, Qiuyu Wang, Yanhong Zeng, Jiapeng Zhu et al. (24 authors)
+
+**Published:** 2026-01-28 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.20540v1) | [PDF](https://arxiv.org/pdf/2601.20540v1.pdf) | [Project Page](https://technology.robbyant.com/lingbot-world) | [GitHub](https://github.com/robbyant/lingbot-world)
+
+<details>
+<summary>Abstract</summary>
+
+We present LingBot-World, an open-sourced world simulator stemming from video generation. Positioned as a top-tier world model, LingBot-World offers the following features. (1) It maintains high fidelity and robust dynamics in a broad spectrum of environments, including realism, scientific contexts, cartoon styles, and beyond. (2) It enables a minute-level horizon while preserving contextual consistency over time, which is also known as "long-term memory". (3) It supports real-time interactivity...
+
+</details>
+
+---
 
 ### [Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models](https://arxiv.org/abs/2601.19834v1)
 
@@ -47,6 +64,40 @@ While model-based reinforcement learning (MBRL) improves sample efficiency by le
 ---
 
 ## Other Recent Papers
+
+### [PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs](https://arxiv.org/abs/2601.20539v1)
+
+**Authors:** Oguzhan Gungordu, Siheng Xiong, Faramarz Fekri
+
+**Published:** 2026-01-28 | **Categories:** cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.20539v1) | [PDF](https://arxiv.org/pdf/2601.20539v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Large Language Models (LLMs) have enabled automated heuristic design (AHD) for combinatorial optimization problems (COPs), but existing frameworks' reliance on fixed evolutionary rules and static prompt templates often leads to myopic heuristic generation, redundant evaluations, and limited reasoning about how new heuristics should be derived. We propose a novel multi-agent reasoning framework, referred to as Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs (Pat...
+
+</details>
+
+---
+
+### [Distributional value gradients for stochastic environments](https://arxiv.org/abs/2601.20071v1)
+
+**Authors:** Baptiste Debes, Tinne Tuytelaars
+
+**Published:** 2026-01-27 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.20071v1) | [PDF](https://arxiv.org/pdf/2601.20071v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Gradient-regularized value learning methods improve sample efficiency by leveraging learned models of transition dynamics and rewards to estimate return gradients. However, existing approaches, such as MAGE, struggle in stochastic or noisy environments, limiting their applicability. In this work, we address these limitations by extending distributional reinforcement learning on continuous state-action spaces to model not only the distribution over scalar state-action value functions but also ove...
+
+</details>
+
+---
 
 ### [HARMONI: Multimodal Personalization of Multi-User Human-Robot Interactions with LLMs](https://arxiv.org/abs/2601.19839v1)
 
@@ -94,74 +145,6 @@ With the development of foundation model (FM), agentic AI systems are getting mo
 <summary>Abstract</summary>
 
 Scenes are continuously undergoing dynamic changes in the real world. However, existing human-scene interaction generation methods typically treat the scene as static, which deviates from reality. Inspired by world models, we introduce Dyn-HSI, the first cognitive architecture for dynamic human-scene interaction, which endows virtual humans with three humanoid components. (1)Vision (human eyes): we equip the virtual human with a Dynamic Scene-Aware Navigation, which continuously perceives change...
-
-</details>
-
----
-
-### [LLMs versus the Halting Problem: Revisiting Program Termination Prediction](https://arxiv.org/abs/2601.18987v1)
-
-**Authors:** Oren Sultan, Jordi Armengol-Estape, Pascal Kesseli, Julien Vanegue, Dafna Shahaf et al. (7 authors)
-
-**Published:** 2026-01-26 | **Categories:** cs.CL, cs.AI, cs.PL
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18987v1) | [PDF](https://arxiv.org/pdf/2601.18987v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Determining whether a program terminates is a central problem in computer science. Turing's foundational result established the Halting Problem as undecidable, showing that no algorithm can universally determine termination for all programs and inputs. Consequently, automatic verification tools approximate termination, sometimes failing to prove or disprove; these tools rely on problem-specific architectures and abstractions, and are usually tied to particular programming languages. Recent succe...
-
-</details>
-
----
-
-### [CASSANDRA: Programmatic and Probabilistic Learning and Inference for Stochastic World Modeling](https://arxiv.org/abs/2601.18620v1)
-
-**Authors:** Panagiotis Lymperopoulos, Abhiramon Rajasekharan, Ian Berlot-Attwell, Stéphane Aroca-Ouellette, Kaheer Suleman
-
-**Published:** 2026-01-26 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18620v1) | [PDF](https://arxiv.org/pdf/2601.18620v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Building world models is essential for planning in real-world domains such as businesses. Since such domains have rich semantics, we can leverage world knowledge to effectively model complex action effects and causal relationships from limited data. In this work, we propose CASSANDRA, a neurosymbolic world modeling approach that leverages an LLM as a knowledge prior to construct lightweight transition models for planning. CASSANDRA integrates two components: (1) LLM-synthesized code to model det...
-
-</details>
-
----
-
-### [TC-IDM: Grounding Video Generation for Executable Zero-shot Robot Motion](https://arxiv.org/abs/2601.18323v1)
-
-**Authors:** Weishi Mi, Yong Bao, Xiaowei Chi, Xiaozhu Ju, Zhiyuan Qin et al. (10 authors)
-
-**Published:** 2026-01-26 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18323v1) | [PDF](https://arxiv.org/pdf/2601.18323v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The vision-language-action (VLA) paradigm has enabled powerful robotic control by leveraging vision-language models, but its reliance on large-scale, high-quality robot data limits its generalization. Generative world models offer a promising alternative for general-purpose embodied AI, yet a critical gap remains between their pixel-level plans and physically executable actions. To this end, we propose the Tool-Centric Inverse Dynamics Model (TC-IDM). By focusing on the tool's imagined trajector...
-
-</details>
-
----
-
-### [Beyond Static Datasets: Robust Offline Policy Optimization via Vetted Synthetic Transitions](https://arxiv.org/abs/2601.18107v1)
-
-**Authors:** Pedram Agand, Mo Chen
-
-**Published:** 2026-01-26 | **Categories:** cs.LG, cs.HC, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18107v1) | [PDF](https://arxiv.org/pdf/2601.18107v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Offline Reinforcement Learning (ORL) holds immense promise for safety-critical domains like industrial robotics, where real-time environmental interaction is often prohibitive. A primary obstacle in ORL remains the distributional shift between the static dataset and the learned policy, which typically mandates high degrees of conservatism that can restrain potential policy improvements. We present MoReBRAC, a model-based framework that addresses this limitation through Uncertainty-Aware latent s...
 
 </details>
 

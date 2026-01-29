@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-01-28 22:18 UTC
+**Last updated:** 2026-01-29 16:44 UTC
 
 **Papers found:** 4
 
@@ -12,41 +12,58 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [Trustworthy Evaluation of Robotic Manipulation: A New Benchmark and AutoEval Methods](https://arxiv.org/abs/2601.18723v1)
+### [Demonstration-Free Robotic Control via LLM Agents](https://arxiv.org/abs/2601.20334v1)
 
-**Authors:** Mengyuan Liu, Juyi Sheng, Peiming Li, Ziyi Wang, Tianming Xu et al. (7 authors)
+**Authors:** Brian Y. Tsui, Alan Y. Fang, Tiffany J. Hwu
 
-**Published:** 2026-01-26 | **Categories:** cs.RO
+**Published:** 2026-01-28 | **Categories:** cs.RO, cs.AI, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2601.18723v1) | [PDF](https://arxiv.org/pdf/2601.18723v1.pdf) | [Project Page](https://term-bench.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Driven by the rapid evolution of Vision-Action and Vision-Language-Action models, imitation learning has significantly advanced robotic manipulation capabilities. However, evaluation methodologies have lagged behind, hindering the establishment of Trustworthy Evaluation for these behaviors. Current paradigms rely on binary success rates, failing to address the critical dimensions of trust: Source Authenticity (i.e., distinguishing genuine policy behaviors from human teleoperation) and Execution ...
-
-</details>
-
----
-
-### [A Pragmatic VLA Foundation Model](https://arxiv.org/abs/2601.18692v1)
-
-**Authors:** Wei Wu, Fan Lu, Yunnan Wang, Shuai Yang, Shi Liu et al. (25 authors)
-
-**Published:** 2026-01-26 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18692v1) | [PDF](https://arxiv.org/pdf/2601.18692v1.pdf) | [Project Page](https://technology.robbyant.com/lingbot-vla/) | [GitHub](https://github.com/Robbyant/lingbot-vla/)
+**Links:** [arXiv](https://arxiv.org/abs/2601.20334v1) | [PDF](https://arxiv.org/pdf/2601.20334v1.pdf) | [GitHub](https://github.com/robiemusketeer/faea-sim)
 
 <details>
 <summary>Abstract</summary>
 
-Offering great potential in robotic manipulation, a capable Vision-Language-Action (VLA) foundation model is expected to faithfully generalize across tasks and platforms while ensuring cost efficiency (e.g., data and GPU hours required for adaptation). To this end, we develop LingBot-VLA with around 20,000 hours of real-world data from 9 popular dual-arm robot configurations. Through a systematic assessment on 3 robotic platforms, each completing 100 tasks with 130 post-training episodes per tas...
+Robotic manipulation has increasingly adopted vision-language-action (VLA) models, which achieve strong performance but typically require task-specific demonstrations and fine-tuning, and often generalize poorly under domain shift. We investigate whether general-purpose large language model (LLM) agent frameworks, originally developed for software engineering, can serve as an alternative control paradigm for embodied manipulation. We introduce FAEA (Frontier Agent as Embodied Agent), which appli...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation](https://arxiv.org/abs/2601.20321v1)
+
+**Authors:** Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li et al. (8 authors)
+
+**Published:** 2026-01-28 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.20321v1) | [PDF](https://arxiv.org/pdf/2601.20321v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have recently emerged as powerful generalists for robotic manipulation. However, due to their predominant reliance on visual modalities, they fundamentally lack the physical intuition required for contact-rich tasks that require precise force regulation and physical reasoning. Existing attempts to incorporate vision-based tactile sensing into VLA models typically treat tactile inputs as auxiliary visual textures, thereby overlooking the underlying correlation ...
+
+</details>
+
+---
+
+### [Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262v1)
+
+**Authors:** Boseong Jeon, Yunho Choi, Taehan Kim
+
+**Published:** 2026-01-28 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2601.20262v1) | [PDF](https://arxiv.org/pdf/2601.20262v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The growing demand for real-time robotic deployment necessitates fast and on-device inference for vision-language-action (VLA) models. Within the VLA literature, efficiency has been extensively studied at the token level, such as visual token pruning. In contrast, systematic transformer layer reduction has received limited attention and, to the best of our knowledge, has not been explored for flow-based VLA models under knowledge distillation. In this work, we propose Shallow-pi, a principled kn...
+
+</details>
+
+---
 
 ### [AC^2-VLA: Action-Context-Aware Adaptive Computation in Vision-Language-Action Models for Efficient Robotic Manipulation](https://arxiv.org/abs/2601.19634v1)
 
@@ -60,23 +77,6 @@ Offering great potential in robotic manipulation, a capable Vision-Language-Acti
 <summary>Abstract</summary>
 
 Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet their closed-loop deployment is hindered by the high latency and compute cost of repeatedly running large vision-language backbones at every timestep. We observe that VLA inference exhibits structured redundancies across temporal, spatial, and depth dimensions, and that most existing efficiency methods ignore action context, despite its central role in embodied tasks. To address this gap, we pro...
-
-</details>
-
----
-
-### [TC-IDM: Grounding Video Generation for Executable Zero-shot Robot Motion](https://arxiv.org/abs/2601.18323v1)
-
-**Authors:** Weishi Mi, Yong Bao, Xiaowei Chi, Xiaozhu Ju, Zhiyuan Qin et al. (10 authors)
-
-**Published:** 2026-01-26 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.18323v1) | [PDF](https://arxiv.org/pdf/2601.18323v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The vision-language-action (VLA) paradigm has enabled powerful robotic control by leveraging vision-language models, but its reliance on large-scale, high-quality robot data limits its generalization. Generative world models offer a promising alternative for general-purpose embodied AI, yet a critical gap remains between their pixel-level plans and physically executable actions. To this end, we propose the Tool-Centric Inverse Dynamics Model (TC-IDM). By focusing on the tool's imagined trajector...
 
 </details>
 
