@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-01-30 22:15 UTC
+**Last updated:** 2026-01-31 16:28 UTC
 
-**Papers found:** 10
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -41,23 +41,6 @@ This work highlights that video world modeling, alongside vision-language pre-tr
 <summary>Abstract</summary>
 
 Recent advances in generative foundational models, often termed "world models," have propelled interest in applying them to critical tasks like robotic planning and autonomous system training. For reliable deployment, these models must exhibit high physical fidelity, accurately simulating real-world dynamics. Existing physics-based video benchmarks, however, suffer from entanglement, where a single test simultaneously evaluates multiple physical laws and concepts, fundamentally limiting their di...
-
-</details>
-
----
-
-### [Advancing Open-source World Models](https://arxiv.org/abs/2601.20540v1)
-
-**Authors:**  Robbyant Team, Zelin Gao, Qiuyu Wang, Yanhong Zeng, Jiapeng Zhu et al. (24 authors)
-
-**Published:** 2026-01-28 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.20540v1) | [PDF](https://arxiv.org/pdf/2601.20540v1.pdf) | [Project Page](https://technology.robbyant.com/lingbot-world) | [GitHub](https://github.com/robbyant/lingbot-world)
-
-<details>
-<summary>Abstract</summary>
-
-We present LingBot-World, an open-sourced world simulator stemming from video generation. Positioned as a top-tier world model, LingBot-World offers the following features. (1) It maintains high fidelity and robust dynamics in a broad spectrum of environments, including realism, scientific contexts, cartoon styles, and beyond. (2) It enables a minute-level horizon while preserving contextual consistency over time, which is also known as "long-term memory". (3) It supports real-time interactivity...
 
 </details>
 
@@ -162,23 +145,6 @@ End-to-end autonomous driving increasingly leverages self-supervised video pretr
 <summary>Abstract</summary>
 
 Reinforcement learning (RL) is widely used for humanoid control, with on-policy methods such as Proximal Policy Optimization (PPO) enabling robust training via large-scale parallel simulation and, in some cases, zero-shot deployment to real robots. However, the low sample efficiency of on-policy algorithms limits safe adaptation to new environments. Although off-policy RL and model-based RL have shown improved sample efficiency, the gap between large-scale pretraining and efficient finetuning on...
-
-</details>
-
----
-
-### [PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs](https://arxiv.org/abs/2601.20539v2)
-
-**Authors:** Oguzhan Gungordu, Siheng Xiong, Faramarz Fekri
-
-**Published:** 2026-01-28 | **Categories:** cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.20539v2) | [PDF](https://arxiv.org/pdf/2601.20539v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large Language Models (LLMs) have enabled automated heuristic design (AHD) for combinatorial optimization problems (COPs), but existing frameworks' reliance on fixed evolutionary rules and static prompt templates often leads to myopic heuristic generation, redundant evaluations, and limited reasoning about how new heuristics should be derived. We propose a novel multi-agent reasoning framework, referred to as Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs (Pat...
 
 </details>
 

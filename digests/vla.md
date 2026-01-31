@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-01-30 22:15 UTC
+**Last updated:** 2026-01-31 16:28 UTC
 
-**Papers found:** 9
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
@@ -41,23 +41,6 @@ Manipulating dynamic objects remains an open challenge for Vision-Language-Actio
 <summary>Abstract</summary>
 
 Scaling has powered recent advances in vision foundation models, yet extending this paradigm to metric depth estimation remains challenging due to heterogeneous sensor noise, camera-dependent biases, and metric ambiguity in noisy cross-source 3D data. We introduce Metric Anything, a simple and scalable pretraining framework that learns metric depth from noisy, diverse 3D sources without manually engineered prompts, camera-specific modeling, or task-specific architectures. Central to our approach...
-
-</details>
-
----
-
-### [Demonstration-Free Robotic Control via LLM Agents](https://arxiv.org/abs/2601.20334v1)
-
-**Authors:** Brian Y. Tsui, Alan Y. Fang, Tiffany J. Hwu
-
-**Published:** 2026-01-28 | **Categories:** cs.RO, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.20334v1) | [PDF](https://arxiv.org/pdf/2601.20334v1.pdf) | [GitHub](https://github.com/robiemusketeer/faea-sim)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation has increasingly adopted vision-language-action (VLA) models, which achieve strong performance but typically require task-specific demonstrations and fine-tuning, and often generalize poorly under domain shift. We investigate whether general-purpose large language model (LLM) agent frameworks, originally developed for software engineering, can serve as an alternative control paradigm for embodied manipulation. We introduce FAEA (Frontier Agent as Embodied Agent), which appli...
 
 </details>
 
@@ -128,40 +111,6 @@ While Vision-Language-Action (VLA) models have achieved remarkable success in gr
 <summary>Abstract</summary>
 
 Indoor mobile robot navigation requires fast responsiveness and robust semantic understanding, yet existing methods struggle to provide both. Classical geometric approaches such as SLAM offer reliable localization but depend on detailed maps and cannot interpret human-targeted cues (e.g., signs, room numbers) essential for indoor reasoning. Vision-Language-Action (VLA) models introduce semantic grounding but remain strictly reactive, basing decisions only on visible frames and failing to anticip...
-
-</details>
-
----
-
-### [Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation](https://arxiv.org/abs/2601.20321v1)
-
-**Authors:** Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li et al. (8 authors)
-
-**Published:** 2026-01-28 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.20321v1) | [PDF](https://arxiv.org/pdf/2601.20321v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have recently emerged as powerful generalists for robotic manipulation. However, due to their predominant reliance on visual modalities, they fundamentally lack the physical intuition required for contact-rich tasks that require precise force regulation and physical reasoning. Existing attempts to incorporate vision-based tactile sensing into VLA models typically treat tactile inputs as auxiliary visual textures, thereby overlooking the underlying correlation ...
-
-</details>
-
----
-
-### [Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/abs/2601.20262v1)
-
-**Authors:** Boseong Jeon, Yunho Choi, Taehan Kim
-
-**Published:** 2026-01-28 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2601.20262v1) | [PDF](https://arxiv.org/pdf/2601.20262v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The growing demand for real-time robotic deployment necessitates fast and on-device inference for vision-language-action (VLA) models. Within the VLA literature, efficiency has been extensively studied at the token level, such as visual token pruning. In contrast, systematic transformer layer reduction has received limited attention and, to the best of our knowledge, has not been explored for flow-based VLA models under knowledge distillation. In this work, we propose Shallow-pi, a principled kn...
 
 </details>
 
