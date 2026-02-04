@@ -2,15 +2,83 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-03 22:21 UTC
+**Last updated:** 2026-02-04 16:50 UTC
 
-**Papers found:** 15
+**Papers found:** 24
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks](https://arxiv.org/abs/2602.03793v1)
+
+**Authors:** Yixiang Chen, Peiyan Li, Jiabing Yang, Keji He, Xiangnan Wu et al. (11 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03793v1) | [PDF](https://arxiv.org/pdf/2602.03793v1.pdf) | [Project Page](at)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied world models have emerged as a promising paradigm in robotics, most of which leverage large-scale Internet videos or pretrained video generation models to enrich visual and motion priors. However, they still face key challenges: a misalignment between coordinate-space actions and pixel-space videos, sensitivity to camera viewpoint, and non-unified architectures across embodiments. To this end, we present BridgeV2W, which converts coordinate-space actions into pixel-aligned embodiment ma...
+
+</details>
+
+---
+
+### [A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2602.03604v1)
+
+**Authors:** Basile Terver, Randall Balestriero, Megi Dervishi, David Fan, Quentin Garrido et al. (11 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03604v1) | [PDF](https://arxiv.org/pdf/2602.03604v1.pdf) | [GitHub](https://github.com/facebookresearch/eb_jepa)
+
+<details>
+<summary>Abstract</summary>
+
+We present EB-JEPA, an open-source library for learning representations and world models using Joint-Embedding Predictive Architectures (JEPAs). JEPAs learn to predict in representation space rather than pixel space, avoiding the pitfalls of generative modeling while capturing semantically meaningful features suitable for downstream tasks. Our library provides modular, self-contained implementations that illustrate how representation learning techniques developed for image-level self-supervised ...
+
+</details>
+
+---
+
+### [InstaDrive: Instance-Aware Driving World Models for Realistic and Consistent Video Generation](https://arxiv.org/abs/2602.03242v1)
+
+**Authors:** Zhuoran Yang, Xi Guo, Chenjing Ding, Chiyu Wang, Wei Wu et al. (6 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03242v1) | [PDF](https://arxiv.org/pdf/2602.03242v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous driving relies on robust models trained on high-quality, large-scale multi-view driving videos. While world models offer a cost-effective solution for generating realistic driving videos, they struggle to maintain instance-level temporal consistency and spatial geometric fidelity. To address these challenges, we propose InstaDrive, a novel framework that enhances driving video realism through two key advancements: (1) Instance Flow Guider, which extracts and propagates instance featur...
+
+</details>
+
+---
+
+### [ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask](https://arxiv.org/abs/2602.03213v1)
+
+**Authors:** Zhuoran Yang, Yanyong Zhang
+
+**Published:** 2026-02-03 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03213v1) | [PDF](https://arxiv.org/pdf/2602.03213v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous driving relies on robust models trained on large-scale, high-quality multi-view driving videos. Although world models provide a cost-effective solution for generating realistic driving data, they often suffer from identity drift, where the same object changes its appearance or category across frames due to the absence of instance-level temporal constraints. We introduce ConsisDrive, an identity-preserving driving world model designed to enforce temporal consistency at the instance lev...
+
+</details>
+
+---
 
 ### [World-Gymnast: Training Robots with Reinforcement Learning in a World Model](https://arxiv.org/abs/2602.02454v1)
 
@@ -24,6 +92,23 @@ Papers on world models for robotics, video prediction, and simulation.
 <summary>Abstract</summary>
 
 Robot learning from interacting with the physical world is fundamentally bottlenecked by the cost of physical interaction. The two alternatives, supervised finetuning (SFT) from expert demonstrations and reinforcement learning (RL) in a software-based simulator, are limited by the amount of expert data available and the sim-to-real gap for manipulation. With the recent emergence of world models learned from real-world video-action data, we ask the question of whether training a policy in a world...
+
+</details>
+
+---
+
+### [Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory](https://arxiv.org/abs/2602.02393v2)
+
+**Authors:** Ruiqi Wu, Xuanhua He, Meng Cheng, Tianyu Yang, Yong Zhang et al. (11 authors)
+
+**Published:** 2026-02-02 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.02393v2) | [PDF](https://arxiv.org/pdf/2602.02393v2.pdf) | [Project Page](https://rq-wu.github.io/projects/infinite-world/index.html)
+
+<details>
+<summary>Abstract</summary>
+
+We propose Infinite-World, a robust interactive world model capable of maintaining coherent visual memory over 1000+ frames in complex real-world environments. While existing world models can be efficiently optimized on synthetic data with perfect ground-truth, they lack an effective training paradigm for real-world videos due to noisy pose estimations and the scarcity of viewpoint revisits. To bridge this gap, we first introduce a Hierarchical Pose-free Memory Compressor (HPMC) that recursively...
 
 </details>
 
@@ -63,13 +148,13 @@ Autoregressive video diffusion models enable streaming generation, opening the d
 
 ---
 
-### [DDP-WM: Disentangled Dynamics Prediction for Efficient World Models](https://arxiv.org/abs/2602.01780v1)
+### [DDP-WM: Disentangled Dynamics Prediction for Efficient World Models](https://arxiv.org/abs/2602.01780v2)
 
 **Authors:** Shicheng Yin, Kaixuan Yin, Weixing Chen, Yang Liu, Guanbin Li et al. (6 authors)
 
 **Published:** 2026-02-02 | **Categories:** cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.01780v1) | [PDF](https://arxiv.org/pdf/2602.01780v1.pdf) | [GitHub](https://github.com/HCPLabSYSU/DDP-WM)
+**Links:** [arXiv](https://arxiv.org/abs/2602.01780v2) | [PDF](https://arxiv.org/pdf/2602.01780v2.pdf) | [GitHub](https://github.com/HCPLab-SYSU/DDP-WM)
 
 <details>
 <summary>Abstract</summary>
@@ -99,18 +184,103 @@ Achieving reliable and efficient planning in complex driving environments requir
 
 ## Other Recent Papers
 
-### [Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory](https://arxiv.org/abs/2602.02393v1)
+### [LIVE: Long-horizon Interactive Video World Modeling](https://arxiv.org/abs/2602.03747v1)
 
-**Authors:** Ruiqi Wu, Xuanhua He, Meng Cheng, Tianyu Yang, Yong Zhang et al. (11 authors)
+**Authors:** Junchao Huang, Ziyang Ye, Xinting Hu, Tianyu He, Guiyu Zhang et al. (8 authors)
 
-**Published:** 2026-02-02 | **Categories:** cs.CV, cs.AI
+**Published:** 2026-02-03 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.02393v1) | [PDF](https://arxiv.org/pdf/2602.02393v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2602.03747v1) | [PDF](https://arxiv.org/pdf/2602.03747v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-We propose Infinite-World, a robust interactive world model capable of maintaining coherent visual memory over 1000+ frames in complex real-world environments. While existing world models can be efficiently optimized on synthetic data with perfect ground-truth, they lack an effective training paradigm for real-world videos due to noisy pose estimations and the scarcity of viewpoint revisits. To bridge this gap, we first introduce a Hierarchical Pose-free Memory Compressor (HPMC) that recursively...
+Autoregressive video world models predict future visual observations conditioned on actions. While effective over short horizons, these models often struggle with long-horizon generation, as small prediction errors accumulate over time. Prior methods alleviate this by introducing pre-trained teacher models and sequence-level distribution matching, which incur additional computational cost and fail to prevent error propagation beyond the training horizon. In this work, we propose LIVE, a Long-hor...
+
+</details>
+
+---
+
+### [EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories](https://arxiv.org/abs/2602.03569v1)
+
+**Authors:** Linjie Mu, Zhongzhen Huang, Yannian Gu, Shengqian Qin, Shaoting Zhang et al. (6 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03569v1) | [PDF](https://arxiv.org/pdf/2602.03569v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models offer a principled framework for simulating future states under interventions, but realizing such models in complex, high-stakes domains like medicine remains challenging. Recent large language models (LLMs) have achieved strong performance on static medical reasoning tasks, raising the question of whether they can function as dynamic medical world models capable of simulating disease progression and treatment outcomes over time. In this work, we show that LLMs only incorporating me...
+
+</details>
+
+---
+
+### [A Minimal Task Reveals Emergent Path Integration and Object-Location Binding in a Predictive Sequence Model](https://arxiv.org/abs/2602.03490v1)
+
+**Authors:** Linda Ariel Ventura, Victoria Bosch, Tim C Kietzmann, Sushrut Thorat
+
+**Published:** 2026-02-03 | **Categories:** cs.LG, q-bio.NC
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03490v1) | [PDF](https://arxiv.org/pdf/2602.03490v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Adaptive cognition requires structured internal models representing objects and their relations. Predictive neural networks are often proposed to form such "world models", yet their underlying mechanisms remain unclear. One hypothesis is that action-conditioned sequential prediction suffices for learning such world models. In this work, we investigate this possibility in a minimal in-silico setting. Sequentially sampling tokens from 2D continuous token scenes, a recurrent neural network is train...
+
+</details>
+
+---
+
+### [General Agents Contain World Models, even under Partial Observability and Stochasticity](https://arxiv.org/abs/2602.03146v1)
+
+**Authors:** Santiago Cifuentes
+
+**Published:** 2026-02-03 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03146v1) | [PDF](https://arxiv.org/pdf/2602.03146v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Deciding whether an agent possesses a model of its surrounding world is a fundamental step toward understanding its capabilities and limitations. In [10], it was shown that, within a particular framework, every almost optimal and general agent necessarily contains sufficient knowledge of its environment to allow an approximate reconstruction of it by querying the agent as a black box. This result relied on the assumptions that the agent is deterministic and that the environment is fully observab...
+
+</details>
+
+---
+
+### [Latent Perspective-Taking via a Schrödinger Bridge in Influence-Augmented Local Models](https://arxiv.org/abs/2602.02857v1)
+
+**Authors:** Kevin Alcedo, Pedro U. Lima, Rachid Alami
+
+**Published:** 2026-02-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.02857v1) | [PDF](https://arxiv.org/pdf/2602.02857v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Operating in environments alongside humans requires robots to make decisions under uncertainty. In addition to exogenous dynamics, they must reason over others' hidden mental-models and mental-states. While Interactive POMDPs and Bayesian Theory of Mind formulations are principled, exact nested-belief inference is intractable, and hand-specified models are brittle in open-world settings. We address both by learning structured mental-models and an estimator of others' mental-states. Building on t...
+
+</details>
+
+---
+
+### [Joint Learning of Hierarchical Neural Options and Abstract World Model](https://arxiv.org/abs/2602.02799v1)
+
+**Authors:** Wasu Top Piriyakulkij, Wolfgang Lehrach, Kevin Ellis, Kevin Murphy
+
+**Published:** 2026-02-02 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.02799v1) | [PDF](https://arxiv.org/pdf/2602.02799v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Building agents that can perform new skills by composing existing skills is a long-standing goal of AI agent research. Towards this end, we investigate how to efficiently acquire a sequence of skills, formalized as hierarchical neural options. However, existing model-free hierarchical reinforcement algorithms need a lot of data. We propose a novel method, which we call AgentOWL (Option and World model Learning Agent), that jointly learns -- in a sample efficient way -- an abstract world model (a...
 
 </details>
 
@@ -247,23 +417,6 @@ World models have emerged as a critical frontier in AI research, aiming to enhan
 <summary>Abstract</summary>
 
 Mobile Graphical User Interface (GUI) World Models (WMs) offer a promising path for improving mobile GUI agent performance at train- and inference-time. However, current approaches face a critical trade-off: text-based WMs sacrifice visual fidelity, while the inability of visual WMs in precise text rendering led to their reliance on slow, complex pipelines dependent on numerous external models. We propose a novel paradigm: visual world modeling via renderable code generation, where a single Visi...
-
-</details>
-
----
-
-### [Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics](https://arxiv.org/abs/2602.01270v1)
-
-**Authors:** Boxuan Zhang, Weipu Zhang, Zhaohan Feng, Wei Xiao, Jian Sun et al. (7 authors)
-
-**Published:** 2026-02-01 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.01270v1) | [PDF](https://arxiv.org/pdf/2602.01270v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A fundamental challenge in multi-task reinforcement learning (MTRL) is achieving sample efficiency in visual domains where tasks exhibit substantial heterogeneity in both observations and dynamics. Model-based reinforcement learning offers a promising path to improved sample efficiency through world models, but standard monolithic architectures struggle to capture diverse task dynamics, resulting in poor reconstruction and prediction accuracy. We introduce Mixture-of-World Models (MoW), a scalab...
 
 </details>
 

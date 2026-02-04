@@ -2,15 +2,32 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-03 22:21 UTC
+**Last updated:** 2026-02-04 16:50 UTC
 
-**Papers found:** 10
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization](https://arxiv.org/abs/2602.03310v1)
+
+**Authors:** Songming Liu, Bangguo Li, Kai Ma, Lingxuan Wu, Hengkai Tan et al. (8 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03310v1) | [PDF](https://arxiv.org/pdf/2602.03310v1.pdf) | [Project Page](https://rdt-robotics.github.io/rdt2/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models hold promise for generalist robotics but currently struggle with data scarcity, architectural inefficiencies, and the inability to generalize across different hardware platforms. We introduce RDT2, a robotic foundation model built upon a 7B parameter VLM designed to enable zero-shot deployment on novel embodiments for open-vocabulary tasks. To achieve this, we collected one of the largest open-source robotic datasets--over 10,000 hours of demonstrations in div...
+
+</details>
+
+---
 
 ### [TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments](https://arxiv.org/abs/2602.02459v1)
 
@@ -46,24 +63,75 @@ Robot learning from interacting with the physical world is fundamentally bottlen
 
 ---
 
-### [Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models](https://arxiv.org/abs/2602.01166v1)
+## Other Recent Papers
 
-**Authors:** Shuanghao Bai, Jing Lyu, Wanqi Zhou, Zhe Li, Dakai Wang et al. (12 authors)
+### [QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization](https://arxiv.org/abs/2602.03782v1)
 
-**Published:** 2026-02-01 | **Categories:** cs.RO
+**Authors:** Yuhao Xu, Yantai Yang, Zhenyang Fan, Yufan Liu, Yuming Li et al. (7 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.01166v1) | [PDF](https://arxiv.org/pdf/2602.01166v1.pdf) | [Project Page](\href{https://loveju1y.github.io/Latent-Reasoning-VLA/}{LaRA-VLA)
+**Published:** 2026-02-03 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03782v1) | [PDF](https://arxiv.org/pdf/2602.03782v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models benefit from chain-of-thought (CoT) reasoning, but existing approaches incur high inference overhead and rely on discrete reasoning representations that mismatch continuous perception and control. We propose Latent Reasoning VLA (\textbf{LaRA-VLA}), a unified VLA framework that internalizes multi-modal CoT reasoning into continuous latent representations for embodied action. LaRA-VLA performs unified reasoning and prediction in latent space, eliminating explic...
+The advent of Vision-Language-Action (VLA) models represents a significant leap for embodied intelligence, yet their immense computational demands critically hinder deployment on resource-constrained robotic platforms. Intuitively, low-bit quantization is a prevalent and preferred technique for large-scale model compression. However, we find that a systematic analysis of VLA model's quantization is fundamentally lacking. We argue that naively applying uniform-bit quantization from Large Language...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [MVP-LAM: Learning Action-Centric Latent Action via Cross-Viewpoint Reconstruction](https://arxiv.org/abs/2602.03668v1)
+
+**Authors:** Jung Min Lee, Dohyeok Lee, Seokhun Ju, Taehyun Cho, Jin Woo Koo et al. (8 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03668v1) | [PDF](https://arxiv.org/pdf/2602.03668v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Learning \emph{latent actions} from diverse human videos enables scaling robot learning beyond embodiment-specific robot datasets, and these latent actions have recently been used as pseudo-action labels for vision-language-action (VLA) model pretraining. To make VLA pretraining effective, latent actions should contain information about the underlying agent's actions despite the absence of ground-truth labels. We propose \textbf{M}ulti-\textbf{V}iew\textbf{P}oint \textbf{L}atent \textbf{A}ction ...
+
+</details>
+
+---
+
+### [CRL-VLA: Continual Vision-Language-Action Learning](https://arxiv.org/abs/2602.03445v1)
+
+**Authors:** Qixin Zeng, Shuo Zhang, Hongyin Zhang, Renjie Wang, Han Zhao et al. (9 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.AI, cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03445v1) | [PDF](https://arxiv.org/pdf/2602.03445v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Lifelong learning is critical for embodied agents in open-world environments, where reinforcement learning fine-tuning has emerged as an important paradigm to enable Vision-Language-Action (VLA) models to master dexterous manipulation through environmental interaction. Thus, Continual Reinforcement Learning (CRL) is a promising pathway for deploying VLA models in lifelong robotic scenarios, yet balancing stability (retaining old skills) and plasticity (learning new ones) remains a formidable cha...
+
+</details>
+
+---
+
+### [When Attention Betrays: Erasing Backdoor Attacks in Robotic Policies by Reconstructing Visual Tokens](https://arxiv.org/abs/2602.03153v1)
+
+**Authors:** Xuetao Li, Pinhan Fu, Wenke Huang, Nengyuan Pan, Songhua Yang et al. (10 authors)
+
+**Published:** 2026-02-03 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.03153v1) | [PDF](https://arxiv.org/pdf/2602.03153v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Downstream fine-tuning of vision-language-action (VLA) models enhances robotics, yet exposes the pipeline to backdoor risks. Attackers can pretrain VLAs on poisoned data to implant backdoors that remain stealthy but can trigger harmful behavior during inference. However, existing defenses either lack mechanistic insight into multimodal backdoors or impose prohibitive computational costs via full-model retraining. To this end, we uncover a deep-layer attention grabbing mechanism: backdoors redire...
+
+</details>
+
+---
 
 ### [MAIN-VLA: Modeling Abstraction of Intention and eNvironment for Vision-Language-Action Models](https://arxiv.org/abs/2602.02212v1)
 
@@ -133,52 +201,18 @@ While vision-language-action (VLA) models for embodied agents integrate percepti
 
 ---
 
-### [Improving Robustness of Vision-Language-Action Models by Restoring Corrupted Visual Inputs](https://arxiv.org/abs/2602.01158v1)
+### [Accelerating Structured Chain-of-Thought in Autonomous Vehicles](https://arxiv.org/abs/2602.02864v1)
 
-**Authors:** Daniel Yezid Guarnizo Orjuela, Leonardo Scappatura, Veronica Di Gennaro, Riccardo Andrea Izzo, Gianluca Bardaro et al. (6 authors)
+**Authors:** Yi Gu, Yan Wang, Yuxiao Chen, Yurong You, Wenjie Luo et al. (11 authors)
 
-**Published:** 2026-02-01 | **Categories:** cs.CV, cs.RO
+**Published:** 2026-02-02 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.01158v1) | [PDF](https://arxiv.org/pdf/2602.01158v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have emerged as a dominant paradigm for generalist robotic manipulation, unifying perception and control within a single end-to-end architecture. However, despite their success in controlled environments, reliable real-world deployment is severely hindered by their fragility to visual disturbances. While existing literature extensively addresses physical occlusions caused by scene geometry, a critical mode remains largely unexplored: image corruptions. These s...
-
-</details>
-
----
-
-### [StreamVLA: Breaking the Reason-Act Cycle via Completion-State Gating](https://arxiv.org/abs/2602.01100v1)
-
-**Authors:** Hang Wu, Tongqing Chen, Jiasen Wang, Xiaotao Li, Lu Fang
-
-**Published:** 2026-02-01 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.01100v1) | [PDF](https://arxiv.org/pdf/2602.01100v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2602.02864v1) | [PDF](https://arxiv.org/pdf/2602.02864v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Long-horizon robotic manipulation requires bridging the gap between high-level planning (System 2) and low-level control (System 1). Current Vision-Language-Action (VLA) models often entangle these processes, performing redundant multimodal reasoning at every timestep, which leads to high latency and goal instability. To address this, we present StreamVLA, a dual-system architecture that unifies textual task decomposition, visual goal imagination, and continuous action generation within a single...
-
-</details>
-
----
-
-### [A Systematic Study of Data Modalities and Strategies for Co-training Large Behavior Models for Robot Manipulation](https://arxiv.org/abs/2602.01067v1)
-
-**Authors:** Fanqi Lin, Kushal Arora, Jean Mercat, Haruki Nishimura, Paarth Shah et al. (12 authors)
-
-**Published:** 2026-02-01 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.01067v1) | [PDF](https://arxiv.org/pdf/2602.01067v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large behavior models have shown strong dexterous manipulation capabilities by extending imitation learning to large-scale training on multi-task robot data, yet their generalization remains limited by the insufficient robot data coverage. To expand this coverage without costly additional data collection, recent work relies on co-training: jointly learning from target robot data and heterogeneous data modalities. However, how different co-training data modalities and strategies affect policy per...
+Chain-of-Thought (CoT) reasoning enhances the decision-making capabilities of vision-language-action models in autonomous driving, but its autoregressive nature introduces significant inference latency, making it impractical for real-time applications. To address this, we introduce FastDriveCoT, a novel parallel decoding method that accelerates template-structured CoT. Our approach decomposes the reasoning process into a dependency graph of distinct sub-tasks, such as identifying critical object...
 
 </details>
 
