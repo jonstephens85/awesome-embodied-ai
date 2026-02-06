@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-06 16:44 UTC
+**Last updated:** 2026-02-06 22:14 UTC
 
 **Papers found:** 6
 
