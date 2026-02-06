@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-05 22:18 UTC
+**Last updated:** 2026-02-06 16:44 UTC
 
-**Papers found:** 11
+**Papers found:** 10
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Benchmarking Affordance Generalization with BusyBox](https://arxiv.org/abs/2602.05441v1)
+
+**Authors:** Dean Fortier, Timothy Adamson, Tess Hellebrekers, Teresa LaScala, Kofi Ennin et al. (8 authors)
+
+**Published:** 2026-02-05 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.05441v1) | [PDF](https://arxiv.org/pdf/2602.05441v1.pdf) | [Project Page](https://microsoft.github.io/BusyBox)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have been attracting the attention of researchers and practitioners thanks to their promise of generalization. Although single-task policies still offer competitive performance, VLAs are increasingly able to handle commands and environments unseen in their training set. While generalization in vision and language space is undoubtedly important for robust versatile behaviors, a key meta-skill VLAs need to possess is affordance generalization -- the ability to m...
+
+</details>
+
+---
+
+### [VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models](https://arxiv.org/abs/2602.05049v1)
+
+**Authors:** Yiye Chen, Yanan Jian, Xiaoyi Dong, Shuxin Cao, Jing Wu et al. (8 authors)
+
+**Published:** 2026-02-04 | **Categories:** cs.CV, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.05049v1) | [PDF](https://arxiv.org/pdf/2602.05049v1.pdf) | [Project Page](https://vista-vla.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have demonstrated strong performance across a wide range of robotic manipulation tasks. Despite the success, extending large pretrained Vision-Language Models (VLMs) to the action space can induce vision-action misalignment, where action predictions exhibit weak dependence on the current visual state, leading to unreliable action outputs. In this work, we study VLA models through the lens of visual conditioning and empirically show that successful rollouts con...
+
+</details>
+
+---
 
 ### [GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning](https://arxiv.org/abs/2602.04315v1)
 
@@ -63,24 +97,58 @@ Instruction-grounded driving, where passenger language guides trajectory plannin
 
 ---
 
-### [RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization](https://arxiv.org/abs/2602.03310v1)
+## Other Recent Papers
 
-**Authors:** Songming Liu, Bangguo Li, Kai Ma, Lingxuan Wu, Hengkai Tan et al. (8 authors)
+### [RL-VLA$^3$: Reinforcement Learning VLA Accelerating via Full Asynchronism](https://arxiv.org/abs/2602.05765v1)
 
-**Published:** 2026-02-03 | **Categories:** cs.RO, cs.AI, cs.CV
+**Authors:** Zhong Guan, Haoran Sun, Yongjian Guo, Shuai Di, Xiaodong Bai et al. (21 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.03310v1) | [PDF](https://arxiv.org/pdf/2602.03310v1.pdf) | [Project Page](https://rdt-robotics.github.io/rdt2/)
+**Published:** 2026-02-05 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.05765v1) | [PDF](https://arxiv.org/pdf/2602.05765v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models hold promise for generalist robotics but currently struggle with data scarcity, architectural inefficiencies, and the inability to generalize across different hardware platforms. We introduce RDT2, a robotic foundation model built upon a 7B parameter VLM designed to enable zero-shot deployment on novel embodiments for open-vocabulary tasks. To achieve this, we collected one of the largest open-source robotic datasets--over 10,000 hours of demonstrations in div...
+In recent years, Vision-Language-Action (VLA) models have emerged as a crucial pathway towards general embodied intelligence, yet their training efficiency has become a key bottleneck. Although existing reinforcement learning (RL)-based training frameworks like RLinf can enhance model generalization, they still rely on synchronous execution, leading to severe resource underutilization and throughput limitations during environment interaction, policy generation (rollout), and model update phases ...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [RoboPaint: From Human Demonstration to Any Robot and Any View](https://arxiv.org/abs/2602.05325v1)
+
+**Authors:** Jiacheng Fan, Zhiyue Zhao, Yiqian Zhang, Chao Chen, Peide Wang et al. (7 authors)
+
+**Published:** 2026-02-05 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.05325v1) | [PDF](https://arxiv.org/pdf/2602.05325v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Acquiring large-scale, high-fidelity robot demonstration data remains a critical bottleneck for scaling Vision-Language-Action (VLA) models in dexterous manipulation. We propose a Real-Sim-Real data collection and data editing pipeline that transforms human demonstrations into robot-executable, environment-specific training data without direct robot teleoperation. Standardized data collection rooms are built to capture multimodal human demonstrations (synchronized 3 RGB-D videos, 11 RGB videos, ...
+
+</details>
+
+---
+
+### [MobileManiBench: Simplifying Model Verification for Mobile Manipulation](https://arxiv.org/abs/2602.05233v1)
+
+**Authors:** Wenbo Wang, Fangyun Wei, QiXiu Li, Xi Chen, Yaobo Liang et al. (8 authors)
+
+**Published:** 2026-02-05 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.05233v1) | [PDF](https://arxiv.org/pdf/2602.05233v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models have advanced robotic manipulation but remain constrained by reliance on the large, teleoperation-collected datasets dominated by the static, tabletop scenes. We propose a simulation-first framework to verify VLA architectures before real-world deployment and introduce MobileManiBench, a large-scale benchmark for mobile-based robotic manipulation. Built on NVIDIA Isaac Sim and powered by reinforcement learning, our pipeline autonomously generates diverse manipulatio...
+
+</details>
+
+---
 
 ### [Act, Sense, Act: Learning Non-Markovian Active Perception Strategies from Large-Scale Egocentric Human Data](https://arxiv.org/abs/2602.04600v1)
 
@@ -111,91 +179,6 @@ Achieving generalizable manipulation in unconstrained environments requires the 
 <summary>Abstract</summary>
 
 Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic control, with test-time scaling (TTS) gaining attention to enhance robustness beyond training. However, existing TTS methods for VLAs require additional training, verifiers, and multiple forward passes, making them impractical for deployment. Moreover, they intervene only at action decoding while keeping visual representations fixed-insufficient under perceptual ambiguity, where reconsidering how...
-
-</details>
-
----
-
-### [Efficient Long-Horizon Vision-Language-Action Models via Static-Dynamic Disentanglement](https://arxiv.org/abs/2602.03983v1)
-
-**Authors:** Weikang Qiu, Tinglin Huang, Aosong Feng, Rex Ying
-
-**Published:** 2026-02-03 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03983v1) | [PDF](https://arxiv.org/pdf/2602.03983v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for generalist robotic control. Built upon vision-language model (VLM) architectures, VLAs predict actions conditioned on visual observations and language instructions, achieving strong performance and generalization across tasks. However, VLAs face two major challenges: limited long-horizon context and inefficient inference due to the quadratic attention complexity and large parameter counts. Our work is motivated...
-
-</details>
-
----
-
-### [QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization](https://arxiv.org/abs/2602.03782v1)
-
-**Authors:** Yuhao Xu, Yantai Yang, Zhenyang Fan, Yufan Liu, Yuming Li et al. (7 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03782v1) | [PDF](https://arxiv.org/pdf/2602.03782v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The advent of Vision-Language-Action (VLA) models represents a significant leap for embodied intelligence, yet their immense computational demands critically hinder deployment on resource-constrained robotic platforms. Intuitively, low-bit quantization is a prevalent and preferred technique for large-scale model compression. However, we find that a systematic analysis of VLA model's quantization is fundamentally lacking. We argue that naively applying uniform-bit quantization from Large Language...
-
-</details>
-
----
-
-### [MVP-LAM: Learning Action-Centric Latent Action via Cross-Viewpoint Reconstruction](https://arxiv.org/abs/2602.03668v1)
-
-**Authors:** Jung Min Lee, Dohyeok Lee, Seokhun Ju, Taehyun Cho, Jin Woo Koo et al. (8 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03668v1) | [PDF](https://arxiv.org/pdf/2602.03668v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learning \emph{latent actions} from diverse human videos enables scaling robot learning beyond embodiment-specific robot datasets, and these latent actions have recently been used as pseudo-action labels for vision-language-action (VLA) model pretraining. To make VLA pretraining effective, latent actions should contain information about the underlying agent's actions despite the absence of ground-truth labels. We propose \textbf{M}ulti-\textbf{V}iew\textbf{P}oint \textbf{L}atent \textbf{A}ction ...
-
-</details>
-
----
-
-### [CRL-VLA: Continual Vision-Language-Action Learning](https://arxiv.org/abs/2602.03445v1)
-
-**Authors:** Qixin Zeng, Shuo Zhang, Hongyin Zhang, Renjie Wang, Han Zhao et al. (9 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.AI, cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03445v1) | [PDF](https://arxiv.org/pdf/2602.03445v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Lifelong learning is critical for embodied agents in open-world environments, where reinforcement learning fine-tuning has emerged as an important paradigm to enable Vision-Language-Action (VLA) models to master dexterous manipulation through environmental interaction. Thus, Continual Reinforcement Learning (CRL) is a promising pathway for deploying VLA models in lifelong robotic scenarios, yet balancing stability (retaining old skills) and plasticity (learning new ones) remains a formidable cha...
-
-</details>
-
----
-
-### [When Attention Betrays: Erasing Backdoor Attacks in Robotic Policies by Reconstructing Visual Tokens](https://arxiv.org/abs/2602.03153v1)
-
-**Authors:** Xuetao Li, Pinhan Fu, Wenke Huang, Nengyuan Pan, Songhua Yang et al. (10 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03153v1) | [PDF](https://arxiv.org/pdf/2602.03153v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Downstream fine-tuning of vision-language-action (VLA) models enhances robotics, yet exposes the pipeline to backdoor risks. Attackers can pretrain VLAs on poisoned data to implant backdoors that remain stealthy but can trigger harmful behavior during inference. However, existing defenses either lack mechanistic insight into multimodal backdoors or impose prohibitive computational costs via full-model retraining. To this end, we uncover a deep-layer attention grabbing mechanism: backdoors redire...
 
 </details>
 

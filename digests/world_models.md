@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-05 22:17 UTC
+**Last updated:** 2026-02-06 16:44 UTC
 
-**Papers found:** 12
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
@@ -12,75 +12,58 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks](https://arxiv.org/abs/2602.03793v1)
+### [Verification of the Implicit World Model in a Generative Model via Adversarial Sequences](https://arxiv.org/abs/2602.05903v1)
 
-**Authors:** Yixiang Chen, Peiyan Li, Jiabing Yang, Keji He, Xiangnan Wu et al. (11 authors)
+**Authors:** András Balogh, Márk Jelasity
 
-**Published:** 2026-02-03 | **Categories:** cs.RO, cs.CV
+**Published:** 2026-02-05 | **Categories:** cs.LG, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.03793v1) | [PDF](https://arxiv.org/pdf/2602.03793v1.pdf) | [Project Page](at)
+**Links:** [arXiv](https://arxiv.org/abs/2602.05903v1) | [PDF](https://arxiv.org/pdf/2602.05903v1.pdf) | [GitHub](https://github.com/szegedai/world-model-verification)
 
 <details>
 <summary>Abstract</summary>
 
-Embodied world models have emerged as a promising paradigm in robotics, most of which leverage large-scale Internet videos or pretrained video generation models to enrich visual and motion priors. However, they still face key challenges: a misalignment between coordinate-space actions and pixel-space videos, sensitivity to camera viewpoint, and non-unified architectures across embodiments. To this end, we present BridgeV2W, which converts coordinate-space actions into pixel-aligned embodiment ma...
+Generative sequence models are typically trained on sample sequences from natural or formal languages. It is a crucial question whether -- or to what extent -- sample-based training is able to capture the true structure of these languages, often referred to as the ``world model''. Theoretical results indicate that we can hope for soundness at best, that is, generating valid sequences, but not necessarily all of them. However, it is still important to have practical tools that are able to verify ...
 
 </details>
 
 ---
 
-### [A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2602.03604v1)
+### [PIRATR: Parametric Object Inference for Robotic Applications with Transformers in 3D Point Clouds](https://arxiv.org/abs/2602.05557v1)
 
-**Authors:** Basile Terver, Randall Balestriero, Megi Dervishi, David Fan, Quentin Garrido et al. (11 authors)
+**Authors:** Michael Schwingshackl, Fabio F. Oberweger, Mario Niedermeyer, Huemer Johannes, Markus Murschitz
 
-**Published:** 2026-02-03 | **Categories:** cs.CV, cs.AI
+**Published:** 2026-02-05 | **Categories:** cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.03604v1) | [PDF](https://arxiv.org/pdf/2602.03604v1.pdf) | [GitHub](https://github.com/facebookresearch/eb_jepa)
-
-<details>
-<summary>Abstract</summary>
-
-We present EB-JEPA, an open-source library for learning representations and world models using Joint-Embedding Predictive Architectures (JEPAs). JEPAs learn to predict in representation space rather than pixel space, avoiding the pitfalls of generative modeling while capturing semantically meaningful features suitable for downstream tasks. Our library provides modular, self-contained implementations that illustrate how representation learning techniques developed for image-level self-supervised ...
-
-</details>
-
----
-
-### [InstaDrive: Instance-Aware Driving World Models for Realistic and Consistent Video Generation](https://arxiv.org/abs/2602.03242v1)
-
-**Authors:** Zhuoran Yang, Xi Guo, Chenjing Ding, Chiyu Wang, Wei Wu et al. (6 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03242v1) | [PDF](https://arxiv.org/pdf/2602.03242v1.pdf) | [Project Page](is)
+**Links:** [arXiv](https://arxiv.org/abs/2602.05557v1) | [PDF](https://arxiv.org/pdf/2602.05557v1.pdf) | [GitHub](https://github.com/swingaxe/piratr)
 
 <details>
 <summary>Abstract</summary>
 
-Autonomous driving relies on robust models trained on high-quality, large-scale multi-view driving videos. While world models offer a cost-effective solution for generating realistic driving videos, they struggle to maintain instance-level temporal consistency and spatial geometric fidelity. To address these challenges, we propose InstaDrive, a novel framework that enhances driving video realism through two key advancements: (1) Instance Flow Guider, which extracts and propagates instance featur...
-
-</details>
-
----
-
-### [ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask](https://arxiv.org/abs/2602.03213v1)
-
-**Authors:** Zhuoran Yang, Yanyong Zhang
-
-**Published:** 2026-02-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03213v1) | [PDF](https://arxiv.org/pdf/2602.03213v1.pdf) | [Project Page](is)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous driving relies on robust models trained on large-scale, high-quality multi-view driving videos. Although world models provide a cost-effective solution for generating realistic driving data, they often suffer from identity drift, where the same object changes its appearance or category across frames due to the absence of instance-level temporal constraints. We introduce ConsisDrive, an identity-preserving driving world model designed to enforce temporal consistency at the instance lev...
+We present PIRATR, an end-to-end 3D object detection framework for robotic use cases in point clouds. Extending PI3DETR, our method streamlines parametric 3D object detection by jointly estimating multi-class 6-DoF poses and class-specific parametric attributes directly from occlusion-affected point cloud data. This formulation enables not only geometric localization but also the estimation of task-relevant properties for parametric objects, such as a gripper's opening, where the 3D model is adj...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Visuo-Tactile World Models](https://arxiv.org/abs/2602.06001v1)
+
+**Authors:** Carolina Higuera, Sergio Arnaud, Byron Boots, Mustafa Mukadam, Francois Robert Hogan et al. (6 authors)
+
+**Published:** 2026-02-05 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.06001v1) | [PDF](https://arxiv.org/pdf/2602.06001v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce multi-task Visuo-Tactile World Models (VT-WM), which capture the physics of contact through touch reasoning. By complementing vision with tactile sensing, VT-WM better understands robot-object interactions in contact-rich tasks, avoiding common failure modes of vision-only models under occlusion or ambiguous contact states, such as objects disappearing, teleporting, or moving in ways that violate basic physics. Trained across a set of contact-rich manipulation tasks, VT-WM improves ...
+
+</details>
+
+---
 
 ### [Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning](https://arxiv.org/abs/2602.04821v1)
 
@@ -128,91 +111,6 @@ Emerging networked systems such as industrial IoT and real-time cyber-physical i
 <summary>Abstract</summary>
 
 Though large language models (LLMs) have enabled great success across a wide variety of tasks, they still appear to fall short of one of the loftier goals of artificial intelligence research: creating an artificial system that can adapt its behavior to radically new contexts upon deployment. One important step towards this goal is to create systems that can induce rich representations of data that are seen in-context, and then flexibly deploy these representations to accomplish goals. Recently, ...
-
-</details>
-
----
-
-### [Active Epistemic Control for Query-Efficient Verified Planning](https://arxiv.org/abs/2602.03974v1)
-
-**Authors:** Shuhui Qu
-
-**Published:** 2026-02-03 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03974v1) | [PDF](https://arxiv.org/pdf/2602.03974v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Planning in interactive environments is challenging under partial observability: task-critical preconditions (e.g., object locations or container states) may be unknown at decision time, yet grounding them through interaction is costly. Learned world models can cheaply predict missing facts, but prediction errors can silently induce infeasible commitments. We present \textbf{Active Epistemic Control (AEC)}, an epistemic-categorical planning layer that integrates model-based belief management wit...
-
-</details>
-
----
-
-### [LIVE: Long-horizon Interactive Video World Modeling](https://arxiv.org/abs/2602.03747v1)
-
-**Authors:** Junchao Huang, Ziyang Ye, Xinting Hu, Tianyu He, Guiyu Zhang et al. (8 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03747v1) | [PDF](https://arxiv.org/pdf/2602.03747v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Autoregressive video world models predict future visual observations conditioned on actions. While effective over short horizons, these models often struggle with long-horizon generation, as small prediction errors accumulate over time. Prior methods alleviate this by introducing pre-trained teacher models and sequence-level distribution matching, which incur additional computational cost and fail to prevent error propagation beyond the training horizon. In this work, we propose LIVE, a Long-hor...
-
-</details>
-
----
-
-### [EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories](https://arxiv.org/abs/2602.03569v1)
-
-**Authors:** Linjie Mu, Zhongzhen Huang, Yannian Gu, Shengqian Qin, Shaoting Zhang et al. (6 authors)
-
-**Published:** 2026-02-03 | **Categories:** cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03569v1) | [PDF](https://arxiv.org/pdf/2602.03569v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models offer a principled framework for simulating future states under interventions, but realizing such models in complex, high-stakes domains like medicine remains challenging. Recent large language models (LLMs) have achieved strong performance on static medical reasoning tasks, raising the question of whether they can function as dynamic medical world models capable of simulating disease progression and treatment outcomes over time. In this work, we show that LLMs only incorporating me...
-
-</details>
-
----
-
-### [A Minimal Task Reveals Emergent Path Integration and Object-Location Binding in a Predictive Sequence Model](https://arxiv.org/abs/2602.03490v1)
-
-**Authors:** Linda Ariel Ventura, Victoria Bosch, Tim C Kietzmann, Sushrut Thorat
-
-**Published:** 2026-02-03 | **Categories:** cs.LG, q-bio.NC
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03490v1) | [PDF](https://arxiv.org/pdf/2602.03490v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Adaptive cognition requires structured internal models representing objects and their relations. Predictive neural networks are often proposed to form such "world models", yet their underlying mechanisms remain unclear. One hypothesis is that action-conditioned sequential prediction suffices for learning such world models. In this work, we investigate this possibility in a minimal in-silico setting. Sequentially sampling tokens from 2D continuous token scenes, a recurrent neural network is train...
-
-</details>
-
----
-
-### [General Agents Contain World Models, even under Partial Observability and Stochasticity](https://arxiv.org/abs/2602.03146v1)
-
-**Authors:** Santiago Cifuentes
-
-**Published:** 2026-02-03 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.03146v1) | [PDF](https://arxiv.org/pdf/2602.03146v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Deciding whether an agent possesses a model of its surrounding world is a fundamental step toward understanding its capabilities and limitations. In [10], it was shown that, within a particular framework, every almost optimal and general agent necessarily contains sufficient knowledge of its environment to allow an approximate reconstruction of it by querying the agent as a black box. This result relied on the assumptions that the agent is deterministic and that the environment is fully observab...
 
 </details>
 
