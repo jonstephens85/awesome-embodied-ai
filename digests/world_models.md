@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-11 22:20 UTC
+**Last updated:** 2026-02-12 16:58 UTC
 
-**Papers found:** 11
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075v1)
+
+**Authors:** Jiazhi Yang, Kunyang Lin, Jinwei Li, Wencong Zhang, Tianwei Lin et al. (13 authors)
+
+**Published:** 2026-02-11 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11075v1) | [PDF](https://arxiv.org/pdf/2602.11075v1.pdf) | [Project Page](https://opendrivelab.com/kai0-rl/)
+
+<details>
+<summary>Abstract</summary>
+
+Despite the sustained scaling on model capacity and data acquisition, Vision-Language-Action (VLA) models remain brittle in contact-rich and dynamic manipulation tasks, where minor execution deviations can compound into failures. While reinforcement learning (RL) offers a principled path to robustness, on-policy RL in the physical world is constrained by safety risk, hardware cost, and environment reset. To bridge this gap, we present RISE, a scalable framework of robotic reinforcement learning ...
+
+</details>
+
+---
+
+### [Scaling World Model for Hierarchical Manipulation Policies](https://arxiv.org/abs/2602.10983v1)
+
+**Authors:** Qian Long, Yueze Wang, Jiaxi Song, Junbo Zhang, Peiyan Li et al. (16 authors)
+
+**Published:** 2026-02-11 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.10983v1) | [PDF](https://arxiv.org/pdf/2602.10983v1.pdf) | [Project Page](\href{https://vista-wm.github.io/}{https://vista-wm.github.io})
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models are promising for generalist robot manipulation but remain brittle in out-of-distribution (OOD) settings, especially with limited real-robot data. To resolve the generalization bottleneck, we introduce a hierarchical Vision-Language-Action framework \our{} that leverages the generalization of large-scale pre-trained world model for robust and generalizable VIsual Subgoal TAsk decomposition VISTA. Our hierarchical framework \our{} consists of a world model as t...
+
+</details>
+
+---
+
+### [ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2602.10884v1)
+
+**Authors:** Jinqing Zhang, Zehua Fu, Zelin Xu, Wenying Dai, Qingjie Liu et al. (6 authors)
+
+**Published:** 2026-02-11 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.10884v1) | [PDF](https://arxiv.org/pdf/2602.10884v1.pdf) | [GitHub](https://github.com/mengtan00/ResWorld.git)
+
+<details>
+<summary>Abstract</summary>
+
+The comprehensive understanding capabilities of world models for driving scenarios have significantly improved the planning accuracy of end-to-end autonomous driving frameworks. However, the redundant modeling of static regions and the lack of deep interaction with trajectories hinder world models from exerting their full effectiveness. In this paper, we propose Temporal Residual World Model (TR-World), which focuses on dynamic object modeling. By calculating the temporal residuals of scene repr...
+
+</details>
+
+---
 
 ### [Olaf-World: Orienting Latent Actions for Video World Modeling](https://arxiv.org/abs/2602.10104v1)
 
@@ -29,13 +80,13 @@ Scaling action-controllable world models is limited by the scarcity of action la
 
 ---
 
-### [Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning](https://arxiv.org/abs/2602.10090v1)
+### [Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning](https://arxiv.org/abs/2602.10090v2)
 
 **Authors:** Zhaoyang Wang, Canwen Xu, Boyi Liu, Yite Wang, Siwei Han et al. (8 authors)
 
 **Published:** 2026-02-10 | **Categories:** cs.AI, cs.CL, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.10090v1) | [PDF](https://arxiv.org/pdf/2602.10090v1.pdf) | [GitHub](https://github.com/Snowflake-Labs/agent-world-model)
+**Links:** [arXiv](https://arxiv.org/abs/2602.10090v2) | [PDF](https://arxiv.org/pdf/2602.10090v2.pdf) | [GitHub](https://github.com/Snowflake-Labs/agent-world-model)
 
 <details>
 <summary>Abstract</summary>
@@ -63,41 +114,58 @@ Autonomous GUI agents interact with environments by perceiving interfaces and ex
 
 ---
 
-### [WorldCompass: Reinforcement Learning for Long-Horizon World Models](https://arxiv.org/abs/2602.09022v1)
-
-**Authors:** Zehan Wang, Tengfei Wang, Haiyu Zhang, Xuhui Zuo, Junta Wu et al. (12 authors)
-
-**Published:** 2026-02-09 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.09022v1) | [PDF](https://arxiv.org/pdf/2602.09022v1.pdf) | [Project Page](\url{https://3d-models.hunyuan.tencent.com/world/})
-
-<details>
-<summary>Abstract</summary>
-
-This work presents WorldCompass, a novel Reinforcement Learning (RL) post-training framework for the long-horizon, interactive video-based world models, enabling them to explore the world more accurately and consistently based on interaction signals. To effectively "steer" the world model's exploration, we introduce three core innovations tailored to the autoregressive video generation paradigm: 1) Clip-level rollout Strategy: We generate and evaluate multiple samples at a single target clip, wh...
-
-</details>
-
----
-
-### [When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning](https://arxiv.org/abs/2602.08236v1)
-
-**Authors:** Shoubin Yu, Yue Zhang, Zun Wang, Jaehong Yoon, Huaxiu Yao et al. (7 authors)
-
-**Published:** 2026-02-09 | **Categories:** cs.CV, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.08236v1) | [PDF](https://arxiv.org/pdf/2602.08236v1.pdf) | [Project Page](https://adaptive-visual-tts.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Despite rapid progress in Multimodal Large Language Models (MLLMs), visual spatial reasoning remains unreliable when correct answers depend on how a scene would appear under unseen or alternative viewpoints. Recent work addresses this by augmenting reasoning with world models for visual imagination, but questions such as when imagination is actually necessary, how much of it is beneficial, and when it becomes harmful, remain poorly understood. In practice, indiscriminate imagination can increase...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/abs/2602.11021v1)
+
+**Authors:** Meizhong Wang, Wanxin Jin, Kun Cao, Lihua Xie, Yiguang Hong
+
+**Published:** 2026-02-11 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11021v1) | [PDF](https://arxiv.org/pdf/2602.11021v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Developing world models that understand complex physical interactions is essential for advancing robotic planning and simulation.However, existing methods often struggle to accurately model the environment under conditions of data scarcity and complex contact-rich dynamic motion.To address these challenges, we propose ContactGaussian-WM, a differentiable physics-grounded rigid-body world model capable of learning intricate physical laws directly from sparse and contact-rich video sequences.Our f...
+
+</details>
+
+---
+
+### [Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation](https://arxiv.org/abs/2602.10717v1)
+
+**Authors:** Songen Gu, Yunuo Cai, Tianyu Wang, Simo Wu, Yanwei Fu
+
+**Published:** 2026-02-11 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.10717v1) | [PDF](https://arxiv.org/pdf/2602.10717v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Robotic manipulation requires anticipating how the environment evolves in response to actions, yet most existing systems lack this predictive capability, often resulting in errors and inefficiency. While Vision-Language Models (VLMs) provide high-level guidance, they cannot explicitly forecast future states, and existing world models either predict only short horizons or produce spatially inconsistent frames. To address these challenges, we propose a framework for fast and predictive video-condi...
+
+</details>
+
+---
+
+### [Affordances Enable Partial World Modeling with LLMs](https://arxiv.org/abs/2602.10390v1)
+
+**Authors:** Khimya Khetarpal, Gheorghe Comanici, Jonathan Richens, Jeremy Shar, Fei Xia et al. (8 authors)
+
+**Published:** 2026-02-11 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.10390v1) | [PDF](https://arxiv.org/pdf/2602.10390v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Full models of the world require complex knowledge of immense detail. While pre-trained large models have been hypothesized to contain similar knowledge due to extensive pre-training on vast amounts of internet scale data, using them directly in a search procedure is inefficient and inaccurate. Conversely, partial models focus on making high quality predictions for a subset of state and actions: those linked through affordances that achieve user intents~\citep{khetarpal2020can}. Can we posit lar...
+
+</details>
+
+---
 
 ### [VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model](https://arxiv.org/abs/2602.10098v1)
 
@@ -162,40 +230,6 @@ World-model-based imagine-then-act becomes a promising paradigm for robotic mani
 <summary>Abstract</summary>
 
 Egocentric interactive world models are essential for augmented reality and embodied AI, where visual generation must respond to user input with low latency, geometric consistency, and long-term stability. We study egocentric interaction generation from a single scene image under free-space hand gestures, aiming to synthesize photorealistic videos in which hands enter the scene, interact with objects, and induce plausible world dynamics under head motion. This setting introduces fundamental chal...
-
-</details>
-
----
-
-### [WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models](https://arxiv.org/abs/2602.08971v1)
-
-**Authors:** Yu Shang, Zhuohang Li, Yiding Ma, Weikang Su, Xin Jin et al. (19 authors)
-
-**Published:** 2026-02-09 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.08971v1) | [PDF](https://arxiv.org/pdf/2602.08971v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-While world models have emerged as a cornerstone of embodied intelligence by enabling agents to reason about environmental dynamics through action-conditioned prediction, their evaluation remains fragmented. Current evaluation of embodied world models has largely focused on perceptual fidelity (e.g., video generation quality), overlooking the functional utility of these models in downstream decision-making tasks. In this work, we introduce WorldArena, a unified benchmark designed to systematical...
-
-</details>
-
----
-
-### [stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation](https://arxiv.org/abs/2602.08968v1)
-
-**Authors:** Lucas Maes, Quentin Le Lidec, Dan Haramati, Nassim Massaudi, Damien Scieur et al. (7 authors)
-
-**Published:** 2026-02-09 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.08968v1) | [PDF](https://arxiv.org/pdf/2602.08968v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Models have emerged as a powerful paradigm for learning compact, predictive representations of environment dynamics, enabling agents to reason, plan, and generalize beyond direct experience. Despite recent interest in World Models, most available implementations remain publication-specific, severely limiting their reusability, increasing the risk of bugs, and reducing evaluation standardization. To mitigate these issues, we introduce stable-worldmodel (SWM), a modular, tested, and document...
 
 </details>
 
