@@ -2,15 +2,134 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-12 22:22 UTC
+**Last updated:** 2026-02-13 16:46 UTC
 
-**Papers found:** 13
+**Papers found:** 16
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion](https://arxiv.org/abs/2602.12215v1)
+
+**Authors:** Jiangran Lyu, Kai Liu, Xuheng Zhang, Haoran Liao, Yusen Feng et al. (23 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.12215v1) | [PDF](https://arxiv.org/pdf/2602.12215v1.pdf) | [Project Page](https://pku-epic.github.io/LDA)
+
+<details>
+<summary>Abstract</summary>
+
+Recent robot foundation models largely rely on large-scale behavior cloning, which imitates expert actions but discards transferable dynamics knowledge embedded in heterogeneous embodied data. While the Unified World Model (UWM) formulation has the potential to leverage such diverse data, existing instantiations struggle to scale to foundation-level due to coarse data usage and fragmented datasets. We introduce LDA-1B, a robot foundation model that scales through universal embodied data ingestio...
+
+</details>
+
+---
+
+### [GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning](https://arxiv.org/abs/2602.12099v1)
+
+**Authors:**  GigaBrain Team, Boyuan Wang, Chaojun Ni, Guan Huang, Guosheng Zhao et al. (25 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.12099v1) | [PDF](https://arxiv.org/pdf/2602.12099v1.pdf) | [Project Page](https://gigabrain05m.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models that directly predict multi-step action chunks from current observations face inherent limitations due to constrained scene understanding and weak future anticipation capabilities. In contrast, video world models pre-trained on web-scale video corpora exhibit robust spatiotemporal reasoning and accurate future prediction, making them a natural foundation for enhancing VLA learning. Therefore, we propose \textit{GigaBrain-0.5M*}, a VLA model trained via world m...
+
+</details>
+
+---
+
+### [VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model](https://arxiv.org/abs/2602.12063v1)
+
+**Authors:** Yanjiang Guo, Tony Lee, Lucy Xiaoyang Shi, Jianyu Chen, Percy Liang et al. (6 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.12063v1) | [PDF](https://arxiv.org/pdf/2602.12063v1.pdf) | [Project Page](https://sites.google.com/view/vla-w)
+
+<details>
+<summary>Abstract</summary>
+
+The goal of this paper is to improve the performance and reliability of vision-language-action (VLA) models through iterative online interaction. Since collecting policy rollouts in the real world is expensive, we investigate whether a learned simulator-specifically, an action-conditioned video generation model-can be used to generate additional rollout data. Unfortunately, existing world models lack the physical fidelity necessary for policy improvement: they are predominantly trained on demons...
+
+</details>
+
+---
+
+### [Accelerating Robotic Reinforcement Learning with Agent Guidance](https://arxiv.org/abs/2602.11978v1)
+
+**Authors:** Haojun Chen, Zili Zou, Chengdong Ma, Yaoxiang Pu, Haotong Zhang et al. (7 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11978v1) | [PDF](https://arxiv.org/pdf/2602.11978v1.pdf) | [Project Page](https://agps-rl.github.io/agps)
+
+<details>
+<summary>Abstract</summary>
+
+Reinforcement Learning (RL) offers a powerful paradigm for autonomous robots to master generalist manipulation skills through trial-and-error. However, its real-world application is stifled by severe sample inefficiency. Recent Human-in-the-Loop (HIL) methods accelerate training by using human corrections, yet this approach faces a scalability barrier. Reliance on human supervisors imposes a 1:1 supervision ratio that limits fleet expansion, suffers from operator fatigue over extended sessions, ...
+
+</details>
+
+---
+
+### [Where Bits Matter in World Model Planning: A Paired Mixed-Bit Study for Efficient Spatial Reasoning](https://arxiv.org/abs/2602.11882v1)
+
+**Authors:** Suraj Ranganath, Anish Patnaik, Vaishak Menon
+
+**Published:** 2026-02-12 | **Categories:** cs.LG, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11882v1) | [PDF](https://arxiv.org/pdf/2602.11882v1.pdf) | [GitHub](https://github.com/suraj-ranganath/DINO-MBQuant)
+
+<details>
+<summary>Abstract</summary>
+
+Efficient spatial reasoning requires world models that remain reliable under tight precision budgets. We study whether low-bit planning behavior is determined mostly by total bitwidth or by where bits are allocated across modules. Using DINO-WM on the Wall planning task, we run a paired-goal mixed-bit evaluation across uniform, mixed, asymmetric, and layerwise variants under two planner budgets. We observe a consistent three-regime pattern: 8-bit and 6-bit settings remain close to FP16, 3-bit se...
+
+</details>
+
+---
+
+### [HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model](https://arxiv.org/abs/2602.11758v1)
+
+**Authors:** Dongting Li, Xingyu Chen, Qianyang Wu, Bo Chen, Sikai Wu et al. (13 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11758v1) | [PDF](https://arxiv.org/pdf/2602.11758v1.pdf) | [Project Page](https://haic-humanoid.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid robots show promise for complex whole-body tasks in unstructured environments. Although Human-Object Interaction (HOI) has advanced, most methods focus on fully actuated objects rigidly coupled to the robot, ignoring underactuated objects with independent dynamics and non-holonomic constraints. These introduce control challenges from coupling forces and occlusions. We present HAIC, a unified framework for robust interaction across diverse object dynamics without external state estimatio...
+
+</details>
+
+---
+
+### [Causal-JEPA: Learning World Models through Object-Level Latent Interventions](https://arxiv.org/abs/2602.11389v1)
+
+**Authors:** Heejeong Nam, Quentin Le Lidec, Lucas Maes, Yann LeCun, Randall Balestriero
+
+**Published:** 2026-02-11 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11389v1) | [PDF](https://arxiv.org/pdf/2602.11389v1.pdf) | [Project Page](https://hazel-heejeong-nam.github.io/cjepa/) | [GitHub](https://github.com/galilai-group/cjepa)
+
+<details>
+<summary>Abstract</summary>
+
+World models require robust relational understanding to support prediction, reasoning, and control. While object-centric representations provide a useful abstraction, they are not sufficient to capture interaction-dependent dynamics. We therefore propose C-JEPA, a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations. By applying object-level masking that requires an object's state to be inferred from ot...
+
+</details>
+
+---
 
 ### [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075v1)
 
@@ -29,13 +148,13 @@ Despite the sustained scaling on model capacity and data acquisition, Vision-Lan
 
 ---
 
-### [Scaling World Model for Hierarchical Manipulation Policies](https://arxiv.org/abs/2602.10983v1)
+### [Scaling World Model for Hierarchical Manipulation Policies](https://arxiv.org/abs/2602.10983v2)
 
 **Authors:** Qian Long, Yueze Wang, Jiaxi Song, Junbo Zhang, Peiyan Li et al. (16 authors)
 
 **Published:** 2026-02-11 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.10983v1) | [PDF](https://arxiv.org/pdf/2602.10983v1.pdf) | [Project Page](\href{https://vista-wm.github.io/}{https://vista-wm.github.io})
+**Links:** [arXiv](https://arxiv.org/abs/2602.10983v2) | [PDF](https://arxiv.org/pdf/2602.10983v2.pdf) | [Project Page](\href{https://vista-wm.github.io/}{https://vista-wm.github.io})
 
 <details>
 <summary>Abstract</summary>
@@ -63,58 +182,58 @@ The comprehensive understanding capabilities of world models for driving scenari
 
 ---
 
-### [Olaf-World: Orienting Latent Actions for Video World Modeling](https://arxiv.org/abs/2602.10104v1)
-
-**Authors:** Yuxin Jiang, Yuchao Gu, Ivor W. Tsang, Mike Zheng Shou
-
-**Published:** 2026-02-10 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10104v1) | [PDF](https://arxiv.org/pdf/2602.10104v1.pdf) | [Project Page](https://showlab.github.io/Olaf-World/) | [GitHub](https://github.com/showlab/Olaf-World)
-
-<details>
-<summary>Abstract</summary>
-
-Scaling action-controllable world models is limited by the scarcity of action labels. While latent action learning promises to extract control interfaces from unlabeled video, learned latents often fail to transfer across contexts: they entangle scene-specific cues and lack a shared coordinate system. This occurs because standard objectives operate only within each clip, providing no mechanism to align action semantics across contexts. Our key insight is that although actions are unobserved, the...
-
-</details>
-
----
-
-### [Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning](https://arxiv.org/abs/2602.10090v2)
-
-**Authors:** Zhaoyang Wang, Canwen Xu, Boyi Liu, Yite Wang, Siwei Han et al. (8 authors)
-
-**Published:** 2026-02-10 | **Categories:** cs.AI, cs.CL, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10090v2) | [PDF](https://arxiv.org/pdf/2602.10090v2.pdf) | [GitHub](https://github.com/Snowflake-Labs/agent-world-model)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale to 1,000 environments covering everyday scenarios, in which agents can interact with rich toolsets (...
-
-</details>
-
----
-
-### [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856v1)
-
-**Authors:** Yuhao Zheng, Li'an Zhong, Yi Wang, Rui Dai, Kaikui Liu et al. (9 authors)
-
-**Published:** 2026-02-10 | **Categories:** cs.CV, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.09856v1) | [PDF](https://arxiv.org/pdf/2602.09856v1.pdf) | [Project Page](https://amap-ml.github.io/Code2World/) | [GitHub](https://github.com/AMAP-ML/Code2World)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous GUI agents interact with environments by perceiving interfaces and executing actions. As a virtual sandbox, the GUI World model empowers agents with human-like foresight by enabling action-conditioned prediction. However, existing text- and pixel-based approaches struggle to simultaneously achieve high visual fidelity and fine-grained structural controllability. To this end, we propose Code2World, a vision-language coder that simulates the next visual state via renderable code generat...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics](https://arxiv.org/abs/2602.12218v1)
+
+**Authors:** Christian Internò, Jumpei Yamaguchi, Loren Amdahl-Culleton, Markus Olhofer, David Klindt et al. (6 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.12218v1) | [PDF](https://arxiv.org/pdf/2602.12218v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Determining whether neural models internalize physical laws as world models, rather than exploiting statistical shortcuts, remains challenging, especially under out-of-distribution (OOD) shifts. Standard evaluations often test latent capability via downstream adaptation (e.g., fine-tuning or high-capacity probes), but such interventions can change the representations being measured and thus confound what was learned during self-supervised learning (SSL). We propose a non-invasive evaluation prot...
+
+</details>
+
+---
+
+### [Budget-Constrained Agentic Large Language Models: Intention-Based Planning for Costly Tool Use](https://arxiv.org/abs/2602.11541v1)
+
+**Authors:** Hanbing Liu, Chunhao Tian, Nan An, Ziyuan Wang, Pinyan Lu et al. (7 authors)
+
+**Published:** 2026-02-12 | **Categories:** cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11541v1) | [PDF](https://arxiv.org/pdf/2602.11541v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We study budget-constrained tool-augmented agents, where a large language model must solve multi-step tasks by invoking external tools under a strict monetary budget. We formalize this setting as sequential decision making in context space with priced and stochastic tool executions, making direct planning intractable due to massive state-action spaces, high variance of outcomes and prohibitive exploration cost. To address these challenges, we propose INTENT, an inference-time planning framework ...
+
+</details>
+
+---
+
+### [H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291v1)
+
+**Authors:** Wenyuan Chen, Jinbang Huang, Oscar Pang, Zhiyuan Li, Xiao Hu et al. (11 authors)
+
+**Published:** 2026-02-11 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.11291v1) | [PDF](https://arxiv.org/pdf/2602.11291v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are becoming central to robotic planning and control, as they enable prediction of future state transitions. Existing approaches often emphasize video generation or natural language prediction, which are difficult to directly ground in robot actions and suffer from compounding errors over long horizons. Traditional task and motion planning relies on symbolic logic world models, such as planning domains, that are robot-executable and robust for long-horizon reasoning. However, these ...
+
+</details>
+
+---
 
 ### [ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/abs/2602.11021v1)
 
@@ -162,74 +281,6 @@ Robotic manipulation requires anticipating how the environment evolves in respon
 <summary>Abstract</summary>
 
 Full models of the world require complex knowledge of immense detail. While pre-trained large models have been hypothesized to contain similar knowledge due to extensive pre-training on vast amounts of internet scale data, using them directly in a search procedure is inefficient and inaccurate. Conversely, partial models focus on making high quality predictions for a subset of state and actions: those linked through affordances that achieve user intents~\citep{khetarpal2020can}. Can we posit lar...
-
-</details>
-
----
-
-### [VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model](https://arxiv.org/abs/2602.10098v1)
-
-**Authors:** Jingwen Sun, Wenyao Zhang, Zekun Qi, Shaojie Ren, Zezhi Liu et al. (9 authors)
-
-**Published:** 2026-02-10 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10098v1) | [PDF](https://arxiv.org/pdf/2602.10098v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Pretraining Vision-Language-Action (VLA) policies on internet-scale video is appealing, yet current latent-action objectives often learn the wrong thing: they remain anchored to pixel variation rather than action-relevant state transitions, making them vulnerable to appearance bias, nuisance motion, and information leakage. We introduce VLA-JEPA, a JEPA-style pretraining framework that sidesteps these pitfalls by design. The key idea is \emph{leakage-free state prediction}: a target encoder prod...
-
-</details>
-
----
-
-### [Optimistic World Models: Efficient Exploration in Model-Based Deep Reinforcement Learning](https://arxiv.org/abs/2602.10044v1)
-
-**Authors:** Akshay Mete, Shahid Aamir Sheikh, Tzu-Hsiang Lin, Dileep Kalathil, P. R. Kumar
-
-**Published:** 2026-02-10 | **Categories:** cs.LG, cs.AI, eess.SY
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10044v1) | [PDF](https://arxiv.org/pdf/2602.10044v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Efficient exploration remains a central challenge in reinforcement learning (RL), particularly in sparse-reward environments. We introduce Optimistic World Models (OWMs), a principled and scalable framework for optimistic exploration that brings classical reward-biased maximum likelihood estimation (RBMLE) from adaptive control into deep RL. In contrast to upper confidence bound (UCB)-style exploration methods, OWMs incorporate optimism directly into model learning by augmentation with an optimi...
-
-</details>
-
----
-
-### [MVISTA-4D: View-Consistent 4D World Model with Test-Time Action Inference for Robotic Manipulation](https://arxiv.org/abs/2602.09878v1)
-
-**Authors:** Jiaxu Wang, Yicheng Jiang, Tianlun He, Jingkai Sun, Qiang Zhang et al. (11 authors)
-
-**Published:** 2026-02-10 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.09878v1) | [PDF](https://arxiv.org/pdf/2602.09878v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World-model-based imagine-then-act becomes a promising paradigm for robotic manipulation, yet existing approaches typically support either purely image-based forecasting or reasoning over partial 3D geometry, limiting their ability to predict complete 4D scene dynamics. This work proposes a novel embodied 4D world model that enables geometrically consistent, arbitrary-view RGBD generation: given only a single-view RGBD observation as input, the model imagines the remaining viewpoints, which can ...
-
-</details>
-
----
-
-### [Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures](https://arxiv.org/abs/2602.09600v1)
-
-**Authors:** Yuxi Wang, Wenqi Ouyang, Tianyi Wei, Yi Dong, Zhiqi Shen et al. (6 authors)
-
-**Published:** 2026-02-10 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.09600v1) | [PDF](https://arxiv.org/pdf/2602.09600v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric interactive world models are essential for augmented reality and embodied AI, where visual generation must respond to user input with low latency, geometric consistency, and long-term stability. We study egocentric interaction generation from a single scene image under free-space hand gestures, aiming to synthesize photorealistic videos in which hands enter the scene, interact with objects, and induce plausible world dynamics under head motion. This setting introduces fundamental chal...
 
 </details>
 
