@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-13 22:23 UTC
+**Last updated:** 2026-02-14 16:29 UTC
 
-**Papers found:** 16
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -114,74 +114,6 @@ Humanoid robots show promise for complex whole-body tasks in unstructured enviro
 
 ---
 
-### [Causal-JEPA: Learning World Models through Object-Level Latent Interventions](https://arxiv.org/abs/2602.11389v1)
-
-**Authors:** Heejeong Nam, Quentin Le Lidec, Lucas Maes, Yann LeCun, Randall Balestriero
-
-**Published:** 2026-02-11 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.11389v1) | [PDF](https://arxiv.org/pdf/2602.11389v1.pdf) | [Project Page](https://hazel-heejeong-nam.github.io/cjepa/) | [GitHub](https://github.com/galilai-group/cjepa)
-
-<details>
-<summary>Abstract</summary>
-
-World models require robust relational understanding to support prediction, reasoning, and control. While object-centric representations provide a useful abstraction, they are not sufficient to capture interaction-dependent dynamics. We therefore propose C-JEPA, a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations. By applying object-level masking that requires an object's state to be inferred from ot...
-
-</details>
-
----
-
-### [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075v1)
-
-**Authors:** Jiazhi Yang, Kunyang Lin, Jinwei Li, Wencong Zhang, Tianwei Lin et al. (13 authors)
-
-**Published:** 2026-02-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.11075v1) | [PDF](https://arxiv.org/pdf/2602.11075v1.pdf) | [Project Page](https://opendrivelab.com/kai0-rl/)
-
-<details>
-<summary>Abstract</summary>
-
-Despite the sustained scaling on model capacity and data acquisition, Vision-Language-Action (VLA) models remain brittle in contact-rich and dynamic manipulation tasks, where minor execution deviations can compound into failures. While reinforcement learning (RL) offers a principled path to robustness, on-policy RL in the physical world is constrained by safety risk, hardware cost, and environment reset. To bridge this gap, we present RISE, a scalable framework of robotic reinforcement learning ...
-
-</details>
-
----
-
-### [Scaling World Model for Hierarchical Manipulation Policies](https://arxiv.org/abs/2602.10983v2)
-
-**Authors:** Qian Long, Yueze Wang, Jiaxi Song, Junbo Zhang, Peiyan Li et al. (16 authors)
-
-**Published:** 2026-02-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10983v2) | [PDF](https://arxiv.org/pdf/2602.10983v2.pdf) | [Project Page](\href{https://vista-wm.github.io/}{https://vista-wm.github.io})
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are promising for generalist robot manipulation but remain brittle in out-of-distribution (OOD) settings, especially with limited real-robot data. To resolve the generalization bottleneck, we introduce a hierarchical Vision-Language-Action framework \our{} that leverages the generalization of large-scale pre-trained world model for robust and generalizable VIsual Subgoal TAsk decomposition VISTA. Our hierarchical framework \our{} consists of a world model as t...
-
-</details>
-
----
-
-### [ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2602.10884v1)
-
-**Authors:** Jinqing Zhang, Zehua Fu, Zelin Xu, Wenying Dai, Qingjie Liu et al. (6 authors)
-
-**Published:** 2026-02-11 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10884v1) | [PDF](https://arxiv.org/pdf/2602.10884v1.pdf) | [GitHub](https://github.com/mengtan00/ResWorld.git)
-
-<details>
-<summary>Abstract</summary>
-
-The comprehensive understanding capabilities of world models for driving scenarios have significantly improved the planning accuracy of end-to-end autonomous driving frameworks. However, the redundant modeling of static regions and the lack of deep interaction with trajectories hinder world models from exerting their full effectiveness. In this paper, we propose Temporal Residual World Model (TR-World), which focuses on dynamic object modeling. By calculating the temporal residuals of scene repr...
-
-</details>
-
----
-
 ## Other Recent Papers
 
 ### [The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics](https://arxiv.org/abs/2602.12218v1)
@@ -213,74 +145,6 @@ Determining whether neural models internalize physical laws as world models, rat
 <summary>Abstract</summary>
 
 We study budget-constrained tool-augmented agents, where a large language model must solve multi-step tasks by invoking external tools under a strict monetary budget. We formalize this setting as sequential decision making in context space with priced and stochastic tool executions, making direct planning intractable due to massive state-action spaces, high variance of outcomes and prohibitive exploration cost. To address these challenges, we propose INTENT, an inference-time planning framework ...
-
-</details>
-
----
-
-### [H-WM: Robotic Task and Motion Planning Guided by Hierarchical World Model](https://arxiv.org/abs/2602.11291v1)
-
-**Authors:** Wenyuan Chen, Jinbang Huang, Oscar Pang, Zhiyuan Li, Xiao Hu et al. (11 authors)
-
-**Published:** 2026-02-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.11291v1) | [PDF](https://arxiv.org/pdf/2602.11291v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models are becoming central to robotic planning and control, as they enable prediction of future state transitions. Existing approaches often emphasize video generation or natural language prediction, which are difficult to directly ground in robot actions and suffer from compounding errors over long horizons. Traditional task and motion planning relies on symbolic logic world models, such as planning domains, that are robot-executable and robust for long-horizon reasoning. However, these ...
-
-</details>
-
----
-
-### [ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/abs/2602.11021v1)
-
-**Authors:** Meizhong Wang, Wanxin Jin, Kun Cao, Lihua Xie, Yiguang Hong
-
-**Published:** 2026-02-11 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.11021v1) | [PDF](https://arxiv.org/pdf/2602.11021v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Developing world models that understand complex physical interactions is essential for advancing robotic planning and simulation.However, existing methods often struggle to accurately model the environment under conditions of data scarcity and complex contact-rich dynamic motion.To address these challenges, we propose ContactGaussian-WM, a differentiable physics-grounded rigid-body world model capable of learning intricate physical laws directly from sparse and contact-rich video sequences.Our f...
-
-</details>
-
----
-
-### [Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation](https://arxiv.org/abs/2602.10717v1)
-
-**Authors:** Songen Gu, Yunuo Cai, Tianyu Wang, Simo Wu, Yanwei Fu
-
-**Published:** 2026-02-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10717v1) | [PDF](https://arxiv.org/pdf/2602.10717v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation requires anticipating how the environment evolves in response to actions, yet most existing systems lack this predictive capability, often resulting in errors and inefficiency. While Vision-Language Models (VLMs) provide high-level guidance, they cannot explicitly forecast future states, and existing world models either predict only short horizons or produce spatially inconsistent frames. To address these challenges, we propose a framework for fast and predictive video-condi...
-
-</details>
-
----
-
-### [Affordances Enable Partial World Modeling with LLMs](https://arxiv.org/abs/2602.10390v1)
-
-**Authors:** Khimya Khetarpal, Gheorghe Comanici, Jonathan Richens, Jeremy Shar, Fei Xia et al. (8 authors)
-
-**Published:** 2026-02-11 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.10390v1) | [PDF](https://arxiv.org/pdf/2602.10390v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Full models of the world require complex knowledge of immense detail. While pre-trained large models have been hypothesized to contain similar knowledge due to extensive pre-training on vast amounts of internet scale data, using them directly in a search procedure is inefficient and inaccurate. Conversely, partial models focus on making high quality predictions for a subset of state and actions: those linked through affordances that achieve user intents~\citep{khetarpal2020can}. Can we posit lar...
 
 </details>
 
