@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-17 22:20 UTC
+**Last updated:** 2026-02-18 17:04 UTC
 
-**Papers found:** 3
+**Papers found:** 4
 
 [Back to Home](../README.md)
 
@@ -48,18 +48,35 @@ Vision-Language-Action (VLA) models for autonomous driving increasingly adopt ge
 
 ## Other Recent Papers
 
-### [WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL](https://arxiv.org/abs/2602.13977v1)
+### [Selective Perception for Robot: Task-Aware Attention in Multimodal VLA](https://arxiv.org/abs/2602.15543v1)
 
-**Authors:** Zhennan Jiang, Shangqing Zhou, Yutong Jiang, Zefang Huang, Mingjie Wei et al. (14 authors)
+**Authors:** Young-Chae Son, Jung-Woo Lee, Yoon-Ji Choi, Dae-Kwan Ko, Soo-Chul Lim
 
-**Published:** 2026-02-15 | **Categories:** cs.RO, cs.AI
+**Published:** 2026-02-17 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.13977v1) | [PDF](https://arxiv.org/pdf/2602.13977v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2602.15543v1) | [PDF](https://arxiv.org/pdf/2602.15543v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision-Language-Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors do not merely degrade visual fidelity; they corrupt the optimiz...
+In robotics, Vision-Language-Action (VLA) models that integrate diverse multimodal signals from multi-view inputs have emerged as an effective approach. However, most prior work adopts static fusion that processes all visual inputs uniformly, which incurs unnecessary computational overhead and allows task-irrelevant background information to act as noise. Inspired by the principles of human active perception, we propose a dynamic information fusion framework designed to maximize the efficiency a...
+
+</details>
+
+---
+
+### [ActionCodec: What Makes for Good Action Tokenizers](https://arxiv.org/abs/2602.15397v1)
+
+**Authors:** Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan et al. (11 authors)
+
+**Published:** 2026-02-17 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.15397v1) | [PDF](https://arxiv.org/pdf/2602.15397v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models leveraging the native autoregressive paradigm of Vision-Language Models (VLMs) have demonstrated superior instruction-following and training efficiency. Central to this paradigm is action tokenization, yet its design has primarily focused on reconstruction fidelity, failing to address its direct impact on VLA optimization. Consequently, the fundamental question of \textit{what makes for good action tokenizers} remains unanswered. In this paper, we bridge this ...
 
 </details>
 

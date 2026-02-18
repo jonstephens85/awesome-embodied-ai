@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-17 22:20 UTC
+**Last updated:** 2026-02-18 17:04 UTC
 
 **Papers found:** 5
 
@@ -11,6 +11,40 @@ Papers on world models for robotics, video prediction, and simulation.
 ---
 
 ## Other Recent Papers
+
+### [VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing](https://arxiv.org/abs/2602.15549v1)
+
+**Authors:** Guoqin Tang, Qingxuan Jia, Gang Chen, Tong Li, Zeyuan Huang et al. (7 authors)
+
+**Published:** 2026-02-17 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.15549v1) | [PDF](https://arxiv.org/pdf/2602.15549v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language model (VLM) shows promise for high-level planning in smart manufacturing, yet their deployment in dynamic workcells faces two critical challenges: (1) stateless operation, they cannot persistently track out-of-view states, causing world-state drift; and (2) opaque reasoning, failures are difficult to diagnose, leading to costly blind retries. This paper presents VLM-DEWM, a cognitive architecture that decouples VLM reasoning from world-state management through a persistent, query...
+
+</details>
+
+---
+
+### [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384v1)
+
+**Authors:** Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li et al. (6 authors)
+
+**Published:** 2026-02-17 | **Categories:** cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.15384v1) | [PDF](https://arxiv.org/pdf/2602.15384v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and...
+
+</details>
+
+---
 
 ### [Cold-Start Personalization via Training-Free Priors from Structured World Models](https://arxiv.org/abs/2602.15012v1)
 
@@ -58,40 +92,6 @@ Large Language Models (LLMs) have recently shown strong reasoning and generaliza
 <summary>Abstract</summary>
 
 Web agents require massive trajectories to generalize, yet real-world training is constrained by network latency, rate limits, and safety risks. We introduce \textbf{WebWorld} series, the first open-web simulator trained at scale. While existing simulators are restricted to closed environments with thousands of trajectories, WebWorld leverages a scalable data pipeline to train on 1M+ open-web interactions, supporting reasoning, multi-format data, and long-horizon simulations of 30+ steps. For in...
-
-</details>
-
----
-
-### [WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control](https://arxiv.org/abs/2602.14351v1)
-
-**Authors:** Mehran Aghabozorgi, Alireza Moazeni, Yanshu Zhang, Ke Li
-
-**Published:** 2026-02-15 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.14351v1) | [PDF](https://arxiv.org/pdf/2602.14351v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Model-based reinforcement learning promises strong sample efficiency but often underperforms in practice due to compounding model error, unimodal world models that average over multi-modal dynamics, and overconfident predictions that bias learning. We introduce WIMLE, a model-based method that extends Implicit Maximum Likelihood Estimation (IMLE) to the model-based RL framework to learn stochastic, multi-modal world models without iterative sampling and to estimate predictive uncertainty via ens...
-
-</details>
-
----
-
-### [WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL](https://arxiv.org/abs/2602.13977v1)
-
-**Authors:** Zhennan Jiang, Shangqing Zhou, Yutong Jiang, Zefang Huang, Mingjie Wei et al. (14 authors)
-
-**Published:** 2026-02-15 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.13977v1) | [PDF](https://arxiv.org/pdf/2602.13977v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision-Language-Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors do not merely degrade visual fidelity; they corrupt the optimiz...
 
 </details>
 
