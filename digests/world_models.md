@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-18 22:23 UTC
+**Last updated:** 2026-02-19 16:53 UTC
 
 **Papers found:** 5
 
@@ -10,7 +10,60 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ---
 
+## Papers with Project Pages / Code
+
+### [World Model Failure Classification and Anomaly Detection for Autonomous Inspection](https://arxiv.org/abs/2602.16182v1)
+
+**Authors:** Michelle Ho, Muhammad Fadhil Ginting, Isaac R. Ward, Andrzej Reinke, Mykel J. Kochenderfer et al. (7 authors)
+
+**Published:** 2026-02-18 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.16182v1) | [PDF](https://arxiv.org/pdf/2602.16182v1.pdf) | [Project Page](https://autoinspection-classification.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous inspection robots for monitoring industrial sites can reduce costs and risks associated with human-led inspection. However, accurate readings can be challenging due to occlusions, limited viewpoints, or unexpected environmental conditions. We propose a hybrid framework that combines supervised failure classification with anomaly detection, enabling classification of inspection tasks as a success, known failure, or anomaly (i.e., out-of-distribution) case. Our approach uses a world mod...
+
+</details>
+
+---
+
 ## Other Recent Papers
+
+### [Learning to unfold cloth: Scaling up world models to deformable object manipulation](https://arxiv.org/abs/2602.16675v1)
+
+**Authors:** Jack Rome, Stephen James, Subramanian Ramamoorthy
+
+**Published:** 2026-02-18 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.16675v1) | [PDF](https://arxiv.org/pdf/2602.16675v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Learning to manipulate cloth is both a paradigmatic problem for robotic research and a problem of immediate relevance to a variety of applications ranging from assistive care to the service industry. The complex physics of the deformable object makes this problem of cloth manipulation nontrivial. In order to create a general manipulation strategy that addresses a variety of shapes, sizes, fold and wrinkle patterns, in addition to the usual problems of appearance variations, it becomes important ...
+
+</details>
+
+---
+
+### [Factored Latent Action World Models](https://arxiv.org/abs/2602.16229v1)
+
+**Authors:** Zizhao Wang, Chang Shi, Jiaheng Hu, Kevin Rohling, Roberto Martín-Martín et al. (7 authors)
+
+**Published:** 2026-02-18 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.16229v1) | [PDF](https://arxiv.org/pdf/2602.16229v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Learning latent actions from action-free video has emerged as a powerful paradigm for scaling up controllable world model learning. Latent actions provide a natural interface for users to iteratively generate and manipulate videos. However, most existing approaches rely on monolithic inverse and forward dynamics models that learn a single latent action to control the entire scene, and therefore struggle in complex environments where multiple entities act simultaneously. This paper introduces Fac...
+
+</details>
+
+---
 
 ### [VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing](https://arxiv.org/abs/2602.15549v1)
 
@@ -41,57 +94,6 @@ Vision-language model (VLM) shows promise for high-level planning in smart manuf
 <summary>Abstract</summary>
 
 Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and...
-
-</details>
-
----
-
-### [Cold-Start Personalization via Training-Free Priors from Structured World Models](https://arxiv.org/abs/2602.15012v1)
-
-**Authors:** Avinandan Bose, Shuyue Stella Li, Faeze Brahman, Pang Wei Koh, Simon Shaolei Du et al. (9 authors)
-
-**Published:** 2026-02-16 | **Categories:** cs.CL, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.15012v1) | [PDF](https://arxiv.org/pdf/2602.15012v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Cold-start personalization requires inferring user preferences through interaction when no user-specific historical data is available. The core challenge is a routing problem: each task admits dozens of preference dimensions, yet individual users care about only a few, and which ones matter depends on who is asking. With a limited question budget, asking without structure will miss the dimensions that matter. Reinforcement learning is the natural formulation, but in multi-turn settings its termi...
-
-</details>
-
----
-
-### [World Models for Policy Refinement in StarCraft II](https://arxiv.org/abs/2602.14857v1)
-
-**Authors:** Yixin Zhang, Ziyi Wang, Yiming Rong, Haoxi Wang, Jinling Jiang et al. (9 authors)
-
-**Published:** 2026-02-16 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.14857v1) | [PDF](https://arxiv.org/pdf/2602.14857v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large Language Models (LLMs) have recently shown strong reasoning and generalization capabilities, motivating their use as decision-making policies in complex environments. StarCraft II (SC2), with its massive state-action space and partial observability, is a challenging testbed. However, existing LLM-based SC2 agents primarily focus on improving the policy itself and overlook integrating a learnable, action-conditioned transition model into the decision loop. To bridge this gap, we propose Sta...
-
-</details>
-
----
-
-### [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721v1)
-
-**Authors:** Zikai Xiao, Jianhong Tu, Chuhang Zou, Yuxin Zuo, Zhi Li et al. (10 authors)
-
-**Published:** 2026-02-16 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.14721v1) | [PDF](https://arxiv.org/pdf/2602.14721v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Web agents require massive trajectories to generalize, yet real-world training is constrained by network latency, rate limits, and safety risks. We introduce \textbf{WebWorld} series, the first open-web simulator trained at scale. While existing simulators are restricted to closed environments with thousands of trajectories, WebWorld leverages a scalable data pipeline to train on 1M+ open-web interactions, supporting reasoning, multi-format data, and long-horizon simulations of 30+ steps. For in...
 
 </details>
 

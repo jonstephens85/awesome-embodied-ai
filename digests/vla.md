@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-18 22:23 UTC
+**Last updated:** 2026-02-19 16:53 UTC
 
-**Papers found:** 4
+**Papers found:** 5
 
 [Back to Home](../README.md)
 
@@ -12,41 +12,58 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI](https://arxiv.org/abs/2602.14974v1)
+### [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)
 
-**Authors:** En Yu, Haoran Lv, Jianjian Sun, Kangheng Lin, Ruitao Zhang et al. (49 authors)
+**Authors:** Seonghyeon Ye, Yunhao Ge, Kaiyuan Zheng, Shenyuan Gao, Sihyun Yu et al. (36 authors)
 
-**Published:** 2026-02-16 | **Categories:** cs.RO
+**Published:** 2026-02-17 | **Categories:** cs.RO, cs.CV, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.14974v1) | [PDF](https://arxiv.org/pdf/2602.14974v1.pdf) | [GitHub](https://github.com/Dexmal/dexbotic)
-
-<details>
-<summary>Abstract</summary>
-
-Moving beyond the traditional paradigm of adapting internet-pretrained models to physical tasks, we present DM0, an Embodied-Native Vision-Language-Action (VLA) framework designed for Physical AI. Unlike approaches that treat physical grounding as a fine-tuning afterthought, DM0 unifies embodied manipulation and navigation by learning from heterogeneous data sources from the onset. Our methodology follows a comprehensive three-stage pipeline: Pretraining, Mid-Training, and Post-Training. First, ...
-
-</details>
-
----
-
-### [DriveFine: Refining-Augmented Masked Diffusion VLA for Precise and Robust Driving](https://arxiv.org/abs/2602.14577v1)
-
-**Authors:** Chenxu Dang, Sining Ang, Yongkang Li, Haochen Tian, Jie Wang et al. (10 authors)
-
-**Published:** 2026-02-16 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.14577v1) | [PDF](https://arxiv.org/pdf/2602.14577v1.pdf) | [GitHub](https://github.com/MSunDYY/DriveFine)
+**Links:** [arXiv](https://arxiv.org/abs/2602.15922v1) | [PDF](https://arxiv.org/pdf/2602.15922v1.pdf) | [Project Page](https://dreamzero0.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models for autonomous driving increasingly adopt generative planners trained with imitation learning followed by reinforcement learning. Diffusion-based planners suffer from modality alignment difficulties, low training efficiency, and limited generalization. Token-based planners are plagued by cumulative causal errors and irreversible decoding. In summary, the two dominant paradigms exhibit complementary strengths and weaknesses. In this paper, we propose DriveFine,...
+State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively f...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](https://arxiv.org/abs/2602.16710v1)
+
+**Authors:** Ruijie Zheng, Dantong Niu, Yuqi Xie, Jing Wang, Mengda Xu et al. (15 authors)
+
+**Published:** 2026-02-18 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.16710v1) | [PDF](https://arxiv.org/pdf/2602.16710v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Human behavior is among the most scalable sources of data for learning physical intelligence, yet how to effectively leverage it for dexterous manipulation remains unclear. While prior work demonstrates human to robot transfer in constrained settings, it is unclear whether large scale human data can support fine grained, high degree of freedom dexterous manipulation. We present EgoScale, a human to dexterous manipulation transfer framework built on large scale egocentric human data. We train a V...
+
+</details>
+
+---
+
+### [RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation](https://arxiv.org/abs/2602.16444v1)
+
+**Authors:** Yixue Zhang, Kun Wu, Zhi Gao, Zhen Zhao, Pei Ren et al. (15 authors)
+
+**Published:** 2026-02-18 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.16444v1) | [PDF](https://arxiv.org/pdf/2602.16444v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The pursuit of general-purpose robotic manipulation is hindered by the scarcity of diverse, real-world interaction data. Unlike data collection from web in vision or language, robotic data collection is an active process incurring prohibitive physical costs. Consequently, automated task curation to maximize data value remains a critical yet under-explored challenge. Existing manual methods are unscalable and biased toward common tasks, while off-the-shelf foundation models often hallucinate phys...
+
+</details>
+
+---
 
 ### [Selective Perception for Robot: Task-Aware Attention in Multimodal VLA](https://arxiv.org/abs/2602.15543v1)
 
