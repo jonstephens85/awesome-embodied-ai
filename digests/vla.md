@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-19 22:21 UTC
+**Last updated:** 2026-02-20 16:39 UTC
 
-**Papers found:** 5
+**Papers found:** 4
 
 [Back to Home](../README.md)
 
@@ -12,18 +12,35 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)
+### [When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs](https://arxiv.org/abs/2602.17659v1)
 
-**Authors:** Seonghyeon Ye, Yunhao Ge, Kaiyuan Zheng, Shenyuan Gao, Sihyun Yu et al. (36 authors)
+**Authors:** Yu Fang, Yuchun Feng, Dong Jing, Jiaqi Liu, Yue Yang et al. (8 authors)
 
-**Published:** 2026-02-17 | **Categories:** cs.RO, cs.CV, cs.LG
+**Published:** 2026-02-19 | **Categories:** cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.15922v1) | [PDF](https://arxiv.org/pdf/2602.15922v1.pdf) | [Project Page](https://dreamzero0.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2602.17659v1) | [PDF](https://arxiv.org/pdf/2602.17659v1.pdf) | [Project Page](https://vla-va.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively f...
+Vision-Language-Action models (VLAs) promise to ground language instructions in robot control, yet in practice often fail to faithfully follow language. When presented with instructions that lack strong scene-specific supervision, VLAs suffer from counterfactual failures: they act based on vision shortcuts induced by dataset biases, repeatedly executing well-learned behaviors and selecting objects frequently seen during training regardless of language intent. To systematically study it, we intro...
+
+</details>
+
+---
+
+### [FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment](https://arxiv.org/abs/2602.17259v1)
+
+**Authors:** Han Zhao, Jingbo Wang, Wenxuan Song, Shuai Chen, Yang Liu et al. (8 authors)
+
+**Published:** 2026-02-19 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.17259v1) | [PDF](https://arxiv.org/pdf/2602.17259v1.pdf) | [Project Page](https://h-zhao1997.github.io/frappe)
+
+<details>
+<summary>Abstract</summary>
+
+Enabling VLA models to predict environmental dynamics, known as world modeling, has been recognized as essential for improving robotic reasoning and generalization. However, current approaches face two main issues: 1. The training objective forces models to over-emphasize pixel-level reconstruction, which constrains semantic learning and generalization 2. Reliance on predicted future observations during inference often leads to error accumulation. To address these challenges, we introduce Future...
 
 </details>
 
@@ -48,52 +65,18 @@ Human behavior is among the most scalable sources of data for learning physical 
 
 ---
 
-### [RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation](https://arxiv.org/abs/2602.16444v1)
+### [RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation](https://arxiv.org/abs/2602.16444v2)
 
 **Authors:** Yixue Zhang, Kun Wu, Zhi Gao, Zhen Zhao, Pei Ren et al. (15 authors)
 
 **Published:** 2026-02-18 | **Categories:** cs.RO, cs.AI, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.16444v1) | [PDF](https://arxiv.org/pdf/2602.16444v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2602.16444v2) | [PDF](https://arxiv.org/pdf/2602.16444v2.pdf)
 
 <details>
 <summary>Abstract</summary>
 
 The pursuit of general-purpose robotic manipulation is hindered by the scarcity of diverse, real-world interaction data. Unlike data collection from web in vision or language, robotic data collection is an active process incurring prohibitive physical costs. Consequently, automated task curation to maximize data value remains a critical yet under-explored challenge. Existing manual methods are unscalable and biased toward common tasks, while off-the-shelf foundation models often hallucinate phys...
-
-</details>
-
----
-
-### [Selective Perception for Robot: Task-Aware Attention in Multimodal VLA](https://arxiv.org/abs/2602.15543v1)
-
-**Authors:** Young-Chae Son, Jung-Woo Lee, Yoon-Ji Choi, Dae-Kwan Ko, Soo-Chul Lim
-
-**Published:** 2026-02-17 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.15543v1) | [PDF](https://arxiv.org/pdf/2602.15543v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In robotics, Vision-Language-Action (VLA) models that integrate diverse multimodal signals from multi-view inputs have emerged as an effective approach. However, most prior work adopts static fusion that processes all visual inputs uniformly, which incurs unnecessary computational overhead and allows task-irrelevant background information to act as noise. Inspired by the principles of human active perception, we propose a dynamic information fusion framework designed to maximize the efficiency a...
-
-</details>
-
----
-
-### [ActionCodec: What Makes for Good Action Tokenizers](https://arxiv.org/abs/2602.15397v1)
-
-**Authors:** Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan et al. (11 authors)
-
-**Published:** 2026-02-17 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.15397v1) | [PDF](https://arxiv.org/pdf/2602.15397v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models leveraging the native autoregressive paradigm of Vision-Language Models (VLMs) have demonstrated superior instruction-following and training efficiency. Central to this paradigm is action tokenization, yet its design has primarily focused on reconstruction fidelity, failing to address its direct impact on VLA optimization. Consequently, the fundamental question of \textit{what makes for good action tokenizers} remains unanswered. In this paper, we bridge this ...
 
 </details>
 

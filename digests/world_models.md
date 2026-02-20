@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-19 22:21 UTC
+**Last updated:** 2026-02-20 16:39 UTC
 
-**Papers found:** 5
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment](https://arxiv.org/abs/2602.17259v1)
+
+**Authors:** Han Zhao, Jingbo Wang, Wenxuan Song, Shuai Chen, Yang Liu et al. (8 authors)
+
+**Published:** 2026-02-19 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.17259v1) | [PDF](https://arxiv.org/pdf/2602.17259v1.pdf) | [Project Page](https://h-zhao1997.github.io/frappe)
+
+<details>
+<summary>Abstract</summary>
+
+Enabling VLA models to predict environmental dynamics, known as world modeling, has been recognized as essential for improving robotic reasoning and generalization. However, current approaches face two main issues: 1. The training objective forces models to over-emphasize pixel-level reconstruction, which constrains semantic learning and generalization 2. Reliance on predicted future observations during inference often leads to error accumulation. To address these challenges, we introduce Future...
+
+</details>
+
+---
 
 ### [World Model Failure Classification and Anomaly Detection for Autonomous Inspection](https://arxiv.org/abs/2602.16182v1)
 
@@ -30,6 +47,40 @@ Autonomous inspection robots for monitoring industrial sites can reduce costs an
 ---
 
 ## Other Recent Papers
+
+### [AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games](https://arxiv.org/abs/2602.17594v1)
+
+**Authors:** Lance Ying, Ryan Truong, Prafull Sharma, Kaiya Ivy Zhao, Nathan Cloos et al. (12 authors)
+
+**Published:** 2026-02-19 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.17594v1) | [PDF](https://arxiv.org/pdf/2602.17594v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human activity. Most are also static, quickly saturating as developers explicitly or implicitly optimize for them. We propose that a more promising way to evaluate human-like general intelligence in AI systems is th...
+
+</details>
+
+---
+
+### [Continual learning and refinement of causal models through dynamic predicate invention](https://arxiv.org/abs/2602.17217v1)
+
+**Authors:** Enrique Crespo-Fernandez, Oliver Ray, Telmo de Menezes e Silva Filho, Peter Flach
+
+**Published:** 2026-02-19 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.17217v1) | [PDF](https://arxiv.org/pdf/2602.17217v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Efficiently navigating complex environments requires agents to internalize the underlying logic of their world, yet standard world modelling methods often struggle with sample inefficiency, lack of transparency, and poor scalability. We propose a framework for constructing symbolic causal world models entirely online by integrating continuous model learning and repair into the agent's decision loop, by leveraging the power of Meta-Interpretive Learning and predicate invention to find semanticall...
+
+</details>
+
+---
 
 ### [Learning to unfold cloth: Scaling up world models to deformable object manipulation](https://arxiv.org/abs/2602.16675v1)
 
@@ -60,40 +111,6 @@ Learning to manipulate cloth is both a paradigmatic problem for robotic research
 <summary>Abstract</summary>
 
 Learning latent actions from action-free video has emerged as a powerful paradigm for scaling up controllable world model learning. Latent actions provide a natural interface for users to iteratively generate and manipulate videos. However, most existing approaches rely on monolithic inverse and forward dynamics models that learn a single latent action to control the entire scene, and therefore struggle in complex environments where multiple entities act simultaneously. This paper introduces Fac...
-
-</details>
-
----
-
-### [VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing](https://arxiv.org/abs/2602.15549v1)
-
-**Authors:** Guoqin Tang, Qingxuan Jia, Gang Chen, Tong Li, Zeyuan Huang et al. (7 authors)
-
-**Published:** 2026-02-17 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.15549v1) | [PDF](https://arxiv.org/pdf/2602.15549v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language model (VLM) shows promise for high-level planning in smart manufacturing, yet their deployment in dynamic workcells faces two critical challenges: (1) stateless operation, they cannot persistently track out-of-view states, causing world-state drift; and (2) opaque reasoning, failures are difficult to diagnose, leading to costly blind retries. This paper presents VLM-DEWM, a cognitive architecture that decouples VLM reasoning from world-state management through a persistent, query...
-
-</details>
-
----
-
-### [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384v1)
-
-**Authors:** Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li et al. (6 authors)
-
-**Published:** 2026-02-17 | **Categories:** cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.15384v1) | [PDF](https://arxiv.org/pdf/2602.15384v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and...
 
 </details>
 
