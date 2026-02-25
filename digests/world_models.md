@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-24 22:23 UTC
+**Last updated:** 2026-02-25 17:07 UTC
 
-**Papers found:** 6
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [RAYNOVA: 3D-Geometry-Free Auto-Regressive Driving World Modeling with Unified Spatio-Temporal Representation](https://arxiv.org/abs/2602.20685v1)
+
+**Authors:** Yichen Xie, Chensheng Peng, Mazen Abdelfattah, Yihan Hu, Jiezhi Yang et al. (9 authors)
+
+**Published:** 2026-02-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.20685v1) | [PDF](https://arxiv.org/pdf/2602.20685v1.pdf) | [Project Page](http://yichen928.github.io/raynova)
+
+<details>
+<summary>Abstract</summary>
+
+World foundation models aim to simulate the evolution of the real world with physically plausible behavior. Unlike prior methods that handle spatial and temporal correlations separately, we propose RAYNOVA, a geometry-free world model that employs a dual-causal autoregressive framework. It follows both scale-wise and temporal topological orders in the autoregressive process, and leverages global attention for unified 4D spatio-temporal reasoning. Different from existing works that impose strong ...
+
+</details>
+
+---
 
 ### [AdaWorldPolicy: World-Model-Driven Diffusion Policy with Online Adaptive Learning for Robotic Manipulation](https://arxiv.org/abs/2602.20057v1)
 
@@ -29,24 +46,41 @@ Effective robotic manipulation requires policies that can anticipate physical ou
 
 ---
 
-### [MRI Contrast Enhancement Kinetics World Model](https://arxiv.org/abs/2602.19285v1)
+## Other Recent Papers
 
-**Authors:** Jindi Kong, Yuting He, Cong Xia, Rongjun Ge, Shuo Li
+### [Recursive Belief Vision Language Model](https://arxiv.org/abs/2602.20659v1)
 
-**Published:** 2026-02-22 | **Categories:** cs.CV
+**Authors:** Vaidehi Bagaria, Bijo Sebastian, Nirav Patel
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.19285v1) | [PDF](https://arxiv.org/pdf/2602.19285v1.pdf) | [GitHub](https://github.com/DD0922/MRI-Contrast-Enhancement-Kinetics-World-Model)
+**Published:** 2026-02-24 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.20659v1) | [PDF](https://arxiv.org/pdf/2602.20659v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Clinical MRI contrast acquisition suffers from inefficient information yield, which presents as a mismatch between the risky and costly acquisition protocol and the fixed and sparse acquisition sequence. Applying world models to simulate the contrast enhancement kinetics in the human body enables continuous contrast-free dynamics. However, the low temporal resolution in MRI acquisition restricts the training of world models, leading to a sparsely sampled dataset. Directly training a generative m...
+Current vision-language-action (VLA) models struggle with long-horizon manipulation under partial observability. Most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. Semantic reasoning alone is not the primary bottleneck in long-horizon manipulation. Instead, VLAs lack persistent, action-conditioned sta...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [The Finite Primitive Basis Theorem for Computational Imaging: Formal Foundations of the OperatorGraph Representation](https://arxiv.org/abs/2602.20550v1)
+
+**Authors:** Chengshuai Yang
+
+**Published:** 2026-02-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.20550v1) | [PDF](https://arxiv.org/pdf/2602.20550v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Computational imaging forward models, from coded aperture spectral cameras to MRI scanners, are traditionally implemented as monolithic, modality-specific codes. We prove that every forward model in a broad, precisely defined operator class Cimg (encompassing clinical, scientific, and industrial imaging modalities, both linear and nonlinear) admits an epsilon-approximate representation as a typed directed acyclic graph (DAG) whose nodes are drawn from a library of exactly 11 canonical primitives...
+
+</details>
+
+---
 
 ### [Compositional Planning with Jumpy World Models](https://arxiv.org/abs/2602.19634v1)
 
@@ -94,23 +128,6 @@ Video-LLMs have improved steadily on semantic perception, but they still fall sh
 <summary>Abstract</summary>
 
 As drone-based object detection technology continues to evolve, the demand is shifting from merely detecting objects to enabling users to accurately identify specific targets. For example, users can input particular targets as prompts to precisely detect desired objects. To address this need, an efficient text-guided object detection model has been developed to enhance the detection of small objects. Specifically, an improved version of the existing YOLO-World model is introduced. The proposed m...
-
-</details>
-
----
-
-### [K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model](https://arxiv.org/abs/2602.19128v1)
-
-**Authors:** Shiyi Cao, Ziming Mao, Joseph E. Gonzalez, Ion Stoica
-
-**Published:** 2026-02-22 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.19128v1) | [PDF](https://arxiv.org/pdf/2602.19128v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Optimizing GPU kernels is critical for efficient modern machine learning systems yet remains challenging due to the complex interplay of design factors and rapid hardware evolution. Existing automated approaches typically treat Large Language Models (LLMs) merely as stochastic code generators within heuristic-guided evolutionary loops. These methods often struggle with complex kernels requiring coordinated, multi-step structural transformations, as they lack explicit planning capabilities and fr...
 
 </details>
 
