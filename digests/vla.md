@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-02-25 22:22 UTC
+**Last updated:** 2026-02-26 16:59 UTC
 
-**Papers found:** 12
+**Papers found:** 15
 
 [Back to Home](../README.md)
 
@@ -12,24 +12,109 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [UniLACT: Depth-Aware RGB Latent Action Learning for Vision-Language-Action Models](https://arxiv.org/abs/2602.20231v1)
+### [World Guidance: World Modeling in Condition Space for Action Generation](https://arxiv.org/abs/2602.22010v1)
 
-**Authors:** Manish Kumar Govind, Dominick Reilly, Pu Wang, Srijan Das
+**Authors:** Yue Su, Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang et al. (10 authors)
 
-**Published:** 2026-02-23 | **Categories:** cs.RO, cs.CV
+**Published:** 2026-02-25 | **Categories:** cs.RO, cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.20231v1) | [PDF](https://arxiv.org/pdf/2602.20231v1.pdf) | [Project Page](https://manishgovind.github.io/unilact-vla/)
+**Links:** [arXiv](https://arxiv.org/abs/2602.22010v1) | [PDF](https://arxiv.org/pdf/2602.22010v1.pdf) | [Project Page](is)
 
 <details>
 <summary>Abstract</summary>
 
-Latent action representations learned from unlabeled videos have recently emerged as a promising paradigm for pretraining vision-language-action (VLA) models without explicit robot action supervision. However, latent actions derived solely from RGB observations primarily encode appearance-driven dynamics and lack explicit 3D geometric structure, which is essential for precise and contact-rich manipulation. To address this limitation, we introduce UniLACT, a transformer-based VLA model that incor...
+Leveraging future observation modeling to facilitate action generation presents a promising avenue for enhancing the capabilities of Vision-Language-Action (VLA) models. However, existing approaches struggle to strike a balance between maintaining efficient, predictable future representations and preserving sufficient fine-grained information to guide precise action generation. To address this limitation, we propose WoG (World Guidance), a framework that maps future observations into compact con...
+
+</details>
+
+---
+
+### [Self-Correcting VLA: Online Action Refinement via Sparse World Imagination](https://arxiv.org/abs/2602.21633v1)
+
+**Authors:** Chenyv Liu, Wentao Tan, Lei Zhu, Fengling Li, Jingjing Li et al. (7 authors)
+
+**Published:** 2026-02-25 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.21633v1) | [PDF](https://arxiv.org/pdf/2602.21633v1.pdf) | [GitHub](https://github.com/Kisaragi0/SC-VLA)
+
+<details>
+<summary>Abstract</summary>
+
+Standard vision-language-action (VLA) models rely on fitting statistical data priors, limiting their robust understanding of underlying physical dynamics. Reinforcement learning enhances physical grounding through exploration yet typically relies on external reward signals that remain isolated from the agent's internal states. World action models have emerged as a promising paradigm that integrates imagination and control to enable predictive planning. However, they rely on implicit context mode...
+
+</details>
+
+---
+
+### [LiLo-VLA: Compositional Long-Horizon Manipulation via Linked Object-Centric Policies](https://arxiv.org/abs/2602.21531v1)
+
+**Authors:** Yue Yang, Shuo Cheng, Yu Fang, Homanga Bharadhwaj, Mingyu Ding et al. (7 authors)
+
+**Published:** 2026-02-25 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.21531v1) | [PDF](https://arxiv.org/pdf/2602.21531v1.pdf) | [Project Page](https://yy-gx.github.io/LiLo-VLA/)
+
+<details>
+<summary>Abstract</summary>
+
+General-purpose robots must master long-horizon manipulation, defined as tasks involving multiple kinematic structure changes (e.g., attaching or detaching objects) in unstructured environments. While Vision-Language-Action (VLA) models offer the potential to master diverse atomic skills, they struggle with the combinatorial complexity of sequencing them and are prone to cascading failures due to environmental sensitivity. To address these challenges, we propose LiLo-VLA (Linked Local VLA), a mo...
+
+</details>
+
+---
+
+### [VLA Knows Its Limits](https://arxiv.org/abs/2602.21445v1)
+
+**Authors:** Haoxuan Wang, Gengyu Zhang, Yan Yan, Ramana Rao Kompella, Gaowen Liu
+
+**Published:** 2026-02-24 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.21445v1) | [PDF](https://arxiv.org/pdf/2602.21445v1.pdf) | [Project Page](at)
+
+<details>
+<summary>Abstract</summary>
+
+Action chunking has recently emerged as a standard practice in flow-based Vision-Language-Action (VLA) models. However, the effect and choice of the execution horizon - the number of actions to be executed from each predicted chunk - remains underexplored. In this work, we first show that varying the execution horizon leads to substantial performance deviations, with performance initially improving and then declining as the horizon increases. To uncover the reasons, we analyze the cross- and sel...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Are Foundation Models the Route to Full-Stack Transfer in Robotics?](https://arxiv.org/abs/2602.22001v1)
+
+**Authors:** Freek Stulp, Samuel Bustamante, João Silvério, Alin Albu-Schäffer, Jeannette Bohg et al. (6 authors)
+
+**Published:** 2026-02-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.22001v1) | [PDF](https://arxiv.org/pdf/2602.22001v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In humans and robots alike, transfer learning occurs at different levels of abstraction, from high-level linguistic transfer to low-level transfer of motor skills. In this article, we provide an overview of the impact that foundation models and transformer networks have had on these different levels, bringing robots closer than ever to "full-stack transfer". Considering LLMs, VLMs and VLAs from a robotic transfer learning perspective allows us to highlight recurring concepts for transfer, beyond...
+
+</details>
+
+---
+
+### [Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild](https://arxiv.org/abs/2602.21736v1)
+
+**Authors:** Hao Luo, Ye Wang, Wanpeng Zhang, Haoqi Yuan, Yicheng Feng et al. (8 authors)
+
+**Published:** 2026-02-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.21736v1) | [PDF](https://arxiv.org/pdf/2602.21736v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Despite progress, Vision-Language-Action models (VLAs) are limited by a scarcity of large-scale, diverse robot data. While human manipulation videos offer a rich alternative, existing methods are forced to choose between small, precisely-labeled datasets and vast in-the-wild footage with unreliable hand tracking labels. We present JALA, a pretraining framework that learns Jointly-Aligned Latent Actions. JALA bypasses full visual dynamic reconstruction, instead learns a predictive action embeddin...
+
+</details>
+
+---
 
 ### [NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning](https://arxiv.org/abs/2602.21172v1)
 
@@ -116,18 +201,18 @@ Vision-Language-Action (VLA) models have demonstrated significant potential for 
 
 ---
 
-### [Recursive Belief Vision Language Model](https://arxiv.org/abs/2602.20659v1)
+### [Recursive Belief Vision Language Action Models](https://arxiv.org/abs/2602.20659v2)
 
-**Authors:** Vaidehi Bagaria, Bijo Sebastian, Nirav Patel
+**Authors:** Vaidehi Bagaria, Bijo Sebastian, Nirav Kumar Patel
 
 **Published:** 2026-02-24 | **Categories:** cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.20659v1) | [PDF](https://arxiv.org/pdf/2602.20659v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2602.20659v2) | [PDF](https://arxiv.org/pdf/2602.20659v2.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Current vision-language-action (VLA) models struggle with long-horizon manipulation under partial observability. Most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. Semantic reasoning alone is not the primary bottleneck in long-horizon manipulation. Instead, VLAs lack persistent, action-conditioned sta...
+Vision-language-action models must enable agents to execute long-horizon tasks under partial observability. However, most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. While semantic grounding is important, long-horizon manipulation fundamentally requires persistent, action-conditioned state represent...
 
 </details>
 
@@ -179,40 +264,6 @@ Vision-Language-Action (VLA) models have achieved significant breakthroughs by l
 <summary>Abstract</summary>
 
 Large Language Models (LLMs) and Vision-Language Models (VLMs) have emerged as promising candidates for end-to-end autonomous driving. However, these models typically face challenges in inference latency, action precision, and explainability. Existing autoregressive approaches struggle with slow token-by-token generation, while prior diffusion-based planners often rely on verbose, general-purpose language tokens that lack explicit geometric structure. In this work, we propose Masked Vision-Langu...
-
-</details>
-
----
-
-### [QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2602.20309v1)
-
-**Authors:** Jingxuan Zhang, Yunta Hsieh, Zhongwei Wang, Haokun Lin, Xin Wang et al. (8 authors)
-
-**Published:** 2026-02-23 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.20309v1) | [PDF](https://arxiv.org/pdf/2602.20309v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models unify perception, language, and control for embodied agents but face significant challenges in practical deployment due to rapidly increasing compute and memory demands, especially as models scale to longer horizons and larger backbones. To address these bottlenecks, we introduce QuantVLA, a training-free post-training quantization (PTQ) framework that, to our knowledge, is the first PTQ approach for VLA systems and the first to successfully quantize a diffusi...
-
-</details>
-
----
-
-### [Universal Pose Pretraining for Generalizable Vision-Language-Action Policies](https://arxiv.org/abs/2602.19710v1)
-
-**Authors:** Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling et al. (8 authors)
-
-**Published:** 2026-02-23 | **Categories:** cs.CV, cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.19710v1) | [PDF](https://arxiv.org/pdf/2602.19710v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Existing Vision-Language-Action (VLA) models often suffer from feature collapse and low training efficiency because they entangle high-level perception with sparse, embodiment-specific action supervision. Since these models typically rely on VLM backbones optimized for Visual Question Answering (VQA), they excel at semantic identification but often overlook subtle 3D state variations that dictate distinct action patterns. To resolve these misalignments, we propose Pose-VLA, a decoupled paradigm ...
 
 </details>
 
