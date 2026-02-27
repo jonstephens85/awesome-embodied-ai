@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-26 22:23 UTC
+**Last updated:** 2026-02-27 16:40 UTC
 
-**Papers found:** 6
+**Papers found:** 11
 
 [Back to Home](../README.md)
 
@@ -12,13 +12,47 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [Solaris: Building a Multiplayer Video World Model in Minecraft](https://arxiv.org/abs/2602.22208v1)
+### [GeoWorld: Geometric World Models](https://arxiv.org/abs/2602.23058v1)
+
+**Authors:** Zeyu Zhang, Danning Li, Ian Reid, Richard Hartley
+
+**Published:** 2026-02-26 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.23058v1) | [PDF](https://arxiv.org/pdf/2602.23058v1.pdf) | [Project Page](https://steve-zeyu-zhang.github.io/GeoWorld)
+
+<details>
+<summary>Abstract</summary>
+
+Energy-based predictive world models provide a powerful approach for multi-step visual planning by reasoning over latent energy landscapes rather than generating pixels. However, existing approaches face two major challenges: (i) their latent representations are typically learned in Euclidean space, neglecting the underlying geometric and hierarchical structure among states, and (ii) they struggle with long-horizon prediction, which leads to rapid degradation across extended rollouts. To address...
+
+</details>
+
+---
+
+### [UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models](https://arxiv.org/abs/2602.22960v1)
+
+**Authors:** Tianxing Xu, Zixuan Wang, Guangyuan Wang, Li Hu, Zhongyi Zhang et al. (8 authors)
+
+**Published:** 2026-02-26 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.22960v1) | [PDF](https://arxiv.org/pdf/2602.22960v1.pdf) | [Project Page](https://humanaigc.github.io/ucm-webpage/)
+
+<details>
+<summary>Abstract</summary>
+
+World models based on video generation demonstrate remarkable potential for simulating interactive environments but face persistent difficulties in two key areas: maintaining long-term content consistency when scenes are revisited and enabling precise camera control from user-provided inputs. Existing methods based on explicit 3D reconstruction often compromise flexibility in unbounded scenarios and fine-grained structures. Alternative methods rely directly on previously generated frames without...
+
+</details>
+
+---
+
+### [Solaris: Building a Multiplayer Video World Model in Minecraft](https://arxiv.org/abs/2602.22208v2)
 
 **Authors:** Georgy Savva, Oscar Michel, Daohan Lu, Suppakit Waiwitlikhit, Timothy Meehan et al. (9 authors)
 
 **Published:** 2026-02-25 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.22208v1) | [PDF](https://arxiv.org/pdf/2602.22208v1.pdf) | [Project Page](https://solaris-wm.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2602.22208v2) | [PDF](https://arxiv.org/pdf/2602.22208v2.pdf) | [Project Page](https://solaris-wm.github.io/)
 
 <details>
 <summary>Abstract</summary>
@@ -46,24 +80,109 @@ Leveraging future observation modeling to facilitate action generation presents 
 
 ---
 
-### [RAYNOVA: Scale-Temporal Autoregressive World Modeling in Ray Space](https://arxiv.org/abs/2602.20685v2)
+## Other Recent Papers
 
-**Authors:** Yichen Xie, Chensheng Peng, Mazen Abdelfattah, Yihan Hu, Jiezhi Yang et al. (9 authors)
+### [Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving](https://arxiv.org/abs/2602.23259v1)
 
-**Published:** 2026-02-24 | **Categories:** cs.CV
+**Authors:** Jiangxin Sun, Feng Xue, Teng Long, Chang Liu, Jian-Fang Hu et al. (7 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2602.20685v2) | [PDF](https://arxiv.org/pdf/2602.20685v2.pdf) | [Project Page](https://raynova-ai.github.io/)
+**Published:** 2026-02-26 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.23259v1) | [PDF](https://arxiv.org/pdf/2602.23259v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World foundation models aim to simulate the evolution of the real world with physically plausible behavior. Unlike prior methods that handle spatial and temporal correlations separately, we propose RAYNOVA, a geometry-agonistic multiview world model for driving scenarios that employs a dual-causal autoregressive framework. It follows both scale-wise and temporal topological orders in the autoregressive process, and leverages global attention for unified 4D spatio-temporal reasoning. Different fr...
+With advances in imitation learning (IL) and large-scale driving datasets, end-to-end autonomous driving (E2E-AD) has made great progress recently. Currently, IL-based methods have become a mainstream paradigm: models rely on standard driving behaviors given by experts, and learn to minimize the discrepancy between their actions and expert actions. However, this objective of "only driving like the expert" suffers from limited generalization: when encountering rare or unseen long-tail scenarios o...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [MetaOthello: A Controlled Study of Multiple World Models in Transformers](https://arxiv.org/abs/2602.23164v1)
+
+**Authors:** Aviral Chawla, Galen Hall, Juniper Lovato
+
+**Published:** 2026-02-26 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.23164v1) | [PDF](https://arxiv.org/pdf/2602.23164v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Foundation models must handle multiple generative processes, yet mechanistic interpretability largely studies capabilities in isolation; it remains unclear how a single transformer organizes multiple, potentially conflicting "world models". Previous experiments on Othello playing neural-networks test world-model learning but focus on a single game with a single set of rules. We introduce MetaOthello, a controlled suite of Othello variants with shared syntax but different rules or tokenizations, ...
+
+</details>
+
+---
+
+### [The Trinity of Consistency as a Defining Principle for General World Models](https://arxiv.org/abs/2602.23152v1)
+
+**Authors:** Jingxuan Wei, Siyuan Li, Yuhang Xu, Zheng Sun, Junjie Jiang et al. (24 authors)
+
+**Published:** 2026-02-26 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.23152v1) | [PDF](https://arxiv.org/pdf/2602.23152v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The construction of World Models capable of learning, simulating, and reasoning about objective physical laws constitutes a foundational challenge in the pursuit of Artificial General Intelligence. Recent advancements represented by video generation models like Sora have demonstrated the potential of data-driven scaling laws to approximate physical dynamics, while the emerging Unified Multimodal Model (UMM) offers a promising architectural paradigm for integrating perception, language, and reaso...
+
+</details>
+
+---
+
+### [On Sample-Efficient Generalized Planning via Learned Transition Models](https://arxiv.org/abs/2602.23148v1)
+
+**Authors:** Nitin Gupta, Vishal Pallagani, John A. Aydin, Biplav Srivastava
+
+**Published:** 2026-02-26 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.23148v1) | [PDF](https://arxiv.org/pdf/2602.23148v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Generalized planning studies the construction of solution strategies that generalize across families of planning problems sharing a common domain model, formally defined by a transition function $γ: S \times A \rightarrow S$. Classical approaches achieve such generalization through symbolic abstractions and explicit reasoning over $γ$. In contrast, recent Transformer-based planners, such as PlanGPT and Plansformer, largely cast generalized planning as direct action-sequence prediction, bypassing...
+
+</details>
+
+---
+
+### [CWM: Contrastive World Models for Action Feasibility Learning in Embodied Agent Pipelines](https://arxiv.org/abs/2602.22452v1)
+
+**Authors:** Chayan Banerjee
+
+**Published:** 2026-02-25 | **Categories:** cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.22452v1) | [PDF](https://arxiv.org/pdf/2602.22452v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A reliable action feasibility scorer is a critical bottleneck in embodied agent pipelines: before any planning or reasoning occurs, the agent must identify which candidate actions are physically executable in the current state. Existing approaches use supervised fine-tuning (SFT) to train action scorers, but SFT treats each candidate independently and does not explicitly teach the model to discriminate between actions that are physically correct and those that are subtly wrong. We propose the Co...
+
+</details>
+
+---
+
+### [Code World Models for Parameter Control in Evolutionary Algorithms](https://arxiv.org/abs/2602.22260v1)
+
+**Authors:** Camilo Chacón Sartori, Guillem Rodríguez Corominas
+
+**Published:** 2026-02-25 | **Categories:** cs.LG, cs.NE
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.22260v1) | [PDF](https://arxiv.org/pdf/2602.22260v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Can an LLM learn how an optimizer behaves -- and use that knowledge to control it? We extend Code World Models (CWMs), LLM-synthesized Python programs that predict environment dynamics, from deterministic games to stochastic combinatorial optimization. Given suboptimal trajectories of $(1{+}1)$-$\text{RLS}_k$, the LLM synthesizes a simulator of the optimizer's dynamics; greedy planning over this simulator then selects the mutation strength $k$ at each step. On \lo{} and \onemax{}, CWM-greedy per...
+
+</details>
+
+---
 
 ### [Geometric Priors for Generalizable World Models via Vector Symbolic Architecture](https://arxiv.org/abs/2602.21467v1)
 
@@ -77,40 +196,6 @@ World foundation models aim to simulate the evolution of the real world with phy
 <summary>Abstract</summary>
 
 A key challenge in artificial intelligence and neuroscience is understanding how neural systems learn representations that capture the underlying dynamics of the world. Most world models represent the transition function with unstructured neural networks, limiting interpretability, sample efficiency, and generalization to unseen states or action compositions. We address these issues with a generalizable world model grounded in Vector Symbolic Architecture (VSA) principles as geometric priors. Ou...
-
-</details>
-
----
-
-### [Recursive Belief Vision Language Action Models](https://arxiv.org/abs/2602.20659v2)
-
-**Authors:** Vaidehi Bagaria, Bijo Sebastian, Nirav Kumar Patel
-
-**Published:** 2026-02-24 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.20659v2) | [PDF](https://arxiv.org/pdf/2602.20659v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action models must enable agents to execute long-horizon tasks under partial observability. However, most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. While semantic grounding is important, long-horizon manipulation fundamentally requires persistent, action-conditioned state represent...
-
-</details>
-
----
-
-### [The Finite Primitive Basis Theorem for Computational Imaging: Formal Foundations of the OperatorGraph Representation](https://arxiv.org/abs/2602.20550v1)
-
-**Authors:** Chengshuai Yang
-
-**Published:** 2026-02-24 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.20550v1) | [PDF](https://arxiv.org/pdf/2602.20550v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Computational imaging forward models, from coded aperture spectral cameras to MRI scanners, are traditionally implemented as monolithic, modality-specific codes. We prove that every forward model in a broad, precisely defined operator class Cimg (encompassing clinical, scientific, and industrial imaging modalities, both linear and nonlinear) admits an epsilon-approximate representation as a typed directed acyclic graph (DAG) whose nodes are drawn from a library of exactly 11 canonical primitives...
 
 </details>
 
