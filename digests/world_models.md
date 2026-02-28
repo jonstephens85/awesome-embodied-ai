@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-02-27 22:14 UTC
+**Last updated:** 2026-02-28 16:26 UTC
 
-**Papers found:** 11
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
@@ -41,40 +41,6 @@ Energy-based predictive world models provide a powerful approach for multi-step 
 <summary>Abstract</summary>
 
 World models based on video generation demonstrate remarkable potential for simulating interactive environments but face persistent difficulties in two key areas: maintaining long-term content consistency when scenes are revisited and enabling precise camera control from user-provided inputs. Existing methods based on explicit 3D reconstruction often compromise flexibility in unbounded scenarios and fine-grained structures. Alternative methods rely directly on previously generated frames without...
-
-</details>
-
----
-
-### [Solaris: Building a Multiplayer Video World Model in Minecraft](https://arxiv.org/abs/2602.22208v2)
-
-**Authors:** Georgy Savva, Oscar Michel, Daohan Lu, Suppakit Waiwitlikhit, Timothy Meehan et al. (9 authors)
-
-**Published:** 2026-02-25 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.22208v2) | [PDF](https://arxiv.org/pdf/2602.22208v2.pdf) | [Project Page](https://solaris-wm.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Existing action-conditioned video generation models (video world models) are limited to single-agent perspectives, failing to capture the multi-agent interactions of real-world environments. We introduce Solaris, a multiplayer video world model that simulates consistent multi-view observations. To enable this, we develop a multiplayer data system designed for robust, continuous, and automated data collection on video games such as Minecraft. Unlike prior platforms built for single-player setting...
-
-</details>
-
----
-
-### [World Guidance: World Modeling in Condition Space for Action Generation](https://arxiv.org/abs/2602.22010v1)
-
-**Authors:** Yue Su, Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang et al. (10 authors)
-
-**Published:** 2026-02-25 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.22010v1) | [PDF](https://arxiv.org/pdf/2602.22010v1.pdf) | [Project Page](is)
-
-<details>
-<summary>Abstract</summary>
-
-Leveraging future observation modeling to facilitate action generation presents a promising avenue for enhancing the capabilities of Vision-Language-Action (VLA) models. However, existing approaches struggle to strike a balance between maintaining efficient, predictable future representations and preserving sufficient fine-grained information to guide precise action generation. To address this limitation, we propose WoG (World Guidance), a framework that maps future observations into compact con...
 
 </details>
 
@@ -145,57 +111,6 @@ The construction of World Models capable of learning, simulating, and reasoning 
 <summary>Abstract</summary>
 
 Generalized planning studies the construction of solution strategies that generalize across families of planning problems sharing a common domain model, formally defined by a transition function $γ: S \times A \rightarrow S$. Classical approaches achieve such generalization through symbolic abstractions and explicit reasoning over $γ$. In contrast, recent Transformer-based planners, such as PlanGPT and Plansformer, largely cast generalized planning as direct action-sequence prediction, bypassing...
-
-</details>
-
----
-
-### [CWM: Contrastive World Models for Action Feasibility Learning in Embodied Agent Pipelines](https://arxiv.org/abs/2602.22452v1)
-
-**Authors:** Chayan Banerjee
-
-**Published:** 2026-02-25 | **Categories:** cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.22452v1) | [PDF](https://arxiv.org/pdf/2602.22452v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A reliable action feasibility scorer is a critical bottleneck in embodied agent pipelines: before any planning or reasoning occurs, the agent must identify which candidate actions are physically executable in the current state. Existing approaches use supervised fine-tuning (SFT) to train action scorers, but SFT treats each candidate independently and does not explicitly teach the model to discriminate between actions that are physically correct and those that are subtly wrong. We propose the Co...
-
-</details>
-
----
-
-### [Code World Models for Parameter Control in Evolutionary Algorithms](https://arxiv.org/abs/2602.22260v1)
-
-**Authors:** Camilo Chacón Sartori, Guillem Rodríguez Corominas
-
-**Published:** 2026-02-25 | **Categories:** cs.LG, cs.NE
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.22260v1) | [PDF](https://arxiv.org/pdf/2602.22260v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Can an LLM learn how an optimizer behaves -- and use that knowledge to control it? We extend Code World Models (CWMs), LLM-synthesized Python programs that predict environment dynamics, from deterministic games to stochastic combinatorial optimization. Given suboptimal trajectories of $(1{+}1)$-$\text{RLS}_k$, the LLM synthesizes a simulator of the optimizer's dynamics; greedy planning over this simulator then selects the mutation strength $k$ at each step. On \lo{} and \onemax{}, CWM-greedy per...
-
-</details>
-
----
-
-### [Geometric Priors for Generalizable World Models via Vector Symbolic Architecture](https://arxiv.org/abs/2602.21467v1)
-
-**Authors:** William Youngwoo Chung, Calvin Yeung, Hansen Jin Lillemark, Zhuowen Zou, Xiangjian Liu et al. (6 authors)
-
-**Published:** 2026-02-25 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2602.21467v1) | [PDF](https://arxiv.org/pdf/2602.21467v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A key challenge in artificial intelligence and neuroscience is understanding how neural systems learn representations that capture the underlying dynamics of the world. Most world models represent the transition function with unstructured neural networks, limiting interpretability, sample efficiency, and generalization to unseen states or action compositions. We address these issues with a generalizable world model grounded in Vector Symbolic Architecture (VSA) principles as geometric priors. Ou...
 
 </details>
 
