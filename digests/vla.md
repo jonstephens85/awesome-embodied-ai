@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-03-03 22:19 UTC
+**Last updated:** 2026-03-04 16:44 UTC
 
 **Papers found:** 12
 
@@ -11,6 +11,40 @@ Papers on VLAs and vision-language-action architectures for robotics.
 ---
 
 ## Papers with Project Pages / Code
+
+### [Chain of World: World Model Thinking in Latent Motion](https://arxiv.org/abs/2603.03195v1)
+
+**Authors:** Fuxiang Yang, Donglin Di, Lulu Tang, Xuancheng Zhang, Lei Fan et al. (9 authors)
+
+**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03195v1) | [PDF](https://arxiv.org/pdf/2603.03195v1.pdf) | [Project Page](https://fx-hit.github.io/cowvla-io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models are a promising path toward embodied intelligence, yet they often overlook the predictive and temporal-causal structure underlying visual dynamics. World-model VLAs address this by predicting future frames, but waste capacity reconstructing redundant backgrounds. Latent-action VLAs encode frame-to-frame transitions compactly, but lack temporally continuous dynamic modeling and world knowledge. To overcome these limitations, we introduce CoWVLA (Chain-of-World ...
+
+</details>
+
+---
+
+### [Utonia: Toward One Encoder for All Point Clouds](https://arxiv.org/abs/2603.03283v1)
+
+**Authors:** Yujia Zhang, Xiaoyang Wu, Yunhan Yang, Xianzhe Fan, Han Li et al. (9 authors)
+
+**Published:** 2026-03-03 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03283v1) | [PDF](https://arxiv.org/pdf/2603.03283v1.pdf) | [Project Page](https://pointcept.github.io/Utonia)
+
+<details>
+<summary>Abstract</summary>
+
+We dream of a future where point clouds from all domains can come together to shape a single model that benefits them all. Toward this goal, we present Utonia, a first step toward training a single self-supervised point transformer encoder across diverse domains, spanning remote sensing, outdoor LiDAR, indoor RGB-D sequences, object-centric CAD models, and point clouds lifted from RGB-only videos. Despite their distinct sensing geometries, densities, and priors, Utonia learns a consistent repres...
+
+</details>
+
+---
 
 ### [Non-Markovian Long-Horizon Robot Manipulation via Keyframe Chaining](https://arxiv.org/abs/2603.01465v1)
 
@@ -179,40 +213,6 @@ Recent advances in FlowMatching-based Vision-Language-Action (VLA) frameworks ha
 <summary>Abstract</summary>
 
 Vision-Language-Action (VLA) models are emerging as a promising paradigm for end-to-end autonomous driving, valued for their potential to leverage world knowledge and reason about complex driving scenes. However, existing methods suffer from two critical limitations: a persistent misalignment between language instructions and action outputs, and the inherent inefficiency of typical auto-regressive action generation. In this paper, we introduce LinkVLA, a novel architecture that directly addresse...
-
-</details>
-
----
-
-### [Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures](https://arxiv.org/abs/2603.01063v1)
-
-**Authors:** Yuechen Luo, Qimao Chen, Fang Li, Shaoqing Xu, Jaxin Liu et al. (8 authors)
-
-**Published:** 2026-03-01 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01063v1) | [PDF](https://arxiv.org/pdf/2603.01063v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models for autonomous driving often hit a performance plateau during Reinforcement Learning (RL) optimization. This stagnation arises from exploration capabilities constrained by previous Supervised Fine-Tuning (SFT), leading to persistent failures in long-tail scenarios. In these critical situations, all explored actions yield a zero-value driving score. This information-sparse reward signals a failure, yet fails to identify its root cause -- whether it is due to in...
-
-</details>
-
----
-
-### [DAM-VLA: A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation](https://arxiv.org/abs/2603.00926v1)
-
-**Authors:** Xiongfeng Peng, Jiaqian Yu, Dingzhe Li, Yixiang Jin, Lu Xu et al. (11 authors)
-
-**Published:** 2026-03-01 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.00926v1) | [PDF](https://arxiv.org/pdf/2603.00926v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In dynamic environments such as warehouses, hospitals, and homes, robots must seamlessly transition between gross motion and precise manipulations to complete complex tasks. However, current Vision-Language-Action (VLA) frameworks, largely adapted from pre-trained Vision-Language Models (VLMs), often struggle to reconcile general task adaptability with the specialized precision required for intricate manipulation. To address this challenge, we propose DAM-VLA, a dynamic action model-based VLA fr...
 
 </details>
 
