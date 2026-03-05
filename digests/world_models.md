@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-04 22:21 UTC
+**Last updated:** 2026-03-05 18:04 UTC
 
-**Papers found:** 10
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion](https://arxiv.org/abs/2603.03485v1)
+
+**Authors:** Haoran Lu, Shang Wu, Jianshu Zhang, Maojiang Su, Guo Ye et al. (12 authors)
+
+**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03485v1) | [PDF](https://arxiv.org/pdf/2603.03485v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Recent video diffusion models have achieved impressive capabilities as large-scale generative world models. However, these models often struggle with fine-grained physical consistency, exhibiting physically implausible dynamics over time. In this work, we present \textbf{Phys4D}, a pipeline for learning physics-consistent 4D world representations from video diffusion models. Phys4D adopts \textbf{a three-stage training paradigm} that progressively lifts appearance-driven video diffusion models i...
+
+</details>
+
+---
+
+### [Beyond Pixel Histories: World Models with Persistent 3D State](https://arxiv.org/abs/2603.03482v1)
+
+**Authors:** Samuel Garcin, Thomas Walker, Steven McDonagh, Tim Pearce, Hakan Bilen et al. (8 authors)
+
+**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03482v1) | [PDF](https://arxiv.org/pdf/2603.03482v1.pdf) | [Project Page](https://francelico.github.io/persist.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive world models continually generate video by responding to a user's actions, enabling open-ended generation capabilities. However, existing models typically lack a 3D representation of the environment, meaning 3D consistency must be implicitly learned from data, and spatial memory is restricted to limited temporal context windows. This results in an unrealistic user experience and presents significant obstacles to down-stream tasks such as training agents. To address this, we present P...
+
+</details>
+
+---
 
 ### [Beyond Language Modeling: An Exploration of Multimodal Pretraining](https://arxiv.org/abs/2603.03276v1)
 
@@ -46,24 +80,92 @@ Vision-Language-Action (VLA) models are a promising path toward embodied intelli
 
 ---
 
-### [Scaling Tasks, Not Samples: Mastering Humanoid Control through Multi-Task Model-Based Reinforcement Learning](https://arxiv.org/abs/2603.01452v1)
+## Other Recent Papers
 
-**Authors:** Shaohuai Liu, Weirui Ye, Yilun Du, Le Xie
+### [World Properties without World Models: Recovering Spatial and Temporal Structure from Co-occurrence Statistics in Static Word Embeddings](https://arxiv.org/abs/2603.04317v1)
 
-**Published:** 2026-03-02 | **Categories:** cs.AI, cs.RO
+**Authors:** Elan Barenholtz
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.01452v1) | [PDF](https://arxiv.org/pdf/2603.01452v1.pdf) | [Project Page](is)
+**Published:** 2026-03-04 | **Categories:** cs.CL, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.04317v1) | [PDF](https://arxiv.org/pdf/2603.04317v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Developing generalist robots capable of mastering diverse skills remains a central challenge in embodied AI. While recent progress emphasizes scaling model parameters and offline datasets, such approaches are limited in robotics, where learning requires active interaction. We argue that effective online learning should scale the \emph{number of tasks}, rather than the number of samples per task. This regime reveals a structural advantage of model-based reinforcement learning (MBRL). Because phys...
+Recent work interprets the linear recoverability of geographic and temporal variables from large language model (LLM) hidden states as evidence for world-like internal representations. We test a simpler possibility: that much of the relevant structure is already latent in text itself. Applying the same class of ridge regression probes to static co-occurrence-based embeddings (GloVe and Word2Vec), we find substantial recoverable geographic signal and weaker but reliable temporal signal, with held...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [IPD: Boosting Sequential Policy with Imaginary Planning Distillation in Offline Reinforcement Learning](https://arxiv.org/abs/2603.04289v1)
+
+**Authors:** Yihao Qin, Yuanfei Wang, Hang Zhou, Peiran Liu, Hao Dong et al. (6 authors)
+
+**Published:** 2026-03-04 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.04289v1) | [PDF](https://arxiv.org/pdf/2603.04289v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Decision transformer based sequential policies have emerged as a powerful paradigm in offline reinforcement learning (RL), yet their efficacy remains constrained by the quality of static datasets and inherent architectural limitations. Specifically, these models often struggle to effectively integrate suboptimal experiences and fail to explicitly plan for an optimal policy. To bridge this gap, we propose \textbf{Imaginary Planning Distillation (IPD)}, a novel framework that seamlessly incorporat...
+
+</details>
+
+---
+
+### [Self-adapting Robotic Agents through Online Continual Reinforcement Learning with World Model Feedback](https://arxiv.org/abs/2603.04029v1)
+
+**Authors:** Fabian Domberg, Georg Schildbach
+
+**Published:** 2026-03-04 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.04029v1) | [PDF](https://arxiv.org/pdf/2603.04029v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+As learning-based robotic controllers are typically trained offline and deployed with fixed parameters, their ability to cope with unforeseen changes during operation is limited. Biologically inspired, this work presents a framework for online Continual Reinforcement Learning that enables automated adaptation during deployment. Building on DreamerV3, a model-based Reinforcement Learning algorithm, the proposed method leverages world model prediction residuals to detect out-of-distribution events...
+
+</details>
+
+---
+
+### [Specification-Driven Generation and Evaluation of Discrete-Event World Models via the DEVS Formalism](https://arxiv.org/abs/2603.03784v1)
+
+**Authors:** Zheyu Chen, Zhuohuan Li, Chuanhao Li
+
+**Published:** 2026-03-04 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03784v1) | [PDF](https://arxiv.org/pdf/2603.03784v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are essential for planning and evaluation in agentic systems, yet existing approaches lie at two extremes: hand-engineered simulators that offer consistency and reproducibility but are costly to adapt, and implicit neural models that are flexible but difficult to constrain, verify, and debug over long horizons. We seek a principled middle ground that combines the reliability of explicit simulators with the flexibility of learned models, allowing world models to be adapted during onl...
+
+</details>
+
+---
+
+### [The Controllability Trap: A Governance Framework for Military AI Agents](https://arxiv.org/abs/2603.03515v1)
+
+**Authors:** Subramanyam Sahoo
+
+**Published:** 2026-03-03 | **Categories:** cs.CY, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03515v1) | [PDF](https://arxiv.org/pdf/2603.03515v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Agentic AI systems - capable of goal interpretation, world modeling, planning, tool use, long-horizon operation, and autonomous coordination - introduce distinct control failures not addressed by existing safety frameworks. We identify six agentic governance failures tied to these capabilities and show how they erode meaningful human control in military settings. We propose the Agentic Military AI Governance Framework (AMAGF), a measurable architecture structured around three pillars: Preventive...
+
+</details>
+
+---
 
 ### [Contextual Latent World Models for Offline Meta Reinforcement Learning](https://arxiv.org/abs/2603.02935v1)
 
@@ -128,57 +230,6 @@ This paper presents ShareVerse, a video generation framework enabling multi-agen
 <summary>Abstract</summary>
 
 As artificial agents become increasingly capable, what internal structure is *necessary* for an agent to act competently under uncertainty? Classical results show that optimal control can be *implemented* using belief states or world models, but not that such representations are required. We prove quantitative "selection theorems" showing that low *average-case regret* on structured families of action-conditioned prediction tasks forces an agent to implement a predictive, structured internal sta...
-
-</details>
-
----
-
-### [WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories](https://arxiv.org/abs/2603.02049v1)
-
-**Authors:** Yisu Zhang, Chenjie Cao, Tengfei Wang, Xuhui Zuo, Junta Wu et al. (7 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.02049v1) | [PDF](https://arxiv.org/pdf/2603.02049v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in foundational Video Diffusion Models (VDMs) have yielded significant progress. Yet, despite the remarkable visual quality of generated videos, reconstructing consistent 3D scenes from these outputs remains challenging, due to limited camera controllability and inconsistent generated content when viewed from distinct camera trajectories. In this paper, we propose WorldStereo, a novel framework that bridges camera-guided video generation and 3D reconstruction via two dedicated ge...
-
-</details>
-
----
-
-### [LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving](https://arxiv.org/abs/2603.01928v1)
-
-**Authors:** Yuechen Luo, Fang Li, Shaoqing Xu, Yang Ji, Zehan Zhang et al. (13 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01928v1) | [PDF](https://arxiv.org/pdf/2603.01928v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-While Vision-Language-Action (VLA) models have revolutionized autonomous driving by unifying perception and planning, their reliance on explicit textual Chain-of-Thought (CoT) leads to semantic-perceptual decoupling and perceptual-symbolic conflicts. Recent shifts toward latent reasoning attempt to bypass these bottlenecks by thinking in continuous hidden space. However, without explicit intermediate constraints, standard latent CoT often operates as a physics-agnostic representation. To address...
-
-</details>
-
----
-
-### [Discrete World Models via Regularization](https://arxiv.org/abs/2603.01748v1)
-
-**Authors:** Davide Bizzaro, Luciano Serafini
-
-**Published:** 2026-03-02 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01748v1) | [PDF](https://arxiv.org/pdf/2603.01748v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models aim to capture the states and dynamics of an environment in a compact latent space. Moreover, using Boolean state representations is particularly useful for search heuristics and symbolic reasoning and planning. Existing approaches keep latents informative via decoder-based reconstruction, or instead via contrastive or reward signals. In this work, we introduce Discrete World Models via Regularization (DWMR): a reconstruction-free and contrastive-free method for unsupervised Boolean...
 
 </details>
 

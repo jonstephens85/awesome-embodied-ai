@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-03-04 22:21 UTC
+**Last updated:** 2026-03-05 18:04 UTC
 
-**Papers found:** 12
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning](https://arxiv.org/abs/2603.03818v1)
+
+**Authors:** Huihan Liu, Changyeon Kim, Bo Liu, Minghuan Liu, Yuke Zhu
+
+**Published:** 2026-03-04 | **Categories:** cs.LG, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03818v1) | [PDF](https://arxiv.org/pdf/2603.03818v1.pdf) | [Project Page](https://ut-austin-rpl.github.io/continual-vla)
+
+<details>
+<summary>Abstract</summary>
+
+Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively studied continual learning in relatively small behavior cloning (BC) policy models trained from scratch, its behavior in modern large-scale pretrained Vision-Language-Action (VLA) models remains underexplored. In this work, we found that pretrained VLAs are remarkably resistant to f...
+
+</details>
+
+---
+
+### [MEM: Multi-Scale Embodied Memory for Vision Language Action Models](https://arxiv.org/abs/2603.03596v1)
+
+**Authors:** Marcel Torne, Karl Pertsch, Homer Walke, Kyle Vedder, Suraj Nair et al. (17 authors)
+
+**Published:** 2026-03-04 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.03596v1) | [PDF](https://arxiv.org/pdf/2603.03596v1.pdf) | [Project Page](https://pi.website/research/memory)
+
+<details>
+<summary>Abstract</summary>
+
+Conventionally, memory in end-to-end robotic learning involves inputting a sequence of past observations into the learned policy. However, in complex multi-stage real-world tasks, the robot's memory must represent past events at multiple levels of granularity: from long-term memory that captures abstracted semantic concepts (e.g., a robot cooking dinner should remember which stages of the recipe are already done) to short-term memory that captures recent events and compensates for occlusions (e....
+
+</details>
+
+---
 
 ### [Chain of World: World Model Thinking in Latent Motion](https://arxiv.org/abs/2603.03195v1)
 
@@ -46,173 +80,71 @@ We dream of a future where point clouds from all domains can come together to sh
 
 ---
 
-### [Non-Markovian Long-Horizon Robot Manipulation via Keyframe Chaining](https://arxiv.org/abs/2603.01465v1)
-
-**Authors:** Yipeng Chen, Wentao Tan, Lei Zhu, Fengling Li, Jingjing Li et al. (7 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01465v1) | [PDF](https://arxiv.org/pdf/2603.01465v1.pdf) | [GitHub](https://github.com/cytoplastm/KC-VLA)
-
-<details>
-<summary>Abstract</summary>
-
-Existing Vision-Language-Action (VLA) models often struggle to generalize to long-horizon tasks due to their heavy reliance on immediate observations. While recent studies incorporate retrieval mechanisms or extend context windows to handle procedural tasks, they often struggle to capture Non-Markovian dependencies, where optimal actions rely solely on specific past states rather than the current observation. To address this, we introduce Keyframe-Chaining VLA, a framework that extracts and link...
-
-</details>
-
----
-
 ## Other Recent Papers
 
-### [$π$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs](https://arxiv.org/abs/2603.02083v1)
+### [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/abs/2603.03836v1)
 
-**Authors:** Siting Wang, Xiaofeng Wang, Zheng Zhu, Minnan Pei, Xinyu Cui et al. (10 authors)
+**Authors:** Xuanran Zhai, Zekai Huang, Longyan Wu, Qianyou Zhao, Qiaojun Yu et al. (8 authors)
 
-**Published:** 2026-03-02 | **Categories:** cs.RO, cs.CV
+**Published:** 2026-03-04 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.02083v1) | [PDF](https://arxiv.org/pdf/2603.02083v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2603.03836v1) | [PDF](https://arxiv.org/pdf/2603.03836v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Flow-based vision-language-action (VLA) models excel in embodied control but suffer from intractable likelihoods during multi-step sampling, hindering online reinforcement learning. We propose \textbf{\textit{$\boldsymbolπ$-StepNFT}} (Step-wise Negative-aware Fine-Tuning), a critic-and-likelihood-free framework that requires only a single forward pass per optimization step and eliminates auxiliary value networks. We identify that wider exploration spaces necessitate finer-grained, step-wise guid...
+Recent progress in vision-language-action (VLA) models has demonstrated strong potential for dual-arm manipulation, enabling complex behaviors and generalization to unseen environments. However, mainstream bimanual VLA formulations largely overlook the critical challenge of combinatorial diversity. Different pairings of single-arm behaviors can induce qualitatively distinct task behaviors, yet existing models do not explicitly account for this structure. We argue that effective bimanual VLAs sho...
 
 </details>
 
 ---
 
-### [LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving](https://arxiv.org/abs/2603.01928v1)
+### [Cognition to Control - Multi-Agent Learning for Human-Humanoid Collaborative Transport](https://arxiv.org/abs/2603.03768v1)
 
-**Authors:** Yuechen Luo, Fang Li, Shaoqing Xu, Yang Ji, Zehan Zhang et al. (13 authors)
+**Authors:** Hao Zhang, Ding Zhao, H. Eric Tseng
 
-**Published:** 2026-03-02 | **Categories:** cs.CV
+**Published:** 2026-03-04 | **Categories:** cs.RO, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.01928v1) | [PDF](https://arxiv.org/pdf/2603.01928v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2603.03768v1) | [PDF](https://arxiv.org/pdf/2603.03768v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-While Vision-Language-Action (VLA) models have revolutionized autonomous driving by unifying perception and planning, their reliance on explicit textual Chain-of-Thought (CoT) leads to semantic-perceptual decoupling and perceptual-symbolic conflicts. Recent shifts toward latent reasoning attempt to bypass these bottlenecks by thinking in continuous hidden space. However, without explicit intermediate constraints, standard latent CoT often operates as a physics-agnostic representation. To address...
+Effective human-robot collaboration (HRC) requires translating high-level intent into contact-stable whole-body motion while continuously adapting to a human partner. Many vision-language-action (VLA) systems learn end-to-end mappings from observations and instructions to actions, but they often emphasize reactive (System 1-like) behavior and leave under-specified how sustained System 2-style deliberation can be integrated with reliable, low-latency continuous control. This gap is acute in multi...
 
 </details>
 
 ---
 
-### [Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models](https://arxiv.org/abs/2603.01766v1)
+### [PROSPECT: Unified Streaming Vision-Language Navigation via Semantic--Spatial Fusion and Latent Predictive Representation](https://arxiv.org/abs/2603.03739v1)
 
-**Authors:** Haoyun Liu, Jianzhuang Zhao, Xinyuan Chang, Tianle Shi, Chuanzhang Meng et al. (14 authors)
+**Authors:** Zehua Fan, Wenqi Lyu, Wenxuan Song, Linge Zhao, Yifei Yang et al. (15 authors)
 
-**Published:** 2026-03-02 | **Categories:** cs.RO
+**Published:** 2026-03-04 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.01766v1) | [PDF](https://arxiv.org/pdf/2603.01766v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2603.03739v1) | [PDF](https://arxiv.org/pdf/2603.03739v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Despite the rapid progress of Vision-Language-Action (VLA) models, the prevailing paradigm of predicting discrete waypoints remains fundamentally misaligned with the intrinsic continuity of physical motion. This discretization imposes rigid sampling rates, lacks high-order differentiability, and introduces quantization artifacts that hinder precise, compliant interaction. We propose Neural Implicit Action Fields (NIAF), a paradigm shift that reformulates action prediction from discrete waypoints...
+Multimodal large language models (MLLMs) have advanced zero-shot end-to-end Vision-Language Navigation (VLN), yet robust navigation requires not only semantic understanding but also predictive modeling of environment dynamics and spatial structure. We propose PROSPECT, a unified streaming navigation agent that couples a streaming Vision-Language-Action (VLA) policy with latent predictive representation learning. PROSPECT uses CUT3R as a streaming 3D foundation spatial encoder to produce long-con...
 
 </details>
 
 ---
 
-### [TacMamba: A Tactile History Compression Adapter Bridging Fast Reflexes and Slow VLA Reasoning](https://arxiv.org/abs/2603.01700v1)
+### [LiteVLA-Edge: Quantized On-Device Multimodal Control for Embedded Robotics](https://arxiv.org/abs/2603.03380v1)
 
-**Authors:** Zhenan Wang, Yanzhe Wang, Meixuan Ren, Peng Li, Yang Liu et al. (11 authors)
+**Authors:** Justin Williams, Kishor Datta Gupta, Roy George, Mrinmoy Sarkar
 
-**Published:** 2026-03-02 | **Categories:** cs.RO
+**Published:** 2026-03-03 | **Categories:** cs.RO, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.01700v1) | [PDF](https://arxiv.org/pdf/2603.01700v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In visually ambiguous manipulation such as detecting button click tactile feedback is often the sole source of ground truth. However, fusing tactile data poses a significant challenge due to a spatiotemporal mismatch: tactile perception requires high-frequency processing with long-horizon memory (System 1), whereas visual policies operate at low control frequencies (System 2). Existing architectures struggle to bridge this gap: Transformers are computationally prohibitive for high-frequency loop...
-
-</details>
-
----
-
-### [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/abs/2603.01581v1)
-
-**Authors:** Zihao Zheng, Zhihao Mao, Maoliang Li, Jiayu Chen, Xinhao Sun et al. (9 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01581v1) | [PDF](https://arxiv.org/pdf/2603.01581v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2603.03380v1) | [PDF](https://arxiv.org/pdf/2603.03380v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models build a token-domain robot control paradigm, yet suffer from low speed. Speculative Decoding (SD) is an optimization strategy that can boost inference speed. Two key issues emerge when integrating VLA and SD: first, SD relies on re-inference to address token errors, which is computationally expensive; second, to mitigate token errors, the acceptance threshold in SD requires careful adjustment. Existing works fail to address the above two issues effectively. Me...
-
-</details>
-
----
-
-### [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549v1)
-
-**Authors:** Jisoo Kim, Jungbin Cho, Sanghyeok Chu, Ananya Bal, Jinhyung Kim et al. (12 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01549v1) | [PDF](https://arxiv.org/pdf/2603.01549v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Humans learn not only how their bodies move, but also how the surrounding world responds to their actions. In contrast, while recent Vision-Language-Action (VLA) models exhibit impressive semantic understanding, they often fail to capture the spatiotemporal dynamics governing physical interaction. In this paper, we introduce Pri4R, a simple yet effective approach that endows VLA models with an implicit understanding of world dynamics by leveraging privileged 4D information during training. Speci...
-
-</details>
-
----
-
-### [ATA: Bridging Implicit Reasoning with Attention-Guided and Action-Guided Inference for Vision-Language Action Models](https://arxiv.org/abs/2603.01490v1)
-
-**Authors:** Cheng Yang, Jianhao Jiao, Lingyi Huang, Jinqi Xiao, Zhexiang Tang et al. (11 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01490v1) | [PDF](https://arxiv.org/pdf/2603.01490v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models rely on current observations, including images, language instructions, and robot states, to predict actions and complete tasks. While accurate visual perception is crucial for precise action prediction and execution, recent work has attempted to further improve performance by introducing explicit reasoning during inference. However, such approaches face significant limitations. They often depend on data-intensive resources such as Chain-of-Thought (CoT) style ...
-
-</details>
-
----
-
-### [Mean-Flow based One-Step Vision-Language-Action](https://arxiv.org/abs/2603.01469v1)
-
-**Authors:** Yang Chen, Xiaoguang Ma, Bin Zhao
-
-**Published:** 2026-03-02 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01469v1) | [PDF](https://arxiv.org/pdf/2603.01469v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in FlowMatching-based Vision-Language-Action (VLA) frameworks have demonstrated remarkable advantages in generating high-frequency action chunks, particularly for highly dexterous robotic manipulation tasks. Despite these notable achievements, their practical applications are constrained by prolonged generation latency, which stems from inherent iterative sampling requirements and architectural limitations. To address this critical bottleneck, we propose a Mean-Flow based One-Ste...
-
-</details>
-
----
-
-### [Unifying Language-Action Understanding and Generation for Autonomous Driving](https://arxiv.org/abs/2603.01441v1)
-
-**Authors:** Xinyang Wang, Qian Liu, Wenjie Ding, Zhao Yang, Wei Li et al. (10 authors)
-
-**Published:** 2026-03-02 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.01441v1) | [PDF](https://arxiv.org/pdf/2603.01441v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are emerging as a promising paradigm for end-to-end autonomous driving, valued for their potential to leverage world knowledge and reason about complex driving scenes. However, existing methods suffer from two critical limitations: a persistent misalignment between language instructions and action outputs, and the inherent inefficiency of typical auto-regressive action generation. In this paper, we introduce LinkVLA, a novel architecture that directly addresse...
+Vision-Language-Action (VLA) models provide a unified framework for perception, language conditioning, and action generation, but many existing systems remain difficult to deploy in embedded robotic settings because of their computational requirements and inference latency. In this paper, we present LiteVLA-Edge, a deployment-oriented VLA pipeline for fully on-device inference on Jetson Orin-class hardware. Our approach combines supervised image-to-action fine-tuning in FP32 with post-training 4...
 
 </details>
 
