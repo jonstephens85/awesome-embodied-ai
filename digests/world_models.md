@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-05 22:21 UTC
+**Last updated:** 2026-03-06 16:41 UTC
 
-**Papers found:** 13
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -12,75 +12,75 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion](https://arxiv.org/abs/2603.03485v1)
+### [Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling](https://arxiv.org/abs/2603.04553v1)
 
-**Authors:** Haoran Lu, Shang Wu, Jianshu Zhang, Maojiang Su, Guo Ye et al. (12 authors)
+**Authors:** Tal Daniel, Carl Qi, Dan Haramati, Amir Zadeh, Chuan Li et al. (8 authors)
 
-**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.RO
+**Published:** 2026-03-04 | **Categories:** cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.03485v1) | [PDF](https://arxiv.org/pdf/2603.03485v1.pdf) | [Project Page](is)
-
-<details>
-<summary>Abstract</summary>
-
-Recent video diffusion models have achieved impressive capabilities as large-scale generative world models. However, these models often struggle with fine-grained physical consistency, exhibiting physically implausible dynamics over time. In this work, we present \textbf{Phys4D}, a pipeline for learning physics-consistent 4D world representations from video diffusion models. Phys4D adopts \textbf{a three-stage training paradigm} that progressively lifts appearance-driven video diffusion models i...
-
-</details>
-
----
-
-### [Beyond Pixel Histories: World Models with Persistent 3D State](https://arxiv.org/abs/2603.03482v1)
-
-**Authors:** Samuel Garcin, Thomas Walker, Steven McDonagh, Tim Pearce, Hakan Bilen et al. (8 authors)
-
-**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.03482v1) | [PDF](https://arxiv.org/pdf/2603.03482v1.pdf) | [Project Page](https://francelico.github.io/persist.github.io)
+**Links:** [arXiv](https://arxiv.org/abs/2603.04553v1) | [PDF](https://arxiv.org/pdf/2603.04553v1.pdf) | [Project Page](https://taldatech.github.io/lpwm-web)
 
 <details>
 <summary>Abstract</summary>
 
-Interactive world models continually generate video by responding to a user's actions, enabling open-ended generation capabilities. However, existing models typically lack a 3D representation of the environment, meaning 3D consistency must be implicitly learned from data, and spatial memory is restricted to limited temporal context windows. This results in an unrealistic user experience and presents significant obstacles to down-stream tasks such as training agents. To address this, we present P...
-
-</details>
-
----
-
-### [Beyond Language Modeling: An Exploration of Multimodal Pretraining](https://arxiv.org/abs/2603.03276v1)
-
-**Authors:** Shengbang Tong, David Fan, John Nguyen, Ellis Brown, Gaoyue Zhou et al. (21 authors)
-
-**Published:** 2026-03-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.03276v1) | [PDF](https://arxiv.org/pdf/2603.03276v1.pdf) | [Project Page](at)
-
-<details>
-<summary>Abstract</summary>
-
-The visual world offers a critical axis for advancing foundation models beyond language. Despite growing interest in this direction, the design space for native multimodal models remains opaque. We provide empirical clarity through controlled, from-scratch pretraining experiments, isolating the factors that govern multimodal pretraining without interference from language pretraining. We adopt the Transfusion framework, using next-token prediction for language and diffusion for vision, to train o...
-
-</details>
-
----
-
-### [Chain of World: World Model Thinking in Latent Motion](https://arxiv.org/abs/2603.03195v1)
-
-**Authors:** Fuxiang Yang, Donglin Di, Lulu Tang, Xuancheng Zhang, Lei Fan et al. (9 authors)
-
-**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.03195v1) | [PDF](https://arxiv.org/pdf/2603.03195v1.pdf) | [Project Page](https://fx-hit.github.io/cowvla-io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are a promising path toward embodied intelligence, yet they often overlook the predictive and temporal-causal structure underlying visual dynamics. World-model VLAs address this by predicting future frames, but waste capacity reconstructing redundant backgrounds. Latent-action VLAs encode frame-to-frame transitions compactly, but lack temporally continuous dynamic modeling and world knowledge. To overcome these limitations, we introduce CoWVLA (Chain-of-World ...
+We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from video data, enabling it to learn rich scene decompositions without supervision. Our architecture is trained end-to-end purely from videos and supports flexible conditioning on actions, language, and image goals. LPWM models stochastic particl...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model](https://arxiv.org/abs/2603.05438v1)
+
+**Authors:** Dongwon Kim, Gawon Seo, Jinsung Lee, Minsu Cho, Suha Kwak
+
+**Published:** 2026-03-05 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.05438v1) | [PDF](https://arxiv.org/pdf/2603.05438v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models provide a powerful framework for simulating environment dynamics conditioned on actions or instructions, enabling downstream tasks such as action planning or policy learning. Recent approaches leverage world models as learned simulators, but its application to decision-time planning remains computationally prohibitive for real-time control. A key bottleneck lies in latent representations: conventional tokenizers encode each observation into hundreds of tokens, making planning both s...
+
+</details>
+
+---
+
+### [BLINK: Behavioral Latent Modeling of NK Cell Cytotoxicity](https://arxiv.org/abs/2603.05110v1)
+
+**Authors:** Iman Nematollahi, Jose Francisco Villena-Ossa, Alina Moter, Kiana Farhadyar, Gabriel Kalweit et al. (9 authors)
+
+**Published:** 2026-03-05 | **Categories:** cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.05110v1) | [PDF](https://arxiv.org/pdf/2603.05110v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Machine learning models of cellular interaction dynamics hold promise for understanding cell behavior. Natural killer (NK) cell cytotoxicity is a prominent example of such interaction dynamics and is commonly studied using time-resolved multi-channel fluorescence microscopy. Although tumor cell death events can be annotated at single frames, NK cytotoxic outcome emerges over time from cellular interactions and cannot be reliably inferred from frame-wise classification alone. We introduce BLINK, ...
+
+</details>
+
+---
+
+### [Probabilistic Dreaming for World Models](https://arxiv.org/abs/2603.04715v1)
+
+**Authors:** Gavin Wong
+
+**Published:** 2026-03-05 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.04715v1) | [PDF](https://arxiv.org/pdf/2603.04715v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+"Dreaming" enables agents to learn from imagined experiences, enabling more robust and sample-efficient learning of world models. In this work, we consider innovations to the state-of-the-art Dreamer model using probabilistic methods that enable: (1) the parallel exploration of many latent states; and (2) maintaining distinct hypotheses for mutually exclusive futures while retaining the desirable gradient properties of continuous latents. Evaluating on the MPE SimpleTag domain, our method outper...
+
+</details>
+
+---
 
 ### [World Properties without World Models: Recovering Spatial and Temporal Structure from Co-occurrence Statistics in Static Word Embeddings](https://arxiv.org/abs/2603.04317v1)
 
@@ -145,91 +145,6 @@ As learning-based robotic controllers are typically trained offline and deployed
 <summary>Abstract</summary>
 
 World models are essential for planning and evaluation in agentic systems, yet existing approaches lie at two extremes: hand-engineered simulators that offer consistency and reproducibility but are costly to adapt, and implicit neural models that are flexible but difficult to constrain, verify, and debug over long horizons. We seek a principled middle ground that combines the reliability of explicit simulators with the flexibility of learned models, allowing world models to be adapted during onl...
-
-</details>
-
----
-
-### [The Controllability Trap: A Governance Framework for Military AI Agents](https://arxiv.org/abs/2603.03515v1)
-
-**Authors:** Subramanyam Sahoo
-
-**Published:** 2026-03-03 | **Categories:** cs.CY, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.03515v1) | [PDF](https://arxiv.org/pdf/2603.03515v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Agentic AI systems - capable of goal interpretation, world modeling, planning, tool use, long-horizon operation, and autonomous coordination - introduce distinct control failures not addressed by existing safety frameworks. We identify six agentic governance failures tied to these capabilities and show how they erode meaningful human control in military settings. We propose the Agentic Military AI Governance Framework (AMAGF), a measurable architecture structured around three pillars: Preventive...
-
-</details>
-
----
-
-### [Contextual Latent World Models for Offline Meta Reinforcement Learning](https://arxiv.org/abs/2603.02935v1)
-
-**Authors:** Mohammadreza Nakheai, Aidan Scannell, Kevin Luck, Joni Pajarinen
-
-**Published:** 2026-03-03 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.02935v1) | [PDF](https://arxiv.org/pdf/2603.02935v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Offline meta-reinforcement learning seeks to learn policies that generalize across related tasks from fixed datasets. Context-based methods infer a task representation from transition histories, but learning effective task representations without supervision remains a challenge. In parallel, latent world models have demonstrated strong self-supervised representation learning through temporal consistency. We introduce contextual latent world models, which condition latent world models on inferred...
-
-</details>
-
----
-
-### [Next Embedding Prediction Makes World Models Stronger](https://arxiv.org/abs/2603.02765v1)
-
-**Authors:** George Bredis, Nikita Balagansky, Daniil Gavrilov, Ruslan Rakhimov
-
-**Published:** 2026-03-03 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.02765v1) | [PDF](https://arxiv.org/pdf/2603.02765v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Capturing temporal dependencies is critical for model-based reinforcement learning (MBRL) in partially observable, high-dimensional domains. We introduce NE-Dreamer, a decoder-free MBRL agent that leverages a temporal transformer to predict next-step encoder embeddings from latent state sequences, directly optimizing temporal predictive alignment in representation space. This approach enables NE-Dreamer to learn coherent, predictive state representations without reconstruction losses or auxiliar...
-
-</details>
-
----
-
-### [ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling](https://arxiv.org/abs/2603.02697v1)
-
-**Authors:** Jiayi Zhu, Jianing Zhang, Yiying Yang, Wei Cheng, Xiaoyun Yuan
-
-**Published:** 2026-03-03 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.02697v1) | [PDF](https://arxiv.org/pdf/2603.02697v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-This paper presents ShareVerse, a video generation framework enabling multi-agent shared world modeling, addressing the gap in existing works that lack support for unified shared world construction with multi-agent interaction. ShareVerse leverages the generation capability of large video models and integrates three key innovations: 1) A dataset for large-scale multi-agent interactive world modeling is built on the CARLA simulation platform, featuring diverse scenes, weather conditions, and inte...
-
-</details>
-
----
-
-### [What Capable Agents Must Know: Selection Theorems for Robust Decision-Making under Uncertainty](https://arxiv.org/abs/2603.02491v1)
-
-**Authors:** Aran Nayebi
-
-**Published:** 2026-03-03 | **Categories:** cs.LG, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.02491v1) | [PDF](https://arxiv.org/pdf/2603.02491v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-As artificial agents become increasingly capable, what internal structure is *necessary* for an agent to act competently under uncertainty? Classical results show that optimal control can be *implemented* using belief states or world models, but not that such representations are required. We prove quantitative "selection theorems" showing that low *average-case regret* on structured families of action-conditioned prediction tasks forces an agent to implement a predictive, structured internal sta...
 
 </details>
 
