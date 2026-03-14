@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-13 22:20 UTC
+**Last updated:** 2026-03-14 16:32 UTC
 
-**Papers found:** 9
+**Papers found:** 5
 
 [Back to Home](../README.md)
 
@@ -41,23 +41,6 @@ Understanding and reconstructing the 3D world through omnidirectional perception
 <summary>Abstract</summary>
 
 We present InSpatio-WorldFM, an open-source real-time frame model for spatial intelligence. Unlike video-based world models that rely on sequential frame generation and incur substantial latency due to window-level processing, InSpatio-WorldFM adopts a frame-based paradigm that generates each frame independently, enabling low-latency real-time spatial inference. By enforcing multi-view spatial consistency through explicit 3D anchors and implicit spatial memory, the model preserves global scene g...
-
-</details>
-
----
-
-### [World2Act: Latent Action Post-Training via Skill-Compositional World Models](https://arxiv.org/abs/2603.10422v1)
-
-**Authors:** An Dinh Vuong, Tuan Van Vo, Abdullah Sohail, Haoran Ding, Liang Ma et al. (9 authors)
-
-**Published:** 2026-03-11 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.10422v1) | [PDF](https://arxiv.org/pdf/2603.10422v1.pdf) | [Project Page](https://wm2act.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-World Models (WMs) have emerged as a promising approach for post-training Vision-Language-Action (VLA) policies to improve robustness and generalization under environmental changes. However, most WM-based post-training methods rely on pixel-space supervision, making policies sensitive to pixel-level artifacts and hallucination from imperfect WM rollouts. We introduce World2Act, a post-training framework that aligns VLA actions directly with WM video-dynamics latents using a contrastive matching ...
 
 </details>
 
@@ -111,57 +94,6 @@ Generating safety-critical driving scenarios is crucial for evaluating and impro
 <summary>Abstract</summary>
 
 Continual reinforcement learning challenges agents to acquire new skills while retaining previously learned ones with the goal of improving performance in both past and future tasks. Most existing approaches rely on model-free methods with replay buffers to mitigate catastrophic forgetting; however, these solutions often face significant scalability challenges due to large memory demands. Drawing inspiration from neuroscience, where the brain replays experiences to a predictive World Model rathe...
-
-</details>
-
----
-
-### [PPGuide: Steering Diffusion Policies with Performance Predictive Guidance](https://arxiv.org/abs/2603.10980v1)
-
-**Authors:** Zixing Wang, Devesh K. Jha, Ahmed H. Qureshi, Diego Romeres
-
-**Published:** 2026-03-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.10980v1) | [PDF](https://arxiv.org/pdf/2603.10980v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Diffusion policies have shown to be very efficient at learning complex, multi-modal behaviors for robotic manipulation. However, errors in generated action sequences can compound over time which can potentially lead to failure. Some approaches mitigate this by augmenting datasets with expert demonstrations or learning predictive world models which might be computationally expensive. We introduce Performance Predictive Guidance (PPGuide), a lightweight, classifier-based framework that steers a pr...
-
-</details>
-
----
-
-### [ResWM: Residual-Action World Model for Visual RL](https://arxiv.org/abs/2603.11110v1)
-
-**Authors:** Jseen Zhang, Gabriel Adineera, Jinzhou Tan, Jinoh Kim
-
-**Published:** 2026-03-11 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.11110v1) | [PDF](https://arxiv.org/pdf/2603.11110v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learning predictive world models from raw visual observations is a central challenge in reinforcement learning (RL), especially for robotics and continuous control. Conventional model-based RL frameworks directly condition future predictions on absolute actions, which makes optimization unstable: the optimal action distributions are task-dependent, unknown a priori, and often lead to oscillatory or inefficient control. To address this, we introduce the Residual-Action World Model (ResWM), a new ...
-
-</details>
-
----
-
-### [World Model for Battery Degradation Prediction Under Non-Stationary Aging](https://arxiv.org/abs/2603.10527v1)
-
-**Authors:** Kai Chin Lim, Khay Wai See
-
-**Published:** 2026-03-11 | **Categories:** cs.LG, eess.SY
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.10527v1) | [PDF](https://arxiv.org/pdf/2603.10527v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Degradation prognosis for lithium-ion cells requires forecasting the state-of-health (SOH) trajectory over future cycles. Existing data-driven approaches can produce trajectory outputs through direct regression, but lack a mechanism to propagate degradation dynamics forward in time. This paper formulates battery degradation prognosis as a world model problem, encoding raw voltage, current, and temperature time-series from each cycle into a latent state and propagating it forward via a learned dy...
 
 </details>
 
