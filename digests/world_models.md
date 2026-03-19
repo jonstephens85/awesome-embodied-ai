@@ -2,15 +2,83 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-18 22:24 UTC
+**Last updated:** 2026-03-19 16:58 UTC
 
-**Papers found:** 14
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards](https://arxiv.org/abs/2603.17808v1)
+
+**Authors:** Ruixiang Wang, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu et al. (6 authors)
+
+**Published:** 2026-03-18 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.17808v1) | [PDF](https://arxiv.org/pdf/2603.17808v1.pdf) | [Project Page](https://eva-project-page.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Video generative models are increasingly used as world models for robotics, where a model generates a future visual rollout conditioned on the current observation and task instruction, and an inverse dynamics model (IDM) converts the generated frames into executable robot actions. However, current video world models lack explicit executability constraints. As a result, visually coherent rollouts may still violate rigid-body and kinematic consistency, producing unstable or infeasible control comm...
+
+</details>
+
+---
+
+### [VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs](https://arxiv.org/abs/2603.17652v1)
+
+**Authors:** Chaokang Jiang, Desen Zhou, Jiuming Liu, Kevin Li Sun
+
+**Published:** 2026-03-18 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.17652v1) | [PDF](https://arxiv.org/pdf/2603.17652v1.pdf) | [GitHub](https://github.com/jiangchaokang/VectorWorld}{code})
+
+<details>
+<summary>Abstract</summary>
+
+Closed-loop evaluation of autonomous-driving policies requires interactive simulation beyond log replay. However, existing generative world models often degrade in closed loop due to (i) history-free initialization that mismatches policy inputs, (ii) multi-step sampling latency that violates real-time budgets, and (iii) compounding kinematic infeasibility over long horizons. We propose VectorWorld, a streaming world model that incrementally generates ego-centric $64 \mathrm{m}\times 64\mathrm{m}...
+
+</details>
+
+---
+
+### [Stereo World Model: Camera-Guided Stereo Video Generation](https://arxiv.org/abs/2603.17375v1)
+
+**Authors:** Yang-Tian Sun, Zehuan Huang, Yifan Niu, Lin Ma, Yan-Pei Cao et al. (7 authors)
+
+**Published:** 2026-03-18 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.17375v1) | [PDF](https://arxiv.org/pdf/2603.17375v1.pdf) | [Project Page](https://sunyangtian.github.io/StereoWorld-web/)
+
+<details>
+<summary>Abstract</summary>
+
+We present StereoWorld, a camera-conditioned stereo world model that jointly learns appearance and binocular geometry for end-to-end stereo video generation.Unlike monocular RGB or RGBD approaches, StereoWorld operates exclusively within the RGB modality, while simultaneously grounding geometry directly from disparity. To efficiently achieve consistent stereo generation, our approach introduces two key designs: (1) a unified camera-frame RoPE that augments latent tokens with camera-aware rotary ...
+
+</details>
+
+---
+
+### [MosaicMem: Hybrid Spatial Memory for Controllable Video World Models](https://arxiv.org/abs/2603.17117v1)
+
+**Authors:** Wei Yu, Runjia Qian, Yumeng Li, Liquan Wang, Songheng Yin et al. (11 authors)
+
+**Published:** 2026-03-17 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.17117v1) | [PDF](https://arxiv.org/pdf/2603.17117v1.pdf) | [Project Page](https://mosaicmem.github.io/mosaicmem/)
+
+<details>
+<summary>Abstract</summary>
+
+Video diffusion models are moving beyond short, plausible clips toward world simulators that must remain consistent under camera motion, revisits, and intervention. Yet spatial memory remains a key bottleneck: explicit 3D structures can improve reprojection-based consistency but struggle to depict moving objects, while implicit memory often produces inaccurate camera motion even with correct poses. We propose Mosaic Memory (MosaicMem), a hybrid spatial memory that lifts patches into 3D for relia...
+
+</details>
+
+---
 
 ### [WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation](https://arxiv.org/abs/2603.16871v1)
 
@@ -80,75 +148,24 @@ While recent Vision-Language-Action (VLA) models have begun to incorporate audio
 
 ---
 
-### [Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation](https://arxiv.org/abs/2603.15759v1)
-
-**Authors:** Jacob Levy, Tyler Westenbroek, Kevin Huang, Fernando Palafox, Patrick Yin et al. (9 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.RO, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.15759v1) | [PDF](https://arxiv.org/pdf/2603.15759v1.pdf) | [Project Page](and)
-
-<details>
-<summary>Abstract</summary>
-
-Simulation-to-real transfer remains a central challenge in robotics, as mismatches between simulated and real-world dynamics often lead to failures. While reinforcement learning offers a principled mechanism for adaptation, existing sim-to-real finetuning methods struggle with exploration and long-horizon credit assignment in the low-data regimes typical of real-world robotics. We introduce Simulation Distillation (SimDist), a sim-to-real framework that distills structural priors from a simulato...
-
-</details>
-
----
-
-### [Grounding World Simulation Models in a Real-World Metropolis](https://arxiv.org/abs/2603.15583v1)
-
-**Authors:** Junyoung Seo, Hyunwook Choi, Minkyung Kwon, Jinhyeok Choi, Siyoon Jin et al. (13 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.15583v1) | [PDF](https://arxiv.org/pdf/2603.15583v1.pdf) | [Project Page](https://seoul-world-model.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-What if a world simulation model could render not an imagined environment but a city that actually exists? Prior generative world models synthesize visually plausible yet artificial environments by imagining all content. We present Seoul World Model (SWM), a city-scale world model grounded in the real city of Seoul. SWM anchors autoregressive video generation through retrieval-augmented conditioning on nearby street-view images. However, this design introduces several challenges, including tempo...
-
-</details>
-
----
-
-### [NavThinker: Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation](https://arxiv.org/abs/2603.15359v1)
-
-**Authors:** Tianshuai Hu, Zeying Gong, Lingdong Kong, XiaoDong Mei, Yiyi Ding et al. (10 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.15359v1) | [PDF](https://arxiv.org/pdf/2603.15359v1.pdf) | [GitHub](https://github.com/hutslib/NavThinker)
-
-<details>
-<summary>Abstract</summary>
-
-Social navigation requires robots to act safely in dynamic human environments. Effective behavior demands thinking ahead: reasoning about how the scene and pedestrians evolve under different robot actions rather than reacting to current observations alone. This creates a coupled prediction-planning challenge, where robot actions and human motion mutually influence each other. To address this challenge, we propose NavThinker, a future-aware framework that couples an action-conditioned world model...
-
-</details>
-
----
-
-### [Bridging Scene Generation and Planning: Driving with World Model via Unifying Vision and Motion Representation](https://arxiv.org/abs/2603.14948v1)
-
-**Authors:** Xingtai Gui, Meijie Zhang, Tianyi Yan, Wencheng Han, Jiahao Gong et al. (8 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.14948v1) | [PDF](https://arxiv.org/pdf/2603.14948v1.pdf) | [GitHub](https://github.com/TabGuigui/WorldDrive)
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving aims to generate safe and plausible planning policies from raw sensor input. Driving world models have shown great potential in learning rich representations by predicting the future evolution of a driving scene. However, existing driving world models primarily focus on visual scene representation, and motion representation is not explicitly designed to be planner-shared and inheritable, leaving a schism between the optimization of visual scene generation and the re...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [From Digital Twins to World Models:Opportunities, Challenges, and Applications for Mobile Edge General Intelligence](https://arxiv.org/abs/2603.17420v1)
+
+**Authors:** Jie Zheng, Dusit Niyato, Changyuan Zhao, Jiawen Kang, Jiacheng Wang
+
+**Published:** 2026-03-18 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.17420v1) | [PDF](https://arxiv.org/pdf/2603.17420v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The rapid evolution toward 6G and beyond communication systems is accelerating the convergence of digital twins and world models at the network edge. Traditional digital twins provide high-fidelity representations of physical systems and support monitoring, analysis, and offline optimization. However, in highly dynamic edge environments, they face limitations in autonomy, adaptability, and scalability. This paper presents a systematic survey of the transition from digital twins to world models a...
+
+</details>
+
+---
 
 ### [Grid-World Representations in Transformers Reflect Predictive Geometry](https://arxiv.org/abs/2603.16689v1)
 
@@ -196,57 +213,6 @@ Recent advancements in 4D scene reconstruction, particularly those leveraging di
 <summary>Abstract</summary>
 
 Real-world model deployments demand strong performance on narrow domains where data is often scarce. Typically, practitioners finetune models to specialize them, but this risks overfitting to the domain and forgetting general knowledge. We study a simple strategy, specialized pretraining (SPT), where a small domain dataset, typically reserved for finetuning, is repeated starting from pretraining as a fraction of the total tokens. Across three specialized domains (ChemPile, MusicPile, and ProofPi...
-
-</details>
-
----
-
-### [CorrectionPlanner: Self-Correction Planner with Reinforcement Learning in Autonomous Driving](https://arxiv.org/abs/2603.15771v1)
-
-**Authors:** Yihong Guo, Dongqiangzi Ye, Sijia Chen, Anqi Liu, Xianming Liu
-
-**Published:** 2026-03-16 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.15771v1) | [PDF](https://arxiv.org/pdf/2603.15771v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous driving requires safe planning, but most learning-based planners lack explicit self-correction ability: once an unsafe action is proposed, there is no mechanism to correct it. Thus, we propose CorrectionPlanner, an autoregressive planner with self-correction that models planning as motion-token generation within a propose, evaluate, and correct loop. At each planning step, the policy proposes an action, namely a motion token, and a learned collision critic predicts whether it will ind...
-
-</details>
-
----
-
-### [RS-WorldModel: a Unified Model for Remote Sensing Understanding and Future Sense Forecasting](https://arxiv.org/abs/2603.14941v1)
-
-**Authors:** Linrui Xu, Zhongan Wang, Fei Shen, Gang Xu, Huiping Zhuang et al. (7 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.14941v1) | [PDF](https://arxiv.org/pdf/2603.14941v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Remote sensing world models aim to both explain observed changes and forecast plausible futures, two tasks that share spatiotemporal priors. Existing methods, however, typically address them separately, limiting cross-task transfer. We present RS-WorldModel, a unified world model for remote sensing that jointly handles spatiotemporal change understanding and text-guided future scene forecasting, and we build RSWBench-1.1M, a 1.1 million sample dataset with rich language annotations covering both...
-
-</details>
-
----
-
-### [PerlAD: Towards Enhanced Closed-loop End-to-end Autonomous Driving with Pseudo-simulation-based Reinforcement Learning](https://arxiv.org/abs/2603.14908v1)
-
-**Authors:** Yinfeng Gao, Qichao Zhang, Deqing Liu, Zhongpu Xia, Guang Li et al. (11 authors)
-
-**Published:** 2026-03-16 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.14908v1) | [PDF](https://arxiv.org/pdf/2603.14908v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving policies based on Imitation Learning (IL) often struggle in closed-loop execution due to the misalignment between inadequate open-loop training objectives and real driving requirements. While Reinforcement Learning (RL) offers a solution by directly optimizing driving goals via reward signals, the rendering-based training environments introduce the rendering gap and are inefficient due to high computational costs. To overcome these challenges, we present a novel Pse...
 
 </details>
 
