@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-24 22:21 UTC
+**Last updated:** 2026-03-25 17:02 UTC
 
-**Papers found:** 10
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG](https://arxiv.org/abs/2603.23497v1)
+
+**Authors:** Zhen Li, Zian Meng, Shuwei Shi, Wenshuo Peng, Yuwei Wu et al. (8 authors)
+
+**Published:** 2026-03-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.23497v1) | [PDF](https://arxiv.org/pdf/2603.23497v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Dynamical systems theory and reinforcement learning view world evolution as latent-state dynamics driven by actions, with visual observations providing partial information about the state. Recent video world models attempt to learn this action-conditioned dynamics from data. However, existing datasets rarely match the requirement: they typically lack diverse and semantically meaningful action spaces, and actions are directly tied to visual observations rather than mediated by underlying states. ...
+
+</details>
+
+---
+
+### [VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs](https://arxiv.org/abs/2603.23481v1)
+
+**Authors:** Haoran Yuan, Weigang Yi, Zhenyu Zhang, Wendi Chen, Yuchen Mo et al. (12 authors)
+
+**Published:** 2026-03-24 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.23481v1) | [PDF](https://arxiv.org/pdf/2603.23481v1.pdf) | [Project Page](https://plan-lab.github.io/projects/vtam/)
+
+<details>
+<summary>Abstract</summary>
+
+Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions. Although such models demonstrate strong performance on long-horizon tasks through visual reasoning, they remain limited in contact-rich scenarios where critical interaction states are only partially observable from vision alone. In particular, fine-grained force modulation and contact transitions a...
+
+</details>
+
+---
 
 ### [WorldCache: Content-Aware Caching for Accelerated Video World Models](https://arxiv.org/abs/2603.22286v1)
 
@@ -29,24 +63,92 @@ Diffusion Transformers (DiTs) power high-fidelity video world models but remain 
 
 ---
 
-### [FluidWorld: Reaction-Diffusion Dynamics as a Predictive Substrate for World Models](https://arxiv.org/abs/2603.21315v1)
+## Other Recent Papers
 
-**Authors:** Fabien Polly
+### [ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment](https://arxiv.org/abs/2603.23376v1)
 
-**Published:** 2026-03-22 | **Categories:** cs.LG
+**Authors:** Yuzhi Chen, Ronghan Chen, Dongjie Huo, Yandan Yang, Dekang Qi et al. (14 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.21315v1) | [PDF](https://arxiv.org/pdf/2603.21315v1.pdf) | [GitHub](https://github.com/infinition/FluidWorld/)
+**Published:** 2026-03-24 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.23376v1) | [PDF](https://arxiv.org/pdf/2603.23376v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World models learn to predict future states of an environment, enabling planning and mental simulation. Current approaches default to Transformer-based predictors operating in learned latent spaces. This comes at a cost: O(N^2) computation and no explicit spatial inductive bias. This paper asks a foundational question: is self-attention necessary for predictive world modeling, or can alternative computational substrates achieve comparable or superior results? I introduce FluidWorld, a proof-of-c...
+Video-based world models offer a powerful paradigm for embodied simulation and planning, yet state-of-the-art models often generate physically implausible manipulations - such as object penetration and anti-gravity motion - due to training on generic visual data and likelihood-based objectives that ignore physical laws. We present ABot-PhysWorld, a 14B Diffusion Transformer model that generates visually realistic, physically plausible, and action-controllable videos. Built on a curated dataset o...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models](https://arxiv.org/abs/2603.23149v1)
+
+**Authors:** Massimiliano Pappa, Luca Romani, Valentino Sacco, Alessio Palma, Stéphane Lathuilière et al. (8 authors)
+
+**Published:** 2026-03-24 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.23149v1) | [PDF](https://arxiv.org/pdf/2603.23149v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Deploying safety-critical agents requires anticipating the consequences of actions before they are executed. While world models offer a paradigm for this proactive foresight, current approaches relying on visual simulation incur prohibitive latencies, often exceeding several seconds per step. In this work, we challenge the assumption that visual processing is necessary for failure prevention. We show that a trained policy's latent state, combined with its planned actions, already encodes suffici...
+
+</details>
+
+---
+
+### [PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding](https://arxiv.org/abs/2603.22796v1)
+
+**Authors:** Lirong Che, Zhenfeng Gan, Yanbo Chen, Junbo Tan, Xueqian Wang
+
+**Published:** 2026-03-24 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.22796v1) | [PDF](https://arxiv.org/pdf/2603.22796v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied agents for creative tasks like photography must bridge the semantic gap between high-level language commands and geometric control. We introduce PhotoAgent, an agent that achieves this by integrating Large Multimodal Models (LMMs) reasoning with a novel control paradigm. PhotoAgent first translates subjective aesthetic goals into solvable geometric constraints via LMM-driven, chain-of-thought (CoT) reasoning, allowing an analytical solver to compute a high-quality initial viewpoint. Thi...
+
+</details>
+
+---
+
+### [AI Mental Models: Learned Intuition and Deliberation in a Bounded Neural Architecture](https://arxiv.org/abs/2603.22561v1)
+
+**Authors:** Laurence Anthony
+
+**Published:** 2026-03-23 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.22561v1) | [PDF](https://arxiv.org/pdf/2603.22561v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+This paper asks whether a bounded neural architecture can exhibit a meaningful division of labor between intuition and deliberation on a classic 64-item syllogistic reasoning benchmark. More broadly, the benchmark is relevant to ongoing debates about world models and multi-stage reasoning in AI. It provides a controlled setting for testing whether a learned system can develop structured internal computation rather than only one-shot associative prediction. Experiment 1 evaluates a direct neural ...
+
+</details>
+
+---
+
+### [Model Predictive Control with Differentiable World Models for Offline Reinforcement Learning](https://arxiv.org/abs/2603.22430v1)
+
+**Authors:** Rohan Deb, Stephen J. Wright, Arindam Banerjee
+
+**Published:** 2026-03-23 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.22430v1) | [PDF](https://arxiv.org/pdf/2603.22430v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Offline Reinforcement Learning (RL) aims to learn optimal policies from fixed offline datasets, without further interactions with the environment. Such methods train an offline policy (or value function), and apply it at inference time without further refinement. We introduce an inference time adaptation framework inspired by model predictive control (MPC) that utilizes a pretrained policy along with a learned world model of state transitions and rewards. While existing world model and diffusion...
+
+</details>
+
+---
 
 ### [ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model](https://arxiv.org/abs/2603.22281v1)
 
@@ -128,57 +230,6 @@ Single-image 3D generation lies at the core of vision-to-graphics models in the 
 <summary>Abstract</summary>
 
 World models learn to simulate environment dynamics from experience, enabling sample-efficient reinforcement learning. But what do these models actually represent internally? We apply interpretability techniques--including linear and nonlinear probing, causal interventions, and attention analysis--to two architecturally distinct world models: IRIS (discrete token transformer) and DIAMOND (continuous diffusion UNet), trained on Atari Breakout and Pong. Using linear probes, we find that both model...
-
-</details>
-
----
-
-### [ARYA: A Physics-Constrained Composable & Deterministic World Model Architecture](https://arxiv.org/abs/2603.21340v1)
-
-**Authors:** Seth Dobrin, Lukasz Chmiel
-
-**Published:** 2026-03-22 | **Categories:** cs.AI, cs.DC
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.21340v1) | [PDF](https://arxiv.org/pdf/2603.21340v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-This paper presents ARYA, a composable, physics-constrained, deterministic world model architecture built on five foundational principles: nano models, composability, causal reasoning, determinism, and architectural AI safety. We demonstrate that ARYA satisfies all canonical world model requirements, including state representation, dynamic prediction, causal and physical awareness, temporal consistency, generalization, learnability, and planning and control. Unlike monolithic foundation models, ...
-
-</details>
-
----
-
-### [CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation](https://arxiv.org/abs/2603.21104v1)
-
-**Authors:** Bowen Jing, Ruiyang Hao, Weitao Zhou, Haibao Yu
-
-**Published:** 2026-03-22 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.21104v1) | [PDF](https://arxiv.org/pdf/2603.21104v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Generating safety-critical driving scenarios requires understanding why dangerous interactions arise, rather than merely forcing collisions. However, existing methods rely on heuristic adversarial agent selection and unstructured perturbations, lacking explicit modeling of interaction dependencies and thus exhibiting a realism--adversarial trade-off. We present CounterScene, a framework that endows closed-loop generative BEV world models with structured counterfactual reasoning for safety-critic...
-
-</details>
-
----
-
-### [Dreaming the Unseen: World Model-regularized Diffusion Policy for Out-of-Distribution Robustness](https://arxiv.org/abs/2603.21017v1)
-
-**Authors:** Ziou Hu, Xiangtong Yao, Yuan Meng, Zhenshan Bing, Alois Knoll
-
-**Published:** 2026-03-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.21017v1) | [PDF](https://arxiv.org/pdf/2603.21017v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Diffusion policies excel at visuomotor control but often fail catastrophically under severe out-of-distribution (OOD) disturbances, such as unexpected object displacements or visual corruptions. To address this vulnerability, we introduce the Dream Diffusion Policy (DDP), a framework that deeply integrates a diffusion world model into the policy's training objective via a shared 3D visual encoder. This co-optimization endows the policy with robust state-prediction capabilities. When encountering...
 
 </details>
 
