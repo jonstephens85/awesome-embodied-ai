@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-03-25 22:26 UTC
+**Last updated:** 2026-03-26 17:02 UTC
 
-**Papers found:** 15
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Unleashing Vision-Language Semantics for Deepfake Video Detection](https://arxiv.org/abs/2603.24454v1)
+
+**Authors:** Jiawen Zhu, Yunqi Miao, Xueyi Zhang, Jiankang Deng, Guansong Pang
+
+**Published:** 2026-03-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.24454v1) | [PDF](https://arxiv.org/pdf/2603.24454v1.pdf) | [GitHub](https://github.com/mala-lab/VLAForge)
+
+<details>
+<summary>Abstract</summary>
+
+Recent Deepfake Video Detection (DFD) studies have demonstrated that pre-trained Vision-Language Models (VLMs) such as CLIP exhibit strong generalization capabilities in detecting artifacts across different identities. However, existing approaches focus on leveraging visual features only, overlooking their most distinctive strength -- the rich vision-language semantics embedded in the latent space. We propose VLAForge, a novel DFD framework that unleashes the potential of such cross-modal semant...
+
+</details>
+
+---
+
+### [SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustness via In-Context Adaptation](https://arxiv.org/abs/2603.24060v1)
+
+**Authors:** Zhuoran Li, Zhiyang Li, Kaijun Zhou, Jinyu Gu
+
+**Published:** 2026-03-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.24060v1) | [PDF](https://arxiv.org/pdf/2603.24060v1.pdf) | [Project Page](and) | [GitHub](https://github.com/LZY-1021/SOMA)
+
+<details>
+<summary>Abstract</summary>
+
+Despite the promise of Vision-Language-Action (VLA) models as generalist robotic controllers, their robustness against perceptual noise and environmental variations in out-of-distribution (OOD) tasks remains fundamentally limited by the absence of long-term memory, causal failure attribution, and dynamic intervention capability. To address this, we propose SOMA, a Strategic Orchestration and Memory-Augmented System that upgrades frozen VLA policies for robust in-context adaptation without parame...
+
+</details>
+
+---
 
 ### [VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs](https://arxiv.org/abs/2603.23481v1)
 
@@ -63,41 +97,58 @@ Embodied Visual Tracking (EVT), a core dynamic task in embodied intelligence, re
 
 ---
 
-### [ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling](https://arxiv.org/abs/2603.22126v1)
-
-**Authors:** Byungjin Kim
-
-**Published:** 2026-03-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22126v1) | [PDF](https://arxiv.org/pdf/2603.22126v1.pdf) | [GitHub](https://github.com/liveplex-cpu/robogate)
-
-<details>
-<summary>Abstract</summary>
-
-Deploying learned robot manipulation policies in industrial settings requires rigorous pre-deployment validation, yet exhaustive testing across high-dimensional parameter spaces is intractable. We present ROBOGATE, a deployment risk management framework that combines physics-based simulation with a two-stage adaptive sampling strategy to efficiently discover failure boundaries in the operational parameter space. Stage 1 employs Latin Hypercube Sampling (LHS) across an 8-dimensional parameter spa...
-
-</details>
-
----
-
-### [VP-VLA: Visual Prompting as an Interface for Vision-Language-Action Models](https://arxiv.org/abs/2603.22003v1)
-
-**Authors:** Zixuan Wang, Yuxin Chen, Yuqi Liu, Jinhui Ye, Pengguang Chen et al. (8 authors)
-
-**Published:** 2026-03-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22003v1) | [PDF](https://arxiv.org/pdf/2603.22003v1.pdf) | [Project Page](https://visualprompt-vla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models typically map visual observations and linguistic instructions directly to robotic control signals. This "black-box" mapping forces a single forward pass to simultaneously handle instruction interpretation, spatial grounding, and low-level control, often leading to poor spatial precision and limited robustness in out-of-distribution scenarios. To address these limitations, we propose VP-VLA, a dual-system framework that decouples high-level reasoning and low-le...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models](https://arxiv.org/abs/2603.24584v1)
+
+**Authors:** Jiaying Zhou, Zhihao Zhan, Ruifeng Zhai, Qinhan Lyu, Hao Liu et al. (8 authors)
+
+**Published:** 2026-03-25 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.24584v1) | [PDF](https://arxiv.org/pdf/2603.24584v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision--Language--Action (VLA) policies have shown strong progress in mapping language instructions and visual observations to robotic actions, yet their reliability degrades in cluttered scenes with distractors. By analyzing failure cases, we find that many errors do not arise from infeasible motions, but from instance-level grounding failures: the policy often produces a plausible grasp trajectory that lands slightly off-target or even on the wrong object instance. To address this issue, we pr...
+
+</details>
+
+---
+
+### [3D-Mix for VLA: A Plug-and-Play Module for Integrating VGGT-based 3D Information into Vision-Language-Action Models](https://arxiv.org/abs/2603.24393v1)
+
+**Authors:** Bin Yu, Shijie Lian, Xiaopeng Lin, Zhaolong Shen, Yuliang Wei et al. (11 authors)
+
+**Published:** 2026-03-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.24393v1) | [PDF](https://arxiv.org/pdf/2603.24393v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models leverage Multimodal Large Language Models (MLLMs) for robotic control, but recent studies reveal that MLLMs exhibit limited spatial intelligence due to training predominantly on 2D data, resulting in inadequate 3D perception for manipulation tasks. While recent approaches incorporate specialized 3D vision models such as VGGT to enhance spatial understanding, they employ diverse integration mechanisms without systematic investigation, leaving the optimal fusion...
+
+</details>
+
+---
+
+### [LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset](https://arxiv.org/abs/2603.23607v1)
+
+**Authors:** Royden Wagner, Omer Sahin Tas, Jaime Villa, Felix Hauser, Yinzhe Shen et al. (21 authors)
+
+**Published:** 2026-03-24 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.23607v1) | [PDF](https://arxiv.org/pdf/2603.23607v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In real-world domains such as self-driving, generalization to rare scenarios remains a fundamental challenge. To address this, we introduce a new dataset designed for end-to-end driving that focuses on long-tail driving events. We provide multi-view video data, trajectories, high-level instructions, and detailed reasoning traces, facilitating in-context learning and few-shot generalization. The resulting benchmark for multimodal models, such as VLMs and VLAs, goes beyond safety and comfort metri...
+
+</details>
+
+---
 
 ### [Gaze-Regularized Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2603.23202v1)
 
@@ -179,91 +230,6 @@ Vision-Language-Action (VLA) models show promise for robotic control, yet perfor
 <summary>Abstract</summary>
 
 Navigating unstructured environments requires assessing traversal risk relative to a robot's physical capabilities, a challenge that varies across embodiments. We present CATNAV, a cost-aware traversability navigation framework that leverages multimodal LLMs for zero-shot, embodiment-aware costmap generation without task-specific training. We introduce a visuosemantic caching mechanism that detects scene novelty and reuses prior risk assessments for semantically similar frames, reducing online V...
-
-</details>
-
----
-
-### [CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation](https://arxiv.org/abs/2603.22435v1)
-
-**Authors:** Max Fu, Justin Yu, Karim El-Refai, Ethan Kou, Haoru Xue et al. (15 authors)
-
-**Published:** 2026-03-23 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22435v1) | [PDF](https://arxiv.org/pdf/2603.22435v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-"Code-as-Policy" considers how executable code can complement data-intensive Vision-Language-Action (VLA) methods, yet their effectiveness as autonomous controllers for embodied manipulation remains underexplored. We present CaP-X, an open-access framework for systematically studying Code-as-Policy agents in robot manipulation. At its core is CaP-Gym, an interactive environment in which agents control robots by synthesizing and executing programs that compose perception and control primitives. B...
-
-</details>
-
----
-
-### [DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2603.22280v1)
-
-**Authors:** Zhide Zhong, Junfeng Li, Junjie He, Haodong Yan, Xin Gong et al. (13 authors)
-
-**Published:** 2026-03-23 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22280v1) | [PDF](https://arxiv.org/pdf/2603.22280v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models map visual observations and language instructions directly to robotic actions. While effective for simple tasks, standard VLA models often struggle with complex, multi-step tasks requiring logical planning, as well as precise manipulations demanding fine-grained spatial perception. Recent efforts have incorporated Chain-of-Thought (CoT) reasoning to endow VLA models with a ``thinking before acting'' capability. However, current CoT-based VLA models face two cr...
-
-</details>
-
----
-
-### [UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos](https://arxiv.org/abs/2603.22264v1)
-
-**Authors:** Gu Zhang, Qicheng Xu, Haozhe Zhang, Jianhan Ma, Long He et al. (19 authors)
-
-**Published:** 2026-03-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22264v1) | [PDF](https://arxiv.org/pdf/2603.22264v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Dexterous manipulation remains challenging due to the cost of collecting real-robot teleoperation data, the heterogeneity of hand embodiments, and the high dimensionality of control. We present UniDex, a robot foundation suite that couples a large-scale robot-centric dataset with a unified vision-language-action (VLA) policy and a practical human-data capture setup for universal dexterous hand control. First, we construct UniDex-Dataset, a robot-centric dataset over 50K trajectories across eight...
-
-</details>
-
----
-
-### [Do World Action Models Generalize Better than VLAs? A Robustness Study](https://arxiv.org/abs/2603.22078v1)
-
-**Authors:** Zhanguang Zhang, Zhiyuan Li, Behnam Rahmati, Rui Heng Yang, Yintao Ma et al. (13 authors)
-
-**Published:** 2026-03-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22078v1) | [PDF](https://arxiv.org/pdf/2603.22078v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robot action planning in the real world is challenging as it requires not only understanding the current state of the environment but also predicting how it will evolve in response to actions. Vision-language-action (VLA), which repurpose large-scale vision-language models for robot action generation using action experts, have achieved notable success across a variety of robotic tasks. Nevertheless, their performance remains constrained by the scope of their training data, exhibiting limited gen...
-
-</details>
-
----
-
-### [AI Token Futures Market: Commoditization of Compute and Derivatives Contract Design](https://arxiv.org/abs/2603.21690v1)
-
-**Authors:** Yicai Xing
-
-**Published:** 2026-03-23 | **Categories:** cs.AI, econ.GN
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.21690v1) | [PDF](https://arxiv.org/pdf/2603.21690v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-As large language models (LLMs) and vision-language-action models (VLAs) become widely deployed, the tokens consumed by AI inference are evolving into a new type of commodity. This paper systematically analyzes the commodity attributes of tokens, arguing for their transition from intelligent service outputs to compute infrastructure raw materials, and draws comparisons with established commodities such as electricity, carbon emission allowances, and bandwidth. Building on the historical experien...
 
 </details>
 
