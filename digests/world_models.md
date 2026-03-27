@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-03-26 22:18 UTC
+**Last updated:** 2026-03-27 16:55 UTC
 
-**Papers found:** 12
+**Papers found:** 14
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Vega: Learning to Drive with Natural Language Instructions](https://arxiv.org/abs/2603.25741v1)
+
+**Authors:** Sicheng Zuo, Yuxuan Li, Wenzhao Zheng, Zheng Zhu, Jie Zhou et al. (6 authors)
+
+**Published:** 2026-03-26 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25741v1) | [PDF](https://arxiv.org/pdf/2603.25741v1.pdf) | [GitHub](https://github.com/zuosc19/Vega)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personalized driving. To address this, we first construct a large-scale driving dataset (InstructScene) containing around 100,000 scenes annotated with diverse driving instructions with the corresponding traje...
+
+</details>
+
+---
+
+### [DCARL: A Divide-and-Conquer Framework for Autoregressive Long-Trajectory Video Generation](https://arxiv.org/abs/2603.24835v1)
+
+**Authors:** Junyi Ouyang, Wenbin Teng, Gonglin Chen, Yajie Zhao, Haiwei Chen
+
+**Published:** 2026-03-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.24835v1) | [PDF](https://arxiv.org/pdf/2603.24835v1.pdf) | [Project Page](https://junyiouy.github.io/projects/dcarl)
+
+<details>
+<summary>Abstract</summary>
+
+Long-trajectory video generation is a crucial yet challenging task for world modeling primarily due to the limited scalability of existing video diffusion models (VDMs). Autoregressive models, while offering infinite rollout, suffer from visual drift and poor controllability. To address these issues, we propose DCARL, a novel divide-and-conquer, autoregressive framework that effectively combines the structural stability of the divide-and-conquer scheme with the high-fidelity generation of VDMs. ...
+
+</details>
+
+---
 
 ### [Toward Physically Consistent Driving Video World Models under Challenging Trajectories](https://arxiv.org/abs/2603.24506v1)
 
@@ -46,41 +80,92 @@ Computer-use agents (CUAs) hold great promise for automating complex desktop wor
 
 ---
 
-### [WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG](https://arxiv.org/abs/2603.23497v1)
-
-**Authors:** Zhen Li, Zian Meng, Shuwei Shi, Wenshuo Peng, Yuwei Wu et al. (8 authors)
-
-**Published:** 2026-03-24 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.23497v1) | [PDF](https://arxiv.org/pdf/2603.23497v1.pdf) | [Project Page](is)
-
-<details>
-<summary>Abstract</summary>
-
-Dynamical systems theory and reinforcement learning view world evolution as latent-state dynamics driven by actions, with visual observations providing partial information about the state. Recent video world models attempt to learn this action-conditioned dynamics from data. However, existing datasets rarely match the requirement: they typically lack diverse and semantically meaningful action spaces, and actions are directly tied to visual observations rather than mediated by underlying states. ...
-
-</details>
-
----
-
-### [VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs](https://arxiv.org/abs/2603.23481v1)
-
-**Authors:** Haoran Yuan, Weigang Yi, Zhenyu Zhang, Wendi Chen, Yuchen Mo et al. (12 authors)
-
-**Published:** 2026-03-24 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.23481v1) | [PDF](https://arxiv.org/pdf/2603.23481v1.pdf) | [Project Page](https://plan-lab.github.io/projects/vtam/)
-
-<details>
-<summary>Abstract</summary>
-
-Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions. Although such models demonstrate strong performance on long-horizon tasks through visual reasoning, they remain limited in contact-rich scenarios where critical interaction states are only partially observable from vision alone. In particular, fine-grained force modulation and contact transitions a...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models](https://arxiv.org/abs/2603.25716v1)
+
+**Authors:** Kaijin Chen, Dingkang Liang, Xin Zhou, Yikang Ding, Xiaoqiang Liu et al. (7 authors)
+
+**Published:** 2026-03-26 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25716v1) | [PDF](https://arxiv.org/pdf/2603.25716v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models have shown immense potential in simulating the physical world, yet existing memory mechanisms primarily treat environments as static canvases. When dynamic subjects hide out of sight and later re-emerge, current methods often struggle, leading to frozen, distorted, or vanishing subjects. To address this, we introduce Hybrid Memory, a novel paradigm requiring models to simultaneously act as precise archivists for static backgrounds and vigilant trackers for dynamic subjects, en...
+
+</details>
+
+---
+
+### [Persistent Robot World Models: Stabilizing Multi-Step Rollouts via Reinforcement Learning](https://arxiv.org/abs/2603.25685v1)
+
+**Authors:** Jai Bardhan, Patrik Drozdik, Josef Sivic, Vladimir Petrik
+
+**Published:** 2026-03-26 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25685v1) | [PDF](https://arxiv.org/pdf/2603.25685v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned robot world models generate future video frames of the manipulated scene given a robot action sequence, offering a promising alternative for simulating tasks that are difficult to model with traditional physics engines. However, these models are optimized for short-term prediction and break down when deployed autoregressively: each predicted clip feeds back as context for the next, causing errors to compound and visual quality to rapidly degrade. We address this through the fo...
+
+</details>
+
+---
+
+### [Modernising Reinforcement Learning-Based Navigation for Embodied Semantic Scene Graph Generation](https://arxiv.org/abs/2603.25415v1)
+
+**Authors:** Roman Kueble, Marco Hueller, Mrunmai Phatak, Rainer Lienhart, Joerg Haehner
+
+**Published:** 2026-03-26 | **Categories:** cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25415v1) | [PDF](https://arxiv.org/pdf/2603.25415v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Semantic world models enable embodied agents to reason about objects, relations, and spatial context beyond purely geometric representations. In Organic Computing, such models are a key enabler for objective-driven self-adaptation under uncertainty and resource constraints. The core challenge is to acquire observations maximising model quality and downstream usefulness within a limited action budget. Semantic scene graphs (SSGs) provide a structured and compact representation for this purpose. H...
+
+</details>
+
+---
+
+### [MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation](https://arxiv.org/abs/2603.25406v1)
+
+**Authors:** Yang Liu, Pengxiang Ding, Tengyue Jiang, Xudong Wang, Wenxuan Song et al. (13 authors)
+
+**Published:** 2026-03-26 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25406v1) | [PDF](https://arxiv.org/pdf/2603.25406v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models aim to control robots for manipulation from visual observations and natural-language instructions. However, existing hierarchical and autoregressive paradigms often introduce architectural overhead, suffer from temporal inconsistency and long-horizon error accumulation, and lack a mechanism to capture environment dynamics without extra modules. To this end, we present MMaDA-VLA, a fully native pre-trained large diffusion VLA model that unifies multi-modal unde...
+
+</details>
+
+---
+
+### [A Wireless World Model for AI-Native 6G Networks](https://arxiv.org/abs/2603.25216v1)
+
+**Authors:** Ziqi Chen, Yi Ren, Yixuan Huang, Qi Sun, Nan Li et al. (9 authors)
+
+**Published:** 2026-03-26 | **Categories:** cs.NI, cs.AI, eess.SP
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.25216v1) | [PDF](https://arxiv.org/pdf/2603.25216v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Integrating AI into the physical layer is a cornerstone of 6G networks. However, current data-driven approaches struggle to generalize across dynamic environments because they lack an intrinsic understanding of electromagnetic wave propagation. We introduce the Wireless World Model (WWM), a multi-modal foundation framework predicting the spatiotemporal evolution of wireless channels by internalizing the causal relationship between 3D geometry and signal dynamics. Pre-trained on a massive ray-tra...
+
+</details>
+
+---
 
 ### [DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](https://arxiv.org/abs/2603.24587v1)
 
@@ -133,18 +218,18 @@ Generative world models offer a compelling foundation for augmented-reality (AR)
 
 ---
 
-### [AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model](https://arxiv.org/abs/2603.24402v1)
+### [AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model](https://arxiv.org/abs/2603.24402v2)
 
 **Authors:** Yunbo Long
 
 **Published:** 2026-03-25 | **Categories:** cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.24402v1) | [PDF](https://arxiv.org/pdf/2603.24402v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2603.24402v2) | [PDF](https://arxiv.org/pdf/2603.24402v2.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Existing automated research systems operate as stateless, linear pipelines, generating outputs without maintaining a persistent understanding of the research landscape. They process papers sequentially, propose ideas without structured gap analysis, and lack mechanisms for agents to verify or refine each other's findings. We present AutoProf (Autonomous Professor), a multi-agent orchestration framework where specialized agents provide end-to-end AI research supervision driven by human interests,...
+Existing automated research systems operate as stateless, linear pipelines -- generating outputs without maintaining any persistent understanding of the research landscape they navigate. They process papers sequentially, propose ideas without structured gap analysis, and lack mechanisms for agents to verify, challenge, or refine each other's findings. We present \textbf{AI-Supervisor}, a multi-agent orchestration framework where specialized agents provide end-to-end AI research supervision drive...
 
 </details>
 
@@ -162,57 +247,6 @@ Existing automated research systems operate as stateless, linear pipelines, gene
 <summary>Abstract</summary>
 
 Multimodal LLMs are increasingly deployed as perceptual backbones for autonomous agents in 3D environments, from robotics to virtual worlds. These applications require agents to perceive rapid state changes, attribute actions to the correct entities, and reason about concurrent multi-agent behaviors from a first-person perspective, capabilities that existing benchmarks do not adequately evaluate. We introduce GameplayQA, a framework for evaluating agentic-centric perception and reasoning through...
-
-</details>
-
----
-
-### [ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment](https://arxiv.org/abs/2603.23376v1)
-
-**Authors:** Yuzhi Chen, Ronghan Chen, Dongjie Huo, Yandan Yang, Dekang Qi et al. (14 authors)
-
-**Published:** 2026-03-24 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.23376v1) | [PDF](https://arxiv.org/pdf/2603.23376v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Video-based world models offer a powerful paradigm for embodied simulation and planning, yet state-of-the-art models often generate physically implausible manipulations - such as object penetration and anti-gravity motion - due to training on generic visual data and likelihood-based objectives that ignore physical laws. We present ABot-PhysWorld, a 14B Diffusion Transformer model that generates visually realistic, physically plausible, and action-controllable videos. Built on a curated dataset o...
-
-</details>
-
----
-
-### [Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models](https://arxiv.org/abs/2603.23149v1)
-
-**Authors:** Massimiliano Pappa, Luca Romani, Valentino Sacco, Alessio Palma, Stéphane Lathuilière et al. (8 authors)
-
-**Published:** 2026-03-24 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.23149v1) | [PDF](https://arxiv.org/pdf/2603.23149v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Deploying safety-critical agents requires anticipating the consequences of actions before they are executed. While world models offer a paradigm for this proactive foresight, current approaches relying on visual simulation incur prohibitive latencies, often exceeding several seconds per step. In this work, we challenge the assumption that visual processing is necessary for failure prevention. We show that a trained policy's latent state, combined with its planned actions, already encodes suffici...
-
-</details>
-
----
-
-### [PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding](https://arxiv.org/abs/2603.22796v1)
-
-**Authors:** Lirong Che, Zhenfeng Gan, Yanbo Chen, Junbo Tan, Xueqian Wang
-
-**Published:** 2026-03-24 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.22796v1) | [PDF](https://arxiv.org/pdf/2603.22796v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied agents for creative tasks like photography must bridge the semantic gap between high-level language commands and geometric control. We introduce PhotoAgent, an agent that achieves this by integrating Large Multimodal Models (LMMs) reasoning with a novel control paradigm. PhotoAgent first translates subjective aesthetic goals into solvable geometric constraints via LMM-driven, chain-of-thought (CoT) reasoning, allowing an analytical solver to compute a high-quality initial viewpoint. Thi...
 
 </details>
 
