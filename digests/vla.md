@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-03-31 22:25 UTC
+**Last updated:** 2026-04-01 16:55 UTC
 
-**Papers found:** 7
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)
+
+**Authors:** Yi Chen, Yuying Ge, Hui Zhou, Mingyu Ding, Yixiao Ge et al. (6 authors)
+
+**Published:** 2026-03-31 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.29844v1) | [PDF](https://arxiv.org/pdf/2603.29844v1.pdf) | [Project Page](https://xpeng-robotics.github.io/dial)
+
+<details>
+<summary>Abstract</summary>
+
+The development of Vision-Language-Action (VLA) models has been significantly accelerated by pre-trained Vision-Language Models (VLMs). However, most existing end-to-end VLAs treat the VLM primarily as a multimodal encoder, directly mapping vision-language features to low-level actions. This paradigm underutilizes the VLM's potential in high-level decision making and introduces training instability, frequently degrading its rich semantic representations. To address these limitations, we introduc...
+
+</details>
+
+---
+
+### [CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics](https://arxiv.org/abs/2603.29409v1)
+
+**Authors:** Andrew Jeong, Jaemin Kim, Sebin Lee, Sung-Eui Yoon
+
+**Published:** 2026-03-31 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.29409v1) | [PDF](https://arxiv.org/pdf/2603.29409v1.pdf) | [Project Page](https://andrewwwj.github.io/clad)
+
+<details>
+<summary>Abstract</summary>
+
+Robotic manipulation involves kinematic and semantic transitions that are inherently coupled via underlying actions. However, existing approaches plan within either semantic or latent space without explicitly aligning these cross-modal transitions. To address this, we propose CLaD, a framework that models how proprioceptive and semantic states jointly evolve under actions through asymmetric cross-attention that allows kinematic transitions to query semantic ones. CLaD predicts grounded latent fo...
+
+</details>
+
+---
 
 ### [LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models](https://arxiv.org/abs/2603.28301v1)
 
@@ -111,23 +145,6 @@ Vision-Language-Action (VLA) models and world models have recently emerged as pr
 <summary>Abstract</summary>
 
 Vision-language models (VLMs) have achieved impressive results on single-view vision tasks, but lack the multi-view spatial reasoning capabilities essential for embodied AI systems to understand 3D environments and manipulate objects across different viewpoints. In this work, we introduce Cross-View Relations (XVR), a large-scale dataset designed to teach VLMs spatial reasoning across multiple views. XVR comprises 100K vision-question-answer samples derived from 18K diverse 3D scenes and 70K rob...
-
-</details>
-
----
-
-### [ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation](https://arxiv.org/abs/2603.27670v1)
-
-**Authors:** Hongyu Yan, Qiwei Li, Jiaolong Yang, Yadong Mu
-
-**Published:** 2026-03-29 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2603.27670v1) | [PDF](https://arxiv.org/pdf/2603.27670v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Most existing vision-language-action (VLA) models for robotic manipulation lack progress awareness, typically relying on hand-crafted heuristics for task termination. This limitation is particularly severe in long-horizon tasks involving cascaded sub-goals. In this work, we investigate the estimation and integration of task progress, proposing a novel model named {\textbf \vla}. Our technical contributions are twofold: (1) \emph{robust progress estimation}: We pre-train a progress estimator on l...
 
 </details>
 
