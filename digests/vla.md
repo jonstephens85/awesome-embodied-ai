@@ -2,15 +2,100 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-02 22:23 UTC
+**Last updated:** 2026-04-03 16:42 UTC
 
-**Papers found:** 3
+**Papers found:** 10
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)
+
+**Authors:** Qiyao Zhang, Shuhua Zheng, Jianli Sun, Chengxiang Li, Xianke Wu et al. (9 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.02241v1) | [PDF](https://arxiv.org/pdf/2604.02241v1.pdf) | [GitHub](https://github.com/Hub-Tian/UAV-Track\_VLA)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Fu...
+
+</details>
+
+---
+
+### [UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving](https://arxiv.org/abs/2604.02190v1)
+
+**Authors:** Yongkang Li, Lijun Zhou, Sixu Yan, Bencheng Liao, Tianyi Yan et al. (14 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.02190v1) | [PDF](https://arxiv.org/pdf/2604.02190v1.pdf) | [GitHub](https://github.com/xiaomi-research/unidrivevla)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have recently emerged in autonomous driving, with the promise of leveraging rich world knowledge to improve the cognitive capabilities of driving systems. However, adapting such models for driving tasks currently faces a critical dilemma between spatial perception and semantic reasoning. Consequently, existing VLA systems are forced into suboptimal compromises: directly adopting 2D Vision-Language Models yields limited spatial perception, whereas enhancing the...
+
+</details>
+
+---
+
+### [Posterior Optimization with Clipped Objective for Bridging Efficiency and Stability in Generative Policy Learning](https://arxiv.org/abs/2604.01860v1)
+
+**Authors:** Yuhui Chen, Haoran Li, Zhennan Jiang, Yuxing Qin, Yuxuan Wan et al. (7 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01860v1) | [PDF](https://arxiv.org/pdf/2604.01860v1.pdf) | [Project Page](https://cccedric.github.io/poco/)
+
+<details>
+<summary>Abstract</summary>
+
+Expressive generative models have advanced robotic manipulation by capturing complex, multi-modal action distributions over temporally extended trajectories. However, fine-tuning these policies via RL remains challenging due to instability and sample inefficiency. We introduce Posterior Optimization with Clipped Objective (POCO), a principled RL framework that formulates policy improvement as a posterior inference problem tailored for temporal action chunks. Through an Expectation-Maximization p...
+
+</details>
+
+---
+
+### [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)
+
+**Authors:** Yang Zhou, Xiaofeng Wang, Hao Shao, Letian Wang, Guosheng Zhao et al. (11 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01765v1) | [PDF](https://arxiv.org/pdf/2604.01765v1.pdf) | [Project Page](https://drivedreamer-policy.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models, unifying their reasoning and instruction-following capabilities and spatio-temporal world modeling. However, existing WAM approaches often focus on modeling 2D appearance or latent representations, with limited geometric grounding-an essential element for embodied systems operating in the physical world. We present DriveDreamer-Policy, a unified driving world-action model that integra...
+
+</details>
+
+---
+
+### [AnchorVLA: Anchored Diffusion for Efficient End-to-End Mobile Manipulation](https://arxiv.org/abs/2604.01567v1)
+
+**Authors:** Jia Syuen Lim, Zhizhen Zhang, Peter Bohm, Brendan Tidd, Zi Huang et al. (6 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01567v1) | [PDF](https://arxiv.org/pdf/2604.01567v1.pdf) | [GitHub](https://github.com/jason-lim26/AnchorVLA)
+
+<details>
+<summary>Abstract</summary>
+
+A central challenge in mobile manipulation is preserving multiple plausible action models while remaining reactive during execution. A bottle in a cluttered scene can often be approached and grasped in multiple valid ways. Robust behavior depends on preserving this action diversity while remaining reactive as the scene evolves. Diffusion policies are appealing because they model multimodal action distributions rather than collapsing to one solution. But in practice, full iterative denoising is c...
+
+</details>
+
+---
 
 ### [DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale](https://arxiv.org/abs/2604.00813v1)
 
@@ -29,35 +114,71 @@ End-to-end autonomous driving has evolved from the conventional paradigm based o
 
 ---
 
-### [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)
+## Other Recent Papers
 
-**Authors:** Yi Chen, Yuying Ge, Hui Zhou, Mingyu Ding, Yixiao Ge et al. (6 authors)
+### [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)
 
-**Published:** 2026-03-31 | **Categories:** cs.RO, cs.AI, cs.CV
+**Authors:** Yun Li, Yidu Zhang, Simon Thompson, Ehsan Javanmardi, Manabu Tsukada
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.29844v1) | [PDF](https://arxiv.org/pdf/2603.29844v1.pdf) | [Project Page](https://xpeng-robotics.github.io/dial)
+**Published:** 2026-04-02 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01723v1) | [PDF](https://arxiv.org/pdf/2604.01723v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-The development of Vision-Language-Action (VLA) models has been significantly accelerated by pre-trained Vision-Language Models (VLMs). However, most existing end-to-end VLAs treat the VLM primarily as a multimodal encoder, directly mapping vision-language features to low-level actions. This paradigm underutilizes the VLM's potential in high-level decision making and introduces training instability, frequently degrading its rich semantic representations. To address these limitations, we introduc...
+Vision-Language-Action (VLA) models for autonomous driving must integrate diverse textual inputs, including navigation commands, hazard warnings, and traffic state descriptions, yet current systems often present these as disconnected fragments, forcing the model to discover on its own which environmental constraints are relevant to the current maneuver. We introduce Causal Scene Narration (CSN), which restructures VLA text inputs through intent-constraint alignment, quantitative grounding, and s...
 
 </details>
 
 ---
 
-### [CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics](https://arxiv.org/abs/2603.29409v1)
+### [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)
 
-**Authors:** Andrew Jeong, Jaemin Kim, Sebin Lee, Sung-Eui Yoon
+**Authors:** Jiawei Chen, Simin Huang, Jiawei Du, Shuaihang Chen, Yu Tian et al. (8 authors)
 
-**Published:** 2026-03-31 | **Categories:** cs.RO
+**Published:** 2026-04-02 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2603.29409v1) | [PDF](https://arxiv.org/pdf/2603.29409v1.pdf) | [Project Page](https://andrewwwj.github.io/clad)
+**Links:** [arXiv](https://arxiv.org/abs/2604.01618v1) | [PDF](https://arxiv.org/pdf/2604.01618v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Robotic manipulation involves kinematic and semantic transitions that are inherently coupled via underlying actions. However, existing approaches plan within either semantic or latent space without explicitly aligning these cross-modal transitions. To address this, we propose CLaD, a framework that models how proprioceptive and semantic states jointly evolve under actions through asymmetric cross-attention that allows kinematic transitions to query semantic ones. CLaD predicts grounded latent fo...
+Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language perturbations and 2D visual attacks, but these attack surfaces are either less representative of real deployment or limited in physical realism. In contrast, adversarial 3D textures pose a more physically plausible and damaging threat, as they are naturally attac...
+
+</details>
+
+---
+
+### [Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior](https://arxiv.org/abs/2604.01570v1)
+
+**Authors:** Haochen Niu, Kanyu Zhang, Shuyu Yin, Qinghai Guo, Peilin Liu et al. (6 authors)
+
+**Published:** 2026-04-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01570v1) | [PDF](https://arxiv.org/pdf/2604.01570v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In real-world robotic manipulation, states typically admit a neighborhood of near-equivalent actions. That is, for each state, there exist a feasible action neighborhood (FAN) rather than a single correct action, within which motions yield indistinguishable progress. However, prevalent VLA training methodologies are directly inherited from linguistic settings and do not exploit the FAN property, thus leading to poor generalization and low sample efficiency. To address this limitation, we introdu...
+
+</details>
+
+---
+
+### [AffordTissue: Dense Affordance Prediction for Tool-Action Specific Tissue Interaction](https://arxiv.org/abs/2604.01371v1)
+
+**Authors:** Aiza Maksutova, Lalithkumar Seenivasan, Hao Ding, Jiru Xu, Chenhao Yu et al. (8 authors)
+
+**Published:** 2026-04-01 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.01371v1) | [PDF](https://arxiv.org/pdf/2604.01371v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Surgical action automation has progressed rapidly toward achieving surgeon-like dexterous control, driven primarily by advances in learning from demonstration and vision-language-action models. While these have demonstrated success in table-top experiments, translating them to clinical deployment remains challenging: current methods offer limited predictability on where instruments will interact on tissue surfaces and lack explicit conditioning inputs to enforce tool-action-specific safe interac...
 
 </details>
 
