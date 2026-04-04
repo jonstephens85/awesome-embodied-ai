@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-03 22:22 UTC
+**Last updated:** 2026-04-04 16:36 UTC
 
-**Papers found:** 10
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
@@ -128,57 +128,6 @@ Large-scale distributed training has been a research hot spot in machine learnin
 <summary>Abstract</summary>
 
 We present F3DGS, a federated 3D Gaussian Splatting framework for decentralized multi-agent 3D reconstruction. Existing 3DGS pipelines assume centralized access to all observations, which limits their applicability in distributed robotic settings where agents operate independently, and centralized data aggregation may be restricted. Directly extending centralized training to multi-agent systems introduces communication overhead and geometric inconsistency. F3DGS first constructs a shared geometr...
-
-</details>
-
----
-
-### [Semantic Modeling for World-Centered Architectures](https://arxiv.org/abs/2604.01359v1)
-
-**Authors:** Andrei Mantsivoda, Darya Gavrilina
-
-**Published:** 2026-04-01 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.01359v1) | [PDF](https://arxiv.org/pdf/2604.01359v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce world-centered multi-agent systems (WMAS) as an alternative to traditional agent-centered architectures, arguing that structured domains such as enterprises and institutional systems require a shared, explicit world representation to ensure semantic consistency, explainability, and long-term stability. We classify worlds along dimensions including ontological explicitness, normativity, etc. In WMAS, learning and coordination operate over a shared world model rather than isolated age...
-
-</details>
-
----
-
-### [Safety, Security, and Cognitive Risks in World Models](https://arxiv.org/abs/2604.01346v1)
-
-**Authors:** Manoj Parmar
-
-**Published:** 2026-04-01 | **Categories:** cs.CR, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.01346v1) | [PDF](https://arxiv.org/pdf/2604.01346v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models -- learned internal simulators of environment dynamics -- are rapidly becoming foundational to autonomous decision-making in robotics, autonomous vehicles, and agentic AI. Yet this predictive power introduces a distinctive set of safety, security, and cognitive risks. Adversaries can corrupt training data, poison latent representations, and exploit compounding rollout errors to cause catastrophic failures in safety-critical deployments. World model-equipped agents are more capable o...
-
-</details>
-
----
-
-### [DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving](https://arxiv.org/abs/2604.00969v1)
-
-**Authors:** Yiyao Zhu, Ying Xue, Haiming Zhang, Guangfeng Jiang, Wending Zhou et al. (11 authors)
-
-**Published:** 2026-04-01 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.00969v1) | [PDF](https://arxiv.org/pdf/2604.00969v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-based autonomous driving has gained much attention due to its low costs and excellent performance. Compared with dense BEV (Bird's Eye View) or sparse query models, Gaussian-centric method is a comprehensive yet sparse representation by describing scene with 3D semantic Gaussians. In this paper, we introduce DLWM, a novel paradigm with Dual Latent World Models specifically designed to enable holistic gaussian-centric pre-training in autonomous driving using two stages. In the first stage,...
 
 </details>
 

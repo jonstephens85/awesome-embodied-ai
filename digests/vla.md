@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-03 22:23 UTC
+**Last updated:** 2026-04-04 16:36 UTC
 
-**Papers found:** 10
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -97,23 +97,6 @@ A central challenge in mobile manipulation is preserving multiple plausible acti
 
 ---
 
-### [DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale](https://arxiv.org/abs/2604.00813v1)
-
-**Authors:** Sicheng Zuo, Zixun Xie, Wenzhao Zheng, Shaoqing Xu, Fang Li et al. (9 authors)
-
-**Published:** 2026-04-01 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.00813v1) | [PDF](https://arxiv.org/pdf/2604.00813v1.pdf) | [GitHub](https://github.com/wzzheng/DVGT})
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving has evolved from the conventional paradigm based on sparse perception into vision-language-action (VLA) models, which focus on learning language descriptions as an auxiliary task to facilitate planning. In this paper, we propose an alternative Vision-Geometry-Action (VGA) paradigm that advocates dense 3D geometry as the critical cue for autonomous driving. As vehicles operate in a 3D world, we think dense 3D geometry provides the most comprehensive information for d...
-
-</details>
-
----
-
 ## Other Recent Papers
 
 ### [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)
@@ -162,23 +145,6 @@ Vision-language-action (VLA) models have shown strong performance in robotic man
 <summary>Abstract</summary>
 
 In real-world robotic manipulation, states typically admit a neighborhood of near-equivalent actions. That is, for each state, there exist a feasible action neighborhood (FAN) rather than a single correct action, within which motions yield indistinguishable progress. However, prevalent VLA training methodologies are directly inherited from linguistic settings and do not exploit the FAN property, thus leading to poor generalization and low sample efficiency. To address this limitation, we introdu...
-
-</details>
-
----
-
-### [AffordTissue: Dense Affordance Prediction for Tool-Action Specific Tissue Interaction](https://arxiv.org/abs/2604.01371v1)
-
-**Authors:** Aiza Maksutova, Lalithkumar Seenivasan, Hao Ding, Jiru Xu, Chenhao Yu et al. (8 authors)
-
-**Published:** 2026-04-01 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.01371v1) | [PDF](https://arxiv.org/pdf/2604.01371v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Surgical action automation has progressed rapidly toward achieving surgeon-like dexterous control, driven primarily by advances in learning from demonstration and vision-language-action models. While these have demonstrated success in table-top experiments, translating them to clinical deployment remains challenging: current methods offer limited predictability on where instruments will interact on tissue surfaces and lack explicit conditioning inputs to enforce tool-action-specific safe interac...
 
 </details>
 
