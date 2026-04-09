@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-08 22:29 UTC
+**Last updated:** 2026-04-09 17:08 UTC
 
-**Papers found:** 7
+**Papers found:** 9
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Neural Computers](https://arxiv.org/abs/2604.06425v1)
+
+**Authors:** Mingchen Zhuge, Changsheng Zhao, Haozhe Liu, Zijian Zhou, Shuming Liu et al. (19 authors)
+
+**Published:** 2026-04-07 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.06425v1) | [PDF](https://arxiv.org/pdf/2604.06425v1.pdf) | [GitHub](https://github.com/metauto-ai/NeuralComputer)
+
+<details>
+<summary>Abstract</summary>
+
+We propose a new frontier: Neural Computers (NCs) -- an emerging machine form that unifies computation, memory, and I/O in a learned runtime state. Unlike conventional computers, which execute explicit programs, agents, which act over external execution environments, and world models, which learn environment dynamics, NCs aim to make the model itself the running computer. Our long-term goal is the Completely Neural Computer (CNC): the mature, general-purpose realization of this emerging machine ...
+
+</details>
+
+---
+
+### [Evolution of Video Generative Foundations](https://arxiv.org/abs/2604.06339v1)
+
+**Authors:** Teng Hu, Jiangning Zhang, Hongrui Huang, Ran Yi, Zihan Su et al. (10 authors)
+
+**Published:** 2026-04-07 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.06339v1) | [PDF](https://arxiv.org/pdf/2604.06339v1.pdf) | [GitHub](https://github.com/sjtuplayer/Awesome-Video-Foundations)
+
+<details>
+<summary>Abstract</summary>
+
+The rapid advancement of Artificial Intelligence Generated Content (AIGC) has revolutionized video generation, enabling systems ranging from proprietary pioneers like OpenAI's Sora, Google's Veo3, and Bytedance's Seedance to powerful open-source contenders like Wan and HunyuanVideo to synthesize temporally coherent and semantically rich videos. These advancements pave the way for building "world models" that simulate real-world dynamics, with applications spanning entertainment, education, and v...
+
+</details>
+
+---
 
 ### [Action Images: End-to-End Policy Learning via Multiview Video Generation](https://arxiv.org/abs/2604.06168v1)
 
@@ -29,58 +63,92 @@ World action models (WAMs) have emerged as a promising direction for robot polic
 
 ---
 
-### [Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding](https://arxiv.org/abs/2604.05015v1)
-
-**Authors:** Chaoyou Fu, Haozhi Yuan, Yuhao Dong, Yi-Fan Zhang, Yunhang Shen et al. (19 authors)
-
-**Published:** 2026-04-06 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05015v1) | [PDF](https://arxiv.org/pdf/2604.05015v1.pdf) | [Project Page](https://video-mme-v2.netlify.app/)
-
-<details>
-<summary>Abstract</summary>
-
-With the rapid advancement of video understanding, existing benchmarks are becoming increasingly saturated, exposing a critical discrepancy between inflated leaderboard scores and real-world model capabilities. To address this widening gap, we introduce Video-MME-v2, a comprehensive benchmark designed to rigorously evaluate the robustness and faithfulness of video understanding. To systematically evaluate model capabilities, we design a \textbf{progressive tri-level hierarchy} that incrementally...
-
-</details>
-
----
-
-### [StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing](https://arxiv.org/abs/2604.05014v1)
-
-**Authors:** StarVLA Community
-
-**Published:** 2026-04-06 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05014v1) | [PDF](https://arxiv.org/pdf/2604.05014v1.pdf) | [GitHub](https://github.com/starVLA/starVLA)
-
-<details>
-<summary>Abstract</summary>
-
-Building generalist embodied agents requires integrating perception, language understanding, and action, which are core capabilities addressed by Vision-Language-Action (VLA) approaches based on multimodal foundation models, including recent advances in vision-language models and world models. Despite rapid progress, VLA methods remain fragmented across incompatible architectures, codebases, and evaluation protocols, hindering principled comparison and reproducibility. We present StarVLA, an ope...
-
-</details>
-
----
-
-### [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](https://arxiv.org/abs/2604.04707v1)
-
-**Authors:**  DataFlow Team, Bohan Zeng, Daili Hua, Kaixin Zhu, Yifan Dai et al. (41 authors)
-
-**Published:** 2026-04-06 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.04707v1) | [PDF](https://arxiv.org/pdf/2604.04707v1.pdf) | [GitHub](https://github.com/OpenDCAI/OpenWorldLib)
-
-<details>
-<summary>Abstract</summary>
-
-World models have garnered significant attention as a promising research direction in artificial intelligence, yet a clear and unified definition remains lacking. In this paper, we introduce OpenWorldLib, a comprehensive and standardized inference framework for Advanced World Models. Drawing on the evolution of world models, we propose a clear definition: a world model is a model or framework centered on perception, equipped with interaction and long-term memory capabilities, for understanding a...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [How Much LLM Does a Self-Revising Agent Actually Need?](https://arxiv.org/abs/2604.07236v1)
+
+**Authors:** Seongwoo Jeong, Seonil Son
+
+**Published:** 2026-04-08 | **Categories:** cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07236v1) | [PDF](https://arxiv.org/pdf/2604.07236v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent LLM-based agents often place world modeling, planning, and reflection inside a single language model loop. This can produce capable behavior, but it makes a basic scientific question difficult to answer: which part of the agent's competence actually comes from the LLM, and which part comes from explicit structure around it? We study this question not by claiming a general answer, but by making it empirically tractable. We introduce a declared reflective runtime protocol that externalizes ...
+
+</details>
+
+---
+
+### [PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing](https://arxiv.org/abs/2604.07230v1)
+
+**Authors:** Ruihang Xu, Dewei Zhou, Xiaolong Shen, Fan Ma, Yi Yang
+
+**Published:** 2026-04-08 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07230v1) | [PDF](https://arxiv.org/pdf/2604.07230v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Achieving physically accurate object manipulation in image editing is essential for its potential applications in interactive world models. However, existing visual generative models often fail at precise spatial manipulation, resulting in incorrect scaling and positioning of objects. This limitation primarily stems from the lack of explicit mechanisms to incorporate 3D geometry and perspective projection. To achieve accurate manipulation, we develop PhyEdit, an image editing framework that leve...
+
+</details>
+
+---
+
+### [INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling](https://arxiv.org/abs/2604.07209v1)
+
+**Authors:**  InSpatio Team, Donghui Shen, Guofeng Zhang, Haomin Liu, Haoyu Ji et al. (23 authors)
+
+**Published:** 2026-04-08 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07209v1) | [PDF](https://arxiv.org/pdf/2604.07209v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Building world models with spatial consistency and real-time interactivity remains a fundamental challenge in computer vision. Current video generation paradigms often struggle with a lack of spatial persistence and insufficient visual realism, making it difficult to support seamless navigation in complex environments. To address these challenges, we propose INSPATIO-WORLD, a novel real-time framework capable of recovering and generating high-fidelity, dynamic interactive scenes from a single re...
+
+</details>
+
+---
+
+### [Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G](https://arxiv.org/abs/2604.06882v1)
+
+**Authors:** Hang Zou, Yuzhi Yang, Lina Bariah, Yu Tian, Yuhuan Lu et al. (18 authors)
+
+**Published:** 2026-04-08 | **Categories:** cs.RO, eess.SP, eess.SY
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.06882v1) | [PDF](https://arxiv.org/pdf/2604.06882v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The integration of machine learning tools into telecom networks, has led to two prevailing paradigms, namely, language-based systems, such as Large Language Models (LLMs), and physics-based systems, such as Digital Twins (DTs). While LLM-based approaches enable flexible interaction and automation, they lack explicit representations of network dynamics. DTs, in contrast, offer a high-fidelity network simulation, but remain scenario-specific and are not designed for learning or decision-making und...
+
+</details>
+
+---
+
+### [The Rhetoric of Machine Learning](https://arxiv.org/abs/2604.06754v1)
+
+**Authors:** Robert C. Williamson
+
+**Published:** 2026-04-08 | **Categories:** cs.LG, cs.CY
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.06754v1) | [PDF](https://arxiv.org/pdf/2604.06754v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+I examine the technology of machine learning from the perspective of rhetoric, which is simply the art of persuasion. Rather than being a neutral and "objective" way to build "world models" from data, machine learning is (I argue) inherently rhetorical. I explore some of its rhetorical features, and examine one pervasive business model where machine learning is widely used, "manipulation as a service."
+
+</details>
+
+---
 
 ### [Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement](https://arxiv.org/abs/2604.06155v1)
 
@@ -94,40 +162,6 @@ World models have garnered significant attention as a promising research directi
 <summary>Abstract</summary>
 
 Whether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we provide a theoretical perspective analyzing the gradient inductive bias of MTP, supported by empirical evidence, showing that MTP promotes the convergence toward internal belief states by inducing represent...
-
-</details>
-
----
-
-### [A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens](https://arxiv.org/abs/2604.04913v1)
-
-**Authors:** Tommie Kerssies, Gabriele Berton, Ju He, Qihang Yu, Wufei Ma et al. (8 authors)
-
-**Published:** 2026-04-06 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.04913v1) | [PDF](https://arxiv.org/pdf/2604.04913v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Anticipating diverse future states is a central challenge in video world modeling. Discriminative world models produce a deterministic prediction that implicitly averages over possible futures, while existing generative world models remain computationally expensive. Recent work demonstrates that predicting the future in the feature space of a vision foundation model (VFM), rather than a latent space optimized for pixel reconstruction, requires significantly fewer world model parameters. However,...
-
-</details>
-
----
-
-### [Individual and Combined Effects of English as a Second Language and Typos on LLM Performance](https://arxiv.org/abs/2604.04723v1)
-
-**Authors:** Serena Liu, Yutong Yang, Prisha Sheth, Weixuan Dong, Mingjiao Diao et al. (12 authors)
-
-**Published:** 2026-04-06 | **Categories:** cs.CL, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.04723v1) | [PDF](https://arxiv.org/pdf/2604.04723v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large language models (LLMs) are used globally, and because much of their training data is in English, they typically perform best on English inputs. As a result, many non-native English speakers interact with them in English as a second language (ESL), and these inputs often contain typographical errors. Prior work has largely studied the effects of ESL variation and typographical errors separately, even though they often co-occur in real-world use. In this study, we use the Trans-EnV framework...
 
 </details>
 
