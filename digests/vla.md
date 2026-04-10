@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-09 22:32 UTC
+**Last updated:** 2026-04-10 16:51 UTC
 
 **Papers found:** 7
 
@@ -10,122 +10,124 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ---
 
+## Papers with Project Pages / Code
+
+### [LAMP: Lift Image-Editing as General 3D Priors for Open-world Manipulation](https://arxiv.org/abs/2604.08475v1)
+
+**Authors:** Jingjing Wang, Zhengdong Hong, Chong Bao, Yuke Zhu, Junhan Sun et al. (6 authors)
+
+**Published:** 2026-04-09 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.08475v1) | [PDF](https://arxiv.org/pdf/2604.08475v1.pdf) | [Project Page](https://zju3dv.github.io/LAMP/)
+
+<details>
+<summary>Abstract</summary>
+
+Human-like generalization in open-world remains a fundamental challenge for robotic manipulation. Existing learning-based methods, including reinforcement learning, imitation learning, and vision-language-action-models (VLAs), often struggle with novel tasks and unseen environments. Another promising direction is to explore generalizable representations that capture fine-grained spatial and geometric relations for open-world manipulation. While large-language-model (LLMs) and vision-language-mod...
+
+</details>
+
+---
+
+### [BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields](https://arxiv.org/abs/2604.08410v1)
+
+**Authors:** Fan Yang, Wenrui Chen, Guorun Yan, Ruize Liao, Wanjun Jia et al. (9 authors)
+
+**Published:** 2026-04-09 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.08410v1) | [PDF](https://arxiv.org/pdf/2604.08410v1.pdf) | [GitHub](https://github.com/PopeyePxx/BLaDA)
+
+<details>
+<summary>Abstract</summary>
+
+In unstructured environments, functional dexterous grasping calls for the tight integration of semantic understanding, precise 3D functional localization, and physically interpretable execution. Modular hierarchical methods are more controllable and interpretable than end-to-end VLA approaches, but existing ones still rely on predefined affordance labels and lack the tight semantic--pose coupling needed for functional dexterous manipulation. To address this, we propose BLaDA (Bridging Language t...
+
+</details>
+
+---
+
+### [HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation](https://arxiv.org/abs/2604.07993v1)
+
+**Authors:** Shuanghao Bai, Meng Li, Xinyuan Lv, Jiawei Wang, Xinhua Wang et al. (17 authors)
+
+**Published:** 2026-04-09 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07993v1) | [PDF](https://arxiv.org/pdf/2604.07993v1.pdf) | [Project Page](https://hex-humanoid.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Humans achieve complex manipulation through coordinated whole-body control, whereas most Vision-Language-Action (VLA) models treat robot body parts largely independently, making high-DoF humanoid control challenging and often unstable. We present HEX, a state-centric framework for coordinated manipulation on full-sized bipedal humanoid robots. HEX introduces a humanoid-aligned universal state representation for scalable learning across heterogeneous embodiments, and incorporates a Mixture-of-Exp...
+
+</details>
+
+---
+
+### [How Far Are Large Multimodal Models from Human-Level Spatial Action? A Benchmark for Goal-Oriented Embodied Navigation in Urban Airspace](https://arxiv.org/abs/2604.07973v1)
+
+**Authors:** Baining Zhao, Ziyou Wang, Jianjie Fang, Zile Zhou, Yanggang Xu et al. (11 authors)
+
+**Published:** 2026-04-09 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07973v1) | [PDF](https://arxiv.org/pdf/2604.07973v1.pdf) | [GitHub](https://github.com/serenditipy-AC/Embodied-Navigation-Bench)
+
+<details>
+<summary>Abstract</summary>
+
+Large multimodal models (LMMs) show strong visual-linguistic reasoning but their capacity for spatial decision-making and action remains unclear. In this work, we investigate whether LMMs can achieve embodied spatial action like human through a challenging scenario: goal-oriented navigation in urban 3D spaces. We first spend over 500 hours constructing a dataset comprising 5,037 high-quality goal-oriented navigation samples, with an emphasis on 3D vertical actions and rich urban semantic informa...
+
+</details>
+
+---
+
+### [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://arxiv.org/abs/2604.07430v1)
+
+**Authors:** Tencent Robotics X, HY Vision Team,  :, Xumin Yu, Zuyan Liu et al. (23 authors)
+
+**Published:** 2026-04-08 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07430v1) | [PDF](https://arxiv.org/pdf/2604.07430v1.pdf) | [GitHub](https://github.com/Tencent-Hunyuan/HY-Embodied)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce HY-Embodied-0.5, a family of foundation models specifically designed for real-world embodied agents. To bridge the gap between general Vision-Language Models (VLMs) and the demands of embodied agents, our models are developed to enhance the core capabilities required by embodied intelligence: spatial and temporal visual perception, alongside advanced embodied reasoning for prediction, interaction, and planning. The HY-Embodied-0.5 suite comprises two primary variants: an efficient m...
+
+</details>
+
+---
+
 ## Other Recent Papers
 
-### [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v2)
+### [Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models](https://arxiv.org/abs/2604.08266v1)
 
-**Authors:** Kaidong Zhang, Jian Zhang, Rongtao Xu, Yu Sun, Shuoshuo Xue et al. (23 authors)
+**Authors:** Jing Gu, Niccolò Cavagnero, Gijs Dubbelman
 
-**Published:** 2026-04-07 | **Categories:** cs.RO
+**Published:** 2026-04-09 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.05672v2) | [PDF](https://arxiv.org/pdf/2604.05672v2.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.08266v1) | [PDF](https://arxiv.org/pdf/2604.08266v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models have emerged as a powerful paradigm for open-world robot manipulation, but their practical deployment is often constrained by cost: billion-scale VLM backbones and iterative diffusion/flow-based action heads incur high latency and compute, making real-time control expensive on commodity hardware. We present A1, a fully open-source and transparent VLA framework designed for low-cost, high-throughput inference without sacrificing manipulation success; Our approa...
+Leveraging the general world knowledge of Large Language Models (LLMs) holds significant promise for improving the ability of autonomous driving systems to handle rare and complex scenarios. While integrating LLMs into Vision-Language-Action (VLA) models has yielded state-of-the-art performance, their massive parameter counts pose severe challenges for latency-sensitive and energy-efficient deployment. Distilling LLM knowledge into a compact driving model offers a compelling solution to retain t...
 
 </details>
 
 ---
 
-### [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)
+### [ViVa: A Video-Generative Value Model for Robot Reinforcement Learning](https://arxiv.org/abs/2604.08168v1)
 
-**Authors:** Wuyang Luan, Junhui Li, Weiguang Zhao, Wenjian Zhang, Tieru Wu et al. (6 authors)
+**Authors:** Jindi Lv, Hao Li, Jie Li, Yifei Nie, Fankun Kong et al. (13 authors)
 
-**Published:** 2026-04-07 | **Categories:** cs.CV, cs.AI
+**Published:** 2026-04-09 | **Categories:** cs.RO, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.05656v1) | [PDF](https://arxiv.org/pdf/2604.05656v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models based on flow matching -- such as pi0, pi0.5, and SmolVLA -- achieve state-of-the-art generalist robotic manipulation, yet their iterative denoising, typically 10 ODE steps, introduces substantial latency: on a modern GPU, denoising alone accounts for 80% of end-to-end inference time. Naively reducing the step count is unreliable, degrading success on most tasks due to the velocity field being uncalibrated for single-step jumps. We present SnapFlow, a plug-and...
-
-</details>
-
----
-
-### [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)
-
-**Authors:** Theodor Wulff, Federico Tavella, Rahul Singh Maharjan, Manith Adikari, Angelo Cangelosi
-
-**Published:** 2026-04-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05614v1) | [PDF](https://arxiv.org/pdf/2604.05614v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.08168v1) | [PDF](https://arxiv.org/pdf/2604.08168v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Achieving robot transparency is a critical step toward effective human-robot collaboration. To be transparent, a robot's natural language communication must be consistent with its actions and explicitly grounded in the task and environment. Existing hierarchical Vision-Language-Action (VLA) models can generate language (e.g., through chain-of-thought) and low-level actions. However, current work does not consider explicit alignment between these modalities during training. To address this crucia...
-
-</details>
-
----
-
-### [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)
-
-**Authors:** Baoshun Tong, Haoran He, Ling Pan, Yang Liu, Liang Lin
-
-**Published:** 2026-04-07 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05595v1) | [PDF](https://arxiv.org/pdf/2604.05595v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have achieved remarkable success in robotic manipulation. However, their robustness to linguistic nuances remains a critical, under-explored safety concern, posing a significant safety risk to real-world deployment. Red teaming, or identifying environmental scenarios that elicit catastrophic behaviors, is an important step in ensuring the safe deployment of embodied AI agents. Reinforcement learning (RL) has emerged as a promising approach in automated red tea...
-
-</details>
-
----
-
-### [ICR-Drive: Instruction Counterfactual Robustness for End-to-End Language-Driven Autonomous Driving](https://arxiv.org/abs/2604.05378v1)
-
-**Authors:** Kaiser Hamid, Can Cui, Nade Liang
-
-**Published:** 2026-04-07 | **Categories:** cs.CL, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05378v1) | [PDF](https://arxiv.org/pdf/2604.05378v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent progress in vision-language-action (VLA) models has enabled language-conditioned driving agents to execute natural-language navigation commands in closed-loop simulation, yet standard evaluations largely assume instructions are precise and well-formed. In deployment, instructions vary in phrasing and specificity, may omit critical qualifiers, and can occasionally include misleading, authority-framed text, leaving instruction-level robustness under-measured. We introduce ICR-Drive, a diagn...
-
-</details>
-
----
-
-### [VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success](https://arxiv.org/abs/2604.05323v1)
-
-**Authors:** Chuhang Liu, Yayun He, Zuheng Kang, Xiaoyang Qu, Jianzong Wang
-
-**Published:** 2026-04-07 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05323v1) | [PDF](https://arxiv.org/pdf/2604.05323v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models integrate visual perception, language understanding, and action decision-making for cross-modal semantic alignment, exhibiting broad application potential. However, the joint processing of high-dimensional visual features, complex linguistic inputs, and continuous action sequences incurs significant computational overhead and low inference efficiency, thereby hindering real-time deployment and reliability. To address this issue, we use image entropy to quantif...
-
-</details>
-
----
-
-### [ExpressMM: Expressive Mobile Manipulation Behaviors in Human-Robot Interactions](https://arxiv.org/abs/2604.05320v1)
-
-**Authors:** Souren Pashangpour, Haitong Wang, Matthew Lisondra, Goldie Nejat
-
-**Published:** 2026-04-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.05320v1) | [PDF](https://arxiv.org/pdf/2604.05320v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Mobile manipulators are increasingly deployed in human-centered environments to perform tasks. While completing such tasks, they should also be able to communicate their intent to the people around them using expressive robot behaviors. Prior work on expressive robot behaviors has used preprogrammed or learning-from-demonstration- based expressive motions and large language model generated high-level interactions. The majority of these existing approaches have not considered human-robot interact...
+Vision-language-action (VLA) models have advanced robot manipulation through large-scale pretraining, but real-world deployment remains challenging due to partial observability and delayed feedback. Reinforcement learning addresses this via value functions, which assess task progress and guide policy improvement. However, existing value models built on vision-language models (VLMs) struggle to capture temporal dynamics, undermining reliable value estimation in long-horizon tasks. In this paper, ...
 
 </details>
 

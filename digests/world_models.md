@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-09 22:31 UTC
+**Last updated:** 2026-04-10 16:51 UTC
 
-**Papers found:** 9
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
@@ -12,52 +12,69 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [Neural Computers](https://arxiv.org/abs/2604.06425v1)
+### [Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework](https://arxiv.org/abs/2604.08226v1)
 
-**Authors:** Mingchen Zhuge, Changsheng Zhao, Haozhe Liu, Zijian Zhou, Shuming Liu et al. (19 authors)
+**Authors:** Seyed Amir Ahmad Safavi-Naini, Elahe Meftah, Josh Mohess, Pooya Mohammadi Kazaj, Georgios Siontis et al. (14 authors)
 
-**Published:** 2026-04-07 | **Categories:** cs.LG, cs.AI
+**Published:** 2026-04-09 | **Categories:** cs.AI, cs.HC, eess.SY
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.06425v1) | [PDF](https://arxiv.org/pdf/2604.06425v1.pdf) | [GitHub](https://github.com/metauto-ai/NeuralComputer)
+**Links:** [arXiv](https://arxiv.org/abs/2604.08226v1) | [PDF](https://arxiv.org/pdf/2604.08226v1.pdf) | [GitHub](https://github.com/Sdamirsa/Clinical-World-Model)
 
 <details>
 <summary>Abstract</summary>
 
-We propose a new frontier: Neural Computers (NCs) -- an emerging machine form that unifies computation, memory, and I/O in a learned runtime state. Unlike conventional computers, which execute explicit programs, agents, which act over external execution environments, and world models, which learn environment dynamics, NCs aim to make the model itself the running computer. Our long-term goal is the Completely Neural Computer (CNC): the mature, general-purpose realization of this emerging machine ...
+The competency of any intelligent agent is bounded by its formal account of the world in which it operates. Clinical AI lacks such an account. Existing frameworks address evaluation, regulation, or system design in isolation, without a shared model of the clinical world to connect them. We introduce the Clinical World Model, a framework that formalizes care as a tripartite interaction among Patient, Provider, and Ecosystem. To formalize how any agent, whether human or artificial, transforms info...
 
 </details>
 
 ---
 
-### [Evolution of Video Generative Foundations](https://arxiv.org/abs/2604.06339v1)
+### [MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models](https://arxiv.org/abs/2604.07991v1)
 
-**Authors:** Teng Hu, Jiangning Zhang, Hongrui Huang, Ran Yi, Zihan Su et al. (10 authors)
+**Authors:** Zile Guo, Zhan Chen, Enze Zhu, Kan Wei, Yongkang Zou et al. (7 authors)
 
-**Published:** 2026-04-07 | **Categories:** cs.CV
+**Published:** 2026-04-09 | **Categories:** cs.CV, cs.MM
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.06339v1) | [PDF](https://arxiv.org/pdf/2604.06339v1.pdf) | [GitHub](https://github.com/sjtuplayer/Awesome-Video-Foundations)
+**Links:** [arXiv](https://arxiv.org/abs/2604.07991v1) | [PDF](https://arxiv.org/pdf/2604.07991v1.pdf) | [GitHub](https://github.com/Thelegendzz/MotionScape)
 
 <details>
 <summary>Abstract</summary>
 
-The rapid advancement of Artificial Intelligence Generated Content (AIGC) has revolutionized video generation, enabling systems ranging from proprietary pioneers like OpenAI's Sora, Google's Veo3, and Bytedance's Seedance to powerful open-source contenders like Wan and HunyuanVideo to synthesize temporally coherent and semantically rich videos. These advancements pave the way for building "world models" that simulate real-world dynamics, with applications spanning entertainment, education, and v...
+Recent advances in world models have demonstrated strong capabilities in simulating physical reality, making them an increasingly important foundation for embodied intelligence. For UAV agents in particular, accurate prediction of complex 3D dynamics is essential for autonomous navigation and robust decision-making in unconstrained environments. However, under the highly dynamic camera trajectories typical of UAV views, existing world models often struggle to maintain spatiotemporal physical con...
 
 </details>
 
 ---
 
-### [Action Images: End-to-End Policy Learning via Multiview Video Generation](https://arxiv.org/abs/2604.06168v1)
+### [DailyArt: Discovering Articulation from Single Static Images via Latent Dynamics](https://arxiv.org/abs/2604.07758v1)
 
-**Authors:** Haoyu Zhen, Zixian Gao, Qiao Sun, Yilin Zhao, Yuncong Yang et al. (9 authors)
+**Authors:** Hang Zhang, Qijian Tian, Jingyu Gong, Daoguo Dong, Xuhong Wang et al. (7 authors)
 
-**Published:** 2026-04-07 | **Categories:** cs.CV, cs.RO
+**Published:** 2026-04-09 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.06168v1) | [PDF](https://arxiv.org/pdf/2604.06168v1.pdf) | [Project Page](https://actionimages.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2604.07758v1) | [PDF](https://arxiv.org/pdf/2604.07758v1.pdf) | [Project Page](is)
 
 <details>
 <summary>Abstract</summary>
 
-World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action representations that are not pixel-grounded, making it difficult to fully exploit the pretrained knowledge of video models and limiting transfer across viewpoints and environments. In this work, we present Action Images, a unified world action model th...
+Articulated objects are essential for embodied AI and world models, yet inferring their kinematics from a single closed-state image remains challenging because crucial motion cues are often occluded. Existing methods either require multi-state observations or rely on explicit part priors, retrieval, or other auxiliary inputs that partially expose the structure to be inferred. In this work, we present DailyArt, which formulates articulated joint estimation from a single static image as a synthesi...
+
+</details>
+
+---
+
+### [PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing](https://arxiv.org/abs/2604.07230v2)
+
+**Authors:** Ruihang Xu, Dewei Zhou, Xiaolong Shen, Fan Ma, Yi Yang
+
+**Published:** 2026-04-08 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07230v2) | [PDF](https://arxiv.org/pdf/2604.07230v2.pdf) | [Project Page](https://nenhang.github.io/PhyEdit)
+
+<details>
+<summary>Abstract</summary>
+
+Achieving physically accurate object manipulation in image editing is essential for its potential applications in interactive world models. However, existing visual generative models often fail at precise spatial manipulation, resulting in incorrect scaling and positioning of objects. This limitation primarily stems from the lack of explicit mechanisms to incorporate 3D geometry and perspective projection. To achieve accurate manipulation, we develop PhyEdit, an image editing framework that leve...
 
 </details>
 
@@ -65,35 +82,69 @@ World action models (WAMs) have emerged as a promising direction for robot polic
 
 ## Other Recent Papers
 
-### [How Much LLM Does a Self-Revising Agent Actually Need?](https://arxiv.org/abs/2604.07236v1)
+### [WorldMAP: Bootstrapping Vision-Language Navigation Trajectory Prediction with Generative World Models](https://arxiv.org/abs/2604.07957v1)
 
-**Authors:** Seongwoo Jeong, Seonil Son
+**Authors:** Hongjin Chen, Shangyun Jiang, Tonghua Su, Chen Gao, Xinlei Chen et al. (7 authors)
 
-**Published:** 2026-04-08 | **Categories:** cs.AI, cs.CL
+**Published:** 2026-04-09 | **Categories:** cs.AI, cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.07236v1) | [PDF](https://arxiv.org/pdf/2604.07236v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.07957v1) | [PDF](https://arxiv.org/pdf/2604.07957v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Recent LLM-based agents often place world modeling, planning, and reflection inside a single language model loop. This can produce capable behavior, but it makes a basic scientific question difficult to answer: which part of the agent's competence actually comes from the LLM, and which part comes from explicit structure around it? We study this question not by claiming a general answer, but by making it empirically tractable. We introduce a declared reflective runtime protocol that externalizes ...
+Vision-language models (VLMs) and generative world models are opening new opportunities for embodied navigation. VLMs are increasingly used as direct planners or trajectory predictors, while world models support look-ahead reasoning by imagining future views. Yet predicting a reliable trajectory from a single egocentric observation remains challenging. Current VLMs often generate unstable trajectories, and world models, though able to synthesize plausible futures, do not directly provide the gro...
 
 </details>
 
 ---
 
-### [PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing](https://arxiv.org/abs/2604.07230v1)
+### [CausalVAE as a Plug-in for World Models: Towards Reliable Counterfactual Dynamics](https://arxiv.org/abs/2604.07712v1)
 
-**Authors:** Ruihang Xu, Dewei Zhou, Xiaolong Shen, Fan Ma, Yi Yang
+**Authors:** Ziyi Ding, Xianxin Lai, Weiyu Chen, Xiao-Ping Zhang, Jiayu Chen
 
-**Published:** 2026-04-08 | **Categories:** cs.CV
+**Published:** 2026-04-09 | **Categories:** cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.07230v1) | [PDF](https://arxiv.org/pdf/2604.07230v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.07712v1) | [PDF](https://arxiv.org/pdf/2604.07712v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Achieving physically accurate object manipulation in image editing is essential for its potential applications in interactive world models. However, existing visual generative models often fail at precise spatial manipulation, resulting in incorrect scaling and positioning of objects. This limitation primarily stems from the lack of explicit mechanisms to incorporate 3D geometry and perspective projection. To achieve accurate manipulation, we develop PhyEdit, an image editing framework that leve...
+In this work, CausalVAE is introduced as a plug-in structural module for latent world models and is attached to diverse encoder-transition backbones. Across the reported benchmarks, competitive factual prediction is preserved and intervention-aware counterfactual retrieval is improved after the plug-in is added, suggesting stronger robustness under distribution shift and interventions. The largest gains are observed on the Physics benchmark: when averaged over 8 paired baselines, CF-H@1 is impro...
+
+</details>
+
+---
+
+### [GIRL: Generative Imagination Reinforcement Learning via Information-Theoretic Hallucination Control](https://arxiv.org/abs/2604.07426v1)
+
+**Authors:** Prakul Sunil Hiremath
+
+**Published:** 2026-04-08 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07426v1) | [PDF](https://arxiv.org/pdf/2604.07426v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based reinforcement learning (MBRL) improves sample efficiency by optimizing policies inside imagined rollouts, but long-horizon planning degrades when model errors compound and imagined trajectories drift off the training manifold. We introduce GIRL (Generative Imagination Reinforcement Learning), a latent world-model framework that addresses this failure mode with two key components. First, a cross-modal grounding signal derived from a frozen foundation model (DINOv2) anchors the latent ...
+
+</details>
+
+---
+
+### [How Much LLM Does a Self-Revising Agent Actually Need?](https://arxiv.org/abs/2604.07236v2)
+
+**Authors:** Sungwoo Jung, Seonil Son
+
+**Published:** 2026-04-08 | **Categories:** cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.07236v2) | [PDF](https://arxiv.org/pdf/2604.07236v2.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent LLM-based agents often place world modeling, planning, and reflection inside a single language model loop. This can produce capable behavior, but it makes a basic scientific question difficult to answer: which part of the agent's competence actually comes from the LLM, and which part comes from explicit structure around it? We study this question not by claiming a general answer, but by making it empirically tractable. We introduce a declared reflective runtime protocol that externalizes ...
 
 </details>
 
@@ -150,18 +201,18 @@ I examine the technology of machine learning from the perspective of rhetoric, w
 
 ---
 
-### [Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement](https://arxiv.org/abs/2604.06155v1)
+### [Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making](https://arxiv.org/abs/2604.07392v1)
 
-**Authors:** Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao et al. (7 authors)
+**Authors:** Fan Zhaowen
 
-**Published:** 2026-04-07 | **Categories:** cs.LG, cs.AI, cs.CL
+**Published:** 2026-04-08 | **Categories:** cs.LG, cs.IR, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.06155v1) | [PDF](https://arxiv.org/pdf/2604.06155v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.07392v1) | [PDF](https://arxiv.org/pdf/2604.07392v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Whether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we provide a theoretical perspective analyzing the gradient inductive bias of MTP, supported by empirical evidence, showing that MTP promotes the convergence toward internal belief states by inducing represent...
+Autonomous agents operating in dynamic and safety-critical environments require decision-making frameworks that are both computationally efficient and physically grounded. However, many existing approaches rely on end-to-end learning, which often lacks interpretability and explicit mechanisms for ensuring consistency with physical constraints. In this work, we propose an event-centric world modeling framework with memory-augmented retrieval for embodied decision-making. The framework represents ...
 
 </details>
 
