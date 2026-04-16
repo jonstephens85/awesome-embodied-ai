@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-15 22:33 UTC
+**Last updated:** 2026-04-16 17:14 UTC
 
 **Papers found:** 7
 
@@ -11,6 +11,23 @@ Papers on VLAs and vision-language-action architectures for robotics.
 ---
 
 ## Papers with Project Pages / Code
+
+### [HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System](https://arxiv.org/abs/2604.14125v1)
+
+**Authors:** Tianshuo Yang, Guanyu Chen, Yutian Chen, Zhixuan Liang, Yitian Liu et al. (11 authors)
+
+**Published:** 2026-04-15 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.14125v1) | [PDF](https://arxiv.org/pdf/2604.14125v1.pdf) | [Project Page](https://tianshuoy.github.io/HiVLA-page/)
+
+<details>
+<summary>Abstract</summary>
+
+While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Language Models (VLMs). To resolve this fundamental trade-off, we propose HiVLA, a visual-grounded-centric hierarchical framework that explicitly decouples high-level semantic planning from low-level motor control. In high-level part, a VLM planner first performs tas...
+
+</details>
+
+---
 
 ### [Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving](https://arxiv.org/abs/2604.12208v1)
 
@@ -29,41 +46,58 @@ Global navigation information and local scene understanding are two crucial comp
 
 ---
 
-### [StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757v1)
-
-**Authors:** Jinhui Ye, Ning Gao, Senqiao Yang, Jinliang Zheng, Zixuan Wang et al. (10 authors)
-
-**Published:** 2026-04-13 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.11757v1) | [PDF](https://arxiv.org/pdf/2604.11757v1.pdf) | [GitHub](https://github.com/starVLA/starVLA)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architectures, training data, embodiment configurations, and benchmark-specific engineering. In this work, we introduce StarVLA-$α$, a simple yet strong baseline designed to study VLA design choices under controlled conditions. StarVLA-$α$ deliberately minimizes...
-
-</details>
-
----
-
-### [LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment](https://arxiv.org/abs/2604.11689v1)
-
-**Authors:** Dujun Nie, Fengjiao Chen, Qi Lv, Jun Kuang, Xiaoyu Li et al. (7 authors)
-
-**Published:** 2026-04-13 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.11689v1) | [PDF](https://arxiv.org/pdf/2604.11689v1.pdf) | [Project Page](https://meituan-longcat.github.io/LARYBench) | [GitHub](https://github.com/meituan-longcat/LARYBench)
-
-<details>
-<summary>Abstract</summary>
-
-While the shortage of explicit action data limits Vision-Language-Action (VLA) models, human action videos offer a scalable yet unlabeled data source. A critical challenge in utilizing large-scale human video datasets lies in transforming visual signals into ontology-independent representations, known as latent actions. However, the capacity of latent action representation to derive robust control from visual observations has yet to be rigorously evaluated. We introduce the Latent Action Represe...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection](https://arxiv.org/abs/2604.13942v1)
+
+**Authors:** Zhen Liu, Xinyu Ning, Zhe Hu, Xinxin Xie, Weize Li et al. (11 authors)
+
+**Published:** 2026-04-15 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.13942v1) | [PDF](https://arxiv.org/pdf/2604.13942v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent vision-language-action (VLA) systems have demonstrated strong capabilities in embodied manipulation. However, most existing VLA policies rely on limited observation windows and end-to-end action prediction, which makes them brittle in long-horizon, memory-dependent tasks with partial observability, occlusions, and multi-stage dependencies. Such tasks require not only precise visuomotor control, but also persistent memory, adaptive task decomposition, and explicit recovery from execution f...
+
+</details>
+
+---
+
+### [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)
+
+**Authors:** Angelo Moroncelli, Roberto Zanetti, Marco Maccarini, Loris Roveda
+
+**Published:** 2026-04-15 | **Categories:** cs.LG, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.13733v1) | [PDF](https://arxiv.org/pdf/2604.13733v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Reinforcement learning (RL) enables high-frequency, closed-loop control for robotic manipulation, but scaling to long-horizon tasks with sparse or imperfect rewards remains difficult due to inefficient exploration and poor credit assignment. Vision-Language-Action (VLA) models leverage large-scale multimodal pretraining to provide generalist, task-level reasoning, but current limitations hinder their direct use in fast and precise manipulation. In this paper, we propose Vision-Language-Action Ju...
+
+</details>
+
+---
+
+### [Vision-and-Language Navigation for UAVs: Progress, Challenges, and a Research Roadmap](https://arxiv.org/abs/2604.13654v1)
+
+**Authors:** Hanxuan Chen, Jie Zheng, Siqi Yang, Tianle Zeng, Siwei Feng et al. (12 authors)
+
+**Published:** 2026-04-15 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.13654v1) | [PDF](https://arxiv.org/pdf/2604.13654v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-and-Language Navigation for Unmanned Aerial Vehicles (UAV-VLN) represents a pivotal challenge in embodied artificial intelligence, focused on enabling UAVs to interpret high-level human commands and execute long-horizon tasks in complex 3D environments. This paper provides a comprehensive and structured survey of the field, from its formal task definition to the current state of the art. We establish a methodological taxonomy that charts the technological evolution from early modular and ...
+
+</details>
+
+---
 
 ### [Robotic Manipulation is Vision-to-Geometry Mapping ($f(v) \rightarrow G$): Vision-Geometry Backbones over Language and Video Models](https://arxiv.org/abs/2604.12908v1)
 
@@ -94,40 +128,6 @@ At its core, robotic manipulation is a problem of vision-to-geometry mapping ($f
 <summary>Abstract</summary>
 
 Vision-Language-Action (VLA) models inherit rich world knowledge from vision-language backbones and acquire executable skills via action demonstrations. However, existing evaluations largely focus on action execution success, leaving action policies loosely coupled with visual-linguistic semantics. This decoupling exposes a systematic vulnerability whereby correct action execution may induce unsafe outcomes under semantic risk. To expose this vulnerability, we introduce HazardArena, a benchmark ...
-
-</details>
-
----
-
-### [Grounded World Model for Semantically Generalizable Planning](https://arxiv.org/abs/2604.11751v1)
-
-**Authors:** Quanyi Li, Lan Feng, Haonan Zhang, Wuyang Li, Letian Wang et al. (7 authors)
-
-**Published:** 2026-04-13 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.11751v1) | [PDF](https://arxiv.org/pdf/2604.11751v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In Model Predictive Control (MPC), world models predict the future outcomes of various action proposals, which are then scored to guide the selection of the optimal action. For visuomotor MPC, the score function is a distance metric between a predicted image and a goal image, measured in the latent space of a pretrained vision encoder like DINO and JEPA. However, it is challenging to obtain the goal image in advance of the task execution, particularly in new environments. Additionally, conveying...
-
-</details>
-
----
-
-### [DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572v1)
-
-**Authors:** Siyuan Xu, Tianshi Wang, Fengling Li, Lei Zhu, Heng Tao Shen
-
-**Published:** 2026-04-13 | **Categories:** cs.RO, cs.MM
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.11572v1) | [PDF](https://arxiv.org/pdf/2604.11572v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action models (VLAs) have demonstrated strong potential for embodied AI, yet their deployment on resource-limited robots remains challenging due to high memory and computational demands. While Post-Training Quantization (PTQ) provides an efficient solution, directly applying PTQ to VLAs often results in severe performance degradation during sequential control. We identify temporal error accumulation as a key factor, where quantization perturbations at the vision-language-to-actio...
 
 </details>
 
