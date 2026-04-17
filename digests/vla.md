@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-16 22:30 UTC
+**Last updated:** 2026-04-17 16:54 UTC
 
-**Papers found:** 7
+**Papers found:** 5
 
 [Back to Home](../README.md)
 
@@ -29,24 +29,24 @@ While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm 
 
 ---
 
-### [Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving](https://arxiv.org/abs/2604.12208v1)
+## Other Recent Papers
 
-**Authors:** Zhihua Hua, Junli Wang, Pengfei LI, Qihao Jin, Bo Zhang et al. (9 authors)
+### [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v1)
 
-**Published:** 2026-04-14 | **Categories:** cs.RO, cs.AI
+**Authors:** Runze Li, Hongyin Zhang, Junxi Jin, Qixin Zeng, Zifeng Zhuang et al. (8 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.12208v1) | [PDF](https://arxiv.org/pdf/2604.12208v1.pdf) | [Project Page](SNG-VLA)
+**Published:** 2026-04-16 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.14732v1) | [PDF](https://arxiv.org/pdf/2604.14732v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Global navigation information and local scene understanding are two crucial components of autonomous driving systems. However, our experimental results indicate that many end-to-end autonomous driving systems tend to over-rely on local scene understanding while failing to utilize global navigation information. These systems exhibit weak correlation between their planning capabilities and navigation input, and struggle to perform navigation-following in complex scenarios. To overcome this limitat...
+Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action. However, most existing approaches rely on direct action prediction, lacking the ability to reason over long-horizon trajectories and evaluate their consequences, which limits performance in complex decision-making tasks. In this work, we introduce World-Value-Action (WAV) model, a unified framework that enables implicit planning in VLA systems. Ra...
 
 </details>
 
 ---
-
-## Other Recent Papers
 
 ### [Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection](https://arxiv.org/abs/2604.13942v1)
 
@@ -94,40 +94,6 @@ Reinforcement learning (RL) enables high-frequency, closed-loop control for robo
 <summary>Abstract</summary>
 
 Vision-and-Language Navigation for Unmanned Aerial Vehicles (UAV-VLN) represents a pivotal challenge in embodied artificial intelligence, focused on enabling UAVs to interpret high-level human commands and execute long-horizon tasks in complex 3D environments. This paper provides a comprehensive and structured survey of the field, from its formal task definition to the current state of the art. We establish a methodological taxonomy that charts the technological evolution from early modular and ...
-
-</details>
-
----
-
-### [Robotic Manipulation is Vision-to-Geometry Mapping ($f(v) \rightarrow G$): Vision-Geometry Backbones over Language and Video Models](https://arxiv.org/abs/2604.12908v1)
-
-**Authors:** Zijian Song, Qichang Li, Jiawei Zhou, Zhenlong Yuan, Tianshui Chen et al. (7 authors)
-
-**Published:** 2026-04-14 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.12908v1) | [PDF](https://arxiv.org/pdf/2604.12908v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-At its core, robotic manipulation is a problem of vision-to-geometry mapping ($f(v) \rightarrow G$). Physical actions are fundamentally defined by geometric properties like 3D positions and spatial relationships. Consequently, we argue that the foundation for generalizable robotic control should be a vision-geometry backbone, rather than the widely adopted vision-language or video models. Conventional VLA and video-predictive models rely on backbones pretrained on large-scale 2D image-text or te...
-
-</details>
-
----
-
-### [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)
-
-**Authors:** Zixing Chen, Yifeng Gao, Li Wang, Yunhan Zhao, Yi Liu et al. (11 authors)
-
-**Published:** 2026-04-14 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.12447v1) | [PDF](https://arxiv.org/pdf/2604.12447v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models inherit rich world knowledge from vision-language backbones and acquire executable skills via action demonstrations. However, existing evaluations largely focus on action execution success, leaving action policies loosely coupled with visual-linguistic semantics. This decoupling exposes a systematic vulnerability whereby correct action execution may induce unsafe outcomes under semantic risk. To expose this vulnerability, we introduce HazardArena, a benchmark ...
 
 </details>
 
