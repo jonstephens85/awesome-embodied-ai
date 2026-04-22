@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-21 22:31 UTC
+**Last updated:** 2026-04-22 17:01 UTC
 
-**Papers found:** 7
+**Papers found:** 11
 
 [Back to Home](../README.md)
 
@@ -12,13 +12,30 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [MultiWorld: Scalable Multi-Agent Multi-View Video World Models](https://arxiv.org/abs/2604.18564v1)
+### [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](https://arxiv.org/abs/2604.19734v1)
+
+**Authors:** Boyu Chen, Yi Chen, Lu Qiu, Jerry Bai, Yuying Ge et al. (6 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19734v1) | [PDF](https://arxiv.org/pdf/2604.19734v1.pdf) | [Project Page](https://xpeng-robotics.github.io/unit/)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer via Visual Anchoring), a framework that establishes a unified physical language for human-to-humanoid transfer. Grounded in the philosophy that heterogeneous kinematics share universal visual consequen...
+
+</details>
+
+---
+
+### [MultiWorld: Scalable Multi-Agent Multi-View Video World Models](https://arxiv.org/abs/2604.18564v2)
 
 **Authors:** Haoyu Wu, Jiwen Yu, Yingtian Zou, Xihui Liu
 
 **Published:** 2026-04-20 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.18564v1) | [PDF](https://arxiv.org/pdf/2604.18564v1.pdf) | [Project Page](https://multi-world.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2604.18564v2) | [PDF](https://arxiv.org/pdf/2604.18564v2.pdf) | [Project Page](https://multi-world.github.io/)
 
 <details>
 <summary>Abstract</summary>
@@ -47,6 +64,91 @@ Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory pred
 ---
 
 ## Other Recent Papers
+
+### [Mask World Model: Predicting What Matters for Robust Robot Policy Learning](https://arxiv.org/abs/2604.19683v1)
+
+**Authors:** Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li et al. (12 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19683v1) | [PDF](https://arxiv.org/pdf/2604.19683v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models derived from large-scale video generative pre-training have emerged as a promising paradigm for generalist robot policy learning. However, standard approaches often focus on high-fidelity RGB video prediction, this can result in overfitting to irrelevant factors, such as dynamic backgrounds and illumination changes. These distractions reduce the model's ability to generalize, ultimately leading to unreliable and fragile control policies. To address this, we introduce the Mask World ...
+
+</details>
+
+---
+
+### [Safety-Critical Contextual Control via Online Riemannian Optimization with World Models](https://arxiv.org/abs/2604.19639v1)
+
+**Authors:** Tongxin Li
+
+**Published:** 2026-04-21 | **Categories:** eess.SY, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19639v1) | [PDF](https://arxiv.org/pdf/2604.19639v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Modern world models are becoming too complex to admit explicit dynamical descriptions. We study safety-critical contextual control, where a Planner must optimize a task objective using only feasibility samples from a black-box Simulator, conditioned on a context signal $ξ_t$. We develop a sample-based Penalized Predictive Control (PPC) framework grounded in online Riemannian optimization, in which the Simulator compresses the feasibility manifold into a score-based density $\hat{p}(u \mid ξ_t)$ ...
+
+</details>
+
+---
+
+### [LASER: Learning Active Sensing for Continuum Field Reconstruction](https://arxiv.org/abs/2604.19355v1)
+
+**Authors:** Huayu Deng, Jinghui Zhong, Xiangming Zhu, Yunbo Wang, Xiaokang Yang
+
+**Published:** 2026-04-21 | **Categories:** cs.LG, cs.AI, cs.CE
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19355v1) | [PDF](https://arxiv.org/pdf/2604.19355v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+High-fidelity measurements of continuum physical fields are essential for scientific discovery and engineering design but remain challenging under sparse and constrained sensing. Conventional reconstruction methods typically rely on fixed sensor layouts, which cannot adapt to evolving physical states. We propose LASER, a unified, closed-loop framework that formulates active sensing as a Partially Observable Markov Decision Process (POMDP). At its core, LASER employs a continuum field latent worl...
+
+</details>
+
+---
+
+### [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)
+
+**Authors:** Feng Jiang, Yang Chen, Kyle Xu, Yuchen Liu, Haifeng Wang et al. (11 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19092v1) | [PDF](https://arxiv.org/pdf/2604.19092v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of leveraging imagined videos for robot learning. However, visual realism does not imply physical plausibility, and behaviors inferred from generated videos may violate dynamics and fail when executed by embodied agents. Existing benchmarks begin to incorporate notions of physical plausibility, but they largely remain perception- or diagnostic-oriented and do not systemat...
+
+</details>
+
+---
+
+### [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701v1)
+
+**Authors:** Vin Bhaskara, Haicheng Wang
+
+**Published:** 2026-04-20 | **Categories:** cs.LG, cs.AI, stat.ML
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.18701v1) | [PDF](https://arxiv.org/pdf/2604.18701v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Local prediction-error-based curiosity rewards focus on the current transition without considering the world model's cumulative prediction error across all visited transitions. We introduce Curiosity-Critic, which grounds its intrinsic reward in the improvement of this cumulative objective, and show that it reduces to a tractable per-step form: the difference between the current prediction error and the asymptotic error baseline of the current state transition. We estimate this baseline online w...
+
+</details>
+
+---
 
 ### [Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity](https://arxiv.org/abs/2604.18058v1)
 
@@ -94,40 +196,6 @@ Recent studies reveal striking representational alignment between artificial neu
 <summary>Abstract</summary>
 
 Vibe coding produces correct, executable code at speed, but leaves no record of the structural commitments, dependencies, or evidence behind it. Reviewers cannot determine what invariants were assumed, what changed, or why a regression occurred. This is not a generation failure but a control failure: the dominant artifact of AI-assisted development (code plus chat history) performs dimension collapse, flattening complex system topology into low-dimensional text and making systems opaque and frag...
-
-</details>
-
----
-
-### [Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception](https://arxiv.org/abs/2604.17651v1)
-
-**Authors:** Siyuan Meng, Chengbo Ai
-
-**Published:** 2026-04-19 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.17651v1) | [PDF](https://arxiv.org/pdf/2604.17651v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models, generative AI systems that simulate how environments evolve, are transforming autonomous driving, yet all existing approaches adopt an ego-vehicle perspective, leaving the infrastructure viewpoint unexplored. We argue that infrastructure-centric world models offer a fundamentally complementary capability: the bird's-eye, multi-sensor, persistent viewpoint that roadside systems uniquely possess. Central to our thesis is a spatio-temporal complementarity: fixed roadside sensors excel...
-
-</details>
-
----
-
-### [Dual-Anchoring: Addressing State Drift in Vision-Language Navigation](https://arxiv.org/abs/2604.17473v1)
-
-**Authors:** Kangyi Wu, Pengna Li, Kailin Lyu, Lin Zhao, Qingrong He et al. (7 authors)
-
-**Published:** 2026-04-19 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.17473v1) | [PDF](https://arxiv.org/pdf/2604.17473v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language Navigation(VLN) requires an agent to navigate through 3D environments by following natural language instructions. While recent Video Large Language Models(Video-LLMs) have largely advanced VLN, they remain highly susceptible to State Drift in long scenarios. In these cases, the agent's internal state drifts away from the true task execution state, leading to aimless wandering and failure to execute essential maneuvers in the instruction. We attribute this failure to two distinct ...
 
 </details>
 

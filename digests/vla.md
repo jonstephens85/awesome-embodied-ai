@@ -2,15 +2,83 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-21 22:31 UTC
+**Last updated:** 2026-04-22 17:01 UTC
 
-**Papers found:** 13
+**Papers found:** 17
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](https://arxiv.org/abs/2604.19734v1)
+
+**Authors:** Boyu Chen, Yi Chen, Lu Qiu, Jerry Bai, Yuying Ge et al. (6 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19734v1) | [PDF](https://arxiv.org/pdf/2604.19734v1.pdf) | [Project Page](https://xpeng-robotics.github.io/unit/)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer via Visual Anchoring), a framework that establishes a unified physical language for human-to-humanoid transfer. Grounded in the philosophy that heterogeneous kinematics share universal visual consequen...
+
+</details>
+
+---
+
+### [FASTER: Value-Guided Sampling for Fast RL](https://arxiv.org/abs/2604.19730v1)
+
+**Authors:** Perry Dong, Alexander Swerdlow, Dorsa Sadigh, Chelsea Finn
+
+**Published:** 2026-04-21 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19730v1) | [PDF](https://arxiv.org/pdf/2604.19730v1.pdf) | [GitHub](https://github.com/alexanderswerdlow/faster)
+
+<details>
+<summary>Abstract</summary>
+
+Some of the most performant reinforcement learning algorithms today can be prohibitively expensive as they use test-time scaling methods such as sampling multiple action candidates and selecting the best one. In this work, we propose FASTER, a method for getting the benefits of sampling-based test-time scaling of diffusion-based policies without the computational cost by tracing the performance gain of action samples back to earlier in the denoising process. Our key insight is that we can model ...
+
+</details>
+
+---
+
+### [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)
+
+**Authors:** Jean Mercat, Sedrick Keh, Kushal Arora, Isabella Huang, Paarth Shah et al. (8 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19728v1) | [PDF](https://arxiv.org/pdf/2604.19728v1.pdf) | [Project Page](https://tri-ml.github.io/vla_foundry) | [GitHub](https://github.com/TRI-ML/vla_foundry)
+
+<details>
+<summary>Abstract</summary>
+
+We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with end-to-end control, from language pretraining to action-expert fine-tuning. VLA Foundry supports both from-scratch training and pretrained backbones from Hugging Face. To demonstrate the utility of ou...
+
+</details>
+
+---
+
+### [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)
+
+**Authors:** Zewei Zhou, Ruining Yang,  Xuewei,  Qi, Yiluan Guo et al. (11 authors)
+
+**Published:** 2026-04-21 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19710v1) | [PDF](https://arxiv.org/pdf/2604.19710v1.pdf) | [Project Page](https://spanvla.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with the high latency in action generation using an autoregressive generation framework and exhibit limited robustness. In this paper, we propose SpanVLA, a novel end-to-end autonomous driving framework, integrating an autoregressive reasoning and a flow-matching action expert. F...
+
+</details>
+
+---
 
 ### [OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation](https://arxiv.org/abs/2604.18486v1)
 
@@ -81,6 +149,23 @@ Vision-Language Models(VLMs) excel at autoregressive text generation, yet end-to
 ---
 
 ## Other Recent Papers
+
+### [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)
+
+**Authors:** Zijian Zeng, Fei Ding, Huiming Yang, Xianwei Li
+
+**Published:** 2026-04-20 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.18791v1) | [PDF](https://arxiv.org/pdf/2604.18791v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models fail systematically on long-horizon manipulation tasks despite strong short-horizon performance. We show that this failure is not resolved by extending context length alone in the current reactive execution setting; instead, it stems from three recurring execution-loop deficiencies: the memory gap, the verification gap, and the recovery gap. We present HELM, a model-agnostic framework that addresses these deficiencies with three components: an Episodic Memory ...
+
+</details>
+
+---
 
 ### [XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments](https://arxiv.org/abs/2604.18484v1)
 
@@ -213,23 +298,6 @@ Precision-critical manipulation requires both global trajectory organization and
 <summary>Abstract</summary>
 
 Visual-Language-Action (VLA) models represent a paradigm shift in embodied AI, yet existing frameworks often struggle with imprecise spatial perception, suboptimal multimodal fusion, and instability in reinforcement learning. To bridge these gaps, we propose OmniVLA-RL, a novel architecture that leverages a Mix-of-Transformers (MoT) design to synergistically integrate reasoning, spatial, and action experts. Furthermore, we introduce Flow-GSPO, which reformulates flow matching as a Stochastic Dif...
-
-</details>
-
----
-
-### [Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception](https://arxiv.org/abs/2604.17651v1)
-
-**Authors:** Siyuan Meng, Chengbo Ai
-
-**Published:** 2026-04-19 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.17651v1) | [PDF](https://arxiv.org/pdf/2604.17651v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models, generative AI systems that simulate how environments evolve, are transforming autonomous driving, yet all existing approaches adopt an ego-vehicle perspective, leaving the infrastructure viewpoint unexplored. We argue that infrastructure-centric world models offer a fundamentally complementary capability: the bird's-eye, multi-sensor, persistent viewpoint that roadside systems uniquely possess. Central to our thesis is a spatio-temporal complementarity: fixed roadside sensors excel...
 
 </details>
 
