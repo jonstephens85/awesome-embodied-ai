@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-22 22:38 UTC
+**Last updated:** 2026-04-23 17:20 UTC
 
 **Papers found:** 11
 
@@ -11,6 +11,23 @@ Papers on world models for robotics, video prediction, and simulation.
 ---
 
 ## Papers with Project Pages / Code
+
+### [Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2604.20627v1)
+
+**Authors:** Aravind Venugopal, Jiayu Chen, Xudong Wu, Chongyi Zheng, Benjamin Eysenbach et al. (6 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.20627v1) | [PDF](https://arxiv.org/pdf/2604.20627v1.pdf) | [Project Page](https://aravindvenu7.github.io/website/ors/) | [GitHub](https://github.com/aravindvenu7/occupancy_reward_shaping)
+
+<details>
+<summary>Abstract</summary>
+
+The temporal lag between actions and their long-term consequences makes credit assignment a challenge when learning goal-directed behaviors from data. Generative world models capture the distribution of future states an agent may visit, indicating that they have captured temporal information. How can that temporal information be extracted to perform credit assignment? In this paper, we formalize how the temporal information stored in world models encodes the underlying geometry of the world. Lev...
+
+</details>
+
+---
 
 ### [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](https://arxiv.org/abs/2604.19734v1)
 
@@ -29,49 +46,100 @@ Scaling humanoid foundation models is bottlenecked by the scarcity of robotic da
 
 ---
 
-### [MultiWorld: Scalable Multi-Agent Multi-View Video World Models](https://arxiv.org/abs/2604.18564v2)
-
-**Authors:** Haoyu Wu, Jiwen Yu, Yingtian Zou, Xihui Liu
-
-**Published:** 2026-04-20 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.18564v2) | [PDF](https://arxiv.org/pdf/2604.18564v2.pdf) | [Project Page](https://multi-world.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models have achieved remarkable success in simulating environmental dynamics in response to actions by users or agents. They are modeled as action-conditioned video generation models that take historical frames and current actions as input to predict future frames. Yet, most existing approaches are limited to single-agent scenarios and fail to capture the complex interactions inherent in real-world multi-agent systems. We present \textbf{MultiWorld}, a unified framework for multi-age...
-
-</details>
-
----
-
-### [OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation](https://arxiv.org/abs/2604.18486v1)
-
-**Authors:** Jinghui Lu, Jiayi Guan, Zhijian Huang, Jinlong Li, Guang Li et al. (50 authors)
-
-**Published:** 2026-04-20 | **Categories:** cs.CV, cs.CL, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.18486v1) | [PDF](https://arxiv.org/pdf/2604.18486v1.pdf) | [Project Page](https://xiaomi-embodied-intelligence.github.io/OneVL)
-
-<details>
-<summary>Abstract</summary>
-
-Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to close this gap by compressing reasoning into continuous hidden states, but consistently fall short of their explicit counterparts. We suggest that this is due to purely linguistic latent representations compressing a symbolic abstraction of the world,...
-
-</details>
-
----
-
 ## Other Recent Papers
 
-### [Mask World Model: Predicting What Matters for Robust Robot Policy Learning](https://arxiv.org/abs/2604.19683v1)
+### [CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs](https://arxiv.org/abs/2604.20460v1)
+
+**Authors:** Xingcheng Zhou, Hao Guo, Rui Song, Walter Zimmer, Mingyu Liu et al. (8 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.20460v1) | [PDF](https://arxiv.org/pdf/2604.20460v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Safety-critical traffic reasoning requires contrastive consistency: models must detect true hazards when an accident occurs, and reliably reject plausible-but-false hypotheses under near-identical counterfactual scenes. We present CCTVBench, a Contrastive Consistency Traffic VideoQA Benchmark built on paired real accident videos and world-model-generated counterfactual counterparts, together with minimally different, mutually exclusive hypothesis questions. CCTVBench enforces a single structured...
+
+</details>
+
+---
+
+### [X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference](https://arxiv.org/abs/2604.20289v1)
+
+**Authors:** Yixiao Zeng, Jianlei Zheng, Chaoda Zheng, Shijia Chen, Mingdian Liu et al. (13 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.20289v1) | [PDF](https://arxiv.org/pdf/2604.20289v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Real-time world simulation is becoming a key infrastructure for scalable evaluation and online reinforcement learning of autonomous driving systems. Recent driving world models built on autoregressive video diffusion achieve high-fidelity, controllable multi-camera generation, but their inference cost remains a bottleneck for interactive deployment. However, existing diffusion caching methods are designed for offline video generation with multiple denoising steps, and do not transfer to this sce...
+
+</details>
+
+---
+
+### [Cortex 2.0: Grounding World Models in Real-World Industrial Deployment](https://arxiv.org/abs/2604.20246v1)
+
+**Authors:** Adriana Aida, Walida Amer, Katarina Bankovic, Dhruv Behl, Fabian Busch et al. (28 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.20246v1) | [PDF](https://arxiv.org/pdf/2604.20246v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Industrial robotic manipulation demands reliable long-horizon execution across embodiments, tasks, and changing object distributions. While Vision-Language-Action models have demonstrated strong generalization, they remain fundamentally reactive. By optimizing the next action given the current observation without evaluating potential futures, they are brittle to the compounding failure modes of long-horizon tasks. Cortex 2.0 shifts from reactive control to plan-and-act by generating candidate fu...
+
+</details>
+
+---
+
+### [Toward Safe Autonomous Robotic Endovascular Interventions using World Models](https://arxiv.org/abs/2604.20151v1)
+
+**Authors:** Harry Robertshaw, Nikola Fischer, Han-Ru Wu, Andrea Walker Perez, Weiyuan Deng et al. (9 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.20151v1) | [PDF](https://arxiv.org/pdf/2604.20151v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous mechanical thrombectomy (MT) presents substantial challenges due to highly variable vascular geometries and the requirements for accurate, real-time control. While reinforcement learning (RL) has emerged as a promising paradigm for the automation of endovascular navigation, existing approaches often show limited robustness when faced with diverse patient anatomies or extended navigation horizons. In this work, we investigate a world-model-based framework for autonomous endovascular na...
+
+</details>
+
+---
+
+### [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856v1)
+
+**Authors:** Cagri Eryilmaz
+
+**Published:** 2026-04-21 | **Categories:** cs.AR, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.19856v1) | [PDF](https://arxiv.org/pdf/2604.19856v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Large Language Models (LLMs) show promise for generating Register-Transfer Level (RTL) code from natural language specifications, but single-shot generation achieves only 60-65% functional correctness on standard benchmarks. Multi-agent approaches such as MAGE reach 95.9% on VerilogEval yet remain untested on harder industrial benchmarks such as NVIDIA's CVDP, lack synthesis awareness, and incur high API costs. We present ChipCraftBrain, a framework combining symbolic-neural reasoning with adapt...
+
+</details>
+
+---
+
+### [Mask World Model: Predicting What Matters for Robust Robot Policy Learning](https://arxiv.org/abs/2604.19683v2)
 
 **Authors:** Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li et al. (12 authors)
 
 **Published:** 2026-04-21 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.19683v1) | [PDF](https://arxiv.org/pdf/2604.19683v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.19683v2) | [PDF](https://arxiv.org/pdf/2604.19683v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -128,74 +196,6 @@ High-fidelity measurements of continuum physical fields are essential for scient
 <summary>Abstract</summary>
 
 Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of leveraging imagined videos for robot learning. However, visual realism does not imply physical plausibility, and behaviors inferred from generated videos may violate dynamics and fail when executed by embodied agents. Existing benchmarks begin to incorporate notions of physical plausibility, but they largely remain perception- or diagnostic-oriented and do not systemat...
-
-</details>
-
----
-
-### [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701v1)
-
-**Authors:** Vin Bhaskara, Haicheng Wang
-
-**Published:** 2026-04-20 | **Categories:** cs.LG, cs.AI, stat.ML
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.18701v1) | [PDF](https://arxiv.org/pdf/2604.18701v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Local prediction-error-based curiosity rewards focus on the current transition without considering the world model's cumulative prediction error across all visited transitions. We introduce Curiosity-Critic, which grounds its intrinsic reward in the improvement of this cumulative objective, and show that it reduces to a tractable per-step form: the difference between the current prediction error and the asymptotic error baseline of the current state transition. We estimate this baseline online w...
-
-</details>
-
----
-
-### [Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity](https://arxiv.org/abs/2604.18058v1)
-
-**Authors:** Blaise Delaney, Salil Patel, Yuji Xing, Dominic Dootson, Karin Sevegnani
-
-**Published:** 2026-04-20 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.18058v1) | [PDF](https://arxiv.org/pdf/2604.18058v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce Sonata, a compact latent world model for six-axis trunk IMU representation learning under clinical data scarcity. Clinical cohorts typically comprise tens to hundreds of patients, making web-scale masked-reconstruction objectives poorly matched to the problem. Sonata is a 3.77 M-parameter hybrid model, pre-trained on a harmonised corpus of nine public datasets (739 subjects, 190k windows) with a latent world-model objective that predicts future state rather than reconstructing raw s...
-
-</details>
-
----
-
-### [The Umwelt Representation Hypothesis: Rethinking Universality](https://arxiv.org/abs/2604.17960v1)
-
-**Authors:** Victoria Bosch, Rowan Sommers, Adrien Doerig, Tim C Kietzmann
-
-**Published:** 2026-04-20 | **Categories:** q-bio.NC, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.17960v1) | [PDF](https://arxiv.org/pdf/2604.17960v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent studies reveal striking representational alignment between artificial neural networks (ANNs) and biological brains, leading to proposals that all sufficiently capable systems converge on universal representations of reality. Here, we argue that this claim of Universality is premature. We introduce the Umwelt Representation Hypothesis (URH), proposing that alignment arises not from convergence toward a single global optimum, but from overlap in ecological constraints under which systems de...
-
-</details>
-
----
-
-### [Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer](https://arxiv.org/abs/2604.17883v1)
-
-**Authors:** Tianfu Wang, Zhezheng Hao, Yin Wu, Wei Wu, Qiang Lin et al. (8 authors)
-
-**Published:** 2026-04-20 | **Categories:** cs.SE, cs.HC, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.17883v1) | [PDF](https://arxiv.org/pdf/2604.17883v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vibe coding produces correct, executable code at speed, but leaves no record of the structural commitments, dependencies, or evidence behind it. Reviewers cannot determine what invariants were assumed, what changed, or why a regression occurred. This is not a generation failure but a control failure: the dominant artifact of AI-assisted development (code plus chat history) performs dimension collapse, flattening complex system topology into low-dimensional text and making systems opaque and frag...
 
 </details>
 
