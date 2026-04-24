@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-23 22:34 UTC
+**Last updated:** 2026-04-24 16:56 UTC
 
-**Papers found:** 11
+**Papers found:** 9
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Seeing Fast and Slow: Learning the Flow of Time in Videos](https://arxiv.org/abs/2604.21931v1)
+
+**Authors:** Yen-Siang Wu, Rundong Luo, Jingsen Zhu, Tao Tu, Ali Farhadi et al. (9 authors)
+
+**Published:** 2026-04-23 | **Categories:** cs.CV, cs.AI, cs.GR
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21931v1) | [PDF](https://arxiv.org/pdf/2604.21931v1.pdf) | [Project Page](https://seeing-fast-and-slow.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a learnable visual concept and develop models for reasoning about and manipulating the flow of time in videos. We first exploit the multimodal cues and temporal structure naturally present in videos to l...
+
+</details>
+
+---
+
+### [Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](https://arxiv.org/abs/2604.21741v1)
+
+**Authors:** Yaxuan Li, Zhongyi Zhou, Yefei Chen, Yanjiang Guo, Jiaming Liu et al. (8 authors)
+
+**Published:** 2026-04-23 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21741v1) | [PDF](https://arxiv.org/pdf/2604.21741v1.pdf) | [Project Page](https://hi-wm.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Post-training is essential for turning pretrained generalist robot policies into reliable task-specific controllers, but existing human-in-the-loop pipelines remain tied to physical execution: each correction requires robot time, scene setup, resets, and operator supervision in the real world. Meanwhile, action-conditioned world models have been studied mainly for imagination, synthetic data generation, and policy evaluation. We propose \textbf{Human-in-the-World-Model (Hi-WM)}, a post-training ...
+
+</details>
+
+---
+
+### [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017v1)
+
+**Authors:** Open-H-Embodiment Consortium,  :, Nigel Nelson, Juo-Tung Chen, Jesse Haworth et al. (216 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21017v1) | [PDF](https://arxiv.org/pdf/2604.21017v1.pdf) | [Project Page](https://open-h.github.io/open-h-embodiment/)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous medical robots hold promise to improve patient outcomes, reduce provider workload, democratize access to care, and enable superhuman precision. However, autonomous medical robotics has been limited by a fundamental data problem: existing medical robotic datasets are small, single-embodiment, and rarely shared openly, restricting the development of foundation models that the field needs to advance. We introduce Open-H-Embodiment, the largest open dataset of medical robotic video with s...
+
+</details>
+
+---
 
 ### [Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2604.20627v1)
 
@@ -29,24 +80,24 @@ The temporal lag between actions and their long-term consequences makes credit a
 
 ---
 
-### [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](https://arxiv.org/abs/2604.19734v1)
+## Other Recent Papers
 
-**Authors:** Boyu Chen, Yi Chen, Lu Qiu, Jerry Bai, Yuying Ge et al. (6 authors)
+### [WorldMark: A Unified Benchmark Suite for Interactive Video World Models](https://arxiv.org/abs/2604.21686v1)
 
-**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
+**Authors:** Xiaojie Xu, Zhengyuan Lin, Kang He, Yukang Feng, Xiaofeng Mao et al. (8 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.19734v1) | [PDF](https://arxiv.org/pdf/2604.19734v1.pdf) | [Project Page](https://xpeng-robotics.github.io/unit/)
+**Published:** 2026-04-23 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21686v1) | [PDF](https://arxiv.org/pdf/2604.21686v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer via Visual Anchoring), a framework that establishes a unified physical language for human-to-humanoid transfer. Grounded in the philosophy that heterogeneous kinematics share universal visual consequen...
+Interactive video generation models such as Genie, YUME, HY-World, and Matrix-Game are advancing rapidly, yet every model is evaluated on its own benchmark with private scenes and trajectories, making fair cross-model comparison impossible. Existing public benchmarks offer useful metrics such as trajectory error, aesthetic scores, and VLM-based judgments, but none supplies the standardized test conditions -- identical scenes, identical action sequences, and a unified control interface -- needed ...
 
 </details>
 
 ---
-
-## Other Recent Papers
 
 ### [CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs](https://arxiv.org/abs/2604.20460v1)
 
@@ -84,7 +135,7 @@ Real-time world simulation is becoming a key infrastructure for scalable evaluat
 
 ### [Cortex 2.0: Grounding World Models in Real-World Industrial Deployment](https://arxiv.org/abs/2604.20246v1)
 
-**Authors:** Adriana Aida, Walida Amer, Katarina Bankovic, Dhruv Behl, Fabian Busch et al. (28 authors)
+**Authors:** Adriana Aida, Walid Amer, Katarina Bankovic, Dhruv Behl, Fabian Busch et al. (28 authors)
 
 **Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
 
@@ -111,91 +162,6 @@ Industrial robotic manipulation demands reliable long-horizon execution across e
 <summary>Abstract</summary>
 
 Autonomous mechanical thrombectomy (MT) presents substantial challenges due to highly variable vascular geometries and the requirements for accurate, real-time control. While reinforcement learning (RL) has emerged as a promising paradigm for the automation of endovascular navigation, existing approaches often show limited robustness when faced with diverse patient anatomies or extended navigation horizons. In this work, we investigate a world-model-based framework for autonomous endovascular na...
-
-</details>
-
----
-
-### [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856v1)
-
-**Authors:** Cagri Eryilmaz
-
-**Published:** 2026-04-21 | **Categories:** cs.AR, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19856v1) | [PDF](https://arxiv.org/pdf/2604.19856v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large Language Models (LLMs) show promise for generating Register-Transfer Level (RTL) code from natural language specifications, but single-shot generation achieves only 60-65% functional correctness on standard benchmarks. Multi-agent approaches such as MAGE reach 95.9% on VerilogEval yet remain untested on harder industrial benchmarks such as NVIDIA's CVDP, lack synthesis awareness, and incur high API costs. We present ChipCraftBrain, a framework combining symbolic-neural reasoning with adapt...
-
-</details>
-
----
-
-### [Mask World Model: Predicting What Matters for Robust Robot Policy Learning](https://arxiv.org/abs/2604.19683v2)
-
-**Authors:** Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li et al. (12 authors)
-
-**Published:** 2026-04-21 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19683v2) | [PDF](https://arxiv.org/pdf/2604.19683v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models derived from large-scale video generative pre-training have emerged as a promising paradigm for generalist robot policy learning. However, standard approaches often focus on high-fidelity RGB video prediction, this can result in overfitting to irrelevant factors, such as dynamic backgrounds and illumination changes. These distractions reduce the model's ability to generalize, ultimately leading to unreliable and fragile control policies. To address this, we introduce the Mask World ...
-
-</details>
-
----
-
-### [Safety-Critical Contextual Control via Online Riemannian Optimization with World Models](https://arxiv.org/abs/2604.19639v1)
-
-**Authors:** Tongxin Li
-
-**Published:** 2026-04-21 | **Categories:** eess.SY, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19639v1) | [PDF](https://arxiv.org/pdf/2604.19639v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Modern world models are becoming too complex to admit explicit dynamical descriptions. We study safety-critical contextual control, where a Planner must optimize a task objective using only feasibility samples from a black-box Simulator, conditioned on a context signal $ξ_t$. We develop a sample-based Penalized Predictive Control (PPC) framework grounded in online Riemannian optimization, in which the Simulator compresses the feasibility manifold into a score-based density $\hat{p}(u \mid ξ_t)$ ...
-
-</details>
-
----
-
-### [LASER: Learning Active Sensing for Continuum Field Reconstruction](https://arxiv.org/abs/2604.19355v1)
-
-**Authors:** Huayu Deng, Jinghui Zhong, Xiangming Zhu, Yunbo Wang, Xiaokang Yang
-
-**Published:** 2026-04-21 | **Categories:** cs.LG, cs.AI, cs.CE
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19355v1) | [PDF](https://arxiv.org/pdf/2604.19355v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-High-fidelity measurements of continuum physical fields are essential for scientific discovery and engineering design but remain challenging under sparse and constrained sensing. Conventional reconstruction methods typically rely on fixed sensor layouts, which cannot adapt to evolving physical states. We propose LASER, a unified, closed-loop framework that formulates active sensing as a Partially Observable Markov Decision Process (POMDP). At its core, LASER employs a continuum field latent worl...
-
-</details>
-
----
-
-### [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)
-
-**Authors:** Feng Jiang, Yang Chen, Kyle Xu, Yuchen Liu, Haifeng Wang et al. (11 authors)
-
-**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19092v1) | [PDF](https://arxiv.org/pdf/2604.19092v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of leveraging imagined videos for robot learning. However, visual realism does not imply physical plausibility, and behaviors inferred from generated videos may violate dynamics and fail when executed by embodied agents. Existing benchmarks begin to incorporate notions of physical plausibility, but they largely remain perception- or diagnostic-oriented and do not systemat...
 
 </details>
 

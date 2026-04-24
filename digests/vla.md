@@ -2,15 +2,66 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-23 22:34 UTC
+**Last updated:** 2026-04-24 16:57 UTC
 
-**Papers found:** 11
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)
+
+**Authors:** Isabella Liu, An-Chieh Cheng, Rui Yan, Geng Chen, Ri-Zhao Qiu et al. (10 authors)
+
+**Published:** 2026-04-23 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21924v1) | [PDF](https://arxiv.org/pdf/2604.21924v1.pdf) | [Project Page](https://www.liuisabella.com/LoHoManip)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction following via a dedicated task-management VLM. The manager is decoupled from the executor and is invoked in a receding-horizon manner: given the current observation, it predicts a progress-aware remaining pla...
+
+</details>
+
+---
+
+### [CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors](https://arxiv.org/abs/2604.21241v1)
+
+**Authors:** Dachong Li, ZhuangZhuang Chen, Jin Zhang, Jianqiang Li
+
+**Published:** 2026-04-23 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21241v1) | [PDF](https://arxiv.org/pdf/2604.21241v1.pdf) | [GitHub](https://github.com/corridorVLA)
+
+<details>
+<summary>Abstract</summary>
+
+Vision--Language--Action (VLA) models often use intermediate representations to connect multimodal inputs with continuous control, yet spatial guidance is often injected implicitly through latent features. We propose $CorridorVLA$, which predicts sparse spatial anchors as incremental physical changes (e.g., $Δ$-positions) and uses them to impose an explicit tolerance region in the training objective for action generation. The anchors define a corridor that guides a flow-matching action head: tra...
+
+</details>
+
+---
+
+### [Navigating the Clutter: Waypoint-Based Bi-Level Planning for Multi-Robot Systems](https://arxiv.org/abs/2604.21138v1)
+
+**Authors:** Jiabao Ji, Yongchao Chen, Yang Zhang, Ramana Rao Kompella, Chuchu Fan et al. (7 authors)
+
+**Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21138v1) | [PDF](https://arxiv.org/pdf/2604.21138v1.pdf) | [GitHub](https://github.com/UCSB-NLP-Chang/navigate-cluster)
+
+<details>
+<summary>Abstract</summary>
+
+Multi-robot control in cluttered environments is a challenging problem that involves complex physical constraints, including robot-robot collisions, robot-obstacle collisions, and unreachable motions. Successful planning in such settings requires joint optimization over high-level task planning and low-level motion planning, as violations of physical constraints may arise from failures at either level. However, jointly optimizing task and motion planning is difficult due to the complex parameter...
+
+</details>
+
+---
 
 ### [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v1)
 
@@ -29,75 +80,75 @@ Recent advances in Vision-Language-Action (VLA) models have opened new avenues f
 
 ---
 
-### [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](https://arxiv.org/abs/2604.19734v1)
+### [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017v1)
 
-**Authors:** Boyu Chen, Yi Chen, Lu Qiu, Jerry Bai, Yuying Ge et al. (6 authors)
+**Authors:** Open-H-Embodiment Consortium,  :, Nigel Nelson, Juo-Tung Chen, Jesse Haworth et al. (216 authors)
 
-**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI
+**Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.19734v1) | [PDF](https://arxiv.org/pdf/2604.19734v1.pdf) | [Project Page](https://xpeng-robotics.github.io/unit/)
-
-<details>
-<summary>Abstract</summary>
-
-Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer via Visual Anchoring), a framework that establishes a unified physical language for human-to-humanoid transfer. Grounded in the philosophy that heterogeneous kinematics share universal visual consequen...
-
-</details>
-
----
-
-### [FASTER: Value-Guided Sampling for Fast RL](https://arxiv.org/abs/2604.19730v1)
-
-**Authors:** Perry Dong, Alexander Swerdlow, Dorsa Sadigh, Chelsea Finn
-
-**Published:** 2026-04-21 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19730v1) | [PDF](https://arxiv.org/pdf/2604.19730v1.pdf) | [GitHub](https://github.com/alexanderswerdlow/faster)
+**Links:** [arXiv](https://arxiv.org/abs/2604.21017v1) | [PDF](https://arxiv.org/pdf/2604.21017v1.pdf) | [Project Page](https://open-h.github.io/open-h-embodiment/)
 
 <details>
 <summary>Abstract</summary>
 
-Some of the most performant reinforcement learning algorithms today can be prohibitively expensive as they use test-time scaling methods such as sampling multiple action candidates and selecting the best one. In this work, we propose FASTER, a method for getting the benefits of sampling-based test-time scaling of diffusion-based policies without the computational cost by tracing the performance gain of action samples back to earlier in the denoising process. Our key insight is that we can model ...
-
-</details>
-
----
-
-### [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)
-
-**Authors:** Jean Mercat, Sedrick Keh, Kushal Arora, Isabella Huang, Paarth Shah et al. (8 authors)
-
-**Published:** 2026-04-21 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19728v1) | [PDF](https://arxiv.org/pdf/2604.19728v1.pdf) | [Project Page](https://tri-ml.github.io/vla_foundry) | [GitHub](https://github.com/TRI-ML/vla_foundry)
-
-<details>
-<summary>Abstract</summary>
-
-We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with end-to-end control, from language pretraining to action-expert fine-tuning. VLA Foundry supports both from-scratch training and pretrained backbones from Hugging Face. To demonstrate the utility of ou...
-
-</details>
-
----
-
-### [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)
-
-**Authors:** Zewei Zhou, Ruining Yang,  Xuewei,  Qi, Yiluan Guo et al. (11 authors)
-
-**Published:** 2026-04-21 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19710v1) | [PDF](https://arxiv.org/pdf/2604.19710v1.pdf) | [Project Page](https://spanvla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with the high latency in action generation using an autoregressive generation framework and exhibit limited robustness. In this paper, we propose SpanVLA, a novel end-to-end autonomous driving framework, integrating an autoregressive reasoning and a flow-matching action expert. F...
+Autonomous medical robots hold promise to improve patient outcomes, reduce provider workload, democratize access to care, and enable superhuman precision. However, autonomous medical robotics has been limited by a fundamental data problem: existing medical robotic datasets are small, single-embodiment, and rarely shared openly, restricting the development of foundation models that the field needs to advance. We introduce Open-H-Embodiment, the largest open dataset of medical robotic video with s...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)
+
+**Authors:** Yiming Zhong, Yaoyu He, Zemin Yang, Pengfei Tian, Yifan Huang et al. (8 authors)
+
+**Published:** 2026-04-23 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21391v1) | [PDF](https://arxiv.org/pdf/2604.21391v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Bridging high-level semantic understanding with low-level physical control remains a persistent challenge in embodied intelligence, stemming from the fundamental spatiotemporal scale mismatch between cognition and action. Existing generative VLA policies typically adopt a "Generation-from-Noise" paradigm, which disregards this disparity, leading to representation inefficiency and weak condition alignment during optimization. In this work, we propose ResVLA, an architecture that shifts the paradi...
+
+</details>
+
+---
+
+### [ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures](https://arxiv.org/abs/2604.21232v1)
+
+**Authors:** Xiyin Zeng, Yuyu Sun, Haoyang Li, Shouqiang Liu, Hao Wang
+
+**Published:** 2026-04-23 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21232v1) | [PDF](https://arxiv.org/pdf/2604.21232v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action systems follow instructions to execute multi-step tasks in multimodal environments. Recent VLA approaches typically rely on post-hoc correction mechanisms or operate under fixed task decompositions and alignment schemes. However, once an intermediate step is mis-specified, local errors propagate through subsequent steps and eventually accumulate into cascading failures. To mitigate this compounding effect, we propose Predictive Alignment and Planning Architecture, a framew...
+
+</details>
+
+---
+
+### [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)
+
+**Authors:** Amir Rasouli, Yangzheng Wu, Zhiyuan Li, Rui Heng Yang, Xuan Zhao et al. (7 authors)
+
+**Published:** 2026-04-23 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.21192v1) | [PDF](https://arxiv.org/pdf/2604.21192v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models (VLAs) have been extensively used in robotics applications, achieving great success in various manipulation problems. More recently, VLAs have been used in long-horizon tasks and evaluated on benchmarks, such as BEHAVIOR1K (B1K), for solving complex household chores. The common metric for measuring progress in such benchmarks is success rate or partial score based on satisfaction of progress-agnostic criteria, meaning only the final states of the objects are conside...
+
+</details>
+
+---
 
 ### [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)
 
@@ -133,13 +184,13 @@ Ultrasound (US)-guided needle insertion is a critical yet challenging procedure 
 
 ---
 
-### [JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy](https://arxiv.org/abs/2604.20100v1)
+### [JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy](https://arxiv.org/abs/2604.20100v2)
 
 **Authors:** Tianle Zhang, Zhihao Yuan, Dafeng Chi, Peidong Liu, Dongwei Li et al. (62 authors)
 
 **Published:** 2026-04-22 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.20100v1) | [PDF](https://arxiv.org/pdf/2604.20100v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.20100v2) | [PDF](https://arxiv.org/pdf/2604.20100v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -152,7 +203,7 @@ Robotic autonomy in open-world environments is fundamentally limited by insuffic
 
 ### [Cortex 2.0: Grounding World Models in Real-World Industrial Deployment](https://arxiv.org/abs/2604.20246v1)
 
-**Authors:** Adriana Aida, Walida Amer, Katarina Bankovic, Dhruv Behl, Fabian Busch et al. (28 authors)
+**Authors:** Adriana Aida, Walid Amer, Katarina Bankovic, Dhruv Behl, Fabian Busch et al. (28 authors)
 
 **Published:** 2026-04-22 | **Categories:** cs.RO, cs.AI
 
@@ -162,40 +213,6 @@ Robotic autonomy in open-world environments is fundamentally limited by insuffic
 <summary>Abstract</summary>
 
 Industrial robotic manipulation demands reliable long-horizon execution across embodiments, tasks, and changing object distributions. While Vision-Language-Action models have demonstrated strong generalization, they remain fundamentally reactive. By optimizing the next action given the current observation without evaluating potential futures, they are brittle to the compounding failure modes of long-horizon tasks. Cortex 2.0 shifts from reactive control to plan-and-act by generating candidate fu...
-
-</details>
-
----
-
-### [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)
-
-**Authors:** Yiyang Du, Zhanqiu Guo, Xin Ye, Liu Ren, Chenyan Xiong
-
-**Published:** 2026-04-21 | **Categories:** cs.CV, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.20012v1) | [PDF](https://arxiv.org/pdf/2604.20012v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action Models (VLAs) inherit their visual and linguistic capabilities from Vision-Language Models (VLMs), yet most VLAs are built from off-the-shelf VLMs that are not adapted to the embodied domain, limiting their downstream performance. In this work, we propose EmbodiedMidtrain to bridge the gap between VLMs and VLAs. We first characterize the data distribution gap between them, showing that VLA data occupy compact regions that are largely separated from the broader VLM distribu...
-
-</details>
-
----
-
-### [If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems](https://arxiv.org/abs/2604.19844v1)
-
-**Authors:** Jiamin Chang, Minhui Xue, Ruoxi Sun, Shuchao Pang, Salil S. Kanhere et al. (6 authors)
-
-**Published:** 2026-04-21 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.19844v1) | [PDF](https://arxiv.org/pdf/2604.19844v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in embodied Vision-Language Agentic Systems (VLAS), powered by large vision-language models (LVLMs), enable AI systems to perceive and reason over real-world scenes. Within this context, environmental signals such as traffic lights are essential in-band signals that can and should influence agent behavior. However, similar signals could also be crafted to operate as misleading visual injections, overriding user intent and posing security risks. This duality creates a fundamental ...
 
 </details>
 
