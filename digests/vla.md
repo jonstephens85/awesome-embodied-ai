@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-28 22:46 UTC
+**Last updated:** 2026-04-29 17:29 UTC
 
-**Papers found:** 7
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
@@ -12,13 +12,30 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v1)
+### [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)
 
-**Authors:** Fan Du, Feng Yan, Jianxiong Wu, Xinrun Xu, Weiye Zhang et al. (9 authors)
+**Authors:** Yifei Wei, Linqing Zhong, Yi Liu, Yuxiang Lu, Xindong He et al. (7 authors)
+
+**Published:** 2026-04-27 | **Categories:** cs.RO, cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.24921v1) | [PDF](https://arxiv.org/pdf/2604.24921v1.pdf) | [Project Page](https://libra-vla.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models are a promising paradigm for generalist robotic manipulation by grounding high-level semantic instructions into executable physical actions. However, prevailing approaches typically adopt a monolithic generation paradigm, directly mapping visual-linguistic features to high-frequency motor commands in a flat, non-hierarchical fashion. This strategy overlooks the inherent hierarchy of robotic manipulation, where complex actions can be naturally modeled in a Hybr...
+
+</details>
+
+---
+
+### [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)
+
+**Authors:** Fan Du, Feng Yan, Jianxiong Wu, Xinrun Xu, Weiye Zhang et al. (11 authors)
 
 **Published:** 2026-04-27 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.24622v1) | [PDF](https://arxiv.org/pdf/2604.24622v1.pdf) | [GitHub](https://github.com/EmbodiedAI-RoboTron/CF-VLA)
+**Links:** [arXiv](https://arxiv.org/abs/2604.24622v2) | [PDF](https://arxiv.org/pdf/2604.24622v2.pdf) | [GitHub](https://github.com/EmbodiedAI-RoboTron/CF-VLA)
 
 <details>
 <summary>Abstract</summary>
@@ -94,40 +111,6 @@ While Vision-Language-Action (VLA) models have been demonstrated possessing stro
 <summary>Abstract</summary>
 
 Human videos contain rich manipulation priors, but using them for robot learning remains difficult because raw observations entangle scene understanding, human motion, and embodiment-specific action. We introduce MoT-HRA, a hierarchical vision-language-action framework that learns human-intention priors from large-scale human demonstrations. We first curate HA-2.2M, a 2.2M-episode action-language dataset reconstructed from heterogeneous human videos through hand-centric filtering, spatial recons...
-
-</details>
-
----
-
-### [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775v1)
-
-**Authors:** Qi Li, Bo Yin, Weiqi Huang, Ruhao Liu, Bojun Zou et al. (9 authors)
-
-**Published:** 2026-04-26 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.23775v1) | [PDF](https://arxiv.org/pdf/2604.23775v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are emerging as a unified substrate for embodied intelligence. This shift raises a new class of safety challenges, stemming from the embodied nature of VLA systems, including irreversible physical consequences, a multimodal attack surface across vision, language, and state, real-time latency constraints on defense, error propagation over long-horizon trajectories, and vulnerabilities in the data supply chain. Yet the literature remains fragmented across roboti...
-
-</details>
-
----
-
-### [Move-Then-Operate: Behavioral Phasing for Human-Like Robotic Manipulation](https://arxiv.org/abs/2604.23620v1)
-
-**Authors:** Haoming Xu, Lei Lei, Jie Gu, Chu Tang, Jingmin Chen et al. (6 authors)
-
-**Published:** 2026-04-26 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.23620v1) | [PDF](https://arxiv.org/pdf/2604.23620v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present Move-Then-Operate, a Vision language action framework that explicitly decouples robotic manipulation into two distinct behavioral phases: coarse relocation (move) and contact-critical interaction (operate). Unlike monolithic policies that conflate these heterogeneous regimes, our architecture employs a dual-expert policy routed by a learnable phase selector, introducing a structural inductive bias that isolates phase-specific dynamics. Phase labels are automatically generated via an M...
 
 </details>
 

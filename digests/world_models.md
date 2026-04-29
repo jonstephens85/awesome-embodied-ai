@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-04-28 22:46 UTC
+**Last updated:** 2026-04-29 17:28 UTC
 
 **Papers found:** 1
 
@@ -12,18 +12,18 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Other Recent Papers
 
-### [Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model](https://arxiv.org/abs/2604.23532v1)
+### [ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution](https://arxiv.org/abs/2604.25329v1)
 
-**Authors:** Jingni Huang, Peter Bloodsworth
+**Authors:** Chuyao Fu, Shengzhe Gan, Zhuoli Ouyang, Yuhan Rui, Xiaowei Chi et al. (8 authors)
 
-**Published:** 2026-04-26 | **Categories:** cs.CV, cs.AI
+**Published:** 2026-04-28 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.23532v1) | [PDF](https://arxiv.org/pdf/2604.23532v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.25329v1) | [PDF](https://arxiv.org/pdf/2604.25329v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Short-term human pose prediction plays a crucial role in interactive systems, assistive robots, and emotion-aware human-computer interaction[1-3]. While current trajectory prediction models primarily rely on geometric motion cues, they often overlook the underlying emotional signals influencing human motion dynamics[4-5]. This paper investigates whether facial expression-derived emotion embeddings can provide auxiliary conditional signals for short-term pose prediction. To further evaluate multi...
+End-to-end autonomous driving planners typically generate trajectories from current observations alone. However, real-world driving is highly dynamic, and such reactive planning cannot anticipate future scene evolution, often leading to myopic decisions and safety-critical failures. We propose ProDrive, a world-model-based proactive planning framework that enables ego-environment co-evolution for autonomous driving. ProDrive jointly trains a query-centric trajectory planner and a bird's-eye-view...
 
 </details>
 
