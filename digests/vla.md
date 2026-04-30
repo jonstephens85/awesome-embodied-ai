@@ -2,115 +2,45 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-04-29 22:46 UTC
+**Last updated:** 2026-04-30 17:21 UTC
 
-**Papers found:** 6
+**Papers found:** 2
 
 [Back to Home](../README.md)
 
 ---
 
-## Papers with Project Pages / Code
-
-### [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)
-
-**Authors:** Yifei Wei, Linqing Zhong, Yi Liu, Yuxiang Lu, Xindong He et al. (7 authors)
-
-**Published:** 2026-04-27 | **Categories:** cs.RO, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.24921v1) | [PDF](https://arxiv.org/pdf/2604.24921v1.pdf) | [Project Page](https://libra-vla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are a promising paradigm for generalist robotic manipulation by grounding high-level semantic instructions into executable physical actions. However, prevailing approaches typically adopt a monolithic generation paradigm, directly mapping visual-linguistic features to high-frequency motor commands in a flat, non-hierarchical fashion. This strategy overlooks the inherent hierarchy of robotic manipulation, where complex actions can be naturally modeled in a Hybr...
-
-</details>
-
----
-
-### [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)
-
-**Authors:** Fan Du, Feng Yan, Jianxiong Wu, Xinrun Xu, Weiye Zhang et al. (11 authors)
-
-**Published:** 2026-04-27 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.24622v2) | [PDF](https://arxiv.org/pdf/2604.24622v2.pdf) | [GitHub](https://github.com/EmbodiedAI-RoboTron/CF-VLA)
-
-<details>
-<summary>Abstract</summary>
-
-Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-s...
-
-</details>
-
----
-
-### [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)
-
-**Authors:** Kaijun Zhou, Qiwei Chen, Da Peng, Zhiyang Li, Xijun Li et al. (6 authors)
-
-**Published:** 2026-04-27 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.24447v1) | [PDF](https://arxiv.org/pdf/2604.24447v1.pdf) | [Project Page](is)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are promising for generalist robot control, but on-robot deployment is bottlenecked by real-time inference under tight cost and energy budgets. Most prior evaluations rely on desktop-grade GPUs, obscuring the trade-offs and opportunities offered by heterogeneous edge accelerators (GPUs/XPUs/NPUs). We present a systematic analysis for low-cost VLA deployment via model-hardware co-characterization. First, we build a cross-accelerator leaderboard and evaluate mod...
-
-</details>
-
----
-
 ## Other Recent Papers
 
-### [$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills](https://arxiv.org/abs/2604.24182v1)
+### [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)
 
-**Authors:** Siyao Xiao, Yuhong Zhang, Zhifang Liu, Zihan Gao, Jingye Zhang et al. (12 authors)
+**Authors:** Yuxuan Tian, Yurun Jin, Bin Yu, Yukun Shi, Hao Wu et al. (8 authors)
 
-**Published:** 2026-04-27 | **Categories:** cs.RO
+**Published:** 2026-04-29 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.24182v1) | [PDF](https://arxiv.org/pdf/2604.24182v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.26848v1) | [PDF](https://arxiv.org/pdf/2604.26848v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Current Vision-Language-Action (VLA) models predominantly rely on end-to-end fine-tuning. While effective, this paradigm compromises the inherent generalization capabilities of Vision-Language Models (VLMs) and incurs catastrophic forgetting. To address these limitations, we propose $M^2$-VLA, which demonstrates that a generalized VLM is able to serve as a powerful backbone for robotic manipulation directly. However, it remains a key challenge to bridge the gap between the high-level semantic un...
+Robotic manipulation critically requires reasoning about future spatial-temporal interactions, yet existing VLA policies and world-model-enhanced policies do not fully model action-relevant spatial-temporal interaction structure. We propose STARRY, a world-model-enhanced action-generation policy that aligns spatial-temporal prediction with action generation. STARRY jointly denoises future spatial-temporal latents and action sequences, and introduces Geometry-Aware Selective Attention Modulation ...
 
 </details>
 
 ---
 
-### [AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation](https://arxiv.org/abs/2604.24086v1)
+### [Walk With Me: Long-Horizon Social Navigation for Human-Centric Outdoor Assistance](https://arxiv.org/abs/2604.26839v1)
 
-**Authors:** Kai Yang, Zedong Chu, Yingnan Guo, Zhengbo Wang, Shichao Xie et al. (9 authors)
+**Authors:** Lingfeng Zhang, Xiaoshuai Hao, Xizhou Bu, Yingbo Tang, Hongsheng Li et al. (14 authors)
 
-**Published:** 2026-04-27 | **Categories:** cs.RO, cs.AI
+**Published:** 2026-04-29 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2604.24086v1) | [PDF](https://arxiv.org/pdf/2604.24086v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-While Vision-Language-Action (VLA) models have been demonstrated possessing strong zero-shot generalization for robot control, their massive parameter sizes typically necessitate cloud-based deployment. However, cloud deployment introduces network jitter and inference latency, which can induce severe spatiotemporal misalignment in mobile navigation under continuous displacement, so that the stale intents expressed in past ego frames may become spatially incorrect in the current frame and lead to...
-
-</details>
-
----
-
-### [Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation](https://arxiv.org/abs/2604.24681v1)
-
-**Authors:** Yifan Xie, YuAn Wang, Guangyu Chen, Jinkun Liu, Yu Sun et al. (6 authors)
-
-**Published:** 2026-04-27 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2604.24681v1) | [PDF](https://arxiv.org/pdf/2604.24681v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2604.26839v1) | [PDF](https://arxiv.org/pdf/2604.26839v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Human videos contain rich manipulation priors, but using them for robot learning remains difficult because raw observations entangle scene understanding, human motion, and embodiment-specific action. We introduce MoT-HRA, a hierarchical vision-language-action framework that learns human-intention priors from large-scale human demonstrations. We first curate HA-2.2M, a 2.2M-episode action-language dataset reconstructed from heterogeneous human videos through hand-centric filtering, spatial recons...
+Assisting humans in open-world outdoor environments requires robots to translate high-level natural-language intentions into safe, long-horizon, and socially compliant navigation behavior. Existing map-based methods rely on costly pre-built HD maps, while learning-based policies are mostly limited to indoor and short-horizon settings. To bridge this gap, we propose Walk with Me, a map-free framework for long-horizon social navigation from high-level human instructions. Walk with Me leverages GPS...
 
 </details>
 
