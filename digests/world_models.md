@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-05 22:46 UTC
+**Last updated:** 2026-05-06 17:40 UTC
 
 **Papers found:** 7
 
@@ -30,6 +30,74 @@ Traditional Simultaneous Localization and Mapping (SLAM) algorithms rely heavily
 ---
 
 ## Other Recent Papers
+
+### [A Benchmark for Interactive World Models with a Unified Action Generation Framework](https://arxiv.org/abs/2605.03941v1)
+
+**Authors:** Jianjie Fang, Yingshan Lei, Qin Wan, Ziyou Wang, Yuchao Huang et al. (11 authors)
+
+**Published:** 2026-05-05 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.03941v1) | [PDF](https://arxiv.org/pdf/2605.03941v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Achieving Artificial General Intelligence (AGI) requires agents that learn and interact adaptively, with interactive world models providing scalable environments for perception, reasoning, and action. Yet current research still lacks large-scale datasets and unified benchmarks to evaluate their physical interaction capabilities. To address this, we propose iWorld-Bench, a comprehensive benchmark for training and testing world models on interaction-related abilities such as distance perception an...
+
+</details>
+
+---
+
+### [RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models](https://arxiv.org/abs/2605.03821v1)
+
+**Authors:** Hao Wu, Yuqi Li, Yuan Gao, Fan Xu, Fan Zhang et al. (13 authors)
+
+**Published:** 2026-05-05 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.03821v1) | [PDF](https://arxiv.org/pdf/2605.03821v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Existing robot video world models are typically trained with low-level objectives such as reconstruction and perceptual similarity, which are poorly aligned with the capabilities that matter most for robot decision making, including instruction following, manipulation success, and physical plausibility. They also suffer from error accumulation in long-horizon autoregressive prediction. We present RoboAlign-R1, a framework that combines reward-aligned post-training with stabilized long-horizon in...
+
+</details>
+
+---
+
+### [What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity](https://arxiv.org/abs/2605.03782v1)
+
+**Authors:** Haoxi Li, Qinglin Hou, Jianfei Ma, Jinxiang Lai, Tao Han et al. (9 authors)
+
+**Published:** 2026-05-05 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.03782v1) | [PDF](https://arxiv.org/pdf/2605.03782v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+To navigate partially observable visual environments, recent VLM agents increasingly internalize world modeling capabilities into their policies via explicit CoT reasoning, enabling them to mentally simulate futures before acting. However, relying solely on passive reasoning over visited states is insufficient for sparse-reward tasks, as it lacks the epistemic drive to actively uncover the ``known unknown'' required for robust generalization. We ask: Can VLM agents actively find signals that cha...
+
+</details>
+
+---
+
+### [Learning to Theorize the World from Observation](https://arxiv.org/abs/2605.03413v1)
+
+**Authors:** Doojin Baek, Gyubin Lee, Junyeob Baek, Hosung Lee, Sungjin Ahn
+
+**Published:** 2026-05-05 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.03413v1) | [PDF](https://arxiv.org/pdf/2605.03413v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+What does it mean to understand the world? Contemporary world models often operationalize understanding as accurate future prediction in latent or observation space. Developmental cognitive science, however, suggests a different view: human understanding emerges through the construction of internal theories of how the world works, even before mature language is acquired. Inspired by this theory-building view of cognition, we introduce Learning-to-Theorize, a learning paradigm for inferring expli...
+
+</details>
+
+---
 
 ### [Shadow-Loom: Causal Reasoning over Graphical World Model of Narratives](https://arxiv.org/abs/2605.02475v1)
 
@@ -60,74 +128,6 @@ Stories hold a reader's attention because they have causes, secrets, and consequ
 <summary>Abstract</summary>
 
 Video Variational Autoencoder (VAE) enables latent video generative modeling by mapping the visual world into compact spatiotemporal latent spaces, improving training efficiency and stability. While existing video VAEs achieve commendable reconstruction quality, continued optimization of reconstruction does not necessarily translate into improved generative performance. How to enhance the diffusability of video latents remains a critical and unresolved challenge. In this work, inspired by princi...
-
-</details>
-
----
-
-### [TRAP: Tail-aware Ranking Attack for World-Model Planning](https://arxiv.org/abs/2605.01950v1)
-
-**Authors:** Siyuan Duan, Ke Zhang, Xizhao Luo
-
-**Published:** 2026-05-03 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01950v1) | [PDF](https://arxiv.org/pdf/2605.01950v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models enable long-horizon planning by internally generating and evaluating imagined trajectories, making them a promising foundation for generalist agents. However, this imagination-driven decision process also introduces new security risks. Existing backdoor attacks typically aim to manipulate local features, one-step predictions, or instantaneous policy outputs. While such objectives may suffice for weaker reactive models, they are often ineffective against world models, where the learn...
-
-</details>
-
----
-
-### [Divide and Conquer: Decoupled Representation Alignment for Multimodal World Models](https://arxiv.org/abs/2605.01896v1)
-
-**Authors:** Junyuan Xiao, Dingkang Liang, Xin Zhou, Yixuan Ye, Tongtong Su et al. (12 authors)
-
-**Published:** 2026-05-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01896v1) | [PDF](https://arxiv.org/pdf/2605.01896v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Emerging multi-modal world models attempt to jointly generate videos across diverse modalities (e.g., RGB, depth, and mask), yet they fail to fully exploit the rich priors of existing foundation models. We propose $M^2$-REPA, the first representation alignment method tailored for multi-modal video generation. Our key insight is that foundation models trained on different modality spaces naturally capture distinct domain-specific priors, acting as complementary "experts." Specifically, we first d...
-
-</details>
-
----
-
-### [Embody4D: A Generalist 4D World Model for Embodied AI](https://arxiv.org/abs/2605.01799v1)
-
-**Authors:** Peiyan Tu, Hanxin Zhu, Jingwen Sun, Shaojie Ren, Cong Wang et al. (8 authors)
-
-**Published:** 2026-05-03 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01799v1) | [PDF](https://arxiv.org/pdf/2605.01799v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models have made significant progress in modeling dynamic environments; however, most embodied world models are still restricted to 2D representations, lacking the comprehensive multi-view information essential for embodied spatial reasoning. Bridging this gap is non-trivial, primarily due to challenges from severe scarcity of paired multi-view data, the difficulty of maintaining spatiotemporal consistency in generated 3D geometries, and the tendency to hallucinate manipulation details. To...
-
-</details>
-
----
-
-### [Latent State Design for World Models under Sufficiency Constraints](https://arxiv.org/abs/2605.01694v1)
-
-**Authors:** Keon Woo Kim
-
-**Published:** 2026-05-03 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01694v1) | [PDF](https://arxiv.org/pdf/2605.01694v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A world model matters to an agent only through the state it constructs. That state must preserve some information, discard other information, and support some future function: prediction, control, planning, memory, grounding, or counterfactual reasoning. This paper treats world-model research as latent state design under sufficiency constraints. We propose a functional taxonomy that groups methods by what their latent state is for, rather than by architecture or application domain: predictive em...
 
 </details>
 

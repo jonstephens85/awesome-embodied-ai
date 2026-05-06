@@ -2,15 +2,32 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-05-05 22:46 UTC
+**Last updated:** 2026-05-06 17:40 UTC
 
-**Papers found:** 7
+**Papers found:** 5
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [RLDX-1 Technical Report](https://arxiv.org/abs/2605.03269v1)
+
+**Authors:** Dongyoung Kim, Huiwon Jang, Myungkyu Koo, Suhyeok Jang, Taeyoung Kim et al. (68 authors)
+
+**Published:** 2026-05-05 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.03269v1) | [PDF](https://arxiv.org/pdf/2605.03269v1.pdf) | [Project Page](https://rlwrld.ai/rldx-1)
+
+<details>
+<summary>Abstract</summary>
+
+While Vision-Language-Action models (VLAs) have shown remarkable progress toward human-like generalist robotic policies through the versatile intelligence (i.e. broad scene understanding and language-conditioned generalization) inherited from pre-trained Vision-Language Models, they still struggle with complex real-world tasks requiring broader functional capabilities (e.g. motion awareness, memory-aware decision making, and physical sensing). To address this, we introduce RLDX-1, a general-purp...
+
+</details>
+
+---
 
 ### [MolmoAct2: Action Reasoning Models for Real-world Deployment](https://arxiv.org/abs/2605.02881v1)
 
@@ -77,57 +94,6 @@ Dual-system Vision-Language-Action (VLA) models achieve state-of-the-art robotic
 <summary>Abstract</summary>
 
 While Large Language Models (LLMs) and Vision-Language Models (VLMs) demonstrate remarkable capabilities in high-level reasoning and semantic understanding, applying them directly to contact-rich manipulation remains a challenge due to their lack of explicit physical grounding and inability to perform adaptive control. To bridge this gap, we propose CoRAL (Contact-Rich Adaptive LLM-based control), a modular framework that enables zero-shot planning by decoupling high-level reasoning from low-lev...
-
-</details>
-
----
-
-### [VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation](https://arxiv.org/abs/2605.02037v1)
-
-**Authors:** Zijian An, Hadi Khezam, Bill Cai, Ran Yang, Shijie Geng et al. (9 authors)
-
-**Published:** 2026-05-03 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.02037v1) | [PDF](https://arxiv.org/pdf/2605.02037v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present VILAS, a fully low-cost, modular robotic manipulation platform designed to support end-to-end vision-language-action (VLA) policy learning and deployment on accessible hardware. The system integrates a Fairino FR5 collaborative arm, a Jodell RG52-50 electric gripper, and a dual-camera perception module, unified through a ZMQ-based communication architecture that seamlessly coordinates teleoperation, data collection, and policy deployment within a single framework. To enable safe manip...
-
-</details>
-
----
-
-### [Phone2Act: A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection](https://arxiv.org/abs/2605.01948v1)
-
-**Authors:** Om Mandhane, Bipin Yadav, Sangeetha Prasanna Ram, Gopalakrishnan Narayanan
-
-**Published:** 2026-05-03 | **Categories:** cs.RO, cs.AI, cs.HC
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01948v1) | [PDF](https://arxiv.org/pdf/2605.01948v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Collecting diverse, high-quality manipulation data for Vision-Language-Action (VLA) model training remains prohibitively expensive for many research groups, as existing teleoperation frameworks rely on specialized hardware or are tightly coupled to specific robot platforms. We present Phone2Act, a low-cost, hardware-agnostic teleoperation framework that transforms a commodity smartphone into a 6-DoF robot controller via Google ARCore. Built on a modular ROS 2 architecture, Phone2Act decouples co...
-
-</details>
-
----
-
-### [Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772v1)
-
-**Authors:** Zhilong Zhang, Wenyu Luo, Haonan Wang, Yifei Sheng, Yidi Wang et al. (12 authors)
-
-**Published:** 2026-05-03 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.01772v1) | [PDF](https://arxiv.org/pdf/2605.01772v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied intelligence, enabling robots to perform tasks based on natural language instructions and current visual input. However, existing VLA models struggle with long-horizon tasks due to compounding errors. Prior methods decompose tasks into subtasks of fixed granularity, which cannot adapt to the varying complexity of execution states, limiting their robustness in long-horizon tasks. To overcome this, we introduce An...
 
 </details>
 
