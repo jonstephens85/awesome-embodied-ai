@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-05-06 22:39 UTC
+**Last updated:** 2026-05-07 17:48 UTC
 
 **Papers found:** 5
 
@@ -12,52 +12,69 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 ## Papers with Project Pages / Code
 
-### [RLDX-1 Technical Report](https://arxiv.org/abs/2605.03269v1)
+### [ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation](https://arxiv.org/abs/2605.05126v1)
+
+**Authors:** Wei Li, Jizhihui Liu, Li Yixing, Junwen Tong, Rui Shao et al. (6 authors)
+
+**Published:** 2026-05-06 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.05126v1) | [PDF](https://arxiv.org/pdf/2605.05126v1.pdf) | [GitHub](https://github.com/iLearn-Lab/CVPR26-ConsisVLA-4D)
+
+<details>
+<summary>Abstract</summary>
+
+Current Vision-Language-Action (VLA) models primarily focus on mapping 2D observations to actions, but exhibit notable limitations in spatiotemporal perception and reasoning: 1) spatial representations often rely on additional sensors, introducing substantial computational overhead; 2) visual reasoning is typically limited to future-frame prediction, lacking alignment with the instruction-grounded scene and thus compromising spatiotemporal consistency. To address these challenges, we propose Con...
+
+</details>
+
+---
+
+### [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678v1)
+
+**Authors:** Yihan Lin, Haoyang Li, Yang Li, Haitao Shen, Yihan Zhao et al. (7 authors)
+
+**Published:** 2026-05-06 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.04678v1) | [PDF](https://arxiv.org/pdf/2605.04678v1.pdf) | [GitHub](https://github.com/RUCKBReasoning/From_Pixels_to_Tokens)
+
+<details>
+<summary>Abstract</summary>
+
+Latent actions serve as an intermediate representation that enables consistent modeling of vision-language-action (VLA) models across heterogeneous datasets. However, approaches to supervising VLAs with latent actions are fragmented and lack a systematic comparison. This work structures the study of latent action supervision from two perspectives: (i) regularizing the trajectory via image-based latent actions, and (ii) unifying the target space with action-based latent actions. Under a unified V...
+
+</details>
+
+---
+
+### [CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies](https://arxiv.org/abs/2605.04470v1)
+
+**Authors:** Keyu Chen, Nanfei Ye, Yida Wang, Wenchao Sun, Danqi Zhao et al. (7 authors)
+
+**Published:** 2026-05-06 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.04470v1) | [PDF](https://arxiv.org/pdf/2605.04470v1.pdf) | [Project Page](https://currychen77.github.io/CRAFT)
+
+<details>
+<summary>Abstract</summary>
+
+Open-loop imitation learning has advanced modern autonomous driving policy architectures, but closed-loop deployment remains vulnerable to policy-induced distribution shift. Existing post-training paradigms exhibit fundamental trade-offs: closed-loop RL fine-tuning provides grounded feedback from executed actions but is constrained by the sparsity of informative events, whereas counterfactual fine-tuning provides dense supervision over candidate futures but inherits bias from imperfect future es...
+
+</details>
+
+---
+
+### [RLDX-1 Technical Report](https://arxiv.org/abs/2605.03269v2)
 
 **Authors:** Dongyoung Kim, Huiwon Jang, Myungkyu Koo, Suhyeok Jang, Taeyoung Kim et al. (68 authors)
 
 **Published:** 2026-05-05 | **Categories:** cs.RO, cs.AI, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.03269v1) | [PDF](https://arxiv.org/pdf/2605.03269v1.pdf) | [Project Page](https://rlwrld.ai/rldx-1)
+**Links:** [arXiv](https://arxiv.org/abs/2605.03269v2) | [PDF](https://arxiv.org/pdf/2605.03269v2.pdf) | [Project Page](https://rlwrld.ai/rldx-1)
 
 <details>
 <summary>Abstract</summary>
 
-While Vision-Language-Action models (VLAs) have shown remarkable progress toward human-like generalist robotic policies through the versatile intelligence (i.e. broad scene understanding and language-conditioned generalization) inherited from pre-trained Vision-Language Models, they still struggle with complex real-world tasks requiring broader functional capabilities (e.g. motion awareness, memory-aware decision making, and physical sensing). To address this, we introduce RLDX-1, a general-purp...
-
-</details>
-
----
-
-### [MolmoAct2: Action Reasoning Models for Real-world Deployment](https://arxiv.org/abs/2605.02881v1)
-
-**Authors:** Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu et al. (29 authors)
-
-**Published:** 2026-05-04 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.02881v1) | [PDF](https://arxiv.org/pdf/2605.02881v1.pdf) | [Project Page](https://allenai.org/blog/molmoact2)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expensive hardware, reasoning-augmented policies pay prohibitive latency for their grounding, and fine-tuned success rates remain below the threshold for dependable use. We present MolmoAct2, a fully open action reasoning model built for practical deploym...
-
-</details>
-
----
-
-### [Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](https://arxiv.org/abs/2605.02757v1)
-
-**Authors:** Chenyu Hui, Xiaodi Huang, Siyu Xu, Yunke Wang, Shan You et al. (8 authors)
-
-**Published:** 2026-05-04 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.02757v1) | [PDF](https://arxiv.org/pdf/2605.02757v1.pdf) | [GitHub](https://github.com/nanfangxiansheng/Seeing-Realism-from-Simulation)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models typically rely on large-scale real-world videos, whereas simulated data, despite being inexpensive and highly parallelizable to collect, often suffers from a substantial visual domain gap and limited environmental diversity, resulting in weak real-world generalization. We present an efficient video augmentation framework that converts simulated VLA videos into realistic training videos while preserving task semantics and action trajectories. Our pipeline extra...
+While Vision-Language-Action models (VLAs) have shown remarkable progress toward human-like generalist robotic policies through the versatile intelligence (i.e. broad scene understanding and language-conditioned generalization) inherited from pre-trained Vision-Language Models, they still struggle with complex real-world tasks requiring broader functional capabilities (e.g. motion awareness, long-term memory, and physical sensing). To address this, we introduce RLDX-1, a general-purpose robotic ...
 
 </details>
 
@@ -65,35 +82,18 @@ Vision-language-action (VLA) models typically rely on large-scale real-world vid
 
 ## Other Recent Papers
 
-### [Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference](https://arxiv.org/abs/2605.02739v1)
+### [Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2605.04128v1)
 
-**Authors:** Yudong Liu, Yuan Li, Zijia Tang, Yuxi Zheng, Yueqian Lin et al. (15 authors)
+**Authors:** Lin Song, Wenbo Li, Guoqing Ma, Wei Tang, Bo Wang et al. (19 authors)
 
-**Published:** 2026-05-04 | **Categories:** cs.RO
+**Published:** 2026-05-05 | **Categories:** cs.GR, cs.AI, cs.CL
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.02739v1) | [PDF](https://arxiv.org/pdf/2605.02739v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Dual-system Vision-Language-Action (VLA) models achieve state-of-the-art robotic manipulation but are bottlenecked by the VLM backbone, which must execute at every control step while producing temporally redundant features. We propose Latent Bridge, a lightweight model that predicts VLM output deltas between timesteps, enabling the action head to operate on predicted outputs while the expensive VLM backbone is called only periodically. We instantiate Latent Bridge on two architecturally distinct...
-
-</details>
-
----
-
-### [CoRAL: Contact-Rich Adaptive LLM-based Control for Robotic Manipulation](https://arxiv.org/abs/2605.02600v1)
-
-**Authors:** Berk Çiçek, Mert K. Er, Özgür S. Öğüz
-
-**Published:** 2026-05-04 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.02600v1) | [PDF](https://arxiv.org/pdf/2605.02600v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2605.04128v1) | [PDF](https://arxiv.org/pdf/2605.04128v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-While Large Language Models (LLMs) and Vision-Language Models (VLMs) demonstrate remarkable capabilities in high-level reasoning and semantic understanding, applying them directly to contact-rich manipulation remains a challenge due to their lack of explicit physical grounding and inability to perform adaptive control. To bridge this gap, we propose CoRAL (Contact-Rich Adaptive LLM-based control), a modular framework that enables zero-shot planning by decoupling high-level reasoning from low-lev...
+We present JoyAI-Image, a unified multimodal foundation model for visual understanding, text-to-image generation, and instruction-guided image editing. JoyAI-Image couples a spatially enhanced Multimodal Large Language Model (MLLM) with a Multimodal Diffusion Transformer (MMDiT), allowing perception and generation to interact through a shared multimodal interface. Around this architecture, we build a scalable training recipe that combines unified instruction tuning, long-text rendering supervisi...
 
 </details>
 
