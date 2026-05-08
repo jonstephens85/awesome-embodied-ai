@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-05-08 17:17 UTC
+**Last updated:** 2026-05-08 22:46 UTC
 
-**Papers found:** 9
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -145,23 +145,6 @@ The recent advancement of Vision Language Action (VLA) models has driven a criti
 <summary>Abstract</summary>
 
 Vision-language-action (VLA) models perform well on training-seen robotic tasks but struggle to generalize to unseen scenes and objects. A key limitation lies in their implicit visual representations, which entangle object appearance, background, and scene layout. This makes policies sensitive to visual variations. Prior work improves transferability through structured intermediate representations that objectify visual content. However, these representations mainly capture scene semantics instea...
-
-</details>
-
----
-
-### [Adaptive Q-Chunking for Offline-to-Online Reinforcement Learning](https://arxiv.org/abs/2605.05544v1)
-
-**Authors:** Nandiraju Gireesh, Yuanliang Ju, He Wang
-
-**Published:** 2026-05-07 | **Categories:** cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.05544v1) | [PDF](https://arxiv.org/pdf/2605.05544v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Offline-to-online reinforcement learning with action chunking eliminates multi-step off-policy bias and enables temporally coherent exploration, but all existing methods use a fixed chunk size across every state. This is suboptimal: near contact events the agent needs short chunks for reactive control, while during free-space motion long chunks provide better credit assignment. The natural solution is to train critics for several chunk sizes and select the best one at each state, but naive compa...
 
 </details>
 
