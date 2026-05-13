@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-12 22:51 UTC
+**Last updated:** 2026-05-13 18:01 UTC
 
-**Papers found:** 17
+**Papers found:** 19
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](https://arxiv.org/abs/2605.12500v1)
+
+**Authors:** Haiwen Diao, Penghao Wu, Hanming Deng, Jiahao Wang, Shihao Bai et al. (58 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12500v1) | [PDF](https://arxiv.org/pdf/2605.12500v1.pdf) | [GitHub](https://github.com/OpenSenseNova/SenseNova-U1)
+
+<details>
+<summary>Abstract</summary>
+
+Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NE...
+
+</details>
+
+---
+
+### [PriorZero: Bridging Language Priors and World Models for Decision Making](https://arxiv.org/abs/2605.12289v1)
+
+**Authors:** Junyu Xiong, Yuan Pu, Jia Tang, Yazhe Niu
+
+**Published:** 2026-05-12 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12289v1) | [PDF](https://arxiv.org/pdf/2605.12289v1.pdf) | [GitHub](https://github.com/opendilab/LightZero)
+
+<details>
+<summary>Abstract</summary>
+
+Leveraging the rich world knowledge of Large Language Models (LLMs) to enhance Reinforcement Learning (RL) agents offers a promising path toward general intelligence. However, a fundamental prior-dynamics mismatch hinders existing approaches: static LLM knowledge cannot directly adapt to the complex transition dynamics of long-horizon tasks. Using LLM priors as fixed policies limits exploration diversity, as the prior is blind to environment-specific dynamics; while end-to-end fine-tuning suffer...
+
+</details>
+
+---
+
+### [Closing the Motion Execution Gap: From Semantic Motion Task Constraints to Kinematic Control](https://arxiv.org/abs/2605.12053v1)
+
+**Authors:** Simon Stelter, Vanessa Hassouna, Malte Huerkamp, Michael Beetz
+
+**Published:** 2026-05-12 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12053v1) | [PDF](https://arxiv.org/pdf/2605.12053v1.pdf) | [GitHub](https://github.com/cram2/cognitive_robot_abstract_machine)
+
+<details>
+<summary>Abstract</summary>
+
+This paper addresses the Motion Execution Gap, the disconnect between high-level symbolic task descriptions using semantic constraints and executable robot motions. Motion Statecharts are introduced as an executable symbolic representation for complex motions. They allow the arbitrary arrangement of motion constraints, monitors or nested statecharts in parallel and sequence. World-centric motion specification and generalization across embodiments are enabled through the use of a unified differen...
+
+</details>
+
+---
 
 ### [Is Your Driving World Model an All-Around Player?](https://arxiv.org/abs/2605.10858v1)
 
@@ -80,24 +131,126 @@ Vision-Language-Action (VLA) models have emerged as a promising paradigm for end
 
 ---
 
-### [Sub-JEPA: Subspace Gaussian Regularization for Stable End-to-End World Models](https://arxiv.org/abs/2605.09241v1)
+## Other Recent Papers
 
-**Authors:** Kai Zhao, Dongliang Nie, Yuchen Lin, Zhehan Luo, Yixiao Gu et al. (7 authors)
+### [Reinforcing VLAs in Task-Agnostic World Models](https://arxiv.org/abs/2605.12334v1)
 
-**Published:** 2026-05-10 | **Categories:** cs.LG, cs.AI
+**Authors:** Yucen Wang, Rui Yu, Fengming Zhang, Junjie Lu, Xinyao Qin et al. (8 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.09241v1) | [PDF](https://arxiv.org/pdf/2605.09241v1.pdf) | [GitHub](https://github.com/intcomp/Sub-JEPA)
+**Published:** 2026-05-12 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12334v1) | [PDF](https://arxiv.org/pdf/2605.12334v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Joint-Embedding Predictive Architectures (JEPAs) provide a simpleframework for learning world models by predicting future latent representations.However, JEPA training is subject to a bias-variance tradeoff.Without sufficient structural constraints, excessive representationalvariance causes the model to collapse to trivial solutions.The recent LeWorldModel (LeWM) shows that this issue can be alleviated bysimply constraining latent embeddings with an isotropic Gaussian prior.However, latent repre...
+Post-training Vision-Language-Action (VLA) models via reinforcement learning (RL) in learned world models has emerged as an effective strategy to adapt to new tasks without costly real-world interactions. However, while using imagined trajectories reduces the sample complexity of policy training, existing methods still heavily rely on task-specific data to fine-tune both the world and reward models, fundamentally limiting their scalability to unseen tasks. To overcome this, we argue that world a...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference](https://arxiv.org/abs/2605.12255v1)
+
+**Authors:** Toru Takahashi
+
+**Published:** 2026-05-12 | **Categories:** cs.AI, cs.CY, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12255v1) | [PDF](https://arxiv.org/pdf/2605.12255v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or acting in bad faith. This paper argues that such divergence is better described as a form of non-identifiability inherent in inference and learning, rather than as a defect of the other party. We organize the phenomenon into two levels: (i) $θ$-level non-identifiability, where conclusions diverge under t...
+
+</details>
+
+---
+
+### [Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics](https://arxiv.org/abs/2605.12178v1)
+
+**Authors:** Jishnu Sethumadhavan Nair, Patrice Bechard, Rishabh Maheshwary, Surajit Dasgupta, Sravan Ramachandran et al. (17 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.AI, cs.CL, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12178v1) | [PDF](https://arxiv.org/pdf/2605.12178v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models enable agents to anticipate the effects of their actions by internalizing environment dynamics. In enterprise systems, however, these dynamics are often defined by tenant-specific business logic that varies across deployments and evolves over time, making models trained on historical transitions brittle under deployment shift. We ask a question the world-models literature has not addressed: when the rules can be read at inference time, does an agent still need to learn them? We argu...
+
+</details>
+
+---
+
+### [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090v1)
+
+**Authors:** Siyin Wang, Junhao Shi, Zhaoyang Fu, Xinzhe He, Feihong Liu et al. (14 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.RO, cs.CL, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12090v1) | [PDF](https://arxiv.org/pdf/2605.12090v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses this limitation by integrating world models, predictive models of environment dynamics, into the action generation pipeline. We term this emerging paradigm World Action Models (WAMs): embodied foundation models that unify ...
+
+</details>
+
+---
+
+### [HorizonDrive: Self-Corrective Autoregressive World Model for Long-horizon Driving Simulation](https://arxiv.org/abs/2605.11596v1)
+
+**Authors:** Conglang Zhang, Yifan Zhan, Qingjie Wang, Zhanpeng Ouyang, Yu Li et al. (13 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.11596v1) | [PDF](https://arxiv.org/pdf/2605.11596v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Closed-loop driving simulation requires real-time interaction beyond short offline clips, pushing current driving world models toward autoregressive (AR) rollout. Existing AR distillation approaches typically rely on frame sinks or student-side degradation training. The former transfers poorly to driving due to fast ego-motion and rapid scene changes, while the latter remains bounded by the teacher's single-pass output length and thus provides only a limited supervision horizon. A natural questi...
+
+</details>
+
+---
+
+### [The DAWN of World-Action Interactive Models](https://arxiv.org/abs/2605.11550v1)
+
+**Authors:** Hongbo Lu, Liang Yao, Chenghao He, Haoyu Wang, Xiang Gu et al. (9 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.11550v1) | [PDF](https://arxiv.org/pdf/2605.11550v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A plausible scene evolution depends on the maneuver being considered, while a good maneuver depends on how the scene may evolve. Existing World Action Models (WAMs) largely miss this reciprocity, treating world prediction and action generation as either isolated parallel branches or rigid predict-then-plan pipelines. We formalize this perspective as World-Action Interactive Models (WAIMs), and instantiate it in autonomous driving with \textbf{DAWN} (\textbf{D}enoising \textbf{A}ctions and \textb...
+
+</details>
+
+---
+
+### [3D-Belief: Embodied Belief Inference via Generative 3D World Modeling](https://arxiv.org/abs/2605.11367v1)
+
+**Authors:** Yifan Yin, Zehao Wen, Jieneng Chen, Zehan Zheng, Nanru Dai et al. (13 authors)
+
+**Published:** 2026-05-12 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.11367v1) | [PDF](https://arxiv.org/pdf/2605.11367v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in visual generative models have highlighted the promise of learning generative world models. However, most existing approaches frame world modeling as novel-view synthesis or future-frame prediction, emphasizing visual realism rather than the structured uncertainty required by embodied agents acting under partial observability. In this work, we propose a different perspective: world modeling as embodied belief inference in 3D space. From this view, a world model should not merel...
+
+</details>
+
+---
 
 ### [HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942v1)
 
@@ -179,125 +332,6 @@ Robotic imitation learning typically assumes access to optimal demonstrations, y
 <summary>Abstract</summary>
 
 Generative driving world models rely on compact latent state representations that must be efficiently transmitted and synchronized across distributed compute and connected vehicles. We study network-efficient streaming of a discrete world model state, where a stride-16 VQ-U-Net tokenizer (codebook size 8,192) maps each 288x512 frame to an 18x32 grid of token IDs (576 tokens/frame), equivalent to 936 bytes/frame under fixed-length coding. We consider a keyframe--delta protocol under strict per-me...
-
-</details>
-
----
-
-### [Multi-Tier Labeling and Physics-Informed Learning for Orbital Anomaly Detection at Scale](https://arxiv.org/abs/2605.09790v1)
-
-**Authors:** Yong Fu
-
-**Published:** 2026-05-10 | **Categories:** cs.DC, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09790v1) | [PDF](https://arxiv.org/pdf/2605.09790v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Detecting orbital anomalies, such as maneuvers, atmospheric decay, and attitude upsets, across the rapidly growing population of low-Earth-orbit (LEO) satellites is a prerequisite for collision avoidance, decay forecasting, and conjunction screening. The bottleneck is not modeling capacity but labels: there is no public ground-truth corpus of orbital anomalies, manual review does not scale to approximately 10^4 active satellites, and pure rule-based detectors trade recall for precision so aggres...
-
-</details>
-
----
-
-### [DriveFuture: Future-Aware Latent World Models for Autonomous Driving](https://arxiv.org/abs/2605.09701v1)
-
-**Authors:** Yufeng Hong, Xiaotian Zhou, Yingyan Li, Xiangpo Zhou, Lin Liu et al. (9 authors)
-
-**Published:** 2026-05-10 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09701v1) | [PDF](https://arxiv.org/pdf/2605.09701v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Existing latent world models for autonomous driving have opened a promising path toward future-aware driving intelligence. However, they typically treat future latent states as prediction targets or auxiliary signals, rather than directly conditioning trajectory planning. This can entangle current and future features in latent space. In this work, we propose DriveFuture, a future-aware latent world modeling framework for autonomous driving that explicitly learns planning-oriented foresight by co...
-
-</details>
-
----
-
-### [Do multimodal models imagine electric sheep?](https://arxiv.org/abs/2605.09693v1)
-
-**Authors:** Santhosh Kumar Ramakrishnan, Carl Vondrick, Raja Giryes, Philipp Krähenbühl, Vladlen Koltun
-
-**Published:** 2026-05-10 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09693v1) | [PDF](https://arxiv.org/pdf/2605.09693v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Yes. We find that large multimodal models develop mental imagery when solving spatial puzzles, and they do imagine sheep when solving sheep puzzles. We fine-tune a Qwen3.5 VLM to solve twelve diverse visual reasoning tasks -- including tangram, jigsaw, sokoban, 3D mental rotation, and rush hour -- that require understanding geometry, spatial relationships, and the consequences of actions. By supervising the model to predict the open-loop sequence of actions to solve a puzzle from an initial stat...
-
-</details>
-
----
-
-### [Absurd World: A Simple Yet Powerful Method to Absurdify the Real-world for Probing LLM Reasoning Capabilities](https://arxiv.org/abs/2605.09678v1)
-
-**Authors:** Ryan Albright, Golam Md Muktadir, Zarif Ikram, S M Jubaer, Mehrab Hossain et al. (6 authors)
-
-**Published:** 2026-05-10 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09678v1) | [PDF](https://arxiv.org/pdf/2605.09678v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-While extremely powerful and versatile at various tasks, the thinking capabilities of large language models (LLMs) are often put under scrutiny as they sometimes fail to solve problems that humans can systematically solve. However, recent literature focuses on breaking LLM reasoning with increasingly complex problems, and whether an LLM is robust in simple logical reasoning remains underexplored. This paper proposes Absurd World, a benchmarking framework, to test LLMs against altered realism, wh...
-
-</details>
-
----
-
-### [Workspace Optimization: How to Train Your Agent](https://arxiv.org/abs/2605.09650v1)
-
-**Authors:** Elad Sarafian, Gal Kaplun, Ron Banner, Daniel Soudry, Boris Ginsburg
-
-**Published:** 2026-05-10 | **Categories:** cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09650v1) | [PDF](https://arxiv.org/pdf/2605.09650v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Modern agents built on frontier language models often cannot adapt their weights. What, then, remains trainable? We argue it is the agent's \emph{workspace}, the structured external substrate it reads, writes, and tests; we call its evolution workspace optimization. Workspace optimization targets hard multi-turn environments where a frontier model has strong priors but cannot solve the task in a single shot, so the agent must learn through interaction. We propose a principled way to evolve the w...
-
-</details>
-
----
-
-### [DeformMaster: An Interactive Physics-Neural World Model for Deformable Objects from Videos](https://arxiv.org/abs/2605.09586v1)
-
-**Authors:** Can Li, Zhoujian Li, Ren Li, Jie Gu, Lei Lei et al. (7 authors)
-
-**Published:** 2026-05-10 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09586v1) | [PDF](https://arxiv.org/pdf/2605.09586v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models for deformable objects should recover not only geometry and appearance, but also underlying physical dynamics, interaction grounding, and material behavior. Learning such a model from real videos is challenging because deformable linear, planar, and volumetric objects evolve under high-dimensional deformation, noisy interactions, and complex material response. The model must therefore infer a physical state from visual observations, roll it forward under new interactions, and render...
-
-</details>
-
----
-
-### [FLAME: Adaptive Mixture-of-Experts for Continual Multimodal Multi-Task Learning](https://arxiv.org/abs/2605.09355v1)
-
-**Authors:** Xing Han, Shravan Chaudhari, Tanvi Ranade, Rama Chellappa, Suchi Saria
-
-**Published:** 2026-05-10 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09355v1) | [PDF](https://arxiv.org/pdf/2605.09355v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Real-world model deployment across multiple domains requires multimodal models to operate under two complementary regimes: (1) multi-task pretraining, tasks are co-available at design time where related tasks could borrow representational strength from one another, (2) continual adaptation, in which new tasks emerge after deployment with previously unseen modality combinations. However, neither regime alone suffices: the pretraining task set is never exhaustive, while bypassing joint training fo...
 
 </details>
 
