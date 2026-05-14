@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-13 22:56 UTC
+**Last updated:** 2026-05-14 17:49 UTC
 
-**Papers found:** 19
+**Papers found:** 14
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Learning POMDP World Models from Observations with Language-Model Priors](https://arxiv.org/abs/2605.13740v1)
+
+**Authors:** Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma et al. (10 authors)
+
+**Published:** 2026-05-13 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.13740v1) | [PDF](https://arxiv.org/pdf/2605.13740v1.pdf) | [GitHub](https://github.com/atomresearch/pinductor)
+
+<details>
+<summary>Abstract</summary>
+
+Whether navigating a building, operating a robot, or playing a game, an agent that acts effectively in an environment must first learn an internal model of how that environment works. Partially-observable Markov decision processes (POMDPs) provide a flexible modeling class for such internal world models, but learning them from observation-action trajectories alone is challenging and typically requires extensive environment interaction. We ask whether language-model priors can reduce costly inter...
+
+</details>
+
+---
 
 ### [SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](https://arxiv.org/abs/2605.12500v1)
 
@@ -63,75 +80,58 @@ This paper addresses the Motion Execution Gap, the disconnect between high-level
 
 ---
 
-### [Is Your Driving World Model an All-Around Player?](https://arxiv.org/abs/2605.10858v1)
-
-**Authors:** Lingdong Kong, Ao Liang, Tianyi Yan, Hongsi Liu, Wesley Yang et al. (23 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10858v1) | [PDF](https://arxiv.org/pdf/2605.10858v1.pdf) | [Project Page](at) | [GitHub](https://github.com/worldbench/WorldLens)
-
-<details>
-<summary>Abstract</summary>
-
-Today's driving world models can generate remarkably realistic dash-cam videos, yet no single model excels universally. Some generate photorealistic textures but violate basic physics; others maintain geometric consistency but fail when subjected to closed-loop planning. This disconnect exposes a critical gap: the field evaluates how real generated worlds appear, but rarely whether they behave realistically. We introduce WorldLens, a unified benchmark that measures world-model fidelity across th...
-
-</details>
-
----
-
-### [PhyGround: Benchmarking Physical Reasoning in Generative World Models](https://arxiv.org/abs/2605.10806v1)
-
-**Authors:** Juyi Lin, Arash Akbari, Yumei He, Lin Zhao, Haichao Zhang et al. (16 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10806v1) | [PDF](https://arxiv.org/pdf/2605.10806v1.pdf) | [Project Page](https://phyground.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Generative world models are increasingly used for video generation, where learned simulators are expected to capture the physical rules that govern real-world dynamics. However, evaluating whether generated videos actually follow these rules remains challenging. Existing physics-focused video benchmarks have made important progress, but they still face three key challenges, including the coarse evaluation frameworks that hide law-specific failures, response biases and fatigue that undermine the ...
-
-</details>
-
----
-
-### [DeepSight: Long-Horizon World Modeling via Latent States Prediction for End-to-End Autonomous Driving](https://arxiv.org/abs/2605.10564v1)
-
-**Authors:** Lingjun Zhang, Changjie Wu, Linzhe Shi, Jiangyang Li, Jiaxin Liu et al. (9 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10564v1) | [PDF](https://arxiv.org/pdf/2605.10564v1.pdf) | [GitHub](https://github.com/hotdogcheesewhite/DeepSight)
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving systems are increasingly integrating Vision-Language Model (VLM) architectures, incorporating text reasoning or visual reasoning to enhance the robustness and accuracy of driving decisions. However, the reasoning mechanisms employed in most methods are direct adaptations from general domains, lacking in-depth exploration tailored to autonomous driving scenarios, particularly within visual reasoning modules. In this paper, we propose a driving world model that perfor...
-
-</details>
-
----
-
-### [CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving](https://arxiv.org/abs/2605.10426v1)
-
-**Authors:** Minqing Huang, Yujiao Xiang, Zihan Liang, Jiajie Huang, Jingqi Wang et al. (10 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10426v1) | [PDF](https://arxiv.org/pdf/2605.10426v1.pdf) | [GitHub](https://github.com/potatochip1211/CoWorld-VLA)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have emerged as a promising paradigm for end-to-end autonomous driving. However, existing reasoning mechanisms still struggle to provide planning-oriented intermediate representations: textual Chain-of-Thought (CoT) fails to preserve continuous spatiotemporal structure, while latent world reasoning remains difficult to use as a direct condition for action generation. In this paper, we propose CoWorld-VLA, a multi-expert world reasoning framework for autonomous...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning](https://arxiv.org/abs/2605.13013v1)
+
+**Authors:** Jing Yu Lim, Rushi Shah, Zarif Ikram, Samson Yu, Haozhe Ma et al. (7 authors)
+
+**Published:** 2026-05-13 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.13013v1) | [PDF](https://arxiv.org/pdf/2605.13013v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Diffusion world models have recently become competitive for online model-based reinforcement learning, but current approaches expose a tension: pixel diffusion is effective but computationally expensive while the latest latent diffusion approach improves efficiency yet performs subpar. The latter also relies on separately trained latents rather than the end-to-end world-model objectives that have driven much of modern MBRL progress. In particular, JEPA-style predictive representation learning ha...
+
+</details>
+
+---
+
+### [Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue](https://arxiv.org/abs/2605.12920v1)
+
+**Authors:** Vardhan Dongre, Dilek Hakkani-Tür
+
+**Published:** 2026-05-13 | **Categories:** cs.MA, cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12920v1) | [PDF](https://arxiv.org/pdf/2605.12920v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Effective collaboration between embodied agents requires more than acting in a shared environment; it demands communication grounded in each agent's evolving understanding of the world. When agents can only partially observe their surroundings, coordination without communication is provably hard, but communication can, in principle, bridge this gap by allowing agents to share observations and align their world models. In this work, we examine whether LLM-based embodied agents actually realize th...
+
+</details>
+
+---
+
+### [PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models](https://arxiv.org/abs/2605.12835v1)
+
+**Authors:** Sridhar Mahadevan
+
+**Published:** 2026-05-13 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.12835v1) | [PDF](https://arxiv.org/pdf/2605.12835v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Large language models can extract local causal claims from text, but those claims become more useful when organized as persistent, navigable world models rather than as flat summaries. We introduce PROMETHEUS, a framework that turns retrieved literature, filings, reviews, reports, agent traces, source data, code, simulations, and scientific models into causal atlases: sheaf-like families of local causal predictive-state models over an explicit cover of a research substrate. Each local region con...
+
+</details>
+
+---
 
 ### [Reinforcing VLAs in Task-Agnostic World Models](https://arxiv.org/abs/2605.12334v1)
 
@@ -247,91 +247,6 @@ A plausible scene evolution depends on the maneuver being considered, while a go
 <summary>Abstract</summary>
 
 Recent advances in visual generative models have highlighted the promise of learning generative world models. However, most existing approaches frame world modeling as novel-view synthesis or future-frame prediction, emphasizing visual realism rather than the structured uncertainty required by embodied agents acting under partial observability. In this work, we propose a different perspective: world modeling as embodied belief inference in 3D space. From this view, a world model should not merel...
-
-</details>
-
----
-
-### [HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942v1)
-
-**Authors:** Qiuxuan Feng, Jiale Yu, Jiaming Liu, Yueru Jia, Zhuangzhe Wu et al. (11 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10942v1) | [PDF](https://arxiv.org/pdf/2605.10942v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the "Imagine-then-Execute" approach, which uses video prediction to infer actions via inverse dynamics, and the "Joint Modeling" approach, which jointly models actions and video representations. Based on systematic experiments, we observe a fundamental trade-off between these paradigms: the former explicitly leverages world models for gener...
-
-</details>
-
----
-
-### [Position: Life-Logging Video Streams Make the Privacy-Utility Trade-off Inevitable](https://arxiv.org/abs/2605.10404v1)
-
-**Authors:** Tianyuan Zou, Liang Yue, Yang Liu, Ya-Qin Zhang, Sijie Cheng
-
-**Published:** 2026-05-11 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10404v1) | [PDF](https://arxiv.org/pdf/2605.10404v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-With the growing prevalence of always-on hardware such as smart glasses, body cameras, and home security systems, life-logging visual sensing is becoming inevitable, forming the backbone of persistent, always-on AI systems. Meanwhile, recent advances in proactive agents and world models signal a fundamental shift from episodic, prompt-driven tools to next-generation AI systems that continuously perceive and react to the physical world. Although life-logging video streams can substantially improv...
-
-</details>
-
----
-
-### [How Mobile World Model Guides GUI Agents?](https://arxiv.org/abs/2605.10347v1)
-
-**Authors:** Weikai Xu, Kun Huang, Yunren Feng, Jiaxing Li, Yuhan Chen et al. (13 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10347v1) | [PDF](https://arxiv.org/pdf/2605.10347v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in vision-language models have enabled mobile GUI agents to perceive visual interfaces and execute user instructions, but reliable prediction of action consequences remains critical for long-horizon and high-risk interactions. Existing mobile world models provide either text-based or image-based future states, yet it remains unclear which representation is useful, whether generated rollouts can replace real environments, and how test-time guidance helps agents of different streng...
-
-</details>
-
----
-
-### [Data-Asymmetric Latent Imagination and Reranking for 3D Robotic Imitation Learning](https://arxiv.org/abs/2605.10166v1)
-
-**Authors:** Lianghao Luo, Xizhou Bu, Ruyan Liu, Qingqiu Huang, Chufeng Tang et al. (8 authors)
-
-**Published:** 2026-05-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.10166v1) | [PDF](https://arxiv.org/pdf/2605.10166v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic imitation learning typically assumes access to optimal demonstrations, yet real-world data collection often yields suboptimal, exploratory, or even failed trajectories. Discarding such data wastes valuable information about environment dynamics and failure modes, which can instead be leveraged to improve decision-making. While 3D policies reduce reliance on high-quality demonstrations through strong spatial generalization, they still require large-scale data to achieve high task success....
-
-</details>
-
----
-
-### [Network-Efficient World Model Token Streaming](https://arxiv.org/abs/2605.09886v1)
-
-**Authors:** Shatadal Mishra, Ahmadreza Moradipari, Nejib Ammar
-
-**Published:** 2026-05-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.09886v1) | [PDF](https://arxiv.org/pdf/2605.09886v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Generative driving world models rely on compact latent state representations that must be efficiently transmitted and synchronized across distributed compute and connected vehicles. We study network-efficient streaming of a discrete world model state, where a stride-16 VQ-U-Net tokenizer (codebook size 8,192) maps each 288x512 frame to an 18x32 grid of token IDs (576 tokens/frame), equivalent to 936 bytes/frame under fixed-length coding. We consider a keyframe--delta protocol under strict per-me...
 
 </details>
 
