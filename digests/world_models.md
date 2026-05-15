@@ -2,15 +2,83 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-14 22:48 UTC
+**Last updated:** 2026-05-15 17:26 UTC
 
-**Papers found:** 14
+**Papers found:** 15
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Quantitative Video World Model Evaluation for Geometric-Consistency](https://arxiv.org/abs/2605.15185v1)
+
+**Authors:** Jiaxin Wu, Yihao Pi, Yinling Zhang, Yuheng Li, Xueyan Zou
+
+**Published:** 2026-05-14 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.15185v1) | [PDF](https://arxiv.org/pdf/2605.15185v1.pdf) | [Project Page](https://pdi-bench.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on human judgment or learned graders, which can be subjective and weakly diagnostic for geometric failures. We introduce PDI-Bench (Perspective Distortion Index), a quantitative framework for auditing geometric coherence in generated videos. Given a generated clip, we ...
+
+</details>
+
+---
+
+### [SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer](https://arxiv.org/abs/2605.15178v1)
+
+**Authors:** Haoyi Zhu, Haozhe Liu, Yuyang Zhao, Tian Ye, Junsong Chen et al. (9 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.15178v1) | [PDF](https://arxiv.org/pdf/2605.15178v1.pdf) | [Project Page](https://nvlabs.github.io/Sana/WM/)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with precise camera control. SANA-WM achieves visual quality comparable to large-scale industrial baselines such as LingBot-World and HY-WorldPlay, while significantly improving efficiency. Four core designs drive our architecture: (1) Hybrid Linear Attention combines frame-wise Gated DeltaNet (GDN) with softmax attention for ...
+
+</details>
+
+---
+
+### [Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation](https://arxiv.org/abs/2605.15141v1)
+
+**Authors:** Min Zhao, Hongzhou Zhu, Kaiwen Zheng, Zihan Zhou, Bokai Yan et al. (9 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.15141v1) | [PDF](https://arxiv.org/pdf/2605.15141v1.pdf) | [GitHub](https://github.com/thu-ml/Causal-Forcing)
+
+<details>
+<summary>Abstract</summary>
+
+Real-time interactive video generation requires low-latency, streaming, and controllable rollout. Existing autoregressive (AR) diffusion distillation methods have achieved strong results in the chunk-wise 4-step regime by distilling bidirectional base models into few-step AR students, but they remain limited by coarse response granularity and non-negligible sampling latency. In this paper, we study a more aggressive setting: frame-wise autoregression with only 1--2 sampling steps. In this regime...
+
+</details>
+
+---
+
+### [IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification](https://arxiv.org/abs/2605.14851v1)
+
+**Authors:** Zhigao Huang, Zhengqing Hu, Dong Chen, Shaohan Zhang, Zhao Jin et al. (8 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.MA, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14851v1) | [PDF](https://arxiv.org/pdf/2605.14851v1.pdf) | [GitHub](https://github.com/zhigao3ks/IFPV)
+
+<details>
+<summary>Abstract</summary>
+
+Operational plan generation and verification are critical for modern complex and rapidly changing battlefield environments, yet traditional generation and verification methods still respectively face the challenges of generation infeasibility and verification insufficiency. To alleviate these limitations, we propose an Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification (IFPV). IFPV consists of two tightly coupled modules: Multi-Perspective Hi...
+
+</details>
+
+---
 
 ### [Learning POMDP World Models from Observations with Language-Model Priors](https://arxiv.org/abs/2605.13740v1)
 
@@ -29,58 +97,126 @@ Whether navigating a building, operating a robot, or playing a game, an agent th
 
 ---
 
-### [SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](https://arxiv.org/abs/2605.12500v1)
-
-**Authors:** Haiwen Diao, Penghao Wu, Hanming Deng, Jiahao Wang, Shihao Bai et al. (58 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12500v1) | [PDF](https://arxiv.org/pdf/2605.12500v1.pdf) | [GitHub](https://github.com/OpenSenseNova/SenseNova-U1)
-
-<details>
-<summary>Abstract</summary>
-
-Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NE...
-
-</details>
-
----
-
-### [PriorZero: Bridging Language Priors and World Models for Decision Making](https://arxiv.org/abs/2605.12289v1)
-
-**Authors:** Junyu Xiong, Yuan Pu, Jia Tang, Yazhe Niu
-
-**Published:** 2026-05-12 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12289v1) | [PDF](https://arxiv.org/pdf/2605.12289v1.pdf) | [GitHub](https://github.com/opendilab/LightZero)
-
-<details>
-<summary>Abstract</summary>
-
-Leveraging the rich world knowledge of Large Language Models (LLMs) to enhance Reinforcement Learning (RL) agents offers a promising path toward general intelligence. However, a fundamental prior-dynamics mismatch hinders existing approaches: static LLM knowledge cannot directly adapt to the complex transition dynamics of long-horizon tasks. Using LLM priors as fixed policies limits exploration diversity, as the prior is blind to environment-specific dynamics; while end-to-end fine-tuning suffer...
-
-</details>
-
----
-
-### [Closing the Motion Execution Gap: From Semantic Motion Task Constraints to Kinematic Control](https://arxiv.org/abs/2605.12053v1)
-
-**Authors:** Simon Stelter, Vanessa Hassouna, Malte Huerkamp, Michael Beetz
-
-**Published:** 2026-05-12 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12053v1) | [PDF](https://arxiv.org/pdf/2605.12053v1.pdf) | [GitHub](https://github.com/cram2/cognitive_robot_abstract_machine)
-
-<details>
-<summary>Abstract</summary>
-
-This paper addresses the Motion Execution Gap, the disconnect between high-level symbolic task descriptions using semantic constraints and executable robot motions. Motion Statecharts are introduced as an executable symbolic representation for complex motions. They allow the arbitrary arrangement of motion constraints, monitors or nested statecharts in parallel and sequence. World-centric motion specification and generalization across embodiments are enabled through the use of a unified differen...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Slot-MPC: Goal-Conditioned Model Predictive Control with Object-Centric Representations](https://arxiv.org/abs/2605.14937v1)
+
+**Authors:** Jonathan Spieler, Angel Villar-Corrales, Sven Behnke
+
+**Published:** 2026-05-14 | **Categories:** cs.LG, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14937v1) | [PDF](https://arxiv.org/pdf/2605.14937v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Predictive world models enable agents to model scene dynamics and reason about the consequences of their actions. Inspired by human perception, object-centric world models capture scene dynamics using object-level representations, which can be used for downstream applications such as action planning. However, most object-centric world models and reinforcement learning (RL) approaches learn reactive policies that are fixed at inference time, limiting generalization to novel situations. We propose...
+
+</details>
+
+---
+
+### [Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model](https://arxiv.org/abs/2605.14723v1)
+
+**Authors:** Minghao Wu, Yuting Yan, Zhenyang Cai, Ke Ji, Chuangsen Fang et al. (12 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.AI, cs.CL, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14723v1) | [PDF](https://arxiv.org/pdf/2605.14723v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Sepsis management in the ICU requires sequential treatment decisions under rapidly evolving patient physiology. Although large language models (LLMs) encode broad clinical knowledge and can reason over guidelines, they are not inherently grounded in action-conditioned patient dynamics. We introduce SepsisAgent, a world model-augmented LLM agent for sepsis treatment recommendation. SepsisAgent uses a learned Clinical World Model to simulate patient responses under candidate fluid--vasopressor int...
+
+</details>
+
+---
+
+### [EponaV2: Driving World Model with Comprehensive Future Reasoning](https://arxiv.org/abs/2605.14696v1)
+
+**Authors:** Jiawei Xu, Zhizhou Zhong, Zhijian Shu, Mingkai Jia, Mingxiao Li et al. (11 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14696v1) | [PDF](https://arxiv.org/pdf/2605.14696v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Data scaling plays a pivotal role in the pursuit of general intelligence. However, the prevailing perception-planning paradigm in autonomous driving relies heavily on expensive manual annotations to supervise trajectory planning, which severely limits its scalability. Conversely, although existing perception-free driving world models achieve impressive driving performance, their real-world reasoning ability for planning is solely built on next frame image forecasting. Due to the lack of enough s...
+
+</details>
+
+---
+
+### [When Robots Do the Chores: A Benchmark and Agent for Long-Horizon Household Task Execution](https://arxiv.org/abs/2605.14504v1)
+
+**Authors:** Zilin Zhu, Longteng Guo, Yanghong Mei, Bowen Pang, Zongxun Zhang et al. (8 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14504v1) | [PDF](https://arxiv.org/pdf/2605.14504v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon household tasks demand robust high-level planning and sustained reasoning capabilities, which are largely overlooked by existing embodied AI benchmarks that emphasize short-horizon navigation or manipulation and rely on fixed task categories. We introduce LongAct, a benchmark designed to evaluate planning-level autonomy in long-horizon household tasks specified through free-form instructions. By abstracting away embodiment-specific low-level control, LongAct isolates high-level cogn...
+
+</details>
+
+---
+
+### [Coding Agent Is Good As World Simulator](https://arxiv.org/abs/2605.14398v1)
+
+**Authors:** Hongyu Wang, Jingquan Wang, Bocheng Zou, Radu Serban, Dan Negrut
+
+**Published:** 2026-05-14 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14398v1) | [PDF](https://arxiv.org/pdf/2605.14398v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models have emerged as a powerful paradigm for building interactive simulation environments, with recent video-based approaches demonstrating impressive progress in generating visually plausible dynamics. However, because these models typically infer dynamics from video and represent them in latent states, they do not explicitly enforce physical constraints. As a result, the generated video rollouts are not physically plausible, exhibiting unstable contacts, distorted shapes, or inconsiste...
+
+</details>
+
+---
+
+### [Delta Forcing: Trust Region Steering for Interactive Autoregressive Video Generation](https://arxiv.org/abs/2605.14382v1)
+
+**Authors:** Yuheng Wu, Xiangbo Gao, Tianhao Chen, Xinghao Chen, Qing Yin et al. (7 authors)
+
+**Published:** 2026-05-14 | **Categories:** cs.CV, cs.GR, cs.MM
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14382v1) | [PDF](https://arxiv.org/pdf/2605.14382v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive real-time autoregressive video generation is essential for applications such as content creation and world modeling, where visual content must adapt to dynamically evolving event conditions. A fundamental challenge lies in balancing reactivity and stability: models must respond promptly to new events while maintaining temporal coherence over long horizons. Existing approaches distill bidirectional models into autoregressive generators and further adapt them via streaming long tuning,...
+
+</details>
+
+---
+
+### [Enhanced and Efficient Reasoning in Large Learning Models](https://arxiv.org/abs/2605.14036v1)
+
+**Authors:** Leslie G. Valiant
+
+**Published:** 2026-05-13 | **Categories:** cs.AI, cs.CC, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.14036v1) | [PDF](https://arxiv.org/pdf/2605.14036v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In current Large Language Models we can trust the production of smoothly flowing prose on the basis of the principles of machine learning. However, there is no comparably principled basis to justify trust in the content of the text produced. It appears to be conventional wisdom that addressing this issue by adding more principled reasoning is not computationally affordable. Here we propose a principled method of reasoning that is efficient enough to be practical for large language models. Furthe...
+
+</details>
+
+---
 
 ### [JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning](https://arxiv.org/abs/2605.13013v1)
 
@@ -128,125 +264,6 @@ Effective collaboration between embodied agents requires more than acting in a s
 <summary>Abstract</summary>
 
 Large language models can extract local causal claims from text, but those claims become more useful when organized as persistent, navigable world models rather than as flat summaries. We introduce PROMETHEUS, a framework that turns retrieved literature, filings, reviews, reports, agent traces, source data, code, simulations, and scientific models into causal atlases: sheaf-like families of local causal predictive-state models over an explicit cover of a research substrate. Each local region con...
-
-</details>
-
----
-
-### [Reinforcing VLAs in Task-Agnostic World Models](https://arxiv.org/abs/2605.12334v1)
-
-**Authors:** Yucen Wang, Rui Yu, Fengming Zhang, Junjie Lu, Xinyao Qin et al. (8 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12334v1) | [PDF](https://arxiv.org/pdf/2605.12334v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Post-training Vision-Language-Action (VLA) models via reinforcement learning (RL) in learned world models has emerged as an effective strategy to adapt to new tasks without costly real-world interactions. However, while using imagined trajectories reduces the sample complexity of policy training, existing methods still heavily rely on task-specific data to fine-tune both the world and reward models, fundamentally limiting their scalability to unseen tasks. To overcome this, we argue that world a...
-
-</details>
-
----
-
-### [Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference](https://arxiv.org/abs/2605.12255v1)
-
-**Authors:** Toru Takahashi
-
-**Published:** 2026-05-12 | **Categories:** cs.AI, cs.CY, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12255v1) | [PDF](https://arxiv.org/pdf/2605.12255v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or acting in bad faith. This paper argues that such divergence is better described as a form of non-identifiability inherent in inference and learning, rather than as a defect of the other party. We organize the phenomenon into two levels: (i) $θ$-level non-identifiability, where conclusions diverge under t...
-
-</details>
-
----
-
-### [Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics](https://arxiv.org/abs/2605.12178v1)
-
-**Authors:** Jishnu Sethumadhavan Nair, Patrice Bechard, Rishabh Maheshwary, Surajit Dasgupta, Sravan Ramachandran et al. (17 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.AI, cs.CL, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12178v1) | [PDF](https://arxiv.org/pdf/2605.12178v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models enable agents to anticipate the effects of their actions by internalizing environment dynamics. In enterprise systems, however, these dynamics are often defined by tenant-specific business logic that varies across deployments and evolves over time, making models trained on historical transitions brittle under deployment shift. We ask a question the world-models literature has not addressed: when the rules can be read at inference time, does an agent still need to learn them? We argu...
-
-</details>
-
----
-
-### [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090v1)
-
-**Authors:** Siyin Wang, Junhao Shi, Zhaoyang Fu, Xinzhe He, Feihong Liu et al. (14 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.RO, cs.CL, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.12090v1) | [PDF](https://arxiv.org/pdf/2605.12090v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have achieved strong semantic generalization for embodied policy learning, yet they learn reactive observation-to-action mappings without explicitly modeling how the physical world evolves under intervention. A growing body of work addresses this limitation by integrating world models, predictive models of environment dynamics, into the action generation pipeline. We term this emerging paradigm World Action Models (WAMs): embodied foundation models that unify ...
-
-</details>
-
----
-
-### [HorizonDrive: Self-Corrective Autoregressive World Model for Long-horizon Driving Simulation](https://arxiv.org/abs/2605.11596v1)
-
-**Authors:** Conglang Zhang, Yifan Zhan, Qingjie Wang, Zhanpeng Ouyang, Yu Li et al. (13 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.11596v1) | [PDF](https://arxiv.org/pdf/2605.11596v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Closed-loop driving simulation requires real-time interaction beyond short offline clips, pushing current driving world models toward autoregressive (AR) rollout. Existing AR distillation approaches typically rely on frame sinks or student-side degradation training. The former transfers poorly to driving due to fast ego-motion and rapid scene changes, while the latter remains bounded by the teacher's single-pass output length and thus provides only a limited supervision horizon. A natural questi...
-
-</details>
-
----
-
-### [The DAWN of World-Action Interactive Models](https://arxiv.org/abs/2605.11550v1)
-
-**Authors:** Hongbo Lu, Liang Yao, Chenghao He, Haoyu Wang, Xiang Gu et al. (9 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.11550v1) | [PDF](https://arxiv.org/pdf/2605.11550v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A plausible scene evolution depends on the maneuver being considered, while a good maneuver depends on how the scene may evolve. Existing World Action Models (WAMs) largely miss this reciprocity, treating world prediction and action generation as either isolated parallel branches or rigid predict-then-plan pipelines. We formalize this perspective as World-Action Interactive Models (WAIMs), and instantiate it in autonomous driving with \textbf{DAWN} (\textbf{D}enoising \textbf{A}ctions and \textb...
-
-</details>
-
----
-
-### [3D-Belief: Embodied Belief Inference via Generative 3D World Modeling](https://arxiv.org/abs/2605.11367v1)
-
-**Authors:** Yifan Yin, Zehao Wen, Jieneng Chen, Zehan Zheng, Nanru Dai et al. (13 authors)
-
-**Published:** 2026-05-12 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.11367v1) | [PDF](https://arxiv.org/pdf/2605.11367v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in visual generative models have highlighted the promise of learning generative world models. However, most existing approaches frame world modeling as novel-view synthesis or future-frame prediction, emphasizing visual realism rather than the structured uncertainty required by embodied agents acting under partial observability. In this work, we propose a different perspective: world modeling as embodied belief inference in 3D space. From this view, a world model should not merel...
 
 </details>
 
