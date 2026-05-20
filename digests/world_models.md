@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-19 22:56 UTC
+**Last updated:** 2026-05-20 18:16 UTC
 
-**Papers found:** 16
+**Papers found:** 18
 
 [Back to Home](../README.md)
 
@@ -12,13 +12,30 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis](https://arxiv.org/abs/2605.17916v1)
+### [RoHIL: Robust Human-in-the-Loop Robotic Reinforcement Learning Against Illumination Variations](https://arxiv.org/abs/2605.19924v1)
+
+**Authors:** Shuoqin Zhang, Yixin Xiong, Xiru Gao, Kai Liu, Ke Wang et al. (7 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19924v1) | [PDF](https://arxiv.org/pdf/2605.19924v1.pdf) | [Project Page](https://anonymous4365.github.io/RoHIL/)
+
+<details>
+<summary>Abstract</summary>
+
+Human-in-the-loop reinforcement learning systems achieve near-perfect success on the workstation where they are trained, but collapse when the same robot is moved to a workstation a few meters away due to shifts in the visual input distribution caused by new lamp positions and window light. Re-collecting demonstrations and re-running HIL on every workstation is incompatible with deployment, and naively fine-tuning on shifted-light data triggers catastrophic forgetting of the source workstation. ...
+
+</details>
+
+---
+
+### [PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis](https://arxiv.org/abs/2605.17916v2)
 
 **Authors:** Jinrang Jia, Zhenjia Li, Yijiang Hu, Yifeng Shi
 
 **Published:** 2026-05-18 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.17916v1) | [PDF](https://arxiv.org/pdf/2605.17916v1.pdf) | [Project Page](https://jjrcn.github.io/PanoWorld-project-home/)
+**Links:** [arXiv](https://arxiv.org/abs/2605.17916v2) | [PDF](https://arxiv.org/pdf/2605.17916v2.pdf) | [Project Page](https://jjrcn.github.io/PanoWorld-project-home/)
 
 <details>
 <summary>Abstract</summary>
@@ -29,24 +46,126 @@ Generating a consistent whole-house VR tour from a floorplan and style reference
 
 ---
 
-### [Self-supervised Hierarchical Visual Reasoning with World Model](https://arxiv.org/abs/2605.17537v1)
+## Other Recent Papers
 
-**Authors:** Yuanfei Xu, Lin Liu, Wengang Zhou, Mingxiao Feng, Houqiang Li
+### [World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks](https://arxiv.org/abs/2605.19957v1)
 
-**Published:** 2026-05-17 | **Categories:** cs.AI
+**Authors:** Zuyao Lin, Jianhui Zhang, Peidong Jia, Xiaoguang Zhao, Shanghang Zhang et al. (6 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.17537v1) | [PDF](https://arxiv.org/pdf/2605.17537v1.pdf) | [GitHub](https://github.com/XuYuanFei01/ResDreamer})
+**Published:** 2026-05-19 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19957v1) | [PDF](https://arxiv.org/pdf/2605.19957v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-3D open-world environments with adversarial opponents remain a core challenge for reinforcement learning due to their vast state spaces. Effective reasoning representations are essential in such settings. While existing self-supervised visual foresight reasoning approaches often suffer from multi-step error accumulation, many recent studies resort to injecting domain-specific knowledge for more stable guidance. Our key insight is that the photorealistic fidelity of visual reasoning representatio...
+World models are widely explored in embodied intelligence, yet they typically predict distinct evolutions of the world and the ego within a single stream, where the world captures persistent instruction-agnostic scene regularities and the ego captures robot-centric instruction-conditioned dynamics. This world-ego entanglement leads to a degradation in long-horizon embodied scenarios, particularly in hybrid tasks with interleaved navigation and manipulation behaviors. In this paper, we introduce ...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [AffectVerse: Emotional World Models for Multimodal Affective Computing](https://arxiv.org/abs/2605.19950v1)
+
+**Authors:** Bo Zhao, Fanghua Ye, Yixin Ji, Sicheng Zhao, Xiaojiang Peng et al. (6 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19950v1) | [PDF](https://arxiv.org/pdf/2605.19950v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Humans infer emotions by integrating observed multimodal cues with expectations about how affective states may unfold. Existing multimodal large language models (MLLMs), however, often treat emotion recognition as static fusion over complete audiovisual-text inputs, leaving affective dynamics implicit. We propose AffectVerse, a Qwen2.5-Omni-based model equipped with an Emotion World Module (EWM), an action-free representation-level module for short-horizon latent affective prediction. \rev{EWM c...
+
+</details>
+
+---
+
+### [HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models](https://arxiv.org/abs/2605.19631v1)
+
+**Authors:** Hoonhee Cho, Giwon Lee, Jae-Young Kang, Hyemin Yang, Heejun Park et al. (6 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19631v1) | [PDF](https://arxiv.org/pdf/2605.19631v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+End-to-end autonomous driving has emerged as a compelling alternative to traditional modular pipelines by directly mapping raw sensor data to driving actions. While recent approaches achieve strong performance on single-domain datasets, their performance degrades significantly when trained jointly across multiple heterogeneous domains. In practice, however, autonomous systems must operate across diverse environments with heterogeneous distributions, including different cities, sensor configurati...
+
+</details>
+
+---
+
+### [FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model](https://arxiv.org/abs/2605.19600v1)
+
+**Authors:** Jinhan Li, Xijie Huang, Zhaoqi Wang, Yijin Wang, Weiqi Ge et al. (10 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19600v1) | [PDF](https://arxiv.org/pdf/2605.19600v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In the field of Vision-Language Navigation (VLN), aerial datasets remain limited in their ability to combine scale, diversity, and realism, often relying on either costly real-world scenes or visually limited simulations. To address these challenges, we introduce FlyMirage, a highly scalable and fully automated data generation pipeline for aerial VLN. Our approach leverages large language models (LLM) as an environment designer to promote scene diversity, paired with a generative world model tha...
+
+</details>
+
+---
+
+### [HalluWorld: A Controlled Benchmark for Hallucination via Reference World Models](https://arxiv.org/abs/2605.19341v1)
+
+**Authors:** Emmy Liu, Varun Gangal, Michael Yu, Zhuofu Tao, Karan Singh et al. (7 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.CL, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19341v1) | [PDF](https://arxiv.org/pdf/2605.19341v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Hallucination remains a central failure mode of large language models, but existing benchmarks operationalize it inconsistently across summarization, question answering, retrieval-augmented generation, and agentic interaction. This fragmentation makes it unclear whether a mitigation that works in one setting reduces hallucinations across contexts. Current benchmarks either require human annotation and fixed references that may be memorized, or rely on observations in settings that are difficult ...
+
+</details>
+
+---
+
+### [SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution](https://arxiv.org/abs/2605.19319v1)
+
+**Authors:** Yiren Song, Yihan Wang, Xiyao Deng, Zhuoran Yan, Mike Zheng Shou
+
+**Published:** 2026-05-19 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19319v1) | [PDF](https://arxiv.org/pdf/2605.19319v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Visual prediction has emerged as a promising paradigm for embodied control, where future observations are generated and then translated into actions. However, dense video generation is computationally expensive and often unnecessary for many manipulation tasks, whose progress can be summarized by a small number of task-relevant visual states. In this work, we study whether image editing models can serve as sparse visual world models for robot manipulation by predicting task-level future states w...
+
+</details>
+
+---
+
+### [PhyWorld: Physics-Faithful World Model for Video Generation](https://arxiv.org/abs/2605.19242v1)
+
+**Authors:** Pu Zhao, Juyi Lin, Timothy Rupprecht, Arash Akbari, Chence Yang et al. (13 authors)
+
+**Published:** 2026-05-19 | **Categories:** cs.CV, cs.AI, cs.ET
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.19242v1) | [PDF](https://arxiv.org/pdf/2605.19242v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World simulators can provide safe and scalable environments for training Physical AI systems before real-world deployment. Large video generation models are emerging as a promising basis for such simulators because they can generate diverse and realistic visual futures. However, using them as world simulators requires physically faithful video continuations, namely, generated videos that preserve the physical state implied by the conditioning input, and evolve in ways consistent with basic physi...
+
+</details>
+
+---
 
 ### [Actionable World Representation](https://arxiv.org/abs/2605.18743v1)
 
@@ -150,13 +269,13 @@ Generalizable agents should adapt to diverse tasks and unseen environments beyon
 
 ---
 
-### [Xiaomi EV World Model: A Joint World Model Integrating Reconstruction and Generation for Autonomous Driving](https://arxiv.org/abs/2605.18137v1)
+### [Xiaomi EV World Model: A Joint World Model Integrating Reconstruction and Generation for Autonomous Driving](https://arxiv.org/abs/2605.18137v2)
 
 **Authors:** Lijun Zhou, Hongcheng Luo, Zhenxin Zhu, Cheng Chi, Mingfei Tu et al. (37 authors)
 
 **Published:** 2026-05-18 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.18137v1) | [PDF](https://arxiv.org/pdf/2605.18137v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2605.18137v2) | [PDF](https://arxiv.org/pdf/2605.18137v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -196,91 +315,6 @@ In video generation models, particularly world models, training large-scale vide
 <summary>Abstract</summary>
 
 World models have emerged as a central paradigm for embodied intelligence, enabling agents to predict action-conditioned future and reason about environmental dynamics. However, existing embodied world model benchmarks are still largely confined to vision-only prediction, offline embodied applications, and simulator-based evaluation, making them insufficient for assessing increasingly comprehensive world models. In this work, we introduce WorldArena 2.0, an expanded benchmark that systematically...
-
-</details>
-
----
-
-### [GEM: Gaussian Evolution Model for Occupancy Forecasting and Motion Planning](https://arxiv.org/abs/2605.17682v1)
-
-**Authors:** Cheng Chen, Hao Huang, Saurabh Bagchi
-
-**Published:** 2026-05-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.17682v1) | [PDF](https://arxiv.org/pdf/2605.17682v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Future 3D semantic occupancy forecasting and motion planning are central to autonomous driving, as they require models to reason about how surrounding scenes evolve and how the ego vehicle should act. Existing occupancy world models commonly discretize scenes into latent embeddings, volumetric features, or quantized tokens, and forecast future states through fixed-step autoregressive generation. This limits temporal flexibility, obscures scene evolution, accumulates errors over long horizons, an...
-
-</details>
-
----
-
-### [ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation](https://arxiv.org/abs/2605.17580v1)
-
-**Authors:** Zhikang Chen, Yue Wang, Sen Cui, Yu Zhang, Changshui Zhang et al. (7 authors)
-
-**Published:** 2026-05-17 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.17580v1) | [PDF](https://arxiv.org/pdf/2605.17580v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Electrocardiogram (ECG)-based models have achieved strong performance in diagnostic tasks, yet they remain limited in modeling how cardiac dynamics evolve under external interventions. In particular, existing approaches focus primarily on static prediction and lack mechanisms to capture ECG variations under different pharmacological conditions. In this work, we propose an ECG World Model for action-conditioned predictive simulation of cardiac electrophysiology. Moving beyond disjoint pipelines, ...
-
-</details>
-
----
-
-### [RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation](https://arxiv.org/abs/2605.17522v1)
-
-**Authors:** Sixu Lin, Junliang Chen, Huaiyuan Xu, Zhuohao Li, Guangming Wang et al. (11 authors)
-
-**Published:** 2026-05-17 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.17522v1) | [PDF](https://arxiv.org/pdf/2605.17522v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Planning and acting in 3D environments is a fundamental capability for robotic manipulation in the real world. Although prior work has explored predictive flow planners to guide 3D manipulation, existing approaches often rely on modular pipelines stacking multiple submodels, resulting in high computational overhead and limited real-time performance. To address these challenges, we introduce RoboFlow4D, a lightweight flow world model that unifies perception and planning by estimating temporal mot...
-
-</details>
-
----
-
-### [Mamba-VGGT: Persistent Long-Sequence Video Geometry Grounded Transformer via External Sliding Window Mamba Memory](https://arxiv.org/abs/2605.17478v1)
-
-**Authors:** Tianchen Deng, Zhenxiang Xiong, Nailin Wang, Fangjinhua Wang, Jiuming Liu et al. (7 authors)
-
-**Published:** 2026-05-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.17478v1) | [PDF](https://arxiv.org/pdf/2605.17478v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Visual Geometry Grounded Transformers (VGGT) have set new benchmarks in high-fidelity 3D scene reconstruction. However, as the sequence length increases, these models suffer from catastrophic geometric forgetting and accumulation drift, primarily due to the quadratic complexity of global attention which necessitates truncated temporal windows. To overcome the resulting geometric drift, we present Mamba-VGGT, an enhanced VGGT framework capable of persistent long-range reasoning. Our key contribut...
-
-</details>
-
----
-
-### [DeTrack: A Benchmark and Altitude-Aware Dual World Model for Drone-embodied Tracking](https://arxiv.org/abs/2605.17451v1)
-
-**Authors:** Guyue Hu, Haoming Liu, Siyuan Song, Chenglong Li, Feng Chen et al. (6 authors)
-
-**Published:** 2026-05-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.17451v1) | [PDF](https://arxiv.org/pdf/2605.17451v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Aerial object tracking has broad applications in public safety, emergency rescue, wildlife monitoring, and related fields. However, existing aerial tracking benchmarks are mainly based on passive 2D video sequences captured from fixed camera locations or predefined flight paths, where drones are treated as passive cameras rather than embodied agents that actively perceive, interact, and control their motion in dynamic 3D scenes. In this paper, we define a new drone-embodied tracking task, termed...
 
 </details>
 
