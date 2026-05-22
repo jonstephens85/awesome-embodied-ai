@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-05-21 22:57 UTC
+**Last updated:** 2026-05-22 17:51 UTC
 
-**Papers found:** 13
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Efficient Agentic Reasoning Through Self-Regulated Simulative Planning](https://arxiv.org/abs/2605.22138v1)
+
+**Authors:** Mingkai Deng, Jinyu Hou, Lara Sá Neves, Varad Pimpalkhute, Taylor W. Killian et al. (7 authors)
+
+**Published:** 2026-05-21 | **Categories:** cs.AI, cs.CL, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.22138v1) | [PDF](https://arxiv.org/pdf/2605.22138v1.pdf) | [GitHub](https://github.com/sailing-lab/sr2am)
+
+<details>
+<summary>Abstract</summary>
+
+How should an agent decide when and how to plan? A dominant approach builds agents as reactive policies with adaptive computation (e.g., chain-of-thought), trained end-to-end expecting planning to emerge implicitly. Without control over the presence, structure, or horizon of planning, these systems dramatically increase reasoning length, yielding inefficient token use without reliable accuracy gains. We argue efficient agentic reasoning benefits from decomposing decision-making into three system...
+
+</details>
+
+---
 
 ### [Q-ARVD: Quantizing Autoregressive Video Diffusion Models](https://arxiv.org/abs/2605.21072v1)
 
@@ -29,24 +46,109 @@ Autoregressive video diffusion models (ARVDs) have emerged as a promising archit
 
 ---
 
-### [RoHIL: Robust Human-in-the-Loop Robotic Reinforcement Learning Against Illumination Variations](https://arxiv.org/abs/2605.19924v1)
+## Other Recent Papers
 
-**Authors:** Shuoqin Zhang, Yixin Xiong, Xiru Gao, Kai Liu, Ke Wang et al. (7 authors)
+### [Steins;Gate Drive: Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning](https://arxiv.org/abs/2605.22456v1)
 
-**Published:** 2026-05-19 | **Categories:** cs.RO
+**Authors:** Anjie Qiu, Hans D. Schotten
 
-**Links:** [arXiv](https://arxiv.org/abs/2605.19924v1) | [PDF](https://arxiv.org/pdf/2605.19924v1.pdf) | [Project Page](https://anonymous4365.github.io/RoHIL/)
+**Published:** 2026-05-21 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.22456v1) | [PDF](https://arxiv.org/pdf/2605.22456v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Human-in-the-loop reinforcement learning systems achieve near-perfect success on the workstation where they are trained, but collapse when the same robot is moved to a workstation a few meters away due to shifts in the visual input distribution caused by new lamp positions and window light. Re-collecting demonstrations and re-running HIL on every workstation is incompatible with deployment, and naively fine-tuning on shifted-light data triggers catastrophic forgetting of the source workstation. ...
+Cloud-hosted LLM driver agents provide useful semantic judgments, but their inference latency exceeds stepwise vehicle-control windows. Learned world models predict futures, but they usually keep future generation and action selection inside large coupled loops. We present SteinsGateDrive, a latency-decoupled planner-runtime architecture in which the worldline metaphor from the eponymous story names one plausible consequence of an intervention: the LLM selects counterfactual driving futures befo...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts](https://arxiv.org/abs/2605.22446v1)
+
+**Authors:** Zhen Sun, Yongjian Guo, Haoran Sun, Luqiao Wang, Wei Lu et al. (9 authors)
+
+**Published:** 2026-05-21 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.22446v1) | [PDF](https://arxiv.org/pdf/2605.22446v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+While large vision-language-action (VLA) models and generative world models (WM) have advanced long-horizon embodied intelligence, their practical deployment remains challenged by uncertainty in learning-based action generation. Low-quality actions may cause physical failures during execution or lead to misleading world-model rollouts with redundant rendering costs. To address this issue, we propose Pre-VLA, a unified runtime verification architecture that performs preemptive action validity ass...
+
+</details>
+
+---
+
+### [Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics](https://arxiv.org/abs/2605.22164v1)
+
+**Authors:** Liangyu Li, Shengzhi Wang, Qingwen Liu
+
+**Published:** 2026-05-21 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.22164v1) | [PDF](https://arxiv.org/pdf/2605.22164v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models can contain the state needed for control, yet their terminal-cost interface can expose the planner to the wrong decision-relevant information. In common latent MPC, candidate sequences are ranked by Euclidean distance between predicted terminal and goal latent states; this assumes that raw latent distance weights reachability-relevant variables correctly. We propose trajectory reachability metrics (TRM), a post-hoc terminal-ranking method for fixed latent world models. TRM tr...
+
+</details>
+
+---
+
+### [LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model](https://arxiv.org/abs/2605.22089v1)
+
+**Authors:** Xiaodong Mei, Diankun Zhang, Hongwei Xie, Guang Chen, Hangjun Ye et al. (6 authors)
+
+**Published:** 2026-05-21 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.22089v1) | [PDF](https://arxiv.org/pdf/2605.22089v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have emerged as a promising framework for end-to-end autonomous driving. However, existing VLAs typically rely on sparse action supervision, which underutilizes their powerful scene understanding and reasoning capabilities. Recent attempts to incorporate dense visual supervision via world modeling often overemphasize pixel-level image reconstruction, neglecting semantically meaningful scene representation learning. In this work, we propose LVDrive, a Latent Vi...
+
+</details>
+
+---
+
+### [ChronoMedicalWorld: A Medical World Model for Learning Patient Trajectories from Longitudinal Care Data](https://arxiv.org/abs/2605.21963v1)
+
+**Authors:** Jiangyuan Wang, Xuyong Chen, Junwei He, Xu Xu, Shasha Xie et al. (6 authors)
+
+**Published:** 2026-05-21 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.21963v1) | [PDF](https://arxiv.org/pdf/2605.21963v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon clinical simulation -- predicting how a patient's physiology evolves over years under specified interventions -- is central to chronic-disease care, yet existing electronic health record (EHR) models are predominantly discriminative, and general-purpose large language models drift under repeated interventions. We propose the \textbf{ChronoMedicalWorld Model (CMWM)}, an action-conditioned latent world-model framework for learning patient trajectories from longitudinal care data. CMWM...
+
+</details>
+
+---
+
+### [stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation](https://arxiv.org/abs/2605.21800v1)
+
+**Authors:** Lucas Maes, Quentin Le Lidec, Luiz Facury, Nassim Massaudi, Ayush Chaurasia et al. (12 authors)
+
+**Published:** 2026-05-20 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2605.21800v1) | [PDF](https://arxiv.org/pdf/2605.21800v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are central to building agents that can reason, plan, and generalize beyond their training data. However, research on world models is currently fragmented, with disparate codebases, data pipelines, and evaluation protocols hindering reproducibility and fair comparison. Current practice is further limited by three key bottlenecks: fragile one-off codebases, slow video data loading, and the lack of standardized generalization benchmarks. We present stable-worldmodel (swm), an open-sou...
+
+</details>
+
+---
 
 ### [Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/2605.21139v1)
 
@@ -111,125 +213,6 @@ Robotic imitation learning is often treated as reproducing demonstrated actions,
 <summary>Abstract</summary>
 
 Vision-language-action (VLA) policies have advanced language-conditioned robotic manipulation by transferring semantic priors from pretrained vision-language models to action generation. Yet, standard action-imitation training often provides limited explicit supervision for 3D geometry, dense visual structure, and short-horizon environment evolution, which are critical for physically precise manipulation. We introduce \textbf{GaussianDream}, a feed-forward 3D Gaussian world-model plug-in that tu...
-
-</details>
-
----
-
-### [World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks](https://arxiv.org/abs/2605.19957v1)
-
-**Authors:** Zuyao Lin, Jianhui Zhang, Peidong Jia, Xiaoguang Zhao, Shanghang Zhang et al. (6 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19957v1) | [PDF](https://arxiv.org/pdf/2605.19957v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models are widely explored in embodied intelligence, yet they typically predict distinct evolutions of the world and the ego within a single stream, where the world captures persistent instruction-agnostic scene regularities and the ego captures robot-centric instruction-conditioned dynamics. This world-ego entanglement leads to a degradation in long-horizon embodied scenarios, particularly in hybrid tasks with interleaved navigation and manipulation behaviors. In this paper, we introduce ...
-
-</details>
-
----
-
-### [AffectVerse: Emotional World Models for Multimodal Affective Computing](https://arxiv.org/abs/2605.19950v1)
-
-**Authors:** Bo Zhao, Fanghua Ye, Yixin Ji, Sicheng Zhao, Xiaojiang Peng et al. (6 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19950v1) | [PDF](https://arxiv.org/pdf/2605.19950v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Humans infer emotions by integrating observed multimodal cues with expectations about how affective states may unfold. Existing multimodal large language models (MLLMs), however, often treat emotion recognition as static fusion over complete audiovisual-text inputs, leaving affective dynamics implicit. We propose AffectVerse, a Qwen2.5-Omni-based model equipped with an Emotion World Module (EWM), an action-free representation-level module for short-horizon latent affective prediction. \rev{EWM c...
-
-</details>
-
----
-
-### [HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models](https://arxiv.org/abs/2605.19631v1)
-
-**Authors:** Hoonhee Cho, Giwon Lee, Jae-Young Kang, Hyemin Yang, Heejun Park et al. (6 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19631v1) | [PDF](https://arxiv.org/pdf/2605.19631v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving has emerged as a compelling alternative to traditional modular pipelines by directly mapping raw sensor data to driving actions. While recent approaches achieve strong performance on single-domain datasets, their performance degrades significantly when trained jointly across multiple heterogeneous domains. In practice, however, autonomous systems must operate across diverse environments with heterogeneous distributions, including different cities, sensor configurati...
-
-</details>
-
----
-
-### [FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model](https://arxiv.org/abs/2605.19600v1)
-
-**Authors:** Jinhan Li, Xijie Huang, Zhaoqi Wang, Yijin Wang, Weiqi Ge et al. (10 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19600v1) | [PDF](https://arxiv.org/pdf/2605.19600v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In the field of Vision-Language Navigation (VLN), aerial datasets remain limited in their ability to combine scale, diversity, and realism, often relying on either costly real-world scenes or visually limited simulations. To address these challenges, we introduce FlyMirage, a highly scalable and fully automated data generation pipeline for aerial VLN. Our approach leverages large language models (LLM) as an environment designer to promote scene diversity, paired with a generative world model tha...
-
-</details>
-
----
-
-### [HalluWorld: A Controlled Benchmark for Hallucination via Reference World Models](https://arxiv.org/abs/2605.19341v1)
-
-**Authors:** Emmy Liu, Varun Gangal, Michael Yu, Zhuofu Tao, Karan Singh et al. (7 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.CL, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19341v1) | [PDF](https://arxiv.org/pdf/2605.19341v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Hallucination remains a central failure mode of large language models, but existing benchmarks operationalize it inconsistently across summarization, question answering, retrieval-augmented generation, and agentic interaction. This fragmentation makes it unclear whether a mitigation that works in one setting reduces hallucinations across contexts. Current benchmarks either require human annotation and fixed references that may be memorized, or rely on observations in settings that are difficult ...
-
-</details>
-
----
-
-### [SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution](https://arxiv.org/abs/2605.19319v1)
-
-**Authors:** Yiren Song, Yihan Wang, Xiyao Deng, Zhuoran Yan, Mike Zheng Shou
-
-**Published:** 2026-05-19 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19319v1) | [PDF](https://arxiv.org/pdf/2605.19319v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Visual prediction has emerged as a promising paradigm for embodied control, where future observations are generated and then translated into actions. However, dense video generation is computationally expensive and often unnecessary for many manipulation tasks, whose progress can be summarized by a small number of task-relevant visual states. In this work, we study whether image editing models can serve as sparse visual world models for robot manipulation by predicting task-level future states w...
-
-</details>
-
----
-
-### [PhyWorld: Physics-Faithful World Model for Video Generation](https://arxiv.org/abs/2605.19242v1)
-
-**Authors:** Pu Zhao, Juyi Lin, Timothy Rupprecht, Arash Akbari, Chence Yang et al. (13 authors)
-
-**Published:** 2026-05-19 | **Categories:** cs.CV, cs.AI, cs.ET
-
-**Links:** [arXiv](https://arxiv.org/abs/2605.19242v1) | [PDF](https://arxiv.org/pdf/2605.19242v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World simulators can provide safe and scalable environments for training Physical AI systems before real-world deployment. Large video generation models are emerging as a promising basis for such simulators because they can generate diverse and realistic visual futures. However, using them as world simulators requires physically faithful video continuations, namely, generated videos that preserve the physical state implied by the conditioning input, and evolve in ways consistent with basic physi...
 
 </details>
 
