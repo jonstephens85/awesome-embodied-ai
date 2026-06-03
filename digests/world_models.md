@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-02 23:26 UTC
+**Last updated:** 2026-06-03 19:48 UTC
 
-**Papers found:** 18
+**Papers found:** 25
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603v1)
+
+**Authors:** Yucheng Zhou, Wei Tao, Yiwen Guo, Jianbing Shen
+
+**Published:** 2026-06-02 | **Categories:** cs.CV, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03603v1) | [PDF](https://arxiv.org/pdf/2606.03603v1.pdf) | [GitHub](https://github.com/yczhou001/PF-OPSD)
+
+<details>
+<summary>Abstract</summary>
+
+World models and multimodal large language models (MLLMs) provide complementary capabilities for predicting future outcomes from static visual observations. World models can generate concrete visual rollouts of possible futures, while MLLMs can reason abstractly over questions, goals, and rules. However, generated rollouts are stochastic and may be visually plausible but task-incorrect, making it necessary to determine when visual simulation is useful, whether a rollout is credible, and how it s...
+
+</details>
+
+---
+
+### [Cosmos 3: Omnimodal World Models for Physical AI](https://arxiv.org/abs/2606.02800v1)
+
+**Authors:**  Aditi, Niket Agarwal, Arslan Ali, Jon Allen, Martin Antolini et al. (291 authors)
+
+**Published:** 2026-06-01 | **Categories:** cs.CV, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.02800v1) | [PDF](https://arxiv.org/pdf/2606.02800v1.pdf) | [Project Page](is) | [GitHub](https://github.com/nvidia/cosmos}{github.com/nvidia/cosmos)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Cosmos 3, a family of omnimodal world models designed to jointly process and generate language, image, video, audio, and action sequences within a unified mixture-of-transformers architecture. By supporting highly flexible input-output configurations, Cosmos 3 seamlessly unifies critical modalities for Physical AI -- effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework. Our evaluation demonstrates that Cosm...
+
+</details>
+
+---
 
 ### [RoboDream: Compositional World Models for Scalable Robot Data Synthesis](https://arxiv.org/abs/2606.02577v1)
 
@@ -97,41 +131,160 @@ Video world models are increasingly used in robotic manipulation, yet existing b
 
 ---
 
-### [BRo-JEPA: Learning Modular Arithmetic in Latent Space](https://arxiv.org/abs/2606.01372v1)
-
-**Authors:** Divyansh Jha, Yuanfang Xie, Varan Mehra, Brennen Yu
-
-**Published:** 2026-05-31 | **Categories:** cs.LG, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.01372v1) | [PDF](https://arxiv.org/pdf/2606.01372v1.pdf) | [GitHub](https://github.com/DL-World-Models/mnist-math}{accessed)
-
-<details>
-<summary>Abstract</summary>
-
-Can neural networks learn abstract algebraic rules, or do they merely memorize training patterns? We investigate this using MNIST digits as states and modular arithmetic operations as actions in a JEPA-style latent world model. Standard supervised baselines and JEPA models with additive operation embeddings fit seen operations but fail to extrapolate reliably to unseen ones. To bridge this gap, we introduce a block-rotation predictor that imposes the circular structure of modulo-10 arithmetic in...
-
-</details>
-
----
-
-### [Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends](https://arxiv.org/abs/2606.01164v1)
-
-**Authors:** Jiuming Liu, Chaojun Ni, Mengmeng Liu, Chensheng Peng, Fangjinhua Wang et al. (10 authors)
-
-**Published:** 2026-05-31 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.01164v1) | [PDF](https://arxiv.org/pdf/2606.01164v1.pdf) | [GitHub](https://github.com/liujiuming123/Awesome-Interactive-World-Model)
-
-<details>
-<summary>Abstract</summary>
-
-With rapid development of large language models and diffusion-based content generation, world modeling has attracted increasing research attention, benefiting various downstream domains such as game engines, embodied AI, autonomous driving, etc. Through explicitly incorporating user actions into world state transition, recent literature empowers world modeling with interactivity in an action-conditioned video or 3D generation paradigm, further enhancing controllability over world evolutions and ...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [A Close Look At World Model Recovery In Supervised Fine-Tuned LLM Planners](https://arxiv.org/abs/2606.03685v1)
+
+**Authors:** Patrick Emami, Nan Qiang, Peter Graf
+
+**Published:** 2026-06-02 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03685v1) | [PDF](https://arxiv.org/pdf/2606.03685v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Supervised fine-tuning (SFT) improves end-to-end classical planning in large language models (LLMs), but do these models also learn to represent and reason about the planning problems they are solving? Due to the relative complexity of classical planning problems and the challenge that end-to-end plan generation poses for LLMs, it has been difficult to explore this question. In our work, we devise and perform a series of interpretability experiments that holistically interrogate world model reco...
+
+</details>
+
+---
+
+### [A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature](https://arxiv.org/abs/2606.03609v1)
+
+**Authors:** Xuhui Lin, Stephen Law, Nanjiang Chen, Kunyao Li, Tao Yang
+
+**Published:** 2026-06-02 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03609v1) | [PDF](https://arxiv.org/pdf/2606.03609v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied agents that navigate cities rely on world models that predict how their surroundings will change as they move. But for navigation, what matters is not what the buildings look like; it is where the agent can go. Most world models nonetheless predict appearance, learning how a scene looks rather than the space an agent can move through. Those that do target geometry, such as bird's-eye-view occupancy grids, flatten the three-dimensional environment onto a ground plane, discarding the abov...
+
+</details>
+
+---
+
+### [SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation](https://arxiv.org/abs/2606.03297v1)
+
+**Authors:** Jeonguk Kang, Hanbyel Cho, Sanghyun Kang, Donghan Koo
+
+**Published:** 2026-06-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03297v1) | [PDF](https://arxiv.org/pdf/2606.03297v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact. Existing history-based adapters often compress these factors into a single latent representation, which can weaken robustness under heavy-load manipulation. We propose \textbf{SplitAdapter: Load-Aware Humanoid Loco...
+
+</details>
+
+---
+
+### [AirDreamer: Generalist Drone Navigation with World Models](https://arxiv.org/abs/2606.03252v1)
+
+**Authors:** Zian Liu, Andong Yang, Chunkai Yang, Ruidong An, Chao Gao et al. (6 authors)
+
+**Published:** 2026-06-02 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03252v1) | [PDF](https://arxiv.org/pdf/2606.03252v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Navigating a drone in unseen and cluttered environments requires reliable generalization to unseen scene layouts and understanding of environmental structure relative to the robot's capabilities. Previous methods, which assume the same environment configuration, often rely heavily on human-designed perception pipelines and predefined rules to guide the robot toward the target. This process is environment-dependent and generalizes poorly across environments. Inspired by animal navigation behavior...
+
+</details>
+
+---
+
+### [GeoSem-WAM: Geometry- and Semantic-Aware World Action Models](https://arxiv.org/abs/2606.03188v1)
+
+**Authors:** Fulong Ma, Daojie Peng, Wenjun Yue, Jiahang Cao, Bintao Wang et al. (7 authors)
+
+**Published:** 2026-06-02 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03188v1) | [PDF](https://arxiv.org/pdf/2606.03188v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent World Action Models (WAMs) have demonstrated impressive capabilities in embodied decision-making. However, whether their effectiveness stems from explicit future imagination during inference or representation learning induced by predictive training remains an open question. Emerging evidence suggests the primary advantage lies in learning robust latent representations rather than generating future observations at test time. Nevertheless, existing WAMs mainly rely on RGB-based future predi...
+
+</details>
+
+---
+
+### [NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation](https://arxiv.org/abs/2606.03159v1)
+
+**Authors:**  NVIDIA,  :, Aarti Basant, Amlan Kar, Despoina Paschalidou et al. (35 authors)
+
+**Published:** 2026-06-02 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03159v1) | [PDF](https://arxiv.org/pdf/2606.03159v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+As autonomous vehicle capabilities advance, the safe evaluation of driving policies in long-tail scenarios remains a critical bottleneck. In closed-loop simulation, the driving policy model actively interacts with the environment, where its actions dynamically update the simulator state and directly influence the next set of generated sensor observations. While recent reconstruction-based neural simulators offer photorealism, they are fundamentally constrained by their initial captured data and ...
+
+</details>
+
+---
+
+### [Exact equivariance, kept through training, buys zero-shot generalisation across the symmetry group](https://arxiv.org/abs/2606.03003v1)
+
+**Authors:** Hongbo Wang
+
+**Published:** 2026-06-02 | **Categories:** cs.LG, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.03003v1) | [PDF](https://arxiv.org/pdf/2606.03003v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A latent world model built from an equivariant encoder $E$ and an equivariant predictor $f$ inherits a provable symmetry of its training loss: when the world's dynamics genuinely carries a group $G$ acting on latents by an orthogonal representation $ρ(g)$, the one-step prediction relMSE is exactly invariant across the whole group, so fitting the dynamics on a restricted slice of orientations mathematically determines it on the entire orbit (jǔ yī fǎn sān). We verify this end-to-end at laptop sca...
+
+</details>
+
+---
+
+### [One Transit Is All You Need: Detecting Exoplanets Through Learned Stellar Behaviour with EXOVEIL](https://arxiv.org/abs/2606.02778v1)
+
+**Authors:** Pratik Priyanshu
+
+**Published:** 2026-06-01 | **Categories:** astro-ph.EP, astro-ph.IM, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.02778v1) | [PDF](https://arxiv.org/pdf/2606.02778v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+I present EXOVEIL, a transit detection system that learns what a star's brightness should look like and flags when reality disagrees. Unlike existing systems that require phase-folded input, EXOVEIL operates on raw flux time series and can detect planets that transit only once.A Transformer world model, trained on 16,499 Kepler light curves with transit-masked self-supervised learning, predicts expected stellar flux. A matched-filter detector with variance weighting extracts transit signals from...
+
+</details>
+
+---
+
+### [MetaWorld: Scaling Multi-Agent Video World Model from Single-view Video Data](https://arxiv.org/abs/2606.02753v1)
+
+**Authors:** Teng Hu, Mingchun Lu, Yating Wang, Jiangning Zhang, Jinkun Hao et al. (9 authors)
+
+**Published:** 2026-06-01 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.02753v1) | [PDF](https://arxiv.org/pdf/2606.02753v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models are a foundational generative technology for embodied AI and the Metaverse, yet existing approaches are inherently limited to a single agent observing from a single perspective. Extending these models to multi-agent settings introduces two critical challenges: data scarcity (coordinated multi-view recordings are prohibitively expensive to collect for general open-domain scenarios) and world state alignment (independently generated video streams cannot ensure that shared physic...
+
+</details>
+
+---
 
 ### [From Zero to Hero: Training-Free Custom Concept Spawning in World Models](https://arxiv.org/abs/2606.02575v1)
 
@@ -281,40 +434,6 @@ Planning with a learned latent world model is a promising route to control from 
 <summary>Abstract</summary>
 
 A single action-conditioned latent predictive architecture can in principle be trained on the structured state of a driving scene, a robot workspace, or a financial order book. The ingredients for doing so within any one domain already exist and are individually validated: masked-latent prediction, action-conditioned latent world models, discrete action tokenization, and joint-embedding prediction on voxelized state. What is not established, and what TERRA addresses, is the transfer question: wh...
-
-</details>
-
----
-
-### [Self-Revising Discovery Systems for Science: A Categorical Framework for Agentic Artificial Intelligence](https://arxiv.org/abs/2606.01444v1)
-
-**Authors:** Fiona Y. Wang, Markus J. Buehler
-
-**Published:** 2026-05-31 | **Categories:** cs.AI, cond-mat.mtrl-sci, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.01444v1) | [PDF](https://arxiv.org/pdf/2606.01444v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Scientific discovery is not only answer generation but revision of the representational regime in which evidence, artifacts, operations, and verifiers are typed. We develop a category-theoretic account of agentic discovery for materials science. In a fixed regime b with schema category S_b, the system state is a copresheaf I_t: S_b -> Set, and provenance is the category of elements \int_{S_b} I_t. Fixed-regime operation is an update on such states, endofunctorial only when provenance-preserving ...
-
-</details>
-
----
-
-### [$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation](https://arxiv.org/abs/2606.01027v1)
-
-**Authors:** Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin et al. (20 authors)
-
-**Published:** 2026-05-31 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.01027v1) | [PDF](https://arxiv.org/pdf/2606.01027v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation requires models that generate executable actions while anticipating and evaluating their future consequences before physical execution. We present $τ_0$-World Model ($τ_0$-WM), a unified video-action world model that integrates policy learning, video prediction, and action evaluation within a single future-predictive framework. Built on a shared video diffusion backbone, $τ_0$-WM provides two complementary interfaces. First, a video action model jointly predicts future visua...
 
 </details>
 
