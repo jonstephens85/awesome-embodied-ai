@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-09 23:10 UTC
+**Last updated:** 2026-06-10 18:29 UTC
 
-**Papers found:** 14
+**Papers found:** 22
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Next Forcing: Causal World Modeling with Multi-Chunk Prediction](https://arxiv.org/abs/2606.11187v1)
+
+**Authors:** Gangwei Xu, Qihang Zhang, Jiaming Zhou, Xing Zhu, Yujun Shen et al. (7 authors)
+
+**Published:** 2026-06-09 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11187v1) | [PDF](https://arxiv.org/pdf/2606.11187v1.pdf) | [Project Page](https://gangweix.github.io/next-forcing/)
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for cau...
+
+</details>
+
+---
+
+### [TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation](https://arxiv.org/abs/2606.11184v1)
+
+**Authors:** Yujie Zang, Yuhang Zheng, Xian Nie, Yupeng Zheng, Shuai Tian et al. (10 authors)
+
+**Published:** 2026-06-09 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11184v1) | [PDF](https://arxiv.org/pdf/2606.11184v1.pdf) | [Project Page](at)
+
+<details>
+<summary>Abstract</summary>
+
+Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorporating tactile or force feedback, but they rarely model the asymmetric spatiotemporal roles of global force and local tactile sensing. To address this, we propose TacForeSight, a lightweight force-conditioned tactile foresight framework for real-time...
+
+</details>
+
+---
+
+### [WorldOlympiad: Can Your World Model Survive a Triathlon?](https://arxiv.org/abs/2606.11129v1)
+
+**Authors:** Yuke Zhao, Wangbo Zhao, Weijie Wang, Zeyu Zhang, Dakai An et al. (11 authors)
+
+**Published:** 2026-06-09 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11129v1) | [PDF](https://arxiv.org/pdf/2606.11129v1.pdf) | [Project Page](https://alibaba-damo-academy.github.io/WorldOlympiad/) | [GitHub](https://github.com/alibaba-damo-academy/WorldOlympiad)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce WorldOlympiad, a benchmark for diagnosing video-based world models across physical faithfulness, geometric consistency, and interaction fidelity. While existing benchmarks often focus on visual quality, semantic alignment, or short-term temporal coherence, they provide limited insight into whether generated videos obey physical rules, preserve coherent 3D structure, and sustain controllable interactions over long horizons. To address this gap, WorldOlympiad decomposes world-model ev...
+
+</details>
+
+---
 
 ### [Latent Spatial Memory for Video World Models](https://arxiv.org/abs/2606.09828v1)
 
@@ -97,24 +148,126 @@ Video world models have made rapid progress in generating controllable visual ex
 
 ---
 
-### [Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2606.08737v1)
+## Other Recent Papers
 
-**Authors:** Yunfan Lou, Yifan Ye, Yankai Fu, Jun Cen, Xiaowei Chi et al. (10 authors)
+### [Monte Carlo Pass Search: Using Trajectory Generation for 3D Counterfactual Pass Evaluation in Football](https://arxiv.org/abs/2606.11120v1)
 
-**Published:** 2026-06-07 | **Categories:** cs.RO
+**Authors:** Andrew Kang, Priya Narasimhan
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.08737v1) | [PDF](https://arxiv.org/pdf/2606.08737v1.pdf) | [GitHub](https://github.com/LYFCLOUDFAN/Dream-Tac)
+**Published:** 2026-06-09 | **Categories:** cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11120v1) | [PDF](https://arxiv.org/pdf/2606.11120v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World action models inherit the predictive capability of world models, enabling action generation to be guided by anticipated future observations. However, they rely primarily on vision and often fail in contact-rich manipulation, where critical cues arise from physical interaction. In this paper, we propose Dream-Tac, a unified Tactile-World Action Model that jointly models actions, future visual observations, and tactile dynamics. Specifically, Dream-Tac introduces (i) contact-gated visuotacti...
+We recast pass evaluation in football (soccer) as a Monte Carlo Tree Search (MCTS)-like evaluation problem whose components mostly exist in the literature under different names: a value model (possession value), a world model (multi-agent trajectories with ball interactions), and a policy over counterfactual actions (sampling pass variants with noise). Building on the first public high-fidelity tracking dataset with 3D ball trajectories from the Bundesliga, we introduce Monte Carlo Pass Search (...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [WorldKernel: A World Model is the Coupling Kernel of Admissible Possible Worlds](https://arxiv.org/abs/2606.10934v1)
+
+**Authors:** Fabio Rovai
+
+**Published:** 2026-06-09 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10934v1) | [PDF](https://arxiv.org/pdf/2606.10934v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A common assumption holds that enough observational and interventional data, given to a strong enough predictor, suffices. We report a failure mode that contradicts it. Across hundreds of structural causal models, on identified quantities a strong predictor and a Bayesian baseline both succeed, but on unidentified quantities (the couplings between counterfactual worlds) the predictor collapses to a point, on 28% of models to one no valid model can produce, while the truth is an admissible interv...
+
+</details>
+
+---
+
+### [MODIP: Efficient Model-Based Optimization for Diffusion Policies](https://arxiv.org/abs/2606.10825v1)
+
+**Authors:** Zakariae El Asri, Philippe Gratias-Quiquandon, Nicolas Thome, Olivier Sigaud
+
+**Published:** 2026-06-09 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10825v1) | [PDF](https://arxiv.org/pdf/2606.10825v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Diffusion policies (DPs) have emerged as expressive policy representations for robot learning, often used with imitation learning methods such as behavioral cloning (BC). However, while their success has largely been confined to BC, direct reinforcement learning (RL) fine-tuning remains challenging because actions are generated through a multi-step denoising process. In this work, we propose MODIP, a framework for the offline-to-online fine-tuning of DPs. Rather than directly applying RL to the ...
+
+</details>
+
+---
+
+### [Can Image Models Imagine Time? ImageTime: A Novel Benchmark for Probing Visual World Modeling Through Spatiotemporal Consistency](https://arxiv.org/abs/2606.10620v1)
+
+**Authors:** Xinrui Wu, Lichen Huang
+
+**Published:** 2026-06-09 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10620v1) | [PDF](https://arxiv.org/pdf/2606.10620v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Image generation models now produce high-quality static images, yet their ability to represent how a visual world changes over time remains poorly understood. Practical workflows such as storyboarding, step-by-step illustration, reference-guided editing, and video previsualization require models to preserve identities, objects, spatial relations, and causal order across multiple visual states. Existing evaluations largely measure single-image correctness, compositional alignment, or video qualit...
+
+</details>
+
+---
+
+### [ReflectiChain: Epistemic Grounding in LLM-Driven World Models for Supply Chain Resilience](https://arxiv.org/abs/2606.10359v1)
+
+**Authors:** Jia Luo
+
+**Published:** 2026-06-09 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10359v1) | [PDF](https://arxiv.org/pdf/2606.10359v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+AI agents in supply chains face a fundamental epistemic gap: large language models (LLMs) interpret policies but lack physical grounding, while reinforcement learning (RL) optimizes flows but is semantically blind to unstructured constraints. We introduce REFLECTICHAIN, bridging this gap through a Generative Supply Chain World Model (SC-WM) - encoding heterogeneous supply networks into a 6-dim graph-latent space with physical conservation - and Double-Loop Learning that separates epistemic uncer...
+
+</details>
+
+---
+
+### [BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression](https://arxiv.org/abs/2606.10135v1)
+
+**Authors:** Shaohao Rui, Xiaofeng Mao, Zhanyu Zhang, Peijia Lin, Yansong Zhu et al. (8 authors)
+
+**Published:** 2026-06-08 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10135v1) | [PDF](https://arxiv.org/pdf/2606.10135v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Transitioning bidirectional video diffusion models into an autoregressive paradigm improves the interactivity of video world models, but existing causal pipelines need many stages (control fine-tuning, autoregressive training, causal initialization, few-step distillation) and still trail bidirectional models in quality due to error accumulation. Recent world models such as Yume-1.5 and Matrix-Game-3.0 instead adopt a bidirectional autoregressive approach, gaining fidelity and stable long-horizon...
+
+</details>
+
+---
+
+### [Business World Model](https://arxiv.org/abs/2606.10044v1)
+
+**Authors:** Cecil Pang, Hiroki Sayama
+
+**Published:** 2026-06-08 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.10044v1) | [PDF](https://arxiv.org/pdf/2606.10044v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments...
+
+</details>
+
+---
 
 ### [Physics-Aware Sparse Learning and Selective Online Adaptation for Euler-Lagrange Robot Dynamics](https://arxiv.org/abs/2606.09640v1)
 
@@ -230,23 +383,6 @@ World Action Models (WAMs) couple a video dynamics prior to the policy and have 
 <summary>Abstract</summary>
 
 Latent world models are increasingly used for control and goal-conditioned planning, yet assessing whether their learned representations are useful for planning usually requires slow, planner-coupled simulator evaluation with CEM or similar planners. Such evaluation is black-box and model-complexity-dependent: under the same protocol, different world models may require minutes to hours per checkpoint. In this work, we propose ATM, an Action-Consistency Transfer Matrix for diagnosing whether late...
-
-</details>
-
----
-
-### [Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks](https://arxiv.org/abs/2606.08775v1)
-
-**Authors:** Raktim Gautam Goswami, Prashanth Krishnamurthy, Yann LeCun, Farshad Khorrami
-
-**Published:** 2026-06-07 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.08775v1) | [PDF](https://arxiv.org/pdf/2606.08775v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Visual world models have shown great potential in learning complex system dynamics. Recent advancements leverage these models as transition functions within Model Predictive Control (MPC) frameworks to solve various control tasks. When applied to robotics, however, they are limited to single-stage tasks such as reaching or grasping, and struggle with multi-stage ones that demand complex sequential planning. In this work, we introduce WorldDP, a world model framework designed for multi-stage robo...
 
 </details>
 
