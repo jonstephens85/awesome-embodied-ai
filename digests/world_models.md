@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-10 23:18 UTC
+**Last updated:** 2026-06-11 18:45 UTC
 
-**Papers found:** 22
+**Papers found:** 14
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [World Pilot: Steering Vision-Language-Action Models with World-Action Priors](https://arxiv.org/abs/2606.12403v1)
+
+**Authors:** Zefu Lin, Rongxu Cui, Junjia Xu, Xiaojuan Jin, Wenling Li et al. (7 authors)
+
+**Published:** 2026-06-10 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.12403v1) | [PDF](https://arxiv.org/pdf/2606.12403v1.pdf) | [Project Page](https://world-pilot.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture. We present World Pilot, a VLA framework that augments the policy with priors from a World-Action Model (WAM), routed into the decision chain through two complementary pathw...
+
+</details>
+
+---
+
+### [Signed Compression Progress on a Sealed Audit is Goodhart-Resistant](https://arxiv.org/abs/2606.11417v1)
+
+**Authors:** Ayush Mittal, Dhruv Gupta
+
+**Published:** 2026-06-09 | **Categories:** cs.LG, cs.AI, stat.ML
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11417v1) | [PDF](https://arxiv.org/pdf/2606.11417v1.pdf) | [GitHub](https://github.com/Zetetic-Dhruv/audit-compression-progress)
+
+<details>
+<summary>Abstract</summary>
+
+Compression progress is a long-standing proposal for intrinsic motivation: reward an agent when its world model becomes better at predicting or compressing experience. The folk claim is that this reward is "credible" because it is paid only for learning. We make this precise and prove it. If intrinsic reward is the signed decrease of a fixed sealed-audit loss, r_t = E(theta_{t-1}) - E(theta_t), then cumulative reward telescopes exactly to endpoint audit improvement, so no policy can push reward ...
+
+</details>
+
+---
+
+### [PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation](https://arxiv.org/abs/2606.11396v1)
+
+**Authors:** Abhinav Kumar, Soshi Iba, Rana Soltani Zarrin, Dmitry Berenson
+
+**Published:** 2026-06-09 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.11396v1) | [PDF](https://arxiv.org/pdf/2606.11396v1.pdf) | [Project Page](at)
+
+<details>
+<summary>Abstract</summary>
+
+Dexterous manipulation with multi-finger hands can be sensitive to physical parameters such as object shape, pose, and friction coefficients. While simulation enables large-scale data collection with known parameter values, simulation-trained policies must still handle uncertainty at deployment, where the true parameters and therefore the true dynamics are unknown. Standard domain randomization strategies may be insufficient for precise tasks like screwdriver turning, as manipulation strategies ...
+
+</details>
+
+---
 
 ### [Next Forcing: Causal World Modeling with Multi-Chunk Prediction](https://arxiv.org/abs/2606.11187v1)
 
@@ -63,92 +114,58 @@ We introduce WorldOlympiad, a benchmark for diagnosing video-based world models 
 
 ---
 
-### [Latent Spatial Memory for Video World Models](https://arxiv.org/abs/2606.09828v1)
-
-**Authors:** Weijie Wang, Haoyu Zhao, Yifan Yang, Feng Chen, Zeyu Zhang et al. (10 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09828v1) | [PDF](https://arxiv.org/pdf/2606.09828v1.pdf) | [Project Page](https://aka.ms/latent-spatial-memory) | [GitHub](https://github.com/microsoft/LatentSpatialMemory)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel space discards rich features of the learned latent representation. In this paper, we introduce \emph{latent spatial memory} for video world models, a persistent 3D cache that stores scene information ...
-
-</details>
-
----
-
-### [MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models](https://arxiv.org/abs/2606.09827v1)
-
-**Authors:** Hao Shi, Weiye Li, Bin Xie, Yulin Wang, Renping Zhou et al. (9 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09827v1) | [PDF](https://arxiv.org/pdf/2606.09827v1.pdf) | [Project Page](https://shihao1895.github.io/MemoryVLA-PP-Web)
-
-<details>
-<summary>Abstract</summary>
-
-Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive science suggests that humans rely on working memory to buffer short-lived context, the hippocampal system to preserve episodic memory of past experience, and internal models to imagine possible futur...
-
-</details>
-
----
-
-### [iMaC: Translating Actions into Motion and Contact Images for Embodied World Models](https://arxiv.org/abs/2606.09813v1)
-
-**Authors:** Zhenyu Wu, Xiuwei Xu, Yukun Zhou, Yifan Li, Qiuping Deng et al. (11 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09813v1) | [PDF](https://arxiv.org/pdf/2606.09813v1.pdf) | [Project Page](https://imac-wm.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied world models have emerged as a pivotal paradigm for visual robotic decision-making and interactive environment simulation. However, conventional embodied frameworks rely on low-dimensional structured action vectors (e.g., joint angles and end-effector poses), which suffer from limited expressive capacity, poor generalization across diverse embodiments, and unnatural dynamic modeling for complex physical interactions. To address these limitations, this paper proposesiMac (Image as Action...
-
-</details>
-
----
-
-### [Echo-Memory: A Controlled Study of Memory in Action World Models](https://arxiv.org/abs/2606.09803v1)
-
-**Authors:** Wayne King, Zeyue Xue, Yuxuan Bian, Jie Huang, Haoran Li et al. (16 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.CV, cs.GR, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09803v1) | [PDF](https://arxiv.org/pdf/2606.09803v1.pdf) | [GitHub](https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Memory}{this)
-
-<details>
-<summary>Abstract</summary>
-
-We present \textbf{Echo-Memory}, a controlled study of memory mechanisms in action-conditioned world models. These models generate multi-segment videos from a first frame, text prompt, and camera-action sequence, but their central failure is often memory rather than local image synthesis: after the camera leaves and returns, the scene or salient object may silently change. Existing memory designs are hard to compare because gains are entangled with backbone, training, retrieval, and evaluation d...
-
-</details>
-
----
-
-### [Prisma-World: Camera-Controllable Multi-Agent Video World Model](https://arxiv.org/abs/2606.09507v1)
-
-**Authors:** Huiqiang Sun, Zhan Peng, Size Wu, Kun Wang, Kang Liao et al. (12 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09507v1) | [PDF](https://arxiv.org/pdf/2606.09507v1.pdf) | [Project Page](https://huiqiang-sun.github.io/prisma-world/)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models have made rapid progress in generating controllable visual experiences, but most of them still simulate the world from a single observer. Extending such models to multiple agents raises a central challenge: if each agent's future state is generated independently, overlapping views may instantiate different versions of the same scene, leading to inconsistent objects, layouts, and appearances across agents. Conventional camera conditioning controls individual trajectories, but i...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Slots, Transitions, Loops: Learning Composable World Models for ARC](https://arxiv.org/abs/2606.12316v1)
+
+**Authors:** Gege Gao, Bernhard Schölkopf, Andreas Geiger
+
+**Published:** 2026-06-10 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.12316v1) | [PDF](https://arxiv.org/pdf/2606.12316v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+ARC tests in-context rule induction: given a few input-output demonstrations, a model must infer the hidden rule and apply it to a new query. While many approaches express ARC rules through language, code, or symbolic programs, ARC itself is visual-symbolic: rules appear as grid transitions over objects, colors, shapes, and spatial relations. We introduce Loop-OWM, an object-centric world-modeling architecture that learns these rules as composable transitions over structured states. It combines ...
+
+</details>
+
+---
+
+### [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](https://arxiv.org/abs/2606.12217v1)
+
+**Authors:** Lu Qiu, Yizhuo Li, Yi Chen, Yuying Ge, Yixiao Ge et al. (6 authors)
+
+**Published:** 2026-06-10 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.12217v1) | [PDF](https://arxiv.org/pdf/2606.12217v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World Action Models (WAMs) offer a promising route for robot manipulation by using video generation models to model future scene evolution before producing control actions. However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions. To diagnose this failure, we conduct action-head attention analysis and causal interventions. We find that the action decoder fails to focus on task-relevant interaction re...
+
+</details>
+
+---
+
+### [World Model Self-Distillation: Training World Models to Solve General Tasks](https://arxiv.org/abs/2606.12072v1)
+
+**Authors:** Sebastian Stapf, Pablo Acuaviva Huertos, Aram Davtyan, Paolo Favaro
+
+**Published:** 2026-06-10 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.12072v1) | [PDF](https://arxiv.org/pdf/2606.12072v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability...
+
+</details>
+
+---
 
 ### [Monte Carlo Pass Search: Using Trajectory Generation for 3D Counterfactual Pass Evaluation in Football](https://arxiv.org/abs/2606.11120v1)
 
@@ -230,159 +247,6 @@ Image generation models now produce high-quality static images, yet their abilit
 <summary>Abstract</summary>
 
 AI agents in supply chains face a fundamental epistemic gap: large language models (LLMs) interpret policies but lack physical grounding, while reinforcement learning (RL) optimizes flows but is semantically blind to unstructured constraints. We introduce REFLECTICHAIN, bridging this gap through a Generative Supply Chain World Model (SC-WM) - encoding heterogeneous supply networks into a 6-dim graph-latent space with physical conservation - and Double-Loop Learning that separates epistemic uncer...
-
-</details>
-
----
-
-### [BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression](https://arxiv.org/abs/2606.10135v1)
-
-**Authors:** Shaohao Rui, Xiaofeng Mao, Zhanyu Zhang, Peijia Lin, Yansong Zhu et al. (8 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.10135v1) | [PDF](https://arxiv.org/pdf/2606.10135v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Transitioning bidirectional video diffusion models into an autoregressive paradigm improves the interactivity of video world models, but existing causal pipelines need many stages (control fine-tuning, autoregressive training, causal initialization, few-step distillation) and still trail bidirectional models in quality due to error accumulation. Recent world models such as Yume-1.5 and Matrix-Game-3.0 instead adopt a bidirectional autoregressive approach, gaining fidelity and stable long-horizon...
-
-</details>
-
----
-
-### [Business World Model](https://arxiv.org/abs/2606.10044v1)
-
-**Authors:** Cecil Pang, Hiroki Sayama
-
-**Published:** 2026-06-08 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.10044v1) | [PDF](https://arxiv.org/pdf/2606.10044v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments...
-
-</details>
-
----
-
-### [Physics-Aware Sparse Learning and Selective Online Adaptation for Euler-Lagrange Robot Dynamics](https://arxiv.org/abs/2606.09640v1)
-
-**Authors:** Rishabh Dev Yadav, Samaksh Ujjawal, Sihao Sun, Spandan Roy, Wei Pan
-
-**Published:** 2026-06-08 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09640v1) | [PDF](https://arxiv.org/pdf/2606.09640v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Accurate dynamics models are essential for model-based robotic control, yet nominal Euler--Lagrange models often become inaccurate in the presence of payload variation, unmodeled coupling, friction, aerodynamic effects, and changing operating conditions. Most learning-based correction methods improve prediction accuracy by introducing a single additive residual, but do not preserve the internal mechanical structure of Euler--Lagrange systems. This leads to models that do not preserve symmetry, p...
-
-</details>
-
----
-
-### [Targeting World Models to Compromise Robot Learning Pipelines](https://arxiv.org/abs/2606.09499v1)
-
-**Authors:** Ethan Rathbun, Ahmed Agha, Saaduddin Mahmud, Christopher Amato, Alina Oprea et al. (6 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.RO, cs.AI, cs.CR
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09499v1) | [PDF](https://arxiv.org/pdf/2606.09499v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models have recently seen a rapid growth in both their popularity and capability as more data efficient tools for generating robot training data or simulating real world environments, with many works proposing their integration into the robot learning pipeline. While highly practical, in this work we demonstrate that world models introduce a uniquely stealthy and effective data poisoning entry point into the robot learning supply chain that can result in the deployment of unsafe or otherwi...
-
-</details>
-
----
-
-### [$ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models](https://arxiv.org/abs/2606.09457v1)
-
-**Authors:** Zhenguo Sun, Yu Sun, Hande Huang, Alois Knoll
-
-**Published:** 2026-06-08 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09457v1) | [PDF](https://arxiv.org/pdf/2606.09457v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied policies typically map current observations directly to actions, leaving candidate-action consequences implicit. World models provide predictive supervision, representations, or external simulation, but rarely let a policy inspect the imagined consequence of its own proposal before acting. We introduce $ω$-EVA, a latent interactive world model that realizes an Envision--Verify--Act loop for embodied action generation. Its three-stage framework learns action-conditioned latent dynamics, ...
-
-</details>
-
----
-
-### [Toward Compiler World Models: Learning Latent Dynamics for Efficient Tensor Program Search](https://arxiv.org/abs/2606.09312v1)
-
-**Authors:** Haolin Pan, Lianghong Huang, Xvlin Zhou, Mingjie Xing, Yanjun Wu
-
-**Published:** 2026-06-08 | **Categories:** cs.LG, cs.PL
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09312v1) | [PDF](https://arxiv.org/pdf/2606.09312v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Tensor program optimization is essential for modern machine learning systems, but its search space is enormous. Existing auto-schedulers reduce measurement cost with learned cost models, yet they usually evaluate each candidate as a static code snapshot, ignoring the schedule trajectory that produced it. This makes them insensitive to action dependencies and vulnerable to superficial code variations. We propose a \emph{world-model-inspired} evaluator that models schedule evaluation as action-con...
-
-</details>
-
----
-
-### [FF-JEPA: Long-Horizon Planning in World Models with Latent Planners](https://arxiv.org/abs/2606.09311v1)
-
-**Authors:** Sergi Masip, Jonathan Swinnen, Yutong Hu, Renaud Detry, Tinne Tuytelaars
-
-**Published:** 2026-06-08 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09311v1) | [PDF](https://arxiv.org/pdf/2606.09311v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Joint Embedding Predictive Architectures (JEPAs) have shown promising world modeling capabilities, enabling planning in latent space by optimizing action trajectories using methods like the Cross-Entropy Method (CEM). These methods are, however, too computationally expensive and ineffective for long-horizon planning. Furthermore, these methods typically require an explicit image of the goal state, which is not always possible in real-world tasks. In this work, we tackle these limitations by prop...
-
-</details>
-
----
-
-### [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215v1)
-
-**Authors:** Jia Zheng, Teli Ma, Yudong Fan, Zifan Wang, Shuo Yang et al. (6 authors)
-
-**Published:** 2026-06-08 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09215v1) | [PDF](https://arxiv.org/pdf/2606.09215v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsiste...
-
-</details>
-
----
-
-### [ATM: Action-Consistency Transfer Matrix for Diagnosing and Improving Latent World Models](https://arxiv.org/abs/2606.09028v1)
-
-**Authors:** Jiaheng Chen
-
-**Published:** 2026-06-08 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.09028v1) | [PDF](https://arxiv.org/pdf/2606.09028v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models are increasingly used for control and goal-conditioned planning, yet assessing whether their learned representations are useful for planning usually requires slow, planner-coupled simulator evaluation with CEM or similar planners. Such evaluation is black-box and model-complexity-dependent: under the same protocol, different world models may require minutes to hours per checkpoint. In this work, we propose ATM, an Action-Consistency Transfer Matrix for diagnosing whether late...
 
 </details>
 
