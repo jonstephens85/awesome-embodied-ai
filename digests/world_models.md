@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-12 23:07 UTC
+**Last updated:** 2026-06-13 17:21 UTC
 
-**Papers found:** 19
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
@@ -92,40 +92,6 @@ Do research topics in artificial intelligence grow gradually, or do they advance
 <summary>Abstract</summary>
 
 Self-evolving agents are expected to improve through interaction without external supervision, but this remains difficult in partially observable environments where agents must explore actively, learn from limited feedback, and decide when to trust prior experience. Existing LLM-agent methods often rely on memory or planning modules, yet they rarely close the loop between them to continually refine an internal understanding of environment dynamics. We introduce ProPlay, a procedural world model ...
-
-</details>
-
----
-
-### [G-MAPP: GPU-accelerated Multi-Agent Planning and Perception for Reactive Motion Generation](https://arxiv.org/abs/2606.12579v1)
-
-**Authors:** Tanmay Bishnoi, Riddhiman Laha, Tobias Löw, Jose Alex Chandy, Luis F. C. Figueredo et al. (6 authors)
-
-**Published:** 2026-06-10 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12579v1) | [PDF](https://arxiv.org/pdf/2606.12579v1.pdf) | [GitHub](https://github.com/chart-research/g-mapp)
-
-<details>
-<summary>Abstract</summary>
-
-Reactive motion generation in unstructured environments remains an open challenge in robotics. Due to the computational complexity of collision-free motion generation, existing methods either generate global trajectories for static scenarios, or employ models that make conservative assumptions about the environment. This paper identifies the primary bottleneck as the runtime performance demand of planning on high-fidelity environments, and the temporal integration between the perception and plan...
-
-</details>
-
----
-
-### [World Pilot: Steering Vision-Language-Action Models with World-Action Priors](https://arxiv.org/abs/2606.12403v1)
-
-**Authors:** Zefu Lin, Rongxu Cui, Junjia Xu, Xiaojuan Jin, Wenling Li et al. (7 authors)
-
-**Published:** 2026-06-10 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12403v1) | [PDF](https://arxiv.org/pdf/2606.12403v1.pdf) | [Project Page](https://world-pilot.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture. We present World Pilot, a VLA framework that augments the policy with priors from a World-Action Model (WAM), routed into the decision chain through two complementary pathw...
 
 </details>
 
@@ -247,91 +213,6 @@ JEPA-family world models use a static predictor whose weights do not adapt when 
 <summary>Abstract</summary>
 
 World modeling is emerging as a central principle for building intelligent systems capable of prediction, reasoning, and decision making. A central distinction can be drawn between explicit world models, which learn structured dynamics for rollout-based reasoning and planning, and implicit world models, which encode predictive structure within scalable learned representations. These complementary paradigms provide a foundation for physical AI in domains such as robotics and autonomous driving, e...
-
-</details>
-
----
-
-### [The Theory of Mind Utility: Formal Specification of a Mentalizing Mechanism](https://arxiv.org/abs/2606.12721v1)
-
-**Authors:** Nikolos Gurney, Stacy Marsella
-
-**Published:** 2026-06-10 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12721v1) | [PDF](https://arxiv.org/pdf/2606.12721v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Inferring others' beliefs requires more than reading surface signals; it requires tracking who told them what, in what order, and how credibly. The Theory of Mind Utility (ToM-U) formalizes this epistemic state inference problem at the computational level of analysis, specifying what mentalizing computes and why without commitment to algorithmic or neural implementation. ToM-U achieves this by constructing Local Epistemic World Models (LEWMs) -- directed typed graphs that represent agents, state...
-
-</details>
-
----
-
-### [M*: A Modular, Extensible, Serving System for Multimodal Models](https://arxiv.org/abs/2606.12688v1)
-
-**Authors:** Atindra Jha, Naomi Sagan, Keisuke Kamahori, Irmak Sivgin, Rohan Sanda et al. (12 authors)
-
-**Published:** 2026-06-10 | **Categories:** cs.LG, cs.AI, cs.DC
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12688v1) | [PDF](https://arxiv.org/pdf/2606.12688v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We are entering a new era of composite model architectures that integrate diverse components such as vision encoders, language backbones, diffusion and flow heads, audio codecs, action generators, and world-model predictors. Such architectures underpin a broad class of multimodal models, including unified multimodal models, omni models, speech-language models, vision-language-action policies, and world models. However, existing model serving frameworks were built on narrow assumptions about mode...
-
-</details>
-
----
-
-### [Slots, Transitions, Loops: Learning Composable World Models for ARC](https://arxiv.org/abs/2606.12316v1)
-
-**Authors:** Gege Gao, Bernhard Schölkopf, Andreas Geiger
-
-**Published:** 2026-06-10 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12316v1) | [PDF](https://arxiv.org/pdf/2606.12316v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-ARC tests in-context rule induction: given a few input-output demonstrations, a model must infer the hidden rule and apply it to a new query. While many approaches express ARC rules through language, code, or symbolic programs, ARC itself is visual-symbolic: rules appear as grid transitions over objects, colors, shapes, and spatial relations. We introduce Loop-OWM, an object-centric world-modeling architecture that learns these rules as composable transitions over structured states. It combines ...
-
-</details>
-
----
-
-### [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](https://arxiv.org/abs/2606.12217v1)
-
-**Authors:** Lu Qiu, Yizhuo Li, Yi Chen, Yuying Ge, Yixiao Ge et al. (6 authors)
-
-**Published:** 2026-06-10 | **Categories:** cs.CV, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12217v1) | [PDF](https://arxiv.org/pdf/2606.12217v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) offer a promising route for robot manipulation by using video generation models to model future scene evolution before producing control actions. However, our empirical observations reveal a phenomenon: generating plausible visual futures does not always guarantee the extraction of accurate actions. To diagnose this failure, we conduct action-head attention analysis and causal interventions. We find that the action decoder fails to focus on task-relevant interaction re...
-
-</details>
-
----
-
-### [World Model Self-Distillation: Training World Models to Solve General Tasks](https://arxiv.org/abs/2606.12072v1)
-
-**Authors:** Sebastian Stapf, Pablo Acuaviva Huertos, Aram Davtyan, Paolo Favaro
-
-**Published:** 2026-06-10 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.12072v1) | [PDF](https://arxiv.org/pdf/2606.12072v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability...
 
 </details>
 
