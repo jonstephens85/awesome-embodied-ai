@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-16 23:17 UTC
+**Last updated:** 2026-06-17 18:15 UTC
 
-**Papers found:** 15
+**Papers found:** 21
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion](https://arxiv.org/abs/2606.18250v1)
+
+**Authors:** Nils Morbitzer, Jonathan Evers, Artem Savkin, Thomas Stauner, Nassir Navab et al. (7 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18250v1) | [PDF](https://arxiv.org/pdf/2606.18250v1.pdf) | [Project Page](https://fr3d-wm.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Forecasting the evolution of dynamic environments is crucial for autonomous agents. While generative world models have recently achieved high photorealism in 2D video synthesis by mixing ego-motion and environmental dynamics within the image plane, they exhibit physical inconsistencies, such as morphing or vanishing objects, especially over long time horizons. In this paper, we propose FR3D, a world model that predicts a persistent 3D latent representation for future dynamic 3D reconstruction. U...
+
+</details>
+
+---
+
+### [ActWorld: From Explorable to Interactive World Model via Action-Aware Memory](https://arxiv.org/abs/2606.17730v1)
+
+**Authors:** Zhexiao Xiong, Yizhi Song, Hao Kang, Qing Yan, Liming Jiang et al. (14 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17730v1) | [PDF](https://arxiv.org/pdf/2606.17730v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive world models aim to simulate environment dynamics under real-time user actions. However, their action vocabulary is largely confined to navigation: most actions correspond to motion (e.g., walk, turn, look around), while interaction with objects in the scene (e.g., pick up plates, open doors, or trigger physical responses) is either absent, restricted to game domains, or relegated to prompt-to-full-video scenarios. The resulting worlds are visually explorable but not truly actionable...
+
+</details>
+
+---
 
 ### [Geometric Action Model for Robot Policy Learning](https://arxiv.org/abs/2606.17046v1)
 
@@ -99,13 +133,132 @@ Visual world models (VWMs) synthesize interactive, action-conditioned rollouts f
 
 ## Other Recent Papers
 
-### [Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation](https://arxiv.org/abs/2606.17030v1)
+### [Looped World Models](https://arxiv.org/abs/2606.18208v1)
 
-**Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Chenxu Lv, Deqing Li et al. (38 authors)
+**Authors:** Hongyuan Adam Lu, Z. L. Victor Wei, Qun Zhang, Jinrui Zeng, Bowen Cao et al. (31 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.LG, cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18208v1) | [PDF](https://arxiv.org/pdf/2606.18208v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Current world models face a fundamental tension: faithful long-horizon simulation demands deep computation, but deeper models are expensive to deploy and prone to compounding errors. We resolve this by introducing Looped World Models (LoopWM), which are the first looped architectures for world modelling. Our method iteratively refines latent environment states through a parameter-shared transformer block. This yield up to 100x parameter efficiency over conventional approaches with adaptive compu...
+
+</details>
+
+---
+
+### [EgoCS-400K: An Egocentric Gameplay Dataset for World Models](https://arxiv.org/abs/2606.18180v1)
+
+**Authors:** Rongjin Guo, Dong Liang, Yuhao Liu, Fang Liu, Tianyu Huang et al. (7 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18180v1) | [PDF](https://arxiv.org/pdf/2606.18180v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The shift from video generation to interactive world modeling places new demands on data: beyond captioned videos, world models require temporally aligned video-action-language trajectories grounded in the actions, camera motion, states, and events that drive future scene changes. However, such data is difficult to obtain at scale. Web video datasets offer broad visual coverage but lack executable actions and reliable states; robotic datasets provide action and state supervision but are costly a...
+
+</details>
+
+---
+
+### [PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space](https://arxiv.org/abs/2606.17924v1)
+
+**Authors:** Bochen Yang, Lianlei Shan
+
+**Published:** 2026-06-16 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17924v1) | [PDF](https://arxiv.org/pdf/2606.17924v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Current Vision-Language-Action (VLA) models face a trade-off between efficient action generation and explicit deliberation. Directly decoding actions from vision-language backbone representations enables low-latency control, whereas explicit reasoning through textual chains, pixel-level subgoals, or action search can improve planning but incurs substantial latency and computational cost. We propose PearlVLA, a VLA framework that moves deliberation into the latent space of a vision-language model...
+
+</details>
+
+---
+
+### [WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT](https://arxiv.org/abs/2606.17906v1)
+
+**Authors:** Zezhong Qian, Xiaowei Chi, Yu Qi, Haozhan Li, Zhi Yang Chen et al. (6 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17906v1) | [PDF](https://arxiv.org/pdf/2606.17906v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent World-Action (WA) models demonstrate strong generalization ability and data efficiency, but they typically rely on expert trajectories for training. This reliance limits their ability to acquire fine-grained manipulation skills beyond the demonstration distribution and prevents them from continuously improving through real-world interaction. To address these limitations, we propose WAM-RL, a reinforcement learning framework that enables joint optimization of the world model and the action...
+
+</details>
+
+---
+
+### [MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model](https://arxiv.org/abs/2606.17800v1)
+
+**Authors:** Lichen Bai, Tianhao Zhang, Shitong Shao, Dingwei Tan, Qiyu Zhong et al. (17 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17800v1) | [PDF](https://arxiv.org/pdf/2606.17800v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+As an increasing majority of global video content is consumed on social platforms for interactive social purposes, video generation models built for social worlds are important but largely overlooked by previous studies. In this work, we define the position of social world models and build a prototype model as the first step towards this goal. While previous world models successfully simulate physical environments or gaming world exploration, they remain fundamentally detached from human-centric...
+
+</details>
+
+---
+
+### [OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation](https://arxiv.org/abs/2606.17536v1)
+
+**Authors:** Zijie Meng, Yufei Liu, Chengqian Ma, Zhiyu Li, Jiyuan Liu et al. (11 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17536v1) | [PDF](https://arxiv.org/pdf/2606.17536v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Generative world models for autonomous driving face two unresolved tensions: heterogeneous control injection, where free-form language, HD-maps, trajectories, and camera poses reside in incompatible representational spaces, and post-hoc cross-view fusion, where per-camera latents fail to encode global 3-D geometry. We trace both to a single root cause: the absence of a shared symbolic interlingua aligning language, geometry, and pixels at the latent-token level. We present DRIVE-CHOREO, an LLM-c...
+
+</details>
+
+---
+
+### [NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama](https://arxiv.org/abs/2606.17391v1)
+
+**Authors:** Logan Mann, Abdur Rahman, Mohammad Saifullah, Taaha Kazi, Vasu Sharma
+
+**Published:** 2026-06-16 | **Categories:** cs.CL, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.17391v1) | [PDF](https://arxiv.org/pdf/2606.17391v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-form serialized audio drama, with arcs that run for 200 to 800 episodes, is a major creative medium and a setting where frontier large language models (LLMs) fail. We benchmark 21 models, spanning classical, fine-tuned, open-frontier, closed-frontier, and reasoning tiers, on a uniform set of structural narrative metrics. All closed-frontier systems saturate at a plot-beat F1 in the band [0.78, 0.81] and collapse by about -0.20 F1 at horizon h=200. We introduce NarrativeWorldBench, an open b...
+
+</details>
+
+---
+
+### [Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation](https://arxiv.org/abs/2606.17030v2)
+
+**Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Deqing Li, Gengze Zhou et al. (38 authors)
 
 **Published:** 2026-06-15 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.17030v1) | [PDF](https://arxiv.org/pdf/2606.17030v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.17030v2) | [PDF](https://arxiv.org/pdf/2606.17030v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -116,13 +269,13 @@ We introduce Qwen-RobotWorld, a language-conditioned video world model for embod
 
 ---
 
-### [Kairos: A Native World Model Stack for Physical AI](https://arxiv.org/abs/2606.16533v1)
+### [Kairos: A Native World Model Stack for Physical AI](https://arxiv.org/abs/2606.16533v2)
 
-**Authors:**  Kairos Team, Fei Wang, Shan You, Qiming Zhang, Tao Huang et al. (23 authors)
+**Authors:**  Kairos Team, Fei Wang, Shan You, Qiming Zhang, Tao Huang et al. (24 authors)
 
 **Published:** 2026-06-15 | **Categories:** cs.AI, cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.16533v1) | [PDF](https://arxiv.org/pdf/2606.16533v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.16533v2) | [PDF](https://arxiv.org/pdf/2606.16533v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -213,57 +366,6 @@ End-to-end autonomous driving has made significant progress by unifying percepti
 <summary>Abstract</summary>
 
 Multivariate forecasting in physical systems requires models that predict coupled temporal variables while preserving meaningful state evolution. Deep forecasters can fit temporal correlations, and physics-informed models can regularize predictions with scientific constraints, but these directions are often connected only at the decoded-output level. As a result, the hidden predictive state that generates future trajectories may remain statistically useful but physically unstructured. We introdu...
-
-</details>
-
----
-
-### [Mind-Studio: Executable World Models with Lookahead Evaluation for Partially Observable Games](https://arxiv.org/abs/2606.16070v1)
-
-**Authors:** Yifei Dong, Mingen Zheng, Linquan Wu, Jeff Z. Pan, Jiaxin Bai
-
-**Published:** 2026-06-14 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16070v1) | [PDF](https://arxiv.org/pdf/2606.16070v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World-model synthesis aims to turn interaction experience into an internal model of environment dynamics. Existing symbolic approaches often fit observed transitions or mixtures of local rules, but they do not produce a complete executable program that can run independently of the real environment. We present Mind-Studio, a framework that synthesizes executable pygame-style world models from state-action-next-state trajectories using large language models. Mind-Studio combines entropy-selected t...
-
-</details>
-
----
-
-### [LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies](https://arxiv.org/abs/2606.15768v1)
-
-**Authors:** Jialei Chen, Kai Wang, Kang Chen, Shuaihang Chen, Feng Gao et al. (12 authors)
-
-**Published:** 2026-06-14 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.15768v1) | [PDF](https://arxiv.org/pdf/2606.15768v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action models (VLAs) leverage large-scale vision-language pretraining for semantic robot control, but often lack explicit foresight into how robot actions change the scene. World-Action Models (WAMs) address this limitation by conditioning policies on predicted futures, yet existing approaches typically rely on computationally expensive video generation with substantial pixel-level redundancy. We present LaWAM, a Latent World Action Model that exposes predictive dynamics to robot...
-
-</details>
-
----
-
-### [Pixels to Proofs: Probabilistically-Safe Latent World Model Control via Parallel Conformal Robust MPC](https://arxiv.org/abs/2606.15594v1)
-
-**Authors:** Devesh Nath, Anutam Srinivasan, Haoran Yin, Ruitong Jiang, Jeffrey Fang et al. (6 authors)
-
-**Published:** 2026-06-14 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.15594v1) | [PDF](https://arxiv.org/pdf/2606.15594v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present SLS^2, a framework for safe feedback motion planning from pixels using robust model predictive control (MPC) in learned latent world models. Our approach trains an action-conditioned joint-embedding world model with compact Markovian latent states, enabling efficient gradient-based trajectory optimization through learned latent dynamics. To enforce safety for the true system despite imperfect latent predictions, we inform a GPU-accelerated system level synthesis (SLS) robust MPC schem...
 
 </details>
 
