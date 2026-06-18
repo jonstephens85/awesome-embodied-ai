@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-17 23:16 UTC
+**Last updated:** 2026-06-18 18:25 UTC
 
-**Papers found:** 21
+**Papers found:** 18
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Physics-IQ Verified](https://arxiv.org/abs/2606.18943v1)
+
+**Authors:** Tim Rädsch, Yuki M Asano, Hilde Kuehne, Stefan Bauer, Priyank Jaini et al. (7 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18943v1) | [PDF](https://arxiv.org/pdf/2606.18943v1.pdf) | [GitHub](https://github.com/google-deepmind/physics-iq-benchmark)
+
+<details>
+<summary>Abstract</summary>
+
+Video generative models ( VGMs) have become a new frontier that can be used not just for video generation but for a multitude of downstream tasks, including world modeling. To advance these tasks, a good video model must understand the physical reality of the world. Evaluating this understanding is an emerging field and has led to the Physics-IQ benchmark, which quantifies this explicitly by comparing model-generated videos to real-world videos of physical experiments. In this work, we present a...
+
+</details>
+
+---
 
 ### [Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion](https://arxiv.org/abs/2606.18250v1)
 
@@ -46,92 +63,143 @@ Interactive world models aim to simulate environment dynamics under real-time us
 
 ---
 
-### [Geometric Action Model for Robot Policy Learning](https://arxiv.org/abs/2606.17046v1)
-
-**Authors:** Jisang Han, Seonghu Jeon, Jaewoo Jung, René Zurbrügg, Honggyu An et al. (10 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17046v1) | [PDF](https://arxiv.org/pdf/2606.17046v1.pdf) | [Project Page](https://cvlab-kaist.github.io/Geometric-Action-Model/)
-
-<details>
-<summary>Abstract</summary>
-
-Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale foundation models, but they still operate primarily on 2D image frames or 2D-derived latent spaces, leaving implicit the 3D geometry required for contact-rich manipulation. We propose the Geometric Action M...
-
-</details>
-
----
-
-### [DreamX-World 1.0: A General-Purpose Interactive World Model](https://arxiv.org/abs/2606.16993v1)
-
-**Authors:**  DreamX Team, Yancheng Bai, Rui Chen, Xiangxiang Chu, Rujing Dang et al. (23 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16993v1) | [PDF](https://arxiv.org/pdf/2606.16993v1.pdf) | [Project Page](https://amap-ml.github.io/DreamX_World) | [GitHub](https://github.com/AMAP-ML/DreamX-World)
-
-<details>
-<summary>Abstract</summary>
-
-DreamX-World 1.0 is a general-purpose interactive text/image-to-video world model for controllable long-horizon generation. It supports camera navigation, revisits to previously observed regions, and promptable events across photorealistic, game-style, and stylized domains. Our data engine combines camera-accurate Unreal Engine rendering, action-rich gameplay recordings, and real-world videos with recovered camera geometry. For camera control, we introduce E-PRoPE, a lightweight variant of proje...
-
-</details>
-
----
-
-### [Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies](https://arxiv.org/abs/2606.16721v1)
-
-**Authors:** Ke Liu, Mengxuan Li, Yanyi Bao, Tianyun Zhang, Chong Chu et al. (7 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16721v1) | [PDF](https://arxiv.org/pdf/2606.16721v1.pdf) | [GitHub](https://github.com/1999kevin/awesome_medical_world_models)
-
-<details>
-<summary>Abstract</summary>
-
-Medical diagnosis and treatment are dynamic processes in which patient states evolve over time and clinical interventions alter future outcomes. Although current medical AI can detect disease, estimate risk and generate reports, many systems still return static labels or scores, offering limited insight into how illness may progress or how alternative interventions may reshape its trajectory. Medical world models adapt the world-model idea from artificial intelligence to healthcare by learning i...
-
-</details>
-
----
-
-### [ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control](https://arxiv.org/abs/2606.16605v1)
-
-**Authors:** Junjian Zhang, Hao Tan, Ruonan Li, Dong Zhu, Aiping Li et al. (6 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16605v1) | [PDF](https://arxiv.org/pdf/2606.16605v1.pdf) | [GitHub](https://github.com/zaoanguai/ARB4WM)
-
-<details>
-<summary>Abstract</summary>
-
-World models are widely used in robotic and agentic engineering control systems due to their ability to learn latent dynamics for planning and decision-making. As these systems are increasingly deployed in safety-critical settings, understanding their robustness under adversarial conditions has become essential. However, existing evaluations lack a unified benchmark for testing adversarial threats across the policy, value, and latent-dynamics levels of world-model agents. To fill this gap, we pr...
-
-</details>
-
----
-
-### [BadWorld: Adversarial Attacks on World Models](https://arxiv.org/abs/2606.16519v1)
-
-**Authors:** Linghui Shen, Mingyue Cui, Xingyi Yang
-
-**Published:** 2026-06-15 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16519v1) | [PDF](https://arxiv.org/pdf/2606.16519v1.pdf) | [Project Page](https://linghuiishen.github.io/BadWorld/)
-
-<details>
-<summary>Abstract</summary>
-
-Visual world models (VWMs) synthesize interactive, action-conditioned rollouts from a single context image. However, it remains an open question how robust these models are to adversarial perturbations. Standard adversarial attacks fail to assess this vulnerability because attackers lack ground-truth future videos and cannot predict subsequent user controls. We introduce BadWorld, a label-free adversarial framework tailored for autoregressive VWMs that systematically overcomes both constraints. ...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Lifecycle-Aware Dynamic Analysis for Secure ML Model Execution](https://arxiv.org/abs/2606.19023v1)
+
+**Authors:** Gabriele Digregorio, Marco Di Gennaro, Francesco Pastore, Stefano Zanero, Stefano Longari et al. (6 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.CR, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.19023v1) | [PDF](https://arxiv.org/pdf/2606.19023v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+The growing reliance on pre-trained Machine Learning (ML) models has introduced new attack surfaces. Recent vulnerabilities demonstrate that malicious behavior can be embedded within model artifacts, often bypassing existing defenses. Current model-scanning solutions primarily rely on static, format-specific rules or known attack signatures, which limit their ability to generalize across frameworks and to detect novel exploitation paths. In contrast, we propose a solution that focuses on the eff...
+
+</details>
+
+---
+
+### [Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation](https://arxiv.org/abs/2606.18960v1)
+
+**Authors:** Zirui Zheng, Jiaqian Yu, Xiongfeng Peng, jun shi, Mingyi Li et al. (10 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18960v1) | [PDF](https://arxiv.org/pdf/2606.18960v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned world models have emerged as a promising paradigm for robot learning, offering a scalable alternative to costly real-world experimentation by generating action-consistent video rollouts. However, persistent world modeling remains challenging in manipulation: frequent end-effector occlusions and rapid wrist-camera motion make the current observation insufficient for predicting future views, causing models to forget or hallucinate scene details seen in earlier frames. Existing m...
+
+</details>
+
+---
+
+### [DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration](https://arxiv.org/abs/2606.18825v1)
+
+**Authors:** Luoyao Kang, Yuelin Zhang, Jiwei Shan, Haifan Gong, Qingpeng Ding et al. (6 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18825v1) | [PDF](https://arxiv.org/pdf/2606.18825v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Ultrasound (US) is widely used for surgical navigation, yet real-time registration between intraoperative 2D slices and preoperative 3D volumes remains challenging due to partial observability, speckle noise, and the action-dependent US acquisition. Existing methods are one-shot or short-horizon, making it hard for them to gather evidence over time or capture how surgeons adjust probe motion based on on-screen feedback. We propose DreamReg, a belief-driven world-model framework that formulates 2...
+
+</details>
+
+---
+
+### [Stealthy World Model Manipulation via Data Poisoning](https://arxiv.org/abs/2606.18697v1)
+
+**Authors:** Yibin Hu, Xiaolin Sun, Zizhan Zheng
+
+**Published:** 2026-06-17 | **Categories:** cs.LG, cs.CR, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18697v1) | [PDF](https://arxiv.org/pdf/2606.18697v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based learning agents use learned world models to predict future states, plan actions, and adapt to new environments. However, the process of updating world models from collected experience creates a training-time attack surface: adversarially poisoned fine-tuning trajectories can manipulate the learned dynamics and thereby corrupt downstream planning. In this paper, we propose SWAAP, the first two-stage data poisoning framework for learned world models. In the first stage, SWAAP identifie...
+
+</details>
+
+---
+
+### [Dual-Channel Grounded World Modeling (DCGWM): Structural Prevention of Objective Interference Collapse via Heterogeneous External Grounding with Inward-Only Gradient Flow](https://arxiv.org/abs/2606.18688v1)
+
+**Authors:** Akshay Hazare
+
+**Published:** 2026-06-17 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18688v1) | [PDF](https://arxiv.org/pdf/2606.18688v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Joint Embedding Predictive Architectures (JEPAs) are a leading approach to world model representation learning. We identify a failure mode in JEPA-based world models grounded against two qualitatively distinct external signals: physical dynamics (sparse, high-magnitude, constraint-satisfying gradient corrections) and social-behavioral dynamics (diffuse, distribution-matching corrections). We term this Objective Interference Collapse (OIC): we argue that joint learning in a shared latent space ca...
+
+</details>
+
+---
+
+### [SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation](https://arxiv.org/abs/2606.18610v1)
+
+**Authors:** Wei-Cheng Tseng, Gashon Hussein, Yuzhu Dong, Allen Z. Ren, Lucy X. Shi et al. (12 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18610v1) | [PDF](https://arxiv.org/pdf/2606.18610v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Evaluating generalist robot manipulation policies in the real world is expensive, slow, and difficult to scale. Action-conditioned video world models offer a scalable alternative by simulating policy rollouts. Autoregressive rollouts accumulate compounding errors, observations across multiple camera views must remain mutually consistent, and the evaluator must generalize to policies whose behaviors lie outside the training distribution. We address these challenges with SC3-Eval, a self-consisten...
+
+</details>
+
+---
+
+### [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/abs/2606.18589v1)
+
+**Authors:** Wenxi Chen, Kaidi Zhang, Chi Lin, Zhiyuan Zhang, Yu She et al. (9 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18589v1) | [PDF](https://arxiv.org/pdf/2606.18589v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Action chunking has become a common interface for vision-language-action (VLA) models, enabling low-frequency policy inference to drive high-frequency robot execution. However, once an action chunk is committed, its open-loop execution can be brittle under stochastic dynamics, hardware execution errors, and partial observability. We propose DREAM-Chunk, a test-time scaling method that augments chunking-based policies with a lightweight latent world model, without requiring additional policy fine...
+
+</details>
+
+---
+
+### [PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation](https://arxiv.org/abs/2606.18375v1)
+
+**Authors:** Yuhang Huang, Xuan Lv, Junyan Xu, Zhiyuan Yu, Jiazhao Zhang et al. (28 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18375v1) | [PDF](https://arxiv.org/pdf/2606.18375v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World foundation models (WFMs) are powerful simulators, yet they predominantly operate in a single-view setting and lack the multi-view 3D consistency required for robotic manipulation. While robotic systems rely on multiple cameras (egocentric, eye-to-hand, and wrist-mounted) for policy learning, current multi-view world models simply concatenate view tokens without explicit geometric reasoning. This causes cross-view object drift, depth inconsistency, and texture misalignment. We trace these f...
+
+</details>
+
+---
 
 ### [Looped World Models](https://arxiv.org/abs/2606.18208v1)
 
@@ -247,125 +315,6 @@ Generative world models for autonomous driving face two unresolved tensions: het
 <summary>Abstract</summary>
 
 Long-form serialized audio drama, with arcs that run for 200 to 800 episodes, is a major creative medium and a setting where frontier large language models (LLMs) fail. We benchmark 21 models, spanning classical, fine-tuned, open-frontier, closed-frontier, and reasoning tiers, on a uniform set of structural narrative metrics. All closed-frontier systems saturate at a plot-beat F1 in the band [0.78, 0.81] and collapse by about -0.20 F1 at horizon h=200. We introduce NarrativeWorldBench, an open b...
-
-</details>
-
----
-
-### [Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation](https://arxiv.org/abs/2606.17030v2)
-
-**Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Deqing Li, Gengze Zhou et al. (38 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17030v2) | [PDF](https://arxiv.org/pdf/2606.17030v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce Qwen-RobotWorld, a language-conditioned video world model for embodied intelligence. With natural language as a unified action interface, it predicts physically grounded future visual trajectories from current observations across robotic manipulation, autonomous driving, indoor navigation, and human-to-robot transfer. This unified formulation provides three promising application directions: synthetic data generation for policy training augmentation, scalable virtual environments for...
-
-</details>
-
----
-
-### [Kairos: A Native World Model Stack for Physical AI](https://arxiv.org/abs/2606.16533v2)
-
-**Authors:**  Kairos Team, Fei Wang, Shan You, Qiming Zhang, Tao Huang et al. (24 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16533v2) | [PDF](https://arxiv.org/pdf/2606.16533v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models are transitioning from passive visual generators to foundational, operational infrastructure for Physical AI: they must natively acquire world knowledge from heterogeneous experience, maintain persistent states over long horizons, and execute efficiently within real deployment constraints. We introduce Kairos, a native world model stack designed around these requirements. (1) Kairos learns the world by pioneering a Native Pre-training Paradigm governed by a Cross-Embodiment Data Cur...
-
-</details>
-
----
-
-### [BRICKS-WM: Building Reusability via Interface Composition Kinetics for Structured World Models](https://arxiv.org/abs/2606.16489v1)
-
-**Authors:** Shaowei Zhang, Jiahan Cao, Xunlan Zhou, Shenghua Wan, De-Chuan Zhan
-
-**Published:** 2026-06-15 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16489v1) | [PDF](https://arxiv.org/pdf/2606.16489v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Model-based Reinforcement Learning (MBRL) has achieved remarkable success in continuous control by leveraging latent world models. However, prevailing approaches typically rely on monolithic latent dynamics, entangling environment dynamics into a coupled process. This coupling severely limits reusability: altering the agent necessitates retraining the entire world from scratch, even if the environment remains constant. To address this, we introduce BRICKS-WM (Building Reusability via Interface C...
-
-</details>
-
----
-
-### [HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization](https://arxiv.org/abs/2606.16480v1)
-
-**Authors:** Youngjae Min, Jovin D'sa, Faizan M. Tariq, David Isele, Navid Azizan et al. (6 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.AI, eess.SY
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16480v1) | [PDF](https://arxiv.org/pdf/2606.16480v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robots deployed in the real world must plan motions across diverse scenarios without per-scenario retuning. End-to-end reinforcement learning (RL) can generalize across scenarios but often becomes brittle under distribution shift, reward misspecification, and stochastic interactions. Model predictive path integral (MPPI) control enables strong real-time refinement without gradients, but its performance depends on a well-shaped sampling prior, while manually designing the priors does not scale to...
-
-</details>
-
----
-
-### [FlowMPC: Improving Flow Matching policies with World Models](https://arxiv.org/abs/2606.16286v1)
-
-**Authors:** Chandon Hamel
-
-**Published:** 2026-06-15 | **Categories:** cs.LG, cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16286v1) | [PDF](https://arxiv.org/pdf/2606.16286v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Flow Matching (FM) is a powerful approach for behavior cloning in multimodal action spaces [Jiang et al., 2025], but because it is not trained to directly maximize expected return, there is still room to improve how FM policies act at test time. This work investigates whether a learned world model can improve FM policies by enabling Model Predictive Path Integral (MPPI) planning over candidate action sequences proposed by the policy. Building on TD-MPC2 [Hansen et al., 2024], I introduce FlowMPC...
-
-</details>
-
----
-
-### [GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving](https://arxiv.org/abs/2606.16274v1)
-
-**Authors:** Ziying Song, Caiyan Jia, Lin Liu, Lei Yang, Shengkai Zhang et al. (11 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16274v1) | [PDF](https://arxiv.org/pdf/2606.16274v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end autonomous driving has made significant progress by unifying perception, prediction, and planning within a single learning framework, achieving strong performance in short-horizon decision making. However, most existing E2E-AD methods remain confined to short-horizon planning and lack the ability to model long-term temporal dependencies, which severely limits their generalization and security in complex and highly interactive driving scenarios. In this work, we propose GraphWorld, an ...
-
-</details>
-
----
-
-### [Phys-JEPA: Physics-Informed Latent World Models for Multivariate Time-Series Forecasting](https://arxiv.org/abs/2606.16076v1)
-
-**Authors:** Weizhi Nie, Weichao Liu, Honglin Guo, Yuting Su
-
-**Published:** 2026-06-15 | **Categories:** cs.LG, cs.AI, cs.GT
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16076v1) | [PDF](https://arxiv.org/pdf/2606.16076v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Multivariate forecasting in physical systems requires models that predict coupled temporal variables while preserving meaningful state evolution. Deep forecasters can fit temporal correlations, and physics-informed models can regularize predictions with scientific constraints, but these directions are often connected only at the decoded-output level. As a result, the hidden predictive state that generates future trajectories may remain statistically useful but physically unstructured. We introdu...
 
 </details>
 

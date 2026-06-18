@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-06-17 23:16 UTC
+**Last updated:** 2026-06-18 18:25 UTC
 
-**Papers found:** 18
+**Papers found:** 17
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models](https://arxiv.org/abs/2606.19297v1)
+
+**Authors:** Nikita Kachaev, Andrey Moskalenko, Matvey Skripkin, Nikita Kurlaev, Daria Pugacheva et al. (13 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.19297v1) | [PDF](https://arxiv.org/pdf/2606.19297v1.pdf) | [Project Page](https://tttonyalpha.github.io/act2answer/)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation. Failures on knowledge-sensitive tasks are ambiguous, conflating missing knowledge with poor generalization of low-level control. We introduce Act2Answer, a lightweight protocol that adapts VLM knowledge benchmarks to VLA evaluation by requiring agents to answer through action. Each ...
+
+</details>
+
+---
+
+### [Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement](https://arxiv.org/abs/2606.18953v1)
+
+**Authors:** Kinam Kim, Namiko Saito, Heecheol Kim, Katsushi Ikeuchi, Jaegul Choo et al. (6 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18953v1) | [PDF](https://arxiv.org/pdf/2606.18953v1.pdf) | [Project Page](https://www.microsoft.com/en-us/research/articles/object-centric-residual-rl/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks, but their imitation-learning-based policies remain brittle in precise physical interactions due to compounding execution errors; Can a reinforcement learning policy trained purely in simulation improve the robustness of real-world VLAs zero-shot? Residual RL, which learns a corrective policy on top of a frozen VLA, offers a natural framework, but existing approaches face a fundamental sim-to-real dilemma: privi...
+
+</details>
+
+---
 
 ### [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043v1)
 
@@ -46,92 +80,109 @@ Generalist vision-language-action systems need object-centric 3D evidence and re
 
 ---
 
-### [T-Rex: Tactile-Reactive Dexterous Manipulation](https://arxiv.org/abs/2606.17055v1)
-
-**Authors:** Dantong Niu, Zhuoyang Liu, Zekai Wang, Boning Shao, Zhao-Heng Yin et al. (35 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17055v1) | [PDF](https://arxiv.org/pdf/2606.17055v1.pdf) | [Project Page](https://tactile-rex.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-The ability to react dynamically to tactile signals has long been considered crucial to agile human-level dexterity. Yet contemporary learning-based Vision-Language-Action (VLA) models for robotic manipulation generally either overlook the tactile modality or are limited to encoders with static cues, due in part to the scarcity of diverse training data and standardized evaluation, architectural constraints in current VLA models, and limitations of static tactile encoders. In this paper, we push ...
-
-</details>
-
----
-
-### [Geometric Action Model for Robot Policy Learning](https://arxiv.org/abs/2606.17046v1)
-
-**Authors:** Jisang Han, Seonghu Jeon, Jaewoo Jung, René Zurbrügg, Honggyu An et al. (10 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17046v1) | [PDF](https://arxiv.org/pdf/2606.17046v1.pdf) | [Project Page](https://cvlab-kaist.github.io/Geometric-Action-Model/)
-
-<details>
-<summary>Abstract</summary>
-
-Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale foundation models, but they still operate primarily on 2D image frames or 2D-derived latent spaces, leaving implicit the 3D geometry required for contact-rich manipulation. We propose the Geometric Action M...
-
-</details>
-
----
-
-### [Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes](https://arxiv.org/abs/2606.17043v1)
-
-**Authors:** Tongyan Fang, Siyuan Huang, Naiyu Fang, Ganlong Zhao, Zhongjin Luo et al. (9 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17043v1) | [PDF](https://arxiv.org/pdf/2606.17043v1.pdf) | [Project Page](https://acerobotics-vla.github.io/HABC-Website)
-
-<details>
-<summary>Abstract</summary>
-
-When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of...
-
-</details>
-
----
-
-### [R2RDreamer: 3D-aware Data Augmentation for Spatially-generalized 2D Manipulation Policies](https://arxiv.org/abs/2606.17040v1)
-
-**Authors:** Xiuwei Xu, Haowen Sun, Angyuan Ma, Yiwei Zhang, Zhenyu Wu et al. (10 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17040v1) | [PDF](https://arxiv.org/pdf/2606.17040v1.pdf) | [Project Page](https://r2rdreamer.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Spatial generalization is critical for imitation-learned manipulation policies, but achieving it typically requires scaling demonstrations across diverse object poses, robot configurations, and camera viewpoints. Data augmentation from a few source demonstrations offers a practical alternative to costly real-world collection. Simulation-based augmentation can create controllable variation, but requires complex environment and object setup and may introduce a sim-to-real gap. Recent real-to-real ...
-
-</details>
-
----
-
-### [Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks](https://arxiv.org/abs/2606.16178v1)
-
-**Authors:** Rutav Shah, Rajat Kumar Jenamani, Xiaohan Zhang, Lingfeng Sun, Roberto Martín-Martín et al. (8 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16178v1) | [PDF](https://arxiv.org/pdf/2606.16178v1.pdf) | [Project Page](https://shahrutav.github.io/short-term-memory)
-
-<details>
-<summary>Abstract</summary>
-
-Many robotic tasks require short-term memory, whether it's retrieving an object that's no longer visible or turning off an appliance after a set period. Yet, most visuomotor policies trained via imitation learning rely only on immediate sensory input without using past experiences to guide decisions. We present PRISM, a transformer-based architecture for visuomotor policies to effectively use short-term memory via two key components: (i) gated attention, which filters retrieved information to su...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning](https://arxiv.org/abs/2606.19340v1)
+
+**Authors:** Jisoo Kim, Sangwon Baik, Taeksoo Kim, Sungjoo Kim, Junyoung Lee et al. (7 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.19340v1) | [PDF](https://arxiv.org/pdf/2606.19340v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-language model (VLM) to produce reference-frame task grounding and primitive-level 2D keypoints, then lifts them into 3D via multi-view fusion. This lifting combines triangulation of view-wise VLM groundings with reference-view ray voting, which searches ...
+
+</details>
+
+---
+
+### [Invertible Neural Network Adapter for One-Step Flow Matching in Robot Manipulation](https://arxiv.org/abs/2606.19194v1)
+
+**Authors:** Yu Zhang, Kangyi Ji, Yongxiang Zou, Rongtao Xu, Feng Zheng et al. (6 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.19194v1) | [PDF](https://arxiv.org/pdf/2606.19194v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+This paper presents an invertible neural network adapter for general robotic manipulation, designed to generate precise high-dimensional actions conditioned on multimodal observations, including visual, linguistic, and proprioceptive inputs, through a one-step denoising process. Built upon a flow-matching formulation, the proposed adapter effectively constrains the action generation trajectory within an invertible latent space, thereby enabling efficient and high-quality dexterous action synthes...
+
+</details>
+
+---
+
+### [Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human EgoVideos](https://arxiv.org/abs/2606.18955v1)
+
+**Authors:** Runze Xu, Yiluo Zhang, Jian Wang, Yu Wang, Jincheng Yu
+
+**Published:** 2026-06-17 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18955v1) | [PDF](https://arxiv.org/pdf/2606.18955v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Training generalist Vision-Language-Action(VLA) models typically requires massive, diverse robotic datasets with high-fidelity action annotations. While egocentric human manipulation videos are abundant and capture significant environmental diversity, the absence of action labels makes them difficult to use in conventional training paradigms. To address this, we propose a latent-action-based framework designed to extract general action priors from unlabeled human videos. The architecture feature...
+
+</details>
+
+---
+
+### [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/abs/2606.18589v1)
+
+**Authors:** Wenxi Chen, Kaidi Zhang, Chi Lin, Zhiyuan Zhang, Yu She et al. (9 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18589v1) | [PDF](https://arxiv.org/pdf/2606.18589v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Action chunking has become a common interface for vision-language-action (VLA) models, enabling low-frequency policy inference to drive high-frequency robot execution. However, once an action chunk is committed, its open-loop execution can be brittle under stochastic dynamics, hardware execution errors, and partial observability. We propose DREAM-Chunk, a test-time scaling method that augments chunking-based policies with a lightweight latent world model, without requiring additional policy fine...
+
+</details>
+
+---
+
+### [SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation](https://arxiv.org/abs/2606.18610v1)
+
+**Authors:** Wei-Cheng Tseng, Gashon Hussein, Yuzhu Dong, Allen Z. Ren, Lucy X. Shi et al. (12 authors)
+
+**Published:** 2026-06-17 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18610v1) | [PDF](https://arxiv.org/pdf/2606.18610v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Evaluating generalist robot manipulation policies in the real world is expensive, slow, and difficult to scale. Action-conditioned video world models offer a scalable alternative by simulating policy rollouts. Autoregressive rollouts accumulate compounding errors, observations across multiple camera views must remain mutually consistent, and the evaluator must generalize to policies whose behaviors lie outside the training distribution. We address these challenges with SC3-Eval, a self-consisten...
+
+</details>
+
+---
+
+### [VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision](https://arxiv.org/abs/2606.18426v1)
+
+**Authors:** Gershom Seneviratne, Yohan Abeysinghe, Jianyu An, Vaibhav Shende, Dinesh Manocha
+
+**Published:** 2026-06-16 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18426v1) | [PDF](https://arxiv.org/pdf/2606.18426v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce VEGA, an approach for training navigation VisionLanguage-Action (VLA) models from unlabeled egocentric navigation videos. Internet-scale egocentric videos provide a scalable source of navigation-relevant visual observations, capturing cluttered scenes, close-range obstacles, and natural human motion through real-world spaces. However, these videos are not directly usable for policy learning because they do not provide obstacle-aware trajectories conditioned on explicit navigation go...
+
+</details>
+
+---
 
 ### [WireCraft: A Simulation Benchmark for Industrial DLO Manipulation](https://arxiv.org/abs/2606.18097v1)
 
@@ -218,103 +269,35 @@ Vision-Language-Action (VLA) policies have achieved remarkable single-step manip
 
 ---
 
-### [Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models](https://arxiv.org/abs/2606.17846v1)
+### [Guava: An Effective and Universal Harness for Embodied Manipulation](https://arxiv.org/abs/2606.18363v1)
+
+**Authors:** Haowen Liu, Xirui Li, Shaoxiong Yao, Peng Shi, Tianyi Zhou et al. (8 authors)
+
+**Published:** 2026-06-16 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.18363v1) | [PDF](https://arxiv.org/pdf/2606.18363v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Language models trained on large-scale vision-language data have demonstrated strong potential for embodied agents. Harnessing models through embodied tools use offers a promising alternative to end-to-end vision-language-action systems by combining high-level reasoning with external modules for perception, planning, and control. However, it remains unclear what makes an effective harness for embodied manipulation, and to what extent such a harness can unlock embodied capabilities in a wide rang...
+
+</details>
+
+---
+
+### [Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models](https://arxiv.org/abs/2606.17846v2)
 
 **Authors:** Haoqi Yuan, Zhixuan Liang, Anzhe Chen, Ye Wang, Haoyang Li et al. (23 authors)
 
 **Published:** 2026-06-16 | **Categories:** cs.RO, cs.CV, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.17846v1) | [PDF](https://arxiv.org/pdf/2606.17846v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.17846v2) | [PDF](https://arxiv.org/pdf/2606.17846v2.pdf)
 
 <details>
 <summary>Abstract</summary>
 
 Foundation models in language and multimodality achieve strong generalization by aligning heterogeneous data under a unified formulation and training at scale. In this report, we investigate whether this scaling recipe can be applied to robotic manipulation to achieve genuine generalization. This is challenging because, unlike text, manipulation data is heterogeneous by nature, expensive to collect, and narrow in diversity, making alignment and scale simultaneously difficult. We present Qwen-Rob...
-
-</details>
-
----
-
-### [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200v1)
-
-**Authors:** Hao Li, Ganlong Zhao, Yufei Liu, Haotian Hou, Guoquan Ye et al. (11 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17200v1) | [PDF](https://arxiv.org/pdf/2606.17200v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models benefit from large-scale and diverse embodied data, yet scaling robot trajectory collection is costly and labor-intensive. Recent advances show that large-scale egocentric human videos provide complementary real-world supervision in pretraining. However, joint training on human and robot data remains challenging due to divergences in action spaces, embodiment structures, temporal dynamics, and supervision quality. We introduce ACE-EGO-0, a unified VLA pretrain...
-
-</details>
-
----
-
-### [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011v1)
-
-**Authors:** Wei Xiao, Weiliang Tang, Yuying Ge, Hui Zhou, Yao Mu et al. (7 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.17011v1) | [PDF](https://arxiv.org/pdf/2606.17011v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control. Consequently, the collected intervention trajectories are often suboptimal, and methods that rely on human interventions as expert supervision can absorb hesitant, inefficient, or even erroneous behaviors. To address both the system and algo...
-
-</details>
-
----
-
-### [APEX: Adaptive Policy Execution for Precise Manipulation](https://arxiv.org/abs/2606.16504v1)
-
-**Authors:** Mengfei Zhao, Chenxi Jiang, Tuo An, Jindou Jia, Jianfei Yang
-
-**Published:** 2026-06-15 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16504v1) | [PDF](https://arxiv.org/pdf/2606.16504v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Modern imitation learning methods, including visuomotor and Vision-Language-Action (VLA) policies, typically output high-level action references that are executed by low-level controllers. However, the absence of higher-order reference signals, together with the policy's lack of awareness of the underlying low-level control dynamics during training, inevitably induces an execution gap. As a result, realized actions deviate systematically from policy-commanded ones, with a critical impact on prec...
-
-</details>
-
----
-
-### [Learned Image Compression for Vision-Language-Action Models](https://arxiv.org/abs/2606.16253v1)
-
-**Authors:** Hyeonjun Kim, Jegwang Ryu, Sangbeom Ha, Junhyeok Lee, Jun-Hyuk Kim et al. (7 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16253v1) | [PDF](https://arxiv.org/pdf/2606.16253v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models increasingly rely on high-frequency multi-camera observations, making visual communication a major bottleneck for real-time robotic control in bandwidth-constrained or distributed deployment settings. Existing image and video codecs, however, are designed to preserve generic visual fidelity rather than the control performance of downstream VLA policies. In this work, we introduce SPARC (SPatially Adaptive Rate Control), a learned image compression framework ta...
-
-</details>
-
----
-
-### [ATHENA: Accelerated Multi-Task Heterogeneous Influence Functions for Robot Data Curation](https://arxiv.org/abs/2606.16208v1)
-
-**Authors:** Tao Xu, Jiaxin Wang, Runhao Zhang, Jiayi Guan, Xianchao Zeng et al. (10 authors)
-
-**Published:** 2026-06-15 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.16208v1) | [PDF](https://arxiv.org/pdf/2606.16208v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In robot imitation learning, influence functions provide a principled approach to quantify each demonstration's effect on robot task outcomes, yet scaling them to billion-parameter Vision-Language-Action (VLA) models is limited by computational and multitask bottlenecks. To this end, we propose ATHENA, an influence function framework tailored for multitask VLA data curation at a billion-parameter scale. Concretely, it leverages the Kronecker structure of linear-layer gradients to reduce projecti...
 
 </details>
 
