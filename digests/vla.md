@@ -2,15 +2,83 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-06-23 22:59 UTC
+**Last updated:** 2026-06-24 17:53 UTC
 
-**Papers found:** 19
+**Papers found:** 23
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [InSight: Self-Guided Skill Acquisition via Steerable VLAs](https://arxiv.org/abs/2606.24884v1)
+
+**Authors:** Maggie Wang, Lars Osterberg, Stephen Tian, Ola Shorinwa, Jiajun Wu et al. (6 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24884v1) | [PDF](https://arxiv.org/pdf/2606.24884v1.pdf) | [Project Page](https://insight-vla.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., "move gripper to the bowl", "lift upward", "pour the bottle"). InSight consists of two primary stages: (1) an automated segmentation pipeline that partitions demonstrations into labeled primitives via VL...
+
+</details>
+
+---
+
+### [G$^3$VLA: Geometric inductive bias for Vision-Language-Action Models](https://arxiv.org/abs/2606.24472v1)
+
+**Authors:** Yue Peng, Yongzhe Zhao, Artur Habuda, Khuyen Pham, Yanheng Zhu et al. (8 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24472v1) | [PDF](https://arxiv.org/pdf/2606.24472v1.pdf) | [Project Page](is)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models have made rapid progress in generalist robot manipulation by harnessing semantic knowledge from pretrained vision-language backbones, but their visual tokens remain grounded in 2D image coordinates rather than the calibrated geometry of the robot's cameras -- a mismatch especially pronounced in multi-camera setups, where views are coupled by known intrinsics and extrinsics yet processed as independent images. We propose G$^3$VLA, a camera-aware geometric modul...
+
+</details>
+
+---
+
+### [DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model](https://arxiv.org/abs/2606.24051v1)
+
+**Authors:** Jingke Wang, Zhenru Zhao, Shuangming Lei, Hao Su, Yuehao Huang et al. (11 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24051v1) | [PDF](https://arxiv.org/pdf/2606.24051v1.pdf) | [Project Page](https://anonymous.4open.science/w/drivestack-vla/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action driving models convert a pretrained Vision-Language Model into a driving policy, allowing them to use world knowledge and follow language guidances. However, existing VLA driving models still lack driving-oriented spatial intelligence: their policies are mainly grounded on perspective image tokens and language priors, while precise motion planning requires metric geometry, top-down scene structure, and attention to safety-critical perceptual cues. This limitation makes cur...
+
+</details>
+
+---
+
+### [Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs](https://arxiv.org/abs/2606.23938v1)
+
+**Authors:** Xiangbo Gao, Xiukun Huang, Boyu Lu, Junge Zhang, Mengjie Mao et al. (8 authors)
+
+**Published:** 2026-06-22 | **Categories:** cs.AI, cs.CL
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.23938v1) | [PDF](https://arxiv.org/pdf/2606.23938v1.pdf) | [GitHub](https://github.com/XiangboGaoBarry/Neural-Symbolic-Drive)
+
+<details>
+<summary>Abstract</summary>
+
+Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical ...
+
+</details>
+
+---
 
 ### [LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2606.23686v1)
 
@@ -80,24 +148,41 @@ Mainstream Fast-Slow dual system vision-language-action models decouple a high-f
 
 ---
 
-### [PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models](https://arxiv.org/abs/2606.22540v1)
+## Other Recent Papers
 
-**Authors:** Xianghui Wang, Feng Chen, Wenbo Zhang, Hua Yan, Zixuan Wang et al. (7 authors)
+### [Supervise What Survives: Geometry-Guided VLA Adaptation from Synthetic Robot Videos](https://arxiv.org/abs/2606.24448v1)
 
-**Published:** 2026-06-21 | **Categories:** cs.CV
+**Authors:** Danze Chen, Yanzhe Chen, Qiming Huang, Zhijun Cao, Chen Gao et al. (6 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.22540v1) | [PDF](https://arxiv.org/pdf/2606.22540v1.pdf) | [Project Page](https://inceptionwang.github.io/PolicyTrim/)
+**Published:** 2026-06-23 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24448v1) | [PDF](https://arxiv.org/pdf/2606.24448v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models provide a unified paradigm for robotic manipulation, yet their real-world deployment is often bottlenecked by execution efficiency. While existing efforts predominantly focus on compute-centric efficiency to reduce per-step inference latency, the intrinsic \textbf{policy efficiency} of these models remains largely unexplored. Policy efficiency is fundamentally affected by two factors, namely the effective executable length of predicted action chunks and the to...
+Vision-Language-Action (VLA) models require large-scale video-action pairs, yet real teleoperation remains scarce. While generated robot videos offer a scalable alternative, existing methods treat them as real robot data by recovering pseudo-actions from synthesized pixels. We argue that deriving low-level control from generated visuals is a mismatched abstraction. A video captures only \emph{geometry}: the spatial trajectory representing the \emph{where} of a task. A real demonstration captures...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [TuringViT: Making SOTA Vision Transformers Accessible to All](https://arxiv.org/abs/2606.24253v1)
+
+**Authors:** Qiman Wu, Hanlin Chen, Lyujie Chen, Rui Xin, Jianlei Zheng et al. (22 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24253v1) | [PDF](https://arxiv.org/pdf/2606.24253v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Modern VLMs and VLA systems commonly adopt off-the-shelf ViTs such as SigLIP2 as visual encoders, but diverse downstream requirements in latency, temporal modeling, and VLM integration often call for customized SOTA-level ViTs. Training such encoders remains beyond the reach of much of the community, as it requires massive image-text data, while standard softmax attention makes high-resolution or dynamic-resolution pretraining prohibitively costly and often forces low-resolution pretraining foll...
+
+</details>
+
+---
 
 ### [LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation](https://arxiv.org/abs/2606.23685v1)
 
@@ -303,35 +388,18 @@ Long-horizon tasks are common in real-world robotic deployments, yet failure det
 
 ---
 
-### [Reference-Free Assessment of Physical Consistency in World Model-based Video Generation](https://arxiv.org/abs/2606.22363v1)
+### [Verifiable Foundation Models for Robot Safety](https://arxiv.org/abs/2606.23754v1)
 
-**Authors:** Yun Oh, Sukmin Yun
+**Authors:** Davide Corsi, Kyungmin Kim, Roy Fox
 
-**Published:** 2026-06-21 | **Categories:** cs.AI, cs.LG, cs.RO
+**Published:** 2026-06-22 | **Categories:** cs.RO, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.22363v1) | [PDF](https://arxiv.org/pdf/2606.22363v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce reference-free measures for evaluating the physical consistency of generated videos, combining relative and absolute approaches to assess fidelity. Although tools like WorldGym or WorldEval enable robotic simulation via video generation, physical fidelity gaps often prevent these environments from accurately reproducing real-world task success rates of VLA models. Unlike existing evaluation methods, which require costly human voting (Elo) or unavailable ground-truth references (FVD)...
-
-</details>
-
----
-
-### [Benchmarking Robot Memory Under Interference](https://arxiv.org/abs/2606.22338v1)
-
-**Authors:** Soumil Rathi
-
-**Published:** 2026-06-21 | **Categories:** cs.RO, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22338v1) | [PDF](https://arxiv.org/pdf/2606.22338v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.23754v1) | [PDF](https://arxiv.org/pdf/2606.23754v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Robots deployed in realistic settings will accumulate experience across many sessions and tasks over their deployment. The robot's tasks may often require it to remember information from multiple sessions ago, making long-context robot memory important for real-world deployments. However, most robot-memory benchmarks today are based on single episodes or a short context. To measure how current robot memory systems perform on longer sessions with more distractions, we introduce RoboMME-Interferen...
+Deploying foundation models for robot control raises a central challenge: the expressive power that enables rich, multimodal perception also makes these models opaque and difficult to analyze formally, rendering them intractable for existing verification tools. In this paper, we present FEARL (Foundation-Enabled Assured Robot Learning), a framework that addresses this tension through a modular architectural decomposition. FEARL separates the policy into a large Controller (C) responsible for hig...
 
 </details>
 

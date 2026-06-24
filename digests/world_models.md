@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-23 22:59 UTC
+**Last updated:** 2026-06-24 17:53 UTC
 
-**Papers found:** 17
+**Papers found:** 20
 
 [Back to Home](../README.md)
 
@@ -48,6 +48,125 @@ Video world models hold promise for simulating interactive environments, yet mai
 
 ## Other Recent Papers
 
+### [World Models in Pieces: Structural Certification for General Agents](https://arxiv.org/abs/2606.24842v1)
+
+**Authors:** Yikai Lu, Yifei Wu, Xinyu Lu, Tongxin Li
+
+**Published:** 2026-06-23 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24842v1) | [PDF](https://arxiv.org/pdf/2606.24842v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework ...
+
+</details>
+
+---
+
+### [World Value Models for Robotic Manipulation](https://arxiv.org/abs/2606.24742v1)
+
+**Authors:** Zhihao Wang, Jianxiong Li, Yu Cui, Yuan Gao, Xianyuan Zhan et al. (7 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24742v1) | [PDF](https://arxiv.org/pdf/2606.24742v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Generalist value models play a pivotal role in scaling robotic policy learning from large-scale, mixed-quality data. Mathematically, accurate value estimation demands deep temporal understanding, requiring models to both ground the current belief using historical context and plan over future outcomes. However, most existing robotic value models are built on Vision-Language Model (VLM) backbones that are pretrained primarily on static or temporally sparse visual observations, lacking the requisit...
+
+</details>
+
+---
+
+### [Trimming the Long-Tail of Visual World Modeling Evaluation](https://arxiv.org/abs/2606.24256v1)
+
+**Authors:** Bingxuan Li, Yining Hong, Cheng Qian, Hyeonjeong Ha, Jiateng Liu et al. (9 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24256v1) | [PDF](https://arxiv.org/pdf/2606.24256v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Physical interactions follow a long-tailed distribution: a set of common and regular interactions dominates human experience and visual data, while a broad spectrum of rare and irregular interactions remains underrepresented. Although recent visual world models, including image and video generation models, achieve impressive realism on existing benchmarks, they primarily focus on simulating common physical interactions. This raises a central question: Do current visual world models internalize a...
+
+</details>
+
+---
+
+### [Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models](https://arxiv.org/abs/2606.24152v1)
+
+**Authors:** Xin Wang, Wenxuan Liu, Tongtong Feng, Wenwu Zhu
+
+**Published:** 2026-06-23 | **Categories:** cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24152v1) | [PDF](https://arxiv.org/pdf/2606.24152v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Existing literature claims that video generation essentially is world modelling. On the one hand, the claim is productive because it pushes generative AI beyond static images and toward temporally extended physical scenes. On the other hand, this claim dangerously relies on the belief that scaling visual prediction alone will automatically yield physical agents. We prefer a more accurate statement: video generation models learn a partial, implicit spatiotemporal world model, but not a fully grou...
+
+</details>
+
+---
+
+### [NavWM: A Unified Navigation World Model for Foresight-Driven Planning](https://arxiv.org/abs/2606.24101v1)
+
+**Authors:** Yanghong Mei, Longteng Guo, Ming-Ming Yu, Guiyu Zhao, Xingjian He et al. (6 authors)
+
+**Published:** 2026-06-23 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24101v1) | [PDF](https://arxiv.org/pdf/2606.24101v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Conventional visual navigation policies often struggle with myopic decision-making and mode collapse in complex environments. While world models offer a promising alternative, existing paradigms typically isolate perception, generation, and control, failing to capture their shared spatio-temporal dynamics. In this paper, we propose NavWM, a unified navigation world model that seamlessly integrates latent world reasoning, multimodal action prediction, and controllable visual generation. At its co...
+
+</details>
+
+---
+
+### [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089v1)
+
+**Authors:** Haidong Hou, Zhangguo Yu, Hengbo Qi, Jianlin Zhang
+
+**Published:** 2026-06-23 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24089v1) | [PDF](https://arxiv.org/pdf/2606.24089v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework. To enhance terrain encoding capability and enable transparent assessment, we introduce a world model as a regularizer t...
+
+</details>
+
+---
+
+### [Critique of Agent Model](https://arxiv.org/abs/2606.23991v1)
+
+**Authors:** Eric Xing, Mingkai Deng, Jinyu Hou
+
+**Published:** 2026-06-22 | **Categories:** cs.AI, cs.LG, cs.MA
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.23991v1) | [PDF](https://arxiv.org/pdf/2606.23991v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic" tools that promise to drive up productivity, and at the same time, ``existential" concerns such as AI escaping human control with destructive power under a speculative ``machine agency" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understandi...
+
+</details>
+
+---
+
 ### [LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation](https://arxiv.org/abs/2606.23685v1)
 
 **Authors:** Jiaming Liu, Yinxi Wang, Chenyang Gu, Siyuan Qian, Xiangju Mi et al. (18 authors)
@@ -65,13 +184,13 @@ Human-hand demonstrations provide a direct and scalable source of physical inter
 
 ---
 
-### [SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors](https://arxiv.org/abs/2606.23444v1)
+### [SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors](https://arxiv.org/abs/2606.23444v2)
 
 **Authors:** Pratyaksh Rao, Wancong Zhang, Randall Balestriero, Yann LeCun, Giuseppe Loianno
 
 **Published:** 2026-06-22 | **Categories:** cs.RO, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.23444v1) | [PDF](https://arxiv.org/pdf/2606.23444v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.23444v2) | [PDF](https://arxiv.org/pdf/2606.23444v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -230,74 +349,6 @@ In this paper, a novel test-time scaling law for physical artificial intelligenc
 <summary>Abstract</summary>
 
 Diffusion policies enable multimodal robot behavior but offer limited ability to choose among behavior modes at inference time, even though such control is desirable in human-robot settings. Prior solutions to this lack of control have utilized Signal Temporal Logic (STL) to express human intentions and provide corresponding guidance for diffusion policy inference. However, these approaches can only guide diffusion policies that jointly generate future actions and states, increasing both complex...
-
-</details>
-
----
-
-### [Imagine to Ensure Safety in Hierarchical Reinforcement Learning](https://arxiv.org/abs/2606.22509v1)
-
-**Authors:** Gregory Gorbov, Artem Latyshev, Aleksandr I. Panov
-
-**Published:** 2026-06-21 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22509v1) | [PDF](https://arxiv.org/pdf/2606.22509v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-This work investigates the safe exploration problem in reinforcement learning, where an agent must maximize cumulative performance while simultaneously satisfying safety constraints. This challenge becomes even more pronounced in long-horizon tasks, where existing safe methods face fundamental limitations due to compounding estimation errors and restricted exploration capabilities. To address this problem, we propose a method that combines a learnable world model with two complementary policies ...
-
-</details>
-
----
-
-### [Self-Evolving Cognitive Framework via Causal World Modeling for Embodied Scientific Intelligence](https://arxiv.org/abs/2606.22449v1)
-
-**Authors:** Yi Yu, Tetsunari Inamura
-
-**Published:** 2026-06-21 | **Categories:** cs.AI, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22449v1) | [PDF](https://arxiv.org/pdf/2606.22449v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Current embodied world models are primarily optimized for predictive objectives, limiting their ability to generalize under distribution shifts and reason systematically about unseen situations and hypothetical interventions. We argue that embodied intelligence should move beyond predictive world modeling toward self-evolving cognitive systems that continually construct and refine internal causal representations through interaction with the environment. To this end, we propose a self-evolving co...
-
-</details>
-
----
-
-### [Words as Difference Makers: How Large Language Models Determine Causal Structure in Text](https://arxiv.org/abs/2606.22430v1)
-
-**Authors:** Wolfgang Pietsch
-
-**Published:** 2026-06-21 | **Categories:** cs.CL, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22430v1) | [PDF](https://arxiv.org/pdf/2606.22430v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Because large language models (LLMs) are impressively successful in predicting text, it appears that they must have access to a 'world model' representing causal and definitional structure. However, the dominant formalisms of modern causal inference -- Judea Pearl's interventionist approach and the Neyman-Rubin potential outcomes framework -- struggle to illuminate how LLMs learn causal structure. I resolve this puzzle by arguing that LLMs employ a specific inductive approach based on a differen...
-
-</details>
-
----
-
-### [Reference-Free Assessment of Physical Consistency in World Model-based Video Generation](https://arxiv.org/abs/2606.22363v1)
-
-**Authors:** Yun Oh, Sukmin Yun
-
-**Published:** 2026-06-21 | **Categories:** cs.AI, cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22363v1) | [PDF](https://arxiv.org/pdf/2606.22363v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce reference-free measures for evaluating the physical consistency of generated videos, combining relative and absolute approaches to assess fidelity. Although tools like WorldGym or WorldEval enable robotic simulation via video generation, physical fidelity gaps often prevent these environments from accurately reproducing real-world task success rates of VLA models. Unlike existing evaluation methods, which require costly human voting (Elo) or unavailable ground-truth references (FVD)...
 
 </details>
 
