@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-24 22:58 UTC
+**Last updated:** 2026-06-25 18:09 UTC
 
-**Papers found:** 20
+**Papers found:** 14
 
 [Back to Home](../README.md)
 
@@ -12,41 +12,126 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [MeGAS: Thermomechanical Dynamic Gaussian Splatting for Thermophysical Scene Editing](https://arxiv.org/abs/2606.23455v1)
+### [USS: Unified Spatial-Semantic Prompts for Embodied Visual Tracking with Latent Dynamics Learning](https://arxiv.org/abs/2606.25880v1)
 
-**Authors:** Zesong Yang, Yuanhang Lei, Liyuan Cui, Yihang Chen, Jiaer Huang et al. (9 authors)
+**Authors:** Yuchen Xie, Xinyu Zhou, Kuangji Zuo, Yanshuo Lu, Fengrui Huang et al. (7 authors)
 
-**Published:** 2026-06-22 | **Categories:** cs.CV
+**Published:** 2026-06-24 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.23455v1) | [PDF](https://arxiv.org/pdf/2606.23455v1.pdf) | [Project Page](http://zju3dv.github.io/MeGAS)
+**Links:** [arXiv](https://arxiv.org/abs/2606.25880v1) | [PDF](https://arxiv.org/pdf/2606.25880v1.pdf) | [Project Page](https://arescheah.github.io/uss-project-page/)
 
 <details>
 <summary>Abstract</summary>
 
-Recent advances integrate physically grounded Newtonian dynamics with neural rendering frameworks, narrowing the gap between photorealistic scene reconstruction and physics-based animation. However, existing approaches focus on mechanically driven dynamics while neglecting temperature, a fundamental yet invisible physical factor underlying phenomena such as melting, solidification, and other thermomechanical processes. In this paper, we propose MeGAS, a novel framework that incorporates thermome...
+Embodied Visual Tracking (EVT) requires an agent to continuously follow a specified target while actively moving through dynamic environments. However, prevailing EVT paradigms predominantly rely on language-based target indication. While language is expressive and convenient, cluttered scenes often contain multiple objects that satisfy the same semantic description, leading to ambiguous target grounding. We therefore propose a paradigm shift, reframing target indication in EVT from text-only sp...
 
 </details>
 
 ---
 
-### [Compression and Retrieval: Implicit Memory Retrieval for Video World Models](https://arxiv.org/abs/2606.23105v1)
+### [When Do Conservation Laws Survive Learned Representations? Certified Horizons for Latent World Models](https://arxiv.org/abs/2606.24945v1)
 
-**Authors:** Zhan Peng, Jie Ma, Huiqiang Sun, Chong Gao, Zhijie Xue et al. (9 authors)
+**Authors:** Hongbo Wang
 
-**Published:** 2026-06-22 | **Categories:** cs.CV
+**Published:** 2026-06-23 | **Categories:** cs.LG, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.23105v1) | [PDF](https://arxiv.org/pdf/2606.23105v1.pdf) | [GitHub](https://github.com/Orange-3DV-Team/CaR)
+**Links:** [arXiv](https://arxiv.org/abs/2606.24945v1) | [PDF](https://arxiv.org/pdf/2606.24945v1.pdf) | [GitHub](https://github.com/TimothyWang418/se3-ejepa)
 
 <details>
 <summary>Abstract</summary>
 
-Video world models hold promise for simulating interactive environments, yet maintaining consistent long-term memory across complex camera trajectories remains a critical challenge. Existing methods typically rely on computationally expensive context scaling or rigid heuristic retrieval mechanisms, which lacks generalization to varying camera trajectories and environments. In this paper, we propose Compression and Retrieval (CaR), an attention-driven implicit memory retrieval mechanism to overco...
+We ask a representation-learning question about physical world models: when does a conservation law remain certifiable after a model learns a latent representation? A certified horizon bounds -- in advance, from measurable model defects -- how many steps a rollout provably stays on a physical invariant's level set. The key design choice is what is certified: not a learned latent Hamiltonian or a learned scalar witness (a model can conserve either while drifting in true energy), but the decoded p...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems](https://arxiv.org/abs/2606.26057v1)
+
+**Authors:** Seth Dobrin, Łukasz Chmiel
+
+**Published:** 2026-06-24 | **Categories:** cs.AI, cs.CR, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26057v1) | [PDF](https://arxiv.org/pdf/2606.26057v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI system with sufficient reach into its own runtime, a class we term escapable AI systems. We identify four properties that an authorization mecha...
+
+</details>
+
+---
+
+### [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v1)
+
+**Authors:** Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji et al. (7 authors)
+
+**Published:** 2026-06-24 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26025v1) | [PDF](https://arxiv.org/pdf/2606.26025v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Modern Vision-Language-Action (VLA) models often fail to generalize to novel setups, such as altered camera viewpoints or robot morphologies, because they are typically conditioned only on current observations and language instructions. By ignoring the underlying system configuration as a variable, these models implicitly assume a fixed execution context encountered during training, necessitating data-intensive fine-tuning for any new environment. In this work, we introduce In-Context World Mode...
+
+</details>
+
+---
+
+### [Beyond One-Size-Fits-All: Diagnosis-Driven Online Reinforcement Learning with Offline Priors](https://arxiv.org/abs/2606.25527v1)
+
+**Authors:** Guozheng Ma, Lu Li, Zilin Wang, Pierre-Luc Bacon, Dacheng Tao
+
+**Published:** 2026-06-24 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.25527v1) | [PDF](https://arxiv.org/pdf/2606.25527v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Online reinforcement learning (RL) agents increasingly depend on knowledge acquired offline to achieve practical efficiency. Originally studied in offline-to-online RL, this paradigm now spans foundation model post-training and embodied intelligence, with prior types expanding from offline datasets and pre-trained policies to increasingly diverse knowledge sources such as multimodal foundation models and generative world models. Offline priors have become central to how deep RL is developed and ...
+
+</details>
+
+---
+
+### [Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models](https://arxiv.org/abs/2606.25473v1)
+
+**Authors:** Kaiwen Zheng, Guande He, Min Zhao, Jintao Zhang, Huayu Chen et al. (10 authors)
+
+**Published:** 2026-06-24 | **Categories:** cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.25473v1) | [PDF](https://arxiv.org/pdf/2606.25473v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive video diffusion with causal diffusion transformers has emerged as a major paradigm for real-time streaming video generation and action-conditioned interactive world models. In this work, we extend rCM, an advanced diffusion distillation framework, to autoregressive video diffusion. The core philosophy of rCM lies in the complementarity between forward and reverse divergences, represented by consistency models (CMs) and distribution matching distillation (DMD), respectively, in dif...
+
+</details>
+
+---
+
+### [Hypergraph Normal World Models for Logical Visual Anomaly Detection](https://arxiv.org/abs/2606.25368v1)
+
+**Authors:** Weizhi Nie, Zibo Xu, Weijie Wang, Yuting Su
+
+**Published:** 2026-06-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.25368v1) | [PDF](https://arxiv.org/pdf/2606.25368v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Visual anomaly detection is often deployed with only normal training images. Most one-class detectors map test patches or features to a normal reference distribution. This works well for local structural defects. Logical anomalies are different. Each visible part may look normal, while the whole image violates a normal count, co-occurrence, or spatial relation. This paper studies whether a model can learn such a category-specific normal world from nominal images alone. We propose the Hypergraph ...
+
+</details>
+
+---
 
 ### [World Models in Pieces: Structural Certification for General Agents](https://arxiv.org/abs/2606.24842v1)
 
@@ -99,6 +184,23 @@ Physical interactions follow a long-tailed distribution: a set of common and reg
 
 ---
 
+### [Conformal Orbit-Valid Trust Horizons for Equivariant World Models](https://arxiv.org/abs/2606.24946v1)
+
+**Authors:** Hongbo Wang
+
+**Published:** 2026-06-23 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.24946v1) | [PDF](https://arxiv.org/pdf/2606.24946v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Learned world models are useful only over horizons on which their rollout error remains controlled. We study trust-horizon certification for latent world models with known group symmetries. Given a one-step latent residual and a finite-time expansion estimate, we form a raw horizon curve and calibrate it with a split-conformal multiplicative factor. On the reproducible audit set, the conformal factor is $γ_α=1.0$: the raw certificate is already conservative under the audit protocol. Across 50 st...
+
+</details>
+
+---
+
 ### [Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models](https://arxiv.org/abs/2606.24152v1)
 
 **Authors:** Xin Wang, Wenxuan Liu, Tongtong Feng, Wenwu Zhu
@@ -145,210 +247,6 @@ Conventional visual navigation policies often struggle with myopic decision-maki
 <summary>Abstract</summary>
 
 Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework. To enhance terrain encoding capability and enable transparent assessment, we introduce a world model as a regularizer t...
-
-</details>
-
----
-
-### [Critique of Agent Model](https://arxiv.org/abs/2606.23991v1)
-
-**Authors:** Eric Xing, Mingkai Deng, Jinyu Hou
-
-**Published:** 2026-06-22 | **Categories:** cs.AI, cs.LG, cs.MA
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23991v1) | [PDF](https://arxiv.org/pdf/2606.23991v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic" tools that promise to drive up productivity, and at the same time, ``existential" concerns such as AI escaping human control with destructive power under a speculative ``machine agency" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understandi...
-
-</details>
-
----
-
-### [LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation](https://arxiv.org/abs/2606.23685v1)
-
-**Authors:** Jiaming Liu, Yinxi Wang, Chenyang Gu, Siyuan Qian, Xiangju Mi et al. (18 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23685v1) | [PDF](https://arxiv.org/pdf/2606.23685v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Human-hand demonstrations provide a direct and scalable source of physical interaction data for robot learning. While manual retargeting is indispensable for establishing kinematic action correspondence across different morphologies, robust transfer requires going beyond geometry to address the underlying alignment of physical dynamics between human and robot manipulation. To address this, we introduce LaST-HD, a novel human-to-robot action learning paradigm that extends reasoning-before-acting ...
-
-</details>
-
----
-
-### [SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors](https://arxiv.org/abs/2606.23444v2)
-
-**Authors:** Pratyaksh Rao, Wancong Zhang, Randall Balestriero, Yann LeCun, Giuseppe Loianno
-
-**Published:** 2026-06-22 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23444v2) | [PDF](https://arxiv.org/pdf/2606.23444v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Accurate dynamics models are critical for informed decision-making in robotic systems, particularly for agile aerial vehicles operating under uncertainty. Neural network dynamics models are attractive for capturing complex nonlinear effects, but existing predictive approaches struggle with long-horizon forecasting because their autoregressive rollout mechanism amplifies errors over time. Joint Embedding Predictive Architectures (JEPAs) offer a compelling alternative by modeling dynamics in laten...
-
-</details>
-
----
-
-### [From Pixels to Concepts: Growing Rich 3D Semantic Scene Graph Forests utilizing Foundation Models](https://arxiv.org/abs/2606.23312v1)
-
-**Authors:** David Oberacker, Meike Deitersen, Niklas Spielbauer, Tristan Schnell, Georg Heppner et al. (6 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23312v1) | [PDF](https://arxiv.org/pdf/2606.23312v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Operating in complex real-world environments requires robots to understand their surroundings on a functional semantic level. This demands a detailed multi-layer world model capturing the complex relations of its surroundings. Hierarchical 3D scene graphs address this challenge by integrating geometric, semantic, and relational data within a unified spatial framework. However, current 3D scene graph approaches often restrict themselves to rigid structures of pre-determined relationship classes, ...
-
-</details>
-
----
-
-### [IOI: Decoupling Kinematics and Physics for Interactive World Models](https://arxiv.org/abs/2606.23296v1)
-
-**Authors:** Chengyu Bai, Peidong Jia, Tiecheng Guo, Yukai Wang, Rui Ma et al. (14 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23296v1) | [PDF](https://arxiv.org/pdf/2606.23296v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Developing generalist embodied agents requires interactive environments providing visually realistic feedback and accurate action-conditioned dynamics. Interactive world models address this by simulating such complex dynamics. However, purely data-driven methods struggle to ensure precise control alignment and physically plausible visual feedback due to a lack of explicit structural constraints. To address this, we propose IOI, a hybrid interactive world model integrating analytical kinematic pr...
-
-</details>
-
----
-
-### [Causal Reward World Models: Zero-shot Reward Design for Automated Skill Generation](https://arxiv.org/abs/2606.23280v1)
-
-**Authors:** Yang Yang, Yuchuang Tong, Zhengtao Zhang, Xu Ding, Ning Yang et al. (9 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23280v1) | [PDF](https://arxiv.org/pdf/2606.23280v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Automated Reward Design (ARD) aims to replace manual reward engineering in reinforcement learning with language-driven reward function synthesis. However, existing approaches based on large language models (LLMs) remain inherently correlation-driven, relying on iterative environmental feedback to refine reward hypotheses for each specific task. This paradigm not only results in inefficient reasoning but also makes LLMs susceptible to semantically plausible yet causally spurious reward components...
-
-</details>
-
----
-
-### [Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents](https://arxiv.org/abs/2606.23085v1)
-
-**Authors:** Haoran Zhang, Yifu Lu, Boyang Wang, Xuhui Kang, Yen-Ling Kuo et al. (8 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23085v1) | [PDF](https://arxiv.org/pdf/2606.23085v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Long-horizon tasks are common in real-world robotic deployments, yet failure detection for such tasks remains underexplored. Detecting failures in long-horizon robotic tasks is particularly challenging because failure onset is often ambiguous and dense temporal annotations are typically unavailable. We present Foresight, a failure detection framework that monitors manipulation trajectories using latent representations from an action-conditioned world model. Foresight is trained using only final ...
-
-</details>
-
----
-
-### [AdaReP:Adaptive Re-Planning under Model Mismatch for Neural World-Model Predictive Control](https://arxiv.org/abs/2606.23079v1)
-
-**Authors:** Yutian Cheng, Xiaojian Ma, Xianhao Wang, Min Yang, Rongpeng Su et al. (9 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.23079v1) | [PDF](https://arxiv.org/pdf/2606.23079v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Neural world models coupled with model predictive control (MPC) replan at every environment step to bound accumulated prediction error, but this incurs substantial computational overhead. Reusing a cached plan reduces this overhead, yet its effectiveness depends on how prediction mismatch propagates through the local dynamics. We analyze this trade-off with a perturbation-based dynamic-regret framework and show that stale-plan penalties scale with the reuse tolerance, the accumulated mismatch si...
-
-</details>
-
----
-
-### [Attacking the Trusted Imagination: Oracle-Level Integrity Attacks on Imagine-then-Act World Models](https://arxiv.org/abs/2606.22966v1)
-
-**Authors:** Linghan Chen, Kaiyan Ji, Minyu Guo
-
-**Published:** 2026-06-22 | **Categories:** cs.LG, cs.AI, cs.CR
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22966v1) | [PDF](https://arxiv.org/pdf/2606.22966v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Many recent vision-language-action (VLA) policies adopt an imagine-then-act design. A world-action model (WAM) first imagines a short future as a latent trajectory z~, on which the action is then conditioned. We identify this trusted imagination, rather than the reactive policy, as the exposed attack surface. A downstream oracle, such as a safety gate, a visual model-predictive-control (MPC) planner, or an imagine-then-check verifier, consumes z~ as a prediction of the future. The robustness of ...
-
-</details>
-
----
-
-### [Each Judge Its Own Yardstick: Discovering Per-VLM Taxonomies for Physical Video Evaluation](https://arxiv.org/abs/2606.22918v1)
-
-**Authors:** Yu Cao, Ziquan Liu, Zhensong Zhang, Jiankang Deng, Shaogang Gong et al. (6 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.CV, cs.GT
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22918v1) | [PDF](https://arxiv.org/pdf/2606.22918v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Maintaining physical consistency in video generators and world models increasingly relies on vision-language models (VLMs) as automated judges that provide reward signals, ranking decisions, and data-filtering criteria. Yet VLMs differ substantially in training data and architecture, encoding physical phenomena through distinct internal representations. A single global evaluation schema therefore gives every VLM the same axes of competence, regardless of what each can actually perceive. We propo...
-
-</details>
-
----
-
-### [Active Inference as the Test-Time Scaling Law for Physical AI Agents](https://arxiv.org/abs/2606.22813v1)
-
-**Authors:** Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston et al. (6 authors)
-
-**Published:** 2026-06-22 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22813v1) | [PDF](https://arxiv.org/pdf/2606.22813v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In this paper, a novel test-time scaling law for physical artificial intelligence (AI) agents is introduced. This scaling law enables physical AI agents to reason with their world models to generalize in unforeseen scenarios at test time. The derived scaling law is grounded in the first principle of active inference, which equips agents with the general objective to survive in the real world, under which their specific task objectives are subsumed. Active inference achieves this by providing the...
-
-</details>
-
----
-
-### [Temporal Logic Guidance for Action-Only Diffusion Policies with World Models](https://arxiv.org/abs/2606.22729v1)
-
-**Authors:** Moritz Zoellner, Anastasios Manganaris, Rohan Paleja
-
-**Published:** 2026-06-22 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.22729v1) | [PDF](https://arxiv.org/pdf/2606.22729v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Diffusion policies enable multimodal robot behavior but offer limited ability to choose among behavior modes at inference time, even though such control is desirable in human-robot settings. Prior solutions to this lack of control have utilized Signal Temporal Logic (STL) to express human intentions and provide corresponding guidance for diffusion policy inference. However, these approaches can only guide diffusion policies that jointly generate future actions and states, increasing both complex...
 
 </details>
 
