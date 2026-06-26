@@ -2,15 +2,83 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-25 23:07 UTC
+**Last updated:** 2026-06-26 17:47 UTC
 
-**Papers found:** 14
+**Papers found:** 19
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [PhysiFormer: Learning to Simulate Mechanics in World Space](https://arxiv.org/abs/2606.27364v1)
+
+**Authors:** Yiming Chen, Yushi Lan, Andrea Vedaldi
+
+**Published:** 2026-06-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.27364v1) | [PDF](https://arxiv.org/pdf/2606.27364v1.pdf) | [Project Page](https://yimingc9.github.io/physiformer)
+
+<details>
+<summary>Abstract</summary>
+
+We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as object material type, rigid or elastic, the model samples future vertex trajectories. While related neural physics approaches build on ad-hoc latent spaces or explicitly enforce rigidity and causality,...
+
+</details>
+
+---
+
+### [EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting](https://arxiv.org/abs/2606.27277v1)
+
+**Authors:** Junwei Luo, Shuai Yuan, Zhenya Yang, Yansheng Li, Zhe Liu et al. (6 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.27277v1) | [PDF](https://arxiv.org/pdf/2606.27277v1.pdf) | [GitHub](https://github.com/Luo-Z13/EO-WM)
+
+<details>
+<summary>Abstract</summary>
+
+Earth Observation (EO) forecasting aims to predict future Earth surface dynamics from satellite observations under changing meteorological conditions. In this paper, we view this task as a partially observed, weather-driven world modeling problem, in which weather acts as a conditioning signal, while forecasting remains uncertain due to sparse observations and unobserved land-surface states. However, existing methods do not fully capture this setting: deterministic models collapse uncertainty in...
+
+</details>
+
+---
+
+### [LithoDreamer: A Physics-Informed World Model for Multi-Stage Computational Lithography](https://arxiv.org/abs/2606.26713v1)
+
+**Authors:** Yuqi Jiang, Yumeng Liu, Zimu Li, Jinyuan Deng, Qian Jin et al. (10 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26713v1) | [PDF](https://arxiv.org/pdf/2606.26713v1.pdf) | [GitHub](https://github.com/7jiangyq/lithodreamer.git)
+
+<details>
+<summary>Abstract</summary>
+
+As semiconductor technology nodes scale, computational lithography is essential for ensuring yield and performance. However, lithography is a continuous physical process involving mask optimization, optical imaging, resist exposure, and development, which existing models fail to capture. To overcome this limitation, we present LithoDreamer, the first physics-informed World Model (WM) framework for computational lithography, which formulates the ``Layout-Mask-Resist Image-After Development Image ...
+
+</details>
+
+---
+
+### [PhysEditWorld: A Large-Scale Dataset Toward Physics-Editable World Models](https://arxiv.org/abs/2606.26694v1)
+
+**Authors:** Bin Hu, Yanwen Ma, Jiehui Huang, Ziliang Zhang, Haoning Wu et al. (17 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26694v1) | [PDF](https://arxiv.org/pdf/2606.26694v1.pdf) | [Project Page](https://yizhiqianbi.github.io/physeditworld/)
+
+<details>
+<summary>Abstract</summary>
+
+Recent game world models can synthesize visually plausible, action-conditioned rollouts. However, their interaction behaviors often remain limited to exploratory or wandering trajectories, and physical dynamics are typically learned as implicit correlations from data rather than as controllable variables. This limitation hinders their applicability to authored game environments, where physical rules are deliberately designed and require explicit manipulation. We introduce PhysEditWorld, a multim...
+
+</details>
+
+---
 
 ### [USS: Unified Spatial-Semantic Prompts for Embodied Visual Tracking with Latent Dynamics Learning](https://arxiv.org/abs/2606.25880v1)
 
@@ -29,24 +97,160 @@ Embodied Visual Tracking (EVT) requires an agent to continuously follow a specif
 
 ---
 
-### [When Do Conservation Laws Survive Learned Representations? Certified Horizons for Latent World Models](https://arxiv.org/abs/2606.24945v1)
+## Other Recent Papers
 
-**Authors:** Hongbo Wang
+### [Hallucination in World Models is Predictable and Preventable](https://arxiv.org/abs/2606.27326v1)
 
-**Published:** 2026-06-23 | **Categories:** cs.LG, cs.RO
+**Authors:** Nicklas Hansen, Xiaolong Wang
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.24945v1) | [PDF](https://arxiv.org/pdf/2606.24945v1.pdf) | [GitHub](https://github.com/TimothyWang418/se3-ejepa)
+**Published:** 2026-06-25 | **Categories:** cs.LG, cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.27326v1) | [PDF](https://arxiv.org/pdf/2606.27326v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-We ask a representation-learning question about physical world models: when does a conservation law remain certifiable after a model learns a latent representation? A certified horizon bounds -- in advance, from measurable model defects -- how many steps a rollout provably stays on a physical invariant's level set. The key design choice is what is certified: not a learned latent Hamiltonian or a learned scalar witness (a model can conserve either while drifting in true energy), but the decoded p...
+Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics. We hypothesize that hallucination concentrates in low-coverage regions of the state-action space, where lightweight data-centric signals can both detect it and guide mitigation. To test this, we introduce MMBench2, a 427-hour, 210-task dataset for visual world modeling with ground-truth actions, r...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model](https://arxiv.org/abs/2606.27325v1)
+
+**Authors:** Zizhao Yuan, Zhengtu Liang, Taowen Wang, Qiwei Liang, Yichi Wang et al. (10 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.27325v1) | [PDF](https://arxiv.org/pdf/2606.27325v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in action-conditioned world models show promising progress in modeling complex interactions and forecasting future states under diverse action sequences. While these models are often driven by stronger visual representations and model capacity, action conditioning itself remains underexplored. Most existing approaches compress the entire action sequence into a single representation, which works well for low-DoF control but becomes less reliable in high-DoF scenarios. We observe t...
+
+</details>
+
+---
+
+### [A Generalization Theory for JEPA-Based World Models](https://arxiv.org/abs/2606.27014v1)
+
+**Authors:** Jingyi Cui, Qi Zhang, Hongwei Wen, Yisen Wang
+
+**Published:** 2026-06-25 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.27014v1) | [PDF](https://arxiv.org/pdf/2606.27014v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Joint Embedding Predictive Architectures (JEPAs) have recently emerged as a promising paradigm for world modeling by learning predictive dynamics in a latent space rather than generating future observations at the input level. Despite their empirical success, the theoretical understanding of JEPA-based world models remains limited. In this paper, we develop the first generalization theory for JEPA-based world models. We formulate JEPA pretraining as a conditional spectral graph learning problem ...
+
+</details>
+
+---
+
+### [Einstein World Models](https://arxiv.org/abs/2606.26969v1)
+
+**Authors:** Munachiso Samuel Nwadike, Zangir Iklassov, Ali Mekky, Zayd M. Kawakibi Zuhri, Kentaro Inui
+
+**Published:** 2026-06-25 | **Categories:** cs.AI, cs.CL, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26969v1) | [PDF](https://arxiv.org/pdf/2606.26969v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Does intelligence require the ability to reason about phenomena beyond direct experience? It is natural to suspect that some complex thought cannot be captured through language alone. However, of particular concern to this work, is whether visualising counterfactual events can complement language as a mechanism for complex thought. We ask whether LLMs can be trained to utilise such visualisation mechanisms, in a way that benefits their reasoning abilities. Motivated by this question, we propose ...
+
+</details>
+
+---
+
+### [Look-Before-Move: Narrative-Grounded World Visual Attention in Dynamic 3D Story Worlds](https://arxiv.org/abs/2606.26964v1)
+
+**Authors:** Jiaming Bian, Bingliang Li, Yuehao Wu, Pichao Wang, Zhi Wang et al. (8 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26964v1) | [PDF](https://arxiv.org/pdf/2606.26964v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+As embodied AI and world models increasingly operate in dynamic 3D environments, visual perception must move beyond passively interpreting given observations toward actively deciding what to observe. We study this problem through camera planning in dynamic 3D story worlds, where the camera must not only generate smooth motion, but also decide what visual evidence should be acquired before it moves. We formulate this capability as Narrative-Grounded World Visual Attention, where the camera acts a...
+
+</details>
+
+---
+
+### [Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling](https://arxiv.org/abs/2606.26922v1)
+
+**Authors:** Daosheng Qiu, Haozhuang Chi, Hao Su, Shu Long, Xinyue Miao et al. (7 authors)
+
+**Published:** 2026-06-25 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26922v1) | [PDF](https://arxiv.org/pdf/2606.26922v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Continuous driver monitoring in automated vehicles requires low-latency inference while avoiding unsafe decisions under uncertain driver states. Large vision-language models provide broad multimodal priors, but their latency and limited reliability in this setting make them unsuitable as always-on in-cabin monitors. We propose a cost-aware selective inference framework for deployable multimodal driver monitoring. The core system is a lightweight RGB-physiological student that combines in-cabin v...
+
+</details>
+
+---
+
+### [Neural Voxel Dynamics: Learning Implicit 3D Physics via Volumetric Feature Advection](https://arxiv.org/abs/2606.26410v1)
+
+**Authors:** Zican Wang, Niloy Mitra
+
+**Published:** 2026-06-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26410v1) | [PDF](https://arxiv.org/pdf/2606.26410v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We present a self-supervised framework for learning implicit 3D physical dynamics directly from video-derived supervisory signals. While current generative video models achieve high visual fidelity, they lack a 3D geometric foundation, often resulting in physical inconsistencies and a failure to maintain object permanence. We address this by shifting the predictive bottleneck from 2D image space to a `lifted' 3D Volumetric Latent Space. Our method unprojects semantic features from a Video Joint-...
+
+</details>
+
+---
+
+### [KRVF: A Source-Aware Semantic Voxel World Representation for Edge Mobile Manipulation](https://arxiv.org/abs/2606.26321v1)
+
+**Authors:** Runfeng Ling
+
+**Published:** 2026-06-24 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26321v1) | [PDF](https://arxiv.org/pdf/2606.26321v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Mobile manipulators need world models that are current, queryable, semantically meaningful, and usable under edge-compute constraints. This technical report presents KRVF, a source-aware semantic voxel world representation for edge mobile manipulation. Unlike reconstruction-centric mapping pipelines that primarily optimize global geometric fidelity, KRVF represents local world state as task-oriented voxels that encode occupancy, color, semantic evidence, temporal freshness, and evidence source. ...
+
+</details>
+
+---
+
+### [Fast LeWorldModel](https://arxiv.org/abs/2606.26217v1)
+
+**Authors:** Yuntian Gao, Xiangyu Xu
+
+**Published:** 2026-06-24 | **Categories:** cs.LG, cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.26217v1) | [PDF](https://arxiv.org/pdf/2606.26217v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-Embedding Predictive Architectures (JEPAs), including recent LeWorldModel (LeWM), have become a promising foundation for reconstruction-free visual world models. For visual planning, however, LeWM evaluates candidate action sequences by repeatedly applying a local one-step latent transition model. This autoregressive rollout makes planning computationally expensive and exposes the predicted trajectory to accumulated latent errors as the horizon grows. We propose Fast LeWorldModel (Fast-LeW...
+
+</details>
+
+---
 
 ### [The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems](https://arxiv.org/abs/2606.26057v1)
 
@@ -65,13 +269,13 @@ AI agents are granted access to tools, APIs, and other infrastructure, making th
 
 ---
 
-### [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v1)
+### [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v2)
 
 **Authors:** Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji et al. (7 authors)
 
 **Published:** 2026-06-24 | **Categories:** cs.RO, cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.26025v1) | [PDF](https://arxiv.org/pdf/2606.26025v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.26025v2) | [PDF](https://arxiv.org/pdf/2606.26025v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -128,125 +332,6 @@ Autoregressive video diffusion with causal diffusion transformers has emerged as
 <summary>Abstract</summary>
 
 Visual anomaly detection is often deployed with only normal training images. Most one-class detectors map test patches or features to a normal reference distribution. This works well for local structural defects. Logical anomalies are different. Each visible part may look normal, while the whole image violates a normal count, co-occurrence, or spatial relation. This paper studies whether a model can learn such a category-specific normal world from nominal images alone. We propose the Hypergraph ...
-
-</details>
-
----
-
-### [World Models in Pieces: Structural Certification for General Agents](https://arxiv.org/abs/2606.24842v1)
-
-**Authors:** Yikai Lu, Yifei Wu, Xinyu Lu, Tongxin Li
-
-**Published:** 2026-06-23 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24842v1) | [PDF](https://arxiv.org/pdf/2606.24842v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework ...
-
-</details>
-
----
-
-### [World Value Models for Robotic Manipulation](https://arxiv.org/abs/2606.24742v1)
-
-**Authors:** Zhihao Wang, Jianxiong Li, Yu Cui, Yuan Gao, Xianyuan Zhan et al. (7 authors)
-
-**Published:** 2026-06-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24742v1) | [PDF](https://arxiv.org/pdf/2606.24742v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Generalist value models play a pivotal role in scaling robotic policy learning from large-scale, mixed-quality data. Mathematically, accurate value estimation demands deep temporal understanding, requiring models to both ground the current belief using historical context and plan over future outcomes. However, most existing robotic value models are built on Vision-Language Model (VLM) backbones that are pretrained primarily on static or temporally sparse visual observations, lacking the requisit...
-
-</details>
-
----
-
-### [Trimming the Long-Tail of Visual World Modeling Evaluation](https://arxiv.org/abs/2606.24256v1)
-
-**Authors:** Bingxuan Li, Yining Hong, Cheng Qian, Hyeonjeong Ha, Jiateng Liu et al. (9 authors)
-
-**Published:** 2026-06-23 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24256v1) | [PDF](https://arxiv.org/pdf/2606.24256v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Physical interactions follow a long-tailed distribution: a set of common and regular interactions dominates human experience and visual data, while a broad spectrum of rare and irregular interactions remains underrepresented. Although recent visual world models, including image and video generation models, achieve impressive realism on existing benchmarks, they primarily focus on simulating common physical interactions. This raises a central question: Do current visual world models internalize a...
-
-</details>
-
----
-
-### [Conformal Orbit-Valid Trust Horizons for Equivariant World Models](https://arxiv.org/abs/2606.24946v1)
-
-**Authors:** Hongbo Wang
-
-**Published:** 2026-06-23 | **Categories:** cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24946v1) | [PDF](https://arxiv.org/pdf/2606.24946v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learned world models are useful only over horizons on which their rollout error remains controlled. We study trust-horizon certification for latent world models with known group symmetries. Given a one-step latent residual and a finite-time expansion estimate, we form a raw horizon curve and calibrate it with a split-conformal multiplicative factor. On the reproducible audit set, the conformal factor is $γ_α=1.0$: the raw certificate is already conservative under the audit protocol. Across 50 st...
-
-</details>
-
----
-
-### [Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models](https://arxiv.org/abs/2606.24152v1)
-
-**Authors:** Xin Wang, Wenxuan Liu, Tongtong Feng, Wenwu Zhu
-
-**Published:** 2026-06-23 | **Categories:** cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24152v1) | [PDF](https://arxiv.org/pdf/2606.24152v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Existing literature claims that video generation essentially is world modelling. On the one hand, the claim is productive because it pushes generative AI beyond static images and toward temporally extended physical scenes. On the other hand, this claim dangerously relies on the belief that scaling visual prediction alone will automatically yield physical agents. We prefer a more accurate statement: video generation models learn a partial, implicit spatiotemporal world model, but not a fully grou...
-
-</details>
-
----
-
-### [NavWM: A Unified Navigation World Model for Foresight-Driven Planning](https://arxiv.org/abs/2606.24101v1)
-
-**Authors:** Yanghong Mei, Longteng Guo, Ming-Ming Yu, Guiyu Zhao, Xingjian He et al. (6 authors)
-
-**Published:** 2026-06-23 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24101v1) | [PDF](https://arxiv.org/pdf/2606.24101v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Conventional visual navigation policies often struggle with myopic decision-making and mode collapse in complex environments. While world models offer a promising alternative, existing paradigms typically isolate perception, generation, and control, failing to capture their shared spatio-temporal dynamics. In this paper, we propose NavWM, a unified navigation world model that seamlessly integrates latent world reasoning, multimodal action prediction, and controllable visual generation. At its co...
-
-</details>
-
----
-
-### [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089v1)
-
-**Authors:** Haidong Hou, Zhangguo Yu, Hengbo Qi, Jianlin Zhang
-
-**Published:** 2026-06-23 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.24089v1) | [PDF](https://arxiv.org/pdf/2606.24089v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework. To enhance terrain encoding capability and enable transparent assessment, we introduce a world model as a regularizer t...
 
 </details>
 
