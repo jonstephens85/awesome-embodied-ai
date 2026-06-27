@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-06-26 22:58 UTC
+**Last updated:** 2026-06-27 17:10 UTC
 
-**Papers found:** 18
+**Papers found:** 11
 
 [Back to Home](../README.md)
 
@@ -196,125 +196,6 @@ In embodied intelligence, safety is a prerequisite for reliable robot deployment
 <summary>Abstract</summary>
 
 A central challenge in deploying learned robot policies is inference-time behavior steering: redirecting a policy at test time to satisfy user preferences not anticipated during training, without retraining. Existing methods fail in two modes: end-to-end methods require fine-tuning or expert-level guidance, while neuro-symbolic methods rely on predefined symbols whose edits can result in logically reasonable but physically infeasible plans. To address this challenge, we propose ReStruct, which b...
-
-</details>
-
----
-
-### [Learning Action Priors for Cross-embodiment Robot Manipulation](https://arxiv.org/abs/2606.26095v1)
-
-**Authors:** Dong Jing, Tianqi Zhang, Jiaqi Liu, Jinman Zhao, Zelong Sun et al. (8 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26095v1) | [PDF](https://arxiv.org/pdf/2606.26095v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scratch. As a result, the policy lacks an explicit motion prior, forcing early optimization to simultaneously discover temporal action dynamics and cross-modal alignment, a challenge further amplified in ...
-
-</details>
-
----
-
-### [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v2)
-
-**Authors:** Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji et al. (7 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26025v2) | [PDF](https://arxiv.org/pdf/2606.26025v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Modern Vision-Language-Action (VLA) models often fail to generalize to novel setups, such as altered camera viewpoints or robot morphologies, because they are typically conditioned only on current observations and language instructions. By ignoring the underlying system configuration as a variable, these models implicitly assume a fixed execution context encountered during training, necessitating data-intensive fine-tuning for any new environment. In this work, we introduce In-Context World Mode...
-
-</details>
-
----
-
-### [FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation](https://arxiv.org/abs/2606.26006v1)
-
-**Authors:** Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, Chuyao Fu et al. (11 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26006v1) | [PDF](https://arxiv.org/pdf/2606.26006v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are often constrained by the imitation ceiling imposed by sub-optimal data. While Reinforcement Learning (RL) fine-tuning can surpass this limit, it is notoriously sample inefficient. This challenge arises from two core issues: (1) catastrophic initial unlearning due to an unstable Q-function and (2) inefficient policy updates caused by low-quality exploration data, often forcing a reliance on costly human interventions. We introduce FORCE, a 3-stage framework...
-
-</details>
-
----
-
-### [Action ControlNet: A Lightweight Delay-Aware Adapter for Smooth Asynchronous Control in Vision-Language-Action Models](https://arxiv.org/abs/2606.25985v1)
-
-**Authors:** Tiecheng Guo, Meng Guo
-
-**Published:** 2026-06-24 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25985v1) | [PDF](https://arxiv.org/pdf/2606.25985v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models have shown strong potential for general-purpose robot manipulation, but their inference latency remains a major obstacle to stable high-frequency control. Asynchronous execution mitigates this bottleneck by overlapping policy inference with action execution, yet the next action chunk is still predicted from stale observations while the robot continues to move. Direct chunk stitching therefore introduces handoff discontinuities, action jitter, and failures in c...
-
-</details>
-
----
-
-### [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800v1)
-
-**Authors:** Kejing Wang, Toan Nguyen, Minh Hoang Nguyen, Simon Khan, Flora D. Salim
-
-**Published:** 2026-06-24 | **Categories:** cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25800v1) | [PDF](https://arxiv.org/pdf/2606.25800v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Effective online adaptation of vision-language-action (VLA) models remains challenging, as sparse rewards provide weak supervision for high-dimensional autoregressive action policies. Although self-distillation can in principle provide denser training signals, we find that text-based privileged teachers conditioned on demonstrations, retrieved experiences, or high-level plans are ineffective for VLA adaptation, exposing a modality gap between symbolic guidance and low-level robot actions. We pro...
-
-</details>
-
----
-
-### [WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning](https://arxiv.org/abs/2606.25591v1)
-
-**Authors:** Melya Boukheddimi, Omar Adjali, Daniel Sontag, Frank Kirchner
-
-**Published:** 2026-06-24 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25591v1) | [PDF](https://arxiv.org/pdf/2606.25591v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have recently demonstrated strong generalization in robotic manipulation, yet their applicability to whole-body, contact-rich humanoid locomotion remains severely underexplored due to data scarcity, the absence of dynamically consistent demonstrations, and the difficulty of encoding optimality and safety in learning-based pipelines. This work introduces a unified framework WOLF-VLA that integrates whole-body optimal-control (OC) motion synthesis with large-sca...
-
-</details>
-
----
-
-### [Decoupling Semantics and Geometric Grounding: Spatial Visual Prompts for Language-Conditioned Imitation Learning](https://arxiv.org/abs/2606.25360v1)
-
-**Authors:** Yanzhe Tang, Xinyu Shao, Yuxuan Hu, Siyu Chen, Bowen Yang et al. (9 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25360v1) | [PDF](https://arxiv.org/pdf/2606.25360v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-While end-to-end Vision-Language-Action (VLA) models show promise in robotic manipulation, their monolithic paradigm inherently couples semantic reasoning and spatial control. This creates a severe alignment bottleneck, limiting precise target disambiguation in data-constrained imitation learning. To overcome this, we propose SVP-IL, a decoupled architecture that explicitly extracts spatial visual grounding from the action generation loop. By leveraging vision-language foundation models, we pars...
 
 </details>
 

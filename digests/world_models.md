@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-26 22:58 UTC
+**Last updated:** 2026-06-27 17:10 UTC
 
-**Papers found:** 19
+**Papers found:** 10
 
 [Back to Home](../README.md)
 
@@ -75,23 +75,6 @@ As semiconductor technology nodes scale, computational lithography is essential 
 <summary>Abstract</summary>
 
 Recent game world models can synthesize visually plausible, action-conditioned rollouts. However, their interaction behaviors often remain limited to exploratory or wandering trajectories, and physical dynamics are typically learned as implicit correlations from data rather than as controllable variables. This limitation hinders their applicability to authored game environments, where physical rules are deliberately designed and require explicit manipulation. We introduce PhysEditWorld, a multim...
-
-</details>
-
----
-
-### [USS: Unified Spatial-Semantic Prompts for Embodied Visual Tracking with Latent Dynamics Learning](https://arxiv.org/abs/2606.25880v1)
-
-**Authors:** Yuchen Xie, Xinyu Zhou, Kuangji Zuo, Yanshuo Lu, Fengrui Huang et al. (7 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25880v1) | [PDF](https://arxiv.org/pdf/2606.25880v1.pdf) | [Project Page](https://arescheah.github.io/uss-project-page/)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied Visual Tracking (EVT) requires an agent to continuously follow a specified target while actively moving through dynamic environments. However, prevailing EVT paradigms predominantly rely on language-based target indication. While language is expressive and convenient, cluttered scenes often contain multiple objects that satisfy the same semantic description, leading to ambiguous target grounding. We therefore propose a paradigm shift, reframing target indication in EVT from text-only sp...
 
 </details>
 
@@ -196,142 +179,6 @@ As embodied AI and world models increasingly operate in dynamic 3D environments,
 <summary>Abstract</summary>
 
 Continuous driver monitoring in automated vehicles requires low-latency inference while avoiding unsafe decisions under uncertain driver states. Large vision-language models provide broad multimodal priors, but their latency and limited reliability in this setting make them unsuitable as always-on in-cabin monitors. We propose a cost-aware selective inference framework for deployable multimodal driver monitoring. The core system is a lightweight RGB-physiological student that combines in-cabin v...
-
-</details>
-
----
-
-### [Neural Voxel Dynamics: Learning Implicit 3D Physics via Volumetric Feature Advection](https://arxiv.org/abs/2606.26410v1)
-
-**Authors:** Zican Wang, Niloy Mitra
-
-**Published:** 2026-06-24 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26410v1) | [PDF](https://arxiv.org/pdf/2606.26410v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present a self-supervised framework for learning implicit 3D physical dynamics directly from video-derived supervisory signals. While current generative video models achieve high visual fidelity, they lack a 3D geometric foundation, often resulting in physical inconsistencies and a failure to maintain object permanence. We address this by shifting the predictive bottleneck from 2D image space to a `lifted' 3D Volumetric Latent Space. Our method unprojects semantic features from a Video Joint-...
-
-</details>
-
----
-
-### [KRVF: A Source-Aware Semantic Voxel World Representation for Edge Mobile Manipulation](https://arxiv.org/abs/2606.26321v1)
-
-**Authors:** Runfeng Ling
-
-**Published:** 2026-06-24 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26321v1) | [PDF](https://arxiv.org/pdf/2606.26321v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Mobile manipulators need world models that are current, queryable, semantically meaningful, and usable under edge-compute constraints. This technical report presents KRVF, a source-aware semantic voxel world representation for edge mobile manipulation. Unlike reconstruction-centric mapping pipelines that primarily optimize global geometric fidelity, KRVF represents local world state as task-oriented voxels that encode occupancy, color, semantic evidence, temporal freshness, and evidence source. ...
-
-</details>
-
----
-
-### [Fast LeWorldModel](https://arxiv.org/abs/2606.26217v1)
-
-**Authors:** Yuntian Gao, Xiangyu Xu
-
-**Published:** 2026-06-24 | **Categories:** cs.LG, cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26217v1) | [PDF](https://arxiv.org/pdf/2606.26217v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Joint-Embedding Predictive Architectures (JEPAs), including recent LeWorldModel (LeWM), have become a promising foundation for reconstruction-free visual world models. For visual planning, however, LeWM evaluates candidate action sequences by repeatedly applying a local one-step latent transition model. This autoregressive rollout makes planning computationally expensive and exposes the predicted trajectory to accumulated latent errors as the horizon grows. We propose Fast LeWorldModel (Fast-LeW...
-
-</details>
-
----
-
-### [The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems](https://arxiv.org/abs/2606.26057v1)
-
-**Authors:** Seth Dobrin, Łukasz Chmiel
-
-**Published:** 2026-06-24 | **Categories:** cs.AI, cs.CR, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26057v1) | [PDF](https://arxiv.org/pdf/2606.26057v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI system with sufficient reach into its own runtime, a class we term escapable AI systems. We identify four properties that an authorization mecha...
-
-</details>
-
----
-
-### [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v2)
-
-**Authors:** Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji et al. (7 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.26025v2) | [PDF](https://arxiv.org/pdf/2606.26025v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Modern Vision-Language-Action (VLA) models often fail to generalize to novel setups, such as altered camera viewpoints or robot morphologies, because they are typically conditioned only on current observations and language instructions. By ignoring the underlying system configuration as a variable, these models implicitly assume a fixed execution context encountered during training, necessitating data-intensive fine-tuning for any new environment. In this work, we introduce In-Context World Mode...
-
-</details>
-
----
-
-### [Beyond One-Size-Fits-All: Diagnosis-Driven Online Reinforcement Learning with Offline Priors](https://arxiv.org/abs/2606.25527v1)
-
-**Authors:** Guozheng Ma, Lu Li, Zilin Wang, Pierre-Luc Bacon, Dacheng Tao
-
-**Published:** 2026-06-24 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25527v1) | [PDF](https://arxiv.org/pdf/2606.25527v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Online reinforcement learning (RL) agents increasingly depend on knowledge acquired offline to achieve practical efficiency. Originally studied in offline-to-online RL, this paradigm now spans foundation model post-training and embodied intelligence, with prior types expanding from offline datasets and pre-trained policies to increasingly diverse knowledge sources such as multimodal foundation models and generative world models. Offline priors have become central to how deep RL is developed and ...
-
-</details>
-
----
-
-### [Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models](https://arxiv.org/abs/2606.25473v1)
-
-**Authors:** Kaiwen Zheng, Guande He, Min Zhao, Jintao Zhang, Huayu Chen et al. (10 authors)
-
-**Published:** 2026-06-24 | **Categories:** cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25473v1) | [PDF](https://arxiv.org/pdf/2606.25473v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Autoregressive video diffusion with causal diffusion transformers has emerged as a major paradigm for real-time streaming video generation and action-conditioned interactive world models. In this work, we extend rCM, an advanced diffusion distillation framework, to autoregressive video diffusion. The core philosophy of rCM lies in the complementarity between forward and reverse divergences, represented by consistency models (CMs) and distribution matching distillation (DMD), respectively, in dif...
-
-</details>
-
----
-
-### [Hypergraph Normal World Models for Logical Visual Anomaly Detection](https://arxiv.org/abs/2606.25368v1)
-
-**Authors:** Weizhi Nie, Zibo Xu, Weijie Wang, Yuting Su
-
-**Published:** 2026-06-24 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.25368v1) | [PDF](https://arxiv.org/pdf/2606.25368v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Visual anomaly detection is often deployed with only normal training images. Most one-class detectors map test patches or features to a normal reference distribution. This works well for local structural defects. Logical anomalies are different. Each visible part may look normal, while the whole image violates a normal count, co-occurrence, or spatial relation. This paper studies whether a model can learn such a category-specific normal world from nominal images alone. We propose the Hypergraph ...
 
 </details>
 
