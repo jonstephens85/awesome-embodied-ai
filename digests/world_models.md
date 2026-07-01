@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-06-30 23:02 UTC
+**Last updated:** 2026-07-01 17:54 UTC
 
-**Papers found:** 12
+**Papers found:** 17
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [MemLearner: Learning to Query Context memory for Video World Models](https://arxiv.org/abs/2606.31734v1)
+
+**Authors:** Jiwen Yu, Jianxiong Gao, Jianhong Bai, Yiran Qin, Kaiyi Huang et al. (10 authors)
+
+**Published:** 2026-06-30 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31734v1) | [PDF](https://arxiv.org/pdf/2606.31734v1.pdf) | [Project Page](https://yujiwen.github.io/memlearner/)
+
+<details>
+<summary>Abstract</summary>
+
+Video World Models are interactive video generation models that predict future world states based on user actions and history video frames. A critical challenge in video world models is the lack of memory, causing inconsistent generated scenes over extended durations. Previous methods explored rule-based context frame retrieval as memory, but they fail to generalize in scenarios with scene occlusions and dynamic objects. We propose MemLearner, a learning-based adaptive context query method using...
+
+</details>
+
+---
+
+### [One Video, One World: Turning Monocular Video into Physical 4D Scenes](https://arxiv.org/abs/2606.31388v1)
+
+**Authors:** Junhao Chen, Boran Zhang, Mingjin Chen, Henghaofan Zhang, Saining Zhang et al. (10 authors)
+
+**Published:** 2026-06-30 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31388v1) | [PDF](https://arxiv.org/pdf/2606.31388v1.pdf) | [Project Page](https://OneVideoOneWorld.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce \textbf{OVOW}, the first training-free system that reconstructs \emph{instance-level, simulation-ready} 4D mesh scenes from a single monocular video. Recent 4D reconstruction achieves impressive rendering quality, but its outputs (\eg, implicit fields, Gaussian primitives, or point clouds) lack the watertight topology, instance separation, and standardized physical interfaces required by physics simulators and embodied AI. OVOW closes this gap with a four-stage pipeline: a vision-la...
+
+</details>
+
+---
 
 ### [DreamForge-World 0.1 Preview: A Low-Compute Real-Time Controllable World Model](https://arxiv.org/abs/2606.30292v1)
 
@@ -29,41 +63,143 @@ We present DreamForge-World 0.1 Preview, a preview foundational world model for 
 
 ---
 
-### [Cognitive World Models for Process-Level Social Influence Evaluation](https://arxiv.org/abs/2606.29495v1)
-
-**Authors:** Minghui Ma, Bin Guo, Han Wang, Mengqi Chen, Jingqi Liu et al. (7 authors)
-
-**Published:** 2026-06-28 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.29495v1) | [PDF](https://arxiv.org/pdf/2606.29495v1.pdf) | [GitHub](https://github.com/lucianma05-create/CogWM})
-
-<details>
-<summary>Abstract</summary>
-
-Social influence dialogue changes user behavior by altering internal cognitive states. The central evaluation question is whether the user's beliefs, desires, intentions, and emotions measurably change over the course of conversation, a process-oriented criterion that neither surface-level text metrics (BLEU/ROUGE) nor single-score LLM judgments can capture. We propose the \textbf{Cog}nitive \textbf{W}orld \textbf{M}odel \textbf{(CogWM)}, an LLM-based user model that reframes multi-turn dialogue...
-
-</details>
-
----
-
-### [ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving](https://arxiv.org/abs/2606.29286v1)
-
-**Authors:** Dingyi Yao, Xinqi Zhang, Lihui Peng, Jianming Hu, Danya Yao et al. (6 authors)
-
-**Published:** 2026-06-28 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.29286v1) | [PDF](https://arxiv.org/pdf/2606.29286v1.pdf) | [GitHub](https://github.com/Dingyi-Yao/ASTAD)
-
-<details>
-<summary>Abstract</summary>
-
-Synthetic data mitigates the data scarcity problem in autonomous driving perception. However, the synthetic-to-real gap leads to performance degradation, hindering real-world model generalization. Although current methods leverage diffusion models for photorealistic style transfer to bridge this gap, they critically ignore a practical asymmetry: while synthetic data possesses perfect pixel-level annotations, real-world style reference images generally lack corresponding labels. Consequently, exi...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation](https://arxiv.org/abs/2606.32028v1)
+
+**Authors:** Ziyu Shan, Zhenyu Wu, Xiaofeng Wang, Zheng Zhu, Ziwei Wang
+
+**Published:** 2026-06-30 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.32028v1) | [PDF](https://arxiv.org/pdf/2606.32028v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Video-based embodied world models provide an appealing substrate for robotic manipulation by predicting future states, yet current approaches remain limited by a fundamental entanglement: accurately modeling dynamics typically requires low-level temporal reasoning, while producing high-resolution frames demands expansive visual synthesis according to high-level semantics. This entanglement results in slow inference speed for iterative planning or too coarse predictions to retain contact-rich det...
+
+</details>
+
+---
+
+### [AdaJEPA: An Adaptive Latent World Model](https://arxiv.org/abs/2606.32026v1)
+
+**Authors:** Ying Wang, Oumayma Bounou, Yann LeCun, Mengye Ren
+
+**Published:** 2026-06-30 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.32026v1) | [PDF](https://arxiv.org/pdf/2606.32026v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes ...
+
+</details>
+
+---
+
+### [WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models](https://arxiv.org/abs/2606.31672v1)
+
+**Authors:** Ting-Bing Xu, Jiacheng Sui, Zhe Gao, Kewei Shi, Wenjin Yang et al. (14 authors)
+
+**Published:** 2026-06-30 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31672v1) | [PDF](https://arxiv.org/pdf/2606.31672v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Despite rapid progress in interactive world models (IWMs), existing benchmarks evaluate action following only at trajectory level and ignore memory and interaction physics. We introduce WorldRoamBench, an open-world benchmark for long-horizon stability across four dimensions, each with tailored innovations: (i) Action: per-frame action metric bypassing cross-model semantic scale disparity and exposing failures hidden by trajectory; (ii) Vision: segment-based drift metric capturing non-monotonic ...
+
+</details>
+
+---
+
+### [Ask the World Before Acting: Budgeted Environment Probing for World-Model Calibration](https://arxiv.org/abs/2606.31422v1)
+
+**Authors:** Xinyuan Song, Zekun Cai
+
+**Published:** 2026-06-30 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31422v1) | [PDF](https://arxiv.org/pdf/2606.31422v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon language agents do not only choose actions; they carry a private model of the world from one decision to the next. When that model drifts, a later failure can be decided before the failing action is ever taken. We study a direct repair mechanism: before committing to the next task action, an agent may ask the environment about one belief field and write the answer back into its world model. This makes environment interaction a scarce calibration resource, not merely a way to advance...
+
+</details>
+
+---
+
+### [World-Model Collapse as a Phase Transition](https://arxiv.org/abs/2606.31399v1)
+
+**Authors:** Xinyuan Song, Zekun Cai
+
+**Published:** 2026-06-30 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31399v1) | [PDF](https://arxiv.org/pdf/2606.31399v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Water looks unchanged as it warms, then at a critical point it boils. We ask whether long-horizon language agents show an analogous transition in their implicit world models. In some parameter settings, changing state load by a small amount, or adding a single step of horizon, leaves behavior nearly unchanged; near a critical boundary, the same small change causes a sudden world collapse. We study this effect in a deterministic task family with exact per-step gold state. A large grid search over...
+
+</details>
+
+---
+
+### [Delta-JEPA: Learning Action-Sensitive World Models via Latent Difference Decoding](https://arxiv.org/abs/2606.31232v1)
+
+**Authors:** Zhenghao Zhang, Yuanxiang Wang, Zhenyu Guan, Yujia Yang, Bingkang Shi et al. (14 authors)
+
+**Published:** 2026-06-30 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31232v1) | [PDF](https://arxiv.org/pdf/2606.31232v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Learning visual world models for planning requires compact latent dynamics that remain sensitive to actions, yet reconstruction-free joint-embedding objectives can collapse to action-insensitive representations. We propose Delta-JEPA, an end-to-end reconstruction-free world model that augments latent forward prediction with a Latent Difference Action Decoder (LDAD). Unlike inverse decoders that infer actions from concatenated endpoint embeddings, LDAD reconstructs the executed action from the la...
+
+</details>
+
+---
+
+### [ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving](https://arxiv.org/abs/2606.31226v1)
+
+**Authors:** Xuchang Zhong, He Zheng, Chenxu Zhao, Tianxiong Lv, Hangqi Fan et al. (11 authors)
+
+**Published:** 2026-06-30 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31226v1) | [PDF](https://arxiv.org/pdf/2606.31226v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World-model-based autonomous driving endows the model with the ability to understand scene evolution. Yet this promise is undermined by the prevailing imagine-then-act paradigm, which allows errors from the more challenging visual generation stage to cascade into action planning. We introduce ForgeDrive, a unified autoregressive diffusion framework with visual-action cross-conditioning that closes this gap through act-then-imagine paradigm. ForgeDrive factorizes the future as a sequence of per-t...
+
+</details>
+
+---
+
+### [Long-term Traffic Simulation via Structured Autoregressive Modeling](https://arxiv.org/abs/2606.31209v1)
+
+**Authors:** Lingyu Xiao, Zexin Feng, Xintao Yan
+
+**Published:** 2026-06-30 | **Categories:** cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2606.31209v1) | [PDF](https://arxiv.org/pdf/2606.31209v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive traffic simulation is a vital world model for autonomous driving. A central challenge in long-horizon simulation is modeling sustained multi-agent interactions, which is further exacerbated by dynamic token cardinality as agents continuously enter and exit the scene. In this work, we propose that the solution lies in the synergy between the architectural inductive biases and statistical priors of large-scale sequence models, e.g., Large Language Models (LLMs). Our probing experiments...
+
+</details>
+
+---
 
 ### [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v1)
 
@@ -116,13 +252,13 @@ Existing world model-based planners for visual navigation typically follow a ver
 
 ---
 
-### [LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving](https://arxiv.org/abs/2606.29879v1)
+### [LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving](https://arxiv.org/abs/2606.29879v2)
 
 **Authors:** Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang et al. (9 authors)
 
 **Published:** 2026-06-29 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2606.29879v1) | [PDF](https://arxiv.org/pdf/2606.29879v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2606.29879v2) | [PDF](https://arxiv.org/pdf/2606.29879v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -162,57 +298,6 @@ This project introduces the CRISTAL Method (Coherent Reliable Intentional Synthe
 <summary>Abstract</summary>
 
 Reliable generative AI models critically rely on expert human annotations to evaluate output quality, yet these "gold" labels are expensive to collect and limited in quantity. Organizations thus often turn to collecting vast but noisy "silver" labels from crowdsourced workers or vendor annotators as proxies for gold labels. Because gold remains the evaluation target, naively aggregating noisy silver labels may introduce bias, and estimators built on sparsely observed gold labels may have high va...
-
-</details>
-
----
-
-### [Learning Transferable Dynamics Priors from Action to World Modeling](https://arxiv.org/abs/2606.29501v1)
-
-**Authors:** Ze Huang, Jiahui Zhang, Hairuo Liu, Chenxi Zhang, Ran Cheng et al. (6 authors)
-
-**Published:** 2026-06-28 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.29501v1) | [PDF](https://arxiv.org/pdf/2606.29501v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We study action-conditioned world modeling as a scalable way to learn transferable dynamics priors for robot learning. By pretraining a model to predict how actions drive visual scene evolution, the resulting world model captures reusable interaction dynamics beyond appearance-level video generation. Concretely, we pretrain a multi-view interactive base diffusion world model, A2World, on large-scale robot manipulation data with real action annotations. We validate the learned dynamics priors fro...
-
-</details>
-
----
-
-### [Prototype Latent World Model Replay for Class-Incremental Learning](https://arxiv.org/abs/2606.29465v1)
-
-**Authors:** Weizhi Nie, Hui Wang, Weijie Wang, Yuting Su
-
-**Published:** 2026-06-28 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.29465v1) | [PDF](https://arxiv.org/pdf/2606.29465v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Class-incremental learning requires a model to learn new classes while preserving decision regions for old ones. This is difficult when raw old samples are no longer available. We propose Prototype Latent World Model Replay, a memory-free framework that stores old classes as distributions over stable hidden states rather than as images. A frozen ImageNet-pretrained encoder maps each image into a latent state space. In this space, each class is summarized by several prototype-centered distributio...
-
-</details>
-
----
-
-### [L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction](https://arxiv.org/abs/2606.29374v1)
-
-**Authors:** Zetian Song, Chenming Wu, Junnan Liu, Chitian Sun, Liangliang He et al. (9 authors)
-
-**Published:** 2026-06-28 | **Categories:** cs.CV, cs.GR
-
-**Links:** [arXiv](https://arxiv.org/abs/2606.29374v1) | [PDF](https://arxiv.org/pdf/2606.29374v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-High-fidelity reconstruction of dynamic urban environments is a cornerstone of autonomous driving simulation and large-scale world modeling. While 3D Gaussian Splatting (3DGS) has established a new standard for real-time rendering, its reliance on expensive per-scene optimization limits scalability. Conversely, recent feedforward methods that infer Gaussian parameters offer faster speed but face fundamental bottlenecks: they are memory-prohibitive at high resolutions and struggle to fuse dense m...
 
 </details>
 
