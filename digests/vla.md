@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-03 22:54 UTC
+**Last updated:** 2026-07-04 17:05 UTC
 
-**Papers found:** 16
+**Papers found:** 10
 
 [Back to Home](../README.md)
 
@@ -58,74 +58,6 @@ Vision-Language-Action (VLA) models have emerged as a promising paradigm for end
 <summary>Abstract</summary>
 
 General-purpose vision-language-action models benefit from large vision-language priors, but effective manipulation also requires anticipating action-relevant scene changes. Existing world-action models often rely on large generative world models or dense future rollouts, which are expensive and spend capacity on visual details weakly coupled to control. We present Bridge-WA, a lightweight world-action framework that distills a frozen future-change teacher into three compact priors: future token...
-
-</details>
-
----
-
-### [Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching](https://arxiv.org/abs/2607.01378v1)
-
-**Authors:** William English, Hao Zheng, Rickard Ewetz
-
-**Published:** 2026-07-01 | **Categories:** cs.RO, eess.SY
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.01378v1) | [PDF](https://arxiv.org/pdf/2607.01378v1.pdf) | [Project Page](at)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have demonstrated promising generalization capabilities across robotic manipulation tasks, yet their real-world deployment remains limited by the lack of effective safety measures. Specifically, existing safety measures only prevent collisions caused by the robot's next action. In this paper, we propose a neuro-symbolic safety guidance mechanism for flow matching based VLAs that enables predictive collision avoidance. Flow matching based VLAs determine the nex...
-
-</details>
-
----
-
-### [FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model](https://arxiv.org/abs/2607.01212v1)
-
-**Authors:** Chenyang Ma, Yue Yang, Radu Corcodel, Siddarth Jain, Andrew Wu et al. (7 authors)
-
-**Published:** 2026-07-01 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.01212v1) | [PDF](https://arxiv.org/pdf/2607.01212v1.pdf) | [Project Page](https://dannymcy.github.io/furniturevla/)
-
-<details>
-<summary>Abstract</summary>
-
-Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembly using Vision-Language-Action models (VLAs). We formalize the task, develop a scalable simulation pipeline for expert data generation and evaluation, and build a VR teleoperation system for single-operator bimanual control to collect high-quality real-world demonstrations. To address extreme long-h...
-
-</details>
-
----
-
-### [ABot-M0.5: Unified Mobility-and-Manipulation World Action Model](https://arxiv.org/abs/2607.00678v1)
-
-**Authors:** Ronghan Chen, Yandan Yang, Zuojin Tang, Dongjie Huo, Tong Lin et al. (21 authors)
-
-**Published:** 2026-07-01 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.00678v1) | [PDF](https://arxiv.org/pdf/2607.00678v1.pdf) | [GitHub](https://github.com/amap-cvlab/ABot-Manipulation)
-
-<details>
-<summary>Abstract</summary>
-
-Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods. VLA policies are typically reactive and lack explicit world modeling, while existing World Action Models (WAMs) are still poorly aligned with the structure of mobile manipulation: they operate on coarse video chunks, model entangled navigation-manipulation actions, and train inverse dynamics under supervision that does not match autoregressive inference. As a result,...
-
-</details>
-
----
-
-### [Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts](https://arxiv.org/abs/2607.00666v1)
-
-**Authors:** Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi
-
-**Published:** 2026-07-01 | **Categories:** cs.RO, cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.00666v1) | [PDF](https://arxiv.org/pdf/2607.00666v1.pdf) | [Project Page](https://twkang43.github.io/projects/dart) | [GitHub](https://github.com/snumprlab/dart)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires training on multiple demonstrations for each task, which are costly to collect. To reduce the burden of data curation and training, we propose an analogy-based method that adapts VLA models under enviro...
 
 </details>
 
@@ -247,40 +179,6 @@ Autonomous robots often need to move their camera before they can act: to inspec
 <summary>Abstract</summary>
 
 Vision-Language Navigation has increasingly emphasized high-level instruction reasoning, memory, global map construction, and instruction decomposition, while the low-level action representation remains comparatively underexplored. We propose CoFL-S, a low-level vision-language-action framework that predicts a language-conditioned flow field over the robot's local visible sector and generates continuous trajectories by rolling out the predicted field. To train this low-level representation, we c...
-
-</details>
-
----
-
-### [Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation](https://arxiv.org/abs/2607.01067v1)
-
-**Authors:** Chi Zhang, Penglin Cai, Ziheng Xi, Haoqi Yuan, Hao Luo et al. (9 authors)
-
-**Published:** 2026-07-01 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.01067v1) | [PDF](https://arxiv.org/pdf/2607.01067v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-As an essential modality for dexterous and contact-rich tasks, tactile sensing provides precise force feedback that cannot be reliably inferred from vision. However, limited by hardware and data collection systems, existing datasets with tactility remain small in scale and narrow in contact coverage. Meanwhile, Vision-Language-Action (VLA) models with tactile modality are constrained on dynamics-agnostic post-training, which limits the performance ceiling on downstream tasks. In this paper, we p...
-
-</details>
-
----
-
-### [Unleashing More Actions via Action Compositional Training for VLA Models](https://arxiv.org/abs/2607.00351v1)
-
-**Authors:** Kai Peng, Jie Lu, Xiaojiang Peng
-
-**Published:** 2026-07-01 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.00351v1) | [PDF](https://arxiv.org/pdf/2607.00351v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action models excel at robotic manipulation, driven by the scale and diversity of demonstration data. However, standard training paradigms often cause VLA models to severely overfit to specific behavioral patterns, rendering them unable to generalize to out-of-distribution scenarios even when those scenarios merely require novel combinations of identical sub-skills. While expanding datasets can mitigate this overfitting, acquiring high-quality robot data remains notoriously labor...
 
 </details>
 
