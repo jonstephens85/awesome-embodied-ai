@@ -2,15 +2,66 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-07 22:51 UTC
+**Last updated:** 2026-07-08 17:35 UTC
 
-**Papers found:** 13
+**Papers found:** 16
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation](https://arxiv.org/abs/2607.06564v1)
+
+**Authors:** Jiaming Liu, Qingpo Wuwu, Nuowei Han, Hao Chen, Zhuoyang Liu et al. (11 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06564v1) | [PDF](https://arxiv.org/pdf/2607.06564v1.pdf) | [Project Page](https://lift3dvla.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D information, they are constrained by limited data availability and geometric information loss in current 3D encoding pipelines, and fail to jointly capture 3D geometry and temporally structured actions in ...
+
+</details>
+
+---
+
+### [SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models](https://arxiv.org/abs/2607.06442v1)
+
+**Authors:** Changti Wu, Bin Yu, Zhaolong Shen, Shijie Lian, Xiaopeng Lin et al. (9 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06442v1) | [PDF](https://arxiv.org/pdf/2607.06442v1.pdf) | [GitHub](https://github.com/ChangtiWu/SIEVE}{SIEVE})
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models are typically trained by imitation learning on large-scale robot demonstration datasets, but more data does not necessarily yield better policies due to redundancy, noise, and uneven coverage. Existing data selection methods often assess demonstrations at either the trajectory or state-action level, missing the reusable structures that compose long-horizon behaviors. In this paper, we propose SIEVE, a structure-aware data selection method for VLA imitation lea...
+
+</details>
+
+---
+
+### [From Foundation to Application: Improving VLA Models in Practice](https://arxiv.org/abs/2607.06403v1)
+
+**Authors:** Wei Wu, Fangjing Wang, Fan Lu, He Sun, Shi Liu et al. (24 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06403v1) | [PDF](https://arxiv.org/pdf/2607.06403v1.pdf) | [Project Page](https://technology.robbyant.com/lingbot-vla-v2) | [GitHub](https://github.com/robbyant/lingbot-vla-v2)
+
+<details>
+<summary>Abstract</summary>
+
+Despite recent progress of VLA foundation models, the disparity between laboratory conditions and real-world applications continues to impede their practical implementation. To bridge this gap, we present LingBot-VLA 2.0, which advances LingBot-VLA through improvements in three functional domains. (1) Generalization across tasks and embodiments. Compared to the previous version, we revamp the data processing pipeline and curate around 60,000 hours of data for pretraining, including 50,000 hours ...
+
+</details>
+
+---
 
 ### [From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model](https://arxiv.org/abs/2607.05396v1)
 
@@ -63,41 +114,58 @@ Embodied Chain-of-Thought has emerged as a promising mechanism to enhance robot 
 
 ---
 
-### [VLA Grounder: Language-Conditioning Space Optimization for Black-Box VLA Models](https://arxiv.org/abs/2607.04517v1)
-
-**Authors:** Damir Shodiev, Aleksei Staroverov, Nikita Kachaev, Alexey K. Kovalev, Aleksandr I. Panov
-
-**Published:** 2026-07-05 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04517v1) | [PDF](https://arxiv.org/pdf/2607.04517v1.pdf) | [Project Page](https://tttonyalpha.github.io/vla_grounder)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are commonly treated as end-to-end action policies conditioned on natural-language task descriptions. In practice, however, their behavior often depends sharply on how the instruction is phrased, suggesting that language is not merely a task label but an optimizable conditioning input. We study whether frozen VLA policies can be improved by optimizing language space rather than updating action weights. Our method introduces a language-conditioning space policy...
-
-</details>
-
----
-
-### [!Imperio, smolVLA: The Implications of Data Poisoning on Open Source Robotics](https://arxiv.org/abs/2607.04146v1)
-
-**Authors:** Stefan Bühler, Mark Schutera
-
-**Published:** 2026-07-05 | **Categories:** cs.RO, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04146v1) | [PDF](https://arxiv.org/pdf/2607.04146v1.pdf) | [GitHub](https://github.com/StefanBuhler/ImperioVLAPoisoning)
-
-<details>
-<summary>Abstract</summary>
-
-This work establishes that trigger-word data poisoning of vision language action models is practical, while at the same time the open-source robotics ecosystem holds trust assumptions about community contributions. A few poisoned samples can silently embed a backdoor that disables a robot on command. We evaluate this threat against smolVLA on a real-world pick-and-place task, training on three poison ratios and evaluating across different prompts on the LeRobot platform. Three poisoned episodes ...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement](https://arxiv.org/abs/2607.06370v1)
+
+**Authors:** Ryuji Oi, Hikari Otsuka, Kosuke Matsushima, Yuki Ichikawa, Masato Motomura et al. (7 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO, cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06370v1) | [PDF](https://arxiv.org/pdf/2607.06370v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have emerged as a promising approach for generalizable robotic manipulations. In particular, flow matching-based VLA models have shown remarkable success due to their capability to generate precise and smooth action sequences and capture multimodal distributions. However, the iterative denoising process in the action head acts as a major computational bottleneck, posing a critical challenge for real-time deployment. To address this challenge, we propose Action...
+
+</details>
+
+---
+
+### [Optimal Transport Q-Learning for Flow Policy Steering and Acceleration](https://arxiv.org/abs/2607.06262v1)
+
+**Authors:** Andreas Sochopoulos, Esmeralda S. Whitammer, Nikolaos Tsagkas, João Moura, Michael Gienger et al. (6 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06262v1) | [PDF](https://arxiv.org/pdf/2607.06262v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Diffusion and flow policies have recently demonstrated remarkable performance in robotic applications by accurately capturing multimodal robot trajectory distributions, especially in the context of vision language action (VLA) models. However, high quality policy performance also requires fast inference and high quality demonstrations, which are often hard to get. Lack of these leads to suboptimal policy behaviors and failure under distribution shifts. In this work we address the problem of fine...
+
+</details>
+
+---
+
+### [Diagnosing Semantic Handoff Failures in Agent-Orchestrated Vision-Language-Action Skill Composition](https://arxiv.org/abs/2607.06256v1)
+
+**Authors:** Ke Rui, Yushen Zuo, Jiawei Wang, Haoran Jia, Jinming Ma et al. (7 authors)
+
+**Published:** 2026-07-07 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06256v1) | [PDF](https://arxiv.org/pdf/2607.06256v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon household tasks require robots to compose many language-conditioned skills, yet the boundary between consecutive skills is rarely explicit. A skill may satisfy its own postcondition while leaving the robot, objects, or camera views in a state from which the next skill cannot reliably start. We study this semantic handoff problem in BEHAVIOR-1K through an agent-orchestrated vision-language-action execution harness. The harness invokes $π_{0.5}$-based skill checkpoints trained from cl...
+
+</details>
+
+---
 
 ### [Green for Go, Red for No: Visual Grounding via Semantic Segmentation for VLA Navigation Policies](https://arxiv.org/abs/2607.05122v1)
 
@@ -213,23 +281,6 @@ Vision-Language-Action (VLA) models have demonstrated strong capabilities in rob
 <summary>Abstract</summary>
 
 Recent advances in large-scale pretrained vision-language-action models have improved robot policy learning, but directly deploying such policies in user-specific environments remains challenging due to limited generalization, which inevitably requires collecting a dataset tailored to the target environment. Teleoperation yields well-aligned data but is costly and difficult to scale, whereas simulation scales easily but struggles to resemble the target environment and generate task-specific traj...
-
-</details>
-
----
-
-### [XS-VLA: Coupling Coarse-grained Spatial Distillation with Latent Flow Matching for Lightweight Robotic Control](https://arxiv.org/abs/2607.04171v1)
-
-**Authors:** Lei Iok Tong, Qingchen Xie, Wei Huang, Ying Jie Yap, Yujie Zhang et al. (8 authors)
-
-**Published:** 2026-07-05 | **Categories:** cs.RO, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04171v1) | [PDF](https://arxiv.org/pdf/2607.04171v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large Vision-Language Models (LVLMs) have shown strong multimodal understanding and spatial grounding, but their computational cost limits real-time robotic control. In contrast, lightweight models are suitable for edge deployment but often suffer from "spatial blindness", namely weak native spatial prediction ability. Training Vision-Language-Action (VLA) models on mixed human demonstrations can also degrade policy performance due to highly diverse behaviors. To address these limitations, we pr...
 
 </details>
 
