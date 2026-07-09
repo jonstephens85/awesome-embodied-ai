@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-08 22:55 UTC
+**Last updated:** 2026-07-09 17:55 UTC
 
-**Papers found:** 15
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Infinite Worlds with Versatile Interactions](https://arxiv.org/abs/2607.07534v1)
+
+**Authors:** Zelin Gao, Qiuyu Wang, Jiapeng Zhu, Jingye Chen, Zichen Liu et al. (20 authors)
+
+**Published:** 2026-07-08 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.07534v1) | [PDF](https://arxiv.org/pdf/2607.07534v1.pdf) | [Project Page](https://technology.robbyant.com/lingbot-world-v2) | [GitHub](https://github.com/robbyant/lingbot-world-v2)
+
+<details>
+<summary>Abstract</summary>
+
+We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining paradigm. (2) Through distilling a real-time variant from the base model, our system guarantees rapid response time, sufficient to drive 720p video streams at 60 fps. (3) Compared to the previous versio...
+
+</details>
+
+---
 
 ### [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://arxiv.org/abs/2607.06559v1)
 
@@ -63,58 +80,75 @@ The future of World Models depends not only on scaling model capability, but als
 
 ---
 
-### [Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models](https://arxiv.org/abs/2607.05390v1)
-
-**Authors:** Hongyu Li, Wanjia Fu, Xiaoyan Cong, Zekun Li, Binghao Huang et al. (14 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.05390v1) | [PDF](https://arxiv.org/pdf/2607.05390v1.pdf) | [Project Page](https://deform360.lhy.xyz)
-
-<details>
-<summary>Abstract</summary>
-
-Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. While current world models approach this through two distinct paradigms: learning the dynamics over the 2D pixel space or more explicit 3D geometric space. A systematic understanding of their relative strengths and limitations remains elusive due to ...
-
-</details>
-
----
-
-### [InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization](https://arxiv.org/abs/2607.04988v1)
-
-**Authors:** Haoxiang Ma, Junhao Cai, Xiaoxu Xu, Hao Li, Yuyin Yang et al. (29 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04988v1) | [PDF](https://arxiv.org/pdf/2607.04988v1.pdf) | [Project Page](https://internrobotics.github.io/internvla-a15.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Unified models for robot manipulation aim to equip one policy with both the semantic priors of pretrained VLMs and the physical dynamics learned through future prediction. In practice, existing designs tend to erode the semantics of the pretrained backbone, suffer interference among heterogeneous objectives, and learn future prediction from scratch in pixel space, leaving the dynamics priors of pretrained video generators unexploited. We present InternVLA-A1.5, which builds the policy on a nativ...
-
-</details>
-
----
-
-### [Qantara: Bridge-Flow Training for Multi-Paradigm JEPA Control](https://arxiv.org/abs/2607.04978v1)
-
-**Authors:** Ruslan Rakhimov, George Bredis, Yuriy Maksyuta, Daniil Gavrilov
-
-**Published:** 2026-07-06 | **Categories:** cs.LG, cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04978v1) | [PDF](https://arxiv.org/pdf/2607.04978v1.pdf) | [Project Page](https://corl-team.github.io/qantara)
-
-<details>
-<summary>Abstract</summary>
-
-Joint-Embedding Predictive Architectures (JEPAs) underpin a growing family of latent world models for control from raw pixels, but every existing JEPA world model commits at training time to a single inference paradigm: either trajectory optimisation in a learned dynamics model, or direct behaviour cloning. A single checkpoint that serves both would defer this choice to inference, when deployment constraints (rollout cost, observation accessibility) determine which path wins. We present Qantara,...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287v1)
+
+**Authors:** Jianyi Zhou, Feiyang Hong, Yunhao Li, Yicheng Zhao, Yongjue Cen et al. (12 authors)
+
+**Published:** 2026-07-08 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.07287v1) | [PDF](https://arxiv.org/pdf/2607.07287v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Dexterous manipulation in everyday environments requires both anticipation and reaction: a robot must predict how contact should evolve while rapidly correcting local errors caused by slip, misalignment, unstable grasping, or force mismatch. Vision and language provide semantic and geometric guidance, but they cannot reliably reveal hidden contact states such as force, slip, and contact stability. Although tactile sensing exposes these physical cues, most existing policies treat touch as a low-f...
+
+</details>
+
+---
+
+### [Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators](https://arxiv.org/abs/2607.07196v1)
+
+**Authors:** Christian Oefinger, Finn Rasmus Schäfer, Korbinian Moller, Mattia Piccinini, Johannes Betz
+
+**Published:** 2026-07-08 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.07196v1) | [PDF](https://arxiv.org/pdf/2607.07196v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Across robotics, World Models (WMs) are increasingly used to evaluate action policies by simulating the consequences of actions in an imagined world, and returning a success or safety verdict. Yet a verdict is only as trustworthy as the WM that produced it, and the WM itself needs to be certified. In video-generation WMs, fidelity metrics such as Fréchet Video Distance (FVD) reward visual realism, but ignore whether the world responds correctly to the policy's actions, including those unseen in ...
+
+</details>
+
+---
+
+### [Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix](https://arxiv.org/abs/2607.06925v1)
+
+**Authors:** Yufeng Wang, Lu Wei, Haibin Ling
+
+**Published:** 2026-07-08 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06925v1) | [PDF](https://arxiv.org/pdf/2607.06925v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Compact world models that condition on a language goal promise to ground relations such as ``put the red block left of the blue block'' using a sparse set of explicit \emph{reference anchors}. We ask when such references actually ground a relation, and identify a trap: a goal-conditioned predictor reaches a striking $0.90$ relation-readout accuracy, yet this is \emph{instruction transcription}, not perception. Withholding the goal collapses it to chance ($0.90\!\to\!0.27$, three seeds) and a cou...
+
+</details>
+
+---
+
+### [Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review](https://arxiv.org/abs/2607.06706v1)
+
+**Authors:** Inkyu Sa, Chanoh Park, Hea-Min Lee, Donghee Noh, Ho Seok Ahn
+
+**Published:** 2026-07-07 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06706v1) | [PDF](https://arxiv.org/pdf/2607.06706v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision Language Action (VLA) models unify visual perception, natural-language understanding, and action generation within a single foundation model, allowing a robot to follow instructions such as fold the towel or fly to the red building directly from camera images. Because VLAs inherit world knowledge from internet-scale pre-training, they have become the dominant framework for learning-based manipulation, with bimanual coordination serving as the most demanding testbed: two arms with 7 degree...
+
+</details>
+
+---
 
 ### [Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning](https://arxiv.org/abs/2607.06501v1)
 
@@ -150,6 +184,23 @@ World models -- internal simulators that learn the structure and dynamics of an 
 
 ---
 
+### [The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?](https://arxiv.org/abs/2607.06640v1)
+
+**Authors:** Donna Vakalis
+
+**Published:** 2026-07-07 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.06640v1) | [PDF](https://arxiv.org/pdf/2607.06640v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A learned world model is usually judged by how faithfully it reconstructs its observations or predicts reward, as though quality were something the model simply has or lacks. But what a task actually needs from a model is narrower: the few predictive coordinates its queries depend on, which we call the closure. We show that how much of that closure a latent comes to represent is set not by the model's capacity or its observations but by the dimensionality of the objective it is trained against, ...
+
+</details>
+
+---
+
 ### [AlayaWorld: Long-Horizon and Playable Video World Generation](https://arxiv.org/abs/2607.06291v1)
 
 **Authors:**  AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge et al. (17 authors)
@@ -179,91 +230,6 @@ Game worlds have traditionally been built through labor-intensive production pip
 <summary>Abstract</summary>
 
 Long-horizon failure in world models is conventionally attributed to compounding error, a generic framing that does not distinguish what kind of error compounds. We propose a kinematic-vs-dynamic reframing: world models tend to imagine kinematically rather than dynamically. We operationalize this as the imagined Kinematic-Consistency Error, a per-step diagnostic that measures how far a rollout departs from a closed-form kinematic null, paired with a perturbation protocol that tests whether iKCE ...
-
-</details>
-
----
-
-### [Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction](https://arxiv.org/abs/2607.05577v1)
-
-**Authors:** Mohammad Saifullah, Thomas Kornmaier, Taaha Kazi, Vasu Sharma, Aditya Sanjiv Kanade et al. (6 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.AI, cs.CL, cs.IR
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.05577v1) | [PDF](https://arxiv.org/pdf/2607.05577v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Long-form fiction writers need memory that answers multi-hop questions about evolving story state: who knows a secret and when they learned it, whether an event preceded the narration that revealed it, whether a setup paid off, and how a relationship shifted. General-purpose retrieval and agent-memory systems represent entities and facts but not the narratological structure these questions turn on, so they surface the wrong evidence or none at all. We introduce the Narrative World Model (NWM), a...
-
-</details>
-
----
-
-### [Multiplayer Interactive World Models with Representation Autoencoders](https://arxiv.org/abs/2607.05352v2)
-
-**Authors:** Anthony Hu, Václav Volhejn, Adrien Ramanana Rahary, Chris Mulder, Aditya Makkar et al. (27 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.05352v2) | [PDF](https://arxiv.org/pdf/2607.05352v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in the scene to the correct player and to stay coherent under arbitrary combinations of their actions. We study this problem in the game of Rocket League, where players compete and cooperate under fast, t...
-
-</details>
-
----
-
-### [MoP-JEPA: Hard-Assigned Predictor Mixtures for Stochastic JEPA World Models](https://arxiv.org/abs/2607.05238v1)
-
-**Authors:** Zhi Song, Ximing Xing, Zhenchao Tang, hanbo Huang, Tianxu Lv et al. (10 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.05238v1) | [PDF](https://arxiv.org/pdf/2607.05238v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-JEPA world models predict the next latent state with a single deterministic predictor trained by latent regression. We show that this fails structurally when the environment is stochastic: at a branching transition, the regression-optimal predictor outputs the conditional mean of the successor embeddings, a point between the true next states that corresponds to no state at all. We prove this collapse for deterministic and gated mixture-of-experts predictors, and prove that MoP-JEPA's hard-assign...
-
-</details>
-
----
-
-### [DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation](https://arxiv.org/abs/2607.04927v1)
-
-**Authors:** Jian Zhu, Jianjun Zhang, Taiyi Su, Tianbin Liu, Zhangyuan Wang et al. (13 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04927v1) | [PDF](https://arxiv.org/pdf/2607.04927v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) provide a promising alternative to Vision-Language-Action (VLA) policies by using video-based world modeling as dense supervision for robot action learning. Existing WAMs excel at physically grounded execution, but typically lack the explicit language-level planning interface in VLM-based VLAs for decomposing coarse instructions. Such decomposition becomes important when household tasks involve complex multi-step goals, where coarse user commands need to be converted i...
-
-</details>
-
----
-
-### [KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation](https://arxiv.org/abs/2607.04652v1)
-
-**Authors:** Xinyu Shao, Keru Zhou, Guowei Huang, Yajun Gao, Tongtong Cao et al. (6 authors)
-
-**Published:** 2026-07-06 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.04652v1) | [PDF](https://arxiv.org/pdf/2607.04652v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learning manipulation from few demonstrations requires visual priors that capture not only where to interact, but also how the interaction should begin; static priors such as segmentation masks encode only the former. We present KAM-WM, a framework that extracts a coarse directional interaction cue from a frozen latent video world model without rollout or world-model fine-tuning. KAM-WM queries a Flow Matching image-to-video backbone once and interprets its single-step latent velocity as a Kinem...
 
 </details>
 
