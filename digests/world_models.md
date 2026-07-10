@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-09 23:02 UTC
+**Last updated:** 2026-07-10 17:46 UTC
 
-**Papers found:** 13
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
@@ -29,66 +29,66 @@ We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced
 
 ---
 
-### [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://arxiv.org/abs/2607.06559v1)
-
-**Authors:** Haoyu Zhao, Xingyue Zhao, Siteng Huang, Xin Li, Deli Zhao et al. (6 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06559v1) | [PDF](https://arxiv.org/pdf/2607.06559v1.pdf) | [Project Page](https://alibaba-damo-academy.github.io/RynnWorld-4D.github.io) | [GitHub](https://github.com/alibaba-damo-academy/RynnWorld-4D)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significant...
-
-</details>
-
----
-
-### [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://arxiv.org/abs/2607.06558v1)
-
-**Authors:** Haoyu Zhao, Xingyue Zhao, Hangyu Li, Biao Gong, Kehan Li et al. (9 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06558v1) | [PDF](https://arxiv.org/pdf/2607.06558v1.pdf) | [Project Page](https://alibaba-damo-academy.github.io/RynnWorld-Teleop.github.io) | [GitHub](https://github.com/alibaba-damo-academy/RynnWorld-Teleop)
-
-<details>
-<summary>Abstract</summary>
-
-Scaling robot learning requires massive, diverse trajectory data, yet collection is currently bottlenecked by physical teleoperation, where every demonstration binds operator time to specific hardware and workspaces. We introduce digital teleoperation, a paradigm that decouples data collection from physical constraints by replacing the real robot with a generative world model. In this framework, an operator's hand-pose stream drives a robot-centric generative world model to synthesize high-fidel...
-
-</details>
-
----
-
-### [MoWorld: A Flash World Model](https://arxiv.org/abs/2607.06216v1)
-
-**Authors:** Team Moxin, Deyi Ji, Tianrun Chen, Xin Zhang, Jiale Yang et al. (29 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06216v1) | [PDF](https://arxiv.org/pdf/2607.06216v1.pdf) | [Project Page](https://moxin-tech.github.io/moworld/)
-
-<details>
-<summary>Abstract</summary>
-
-The future of World Models depends not only on scaling model capability, but also on scaling practicality and inference efficiency. High-frame-rate inference enables responsive perception, planning, and control in real-world autonomous systems. To this end, we present MoWorld, a cost-effective yet high-performance Flash World Model with an end-to-end framework spanning data generation, pre-training, distillation, and efficient inference, enabling up to 50 FPS real-time interaction with cinematic...
-
-</details>
-
----
-
 ## Other Recent Papers
 
-### [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287v1)
+### [WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.08375v1)
+
+**Authors:** Xuerun Yan, Zhexi Lian, Nuoheng Zhang, Shiyu Fang, Haoran Wang et al. (8 authors)
+
+**Published:** 2026-07-09 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.08375v1) | [PDF](https://arxiv.org/pdf/2607.08375v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have advanced end-to-end autonomous driving. However, existing methods either lack comprehensive world cognition or suffer from fragmented world foresight, inherently confining these models to reactive driving. To address this limitation, we propose WCog-VLA, a novel dual-level World-Cognitive VLA framework that successfully bridges semantic world forecasting with generative world evolution to achieve proactive autonomous driving. At the semantic level, WCog-V...
+
+</details>
+
+---
+
+### [Write-Protected Discrete Bottlenecks for Language-Grounded World Models: A Structural Limitation and Sufficient Fix](https://arxiv.org/abs/2607.08312v1)
+
+**Authors:** Jiayi Fang
+
+**Published:** 2026-07-09 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.08312v1) | [PDF](https://arxiv.org/pdf/2607.08312v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+How should language interface with a world model's discrete symbol system? The dominant paradigm -- end-to-end injection of LLM/VLM features into robot world models (RT-2, Octo, PaLM-E) -- implicitly assumes that language gradients can directly shape physical symbol representations. We ask whether this assumption is safe, find that it is not, and characterize the minimal architectural constraint that prevents the failure. Any language gradient entering a Gumbel-softmax-based discrete symbol bott...
+
+</details>
+
+---
+
+### [Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models](https://arxiv.org/abs/2607.07763v1)
+
+**Authors:** Eli Laird, Corey Clark
+
+**Published:** 2026-07-08 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.07763v1) | [PDF](https://arxiv.org/pdf/2607.07763v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are typically trained to predict discrete-time physical dynamics with a fixed step size baked into the model weights, preventing prediction at variable temporal resolutions. This matters for hierarchical planning, sim-to-real transfer, and scientific or game-engine applications that must query the same dynamics at multiple timescales. Hamiltonian Generative Networks (HGN) offer a principled path forward, grounding predictions in a continuous-time energy function that is, in principl...
+
+</details>
+
+---
+
+### [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287v2)
 
 **Authors:** Jianyi Zhou, Feiyang Hong, Yunhao Li, Yicheng Zhao, Yongjue Cen et al. (12 authors)
 
 **Published:** 2026-07-08 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.07287v1) | [PDF](https://arxiv.org/pdf/2607.07287v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2607.07287v2) | [PDF](https://arxiv.org/pdf/2607.07287v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -128,108 +128,6 @@ Across robotics, World Models (WMs) are increasingly used to evaluate action pol
 <summary>Abstract</summary>
 
 Compact world models that condition on a language goal promise to ground relations such as ``put the red block left of the blue block'' using a sparse set of explicit \emph{reference anchors}. We ask when such references actually ground a relation, and identify a trap: a goal-conditioned predictor reaches a striking $0.90$ relation-readout accuracy, yet this is \emph{instruction transcription}, not perception. Withholding the goal collapses it to chance ($0.90\!\to\!0.27$, three seeds) and a cou...
-
-</details>
-
----
-
-### [Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review](https://arxiv.org/abs/2607.06706v1)
-
-**Authors:** Inkyu Sa, Chanoh Park, Hea-Min Lee, Donghee Noh, Ho Seok Ahn
-
-**Published:** 2026-07-07 | **Categories:** cs.RO, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06706v1) | [PDF](https://arxiv.org/pdf/2607.06706v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision Language Action (VLA) models unify visual perception, natural-language understanding, and action generation within a single foundation model, allowing a robot to follow instructions such as fold the towel or fly to the red building directly from camera images. Because VLAs inherit world knowledge from internet-scale pre-training, they have become the dominant framework for learning-based manipulation, with bimanual coordination serving as the most demanding testbed: two arms with 7 degree...
-
-</details>
-
----
-
-### [Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning](https://arxiv.org/abs/2607.06501v1)
-
-**Authors:** Anxing Xiao, Hanbo Zhang, Tianrun Hu, David Hsu
-
-**Published:** 2026-07-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06501v1) | [PDF](https://arxiv.org/pdf/2607.06501v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We consider an open-world planning setting in which service robots must operate in unknown environments with incomplete knowledge of objects and actions. Traditional closed-world approaches with pre-programmed knowledge bases fail when robots encounter unexpected situations and tasks, posing a fundamental challenge for autonomous knowledge expansion in human environments. In this work, we propose an open-world planning framework that enables robots to automatically generate, verify, and update h...
-
-</details>
-
----
-
-### [A Definition and Roadmap for World Models](https://arxiv.org/abs/2607.06401v1)
-
-**Authors:** Xinyuan Chen, Haoyu Guo, Shi Guo, Bingqi Jiang, Chunhua Shen et al. (13 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06401v1) | [PDF](https://arxiv.org/pdf/2607.06401v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models -- internal simulators that learn the structure and dynamics of an environment -- have become one of the most actively debated concepts in AI. From model-based reinforcement learning and video generation to embodied robotics and ultimately, physical AI, researchers across AI subfields are building systems that they call "world models", yet there is no consensus on what a world model fundamentally is, what it should predict, or how it should be built. This perspective article provide...
-
-</details>
-
----
-
-### [The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?](https://arxiv.org/abs/2607.06640v1)
-
-**Authors:** Donna Vakalis
-
-**Published:** 2026-07-07 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06640v1) | [PDF](https://arxiv.org/pdf/2607.06640v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A learned world model is usually judged by how faithfully it reconstructs its observations or predicts reward, as though quality were something the model simply has or lacks. But what a task actually needs from a model is narrower: the few predictive coordinates its queries depend on, which we call the closure. We show that how much of that closure a latent comes to represent is set not by the model's capacity or its observations but by the dimensionality of the objective it is trained against, ...
-
-</details>
-
----
-
-### [AlayaWorld: Long-Horizon and Playable Video World Generation](https://arxiv.org/abs/2607.06291v1)
-
-**Authors:**  AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge et al. (17 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.CV, cs.HC
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.06291v1) | [PDF](https://arxiv.org/pdf/2607.06291v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Game worlds have traditionally been built through labor-intensive production pipelines, making them costly to develop, difficult to customization, and expensive to modify after deployment. Recent advances in video world models offer a fundamentally different paradigm. Rather than explicitly authoring every component of a virtual environment, these models autoregressively synthesize future observations conditioned on the current world state and user interactions, enabling playable worlds to be ge...
-
-</details>
-
----
-
-### [Imagined Rollouts are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure](https://arxiv.org/abs/2607.05966v1)
-
-**Authors:** Finn Rasmus Schäfer, Korbinian Moller, Yuan Gao, Christian Oefinger, Sebastian Schmidt et al. (6 authors)
-
-**Published:** 2026-07-07 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.05966v1) | [PDF](https://arxiv.org/pdf/2607.05966v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Long-horizon failure in world models is conventionally attributed to compounding error, a generic framing that does not distinguish what kind of error compounds. We propose a kinematic-vs-dynamic reframing: world models tend to imagine kinematically rather than dynamically. We operationalize this as the imagined Kinematic-Consistency Error, a per-step diagnostic that measures how far a rollout departs from a closed-form kinematic null, paired with a perturbation protocol that tests whether iKCE ...
 
 </details>
 
