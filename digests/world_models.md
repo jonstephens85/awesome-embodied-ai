@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-14 22:46 UTC
+**Last updated:** 2026-07-15 17:16 UTC
 
-**Papers found:** 8
+**Papers found:** 10
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [FlowWAM: Optical Flow as a Unified Action Representation for World Action Models](https://arxiv.org/abs/2607.13017v1)
+
+**Authors:** Yixiang Chen, Peiyan Li, Yuan Xu, Qisen Ma, Jiabing Yang et al. (16 authors)
+
+**Published:** 2026-07-14 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.13017v1) | [PDF](https://arxiv.org/pdf/2607.13017v1.pdf) | [Project Page](https://flow-wam.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy the former, and prior visual action representations overlook the temporal motion structure across fram...
+
+</details>
+
+---
 
 ### [WALA Learning Executable Latent Actions from Action-Labeled Demonstrations and Action-Free Videos](https://arxiv.org/abs/2607.11397v1)
 
@@ -30,6 +47,57 @@ Generalizable robot policies typically rely on action-labeled robot demonstratio
 ---
 
 ## Other Recent Papers
+
+### [TRACE: An Operational Reasoning Schema for Auditable Agentic Commitments](https://arxiv.org/abs/2607.12480v1)
+
+**Authors:** Edward Y. Chang, Emily J. Chang
+
+**Published:** 2026-07-14 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.12480v1) | [PDF](https://arxiv.org/pdf/2607.12480v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+This paper defines TRACE (Typed Reasoning And Commitment Evidence): a typed, versioned schema for recording reasoning traces, a reference procedure for writing records against it, and one operating discipline, no durable state change without a record. The paper argues in three layers that reasoning is not in the language model: the autoregressive mechanism natively computes association; chain-of-thought and reinforcement learning inherit its limits; and the formal constructs of reasoning theory,...
+
+</details>
+
+---
+
+### [From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery](https://arxiv.org/abs/2607.12474v1)
+
+**Authors:** Ingmar Posner, Anson Lei, Bernhard Schölkopf
+
+**Published:** 2026-07-14 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.12474v1) | [PDF](https://arxiv.org/pdf/2607.12474v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in foundation models have transformed AI for Science, enabling remarkably accurate predictive performance across domains ranging from protein folding to weather forecasting. Yet prediction alone does not constitute scientific discovery. Scientific understanding depends on uncovering the reusable explanatory mechanisms that generate observations, whereas contemporary machine learning remains fundamentally organised around predictive mappings rather than explanatory structure. In t...
+
+</details>
+
+---
+
+### [The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report](https://arxiv.org/abs/2607.12231v1)
+
+**Authors:** Nicolae Cudlenco, Mihai Masala, Marius Leordeanu
+
+**Published:** 2026-07-14 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.12231v1) | [PDF](https://arxiv.org/pdf/2607.12231v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We present the GEST-Engine, a complete system that goes from natural-language text to fully-annotated multi-actor video. At its core is an explicit world model: rather than encoding state as a learned latent, the engine maintains a complete, inspectable representation of the world (which actors exist, where they are, what they are doing, which objects they hold, and how events relate in time and space), expressed as a formal Graph of Events in Space and Time (GEST) and realized deterministically...
+
+</details>
+
+---
 
 ### [Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency](https://arxiv.org/abs/2607.11836v1)
 
@@ -65,13 +133,13 @@ Artificial general intelligence ultimately requires agents that can reason and a
 
 ---
 
-### [ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space](https://arxiv.org/abs/2607.11673v1)
+### [ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space](https://arxiv.org/abs/2607.11673v2)
 
 **Authors:** Mingchao Sun, Luyang Tang, Yu Liu, Xu Yan, Zhan Li et al. (37 authors)
 
 **Published:** 2026-07-13 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.11673v1) | [PDF](https://arxiv.org/pdf/2607.11673v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2607.11673v2) | [PDF](https://arxiv.org/pdf/2607.11673v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -111,40 +179,6 @@ Recent foundation image and video generation models offer strong generalization 
 <summary>Abstract</summary>
 
 Learning, at its core, extends beyond memorization to the ability to reason and solve novel problems by navigating a space of possibilities. We introduce Lumo-2, a latent world-action model that generates actions by reasoning over world dynamics in latent space. The learned latent world dynamics capture physically grounded visual transitions, naturally encoding future possibilities and providing a unified substrate for cross-modal alignment. This formulation enables predictive reasoning akin to ...
-
-</details>
-
----
-
-### [Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models](https://arxiv.org/abs/2607.10781v1)
-
-**Authors:** Xiyan Su, Frank Diermeyer, Markus Lienkamp
-
-**Published:** 2026-07-12 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.10781v1) | [PDF](https://arxiv.org/pdf/2607.10781v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Driving world models built on large video-diffusion backbones generate realistic scenes but are hard to control: enforcing a traffic norm typically means retraining the backbone or conditioning it on hand-built layouts. We ask whether controllability requires training at all. Our experiment shows that a rectified-flow driving world model, which jointly generates future video and a planned ego trajectory, can have its planned trajectory steered entirely at sampling time by differentiable energy f...
-
-</details>
-
----
-
-### [World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning](https://arxiv.org/abs/2607.10630v1)
-
-**Authors:** Tong Nie, Yuewen Mei, Junlin He, Yihong Tang, Jian Sun et al. (6 authors)
-
-**Published:** 2026-07-12 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.10630v1) | [PDF](https://arxiv.org/pdf/2607.10630v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robust motion planning in dense traffic requires autonomous vehicles to interact in rare and safety-critical scenarios that are underrepresented in naturalistic driving data. Although adversarial training offers a feasible solution, existing methods often rely on external scenario generators, heuristic perturbations, or simulator-heavy rollouts, which makes them difficult to integrate with modern autoregressive planners. Here, we cast adversarially robust planner learning as a constrained min-ma...
 
 </details>
 
