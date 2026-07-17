@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-16 22:48 UTC
+**Last updated:** 2026-07-17 17:10 UTC
 
-**Papers found:** 13
+**Papers found:** 15
 
 [Back to Home](../README.md)
 
@@ -12,13 +12,47 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch](https://arxiv.org/abs/2607.13960v1)
+### [Hierarchical Denoising For Multi-Step Visual Reasoning](https://arxiv.org/abs/2607.15278v1)
+
+**Authors:** Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan et al. (12 authors)
+
+**Published:** 2026-07-16 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.15278v1) | [PDF](https://arxiv.org/pdf/2607.15278v1.pdf) | [Project Page](https://hierarchical-diffusion-reasoning.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising. Both paradigms struggle to achieve logical consistency and low-latency streaming for complex reasoning tasks. We propose HDR (Hierarchical Denoising for Visual Reasoning), a unified framework ...
+
+</details>
+
+---
+
+### [DriftWorld: Fast World Modeling through Drifting](https://arxiv.org/abs/2607.15065v1)
+
+**Authors:** Susie Lu, Haonan Chen, Weirui Ye, Yilun Du
+
+**Published:** 2026-07-16 | **Categories:** cs.RO, cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.15065v1) | [PDF](https://arxiv.org/pdf/2607.15065v1.pdf) | [Project Page](https://susie-lu.github.io/driftworld/)
+
+<details>
+<summary>Abstract</summary>
+
+Predictive world models enable robots to plan by imagining the outcomes of their actions, but their value for control hinges on generating many rollouts quickly. This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting large-scale action search at inference time. We introduce DriftWorld, an action-conditioned world model based on drifting generative models. Rather than denoising iteratively at inference, DriftWorld learns an action-con...
+
+</details>
+
+---
+
+### [GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch](https://arxiv.org/abs/2607.13960v2)
 
 **Authors:**  GigaWorld Team, Angen Ye, Angyuan Ma, Boyuan Wang, Chaojun Ni et al. (29 authors)
 
 **Published:** 2026-07-15 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.13960v1) | [PDF](https://arxiv.org/pdf/2607.13960v1.pdf) | [Project Page](https://open-gigaai.github.io/giga-world-policy/)
+**Links:** [arXiv](https://arxiv.org/abs/2607.13960v2) | [PDF](https://arxiv.org/pdf/2607.13960v2.pdf) | [Project Page](https://open-gigaai.github.io/giga-world-policy/)
 
 <details>
 <summary>Abstract</summary>
@@ -46,24 +80,41 @@ Humans can efficiently parse continuous sensory streams, from hours to years, sc
 
 ---
 
-### [FlowWAM: Optical Flow as a Unified Action Representation for World Action Models](https://arxiv.org/abs/2607.13017v1)
+### [When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models](https://arxiv.org/abs/2607.14169v1)
 
-**Authors:** Yixiang Chen, Peiyan Li, Yuan Xu, Qisen Ma, Jiabing Yang et al. (16 authors)
+**Authors:** Javier Aguilar Martín
 
-**Published:** 2026-07-14 | **Categories:** cs.RO, cs.CV
+**Published:** 2026-07-15 | **Categories:** cs.AI, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.13017v1) | [PDF](https://arxiv.org/pdf/2607.13017v1.pdf) | [Project Page](https://flow-wam.github.io)
+**Links:** [arXiv](https://arxiv.org/abs/2607.14169v1) | [PDF](https://arxiv.org/pdf/2607.14169v1.pdf) | [GitHub](https://github.com/JaviMaligno/code-world-models)
 
 <details>
 <summary>Abstract</summary>
 
-World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy the former, and prior visual action representations overlook the temporal motion structure across fram...
+Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesized CWM can pass a sampling gate at 100% transition accuracy and be $\geq 98\%$ state-accurate on the planner's own search distribution, yet lose systema...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Concept-Guided Spatial Regularization for World Models in Atari Pong](https://arxiv.org/abs/2607.15142v1)
+
+**Authors:** Yukuan Lu, Zaishuo Xia, Weyl Lu, Yubei Chen
+
+**Published:** 2026-07-16 | **Categories:** cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.15142v1) | [PDF](https://arxiv.org/pdf/2607.15142v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are usually evaluated as components of model-based reinforcement learning (MBRL) systems, while the world models themselves are rarely studied in isolation. We examine five representative visual world-model agents in Atari Pong: DreamerV3, DIAMOND, TWISTER, Simulus, and STORM. After reproducing their training pipelines and matching the reported agent performance, we freeze the learned world models and evaluate them with a closed-loop rollout diagnostic: a policy trained separately f...
+
+</details>
+
+---
 
 ### [From Pixels to States: Rethinking Interactive World Models as Game Engines](https://arxiv.org/abs/2607.14076v1)
 
@@ -94,6 +145,57 @@ Building interactive worlds that respond coherently to player actions has long b
 <summary>Abstract</summary>
 
 Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing methods remain limited in object-level controllability and long-horizon stability. We present M$^\text{4}$World, a Multi-view and Multimodal generative driving world model that synthesizes future surround-view video streams and synchronized LiDAR scans while supporting interactive object Manipulation and stable Minute-long streaming. Fine-grained object manipulation is realized thro...
+
+</details>
+
+---
+
+### [RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination](https://arxiv.org/abs/2607.14187v1)
+
+**Authors:** Haotian Liang, Mingkang Chen, Yufei Huang, Yuchun Guo, Xiaomeng Zhu et al. (30 authors)
+
+**Published:** 2026-07-15 | **Categories:** cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.14187v1) | [PDF](https://arxiv.org/pdf/2607.14187v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an embodied cognition foundation model with joint language-visual reasoning and imagination. Unlike vision-language models that emphasize scene understanding and textual decision making, or generative world models that mainly predict future visual states, RxBrain represents embodied plans in a single planning sequence where language and visual imagina...
+
+</details>
+
+---
+
+### [Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning](https://arxiv.org/abs/2607.14183v1)
+
+**Authors:** Zishuo Li, Bowen Yang, Changtao Miao, Kai Zhu, Hao Chen et al. (32 authors)
+
+**Published:** 2026-07-15 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.14183v1) | [PDF](https://arxiv.org/pdf/2607.14183v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric videos of human manipulation provide scalable supervision for embodied intelligence, yet existing resources rarely combine low-cost continuous capture, manipulation-level structured annotations, and reusable tools for robot learning. We present Open-AoE, an open, community-oriented egocentric manipulation dataset and toolchain spanning the full pipeline from smartphone capture to model training. Its first release contains approximately 2,000 hours of manipulation video collected in na...
+
+</details>
+
+---
+
+### [RENEW: Towards Learning World Models and Repairing Model Exploitation from Preferences](https://arxiv.org/abs/2607.14180v1)
+
+**Authors:** Logan Mondal Bhamidipaty, Mykel Kochenderfer, Subramanian Ramamoorthy
+
+**Published:** 2026-07-15 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.14180v1) | [PDF](https://arxiv.org/pdf/2607.14180v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models are widely used in offline reinforcement learning (RL) to improve sample efficiency and generate experience beyond a fixed dataset. However, they are vulnerable to model exploitation where data coverage is thin. Prior work addresses this either by collecting more expert demonstrations, which is often expensive, unsafe, or unavailable, or by conservative algorithms that avoid uncertain regions, which limits generalization. We propose instead to repair exploitation directly using huma...
 
 </details>
 
@@ -162,74 +264,6 @@ Recent advances in generative and embodied AI have been driven by large-scale pr
 <summary>Abstract</summary>
 
 World model (WM)-based reinforcement learning enables sample-efficient end-to-end autonomous driving learning by imagining long-horizon trajectories in latent space. However, most driving WMs operate on bird's-eye-view (BEV) representations that are inherently egocentric: the transition between consecutive frames entangles the ego vehicle's own motion with scene dynamics. As a result, the WM devotes significant capacity to recovering ego-motion from warped observations, at the cost of scene mode...
-
-</details>
-
----
-
-### [Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models](https://arxiv.org/abs/2607.13172v1)
-
-**Authors:** Ilias Kazantzidis, Timothy J. Norman, Yali Du, Christopher T. Freeman
-
-**Published:** 2026-07-14 | **Categories:** cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.13172v1) | [PDF](https://arxiv.org/pdf/2607.13172v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available. In the context of safety-critical environments, we consider traditional reinforcement learning impractical and resort to the resource of human input. We introduce DROPJ, a human-centred method for both safe training and deployment. We first learn a world model (a learned simulator) from a dataset of pr...
-
-</details>
-
----
-
-### [TRACE: An Operational Reasoning Schema for Auditable Agentic Commitments](https://arxiv.org/abs/2607.12480v1)
-
-**Authors:** Edward Y. Chang, Emily J. Chang
-
-**Published:** 2026-07-14 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.12480v1) | [PDF](https://arxiv.org/pdf/2607.12480v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-This paper defines TRACE (Typed Reasoning And Commitment Evidence): a typed, versioned schema for recording reasoning traces, a reference procedure for writing records against it, and one operating discipline, no durable state change without a record. The paper argues in three layers that reasoning is not in the language model: the autoregressive mechanism natively computes association; chain-of-thought and reinforcement learning inherit its limits; and the formal constructs of reasoning theory,...
-
-</details>
-
----
-
-### [From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery](https://arxiv.org/abs/2607.12474v2)
-
-**Authors:** Ingmar Posner, Anson Lei, Bernhard Schölkopf
-
-**Published:** 2026-07-14 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.12474v2) | [PDF](https://arxiv.org/pdf/2607.12474v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in foundation models have transformed AI for Science, enabling remarkably accurate predictive performance across domains ranging from protein folding to weather forecasting. Yet prediction alone does not constitute scientific discovery. Scientific understanding depends on uncovering the reusable explanatory mechanisms that generate observations, whereas contemporary machine learning remains fundamentally organised around predictive mappings rather than explanatory structure. In t...
-
-</details>
-
----
-
-### [The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report](https://arxiv.org/abs/2607.12231v1)
-
-**Authors:** Nicolae Cudlenco, Mihai Masala, Marius Leordeanu
-
-**Published:** 2026-07-14 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.12231v1) | [PDF](https://arxiv.org/pdf/2607.12231v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present the GEST-Engine, a complete system that goes from natural-language text to fully-annotated multi-actor video. At its core is an explicit world model: rather than encoding state as a learned latent, the engine maintains a complete, inspectable representation of the world (which actors exist, where they are, what they are doing, which objects they hold, and how events relate in time and space), expressed as a formal Graph of Events in Space and Time (GEST) and realized deterministically...
 
 </details>
 
