@@ -2,12 +2,133 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-20 22:45 UTC
+**Last updated:** 2026-07-21 17:18 UTC
 
-**Papers found:** 0
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
 ---
 
-No papers found matching the criteria.
+## Papers with Project Pages / Code
+
+### [FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation](https://arxiv.org/abs/2607.18231v1)
+
+**Authors:** Ruicheng Li, Qixiu Li, Ruichun Ma, Yu Deng, Lin Luo et al. (11 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18231v1) | [PDF](https://arxiv.org/pdf/2607.18231v1.pdf) | [Project Page](https://qft-333.github.io/FM-VLA-Page/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled past image frames, but they are computationally expensive and fundamentally limited when temporal events are visually ambiguous, e.g., pushing a button multiple times with small movements. We propose FM-...
+
+</details>
+
+---
+
+### [RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model](https://arxiv.org/abs/2607.17977v1)
+
+**Authors:** Kehan Li, Bohan Hou, Minghao Zhu, Tianyi Zhang, Zesen Cheng et al. (30 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.17977v1) | [PDF](https://arxiv.org/pdf/2607.17977v1.pdf) | [Project Page](https://alibaba-damo-academy.github.io/RynnBrain) | [GitHub](https://github.com/alibaba-damo-academy/RynnBrain)
+
+<details>
+<summary>Abstract</summary>
+
+We present RynnBrain 1.1, a family of embodied foundation models spanning 2B, 9B, and 122B-A10B scales. Trained with a unified spatio-temporal and physically grounded framework, RynnBrain 1.1 supports embodied perception, spatial reasoning, localization, and planning. Compared with RynnBrain 1.0, it further introduces contact-point prediction across the model family and native 3D grounding for the 2B and 9B models, yielding representations and outputs that are more directly aligned with robot ma...
+
+</details>
+
+---
+
+## Other Recent Papers
+
+### [Patch Policy: Efficient Embodied Control via Dense Visual Representations](https://arxiv.org/abs/2607.18236v1)
+
+**Authors:** Gaoyue Zhou, Zichen Jeff Cui, Ada Langford, Bowen Tan, Yann LeCun et al. (6 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18236v1) | [PDF](https://arxiv.org/pdf/2607.18236v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and sl...
+
+</details>
+
+---
+
+### [RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning](https://arxiv.org/abs/2607.18060v1)
+
+**Authors:** Jinbang Huang, Yuanzhao Hu, Zhiyuan Li, Ran Qi, Yixin Xiao et al. (9 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18060v1) | [PDF](https://arxiv.org/pdf/2607.18060v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon robotic tasks require diverse capabilities that no single policy can reliably provide. Heterogeneous policies offer complementary strengths, but orchestrating them requires reasoning over uncertain capability boundaries and cross-policy distribution mismatch, which are largely overlooked by existing planning methods built on homogeneous, predefined skills with fixed applicability. We propose RoboHarness, a unified framework that encapsulates independently developed robot control sys...
+
+</details>
+
+---
+
+### [Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation](https://arxiv.org/abs/2607.18016v1)
+
+**Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi et al. (7 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18016v1) | [PDF](https://arxiv.org/pdf/2607.18016v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation. We propose \emph{Persistent Object Token...
+
+</details>
+
+---
+
+### [Reasoning as a Double-Edged Sword: Architecture and Cross-Stage Robustness in Vision-Language-Action Models](https://arxiv.org/abs/2607.17786v1)
+
+**Authors:** Tuan Duong Trinh, Naveed Akhtar, Basim Azam
+
+**Published:** 2026-07-20 | **Categories:** cs.RO, cs.AI, cs.CR
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.17786v1) | [PDF](https://arxiv.org/pdf/2607.17786v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Does adding a reasoning step make a Vision-Language-Action (VLA) model more robust to perturbation? Intuitively, a policy that reasons before acting should absorb a perturbed input better than one that maps observations directly to actions. We test this premise head-on across three models that span the reasoning spectrum (no reasoning, a text chain-of-thought, and a latent iterative loop), perturbing each at the vision, reasoning, and action stages on LIBERO and SimplerEnv. Two questions organiz...
+
+</details>
+
+---
+
+### [VLA-ReID: Video-Level Association for Re-Identification in Multi-Object Tracking with Highly Similar Objects](https://arxiv.org/abs/2607.17157v1)
+
+**Authors:** Yanrong Qin, Xiaoyan Cao, Yao Yao
+
+**Published:** 2026-07-19 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.17157v1) | [PDF](https://arxiv.org/pdf/2607.17157v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Multi-object tracking (MOT) aims to localize multiple objects in videos while preserving their identities over time. Long-term identity preservation remains difficult when objects are small, densely distributed, and highly similar in appearance, as in bee swarm scenes. Existing trackers rely on re-identification (re-ID) models trained through single-instance assignment (instance-level querying). At inference, however, MOT requires global assignment between multiple trajectories and detections, c...
+
+</details>
+
+---
