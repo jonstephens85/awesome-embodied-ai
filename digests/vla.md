@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-21 22:44 UTC
+**Last updated:** 2026-07-22 17:18 UTC
 
-**Papers found:** 7
+**Papers found:** 8
 
 [Back to Home](../README.md)
 
@@ -47,6 +47,40 @@ We present RynnBrain 1.1, a family of embodied foundation models spanning 2B, 9B
 ---
 
 ## Other Recent Papers
+
+### [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v1)
+
+**Authors:** Ziqin Wang, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng et al. (8 authors)
+
+**Published:** 2026-07-21 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18709v1) | [PDF](https://arxiv.org/pdf/2607.18709v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we present RoboInter1.5, an extended and holistic suite of intermediate representations for both robotic manipulation and embodied world modeling. RoboInter1.5 provides a unified resource of data, benchmarks, and models center...
+
+</details>
+
+---
+
+### [STeP: Signal Temporal Logic for Precise Specifications for Action Generation with Vision Language Models](https://arxiv.org/abs/2607.18580v1)
+
+**Authors:** Kasra Torshizi, Anukriti Singh, Sidharth Mathur, Khuzema Habib, Leo Du et al. (6 authors)
+
+**Published:** 2026-07-20 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.18580v1) | [PDF](https://arxiv.org/pdf/2607.18580v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models have shown impressive generalization, but often lack interpretability and can struggle to follow precise natural language instructions that encode spatial, temporal, and logical requirements. We propose a hierarchical framework that uses Signal Temporal Logic (STL) as a shared representation connecting high-level language understanding with low-level robot execution. A high-level policy leverages a VLM to decompose language instructions into high-level subtask...
+
+</details>
+
+---
 
 ### [Patch Policy: Efficient Embodied Control via Dense Visual Representations](https://arxiv.org/abs/2607.18236v1)
 
@@ -111,23 +145,6 @@ Vision-language-action policies are a promising foundation for general robot con
 <summary>Abstract</summary>
 
 Does adding a reasoning step make a Vision-Language-Action (VLA) model more robust to perturbation? Intuitively, a policy that reasons before acting should absorb a perturbed input better than one that maps observations directly to actions. We test this premise head-on across three models that span the reasoning spectrum (no reasoning, a text chain-of-thought, and a latent iterative loop), perturbing each at the vision, reasoning, and action stages on LIBERO and SimplerEnv. Two questions organiz...
-
-</details>
-
----
-
-### [VLA-ReID: Video-Level Association for Re-Identification in Multi-Object Tracking with Highly Similar Objects](https://arxiv.org/abs/2607.17157v1)
-
-**Authors:** Yanrong Qin, Xiaoyan Cao, Yao Yao
-
-**Published:** 2026-07-19 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17157v1) | [PDF](https://arxiv.org/pdf/2607.17157v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Multi-object tracking (MOT) aims to localize multiple objects in videos while preserving their identities over time. Long-term identity preservation remains difficult when objects are small, densely distributed, and highly similar in appearance, as in bee swarm scenes. Existing trackers rely on re-identification (re-ID) models trained through single-instance assignment (instance-level querying). At inference, however, MOT requires global assignment between multiple trajectories and detections, c...
 
 </details>
 
