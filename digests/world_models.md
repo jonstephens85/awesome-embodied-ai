@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-22 22:52 UTC
+**Last updated:** 2026-07-23 17:21 UTC
 
-**Papers found:** 20
+**Papers found:** 15
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL](https://arxiv.org/abs/2607.19749v1)
+
+**Authors:** Gurp Nijjer
+
+**Published:** 2026-07-22 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.19749v1) | [PDF](https://arxiv.org/pdf/2607.19749v1.pdf) | [GitHub](https://github.com/gurpnijjer/dream-rehearsal)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based reinforcement-learning agents of the DreamerV3 family forget catastrophically when trained on task sequences, even when an unbounded replay buffer preserves every earlier experience. We ask a question the continual-RL literature has assumed an answer to but never measured: which component forgets? Under never-clear replay, pre-registered component-level probes (n=3 seeds throughout) show that the world model retains essentially everything measurable about old tasks -- reward discrimi...
+
+</details>
+
+---
 
 ### [Masked Visual Actions for Unified World Modeling](https://arxiv.org/abs/2607.19343v1)
 
@@ -29,13 +46,13 @@ Video models absorb rich priors over how the visual world moves, interacts, and 
 
 ---
 
-### [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190v1)
+### [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190v2)
 
 **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma et al. (23 authors)
 
 **Published:** 2026-07-21 | **Categories:** cs.RO, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.19190v1) | [PDF](https://arxiv.org/pdf/2607.19190v1.pdf) | [Project Page](https://ericchen321.github.io/agentic_real2sim.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2607.19190v2) | [PDF](https://arxiv.org/pdf/2607.19190v2.pdf) | [Project Page](URL)
 
 <details>
 <summary>Abstract</summary>
@@ -81,6 +98,91 @@ Generative world renderer AlayaRenderer receives structured world states exporte
 ---
 
 ## Other Recent Papers
+
+### [Active Inference as a Convex Markov Decision Process](https://arxiv.org/abs/2607.20152v1)
+
+**Authors:** Nikola Milosevic, Nicolás Hinrichs, Nico Scherf
+
+**Published:** 2026-07-22 | **Categories:** cs.LG, cs.AI, stat.ML
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.20152v1) | [PDF](https://arxiv.org/pdf/2607.20152v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Active Inference (AIF) frames adaptive behavior as the minimization of expected free energy (EFE), combining epistemic and pragmatic objectives within a single variational principle. We frame AIF as policy optimization and show that, for closed-loop control policies, EFE minimization can be formulated as a convex Markov decision process (MDP). In this formulation, the pragmatic terms are linear in the predictive state marginals and therefore equivalent to reward maximization in a latent MDP, whi...
+
+</details>
+
+---
+
+### [LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition](https://arxiv.org/abs/2607.19889v1)
+
+**Authors:** Jiajun Cheng, Subarna Tripathi, Sainan Liu, Xiaofan Yu, Shan Lin
+
+**Published:** 2026-07-22 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.19889v1) | [PDF](https://arxiv.org/pdf/2607.19889v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Understanding instrument-tissue interactions is essential for context-aware surgical AI and autonomous robotic surgery. Pretrained vision-language models (VLMs) and vision encoders offer an alternative to conventional interaction classifiers by transferring broad visual and semantic knowledge. However, adapting them to fine-grained surgical interactions remains challenging: (1) freezing the vision encoder depends entirely on pretrained representations that may retain noise and provide weak spati...
+
+</details>
+
+---
+
+### [KineBench: Benchmarking Embodied World Models via IDM-Free Kinematic Grounding](https://arxiv.org/abs/2607.19876v1)
+
+**Authors:** Zeyu Liu, Zhangzhe Zhu, Yang Zhang, Chenyou Fan, Chenjia Bai et al. (6 authors)
+
+**Published:** 2026-07-22 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.19876v1) | [PDF](https://arxiv.org/pdf/2607.19876v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Evaluating the physical consistency of embodied world models(EWMs) is a critical open challenge. While closed-loop evaluation via simulator rollouts offers a more faithful assessment of physical plausibility than open-loop alternatives, existing frameworks almost exclusively rely on Inverse Dynamics Models(IDMs) for action extraction. Due to the intricate mapping from 2D pixel space to 3D kinematic space, the learned IDMs can be brittle to data outside their training distribution, resulting in u...
+
+</details>
+
+---
+
+### [Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning](https://arxiv.org/abs/2607.19809v1)
+
+**Authors:** Taisuke Takayama, Naoto Yoshida, Tadahiro Taniguchi
+
+**Published:** 2026-07-22 | **Categories:** cs.MA, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.19809v1) | [PDF](https://arxiv.org/pdf/2607.19809v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) ...
+
+</details>
+
+---
+
+### [Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination](https://arxiv.org/abs/2607.19719v1)
+
+**Authors:** Jiaqi Li, Xinglong Zhang, Haibin Xie, Yixing Lan, Wei Pan et al. (6 authors)
+
+**Published:** 2026-07-22 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.19719v1) | [PDF](https://arxiv.org/pdf/2607.19719v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models improve sample efficiency in continuous control by optimizing policies over imagined latent trajectories, but common neural transitions offer limited direct control over modal persistence and error accumulation in long rollouts. We propose Koopman Dreamer, a Dreamer-style world model with a spectrally constrained deterministic latent dynamics core. Its Koopman-inspired backbone uses two-dimensional rotation--scaling blocks with bounded radii to represent damping, rotation, an...
+
+</details>
+
+---
 
 ### [ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU](https://arxiv.org/abs/2607.19191v1)
 
@@ -133,13 +235,13 @@ Latent world models underpin much of modern model-based control, yet current act
 
 ---
 
-### [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v1)
+### [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v2)
 
 **Authors:** Ziqin Wang, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng et al. (8 authors)
 
 **Published:** 2026-07-21 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.18709v1) | [PDF](https://arxiv.org/pdf/2607.18709v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2607.18709v2) | [PDF](https://arxiv.org/pdf/2607.18709v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -162,193 +264,6 @@ Existing robot datasets remain expensive to curate, embodiment-specific, and ins
 <summary>Abstract</summary>
 
 AI-native biotechnology companies are often designed by copying human biotech org charts into agent roles. We argue for a different abstraction: a Company World Model, defined as a persistent asset-to-value state representation with transition models, explicit value functions, planning, and updating across scientific, regulatory, BD, commercial, financial, and execution constraints. We introduce a dry-lab benchmark for testing whether AI-agent organizations should mimic departments or operate ar...
-
-</details>
-
----
-
-### [Planning as Emergent Behavior in Reinforcement Learning with Relational Hidden States](https://arxiv.org/abs/2607.18589v1)
-
-**Authors:** Armin Sommer
-
-**Published:** 2026-07-20 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18589v1) | [PDF](https://arxiv.org/pdf/2607.18589v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Reinforcement learning is conventionally divided into model-based and model-free methods. In this taxonomy, model-based methods perform lookahead planning over a learned world model, whereas model-free methods learn a reactive state-action mapping. Recent work, however, has shown that planning can emerge from model-free reinforcement learning alone. The conditions under which this behavior emerges from a pure reward-maximization objective have so far remained unclear. In this paper, we present e...
-
-</details>
-
----
-
-### [Integrity-Gated Eco-CACC: Epistemic Admissibility for Cooperative Driving at Signalized Intersections](https://arxiv.org/abs/2607.18565v1)
-
-**Authors:** Lyes Saad Saoud, Moussa Ayyash
-
-**Published:** 2026-07-20 | **Categories:** eess.SY, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18565v1) | [PDF](https://arxiv.org/pdf/2607.18565v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Eco-Cooperative Adaptive Cruise Control (Eco-CACC) systems rely on accurate localization, signal timing, and interaction awareness to optimize energy consumption at signalized intersections. Existing approaches typically assume that the internal world model used for optimization remains valid, making them vulnerable when sensing outages or semantic inconsistencies invalidate planning premises. This letter proposes an Integrity-Gated Eco-CACC framework that explicitly monitors the consistency bet...
-
-</details>
-
----
-
-### [AlayaWorld: Interactive Long-Horizon World Modeling -- Full Technical Report](https://arxiv.org/abs/2607.18367v1)
-
-**Authors:**  AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge et al. (18 authors)
-
-**Published:** 2026-07-20 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18367v1) | [PDF](https://arxiv.org/pdf/2607.18367v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Unlike conventional video game development, which relies on labor-intensive pipelines for asset production, animation, physics, and programming, video world models generate interactive environments from user inputs instantly. It enable us to create customized, explorable, and continuously evolving virtual world from text, an image, or video. Realizing this vision requires four tightly coupled capabilities: interaction, persistent spatiotemporal consistency, stable long-horizon generation, and ef...
-
-</details>
-
----
-
-### [FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications](https://arxiv.org/abs/2607.18171v1)
-
-**Authors:** Krish Agarwal, Zhuoming Chen, Yanyuan Qin, Zhenyu Gu, Atri Rudra et al. (6 authors)
-
-**Published:** 2026-07-20 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18171v1) | [PDF](https://arxiv.org/pdf/2607.18171v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. Existing serving systems and auto-parallelism compilers commit to limited transformations and fixed workload assumptions, so achieving high performance on a new application requires hand-crafting an efficient implementation. We present Flas...
-
-</details>
-
----
-
-### [SAGE: Subgoal-Conditioned Action Generation for Latent World Model Planning](https://arxiv.org/abs/2607.17973v1)
-
-**Authors:** Letian Cheng, Qi Zhang, Yisen Wang
-
-**Published:** 2026-07-20 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17973v1) | [PDF](https://arxiv.org/pdf/2607.17973v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models have emerged as a powerful planning paradigm by learning action-conditioned predictive dynamics and using them as internal simulators to imagine and evaluate candidate action sequences. However, as the planning horizon grows, performance becomes increasingly constrained by proposal quality: a fixed candidate budget must search an exponentially larger action space, making it difficult to expose the world model to high-quality candidate futures for evaluation. In this paper, we...
-
-</details>
-
----
-
-### [Mobile Network Control with a World Model](https://arxiv.org/abs/2607.17747v1)
-
-**Authors:** Maxime Bouton, Ioanna Mitsioni, Simon Lindståhl, Jaeseong Jeong
-
-**Published:** 2026-07-20 | **Categories:** cs.NI, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17747v1) | [PDF](https://arxiv.org/pdf/2607.17747v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The increasing complexity of mobile networks necessitates intelligent and dynamic control strategies for efficient, energy-conserving management. We propose a world model-based approach for network control that enables adaptive configuration of crucial parameters. The world model is trained from historical data and predicts the impact of its actions on future network states. Our controller leverages the model's uncertainty estimate to robustly find optimal network configuration changes. Furtherm...
-
-</details>
-
----
-
-### [Planning with Transformers: Chain of Computation and Structured Context Windows](https://arxiv.org/abs/2607.17710v1)
-
-**Authors:** Ehsan Futuhi, Nathan R. Sturtevant
-
-**Published:** 2026-07-20 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17710v1) | [PDF](https://arxiv.org/pdf/2607.17710v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large Language Models (LLMs) have had a remarkable impact across many areas of machine learning. However, recent studies have shown that they struggle to reliably solve planning problems. At the same time, theoretical results have shown that transformers, the core architecture underlying modern LLMs, are Turing-complete. In this work, we investigate this apparent gap between the theoretical computational power of LLMs and their empirical planning performance. We propose Chain of Computation (COC...
-
-</details>
-
----
-
-### [Attention from Above: A Multimodal Model for Drone-Based Object Localization](https://arxiv.org/abs/2607.17669v1)
-
-**Authors:** Hyun-Ki Jung
-
-**Published:** 2026-07-20 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17669v1) | [PDF](https://arxiv.org/pdf/2607.17669v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Drone-based object detection technology has advanced rapidly, becoming increasingly sophisticated and efficient. Recently, research trends have expanded beyond the detection of predefined objects toward the identification of specified target objects. For example, desired targets can be specified through textual prompts, enabling accurate detection of objects of interest. To address this demand, this paper proposes an efficient multimodal-based object detection model aimed at improving small obje...
-
-</details>
-
----
-
-### [Reinforcement Learning: From Algorithms To Foundation Models](https://arxiv.org/abs/2607.17560v1)
-
-**Authors:** Zihan Ding
-
-**Published:** 2026-07-20 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17560v1) | [PDF](https://arxiv.org/pdf/2607.17560v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Reinforcement learning (RL) provides a framework for sequential decision making under explicit objectives. In its classical form, RL studies how an agent should act to maximise long-term reward in a dynamic environment. In richer settings, the problem extends beyond a single agent and fixed environment: intelligent behavior may require strategic interaction, adaptation to uncertainty, and reasoning over high-dimensional worlds. This thesis studies RL from two perspectives: algorithms in games an...
-
-</details>
-
----
-
-### [Thinking in Video: Can Video Generators Really Reason About the Real World?](https://arxiv.org/abs/2607.17523v1)
-
-**Authors:** Yongheng Zhang, Guang Yang, Ruihan Hou, Qiguang Chen, Ziang Liu et al. (15 authors)
-
-**Published:** 2026-07-20 | **Categories:** cs.CV, cs.AI, cs.CL
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17523v1) | [PDF](https://arxiv.org/pdf/2607.17523v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in world models and video generation have given rise to an emerging reasoning paradigm that leverages video generative models to simulate, predict, and reason about real-world dynamics. We redefine this paradigm as Thinking in Video, where video is not merely an output artifact but a medium for constructing, extending, and verifying causal thought. However, this promise remains unverified: convincing rollouts may reflect memorized appearances rather than causal understanding, whi...
-
-</details>
-
----
-
-### [GeoWorldAD: Geometry World Action Model for Autonomous Driving](https://arxiv.org/abs/2607.17521v1)
-
-**Authors:** Songyan Zhang, Jinyuan Tian, Hanbing Li, Daqi Liu, Hao Chen et al. (12 authors)
-
-**Published:** 2026-07-20 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.17521v1) | [PDF](https://arxiv.org/pdf/2607.17521v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous driving requires both safe and efficient planning decisions in dynamic 3D environments. Although recent Vision/Video-Action models learn policies directly from visual observations and scale well with advances in vision transformers and large-scale training data, they often lack explicit geometric grounding and future-aware spatial guidance, limiting their ability to balance collision avoidance and driving progress. In this work, we propose GeoWorldAD, a geometry world action model tha...
 
 </details>
 
