@@ -2,7 +2,7 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-23 17:22 UTC
+**Last updated:** 2026-07-23 22:46 UTC
 
 **Papers found:** 5
 
