@@ -2,15 +2,32 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-23 22:46 UTC
+**Last updated:** 2026-07-24 17:37 UTC
 
-**Papers found:** 5
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation](https://arxiv.org/abs/2607.21588v1)
+
+**Authors:** Mengfei Zhao, Dihong Huang, Yikai Tang, Peihao Li, Mingxuan Yan et al. (15 authors)
+
+**Published:** 2026-07-23 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.21588v1) | [PDF](https://arxiv.org/pdf/2607.21588v1.pdf) | [Project Page](https://axisaiorg.github.io/AXIS-V1/)
+
+<details>
+<summary>Abstract</summary>
+
+Learning effective robot manipulation policies requires diverse, high-quality demonstrations, yet existing data pipelines are often difficult to scale because they rely on specialized hardware, centralized operators, or fixed task suites. We present AXIS, a growable community-driven data engine and benchmark for scalable robot learning, which enables browser-based teleoperation for large-scale demonstration collection, automatically generates and validates new manipulation tasks, and transforms ...
+
+</details>
+
+---
 
 ### [ReferTrack: Referring Then Tracking for Embodied Visual Tracking](https://arxiv.org/abs/2607.20061v1)
 
@@ -48,6 +65,40 @@ Despite recent advances in general-purpose robotic manipulation, real-world mult
 
 ## Other Recent Papers
 
+### [HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving](https://arxiv.org/abs/2607.20988v1)
+
+**Authors:** Quanfu Yu, Xian Wu, Hao Xu, Liulong Ma
+
+**Published:** 2026-07-23 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.20988v1) | [PDF](https://arxiv.org/pdf/2607.20988v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models augmented with world modeling represent a promising paradigm for end-to-end autonomous driving. While pixel-level future prediction enables fine-grained spatiotemporal reasoning, it compromises robustness in noisy driving scenarios. Conversely, latent-based world models alleviate this sensitivity but often incur limited interpretability and representational degradation due to absent pixel-level grounding. To reconcile this trade-off, we propose HyWorldVLA, a h...
+
+</details>
+
+---
+
+### [Emergent Compositional Skills in Mixture-of-Experts VLAs](https://arxiv.org/abs/2607.20771v1)
+
+**Authors:** Shlok Shah, Rhiaan Jhaveri, Tharun Kumar Tiruppali Kalidoss, Chirayu Nimonkar, Ishaan Javali
+
+**Published:** 2026-07-22 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.20771v1) | [PDF](https://arxiv.org/pdf/2607.20771v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+We consider the problem of learning compositional robot policies end-to-end from expert demonstrations, without any pre-specified notion of task decomposition or hierarchy. We ask whether a VLA trained with a simplified Mixture-of-Experts (MoE) action head can emergently learn to decompose tasks into reusable, interpretable primitives. We find that learned experts are heavily reused across tasks and consistently correspond to qualitatively distinct low-level behaviors, suggesting that the router...
+
+</details>
+
+---
+
 ### [Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids](https://arxiv.org/abs/2607.20345v1)
 
 **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
@@ -77,23 +128,6 @@ Closing the gap between benchmark performance and reliable real-world operation 
 <summary>Abstract</summary>
 
 Robots deployed in delivery, campus, and emergency-response settings often need to navigate from buildings to streets within a single continuous episode. Existing benchmarks usually evaluate indoor and outdoor navigation separately, and many abstract away robot execution, leaving exit finding, boundary traversal, adaptation, and kinodynamic failures underexplored. We introduce NavVerse, a physics-enabled benchmark for indoor-to-outdoor embodied navigation. NavVerse contains 100 indoor scenes, 50...
-
-</details>
-
----
-
-### [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v2)
-
-**Authors:** Ziqin Wang, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng et al. (8 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18709v2) | [PDF](https://arxiv.org/pdf/2607.18709v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we present RoboInter1.5, an extended and holistic suite of intermediate representations for both robotic manipulation and embodied world modeling. RoboInter1.5 provides a unified resource of data, benchmarks, and models center...
 
 </details>
 

@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-23 22:46 UTC
+**Last updated:** 2026-07-24 17:37 UTC
 
-**Papers found:** 15
+**Papers found:** 9
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers](https://arxiv.org/abs/2607.21594v1)
+
+**Authors:** Sicheng Mo, Yuheng Li, Ziyang Leng, Krishna Kumar Singh, Bolei Zhou
+
+**Published:** 2026-07-23 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.21594v1) | [PDF](https://arxiv.org/pdf/2607.21594v1.pdf) | [Project Page](https://vail-ucla.github.io/worldweaver/)
+
+<details>
+<summary>Abstract</summary>
+
+Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registe...
+
+</details>
+
+---
 
 ### [The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL](https://arxiv.org/abs/2607.19749v1)
 
@@ -29,75 +46,41 @@ Model-based reinforcement-learning agents of the DreamerV3 family forget catastr
 
 ---
 
-### [Masked Visual Actions for Unified World Modeling](https://arxiv.org/abs/2607.19343v1)
-
-**Authors:** Hadi Alzayer, Wenlong Huang, Haonan Chen, Christopher Luey, Lvmin Zhang et al. (11 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.19343v1) | [PDF](https://arxiv.org/pdf/2607.19343v1.pdf) | [Project Page](https://masked-visual-actions.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these interaction priors, yet still grounded in physical manipulation. We introduce Masked Visual Actions, a pixel-space control interface that expresses action as a partially revealed trajectory of an arbitrar...
-
-</details>
-
----
-
-### [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190v2)
-
-**Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma et al. (23 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.19190v2) | [PDF](https://arxiv.org/pdf/2607.19190v2.pdf) | [Project Page](URL)
-
-<details>
-<summary>Abstract</summary>
-
-Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across vi...
-
-</details>
-
----
-
-### [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](https://arxiv.org/abs/2607.19038v1)
-
-**Authors:** Jialong Zuo, Haotong Zuo, Shiwei Zhang, Xiang Wang, Chen Li et al. (8 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.19038v1) | [PDF](https://arxiv.org/pdf/2607.19038v1.pdf) | [Project Page](https://filmworld-ai.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Translating novels into films poses a grand challenge for generative artificial intelligence, requiring conversion of abstract literary prose into long-form, multi-scene visual narratives. While current video generation models excel at short, single-scene clips within narrow temporal and spatial contexts, novel-to-film generation operates in a more complex regime, demanding long-duration content across diverse scenes with dynamically evolving entity states. To address this, we formalize novel-to...
-
-</details>
-
----
-
-### [Generative World Renderer at the Speed of Play](https://arxiv.org/abs/2607.18703v1)
-
-**Authors:** Guixu Lin, Zheng-Hui Huang, Siqi Yang, Ming-Hsuan Yang, Kaipeng Zhang et al. (6 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18703v1) | [PDF](https://arxiv.org/pdf/2607.18703v1.pdf) | [Project Page](https://alaya-renderer-flash.alayalab.ai/)
-
-<details>
-<summary>Abstract</summary>
-
-Generative world renderer AlayaRenderer receives structured world states exported from physics engines and synthesizes RGB frames. Unlike models that generate frames from text/control-hints prompts, AlayaRenderer preserves scene structure without altering the underlying world dynamics. This demonstrates an alternative path toward interactive world modeling and user-controllable play. However, the original AlayaRenderer is too computationally expensive for real-time deployment. This technical rep...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving](https://arxiv.org/abs/2607.20988v1)
+
+**Authors:** Quanfu Yu, Xian Wu, Hao Xu, Liulong Ma
+
+**Published:** 2026-07-23 | **Categories:** cs.CV, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.20988v1) | [PDF](https://arxiv.org/pdf/2607.20988v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models augmented with world modeling represent a promising paradigm for end-to-end autonomous driving. While pixel-level future prediction enables fine-grained spatiotemporal reasoning, it compromises robustness in noisy driving scenarios. Conversely, latent-based world models alleviate this sensitivity but often incur limited interpretability and representational degradation due to absent pixel-level grounding. To reconcile this trade-off, we propose HyWorldVLA, a h...
+
+</details>
+
+---
+
+### [PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics](https://arxiv.org/abs/2607.20653v1)
+
+**Authors:** Haocheng Yin, Shuohan Tao, Yongsheng Chen, Lu Gan
+
+**Published:** 2026-07-22 | **Categories:** cs.RO, cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.20653v1) | [PDF](https://arxiv.org/pdf/2607.20653v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Predicting how deformable objects evolve under robotic manipulation is a longstanding challenge. Existing approaches typically rely on per-object optimization to fit material parameters, which can be slow and cannot generalize, while end-to-end learned alternatives extrapolate poorly and often violate basic physical structure. We present PhysCoRe, a physics-corrected residual world model that couples a differentiable Material Point Method (MPM) simulator with two feed-forward neural networks. A ...
+
+</details>
+
+---
 
 ### [Active Inference as a Convex Markov Decision Process](https://arxiv.org/abs/2607.20152v1)
 
@@ -179,91 +162,6 @@ In multi-agent reinforcement learning (MARL), inter-agent communication is effec
 <summary>Abstract</summary>
 
 Latent world models improve sample efficiency in continuous control by optimizing policies over imagined latent trajectories, but common neural transitions offer limited direct control over modal persistence and error accumulation in long rollouts. We propose Koopman Dreamer, a Dreamer-style world model with a spectrally constrained deterministic latent dynamics core. Its Koopman-inspired backbone uses two-dimensional rotation--scaling blocks with bounded radii to represent damping, rotation, an...
-
-</details>
-
----
-
-### [ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU](https://arxiv.org/abs/2607.19191v1)
-
-**Authors:** Fan Jiang, Zhaoxu Sun, Mengchao Wang, Ziyu Zhu, Chiyu Wang et al. (41 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.19191v1) | [PDF](https://arxiv.org/pdf/2607.19191v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We present ABot-World-0, an action-conditioned video world model for real-time, long-horizon closed-loop interaction, supported by a multi-source data infrastructure spanning AAA games, simulation engines, and internet videos to learn controllable world dynamics. WorldExplorer performs agent-driven collection guided by training feedback, while a unified pipeline applies 14 deterministic quality checks, VLM-based assessment, and synchronized action and text annotation. We progressively distill a ...
-
-</details>
-
----
-
-### [NaviAIS: A Scenario-Level Vessel Trajectory Prediction Dataset withVectorized Lane Priors and the NaviLane Forecasting Framework](https://arxiv.org/abs/2607.18887v1)
-
-**Authors:** Yuan Gui, Hongchen Luo, Liqi Qu, Longyue Fu, Jiao Wang
-
-**Published:** 2026-07-21 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18887v1) | [PDF](https://arxiv.org/pdf/2607.18887v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vessel trajectory prediction in complex maritime environments is essential for traffic management, collision warning, route planning, and autonomous navigation. Although AIS-based learning methods have progressed rapidly, existing datasets are often released as raw message streams or irregular time series, with inconsistent sampling rates, noisy observations, heterogeneous coordinate systems, and non-unified scenario protocols. Most public AIS resources also lack structured representations of na...
-
-</details>
-
----
-
-### [DWM: Separating World Effects from Actions in Latent World Models](https://arxiv.org/abs/2607.18715v1)
-
-**Authors:** Yi-Ge Zhang, Tianqi Du, Qi Zhang, Yisen Wang
-
-**Published:** 2026-07-21 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18715v1) | [PDF](https://arxiv.org/pdf/2607.18715v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models underpin much of modern model-based control, yet current action-conditioned formulations supervise the next-latent transition with a single, undifferentiated target, forcing a monolithic learning signal to absorb every source of state change. In real world, however, transitions arise from two heterogeneous sources: an action-driven component induced by the agent, and an action-invariant world effect -- the change that would still occur under a null action, dictated by the env...
-
-</details>
-
----
-
-### [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v2)
-
-**Authors:** Ziqin Wang, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng et al. (8 authors)
-
-**Published:** 2026-07-21 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18709v2) | [PDF](https://arxiv.org/pdf/2607.18709v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we present RoboInter1.5, an extended and holistic suite of intermediate representations for both robotic manipulation and embodied world modeling. RoboInter1.5 provides a unified resource of data, benchmarks, and models center...
-
-</details>
-
----
-
-### [Do AI-Native Biotechs Need Departments? Benchmarking Company World Models for AI-Driven Drug Development](https://arxiv.org/abs/2607.18696v1)
-
-**Authors:** Yinan Wang
-
-**Published:** 2026-07-21 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.18696v1) | [PDF](https://arxiv.org/pdf/2607.18696v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-AI-native biotechnology companies are often designed by copying human biotech org charts into agent roles. We argue for a different abstraction: a Company World Model, defined as a persistent asset-to-value state representation with transition models, explicit value functions, planning, and updating across scientific, regulatory, BD, commercial, financial, and execution constraints. We introduce a dry-lab benchmark for testing whether AI-agent organizations should mimic departments or operate ar...
 
 </details>
 
