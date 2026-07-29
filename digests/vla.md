@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-07-28 22:50 UTC
+**Last updated:** 2026-07-29 17:14 UTC
 
-**Papers found:** 8
+**Papers found:** 9
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model](https://arxiv.org/abs/2607.25487v1)
+
+**Authors:** Minhyeok Lee, Chiyoung Kim, Chanhoe Gu, Seongrok Kim, Sanghyuk Roy Choi et al. (8 authors)
+
+**Published:** 2026-07-28 | **Categories:** cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.25487v1) | [PDF](https://arxiv.org/pdf/2607.25487v1.pdf) | [GitHub](https://github.com/BrainJellyPie/CoTinyVLA)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models translate natural-language commands into robot action sequences, but leading systems on the LIBERO-Plus robustness benchmark use three- to seven-billion-parameter backbones whose memory demands can exceed embedded robotic budgets. We present CoTinyVLA, a 0.9B-parameter action model on a Qwen3.5-0.8B backbone that obtains that robustness by structuring supervision instead of enlarging the model. Three components target different axes of the problem: dual-view t...
+
+</details>
+
+---
+
+### [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895v1)
+
+**Authors:** Simple AI,  :, Yuteng Wei, Jinming Ma, Jiawei Wang et al. (19 authors)
+
+**Published:** 2026-07-28 | **Categories:** cs.RO, cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.25895v1) | [PDF](https://arxiv.org/pdf/2607.25895v1.pdf) | [Project Page](https://cloud.simpleai.tech/simple-world-lab/hifi-umi/)
+
+<details>
+<summary>Abstract</summary>
+
+Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable. Real-robot teleoperation is accurate but costly to scale; robot-free UMI capture scales readily, and current practice uses the resulting data mainly for pre-training, adding a small real-robot "anchor" at post-training. We ask whether raising the fidelity of robot-free UMI data, rather than shrinking the real-robot fraction, can remove that anchor. We present HiFi-UMI, a por...
+
+</details>
+
+---
 
 ### [FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking](https://arxiv.org/abs/2607.24008v1)
 
@@ -63,41 +97,41 @@ Generalizable robot manipulation requires policies that can anticipate how visua
 
 ---
 
-### [A Few Words Go a Long Way: Language Guided Robot Policy Synthesis](https://arxiv.org/abs/2607.23784v1)
-
-**Authors:** Daphne Chen, Archit Ritesh Jain, Eric Goossen, Emma Romig, Michael Murray et al. (7 authors)
-
-**Published:** 2026-07-26 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.23784v1) | [PDF](https://arxiv.org/pdf/2607.23784v1.pdf) | [Project Page](https://robo-architect.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-While vision-language-action models have demonstrated impressive zero-shot manipulation capabilities, they remain fundamentally black box policies that are difficult to interpret, adapt, or correct when they inevitably fail. In this work, we propose ARCHITECT, a framework that treats robot policy acquisition as an interactive program synthesis task. ARCHITECT leverages the reasoning capabilities of LLM coding agents to synthesize modular robot programs that utilize a suite of perception and cont...
-
-</details>
-
----
-
-### [LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratories](https://arxiv.org/abs/2607.23704v1)
-
-**Authors:** Haobo Wang, Baoli Sun, Anqi Zou, Dongsheng Huang, Zelin Lv et al. (11 authors)
-
-**Published:** 2026-07-26 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.23704v1) | [PDF](https://arxiv.org/pdf/2607.23704v1.pdf) | [GitHub](https://github.com/Su-ISE-2001/SciRobo)
-
-<details>
-<summary>Abstract</summary>
-
-The deployment of embodied agents in self-driving laboratories could accelerate scientific discovery, yet their reliability is constrained by the irreversible and safety-critical nature of chemical experiments. Progress is further hindered by scarce failure data and the lack of fine-grained evaluation protocols. To address these challenges, we introduce LabRobFail, a failure-centric framework for learning and evaluating robotic failure analysis in chemical laboratories. LabRobFail-Sim injects co...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models](https://arxiv.org/abs/2607.25912v1)
+
+**Authors:** Zonghe Liu, Shanyuan Jie, Xiaoquan Sun, Chen Cao, Zetian Xu et al. (7 authors)
+
+**Published:** 2026-07-28 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.25912v1) | [PDF](https://arxiv.org/pdf/2607.25912v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have shown strong potential for general robot manipulation, but most existing models rely on 2D visual-language backbones and lack fine-grained 3D understanding of target objects, especially under occlusion, pose variation, scale changes, and precise spatial interaction. We propose an object-centric 3D representation alignment framework built upon $π_0$, using SAM3D as a frozen 3D teacher to provide target-object 3D priors during training. Specifically, we loc...
+
+</details>
+
+---
+
+### [A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models](https://arxiv.org/abs/2607.25516v1)
+
+**Authors:** Haoyu Zhang, Yuwei Wu, Jin Chen, Gao Zhi, Zhenxin Diao et al. (9 authors)
+
+**Published:** 2026-07-28 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.25516v1) | [PDF](https://arxiv.org/pdf/2607.25516v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models predict sequential actions to execute tasks specified by language instructions, conditioned on visual observations and proprioceptive states. However, how to fuse modalities in VLA models remains an open problem, since robot manipulation involves dynamic phases, such as long-distance movements and close-range interactions, in which the importance of visual observations may vary over time. In this paper, we propose an infer-diagnose-refine (IDR) framework, a mo...
+
+</details>
+
+---
 
 ### [τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision](https://arxiv.org/abs/2607.24485v1)
 
@@ -128,23 +162,6 @@ Learning the informative tactile representation while effectively adapting it to
 <summary>Abstract</summary>
 
 Vision-Language-Action (VLA) models have demonstrated strong potential for embodied AI, yet their high inference latency on GPUs limits real-time deployment. Existing accelerators, such as Dadu-Corki, improve efficiency but treat VLA models as full-precision workloads, leaving substantial redundancy in both memory and computation underexploited. In this paper, we propose VQVLA, an algorithm-hardware co-design framework that accelerates VLA inference by exploiting weight similarity and execution ...
-
-</details>
-
----
-
-### [MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents](https://arxiv.org/abs/2607.23870v1)
-
-**Authors:** Belal S. Alsinglawi, Weizheng Wang, Junyi Wu, Yi Jiang, Lianhai Lin et al. (7 authors)
-
-**Published:** 2026-07-26 | **Categories:** cs.MA, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.23870v1) | [PDF](https://arxiv.org/pdf/2607.23870v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Smart-city airspace is transforming Uncrewed Aerial Vehicles (UAVs) from passive sensing platforms into cyber-physical decision makers that must follow operational rules under degraded observations and ambiguous language. Existing UAV and multimodal benchmarks evaluate perception, navigation, collaboration, and reasoning, but few assess whether physical evidence, protocol constraints, and action risk remain coupled during critical decisions. We introduce MulRobBench, an offline, protocol-conditi...
 
 </details>
 
