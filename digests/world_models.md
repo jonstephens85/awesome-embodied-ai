@@ -2,15 +2,32 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-07-29 22:49 UTC
+**Last updated:** 2026-07-30 17:26 UTC
 
-**Papers found:** 15
+**Papers found:** 17
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation](https://arxiv.org/abs/2607.26754v1)
+
+**Authors:** Zijun Lin, Zeqing Wang, Cheston Tan, Bihan Wen, Yeying Jin
+
+**Published:** 2026-07-29 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26754v1) | [PDF](https://arxiv.org/pdf/2607.26754v1.pdf) | [Project Page](https://jimntu.github.io/stateplay_page/)
+
+<details>
+<summary>Abstract</summary>
+
+Recent game world models can generate visually realistic and interactive environments conditioned on player actions. However, games are not defined by pixels alone; they are governed by explicit mechanics, namely state-dependent rules that control health reduction, skill activation, and game termination. These mechanics depend on precise internal states, such as health points, skill meters, and timers, which are tightly coupled with visual observations and determine how gameplay evolves. Without...
+
+</details>
+
+---
 
 ### [Wonder: Video World Model Done Better](https://arxiv.org/abs/2607.26037v1)
 
@@ -29,13 +46,13 @@ We present Wonder, a general-purpose video world model for real-time, camera-con
 
 ---
 
-### [Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control](https://arxiv.org/abs/2607.25337v1)
+### [Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control](https://arxiv.org/abs/2607.25337v2)
 
 **Authors:** Jiaxin Bai, Jiaxuan Xiong
 
 **Published:** 2026-07-28 | **Categories:** cs.CL, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.25337v1) | [PDF](https://arxiv.org/pdf/2607.25337v1.pdf) | [GitHub](https://github.com/HKBU-KnowComp/TD-JEPA)
+**Links:** [arXiv](https://arxiv.org/abs/2607.25337v2) | [PDF](https://arxiv.org/pdf/2607.25337v2.pdf) | [GitHub](https://github.com/HKBU-KnowComp/Temporal-Distance-JEPA)
 
 <details>
 <summary>Abstract</summary>
@@ -63,24 +80,160 @@ Different research lines use the term world model in different ways, yet they sh
 
 ---
 
-### [LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments](https://arxiv.org/abs/2607.23969v1)
+## Other Recent Papers
 
-**Authors:** Pei Liu, Nan Zheng, Lang Zhang, Daojie Peng, Yanan Zhang et al. (11 authors)
+### [Mitigating Compounding Error via Video Representation Regularization](https://arxiv.org/abs/2607.27036v1)
 
-**Published:** 2026-07-27 | **Categories:** cs.RO
+**Authors:** Taiye Chen, Qi Zhang, Yisen Wang
 
-**Links:** [arXiv](https://arxiv.org/abs/2607.23969v1) | [PDF](https://arxiv.org/pdf/2607.23969v1.pdf) | [GitHub](https://github.com/LeapWM/leapbot-wa)
+**Published:** 2026-07-29 | **Categories:** cs.CV, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.27036v1) | [PDF](https://arxiv.org/pdf/2607.27036v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World Action Models (WAMs) have emerged as a powerful paradigm for embodied intelligence, yet the prevailing reliance on pixel-level video generation creates a fundamental bottleneck. Forcing models to reconstruct task-irrelevant visual details dissipates representational capacity and renders policies vulnerable to visual distractors. In this paper, we propose LeapBot-WA, which establishes a novel Predictive-Latent paradigm for WAMs by operationalizing the Joint-Embedding Predictive Architecture...
+Video diffusion-based world models enable long autoregressive video generation for robotics, autonomous driving and simulation tasks, yet sliding-window autoregressive inference suffers from severe error accumulation that degrades frame quality over time. Although this phenomenon has been widely observed, the underlying mechanism of compounding error and how to achieve stable long-horizon generation remain largely unresolved. In this paper, we investigate the internal representation dynamics of ...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations](https://arxiv.org/abs/2607.27017v1)
+
+**Authors:** Kaizhen Tan, Xin Xu, Siru Tao, Hanzhe Hong, Yang Feng et al. (6 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.27017v1) | [PDF](https://arxiv.org/pdf/2607.27017v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A central premise of latent world models is that predicting the future forces a representation to internalize the physics of its environment. Which physical quantities does a trained latent actually contain, and what decides this? We answer with controlled interventions in POKEWORLD, an interactive environment whose visually identical objects hide mass, drag, and contact stiffness. A certificate-gated protocol first certifies each parameter as recoverable from raw observations, then measures whe...
+
+</details>
+
+---
+
+### [Temporally Centered SIGReg Improves Multi-Task LeWorldModel Learning: From Analysis to Method](https://arxiv.org/abs/2607.26924v1)
+
+**Authors:** Chang Liu, Fei Suo, Yanzhou Jin, Yusuke Iwasawa, Yutaka Matsuo et al. (6 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.LG, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26924v1) | [PDF](https://arxiv.org/pdf/2607.26924v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Recent work on LeWorldModel (LeWM) has shown that the Sketched Isotropic Gaussian Regularizer (SIGReg) enables stable end-to-end world-model learning from pixels by regularizing the latent marginal distribution toward an isotropic Gaussian, thereby preventing representation collapse. While effective and elegant in single-task settings, this recipe does not extend reliably to multi-task training, leading to substantially worse downstream behavior-cloning performance. In this paper, we show that m...
+
+</details>
+
+---
+
+### [CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation](https://arxiv.org/abs/2607.26789v1)
+
+**Authors:** Yushan Liu, Peibo Sun, Xintao Chao, Zhenyang Yang, Yifan Xie et al. (11 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26789v1) | [PDF](https://arxiv.org/pdf/2607.26789v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) policies commonly execute long-horizon mobile manipulation through open-loop action chunks, issuing multiple actions without receiving new high-level visual input. A committed chunk therefore implies how observations should evolve, but accidental deviations can violate this expectation while the remaining actions continue to propagate the error: commit-time policy confidence cannot react to a deviation that occurs after dispatch, and observation-only anomaly scores l...
+
+</details>
+
+---
+
+### [CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation](https://arxiv.org/abs/2607.26752v1)
+
+**Authors:** Behraj Khan, Shabir Ahmad, Syed Ahmad Chan Bukhari, Tahir Qasim Syed
+
+**Published:** 2026-07-29 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26752v1) | [PDF](https://arxiv.org/pdf/2607.26752v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Medical world models aim to learn a latent state of patient or organ physiology and a transition function that forecasts how that state evolves under interventions, supporting downstream tasks from imaging-based diagnosis to digital-twin treatment planning. Two failure modes threaten the reliability of such models in clinical deployment: (i)~\emph{covariate shift}, because training data are fragmented across hospitals, scanners, and time, so the feature distribution seen by the latent-dynamics p...
+
+</details>
+
+---
+
+### [ActSWM: Action-Sensitive World Models for Long-Horizon Planning in Open-World Games](https://arxiv.org/abs/2607.26712v1)
+
+**Authors:** Zhenfeng Gan, ZiTong Zeng, Jiajun Cheng, Yeke Song, Yongyi Tang et al. (6 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26712v1) | [PDF](https://arxiv.org/pdf/2607.26712v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models support efficient model-predictive control by optimizing future control sequences in latent space and replanning in a receding-horizon manner. However, existing latent predictors often lack stable long-horizon rollout ability, and prediction accuracy alone does not ensure that rollouts remain responsive to the actions being planned. We identify Context Collapse, a failure mode in which autoregressive latent predictors maintain high similarity to future states while producing ...
+
+</details>
+
+---
+
+### [ContactFlow: A video action conditioning that transfers across embodiments](https://arxiv.org/abs/2607.26579v1)
+
+**Authors:** Sami Azirar, Enrico Pallotta, Jan Nogga, Jürgen Gall, Sven Behnke et al. (6 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26579v1) | [PDF](https://arxiv.org/pdf/2607.26579v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models offer a promising route toward robot planning by enabling agents to imagine and verify the consequences of actions before execution. However, current video-based world models often struggle to capture the physical constraints that govern manipulation, particularly contact. Further, their action conditioning is often constrained to specific embodiments such as parallel grippers. We propose \emph{Contact Flow}, an embodiment-agnostic action representation that encodes manipulation thr...
+
+</details>
+
+---
+
+### [CG-World: A Large-Scale World-State Dataset and Protocol for World Models](https://arxiv.org/abs/2607.26452v1)
+
+**Authors:** Yiming Cai, Fangjie Yu, Meiqing Yu, Ziyue Shi, Pengfei Yuan et al. (6 authors)
+
+**Published:** 2026-07-29 | **Categories:** cs.AI, cs.CV, cs.GR
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26452v1) | [PDF](https://arxiv.org/pdf/2607.26452v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models must learn the joint dynamics of states, actions, events, and observations, yet existing video, robotics, and simulation datasets usually capture only part of this structure. We introduce CG-World, a large-scale world-state dataset and protocol derived from industrial computer graphics production pipelines. CG-World explicitly records intermediate states, including multimodal semantics, spatial structure, skeletal and controller states, motion curves, camera and lighting parameters,...
+
+</details>
+
+---
+
+### [Learning Implicit Causal World Models from Multi-Agent Demonstrations](https://arxiv.org/abs/2607.26336v1)
+
+**Authors:** Jasorsi Ghosh
+
+**Published:** 2026-07-28 | **Categories:** cs.LG, cs.MA, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2607.26336v1) | [PDF](https://arxiv.org/pdf/2607.26336v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+In model-based reinforcement learning, world models exist as internal simulators, but their training often conflates statistical correlations with causal mechanisms. This problem is exacerbated in multi-agent systems where physical transitions are intertwined with strategic agent intents, causing world models to fail under distribution shift. We introduce Implicit Causal World Models to recover environmental dynamics from offline demonstrations without requiring pre-defined causal graphs. By inc...
+
+</details>
+
+---
 
 ### [INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models](https://arxiv.org/abs/2607.26056v1)
 
@@ -145,125 +298,6 @@ This paper presents a cooperative indoor UAV guidance framework that combines a 
 <summary>Abstract</summary>
 
 Medical world models offer a framework for extending medical artificial intelligence beyond static prediction by representing evolving patient states and modelling how they change over time and in response to clinical interventions. This Review defines the conceptual boundaries, technical foundations, application domains, and evidence requirements of the field through a structured narrative synthesis with reproducible evidence mapping.We screened 1,455 unique records and assembled a corpus of 98...
-
-</details>
-
----
-
-### [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720v1)
-
-**Authors:** Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao
-
-**Published:** 2026-07-27 | **Categories:** cs.CL, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.24720v1) | [PDF](https://arxiv.org/pdf/2607.24720v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning abilit...
-
-</details>
-
----
-
-### [ArmnetBench v0.1: Parallel Real-World Evaluation of Manipulation Policies on a Low-Cost Arm Farm](https://arxiv.org/abs/2607.24481v1)
-
-**Authors:** Praveen Selvaraj, Lorenzo Uttini, Ville Kuosmanen
-
-**Published:** 2026-07-27 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.24481v1) | [PDF](https://arxiv.org/pdf/2607.24481v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Real-world evaluation is a bottleneck in developing generalist robot manipulation policies. Each rollout requires physical hardware and an operator to set up, reset, and score it. We introduce ArmnetBench v0.1, a benchmark run on a fleet of low-cost SO-101 cells under light on-site supervision. v0.1 validates this arm farm end to end and compares 7 policies across 12 tasks with both single-arm and bimanual configurations. Each policy is trained or fine-tuned on 50 demonstrations per task; the be...
-
-</details>
-
----
-
-### [Context Is King: How In-Context Specification Shapes the Geometry of Concepts](https://arxiv.org/abs/2607.24425v1)
-
-**Authors:** Elad David, Max Fomin
-
-**Published:** 2026-07-27 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.24425v1) | [PDF](https://arxiv.org/pdf/2607.24425v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Large language models place structured concepts on geometrically faithful manifolds: weekdays lie on a circle, months on another, usually taken to be a fixed world-model the network stores and looks up. We show that context is king: the structure a model actually uses is set by the in-context specification. A declarative rule fixes not only which relations the geometry encodes but its topology type: the same tokens form a cycle or a branching tree on command, built even on arbitrary, meaning-fre...
-
-</details>
-
----
-
-### [FeelWorld: Visuo-Tactile World Model for Hierarchical Contact Prediction and Planning](https://arxiv.org/abs/2607.24267v1)
-
-**Authors:** Wenxuan Ma, Chaofan Zhang, Chao Xue, Yinghao Cai, Guocai Yao et al. (7 authors)
-
-**Published:** 2026-07-27 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.24267v1) | [PDF](https://arxiv.org/pdf/2607.24267v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Humans plan physical interactions by imagining the possible outcomes of candidate actions. However, existing visual world models primarily capture appearance dynamics while overlooking the tactile states that govern contact-rich interactions, potentially producing imagined futures that appear visually plausible but violate physical dynamics. We introduce FeelWorld, a hierarchical visuo-tactile world model that jointly predicts future visual latents and three tactile states. FeelWorld organizes t...
-
-</details>
-
----
-
-### [Scaling GUI Agents with Visual State Transitions](https://arxiv.org/abs/2607.24112v1)
-
-**Authors:** Xiangyan Liu, Kaixin Li, Haonan Wang, Biao Wu, Meng Fang et al. (9 authors)
-
-**Published:** 2026-07-27 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.24112v1) | [PDF](https://arxiv.org/pdf/2607.24112v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce State Transition Pretraining (STP) as a new scaling axis for GUI agents. During the STP stage, we continually pretrain a unified multimodal model on visual state transitions by jointly optimizing inverse dynamics (predicting actions from state changes) and forward dynamics (predicting next states from current states and actions). This optimization equips the model with better action-grounded visual representations and an internal world model of GUI dynamics. When subsequently fine-t...
-
-</details>
-
----
-
-### [WorldDiT: A Unified Diffusion Architecture for World and Action Modeling](https://arxiv.org/abs/2607.23909v1)
-
-**Authors:** Sen Wang, R. Gnana Praveen, Bidhan Roy, Marcos Villagra
-
-**Published:** 2026-07-27 | **Categories:** cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.23909v1) | [PDF](https://arxiv.org/pdf/2607.23909v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Many recent robot policies pursue stronger control by using large pretrained vision-language models (VLMs) as the action backbone. We introduce WorldDiT, a unified diffusion transformer architecture that couples action generation with visual world modeling and achieves strong performance without a large pretrained VLM action backbone. During training, a single diffusion transformer generates continuous action chunks and predicts normalized RGB patch targets from future camera frames. Across four...
-
-</details>
-
----
-
-### [Embodied GPT-5.1: Evidence of a World Model?](https://arxiv.org/abs/2607.23899v1)
-
-**Authors:** Roberto Spinelli, Thiago C. Martins
-
-**Published:** 2026-07-27 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2607.23899v1) | [PDF](https://arxiv.org/pdf/2607.23899v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-This exploratory study examines whether a large multimodal language model, GPT-5.1, can serve as the high-level controller of a physical mobile robot despite having no prior embodiment, no training in simulated environments, and no exposure to sensorimotor experience. Using only low-resolution first-person images and a discrete action set, the model was tasked with navigation and object-directed behaviors such as locating and contacting a target toy. Across multiple trials, GPT-5.1 demonstrated ...
 
 </details>
 
