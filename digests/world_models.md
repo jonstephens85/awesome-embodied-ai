@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-04 22:51 UTC
+**Last updated:** 2026-08-05 17:29 UTC
 
 **Papers found:** 12
 
@@ -11,6 +11,23 @@ Papers on world models for robotics, video prediction, and simulation.
 ---
 
 ## Papers with Project Pages / Code
+
+### [Quo Vadis, World Modeling?](https://arxiv.org/abs/2608.02713v1)
+
+**Authors:** Yu Yang, Xuemeng Yang, Licheng Wen, Lingdong Kong, Xiaobin Hu et al. (20 authors)
+
+**Published:** 2026-08-03 | **Categories:** cs.CV, cs.AI, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.02713v1) | [PDF](https://arxiv.org/pdf/2608.02713v1.pdf) | [Project Page](https://worldbench.github.io/awesome-agentic-world-model) | [GitHub](https://github.com/worldbench/awesome-agentic-world-model)
+
+<details>
+<summary>Abstract</summary>
+
+Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction is costly, slow, unsafe, and hard to parallelize. World modeling offers a natural intermediate proxy that allows agents to query lower-cost, more controllable feedback before committing to real actions. Classical world models instantiate this proxy primarily through future physical-state prediction, a formulation useful yet narrow for agents that require actionable...
+
+</details>
+
+---
 
 ### [WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity](https://arxiv.org/abs/2608.02603v1)
 
@@ -30,6 +47,91 @@ Controllable video generation models are increasingly being developed as world m
 ---
 
 ## Other Recent Papers
+
+### [Enactive Artificial Intelligence: A Decision-Centric Architecture for Complex Systems](https://arxiv.org/abs/2608.03413v1)
+
+**Authors:** Zuojun Max Shen, Yuan Qu, Pujun Zhang, Anbang Liu, Yunhao Liang
+
+**Published:** 2026-08-04 | **Categories:** cs.AI, cs.ET
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.03413v1) | [PDF](https://arxiv.org/pdf/2608.03413v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+As artificial intelligence (AI) continues to evolve and mature, recent AI practices have moved beyond large language models (LLMs) and text or image generation tasks, increasingly integrating tools, agents, and harnesses to solve real business and industrial problems. However, the power of AI is not verified under these real-world complex systems for various reasons, considering reliability, feasibility, resilience, and responsibility requirements in real commercial and industrial operations. Th...
+
+</details>
+
+---
+
+### [UniNav: A Unified World-Action Diffusion Model for Visual Navigation](https://arxiv.org/abs/2608.03244v1)
+
+**Authors:** Changqing Zhou, Yueru Luo, Zeyu Jiang, Changhao Chen
+
+**Published:** 2026-08-04 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.03244v1) | [PDF](https://arxiv.org/pdf/2608.03244v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Image-goal visual navigation is a fundamental capability for embodied agents. Existing navigation policies efficiently predict waypoint trajectories but lack visual foresight, while navigation world models can anticipate future observations but often require costly planning rollouts. We present UniNav, a unified world-action model that generates future visual observations and continuous waypoint trajectories through a single diffusion process. Given history frames and a goal image, UniNav jointl...
+
+</details>
+
+---
+
+### [CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction](https://arxiv.org/abs/2608.03211v1)
+
+**Authors:** Wanhao Liu, Jinsong Lin, Rulin Zhou, Chi Kit Ng, Wenbin Pan et al. (14 authors)
+
+**Published:** 2026-08-04 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.03211v1) | [PDF](https://arxiv.org/pdf/2608.03211v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Visual world models typically learn future dynamics from a single observation stream, limiting their ability to model cooperative systems with multiple independently moving observers. We investigate this challenge in Mother--Child endoscopic retrograde cholangiopancreatography (ERCP), where two flexible scopes provide complementary yet role-dependent views without a calibrated stereo relationship. Unlike conventional multi-view fusion that assumes symmetric information exchange, we formulate \te...
+
+</details>
+
+---
+
+### [EmbodiedVAE: Disentangled Video VAE for Efficient and Controllable Embodied Manipulation](https://arxiv.org/abs/2608.02990v1)
+
+**Authors:** Jiayi Luo, Hanxin Zhu, Chen Gao, Jiankun Wang, Cong Wang et al. (8 authors)
+
+**Published:** 2026-08-04 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.02990v1) | [PDF](https://arxiv.org/pdf/2608.02990v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent diffusion models (LDMs) have recently significantly advanced embodied learning in constructing powerful embodied manipulation world models. However, despite the remarkable performance, existing LDMs predominantly rely on Variational Autoencoders (VAEs) optimized for natural scenes while failing to account for the unique characteristics of embodied manipulation scenarios, yielding latent representations that are neither compact nor controllable, thereby hindering efficient training of LDMs...
+
+</details>
+
+---
+
+### [RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models](https://arxiv.org/abs/2608.02953v1)
+
+**Authors:** Yuwei Ning, Liangzhi Wang, Yi Xiao, Zhenhua Wu, Yun Pang et al. (8 authors)
+
+**Published:** 2026-08-03 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.02953v1) | [PDF](https://arxiv.org/pdf/2608.02953v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Realistic weather translation is valuable for developing and evaluating autonomous driving systems, yet collecting paired videos of the same scenes under different weather conditions at scale is impractical. Existing methods therefore rely on synthetic data, 3D weather editing, or geometry-conditioned generation, often compromising weather realism or scene fidelity. We propose RealWeather, a driving world model for both realistic and scene-faithful weather translation. Our key idea is to learn a...
+
+</details>
+
+---
 
 ### [DF$^3$: World Modeling via Decoder-Free Feature Forecasting in Autonomous Navigation](https://arxiv.org/abs/2608.02428v1)
 
@@ -65,13 +167,13 @@ World Action Models (WAMs) couple robot action prediction with video world model
 
 ---
 
-### [PhyCheck: Fine-Grained Evidence-Grounded Dataset for Physical Law Understanding in Video-LLMs](https://arxiv.org/abs/2608.02150v1)
+### [PhyCheck: Fine-Grained Evidence-Grounded Dataset for Physical Law Understanding in Video-LLMs](https://arxiv.org/abs/2608.02150v2)
 
 **Authors:** Zhongjie Ba, Shengwang Xu, Peng Cheng, Jinyang Zou, Ting Yu et al. (7 authors)
 
 **Published:** 2026-08-03 | **Categories:** cs.CV, cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02150v1) | [PDF](https://arxiv.org/pdf/2608.02150v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.02150v2) | [PDF](https://arxiv.org/pdf/2608.02150v2.pdf)
 
 <details>
 <summary>Abstract</summary>
@@ -111,108 +213,6 @@ JEPA-style visual world models offer an effective paradigm for visual goal plann
 <summary>Abstract</summary>
 
 Diffusion world models generate high-quality futures, but re- peated transformer evaluations make inference prohibitively slow. Existing caches reuse intermediate features, selectively update tokens, or reuse and extrapolate denoising outputs ac- cording to local drift or short native-space histories. These criteria can miss both approximation-induced latent transition defects that accumulate across skipped steps and phase- or condition-dependent changes in the direction of latent evo- lution. W...
-
-</details>
-
----
-
-### [SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space](https://arxiv.org/abs/2608.01397v1)
-
-**Authors:** Ruiteng Zhao, Zhengshen Zhang, Yue Su, Wenshuo Wang, Jiahui Li et al. (9 authors)
-
-**Published:** 2026-08-02 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01397v1) | [PDF](https://arxiv.org/pdf/2608.01397v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on whether future dynamics are modeled in a space that is both aligned with action generation and sufficiently geometry-aware to capture where and how actions change the scene. Existing WAMs typically satisfy only part of this requirement, relying on either perceptually heavy observation-space targets or auxiliary latent spaces that are not jointly structured for action relevance and...
-
-</details>
-
----
-
-### [DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation](https://arxiv.org/abs/2608.01381v1)
-
-**Authors:** Zheng Yang, Wenjie Zhang, Xiangyu Chen, Wenxuan Song, Xianpeng Wang et al. (10 authors)
-
-**Published:** 2026-08-02 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01381v1) | [PDF](https://arxiv.org/pdf/2608.01381v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Mobile manipulation requires a robot to coordinate base and arm motion under continuously changing viewpoints and contact conditions, within an action space far larger than that of fixed-base manipulation. Existing Vision-Language-Action (VLA) policies are limited in two respects. (i)They map observations directly to whole-body action chunks, searching this large action space without an explicit task-space motion plan, which makes coordinated base--arm prediction imprecise. (ii)They execute the ...
-
-</details>
-
----
-
-### [EndoWAM: A Grounded World-Action Model for Generalizable Endoscopic Navigation](https://arxiv.org/abs/2608.01221v1)
-
-**Authors:** Jinsong Lin, Zikang Pan, Wanhao Liu, Chi Kit Ng, Liangjing Shao et al. (13 authors)
-
-**Published:** 2026-08-02 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01221v1) | [PDF](https://arxiv.org/pdf/2608.01221v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous endoscopic navigation can reduce clinicians' operational burden, yet robust control remains challenging due to tissue deformation, transient occlusions, and rapidly changing viewpoints. Existing learning-based policies typically predict actions from current observations without explicitly modeling future dynamics, limiting their robustness and reliability in safety-critical settings. World Action Models (WAMs) offer a promising alternative by coupling predictive visual dynamics with a...
-
-</details>
-
----
-
-### [Climate-Dyna Deep Hedging for XVAs: Model-Based Reinforcement Learning, Residual Climate HVA, and Hedge-Instrument Discovery](https://arxiv.org/abs/2608.01208v1)
-
-**Authors:** Xiaozhen Wang, Francois Buet-Golfouse
-
-**Published:** 2026-08-02 | **Categories:** q-fin.MF, cs.LG, q-fin.RM
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01208v1) | [PDF](https://arxiv.org/pdf/2608.01208v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-For a trading desk, residual climate hedging valuation adjustment (HVA) is the climate cost left after its inherited hedge and any admissible overlay have been taken into account; it therefore cannot be inferred from a stand-alone stress loss. We obtain this residual by comparing paired climate-on and baseline worlds and reoptimizing the overlay for each hedge universe, which also turns hedge-instrument discovery into a valuation problem: an instrument is useful to the extent that it lowers the ...
-
-</details>
-
----
-
-### [MiniWorld: Democratizing the Training of Video World Models from Scratch](https://arxiv.org/abs/2608.01127v1)
-
-**Authors:** Yian Zhao, Ruochong Zheng, Hongcan Guo, Yu Yan, Jian Zhang et al. (6 authors)
-
-**Published:** 2026-08-02 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01127v1) | [PDF](https://arxiv.org/pdf/2608.01127v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models predict future observations conditioned on historical observations and control signals, enabling long-horizon generation through autoregressive state transitions. Unlike conventional video generation models that primarily capture visual appearance and motion, video world models learn the underlying dynamics governing environment evolution under agent actions, providing a foundation for embodied AI and interactive simulation. Recent progress has largely relied on adapting pretr...
-
-</details>
-
----
-
-### [FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds](https://arxiv.org/abs/2608.01049v1)
-
-**Authors:** Kapil Wanaskar, Gaytri Jena, Aman Chadha, Vinija Jain, Vasu Sharma et al. (6 authors)
-
-**Published:** 2026-08-02 | **Categories:** cs.AI, cs.CV, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.01049v1) | [PDF](https://arxiv.org/pdf/2608.01049v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models have attracted significant attention for their ability to capture and predict the structure and dynamics of the physical world. In this emerging landscape, Joint Embedding Predictive Architectures (JEPA) offer a particularly compelling direction. We study a largely unexplored regime: populous, crowded, and chaotic Global South urban environments, which we call DENSEWORLD. Unlike the lower-density, lane-structured settings that dominate existing evaluations, these scenes exhibit soft...
 
 </details>
 
