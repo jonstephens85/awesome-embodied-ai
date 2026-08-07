@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-05 22:48 UTC
+**Last updated:** 2026-08-07 01:27 UTC
 
-**Papers found:** 12
+**Papers found:** 22
 
 [Back to Home](../README.md)
 
@@ -12,35 +12,137 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [Quo Vadis, World Modeling?](https://arxiv.org/abs/2608.02713v1)
+### [EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.06197v1)
 
-**Authors:** Yu Yang, Xuemeng Yang, Licheng Wen, Lingdong Kong, Xiaobin Hu et al. (20 authors)
+**Authors:** Zishan Xu, Zhiyuan Yao, Yuxin Chen, Yifu Guo, Zhengxi Lu et al. (12 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.CV, cs.AI, cs.RO
+**Published:** 2026-08-06 | **Categories:** cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02713v1) | [PDF](https://arxiv.org/pdf/2608.02713v1.pdf) | [Project Page](https://worldbench.github.io/awesome-agentic-world-model) | [GitHub](https://github.com/worldbench/awesome-agentic-world-model)
+**Links:** [arXiv](https://arxiv.org/abs/2608.06197v1) | [PDF](https://arxiv.org/pdf/2608.06197v1.pdf) | [GitHub](https://github.com/Within-yao/EnvACE)
 
 <details>
 <summary>Abstract</summary>
 
-Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction is costly, slow, unsafe, and hard to parallelize. World modeling offers a natural intermediate proxy that allows agents to query lower-cost, more controllable feedback before committing to real actions. Classical world models instantiate this proxy primarily through future physical-state prediction, a formulation useful yet narrow for agents that require actionable...
+Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesized executable environments, whose construction and verification are costly, or on external simulators that are difficult to ground. We introduce EnvACE, an agentic reinforcement learning method that replaces external environment interaction during training with world rehearsal. The policy alternates between acting and rehearsal: it first generates a tool call, then plays the role...
 
 </details>
 
 ---
 
-### [WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity](https://arxiv.org/abs/2608.02603v1)
+### [From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models](https://arxiv.org/abs/2608.06020v1)
 
-**Authors:** Yuxue Yang, Shuyao Shang, Jiahe Wang, Zitong Zhou, Liang Tan et al. (16 authors)
+**Authors:** Jiale Han, Xiang Li, Jing Qian, Wenyuan Gu, Pin Gao et al. (10 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.CV
+**Published:** 2026-08-06 | **Categories:** cs.AI, cs.LG
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02603v1) | [PDF](https://arxiv.org/pdf/2608.02603v1.pdf) | [Project Page](https://WorldExam.github.io)
+**Links:** [arXiv](https://arxiv.org/abs/2608.06020v1) | [PDF](https://arxiv.org/pdf/2608.06020v1.pdf) | [GitHub](https://github.com/FreedomIntelligence/Awesome-Economic-World-Models)
 
 <details>
 <summary>Abstract</summary>
 
-Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether re...
+Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes. This paper develops an implementation roadmap for building economic world models as generative engines in which heterogeneous agents act, interact, adapt, and co-evolve with markets and institutions, thereby producing economic ...
+
+</details>
+
+---
+
+### [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674v1)
+
+**Authors:** JoyAI-RA Team
+
+**Published:** 2026-08-06 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.05674v1) | [PDF](https://arxiv.org/pdf/2608.05674v1.pdf) | [Project Page](can)
+
+<details>
+<summary>Abstract</summary>
+
+Robot data is scarce, so generalist policies need to learn from heterogeneous sources, including human egocentric video, simulation, and real robots, which differ in supervision and embodiment, with action labels missing or mutually incompatible. Human egocentric data scale best but sit farthest from robot data, and naive pooling causes negative transfer rather than knowledge sharing. We propose JoyAI-RA 0.5, a generalist Vision-Language-World-Action (VLWA) framework that couples physical world-...
+
+</details>
+
+---
+
+### [Uncertainty-Aware World Model for Aerial Image-Goal Navigation](https://arxiv.org/abs/2608.05597v1)
+
+**Authors:** Deyi Zhu, Haoyu Fan, Yinan Zhu, Weichen Zhang, Shilin Ma et al. (7 authors)
+
+**Published:** 2026-08-06 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.05597v1) | [PDF](https://arxiv.org/pdf/2608.05597v1.pdf) | [Project Page](https://duryi.github.io/UA-NWM-Project-Page)
+
+<details>
+<summary>Abstract</summary>
+
+Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal image. Existing world-model-based methods rank candidate trajectories using predicted futures, but typically rely on only one or a few point predictions, which is inadequate for large-scale outdoor environments with substantial future-state uncertainty. To address this limitation, we propose the Uncertainty-Aware Navigation World Model (UA-NWM), an efficient latent world model fo...
+
+</details>
+
+---
+
+### [HelloWorld: Enabling Socially Interactive Characters in Video World Models](https://arxiv.org/abs/2608.05070v1)
+
+**Authors:** Liangyang Ouyang, Ruicong Liu, Xuangeng Chu, Kaipeng Zhang, Yoichi Sato
+
+**Published:** 2026-08-05 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.05070v1) | [PDF](https://arxiv.org/pdf/2608.05070v1.pdf) | [GitHub](https://github.com/AlayaLab/HelloWorld)
+
+<details>
+<summary>Abstract</summary>
+
+Despite the remarkable recent progress of video world models, social interaction between users and the characters within these worlds remains unsupported. To fill this gap, we present HelloWorld, a video world model that enables social interaction with in-world characters. With a single button press, users can prompt the on-screen character to respond toward the camera, e.g., turning to the viewer, waving, nodding, or speaking a short greeting. To make these interactions natural, we propose a se...
+
+</details>
+
+---
+
+### [DreamWAM: Beyond RGB Future Prediction for World Action Models](https://arxiv.org/abs/2608.04996v1)
+
+**Authors:** Shanglin Yuan, Weiheng Zhao, Xin Shi, Haoyi Jiang, Xianda Guo et al. (9 authors)
+
+**Published:** 2026-08-05 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.04996v1) | [PDF](https://arxiv.org/pdf/2608.04996v1.pdf) | [GitHub](https://github.com/hustvl/DreamWAM)
+
+<details>
+<summary>Abstract</summary>
+
+World Action Models (WAMs) learn action-relevant representations by predicting how the observed world will evolve. Most existing WAMs define this future in RGB space, where task-relevant state transitions are entangled with nuisance variations in texture, illumination, background, and viewpoint. We argue that WAMs should explicitly predict action-relevant future state rather than relying on RGB prediction alone. We introduce DreamWAM, which reformulates future prediction as structured world mode...
+
+</details>
+
+---
+
+### [WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models](https://arxiv.org/abs/2608.04964v1)
+
+**Authors:** Bohai Gu, Yueyang Yuan, Taiyi Wu, Dazhao Du, Jian Liu et al. (12 authors)
+
+**Published:** 2026-08-05 | **Categories:** cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.04964v1) | [PDF](https://arxiv.org/pdf/2608.04964v1.pdf) | [Project Page](https://nevsnev.github.io/Worldcycle/)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compounding errors. Post-training methods such as reinforcement learning (RL) can improve these models, but they hit a verification bottleneck: for arbitrary action sequences, no ground-truth future state exists to measure long-term drift. Our key insight is that reversible action cycles make this verification possible: a sequence composed with its inverse must analytically return to the ...
+
+</details>
+
+---
+
+### [Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation](https://arxiv.org/abs/2608.04378v1)
+
+**Authors:** Scott H. Hawley
+
+**Published:** 2026-08-05 | **Categories:** cs.SD, cs.LG, eess.AS
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.04378v1) | [PDF](https://arxiv.org/pdf/2608.04378v1.pdf) | [Project Page](https://drscotthawley.github.io/midi-rae-jepa-son/)
+
+<details>
+<summary>Abstract</summary>
+
+Collaborative music agents need internal representations rich enough to support both understanding and generation, yet flexible enough for a workflow where the human retains agency. We present a hierarchical self-supervised ``world model'' for symbolic music: a 2.55M-parameter Swin V2 encoder trained on MIDI piano-roll images with JEPA-style objectives (pitch- and time-shift equivariance, masked embedding prediction, and a distributional regularizer), using no labels and no music-theory vocabula...
 
 </details>
 
@@ -48,171 +150,239 @@ Controllable video generation models are increasingly being developed as world m
 
 ## Other Recent Papers
 
-### [Enactive Artificial Intelligence: A Decision-Centric Architecture for Complex Systems](https://arxiv.org/abs/2608.03413v1)
+### [MASS: Multiplayer World Models with Authoritative Shared State](https://arxiv.org/abs/2608.06257v1)
 
-**Authors:** Zuojun Max Shen, Yuan Qu, Pujun Zhang, Anbang Liu, Yunhao Liang
+**Authors:** Ziqi Cai, Siqi Yang, Yimu Wang, Zixian Gao, Yunheng Liu et al. (9 authors)
 
-**Published:** 2026-08-04 | **Categories:** cs.AI, cs.ET
+**Published:** 2026-08-06 | **Categories:** cs.CV, cs.HC
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.03413v1) | [PDF](https://arxiv.org/pdf/2608.03413v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.06257v1) | [PDF](https://arxiv.org/pdf/2608.06257v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-As artificial intelligence (AI) continues to evolve and mature, recent AI practices have moved beyond large language models (LLMs) and text or image generation tasks, increasingly integrating tools, agents, and harnesses to solve real business and industrial problems. However, the power of AI is not verified under these real-world complex systems for various reasons, considering reliability, feasibility, resilience, and responsibility requirements in real commercial and industrial operations. Th...
+Current video world models struggle in multiplayer environments because they entangle world state with view-dependent visual latents, leading to redundant compute, view inconsistencies, and poor scalability. We propose MAS (Multiplayer world models with Authoritative Shared State) to resolve this limitation. Inspired by multiplayer game architectures, MAS disentangles world dynamics and view rendering. A learned Logic Engine advances a global, authoritative typed state from joint actions without...
 
 </details>
 
 ---
 
-### [UniNav: A Unified World-Action Diffusion Model for Visual Navigation](https://arxiv.org/abs/2608.03244v1)
+### [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](https://arxiv.org/abs/2608.06227v1)
 
-**Authors:** Changqing Zhou, Yueru Luo, Zeyu Jiang, Changhao Chen
+**Authors:** Christo Kurisummoottil Thomas, Omar Hashash, Walid Saad
 
-**Published:** 2026-08-04 | **Categories:** cs.AI
+**Published:** 2026-08-06 | **Categories:** cs.NI, cs.AI, cs.IT
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.03244v1) | [PDF](https://arxiv.org/pdf/2608.03244v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.06227v1) | [PDF](https://arxiv.org/pdf/2608.06227v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Image-goal visual navigation is a fundamental capability for embodied agents. Existing navigation policies efficiently predict waypoint trajectories but lack visual foresight, while navigation world models can anticipate future observations but often require costly planning rollouts. We present UniNav, a unified world-action model that generates future visual observations and continuous waypoint trajectories through a single diffusion process. Given history frames and a goal image, UniNav jointl...
+Despite advances in artificial intelligence (AI) across multiple sectors, today's AI tools, including deep learning and generative AI, still fail when embedded into physical systems, such as robots and vehicles operating under real-world physical laws. This stems from their inability to maintain reliable world models for long-horizon planning under uncertainty and generalize to unseen scenarios. In this context, wireless networks, through pervasive sensing and communication, can orchestrate phys...
 
 </details>
 
 ---
 
-### [CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction](https://arxiv.org/abs/2608.03211v1)
+### [Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features](https://arxiv.org/abs/2608.06008v1)
 
-**Authors:** Wanhao Liu, Jinsong Lin, Rulin Zhou, Chi Kit Ng, Wenbin Pan et al. (14 authors)
+**Authors:** Sining Ang, Yuguang Yang, Yan Wang
 
-**Published:** 2026-08-04 | **Categories:** cs.CV, cs.RO
+**Published:** 2026-08-06 | **Categories:** cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.03211v1) | [PDF](https://arxiv.org/pdf/2608.03211v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.06008v1) | [PDF](https://arxiv.org/pdf/2608.06008v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Visual world models typically learn future dynamics from a single observation stream, limiting their ability to model cooperative systems with multiple independently moving observers. We investigate this challenge in Mother--Child endoscopic retrograde cholangiopancreatography (ERCP), where two flexible scopes provide complementary yet role-dependent views without a calibrated stereo relationship. Unlike conventional multi-view fusion that assumes symmetric information exchange, we formulate \te...
+Large video diffusion models provide rich spatiotemporal priors for autonomous driving, but existing world-action models often inherit the cost of iterative future-video generation even though deployment only requires an ego trajectory. We ask a more basic question: how much of a video diffusion model must be executed to make a reliable driving decision? Through a controlled study of video denoising timesteps and Diffusion Transformer (DiT) depth, we find that planning performance is largely ins...
 
 </details>
 
 ---
 
-### [EmbodiedVAE: Disentangled Video VAE for Efficient and Controllable Embodied Manipulation](https://arxiv.org/abs/2608.02990v1)
+### [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](https://arxiv.org/abs/2608.05948v1)
 
-**Authors:** Jiayi Luo, Hanxin Zhu, Chen Gao, Jiankun Wang, Cong Wang et al. (8 authors)
+**Authors:** Shuai Wang, Yaxin Feng, Xuekun Jiang, Shihan Tian, Ningyu Yan et al. (15 authors)
 
-**Published:** 2026-08-04 | **Categories:** cs.RO
+**Published:** 2026-08-06 | **Categories:** cs.AI, cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02990v1) | [PDF](https://arxiv.org/pdf/2608.02990v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05948v1) | [PDF](https://arxiv.org/pdf/2608.05948v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Latent diffusion models (LDMs) have recently significantly advanced embodied learning in constructing powerful embodied manipulation world models. However, despite the remarkable performance, existing LDMs predominantly rely on Variational Autoencoders (VAEs) optimized for natural scenes while failing to account for the unique characteristics of embodied manipulation scenarios, yielding latent representations that are neither compact nor controllable, thereby hindering efficient training of LDMs...
+Physics engines facilitate large-scale training and evaluation for embodied intelligence, while generative video world models are emerging as implicit simulators of future states and interactions. However, existing evaluations of physical fidelity are often conducted in isolation and rely heavily on perceptual similarity or human judgments, providing limited insight into which physical principles or parameters are violated. We introduce GAUGE, a real-world-grounded diagnostic benchmark for joint...
 
 </details>
 
 ---
 
-### [RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models](https://arxiv.org/abs/2608.02953v1)
+### [AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents](https://arxiv.org/abs/2608.05891v1)
 
-**Authors:** Yuwei Ning, Liangzhi Wang, Yi Xiao, Zhenhua Wu, Yun Pang et al. (8 authors)
+**Authors:** Weikai Xu, Yunren Feng, Haoxiang Lei, Kun Huang, Yuxuan Liu et al. (9 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.CV
+**Published:** 2026-08-06 | **Categories:** cs.AI, cs.CL
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02953v1) | [PDF](https://arxiv.org/pdf/2608.02953v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05891v1) | [PDF](https://arxiv.org/pdf/2608.05891v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Realistic weather translation is valuable for developing and evaluating autonomous driving systems, yet collecting paired videos of the same scenes under different weather conditions at scale is impractical. Existing methods therefore rely on synthetic data, 3D weather editing, or geometry-conditioned generation, often compromising weather realism or scene fidelity. We propose RealWeather, a driving world model for both realistic and scene-faithful weather translation. Our key idea is to learn a...
+Mobile GUI agents can operate apps through pixel perception and touch actions, making them a promising interface for collecting and improving long-horizon mobile interaction policies. However, real trajectories are difficult to obtain for sensitive apps and privacy-critical operations. At the same time, existing simulated environments are costly to scale up, and GUI world models still suffer from unstable generation, limited modality coverage, and inconsistent action-transition logic. To address...
 
 </details>
 
 ---
 
-### [DF$^3$: World Modeling via Decoder-Free Feature Forecasting in Autonomous Navigation](https://arxiv.org/abs/2608.02428v1)
+### [XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?](https://arxiv.org/abs/2608.05799v1)
 
-**Authors:** Jiaming Chen, Guoan Xu, Aoshen Huang, Haozhuo Zhang, Yang Li et al. (6 authors)
+**Authors:** Yixiang Chen, Jiabing Yang, Yuan Xu, Qisen Ma, Keji He et al. (13 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.CV
+**Published:** 2026-08-06 | **Categories:** cs.RO, cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02428v1) | [PDF](https://arxiv.org/pdf/2608.02428v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05799v1) | [PDF](https://arxiv.org/pdf/2608.05799v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Forecasting future states from video sequences is a critical challenge for autonomous robotic systems and a fundamental objective of world modeling. Prior generative methods operating at the pixel level inevitably overemphasize task-irrelevant details, leading to prohibitive computational overhead. While latent-based approaches attempt to mitigate this by predicting features directly, the persistent reliance on heavy decoders for state-to-task mapping remains a computational bottleneck. In this ...
+Action-conditioned world models are promising learned simulators for robotic manipulation, yet evaluating them exclusively on training robots fails to reveal whether they capture physical dynamics or merely memorize visual patterns. To answer whether a model can faithfully render a robot it has never seen, we introduce XEWorld, a controlled cross-embodiment testbed for world models that isolates embodiments by evaluating held-out robots within physically identical scenes. Our systematic analysis...
 
 </details>
 
 ---
 
-### [Faster-WAM: Do World Action Models Need Deep Action Modules?](https://arxiv.org/abs/2608.02365v1)
+### [When Agentic AI Meets Integrated Sensing and Communication](https://arxiv.org/abs/2608.05792v1)
 
-**Authors:** Liheng Ma, Rui Heng Yang, Zhanguang Zhang, Mateo Clemente, Ziwen Hu et al. (7 authors)
+**Authors:** Kai Li, Conggai Li, Sarah Ali Siddiqui, Syed Sohail Ahmed, Xin Yuan et al. (7 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.AI, cs.LG, cs.RO
+**Published:** 2026-08-06 | **Categories:** cs.AI
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02365v1) | [PDF](https://arxiv.org/pdf/2608.02365v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05792v1) | [PDF](https://arxiv.org/pdf/2608.05792v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World Action Models (WAMs) couple robot action prediction with video world models. Existing WAMs with shared-backbone and Mixture-of-Transformers designs generally tie the depth of the action module to that of the video backbone, resulting in substantial computational overhead and high inference latency. To address this limitation, we introduce Dock of Transformer (DoT), a video-centric design principle that treats a pretrained video Transformer as a representation hub and connects lightweight o...
+Agentic artificial intelligence (AI) is transforming Integrated Sensing and Communication (ISAC) from a function-oriented physical-layer technology into a goal-driven, closed-loop intelligent system, a paradigm we term AISAC. Existing work on learning-based sensing, resource allocation, reconfigurable intelligent surfaces (RIS), edge intelligence, multi-agent coordination, and resilient networking has developed largely in isolation. This survey unifies the literature within a six-stage closed-lo...
 
 </details>
 
 ---
 
-### [PhyCheck: Fine-Grained Evidence-Grounded Dataset for Physical Law Understanding in Video-LLMs](https://arxiv.org/abs/2608.02150v2)
+### [PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models](https://arxiv.org/abs/2608.05720v1)
 
-**Authors:** Zhongjie Ba, Shengwang Xu, Peng Cheng, Jinyang Zou, Ting Yu et al. (7 authors)
+**Authors:** Xi Zeng, Haojie Ren, Ziying Song
 
-**Published:** 2026-08-03 | **Categories:** cs.CV, cs.AI
+**Published:** 2026-08-06 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.02150v2) | [PDF](https://arxiv.org/pdf/2608.02150v2.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05720v1) | [PDF](https://arxiv.org/pdf/2608.05720v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Embodied intelligence and world models require video understanding systems to go beyond recognizing objects and actions and develop an understanding of physical regularities. However, despite their strong performance on general video understanding tasks, current video-language models still struggle to reliably determine whether an observed event conforms to specific physical laws. Existing benchmarks primarily assess the physical quality of generated videos, providing limited support for systema...
+We propose PhyLatent, a dynamics-relevant training objective for JointEmbedding Predictive Architecture (JEPA) world models. Our key observation is that preventing global latent collapse does not ensure that a representation preserves physical states and action consequences. We identify three failure modes in JEPA world models: physical invariance collapse, physical identifiability collapse, and counterfactual dynamics collapse. PhyLatent addresses them through three training pathways: physical ...
 
 </details>
 
 ---
 
-### [ProWorld: Progress-Aware Hyperbolic World Models for Long-Horizon Visual Goal Reaching](https://arxiv.org/abs/2608.01926v1)
+### [LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models](https://arxiv.org/abs/2608.05706v1)
 
-**Authors:** Zihan Liu, Yuzhe Zhuang, Yuanzu Li, Wanshuang Gou, Jiahong Liu et al. (7 authors)
+**Authors:** Jiarui Yang, Jiale Zhange, Jiawei Li, Hang Guo, Wen Huang et al. (8 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.AI
+**Published:** 2026-08-06 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.01926v1) | [PDF](https://arxiv.org/pdf/2608.01926v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05706v1) | [PDF](https://arxiv.org/pdf/2608.05706v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-JEPA-style visual world models offer an effective paradigm for visual goal planning by predicting future latent representations. Existing methods typically learn local transition consistency through next-step representation prediction. However, in long-horizon tasks, accurate local prediction alone need not ensure sustained progress toward the goal. First, multi-step rollouts can remain locally plausible while drifting away from goal-relevant trajectories. Second, locally similar future states c...
+World models enable agents to perform forward rollout and planning without real-world interaction. However, their application in open-world embodied intelligence remains limited by the high cost of action annotations and the heterogeneity of action spaces across platforms. Recently, latent action models (LAMs) have alleviated this bottleneck by learning action representations directly from unlabeled human videos in a self-supervised manner. Nevertheless, most existing LAMs rely on single-view in...
 
 </details>
 
 ---
 
-### [WorldDynCache: Risk-Controlled Latent Dynamics Approximation for Diffusion World Model](https://arxiv.org/abs/2608.01845v1)
+### [DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model](https://arxiv.org/abs/2608.05695v1)
 
-**Authors:** Leyang Chen, Junyi Wu, Shaoqiu Zhang, Yulun Zhang
+**Authors:** Wenhao Lin, Chenyu Yu, Xingwei Lin, Sicong Cao, Xiang Chen et al. (9 authors)
 
-**Published:** 2026-08-03 | **Categories:** cs.LG, cs.CV
+**Published:** 2026-08-06 | **Categories:** cs.AI, cs.CL, cs.CR
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.01845v1) | [PDF](https://arxiv.org/pdf/2608.01845v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.05695v1) | [PDF](https://arxiv.org/pdf/2608.05695v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Diffusion world models generate high-quality futures, but re- peated transformer evaluations make inference prohibitively slow. Existing caches reuse intermediate features, selectively update tokens, or reuse and extrapolate denoising outputs ac- cording to local drift or short native-space histories. These criteria can miss both approximation-induced latent transition defects that accumulate across skipped steps and phase- or condition-dependent changes in the direction of latent evo- lution. W...
+As large language model (LLM) agents increasingly invoke external tools and interact with real-world systems, unsafe actions may cause irreversible consequences on external states, user data, and downstream services. Recent runtime guardrails mitigate such risks by checking proposed actions before execution, but many remain reactive: they primarily assess the apparent safety of the current action, lacking an explicit model of how risk evolves across the trajectory. This limitation creates a crit...
+
+</details>
+
+---
+
+### [HERA: Historical Evidence Routing Adapter for Physical Prediction in Latent World Models](https://arxiv.org/abs/2608.05523v1)
+
+**Authors:**  Yuanruyi, Yue Cao, Haojia Gao, Guanqiu Guo,  Ziyuezhang et al. (10 authors)
+
+**Published:** 2026-08-06 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.05523v1) | [PDF](https://arxiv.org/pdf/2608.05523v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Predictive video models have emerged as promising world models by learning latent visual dynamics from large-scale video. Yet these models remain challenged by physical events under occlusion, where later predictions may depend on object evidence that is no longer available in the current view. Addressing this challenge requires historical evidence not only to be preserved but also to remain accessible when it becomes relevant to a subsequent prediction. Existing approaches mainly enlarge the te...
+
+</details>
+
+---
+
+### [Quantum-Structured World Models (QSWMs) for Predictive Latent Dynamics](https://arxiv.org/abs/2608.05371v1)
+
+**Authors:** Hailong Jiang, Emran Hossain, Feng Yu, Jianfeng Zhu, Guilin Zhang et al. (6 authors)
+
+**Published:** 2026-08-05 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.05371v1) | [PDF](https://arxiv.org/pdf/2608.05371v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World models learn latent states that summarize interaction histories, evolve over time, and support prediction, simulation, or planning. Most existing world models represent these states using classical vectors, probability distributions, recurrent hidden states, or transformer activations. In this paper, we introduce Quantum-Structured World Models (QSWMs), a quantum-inspired framework for predictive world modeling with structured latent states, latent transition operators, and measurement-ins...
+
+</details>
+
+---
+
+### [Overcoming Statistical Bias in Action-Controllable World Models](https://arxiv.org/abs/2608.04653v1)
+
+**Authors:** Yuhong Shi, Zhenhao Chu, Jie Wei, Jun Hao, Jianyi Liu et al. (6 authors)
+
+**Published:** 2026-08-05 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.04653v1) | [PDF](https://arxiv.org/pdf/2608.04653v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned world models aim to predict how visual environments evolve under an agent's actions. Yet future frames are often highly predictable from visual inertia and recurring motion patterns alone. This creates a shortcut: models can fit the data by exploiting statistical biases without making their visible dynamics meaningfully depend on the action. As a result, different actions may produce similar futures, while motion may persist even under zero action. The key question is how to r...
+
+</details>
+
+---
+
+### [muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards](https://arxiv.org/abs/2608.04412v1)
+
+**Authors:** Yang Chen, Yicheng Zhu, Tao Li, Zilin Bian
+
+**Published:** 2026-08-05 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.04412v1) | [PDF](https://arxiv.org/pdf/2608.04412v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+High-quality driving data are essential for autonomous-driving systems and generative world models. However, rare and safety-critical scenarios involving adverse weather, braking under low tire--road friction, and uneven road geometry are costly and risky to collect at scale. Existing video-generation and 3D Gaussian editing methods can modify weather appearance or road geometry, but typically do not couple these edits with tire--road interaction and vehicle dynamics. As a result, an edited vide...
 
 </details>
 
