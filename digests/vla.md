@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-08-07 01:27 UTC
+**Last updated:** 2026-08-07 16:53 UTC
 
-**Papers found:** 12
+**Papers found:** 14
 
 [Back to Home](../README.md)
 
@@ -30,6 +30,40 @@ Leveraging pre-trained vision-language models (VLMs) to construct vision-languag
 ---
 
 ## Other Recent Papers
+
+### [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375v1)
+
+**Authors:** Zhe Li, Zhenzhe Zhang, Yangyang Wei, Wenjie Zhang, Xichen Yuan et al. (11 authors)
+
+**Published:** 2026-08-06 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.06375v1) | [PDF](https://arxiv.org/pdf/2608.06375v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, cur...
+
+</details>
+
+---
+
+### [DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation](https://arxiv.org/abs/2608.06374v1)
+
+**Authors:** Junfeng Li, Junjie He, Zhide Zhong, Yangyang Zheng, Pingyue Sheng et al. (15 authors)
+
+**Published:** 2026-08-06 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.06374v1) | [PDF](https://arxiv.org/pdf/2608.06374v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitati...
+
+</details>
+
+---
 
 ### [Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation](https://arxiv.org/abs/2608.05999v1)
 

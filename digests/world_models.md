@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-07 01:27 UTC
+**Last updated:** 2026-08-07 16:53 UTC
 
-**Papers found:** 22
+**Papers found:** 23
 
 [Back to Home](../README.md)
 
@@ -149,6 +149,23 @@ Collaborative music agents need internal representations rich enough to support 
 ---
 
 ## Other Recent Papers
+
+### [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332v1)
+
+**Authors:** Chenghao Gu, Hanyang Yu, Jingbo Zhang, Haitao Lin, Wenyao Zhang et al. (10 authors)
+
+**Published:** 2026-08-06 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.06332v1) | [PDF](https://arxiv.org/pdf/2608.06332v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditioned world models offer a promising alternative, but they often suffer from limited action controllability and poor generalization to out-of-distribution (OOD) scenarios. To this end, we present GeniWorld, an interactive world model for robots that gene...
+
+</details>
+
+---
 
 ### [MASS: Multiplayer World Models with Authoritative Shared State](https://arxiv.org/abs/2608.06257v1)
 
