@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-07 22:24 UTC
+**Last updated:** 2026-08-08 16:31 UTC
 
-**Papers found:** 23
+**Papers found:** 16
 
 [Back to Home](../README.md)
 
@@ -75,74 +75,6 @@ Robot data is scarce, so generalist policies need to learn from heterogeneous so
 <summary>Abstract</summary>
 
 Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal image. Existing world-model-based methods rank candidate trajectories using predicted futures, but typically rely on only one or a few point predictions, which is inadequate for large-scale outdoor environments with substantial future-state uncertainty. To address this limitation, we propose the Uncertainty-Aware Navigation World Model (UA-NWM), an efficient latent world model fo...
-
-</details>
-
----
-
-### [HelloWorld: Enabling Socially Interactive Characters in Video World Models](https://arxiv.org/abs/2608.05070v1)
-
-**Authors:** Liangyang Ouyang, Ruicong Liu, Xuangeng Chu, Kaipeng Zhang, Yoichi Sato
-
-**Published:** 2026-08-05 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.05070v1) | [PDF](https://arxiv.org/pdf/2608.05070v1.pdf) | [GitHub](https://github.com/AlayaLab/HelloWorld)
-
-<details>
-<summary>Abstract</summary>
-
-Despite the remarkable recent progress of video world models, social interaction between users and the characters within these worlds remains unsupported. To fill this gap, we present HelloWorld, a video world model that enables social interaction with in-world characters. With a single button press, users can prompt the on-screen character to respond toward the camera, e.g., turning to the viewer, waving, nodding, or speaking a short greeting. To make these interactions natural, we propose a se...
-
-</details>
-
----
-
-### [DreamWAM: Beyond RGB Future Prediction for World Action Models](https://arxiv.org/abs/2608.04996v1)
-
-**Authors:** Shanglin Yuan, Weiheng Zhao, Xin Shi, Haoyi Jiang, Xianda Guo et al. (9 authors)
-
-**Published:** 2026-08-05 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.04996v1) | [PDF](https://arxiv.org/pdf/2608.04996v1.pdf) | [GitHub](https://github.com/hustvl/DreamWAM)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) learn action-relevant representations by predicting how the observed world will evolve. Most existing WAMs define this future in RGB space, where task-relevant state transitions are entangled with nuisance variations in texture, illumination, background, and viewpoint. We argue that WAMs should explicitly predict action-relevant future state rather than relying on RGB prediction alone. We introduce DreamWAM, which reformulates future prediction as structured world mode...
-
-</details>
-
----
-
-### [WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models](https://arxiv.org/abs/2608.04964v1)
-
-**Authors:** Bohai Gu, Yueyang Yuan, Taiyi Wu, Dazhao Du, Jian Liu et al. (12 authors)
-
-**Published:** 2026-08-05 | **Categories:** cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.04964v1) | [PDF](https://arxiv.org/pdf/2608.04964v1.pdf) | [Project Page](https://nevsnev.github.io/Worldcycle/)
-
-<details>
-<summary>Abstract</summary>
-
-Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compounding errors. Post-training methods such as reinforcement learning (RL) can improve these models, but they hit a verification bottleneck: for arbitrary action sequences, no ground-truth future state exists to measure long-term drift. Our key insight is that reversible action cycles make this verification possible: a sequence composed with its inverse must analytically return to the ...
-
-</details>
-
----
-
-### [Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation](https://arxiv.org/abs/2608.04378v1)
-
-**Authors:** Scott H. Hawley
-
-**Published:** 2026-08-05 | **Categories:** cs.SD, cs.LG, eess.AS
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.04378v1) | [PDF](https://arxiv.org/pdf/2608.04378v1.pdf) | [Project Page](https://drscotthawley.github.io/midi-rae-jepa-son/)
-
-<details>
-<summary>Abstract</summary>
-
-Collaborative music agents need internal representations rich enough to support both understanding and generation, yet flexible enough for a workflow where the human retains agency. We present a hierarchical self-supervised ``world model'' for symbolic music: a 2.55M-parameter Swin V2 encoder trained on MIDI piano-roll images with JEPA-style objectives (pitch- and time-shift equivariance, masked embedding prediction, and a distributional regularizer), using no labels and no music-theory vocabula...
 
 </details>
 
@@ -349,57 +281,6 @@ As large language model (LLM) agents increasingly invoke external tools and inte
 <summary>Abstract</summary>
 
 Predictive video models have emerged as promising world models by learning latent visual dynamics from large-scale video. Yet these models remain challenged by physical events under occlusion, where later predictions may depend on object evidence that is no longer available in the current view. Addressing this challenge requires historical evidence not only to be preserved but also to remain accessible when it becomes relevant to a subsequent prediction. Existing approaches mainly enlarge the te...
-
-</details>
-
----
-
-### [Quantum-Structured World Models (QSWMs) for Predictive Latent Dynamics](https://arxiv.org/abs/2608.05371v1)
-
-**Authors:** Hailong Jiang, Emran Hossain, Feng Yu, Jianfeng Zhu, Guilin Zhang et al. (6 authors)
-
-**Published:** 2026-08-05 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.05371v1) | [PDF](https://arxiv.org/pdf/2608.05371v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models learn latent states that summarize interaction histories, evolve over time, and support prediction, simulation, or planning. Most existing world models represent these states using classical vectors, probability distributions, recurrent hidden states, or transformer activations. In this paper, we introduce Quantum-Structured World Models (QSWMs), a quantum-inspired framework for predictive world modeling with structured latent states, latent transition operators, and measurement-ins...
-
-</details>
-
----
-
-### [Overcoming Statistical Bias in Action-Controllable World Models](https://arxiv.org/abs/2608.04653v1)
-
-**Authors:** Yuhong Shi, Zhenhao Chu, Jie Wei, Jun Hao, Jianyi Liu et al. (6 authors)
-
-**Published:** 2026-08-05 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.04653v1) | [PDF](https://arxiv.org/pdf/2608.04653v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Action-conditioned world models aim to predict how visual environments evolve under an agent's actions. Yet future frames are often highly predictable from visual inertia and recurring motion patterns alone. This creates a shortcut: models can fit the data by exploiting statistical biases without making their visible dynamics meaningfully depend on the action. As a result, different actions may produce similar futures, while motion may persist even under zero action. The key question is how to r...
-
-</details>
-
----
-
-### [muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards](https://arxiv.org/abs/2608.04412v1)
-
-**Authors:** Yang Chen, Yicheng Zhu, Tao Li, Zilin Bian
-
-**Published:** 2026-08-05 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.04412v1) | [PDF](https://arxiv.org/pdf/2608.04412v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-High-quality driving data are essential for autonomous-driving systems and generative world models. However, rare and safety-critical scenarios involving adverse weather, braking under low tire--road friction, and uneven road geometry are costly and risky to collect at scale. Existing video-generation and 3D Gaussian editing methods can modify weather appearance or road geometry, but typically do not couple these edits with tire--road interaction and vehicle dynamics. As a result, an edited vide...
 
 </details>
 
