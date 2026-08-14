@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-13 22:30 UTC
+**Last updated:** 2026-08-14 16:51 UTC
 
-**Papers found:** 10
+**Papers found:** 17
 
 [Back to Home](../README.md)
 
@@ -12,41 +12,262 @@ Papers on world models for robotics, video prediction, and simulation.
 
 ## Papers with Project Pages / Code
 
-### [R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video](https://arxiv.org/abs/2608.11017v1)
+### [PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives](https://arxiv.org/abs/2608.13552v1)
 
-**Authors:** Ke Ma, Yamin Mao, Weiming Li, Shuai Tan, Yijie Zhong et al. (8 authors)
+**Authors:** Kaixin Ding, Xi Chen, Minghong Cai, Zhiyuan Xu, Yiyang Wang et al. (12 authors)
 
-**Published:** 2026-08-11 | **Categories:** cs.CV, cs.AI, cs.HC
+**Published:** 2026-08-13 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.11017v1) | [PDF](https://arxiv.org/pdf/2608.11017v1.pdf) | [Project Page](https://dualtransparency.github.io/R4DSG/)
+**Links:** [arXiv](https://arxiv.org/abs/2608.13552v1) | [PDF](https://arxiv.org/pdf/2608.13552v1.pdf) | [Project Page](https://kxding.github.io/project/PlayWorld/) | [GitHub](https://github.com/kxding/PlayWorld)
 
 <details>
 <summary>Abstract</summary>
 
-Long-horizon egocentric video is a rich substrate for wearable AI assistants, but object-centric questions such as where an item was moved, when it last changed state, or why it was relocated remain difficult because caption- and transcript-based memories rarely preserve persistent object identity or structured spatial change. Existing long-video QA methods mainly emphasize temporal grounding and clip retrieval, while prior 3D scene-graph methods typically assume stronger geometry than free-moti...
+Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or w...
 
 </details>
 
 ---
 
-### [PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots](https://arxiv.org/abs/2608.10449v2)
+### [DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation](https://arxiv.org/abs/2608.13489v1)
 
-**Authors:** Shuo Bao, Wei Dong, Shuyue Zhang, Ming Shang, Yuchen Huang et al. (11 authors)
+**Authors:**  DreamX Team, Rui Chen, Xiangxiang Chu, Geng Li, Jifan Li et al. (10 authors)
 
-**Published:** 2026-08-11 | **Categories:** cs.RO
+**Published:** 2026-08-13 | **Categories:** cs.CV, cs.RO
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.10449v2) | [PDF](https://arxiv.org/pdf/2608.10449v2.pdf) | [Project Page](of)
+**Links:** [arXiv](https://arxiv.org/abs/2608.13489v1) | [PDF](https://arxiv.org/pdf/2608.13489v1.pdf) | [GitHub](https://github.com/AMAP-ML/DreamX-Phi)
 
 <details>
 <summary>Abstract</summary>
 
-Long-horizon service robots require persistent world models that can be built autonomously in unseen environments and revised as task-relevant objects change. Existing methods rely on online mapping, which accumulates localization and observation errors, static scene representations that cannot capture persistent object changes, or holistic vision-language predictions that lack verifiable 3D geometric evidence. We present PBD-AG, a persistent baseline-delta active graph framework that decouples ...
+We present \textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observations. Yet realism alone does not guarantee faithfulness: a convincing rollout can still move the wrong arm or lose the manipulated object. To ensure the prediction respects each arm's commanded path, we inject per-arm $\mat...
+
+</details>
+
+---
+
+### [HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation](https://arxiv.org/abs/2608.12904v1)
+
+**Authors:** Yunhao Bai, Zhongwei Qiu, Guangyu Guo, Yiming Huang, Tony C. W. Mok et al. (8 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12904v1) | [PDF](https://arxiv.org/pdf/2608.12904v1.pdf) | [GitHub](https://github.com/byhwhite/HounsWorld.git)
+
+<details>
+<summary>Abstract</summary>
+
+Clinical intelligence requires estimating a patient's underlying condition from incomplete observations rather than learning isolated mappings from scans to answers. Volumetric medical images provide dense observations of anatomy, attenuation, and lesions, whereas clinical language provides sparse but complementary semantic observations. We formulate CT-centered intelligence as inference over a shared latent patient state, under which readout, reconstruction, and simulation all become state-depe...
 
 </details>
 
 ---
 
 ## Other Recent Papers
+
+### [Alaya-EVOKE: From Linear-Scaling Supervision to Endless World](https://arxiv.org/abs/2608.13546v1)
+
+**Authors:** Yuanyang Yin, Gongxuan Wang, Yifan Zhan, Chuanhao Li, Kaipeng Zhang et al. (6 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13546v1) | [PDF](https://arxiv.org/pdf/2608.13546v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length and retained memory, while low-latency interaction relies on few-step generation whose capabilities are bounded by its teacher. Evoke addresses both limitations by externalizing persistent world state...
+
+</details>
+
+---
+
+### [Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology](https://arxiv.org/abs/2608.13518v1)
+
+**Authors:** Yunsung Chung, Yingshuo Liu, Abboud F. Hassan, Han Feng, Mary M. Maleckar et al. (7 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.LG, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13518v1) | [PDF](https://arxiv.org/pdf/2608.13518v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. However, recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological measurements are recorded asynchronously and can change risk assessment over time. We propose an intervention-aware clinical world model that represents each patient with a structured latent state and ev...
+
+</details>
+
+---
+
+### [AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)](https://arxiv.org/abs/2608.13492v1)
+
+**Authors:**  AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge et al. (18 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13492v1) | [PDF](https://arxiv.org/pdf/2608.13492v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged from the previous release, we substantially revise how conditioning signals are represented and integrated into the model. The new design is guided by a simple principle: conditioning signals should match the generated content as closely as possible in both latent representation and temporal structure. To this end, we make two ma...
+
+</details>
+
+---
+
+### [A Unifying Perspective on Causal World Models: From Observations to Representations to Structure](https://arxiv.org/abs/2608.13456v1)
+
+**Authors:** Avinash Kori, Fabrizio Russo
+
+**Published:** 2026-08-13 | **Categories:** cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13456v1) | [PDF](https://arxiv.org/pdf/2608.13456v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+World Models (WM) are increasingly seen as a foundation for intelligent agents that can predict, plan, and act beyond their training distribution. In this paper, we study WMs from a causal perspective across multiple levels of abstraction, ranging from perceptual observations to building a conceptual representation of the structure governing the environment dynamics. We argue that useful WMs must go beyond generative capabilities alone: they should also capture entity properties, entity-to-entit...
+
+</details>
+
+---
+
+### [ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models](https://arxiv.org/abs/2608.13438v1)
+
+**Authors:** Gehan Zheng, Matthew Johnson-Roberson, Weiming Zhi
+
+**Published:** 2026-08-13 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13438v1) | [PDF](https://arxiv.org/pdf/2608.13438v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Contact-rich manipulation failures are often detected only after the robot has committed to contact. This is especially limiting in wrist-camera setups: close gripper--object views help observe contact, but a poor approach may already push, miss, slip, or disturb the object before conventional detectors react. We introduce \emph{ContactGuard}, a pre-contact execution monitor for chunked visuomotor policies. Given the policy's planned action chunk, ContactGuard predicts its short-horizon conseque...
+
+</details>
+
+---
+
+### [S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation](https://arxiv.org/abs/2608.13103v1)
+
+**Authors:** Shuzhe Zhang, Xin Zhu, Yinling Qian, Qiong Wang
+
+**Published:** 2026-08-13 | **Categories:** cs.RO, eess.SY
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13103v1) | [PDF](https://arxiv.org/pdf/2608.13103v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon surgical robot manipulation is challenging because task rewards are sparse, while meaningful interaction changes occur at irregular intervals. Existing world-model agents typically imagine at primitive-step resolution, leaving variable-duration task progress implicit. Manually specified stages can provide intermediate structure, but their task specific boundaries are difficult to align with state-dependent interaction transitions. We propose S2-HWM, a Sparse Event-Structured Hierarc...
+
+</details>
+
+---
+
+### [H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models](https://arxiv.org/abs/2608.13049v1)
+
+**Authors:** Dingyi Rong, Yue Shi, Chaofan Ma, Jiezhang Cao, Zongrui Wang et al. (9 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.13049v1) | [PDF](https://arxiv.org/pdf/2608.13049v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale. Meanwhile, abundant egocentric human manipulation videos provide rich behavioral experiences, but transferring them across embodiments remains challenging due to differences between human hands and robotic end-effectors. Recent advances in video world models offer a promising pathway to synthesize robot-centric manipulation videos from human observations, w...
+
+</details>
+
+---
+
+### [The Objective Is the Bottleneck: Latent World Models Encode What Their Planners Cannot Use](https://arxiv.org/abs/2608.12959v1)
+
+**Authors:** Joyjeet Singh
+
+**Published:** 2026-08-13 | **Categories:** cs.LG, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12959v1) | [PDF](https://arxiv.org/pdf/2608.12959v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models are judged by how well they predict, so when planning fails at long horizons the natural reading is that the predictor degrades. On a reproduction of LeWorldModel on TwoRoom we show the binding constraint is the planner's objective instead. The predictor is not the limit: its imagined state seventy-five environment steps ahead is still only 0.189 as wrong as assuming the world froze, while the planner never imagines beyond twenty-five. The objective is. Cross-entropy-method p...
+
+</details>
+
+---
+
+### [Diagnosing JEPA World Models with Action-Conditioned Predictive Consistency](https://arxiv.org/abs/2608.12939v1)
+
+**Authors:** Guo An, Zijing Wu, Honghua Dong, Yuhao Yan, Zixuan Gui et al. (10 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12939v1) | [PDF](https://arxiv.org/pdf/2608.12939v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-embedding predictive architectures (JEPAs) learn world models that predict in a compact latent space rather than in pixels, reducing the pressure to model nuisance appearance. Yet this provides no guarantee against visual perturbations: they can still alter the encoded representation and affect subsequent action-conditioned predictions. Bisimulation captures this requirement precisely: two observations should be treated as the same state only when their action-conditioned consequences agre...
+
+</details>
+
+---
+
+### [BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving](https://arxiv.org/abs/2608.12854v1)
+
+**Authors:** Bing Zhan, Shuyao Shang, Jiahao Gu, Shuo Lu, Yuan Xu et al. (11 authors)
+
+**Published:** 2026-08-13 | **Categories:** cs.RO, cs.AI, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12854v1) | [PDF](https://arxiv.org/pdf/2608.12854v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, while World Action Models (WAMs) provide future-aware prediction through generative world modeling. This naturally motivates a unified planner that can leverage both semantic priors and predictive dynamics. However, we find...
+
+</details>
+
+---
+
+### [Scaling Automatic Research Agents via World Models](https://arxiv.org/abs/2608.12564v1)
+
+**Authors:** Xiyuan Yang, Sheikh Sarwar, Jingru Cheng, Zhan Shi, Duanshun Li et al. (10 authors)
+
+**Published:** 2026-08-12 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12564v1) | [PDF](https://arxiv.org/pdf/2608.12564v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially RL) plays a central role. In this paper, we identify a fundamental tension when scaling RL for these agents: the two components of every AutoResearch trajectory (agent generation and environment exec...
+
+</details>
+
+---
+
+### [Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476v1)
+
+**Authors:** Guodong Xu
+
+**Published:** 2026-08-12 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.12476v1) | [PDF](https://arxiv.org/pdf/2608.12476v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-...
+
+</details>
+
+---
 
 ### [Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models](https://arxiv.org/abs/2608.12078v1)
 
@@ -77,108 +298,6 @@ Learning world models from offline trajectories enables agents to accomplish dif
 <summary>Abstract</summary>
 
 Driving world models are often interpreted as counterfactual simulators for observed driving episodes: given a factual driving log, they are asked what would have happened under an alternative ego action. In this paper, we identify a fundamental mismatch between this goal and direct action-conditioned prediction. The direct prediction uses the shared history and the alternative action but not the factual continuation observed after that history. It can therefore generate a plausible future witho...
-
-</details>
-
----
-
-### [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204v1)
-
-**Authors:** Wenrui Bao, Tianyun Jiang, Zhiben Chen, Ser-Nam Lim, Peter D. Peng et al. (6 authors)
-
-**Published:** 2026-08-11 | **Categories:** cs.RO, cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11204v1) | [PDF](https://arxiv.org/pdf/2608.11204v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long-horizon reasoning, and bimanual coordination. Endoscopic video is comparatively inexpensive and abundant relative to synchronized video--kinematics trajectories, and a natural way to exploit it is to learn world models o...
-
-</details>
-
----
-
-### [VIScore: Diagnosing Planning-Relevant Quality in Latent World Models](https://arxiv.org/abs/2608.11174v2)
-
-**Authors:** Haiyu Wu, Randall Balestriero, Morgan Levine
-
-**Published:** 2026-08-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11174v2) | [PDF](https://arxiv.org/pdf/2608.11174v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Regulating the latent space to an isotropic Gaussian distribution provides a stable and information-maximized landscape for world model planning. However, the latent space property and successful planning remain disconnected. We first study this by comparing SIGReg and VISReg, two regularization loss functions with the same distribution target but different properties. Compared with SIGReg, VISReg has more flexibility in controlling the weights of center, scale, and shape regularization, and a l...
-
-</details>
-
----
-
-### [ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](https://arxiv.org/abs/2608.10915v2)
-
-**Authors:** Qianggang Ding, Xingyao Wang, Rui Feng, Zhibin Wang, Feixiang Yao et al. (22 authors)
-
-**Published:** 2026-08-11 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.10915v2) | [PDF](https://arxiv.org/pdf/2608.10915v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication. Yet neither explains whether the person forgot, is confused, has side effects, or deliberately refused, nor what support is appropriate. This reveals a structural gap in Agentic AI: Digital Agents primarily transform software states, while Embodied Agents transform physical states; neither makes a person's evolving state and agency the primary object of modeli...
-
-</details>
-
----
-
-### [Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent](https://arxiv.org/abs/2608.10618v1)
-
-**Authors:** Zitong Shan, Baichuan Lou, Yanxin Zhou, Shuge Wu, Xianqi He et al. (11 authors)
-
-**Published:** 2026-08-11 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.10618v1) | [PDF](https://arxiv.org/pdf/2608.10618v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world. However, most embodied systems are still evaluated within conservative safety margins or moderate interaction regimes, leaving their capability boundaries under extreme conditions insufficiently understood. Autonomous racing provides a stringent testbed by combining high-frequency localization and perception, adversarial interaction, near-saturated vehicl...
-
-</details>
-
----
-
-### [Stream Forcing: Constructing Unified Training Trajectory for Robust Streaming Video Generation](https://arxiv.org/abs/2608.10439v1)
-
-**Authors:** Yueting Zhu, Yuehao Song, Kaicheng Zhang, Bao Tang, Shaoyu Chen et al. (8 authors)
-
-**Published:** 2026-08-11 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.10439v1) | [PDF](https://arxiv.org/pdf/2608.10439v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Streaming video generation holds strong potential for world modeling, where future frames must be inferred online sequentially to form a continuous video stream. However, streaming video diffusion models introduce a fundamental train-inference mismatch: inference follows a specialized denoising order, whereas advanced training strategies typically require diverse noise-level configurations. To address this trade-off between train-inference consistency and training coverage, we reformulate the vi...
-
-</details>
-
----
-
-### [Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving](https://arxiv.org/abs/2608.10386v1)
-
-**Authors:** Jiazhuo Li, Linjiang Cao, Qi Liu, Xi Xiong
-
-**Published:** 2026-08-11 | **Categories:** cs.LG, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.10386v1) | [PDF](https://arxiv.org/pdf/2608.10386v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Sample-efficient reinforcement learning for autonomous driving is often limited by the trade-off between data efficiency and model bias. While world models reduce the reliance on costly environment interactions, policy optimization over learned dynamics remains sensitive to prediction errors. This paper proposes the Dreamer-SAC framework, which integrates a recurrent state-space world model with an off-policy soft actor-critic algorithm trained directly in latent space. The framework uses a comb...
 
 </details>
 
