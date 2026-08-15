@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-14 22:11 UTC
+**Last updated:** 2026-08-15 16:22 UTC
 
-**Papers found:** 17
+**Papers found:** 13
 
 [Back to Home](../README.md)
 
@@ -230,74 +230,6 @@ Joint-embedding predictive architectures (JEPAs) learn world models that predict
 <summary>Abstract</summary>
 
 Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, while World Action Models (WAMs) provide future-aware prediction through generative world modeling. This naturally motivates a unified planner that can leverage both semantic priors and predictive dynamics. However, we find...
-
-</details>
-
----
-
-### [Scaling Automatic Research Agents via World Models](https://arxiv.org/abs/2608.12564v1)
-
-**Authors:** Xiyuan Yang, Sheikh Sarwar, Jingru Cheng, Zhan Shi, Duanshun Li et al. (10 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12564v1) | [PDF](https://arxiv.org/pdf/2608.12564v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially RL) plays a central role. In this paper, we identify a fundamental tension when scaling RL for these agents: the two components of every AutoResearch trajectory (agent generation and environment exec...
-
-</details>
-
----
-
-### [Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476v1)
-
-**Authors:** Guodong Xu
-
-**Published:** 2026-08-12 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12476v1) | [PDF](https://arxiv.org/pdf/2608.12476v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-...
-
-</details>
-
----
-
-### [Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models](https://arxiv.org/abs/2608.12078v1)
-
-**Authors:** Shukrullo Nazirjonov, Sai Prasanna, Anna Manasyan, Georg Martius
-
-**Published:** 2026-08-12 | **Categories:** cs.CV, cs.AI, cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12078v1) | [PDF](https://arxiv.org/pdf/2608.12078v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Learning world models from offline trajectories enables agents to accomplish different tasks through planning. Object-centric (OC) representations, which decompose a scene into a set of slots that bind to its objects, have been proposed as an inductive bias for world models that are more sample-efficient and generalize better. Yet prior object-centric world models (OCWMs) take the slot encoder as given and evaluate only in-distribution, leaving open whether the object-centric bias actually deliv...
-
-</details>
-
----
-
-### [How Can Driving World Models Do Counterfactual Prediction?](https://arxiv.org/abs/2608.11601v1)
-
-**Authors:** Jiaru Zhang, Can Cui, Yi Xu, Xin Ye, Ruqi Zhang et al. (6 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11601v1) | [PDF](https://arxiv.org/pdf/2608.11601v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Driving world models are often interpreted as counterfactual simulators for observed driving episodes: given a factual driving log, they are asked what would have happened under an alternative ego action. In this paper, we identify a fundamental mismatch between this goal and direct action-conditioned prediction. The direct prediction uses the shared history and the alternative action but not the factual continuation observed after that history. It can therefore generate a plausible future witho...
 
 </details>
 

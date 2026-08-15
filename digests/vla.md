@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-08-14 22:12 UTC
+**Last updated:** 2026-08-15 16:22 UTC
 
-**Papers found:** 12
+**Papers found:** 6
 
 [Back to Home](../README.md)
 
@@ -109,108 +109,6 @@ Vision-Language-Action (VLA) models promise to bring end-to-end reasoning to aut
 <summary>Abstract</summary>
 
 Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, while World Action Models (WAMs) provide future-aware prediction through generative world modeling. This naturally motivates a unified planner that can leverage both semantic priors and predictive dynamics. However, we find...
-
-</details>
-
----
-
-### [Scaling Automatic Research Agents via World Models](https://arxiv.org/abs/2608.12564v1)
-
-**Authors:** Xiyuan Yang, Sheikh Sarwar, Jingru Cheng, Zhan Shi, Duanshun Li et al. (10 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12564v1) | [PDF](https://arxiv.org/pdf/2608.12564v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially RL) plays a central role. In this paper, we identify a fundamental tension when scaling RL for these agents: the two components of every AutoResearch trajectory (agent generation and environment exec...
-
-</details>
-
----
-
-### [DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation](https://arxiv.org/abs/2608.12308v1)
-
-**Authors:** Yan Deng, Fei Xu
-
-**Published:** 2026-08-12 | **Categories:** cs.CV, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12308v1) | [PDF](https://arxiv.org/pdf/2608.12308v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-b...
-
-</details>
-
----
-
-### [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769v1)
-
-**Authors:** Chaeyeon Jung, Juyoun Park
-
-**Published:** 2026-08-12 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11769v1) | [PDF](https://arxiv.org/pdf/2608.11769v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation. We characterize the initial-condition-dependent early hand preference as a policy-induced hand prior and quantify it using HandPriorScore, residual hand bias, and target responsiveness....
-
-</details>
-
----
-
-### [G0.5: One Autoregressive Stream for Robot Reasoning and Action](https://arxiv.org/abs/2608.11739v1)
-
-**Authors:** Yicheng Liu, Zibin Dong, Baijun Ye, Tianyuan Yuan, Tao Jiang et al. (27 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11739v1) | [PDF](https://arxiv.org/pdf/2608.11739v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-The prevailing recipe for Vision-Language-Action (VLA) models couples a pretrained VLM with a separately trained flow-matching action expert. This makes the VLM a context encoder rather than a decision-maker. We introduce G0.5, a pretrained autoregressive VLA in which a single transformer decoder emits reasoning and action tokens under a single objective. Three components make this tractable at foundation-model scale: a learnable cross-embodiment action tokenizer that maps heterogeneous robot ac...
-
-</details>
-
----
-
-### [StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models](https://arxiv.org/abs/2608.11671v1)
-
-**Authors:** Siyu Xu, Yunke Wang, Zijian Wang, Dihao Zhu, Chenghao Xia et al. (9 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.11671v1) | [PDF](https://arxiv.org/pdf/2608.11671v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models can follow instructions and manipulate objects, but their performance often collapses out of distribution (OOD), when the scene, viewpoint, or object differs from training. Adapting to each new situation typically requires collecting more data and fine-tuning. We present StellaVLA, a framework that instead adapts at test time by conditioning on a single retrieved demonstration. The key idea is to move beyond imitating what an expert did and instead convey why:...
-
-</details>
-
----
-
-### [RoboSynChallenge: Mastering Real-World Dexterity via Generalizing Synthesized Manipulation Skills](https://arxiv.org/abs/2608.12416v1)
-
-**Authors:** Runyi Zhao, Ruixin Wu, Chengkun Li, Hongrui Zhang, Ang Li et al. (18 authors)
-
-**Published:** 2026-08-12 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.12416v1) | [PDF](https://arxiv.org/pdf/2608.12416v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Achieving generalizable robotic manipulation remains a central challenge in embodied intelligence. Despite rapid advances in model architectures and learning algorithms, progress is often limited by the scarcity and narrow diversity of real-world data. The RoboSynChallenge competition introduces a unified benchmark to evaluate and advance the generalizability of manipulation policies across a spectrum of tasks, environments, and difficulty levels. To alleviate the shortage of realistic data, the...
 
 </details>
 
