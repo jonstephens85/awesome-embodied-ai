@@ -2,15 +2,49 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-19 22:13 UTC
+**Last updated:** 2026-08-20 16:33 UTC
 
-**Papers found:** 14
+**Papers found:** 11
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models](https://arxiv.org/abs/2608.18484v1)
+
+**Authors:** Pardis Taghavi, Reza Langari, Gaurav Pandey
+
+**Published:** 2026-08-19 | **Categories:** cs.CV, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.18484v1) | [PDF](https://arxiv.org/pdf/2608.18484v1.pdf) | [Project Page](https://pardistaghavi.github.io/SparsePR-website/)
+
+<details>
+<summary>Abstract</summary>
+
+Training-free block-sparse attention can accelerate video transformers, but row-wise attention concentration does not by itself specify an executable sparse operator. Queries sharing a block route may have poorly overlapping supports, while retained attention mass alone does not determine the post-softmax error from skipped interactions. We show that partition geometry affects both pooled support and the predictability of the remaining residual from the sparse output. We introduce SparsePR, whic...
+
+</details>
+
+---
+
+### [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234v1)
+
+**Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong et al. (20 authors)
+
+**Published:** 2026-08-18 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.18234v1) | [PDF](https://arxiv.org/pdf/2608.18234v1.pdf) | [Project Page](https://shepherd1226.github.io/gigabrain-wbc-0.5/)
+
+<details>
+<summary>Abstract</summary>
+
+Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging...
+
+</details>
+
+---
 
 ### [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077v1)
 
@@ -63,58 +97,75 @@ Joint-Embedding Predictive Architectures (JEPAs) learn world models by predictin
 
 ---
 
-### [$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation](https://arxiv.org/abs/2608.16885v1)
-
-**Authors:** Xiaowei Cai, Yunuo Cai, Bingao Chen, Jingxiao Chen, Zhi Chen et al. (39 authors)
-
-**Published:** 2026-08-17 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16885v1) | [PDF](https://arxiv.org/pdf/2608.16885v1.pdf) | [Project Page](https://tau0-vla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce $τ_0$-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through w...
-
-</details>
-
----
-
-### [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://arxiv.org/abs/2608.16859v1)
-
-**Authors:** Weiliang Chen, Haowen Sun, Jun Gao, Jiawei Chi, Hanyang Wang et al. (43 authors)
-
-**Published:** 2026-08-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16859v1) | [PDF](https://arxiv.org/pdf/2608.16859v1.pdf) | [Project Page](https://mirros-lab.github.io/HarnessEval-W)
-
-<details>
-<summary>Abstract</summary>
-
-A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are computed brute-force, leaving no reasoning chain that can be examined or verified. We introduce HarnessEval-...
-
-</details>
-
----
-
-### [Orbit-Planner: Towards Latent World Models for On-Orbit Obstacle Avoidance of Satellite Agents](https://arxiv.org/abs/2608.16651v1)
-
-**Authors:** Zhijian Li, Chao Ren, Peijin Wang, Xian Sun
-
-**Published:** 2026-08-17 | **Categories:** cs.RO, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16651v1) | [PDF](https://arxiv.org/pdf/2608.16651v1.pdf) | [Project Page](https://zhijianli2003.github.io/Orbit_Planner/) | [GitHub](https://github.com/ZhijianLi2003/Orbit_Planner)
-
-<details>
-<summary>Abstract</summary>
-
-Satellite agents for on-orbit navigation tasks need to predict collision risks using limited onboard observations. However, conventional planners often rely on predefined maps and fixed environmental assumptions, limiting their adaptability in dynamic on-orbit scenarios. In this paper, we propose Orbit-Planner, a two-stage latent world model for on-orbit obstacle avoidance. Orbit-Planner learns action-conditioned spacecraft dynamics to perform future-state rollouts in latent space, and introduce...
-
-</details>
-
----
-
 ## Other Recent Papers
+
+### [DA-WAM: Decision-Aligned Future Latents for Driving World Models](https://arxiv.org/abs/2608.19085v1)
+
+**Authors:** Ruiguo Zhong, Benshan Ma, Xiaolong Chen, Lang Zhang, Mingyue Feng et al. (8 authors)
+
+**Published:** 2026-08-19 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.19085v1) | [PDF](https://arxiv.org/pdf/2608.19085v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted future must directly shape which trajectory is selected. Existing approaches decouple future representation learning from planning optimization, or share predicted states across trajectory candidates, t...
+
+</details>
+
+---
+
+### [Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning](https://arxiv.org/abs/2608.18746v1)
+
+**Authors:** Jiawei Wang, Ke Rui, Yushen Zuo, Yichun Feng, Minglei Li
+
+**Published:** 2026-08-19 | **Categories:** cs.LG, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.18746v1) | [PDF](https://arxiv.org/pdf/2608.18746v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the latter property \emph{decision-metric alignment}. We introduce Plan-Real Spearman, which measures latent--real rank agreement on random plans, and CEM-stage Spearman, which measures the same agreement as cross-entropy-me...
+
+</details>
+
+---
+
+### [Reinforced Planning with Latent World Models](https://arxiv.org/abs/2608.18669v1)
+
+**Authors:** Armin Sommer, Jannik Schilling
+
+**Published:** 2026-08-19 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.18669v1) | [PDF](https://arxiv.org/pdf/2608.18669v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Humans solve complex problems by constructing plans and mentally simulating their outcomes with an internal model of the world. Machine learning has produced world models that similarly predict the outcomes of action sequences, but the improvement of candidate plans still isn't fully learned. Current planners are either hand-designed, distilled from a hand-designed optimizer, or learned only to inform an amortized policy rather than to revise the plan itself. We introduce the Reinforced Planning...
+
+</details>
+
+---
+
+### [Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation](https://arxiv.org/abs/2608.18647v1)
+
+**Authors:** Harry Robertshaw, Maxence Boels, Nikola Fischer, Sebastien Ourselin, Christos Bergeles et al. (7 authors)
+
+**Published:** 2026-08-19 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.18647v1) | [PDF](https://arxiv.org/pdf/2608.18647v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous endovascular navigation could support the delivery of mechanical thrombectomy to underserved areas, but controllers must navigate long, multi-stage paths across varying vascular anatomies. This study investigates Progressive Experience Fusion (PEF) to train a multi-task TD-MPC2 controller. We additionally evaluate a heuristic that changes the Model Predictive Path Integral planning horizon using residual action-sequence dispersion, and fine-tuning in a patient-specific simulation. Acr...
+
+</details>
+
+---
 
 ### [Towards Zero-Shot Task Transfer with Neurosymbolic World Models](https://arxiv.org/abs/2608.17959v1)
 
@@ -145,108 +196,6 @@ State-of-the-art model-based reinforcement learning methods learn neural world m
 <summary>Abstract</summary>
 
 Vision-language-action policies generalize broadly but provide no execution-time guarantees; classical model-based planners respect kinematic and geometric constraints but generalize poorly. We study whether an action-conditioned Joint-Embedding Predictive Architecture (JEPA) world model can predict, before execution, both task progress and physical risk for candidate action chunks, and whether coupling these predictions to an embodiment-specific model-based safety shield yields a deployable pip...
-
-</details>
-
----
-
-### [Q-Learning With World Models](https://arxiv.org/abs/2608.17163v1)
-
-**Authors:** Perry Dong, Yueru Jia, Chelsea Finn, Dorsa Sadigh
-
-**Published:** 2026-08-17 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.17163v1) | [PDF](https://arxiv.org/pdf/2608.17163v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Off-policy reinforcement learning (RL) has become increasingly sample-efficient, enabling applications such as RL fine-tuning of Vision-Language-Action models into reliable, high-performing policies. World models offer a further lever for sample efficiency, as they predict state changes rather than actions alone, but their success has largely been confined to supervised policy learning. Prior model-based RL methods often optimize the policy or value function directly on imagined rollouts, which ...
-
-</details>
-
----
-
-### [Inference-Time Attention Steering for Vision-Language-Action Driving Models](https://arxiv.org/abs/2608.17095v1)
-
-**Authors:** Darshan Nagendra Prasad, Lars Ullrich, Knut Graichen
-
-**Published:** 2026-08-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.17095v1) | [PDF](https://arxiv.org/pdf/2608.17095v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) driving models couple a reasoning stage with a diffusion-based trajectory decoder, but do not give a direct way to redirect attention toward safety-critical actors at inference time without retraining. We studied a bounded additive pre-softmax attention bias on the visual tokens of detector localized traffic actors on Alpamayo-R1's Qwen3-VL backbone. It is applied as a fail open forward pre-hook with no weight changes. On 50 lane-change scenarios from the Physical AI...
-
-</details>
-
----
-
-### [CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?](https://arxiv.org/abs/2608.16829v1)
-
-**Authors:** Jonathan Sadeghi, Jenny Seidenschwarz, Jesse Allardice, Sirish Srinivasan, Benjamin Graham et al. (6 authors)
-
-**Published:** 2026-08-17 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16829v1) | [PDF](https://arxiv.org/pdf/2608.16829v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested. We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distanc...
-
-</details>
-
----
-
-### [DriveCache: Action-Aware Caching for Driving World Model Inference](https://arxiv.org/abs/2608.16354v1)
-
-**Authors:** Jianchun Yang, Jian Liang, Xianda Guo, Pinhan Fu, Yanlun Peng et al. (8 authors)
-
-**Published:** 2026-08-17 | **Categories:** cs.AI, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16354v1) | [PDF](https://arxiv.org/pdf/2608.16354v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Driving video generation models support autonomous-driving development by predicting controllable future scenes for simulation, planning evaluation, and offline data generation. Diffusion-based driving generators repeatedly evaluate large backbones across denoising steps, which limits generation throughput. Existing diffusion acceleration methods reduce this cost, but general-purpose designs omit driving signals available before generation, such as ego speed and planned trajectories. Experiments...
-
-</details>
-
----
-
-### [SCALE: State-Calibrated Latent Embeddings for JEPA Planning in the Right Geometry](https://arxiv.org/abs/2608.16287v1)
-
-**Authors:** Jiaming Hu, Yan Zheng, Tian Wang
-
-**Published:** 2026-08-17 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16287v1) | [PDF](https://arxiv.org/pdf/2608.16287v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Joint-embedding predictive world models plan by scoring predicted terminal embeddings against a goal embedding using a cost defined on the representation itself. Two prominent strategies for obtaining non-collapsed representations are to inherit a pretrained feature space, as in DINO-WM, and to learn an embedding end to end with anti-collapse regularization, as in LeWorldModel (LeWM) with SIGReg. These strategies show complementary strengths across tasks. Although task-relevant state is decodabl...
-
-</details>
-
----
-
-### [GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation](https://arxiv.org/abs/2608.16234v1)
-
-**Authors:** Tianchen Deng, Xuefeng Chen, Shuang Wu, Qu Chen, Jiajun Zhu et al. (8 authors)
-
-**Published:** 2026-08-17 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.16234v1) | [PDF](https://arxiv.org/pdf/2608.16234v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Driving World Models (DWMs) have recently advanced rapidly with generative models, yet most existing methods mainly focus on conditional scene generation and lack explicit 3D scene understanding, language-grounded reasoning, and controllable 4D editing capabilities. Moreover, commonly used point cloud, occupancy, or BEV representations make it difficult to achieve fine-grained alignment between textual information and the underlying 3D scene structure. To address these limitations, we propose a ...
 
 </details>
 
