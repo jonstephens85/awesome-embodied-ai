@@ -2,15 +2,66 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-25 22:15 UTC
+**Last updated:** 2026-08-26 16:46 UTC
 
-**Papers found:** 16
+**Papers found:** 21
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [LeFlow: Generative Latent Flow Planning for World Models](https://arxiv.org/abs/2608.24855v1)
+
+**Authors:** Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang
+
+**Published:** 2026-08-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24855v1) | [PDF](https://arxiv.org/pdf/2608.24855v1.pdf) | [GitHub](https://github.com/hsiangwei0903/LeFlow)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences, treating the world model as a black-box simulator. This approach pays the full iterative optimization cost anew at every replanning step and reuses no planning experience across queries. In this work...
+
+</details>
+
+---
+
+### [Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training](https://arxiv.org/abs/2608.24680v1)
+
+**Authors:** Wenxuan Shen, Dongna Jin, Dongping Chen
+
+**Published:** 2026-08-25 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24680v1) | [PDF](https://arxiv.org/pdf/2608.24680v1.pdf) | [GitHub](https://github.com/Dongping-Chen/Game2World)
+
+<details>
+<summary>Abstract</summary>
+
+Video games provide a scalable source of training data for video world models, offering diverse environments, complex interactions, and abundant in-the-wild gameplay videos. However, raw gameplay footage entangles the game world with screen-space interfaces, introducing game-specific biases and irrelevant dynamics that hinder world-model training. To address this problem, we introduce GameUI-Taxonomy and G2WEngine, a full-stack framework that formalizes gameplay UI grounding and removal. G2WEngi...
+
+</details>
+
+---
+
+### [Platonic Representation Hypothesis on World Models](https://arxiv.org/abs/2608.23720v1)
+
+**Authors:** Wenhow Li, Chengwei MA, Hui Xiong, Ying-Cong Chen, Lei Zhang
+
+**Published:** 2026-08-24 | **Categories:** cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23720v1) | [PDF](https://arxiv.org/pdf/2608.23720v1.pdf) | [Project Page](https://sellerbubble.github.io/platonic-representation-hypothesis-on-world-models/)
+
+<details>
+<summary>Abstract</summary>
+
+World models have demonstrated significant potential for perceiving and simulating complex environments. Despite their strong performance, the fundamental nature of their learned representations remains poorly understood. In this paper, we investigate the Platonic Representation Hypothesis within this domain by proposing the Predictive Consistency Assumption: we posit that the optimization of a shared state transition objective acts as a selective pressure that encourages heterogeneous models to...
+
+</details>
+
+---
 
 ### [ReWorld: An Interactive World Model with Long-Horizon Memory](https://arxiv.org/abs/2608.23565v1)
 
@@ -46,6 +97,23 @@ World models can predict video without learning dynamics that they reliably pres
 
 ---
 
+### [GeoWAM: Visual Geometry World Action Models for Autonomous Driving](https://arxiv.org/abs/2608.23486v2)
+
+**Authors:** Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao et al. (13 authors)
+
+**Published:** 2026-08-24 | **Categories:** cs.CV, cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23486v2) | [PDF](https://arxiv.org/pdf/2608.23486v2.pdf) | [Project Page](https://yiren-lu.com/project_pages/geowam/)
+
+<details>
+<summary>Abstract</summary>
+
+World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forci...
+
+</details>
+
+---
+
 ### [Reward-Free Continual Adaptation for Resilient Space Robots](https://arxiv.org/abs/2608.23452v1)
 
 **Authors:** Andrej Orsula, Miguel Olivares-Mendez, Carol Martinez
@@ -63,13 +131,13 @@ Space robots operate in extreme environments where hardware degradation can crit
 
 ---
 
-### [Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds](https://arxiv.org/abs/2608.23383v1)
+### [Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds](https://arxiv.org/abs/2608.23383v2)
 
 **Authors:** Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al. (16 authors)
 
 **Published:** 2026-08-24 | **Categories:** cs.CV
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.23383v1) | [PDF](https://arxiv.org/pdf/2608.23383v1.pdf) | [Project Page](https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/)
+**Links:** [arXiv](https://arxiv.org/abs/2608.23383v2) | [PDF](https://arxiv.org/pdf/2608.23383v2.pdf) | [Project Page](https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/)
 
 <details>
 <summary>Abstract</summary>
@@ -114,37 +182,139 @@ Object-centric world models forecast future videos by evolving a set of entity s
 
 ---
 
-### [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278v1)
+## Other Recent Papers
 
-**Authors:** Jie Yin, Xingyu Lai
+### [Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning](https://arxiv.org/abs/2608.24885v1)
 
-**Published:** 2026-08-23 | **Categories:** cs.RO
+**Authors:** Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo, Tinghao Wang et al. (10 authors)
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.22278v1) | [PDF](https://arxiv.org/pdf/2608.22278v1.pdf) | [GitHub](https://github.com/DreamMimic/DreamMimic}{DreamMimic})
+**Published:** 2026-08-25 | **Categories:** cs.RO, cs.CV
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24885v1) | [PDF](https://arxiv.org/pdf/2608.24885v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation. Instead of using a Dreamer-style RSSM for planning, we repurpose it to learn...
+Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrations, leaving off-expert action following inadequately evaluated. To address this gap, we introduce WorldEcho, which probes action following over a broader action distribution using visual integrity an...
 
 </details>
 
 ---
 
-## Other Recent Papers
+### [Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models](https://arxiv.org/abs/2608.24534v1)
 
-### [GeoWAM: Visual Geometry World Action Models for Autonomous Driving](https://arxiv.org/abs/2608.23486v1)
+**Authors:** Abdulhady Abas Abdullah, Erik Cambria, Milena Zivkovic
 
-**Authors:** Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen et al. (12 authors)
+**Published:** 2026-08-25 | **Categories:** cs.AI
 
-**Published:** 2026-08-24 | **Categories:** cs.CV, cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.23486v1) | [PDF](https://arxiv.org/pdf/2608.23486v1.pdf)
+**Links:** [arXiv](https://arxiv.org/abs/2608.24534v1) | [PDF](https://arxiv.org/pdf/2608.24534v1.pdf)
 
 <details>
 <summary>Abstract</summary>
 
-World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forci...
+Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using home...
+
+</details>
+
+---
+
+### [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199v1)
+
+**Authors:** Javier Gamazo Tejero, Lukas Zbinden, Keyur Sheth, Raghavendra K M, Nadim Daher et al. (10 authors)
+
+**Published:** 2026-08-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24199v1) | [PDF](https://arxiv.org/pdf/2608.24199v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Generative simulation for surgical robotics still lacks real-time interaction. Physical-robot experiments, often involving animal or cadaver labs, are time-consuming, costly, and difficult to reproduce, while classical simulators struggle to capture photorealistic appearance and deformable-tissue dynamics. We address this gap with Cosmos-H-Dreams, an integrated real-time surgical world-model system combining an action-conditioned generative model, a teacher-to-student distillation recipe, and a ...
+
+</details>
+
+---
+
+### [TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks](https://arxiv.org/abs/2608.24101v1)
+
+**Authors:** Zhi Cao, Howard Ji, Kevin Zhang, Kuangzhi Ge, Li Fei-Fei et al. (7 authors)
+
+**Published:** 2026-08-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24101v1) | [PDF](https://arxiv.org/pdf/2608.24101v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Robot actions are inherently embodiment-specific and only weakly aligned with image-space visual changes, limiting their effectiveness as conditioning signals for robot world models. In contrast, visual tracks provide an embodiment-agnostic representation of how task-relevant points move through a scene, offering dense image-space guidance for accurate and spatially precise future video prediction. Building on this observation, we propose TrAct, a world-model-based robot decision-making framewor...
+
+</details>
+
+---
+
+### [XP-JEPA: Cross-Predictive Physics Grounding for Forecastable Latent Dynamics](https://arxiv.org/abs/2608.24044v1)
+
+**Authors:** Kehan Wen, Ziming Li, Siyuan Luo, Fan Shi
+
+**Published:** 2026-08-25 | **Categories:** cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24044v1) | [PDF](https://arxiv.org/pdf/2608.24044v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models plan by predicting how candidate actions transform learned representations. In self-predictive models, however, the encoder and predictor are optimized jointly and can co-adapt to latent transitions that are easy to predict but only weakly constrained by the physical evolution of the scene. We introduce the cross-predictive JEPA (XP-JEPA), which grounds visual latent dynamics in privileged physical trajectories. XP-JEPA separately encodes visual observations and physical stat...
+
+</details>
+
+---
+
+### [DreamLedger: Execution-Settled Credit Files for World-Model Imagination in Robot Decision Loops](https://arxiv.org/abs/2608.23863v1)
+
+**Authors:** Xianyao Li, Ruitong Tian, Rui Min, Fang Xu, Jing Du
+
+**Published:** 2026-08-24 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23863v1) | [PDF](https://arxiv.org/pdf/2608.23863v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Robots are beginning to act on world-model predictions, yet reliability is still expressed through instantaneous, model-internal signals. DreamLedger instead treats reliability as a persistent deployment object: an execution-settled credit file recording how often consumed predictions are borne out, indexed by operating condition, region, and prediction horizon, and consulted before each use. Each consumed prediction is registered as a claim; attributable outcomes are settled against arriving re...
+
+</details>
+
+---
+
+### [Primate vision reveals a missing principle for robust dynamic AI](https://arxiv.org/abs/2608.23790v1)
+
+**Authors:** Matteo Dunnhofer, Christian Micheloni, Kohitij Kar
+
+**Published:** 2026-08-24 | **Categories:** cs.CV, q-bio.NC
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23790v1) | [PDF](https://arxiv.org/pdf/2608.23790v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+How does an intelligent visual system combine what objects look like with how they move while remaining robust as appearance changes? We addressed this question by comparing human perception and neural activity in macaque inferior temporal cortex with representations from image- and video-based neural networks spanning recognition, segmentation, optic-flow processing and predictive world modeling. Temporal integration improved object representations, but most video recognition models generalized...
+
+</details>
+
+---
+
+### [Do LLMs Understand Limit Order Book Dynamics?](https://arxiv.org/abs/2608.23706v1)
+
+**Authors:** Junxiao Chen, Paul Glasserman
+
+**Published:** 2026-08-24 | **Categories:** cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23706v1) | [PDF](https://arxiv.org/pdf/2608.23706v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+A large language model (LLM) trained on synthetic limit order book (LOB) data achieves near perfect scores in generating valid sequences of LOB events. However, the LLM's implicit world model fails to learn the state of the LOB. This deficiency leads to biased estimates and spurious predictability in using the LLM to forecast future LOB events. Our analysis uses novel tests of an LLM's world model, extending prior work from deterministic settings to the stochastic dynamics needed for the LOB.
 
 </details>
 
@@ -196,91 +366,6 @@ We present EchoWM, an omnimodal world model for enterable generative media that 
 <summary>Abstract</summary>
 
 Joint-embedding predictive architectures (JEPAs) learn latent dynamics for planning and avoid representation collapse by matching features to maximum-entropy distributions such as isotropic Gaussians, yielding dense representations. However, it is unclear whether dense representations are the most favorable geometry for modeling dynamics. In this work, we ask whether a different geometry, sparse representations, can make action-conditioned latent dynamics easier to model, and what dynamical stru...
-
-</details>
-
----
-
-### [Mol-JEPA: A multimodal Joint Embedding Predictive Architecture for Molecules](https://arxiv.org/abs/2608.22642v1)
-
-**Authors:** Florian Rottach, Sebastian Schieferdecker, William Rudman, Randall Balestriero, Carsten Eickhoff
-
-**Published:** 2026-08-23 | **Categories:** cs.LG, cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22642v1) | [PDF](https://arxiv.org/pdf/2608.22642v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Despite recent advances in molecular foundation models, several limitations remain, such as chemically invalid augmentations, modality collapse, and incomplete representation of biochemical environments. To address these challenges, we present \textbf{Mol-JEPA}, a scalable framework for learning molecular world models. Rather than relying on suboptimal molecular perturbations, our model uses modality masking to exploit information from molecular structures, cellular phenotypes, binding affinitie...
-
-</details>
-
----
-
-### [Where World Models Break: Natural-Input Failure Discovery](https://arxiv.org/abs/2608.22421v1)
-
-**Authors:** Zhanpeng Shi, Zi Liang, Rong Feng, Shiqin Tang, Xuyang Chen et al. (6 authors)
-
-**Published:** 2026-08-23 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22421v1) | [PDF](https://arxiv.org/pdf/2608.22421v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models predict action-conditioned futures and serve as critical internal simulators for downstream planning and control. However, catastrophic prediction failures of world models could dangerously propagate through the control pipeline, as subsequent agent or model training and decision-making depend heavily on the continuous environment evolution forecasted by these world models. Existing evaluations overlook this systemic risk: by aggregating average errors over benign generations from g...
-
-</details>
-
----
-
-### [Tracing the Unlabeled Storm: Cross-Variable Transfer in a Lagrangian Atmospheric JEPA Framework](https://arxiv.org/abs/2608.22358v1)
-
-**Authors:** K M Anirudh, S Sandeep, Hariprasad Kodamana
-
-**Published:** 2026-08-23 | **Categories:** cs.LG, physics.geo-ph
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22358v1) | [PDF](https://arxiv.org/pdf/2608.22358v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Deep atmospheric convection governs South Asian monsoon variability, yet attempting to learn its latent world model directly from zero-inflated, heavy-tailed precipitation yields suboptimal predictive representations. Continuous atmospheric proxies, such as outgoing longwave radiation (OLR), express this convective organization far more coherently. We address this mismatch with \emph{cross-variable proxy learning}: M-JEPA, a multiscale Monsoon Joint-Embedding Predictive Architecture, is pretrain...
-
-</details>
-
----
-
-### [Beyond Instance Slots: Semantically Rich World Models for Physical Interaction Planning](https://arxiv.org/abs/2608.22294v1)
-
-**Authors:** Juntao Cheng, Jingkai Wang, Yijun Shen, Xiansheng Chen, Zhiwei Yu
-
-**Published:** 2026-08-23 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22294v1) | [PDF](https://arxiv.org/pdf/2608.22294v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World models for physical interaction are typically trained to predict future observations or latent features; however, a planning-oriented model must answer a fundamentally different question: whether a candidate action produces a task-consistent future while preserving essential relations.Monolithic state representations obscure the underlying entities, while standard instance-level object slots merely identify \emph{what} is present without specifying \emph{what role} each entity plays in the...
-
-</details>
-
----
-
-### [On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models](https://arxiv.org/abs/2608.22197v1)
-
-**Authors:** Yang Yu
-
-**Published:** 2026-08-23 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22197v1) | [PDF](https://arxiv.org/pdf/2608.22197v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-World-action models predict a future outcome and then infer an associated action. Although this factorization can improve representation learning and data efficiency, it is unclear whether it provides stronger control capability than direct behavior cloning when both are trained from the same observational demonstrations. We compare a direct behavior-cloning policy, an imitation-trained world-action policy, and a policy optimized with an action-conditioned world model. At the controller-class le...
 
 </details>
 

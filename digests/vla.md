@@ -2,15 +2,49 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-08-25 22:15 UTC
+**Last updated:** 2026-08-26 16:47 UTC
 
-**Papers found:** 8
+**Papers found:** 12
 
 [Back to Home](../README.md)
 
 ---
 
 ## Papers with Project Pages / Code
+
+### [PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control](https://arxiv.org/abs/2608.24115v1)
+
+**Authors:** Suhwan Choi, Jaeyoon Jung, Sungkyung Kim, Yunsung Lee, Youngjae Yu
+
+**Published:** 2026-08-25 | **Categories:** cs.RO, cs.AI
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24115v1) | [PDF](https://arxiv.org/pdf/2608.24115v1.pdf) | [Project Page](https://worv-ai.github.io/ponderpounce/)
+
+<details>
+<summary>Abstract</summary>
+
+Multimodal large language models (MLLMs) can integrate long visual histories, reason under partial observability, and infer behavior from a few examples. Yet vision-language-action (VLA) models generally inherit pretrained representations without using this contextual capacity as episode memory. Memory-dependent policies address this gap through purpose-built history mechanisms. PonderPounce instead reuses an MLLM's native causal context as robot memory. Ponder, a System2 MLLM, accumulates episo...
+
+</details>
+
+---
+
+### [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1)
+
+**Authors:** Haoran Hao, Shahram Najam Syed, Jeff Schneider, Jeffrey Ichnowski
+
+**Published:** 2026-08-25 | **Categories:** cs.RO, cs.AI, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24042v1) | [PDF](https://arxiv.org/pdf/2608.24042v1.pdf) | [Project Page](https://hoar012.github.io/HSR-Project)
+
+<details>
+<summary>Abstract</summary>
+
+While Vision-Language-Action (VLA) models pretrained on large-scale robot datasets provide a strong foundation for robot manipulation, their performance can degrade when adapted to new tasks with limited task-specific demonstrations. Retrieval offers a practical way to reuse existing demonstrations for data-efficient adaptation, but existing methods often rely on visual similarity, state-action representations, or task-level language matching. These approaches may overlook the hierarchical struc...
+
+</details>
+
+---
 
 ### [Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models](https://arxiv.org/abs/2608.23478v1)
 
@@ -64,6 +98,57 @@ While Vision-Language-Action (VLA) models have leveraged internet-scale pretrain
 ---
 
 ## Other Recent Papers
+
+### [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603v1)
+
+**Authors:** Hanyi Zhang, Zihong Luo, Tianyu Li, Khang Nguyen, Basu Hela et al. (19 authors)
+
+**Published:** 2026-08-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24603v1) | [PDF](https://arxiv.org/pdf/2608.24603v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Vision language action models (VLAs) have advanced general purpose robotic grasping and manipulation by enabling robots to interpret visual observations and natural language instructions to generate executable action sequences. However, existing VLAs often implicitly assume gripper invariance, despite grasping strategies being inherently embodiment-dependent. Different gripper types, such as parallel-jaw and suction, usually require distinct interaction strategies to achieve the same grasping ob...
+
+</details>
+
+---
+
+### [TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks](https://arxiv.org/abs/2608.24101v1)
+
+**Authors:** Zhi Cao, Howard Ji, Kevin Zhang, Kuangzhi Ge, Li Fei-Fei et al. (7 authors)
+
+**Published:** 2026-08-25 | **Categories:** cs.RO
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.24101v1) | [PDF](https://arxiv.org/pdf/2608.24101v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+Robot actions are inherently embodiment-specific and only weakly aligned with image-space visual changes, limiting their effectiveness as conditioning signals for robot world models. In contrast, visual tracks provide an embodiment-agnostic representation of how task-relevant points move through a scene, offering dense image-space guidance for accurate and spatially precise future video prediction. Building on this observation, we propose TrAct, a world-model-based robot decision-making framewor...
+
+</details>
+
+---
+
+### [Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency](https://arxiv.org/abs/2608.23831v1)
+
+**Authors:** Brian Zhu, Momen Khalil, E Harrison, Emanuele Poggi, Philipp Schmitt et al. (20 authors)
+
+**Published:** 2026-08-24 | **Categories:** cs.RO, cs.LG
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.23831v1) | [PDF](https://arxiv.org/pdf/2608.23831v1.pdf)
+
+<details>
+<summary>Abstract</summary>
+
+While reinforcement learning (RL) allows generalist robot policies to continually improve during deployment, the large model size of modern generalist policies, such as VLAs, poses a fundamental obstacle to effective RL improvement. In particular, their severe inference latency---which can lead to pauses or jerky movements---can alter the effective environment dynamics and, if not correctly accounted for, break the Markov assumption that RL relies on, causing standard RL algorithms to fail compl...
+
+</details>
+
+---
 
 ### [ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots](https://arxiv.org/abs/2608.23320v1)
 
@@ -128,23 +213,6 @@ Vision-language-action (VLA) models often expose spatial grounding through autor
 <summary>Abstract</summary>
 
 Ensuring reliability in uncertain environments remains difficult for long-horizon robotic manipulation. End-to-end VLA models are data-heavy and opaque, making diagnosis and verification difficult. Hierarchical pipelines are more interpretable, but their plans are often weakly grounded in observations, weakly aligned with low-level actions, and computed without online feedback, leading to open-loop behavior and hallucinations. To address these issues, we introduce the Triplet-to-Track System (TT...
-
-</details>
-
----
-
-### [Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking](https://arxiv.org/abs/2608.22419v1)
-
-**Authors:** Dongzhou Cheng, Ziang Li, Yixiao Zhou, Haojuan Li, Jinghao Zhang et al. (9 authors)
-
-**Published:** 2026-08-23 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.22419v1) | [PDF](https://arxiv.org/pdf/2608.22419v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Query-based Vision-Language-Action (VLA) models offer low-latency inference that is attractive for bimanual robotic manipulation, but we observe that they can still exhibit discontinuous actions and execution failures in complex dual-arm tasks. We hypothesize that unstable multi-view and language fusion is one contributing factor in these failures, often coinciding with attention spreading to distracting regions. To improve robustness, we introduce the Modality Masking Mechanism (M3), an embarra...
 
 </details>
 
