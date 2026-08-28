@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, and simulation.
 
-**Last updated:** 2026-08-27 02:24 UTC
+**Last updated:** 2026-08-28 00:45 UTC
 
-**Papers found:** 15
+**Papers found:** 7
 
 [Back to Home](../README.md)
 
@@ -41,40 +41,6 @@ World models aim to simulate how complex environments evolve under actions and e
 <summary>Abstract</summary>
 
 Action-conditioned world models have become an important foundation for embodied prediction, planning, and synthetic data generation, but their errors under new task and scene distributions are often concentrated in localized spatiotemporal regions such as robot arms, manipulated objects, contact areas, and occluded objects. This paper presents ConfAL-WM, a confidence-guided active learning framework for post-training embodied world models. Built upon EVAC, we attach a lightweight confidence pro...
-
-</details>
-
----
-
-### [LeFlow: Generative Latent Flow Planning for World Models](https://arxiv.org/abs/2608.24855v1)
-
-**Authors:** Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang
-
-**Published:** 2026-08-25 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24855v1) | [PDF](https://arxiv.org/pdf/2608.24855v1.pdf) | [GitHub](https://github.com/hsiangwei0903/LeFlow)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences, treating the world model as a black-box simulator. This approach pays the full iterative optimization cost anew at every replanning step and reuses no planning experience across queries. In this work...
-
-</details>
-
----
-
-### [Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training](https://arxiv.org/abs/2608.24680v1)
-
-**Authors:** Wenxuan Shen, Dongna Jin, Dongping Chen
-
-**Published:** 2026-08-25 | **Categories:** cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24680v1) | [PDF](https://arxiv.org/pdf/2608.24680v1.pdf) | [GitHub](https://github.com/Dongping-Chen/Game2World)
-
-<details>
-<summary>Abstract</summary>
-
-Video games provide a scalable source of training data for video world models, offering diverse environments, complex interactions, and abundant in-the-wild gameplay videos. However, raw gameplay footage entangles the game world with screen-space interfaces, introducing game-specific biases and irrelevant dynamics that hinder world-model training. To address this problem, we introduce GameUI-Taxonomy and G2WEngine, a full-stack framework that formalizes gameplay UI grounding and removal. G2WEngi...
 
 </details>
 
@@ -162,108 +128,6 @@ A common strategy for scaling world models is to train on more crawled video wit
 <summary>Abstract</summary>
 
 Generative video models now synthesize footage nearly indistinguishable from reality. Their promise as interactive tools hinges on fine-grained control of how objects and the camera move over time, yet each existing approach captures only part of this: camera-parameter methods steer the viewpoint but cannot move objects, 2D-trajectory methods act in the image plane and ignore depth and occlusion, and recent 3D methods add geometry but run only offline at a fixed length. In particular, none combi...
-
-</details>
-
----
-
-### [Rollout-Decoded Reconstruction for Long-Horizon Prediction in Latent World Models](https://arxiv.org/abs/2608.25017v1)
-
-**Authors:** Rishi Shah, Rishav Shrestha
-
-**Published:** 2026-08-25 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.25017v1) | [PDF](https://arxiv.org/pdf/2608.25017v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-A latent world model trains its decoder on latents anchored to observations, then deploys it on the model's own free-running rollout, hundreds of steps past the last observation. Rollout-Decoded Reconstruction (RDR) closes this gap with a single loss term that free-runs the model during training exactly as evaluation will, decodes every rollout latent, and penalizes reconstruction error against ground truth. The term adds no parameters, costs training-time compute only, and reduces to the standa...
-
-</details>
-
----
-
-### [Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning](https://arxiv.org/abs/2608.24885v1)
-
-**Authors:** Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo, Tinghao Wang et al. (10 authors)
-
-**Published:** 2026-08-25 | **Categories:** cs.RO, cs.CV
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24885v1) | [PDF](https://arxiv.org/pdf/2608.24885v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrations, leaving off-expert action following inadequately evaluated. To address this gap, we introduce WorldEcho, which probes action following over a broader action distribution using visual integrity an...
-
-</details>
-
----
-
-### [Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models](https://arxiv.org/abs/2608.24534v1)
-
-**Authors:** Abdulhady Abas Abdullah, Erik Cambria, Milena Zivkovic
-
-**Published:** 2026-08-25 | **Categories:** cs.AI
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24534v1) | [PDF](https://arxiv.org/pdf/2608.24534v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using home...
-
-</details>
-
----
-
-### [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199v1)
-
-**Authors:** Javier Gamazo Tejero, Lukas Zbinden, Keyur Sheth, Raghavendra K M, Nadim Daher et al. (10 authors)
-
-**Published:** 2026-08-25 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24199v1) | [PDF](https://arxiv.org/pdf/2608.24199v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Generative simulation for surgical robotics still lacks real-time interaction. Physical-robot experiments, often involving animal or cadaver labs, are time-consuming, costly, and difficult to reproduce, while classical simulators struggle to capture photorealistic appearance and deformable-tissue dynamics. We address this gap with Cosmos-H-Dreams, an integrated real-time surgical world-model system combining an action-conditioned generative model, a teacher-to-student distillation recipe, and a ...
-
-</details>
-
----
-
-### [TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks](https://arxiv.org/abs/2608.24101v1)
-
-**Authors:** Zhi Cao, Howard Ji, Kevin Zhang, Kuangzhi Ge, Li Fei-Fei et al. (7 authors)
-
-**Published:** 2026-08-25 | **Categories:** cs.RO
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24101v1) | [PDF](https://arxiv.org/pdf/2608.24101v1.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Robot actions are inherently embodiment-specific and only weakly aligned with image-space visual changes, limiting their effectiveness as conditioning signals for robot world models. In contrast, visual tracks provide an embodiment-agnostic representation of how task-relevant points move through a scene, offering dense image-space guidance for accurate and spatially precise future video prediction. Building on this observation, we propose TrAct, a world-model-based robot decision-making framewor...
-
-</details>
-
----
-
-### [JEPA-x: Cross-Predictive Physics Grounding for Forecastable Latent Dynamics](https://arxiv.org/abs/2608.24044v2)
-
-**Authors:** Kehan Wen, Ziming Li, Siyuan Luo, Fan Shi
-
-**Published:** 2026-08-25 | **Categories:** cs.LG
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.24044v2) | [PDF](https://arxiv.org/pdf/2608.24044v2.pdf)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models plan by predicting how candidate actions advance learned latent dynamics. In self-predictive models, however, the encoder and predictor are optimized jointly and can co-adapt to latent transitions that are easy to predict but weakly constrained by the physical evolution of the scene. We introduce the cross-predictive JEPA (JEPA-x), which grounds visual latent dynamics in privileged physical trajectories. JEPA-x treats visual observations and physical states as corresponding v...
 
 </details>
 
