@@ -1,0 +1,512 @@
+{
+  "2608.24042": {
+    "first_seen": "2026-09-01",
+    "title": "Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.24044": {
+    "first_seen": "2026-09-01",
+    "title": "JEPA-x: Cross-Predictive Physics Grounding for Forecastable Latent Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.24101": {
+    "first_seen": "2026-09-01",
+    "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2608.24115": {
+    "first_seen": "2026-09-01",
+    "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.24199": {
+    "first_seen": "2026-09-01",
+    "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.24603": {
+    "first_seen": "2026-09-01",
+    "title": "Gripper-aware Vision Language Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.24680": {
+    "first_seen": "2026-09-01",
+    "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.24855": {
+    "first_seen": "2026-09-01",
+    "title": "LeFlow: Generative Latent Flow Planning for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.24885": {
+    "first_seen": "2026-09-01",
+    "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.24959": {
+    "first_seen": "2026-09-01",
+    "title": "GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25308": {
+    "first_seen": "2026-09-01",
+    "title": "V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25395": {
+    "first_seen": "2026-09-01",
+    "title": "A Taxonomy of Construction Task Activities for Robot Workers",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25479": {
+    "first_seen": "2026-09-01",
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.25518": {
+    "first_seen": "2026-09-01",
+    "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.25572": {
+    "first_seen": "2026-09-01",
+    "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.25585": {
+    "first_seen": "2026-09-01",
+    "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25659": {
+    "first_seen": "2026-09-01",
+    "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25666": {
+    "first_seen": "2026-09-01",
+    "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.25736": {
+    "first_seen": "2026-09-01",
+    "title": "Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2608.25757": {
+    "first_seen": "2026-09-01",
+    "title": "LM-X: Explainable Action Modeling with Progress, Event, and Uncertainty Prediction for Generalist Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25798": {
+    "first_seen": "2026-09-01",
+    "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.25864": {
+    "first_seen": "2026-09-01",
+    "title": "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26058": {
+    "first_seen": "2026-09-01",
+    "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26067": {
+    "first_seen": "2026-09-01",
+    "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26200": {
+    "first_seen": "2026-09-01",
+    "title": "GameWAM: A World Action Model for Video Games",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.26239": {
+    "first_seen": "2026-09-01",
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.26578": {
+    "first_seen": "2026-09-01",
+    "title": "TrapVLA: Trapping Vision-Language-Action Models in Configured Failure Modes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26645": {
+    "first_seen": "2026-09-01",
+    "title": "FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26673": {
+    "first_seen": "2026-09-01",
+    "title": "PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.26788": {
+    "first_seen": "2026-09-01",
+    "title": "Decoupling Planning and Control for Instructable Agents",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2608.26821": {
+    "first_seen": "2026-09-01",
+    "title": "TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.27033": {
+    "first_seen": "2026-09-01",
+    "title": "Riemann-1.0: An Embodied World Action Model for Physical AI",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2608.27079": {
+    "first_seen": "2026-09-01",
+    "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.27328": {
+    "first_seen": "2026-09-01",
+    "title": "R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.27345": {
+    "first_seen": "2026-09-01",
+    "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.27367": {
+    "first_seen": "2026-09-01",
+    "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.27384": {
+    "first_seen": "2026-09-01",
+    "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.27406": {
+    "first_seen": "2026-09-01",
+    "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.27508": {
+    "first_seen": "2026-09-01",
+    "title": "WM-R1: Training GUI Agents to Reason and leverage World Models with Reinforcement Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.27550": {
+    "first_seen": "2026-09-01",
+    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.27562": {
+    "first_seen": "2026-09-01",
+    "title": "VidParse: Online Parsing of Egocentric Procedures Like a Pro",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2608.27609": {
+    "first_seen": "2026-09-01",
+    "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.27996": {
+    "first_seen": "2026-09-01",
+    "title": "Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.28108": {
+    "first_seen": "2026-09-01",
+    "title": "DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.28718": {
+    "first_seen": "2026-09-01",
+    "title": "RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.28995": {
+    "first_seen": "2026-09-01",
+    "title": "Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29005": {
+    "first_seen": "2026-09-01",
+    "title": "A Degradation-Tolerance Benchmark for Camera-Only End-to-End Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29029": {
+    "first_seen": "2026-09-01",
+    "title": "Flow-JEPA: Flow Matching for Robust Latent Dynamics in JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29078": {
+    "first_seen": "2026-09-01",
+    "title": "DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29208": {
+    "first_seen": "2026-09-01",
+    "title": "AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29242": {
+    "first_seen": "2026-09-01",
+    "title": "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2608.29432": {
+    "first_seen": "2026-09-01",
+    "title": "SMILE: Smooth Motion for Improved Long-Horizon VLA Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29434": {
+    "first_seen": "2026-09-01",
+    "title": "Does Latent Planning Survive Point Clouds? Action-Conditioned JEPA World Models for Geometric Observations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29537": {
+    "first_seen": "2026-09-01",
+    "title": "AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29749": {
+    "first_seen": "2026-09-01",
+    "title": "DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29772": {
+    "first_seen": "2026-09-01",
+    "title": "Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29904": {
+    "first_seen": "2026-09-01",
+    "title": "Off-Manifold Refinement: Guiding Video Generators with a Frozen World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29910": {
+    "first_seen": "2026-09-01",
+    "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29927": {
+    "first_seen": "2026-09-01",
+    "title": "Everybody Tracking Every Body",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2608.29937": {
+    "first_seen": "2026-09-01",
+    "title": "AcrossWAM1.0:A Modular Latent World-Action Stack for Compact Robot Policies",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.29967": {
+    "first_seen": "2026-09-01",
+    "title": "Training-Free Action Correction for VLA Model Failures via Language Feedback",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.29998": {
+    "first_seen": "2026-09-01",
+    "title": "The Intervention Gap in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.30122": {
+    "first_seen": "2026-09-01",
+    "title": "Aligning Multi-Trajectory Supervision with Policy Optimization for VLA Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30144": {
+    "first_seen": "2026-09-01",
+    "title": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30237": {
+    "first_seen": "2026-09-01",
+    "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2608.30289": {
+    "first_seen": "2026-09-01",
+    "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2608.30378": {
+    "first_seen": "2026-09-01",
+    "title": "PAVE: Predictive Alignment and Value-Guided Evolution for World-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30536": {
+    "first_seen": "2026-09-01",
+    "title": "Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30643": {
+    "first_seen": "2026-09-01",
+    "title": "Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30692": {
+    "first_seen": "2026-09-01",
+    "title": "Can Video World Models Track Unobserved World States?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2608.30880": {
+    "first_seen": "2026-09-01",
+    "title": "Zeva: In-Context Causal Learning for Generalizable Embodied Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2608.30897": {
+    "first_seen": "2026-09-01",
+    "title": "CAER: Causal Action Effect Reweighting for World Model Training",
+    "topics": [
+      "world_models"
+    ]
+  }
+}

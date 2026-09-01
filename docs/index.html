@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embodied AI Paper Dashboard</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #14171a; --muted: #5b6470;
+    --border: #e2e5ea; --accent: #2f6feb; --accent-fg: #ffffff; --new: #1a7f37;
+    --chip: #eef1f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1216; --card: #171b21; --text: #e6e9ee; --muted: #9aa4b2;
+      --border: #2a2f37; --accent: #4c8dff; --accent-fg: #0f1216; --new: #3fb950;
+      --chip: #232832;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 24px 20px 12px; max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg);
+         border-bottom: 1px solid var(--border); padding: 12px 20px; }
+  .bar-inner { max-width: 960px; margin: 0 auto; display: flex; flex-wrap: wrap;
+               gap: 8px; align-items: center; }
+  .pill, .toggle, select, input[type=search] {
+    font: inherit; border: 1px solid var(--border); background: var(--card);
+    color: var(--text); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+  input[type=search] { border-radius: 8px; flex: 1 1 180px; cursor: text; }
+  select { border-radius: 8px; cursor: pointer; }
+  .pill.active, .toggle.active { background: var(--accent); color: var(--accent-fg);
+                                 border-color: var(--accent); }
+  main { max-width: 960px; margin: 0 auto; padding: 16px 20px 60px; }
+  .count { color: var(--muted); font-size: 13px; margin: 4px 0 12px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+          padding: 16px; margin-bottom: 12px; }
+  .card h2 { font-size: 16px; margin: 0 0 6px; }
+  .card h2 a { color: var(--text); text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 12.5px; margin-bottom: 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+  .chip.topic { border: 1px solid var(--border); }
+  .chip.topic.primary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .chip.new { background: var(--new); color: #fff; }
+  .abstract { font-size: 14px; color: var(--text); margin: 6px 0; }
+  .abstract[hidden] { display: none; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .links a, .links button {
+    font: inherit; font-size: 13px; text-decoration: none; border: 1px solid var(--border);
+    background: var(--card); color: var(--accent); border-radius: 8px; padding: 5px 10px;
+    cursor: pointer; }
+  .stars { letter-spacing: 1px; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 0; }
+  code.share { display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Embodied AI Paper Dashboard</h1>
+  <div class="sub" id="summary">Loading&hellip;</div>
+</header>
+<div class="bar">
+  <div class="bar-inner">
+    <span id="topics"></span>
+    <button class="toggle" data-flag="new">New this run</button>
+    <button class="toggle" data-flag="code">Has code / page</button>
+    <input type="search" id="q" placeholder="Search title &amp; abstract&hellip;">
+    <select id="sort">
+      <option value="relevance">Sort: Relevance</option>
+      <option value="published">Sort: Newest</option>
+      <option value="first_seen">Sort: Recently added</option>
+    </select>
+    <button class="toggle" id="markseen" title="Hide NEW badges on this device">Mark all seen</button>
+  </div>
+</div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</main>
+<script>
+const STORE = "embodied-dash";
+let state = { topic: "all", flags: {}, q: "", sort: "relevance" };
+try { Object.assign(state, JSON.parse(localStorage.getItem(STORE) || "{}")); } catch (e) {}
+let DATA = { papers: [], topics: {}, generated: "", window_days: 7 };
+let seenLocal = {};
+try { seenLocal = JSON.parse(localStorage.getItem(STORE + "-seen") || "{}"); } catch (e) {}
+
+function persist() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
+function esc(s) { return (s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+
+function render() {
+  const topicsEl = document.getElementById("topics");
+  const pills = [["all", "All"]].concat(Object.keys(DATA.topics).map(k => [k, DATA.topics[k].title]));
+  topicsEl.innerHTML = pills.map(([k, label]) =>
+    `<button class="pill ${state.topic === k ? "active" : ""}" data-topic="${k}">${esc(label)}</button>`).join(" ");
+  topicsEl.querySelectorAll("button").forEach(b => b.onclick = () => {
+    state.topic = b.dataset.topic; persist(); render();
+  });
+  document.querySelectorAll(".toggle[data-flag]").forEach(b => {
+    b.classList.toggle("active", !!state.flags[b.dataset.flag]);
+    b.onclick = () => { state.flags[b.dataset.flag] = !state.flags[b.dataset.flag]; persist(); render(); };
+  });
+  document.getElementById("q").value = state.q;
+  document.getElementById("sort").value = state.sort;
+
+  const q = state.q.trim().toLowerCase();
+  let rows = DATA.papers.filter(p => {
+    if (state.topic !== "all" && !p.topics.includes(state.topic)) return false;
+    if (state.flags.new && (!p.is_new || seenLocal[p.id])) return false;
+    if (state.flags.code && !p.project_page && !p.github_url) return false;
+    if (q && !(p.title.toLowerCase().includes(q) || p.abstract.toLowerCase().includes(q))) return false;
+    return true;
+  });
+  rows.sort((a, b) => {
+    if (state.sort === "relevance") return b.score - a.score || b.published.localeCompare(a.published);
+    if (state.sort === "published") return b.published.localeCompare(a.published) || b.score - a.score;
+    return (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score;
+  });
+
+  document.getElementById("count").textContent =
+    `${rows.length} paper${rows.length === 1 ? "" : "s"}`;
+  const list = document.getElementById("list");
+  if (!rows.length) { list.innerHTML = `<div class="empty">No papers match these filters.</div>`; return; }
+
+  list.innerHTML = rows.map((p, i) => {
+    const stars = "★".repeat(Math.max(1, Math.min(5, Math.round(p.score / 2))))
+      + "☆".repeat(5 - Math.max(1, Math.min(5, Math.round(p.score / 2))));
+    const isNew = p.is_new && !seenLocal[p.id];
+    const topicChips = p.topics.map(t =>
+      `<span class="chip topic${t === p.primary_topic ? " primary" : ""}">${esc((DATA.topics[t] || {}).title || t)}</span>`).join("");
+    const reasons = (p.match_reasons || []).map(r => `<span class="chip">${esc(r)}</span>`).join("");
+    const auth = p.authors.slice(0, 5).join(", ") + (p.authors.length > 5 ? ` et al. (${p.authors.length})` : "");
+    const links = [
+      `<a href="${esc(p.arxiv_url)}" target="_blank" rel="noopener">arXiv</a>`,
+      `<a href="${esc(p.pdf_url)}" target="_blank" rel="noopener">PDF</a>`,
+      p.project_page ? `<a href="${esc(p.project_page)}" target="_blank" rel="noopener">Project</a>` : "",
+      p.github_url ? `<a href="${esc(p.github_url)}" target="_blank" rel="noopener">Code</a>` : "",
+      `<button data-copy="${i}">Copy share text</button>`,
+    ].filter(Boolean).join("");
+    return `<article class="card">
+      <h2><a href="${esc(p.arxiv_url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+      <div class="meta">${esc(auth || "n/a")} &middot; ${esc(p.published)}${p.updated && p.updated !== p.published ? " (upd " + esc(p.updated) + ")" : ""} &middot; <span class="stars">${stars}</span></div>
+      <div class="chips">
+        ${isNew ? `<span class="chip new">NEW</span>` : ""}
+        ${topicChips}${reasons}
+      </div>
+      <button class="links" data-toggle="${i}" style="border:none;background:none;padding:0;color:var(--accent);cursor:pointer">Show abstract</button>
+      <div class="abstract" id="abs-${i}" hidden>${esc(p.abstract)}</div>
+      <div class="links">${links}</div>
+      <code class="share" id="share-${i}">${esc(p.share_text)}</code>
+    </article>`;
+  }).join("");
+
+  list.querySelectorAll("[data-toggle]").forEach(b => b.onclick = () => {
+    const el = document.getElementById("abs-" + b.dataset.toggle);
+    el.hidden = !el.hidden; b.textContent = el.hidden ? "Show abstract" : "Hide abstract";
+  });
+  list.querySelectorAll("[data-copy]").forEach(b => b.onclick = async () => {
+    const txt = document.getElementById("share-" + b.dataset.copy).textContent;
+    try { await navigator.clipboard.writeText(txt); b.textContent = "Copied!";
+      setTimeout(() => b.textContent = "Copy share text", 1500); } catch (e) { b.textContent = "Copy failed"; }
+  });
+}
+
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; persist(); render(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; persist(); render(); });
+document.getElementById("markseen").onclick = () => {
+  DATA.papers.forEach(p => { if (p.is_new) seenLocal[p.id] = 1; });
+  try { localStorage.setItem(STORE + "-seen", JSON.stringify(seenLocal)); } catch (e) {}
+  render();
+};
+
+fetch("papers.json").then(r => r.json()).then(d => {
+  DATA = d;
+  const newCount = d.papers.filter(p => p.is_new).length;
+  document.getElementById("summary").textContent =
+    `${d.papers.length} papers over the last ${d.window_days} days · ${newCount} new this run · updated ${d.generated}`;
+  render();
+}).catch(e => {
+  document.getElementById("summary").textContent = "Could not load papers.json";
+  document.getElementById("list").innerHTML = `<div class="empty">${esc(String(e))}</div>`;
+});
+</script>
+</body>
+</html>

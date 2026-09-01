@@ -2,20 +2,27 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of world models and vision-language-action models for robotics and embodied AI.
+A curated list of world models, vision-language-action models, and egocentric data for
+robotics and embodied AI, plus an auto-updated arXiv feed.
 
 ---
 
 ## Auto-Updated Paper Feeds
 
-This repo automatically pulls new papers from arXiv twice daily (8am & 6pm UTC):
+This repo pulls new papers from arXiv twice daily (8am & 6pm UTC), scores them with
+deterministic relevance rules, and ranks them (papers with a project page or code repo
+float to the top).
 
-- **[World Models Papers](digests/world_models.md)** - Papers matching "world model" and "world models"
-- **[VLA Papers](digests/vla.md)** - Papers matching "VLA", "vision language action", and "vision-language-action"
+- **[Dashboard](https://jonstephens85.github.io/awesome-embodied-ai/)** - filter by topic,
+  search, toggle "new this run", and copy a ready-to-post share snippet
+- **[What's New](digests/latest.md)** - papers discovered in the latest run, all topics
+- **[World Models](digests/world_models.md)** &middot;
+  **[VLA](digests/vla.md)** &middot;
+  **[Egocentric Data](digests/egocentric_data.md)** - full ranked feed per topic
+  (last 7 days)
 
-Each feed shows papers from the last 2 days, with papers that have project pages or code highlighted at the top.
-
-Want to run this yourself? See [SETUP.md](SETUP.md).
+Want to run this yourself? See [SETUP.md](SETUP.md). Older manual snapshots live in
+[`digests/Archive/`](digests/Archive/) (one-off, not maintained).
 
 ---
 
