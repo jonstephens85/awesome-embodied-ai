@@ -1,0 +1,114 @@
+# Egocentric Data
+
+Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
+
+**Last updated:** 2026-09-01 05:54 UTC
+
+**Papers shown:** 3 (relevance ≥ 2, last 7 days)
+
+[Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation](https://arxiv.org/abs/2608.25736)
+
+**Authors:** Xu Dong, Wanqing Li, Anthony Adeyemi-Ejeye, Andrew Gilbert
+
+**Published:** 2026-08-26 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "Ego-Exo" in title; 2 distinct keyword hits; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2608.25736) | [PDF](https://arxiv.org/pdf/2608.25736) | [Code](https://github.com/dx199771/AdaMVS)
+
+<details>
+<summary>Abstract</summary>
+
+EgoExo proficiency estimation aims to assess action quality by integrating fine-grained motion cues from egocentric (1st-person) views with spatial context from multiple exocentric (3rd-person) views. Simply adding more exocentric views degrades EgoExo performance, as redundant or noisy perspectives dilute useful motion cues. Our analysis identifies two key causes: (1) Multiview redundancy - From the data perspective, certain views provide limited or noisy information, diluting discriminative cues; (2) Overfitting - From the feature perspective, conventional fusion increases representational c...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation
+
+EgoExo proficiency estimation aims to assess action quality by integrating fine-grained motion cues from egocentric (1st-person) views with spatial context from multiple exocentric (3rd-person) views.
+
+arXiv: https://arxiv.org/abs/2608.25736
+Code: https://github.com/dx199771/AdaMVS
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Everybody Tracking Every Body](https://arxiv.org/abs/2608.29927)
+
+**Authors:** Daeyun Shin, Yunhan Zhao, Shu Kong, Alexander C. Berg, Charless Fowlkes
+
+**Published:** 2026-08-30 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.29927) | [PDF](https://arxiv.org/pdf/2608.29927)
+
+<details>
+<summary>Abstract</summary>
+
+We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination. Each individual wears a camera recording egocentric video and IMU data. Processing this video with VIO SLAM provides high-quality tracking of each egocentric camera through space. The first-person view from one individual provides third-person observations of other people, although these exocentric observations are sparse, intermittent, and of highly variable reliability as both cameras and subjects move. To integrate these synchronized data streams, we pr...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Everybody Tracking Every Body
+
+We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination.
+
+arXiv: https://arxiv.org/abs/2608.29927
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [VidParse: Online Parsing of Egocentric Procedures Like a Pro](https://arxiv.org/abs/2608.27562)
+
+**Authors:** Anubhav Gupta, Archit Kambhamettu, Vatsal Agarwal, Pulkit Kumar, Abhinav Shrivastava
+
+**Published:** 2026-08-27 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2608.27562) | [PDF](https://arxiv.org/pdf/2608.27562)
+
+<details>
+<summary>Abstract</summary>
+
+Translating continuous, noisy egocentric video streams into discrete, temporally ordered action steps is fraught with visual challenges. Heavy ego-motion, transient occlusions, and the high intra-class variability of unscripted human-object interactions cause standard frame-level online temporal models to struggle, often resulting in severe over-segmentation and structural collapse. To bridge the gap between unstable low-level perception and high-level procedural logic, we present VidParse, an online, training-free framework that treats activity understanding as a graph-constrained inference p...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VidParse: Online Parsing of Egocentric Procedures Like a Pro
+
+Translating continuous, noisy egocentric video streams into discrete, temporally ordered action steps is fraught with visual challenges.
+
+arXiv: https://arxiv.org/abs/2608.27562
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
