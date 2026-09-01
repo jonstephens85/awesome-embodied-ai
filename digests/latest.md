@@ -1,6 +1,6 @@
 # What's New
 
-Papers discovered in the run at **2026-09-01 19:13 UTC**.
+Papers discovered in the run at **2026-09-01 23:40 UTC**.
 
 **New this run:** 0
 
