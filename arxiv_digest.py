@@ -960,8 +960,8 @@ Edit `.github/workflows/digest.yml`:
 
 ```yaml
 schedule:
-  - cron: '0 8 * * *'
-  - cron: '0 18 * * *'
+  - cron: '0 16 * * *'  # 8:00 AM PST
+  - cron: '0 22 * * *'  # 2:00 PM PST
 ```
 """
 

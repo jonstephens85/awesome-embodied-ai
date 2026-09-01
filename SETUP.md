@@ -9,7 +9,7 @@
    `main` / `/docs`. The dashboard is then served at
    `https://<you>.github.io/<repo>/` (for this repo:
    https://jonstephens85.github.io/awesome-embodied-ai/).
-5. The digest runs automatically at 08:00 and 18:00 UTC (and on manual dispatch).
+5. The digest runs automatically at 8am and 2pm PST (16:00 / 22:00 UTC), and on manual dispatch.
 
 ## Manual Run
 
@@ -52,6 +52,6 @@ Edit `.github/workflows/digest.yml`:
 
 ```yaml
 schedule:
-  - cron: '0 8 * * *'   # 8:00 AM UTC
-  - cron: '0 18 * * *'  # 6:00 PM UTC
+  - cron: '0 16 * * *'  # 8:00 AM PST
+  - cron: '0 22 * * *'  # 2:00 PM PST
 ```

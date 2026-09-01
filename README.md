@@ -9,7 +9,7 @@ robotics and embodied AI, plus an auto-updated arXiv feed.
 
 ## Auto-Updated Paper Feeds
 
-This repo pulls new papers from arXiv twice daily (8am & 6pm UTC), scores them with
+This repo pulls new papers from arXiv twice daily (8am & 2pm PST), scores them with
 deterministic relevance rules, and ranks them (papers with a project page or code repo
 float to the top).
 
