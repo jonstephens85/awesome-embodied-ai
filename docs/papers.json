@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02 19:13 UTC",
+  "generated": "2026-09-02 23:40 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -550,7 +550,7 @@
       "project_page": "https://ka1guan.github.io/RESELF/",
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Seeing the World and the Self from Egocentric Video\n\nComplete 3D perception from egocentric video requires recovering the surrounding scene and the wearer's full-body motion in a shared metric frame.\n\narXiv: https://arxiv.org/abs/2609.01276\nProject page: https://ka1guan.github.io/RESELF/\n\n#egocentric #robotlearning"
     },
     {
@@ -580,7 +580,7 @@
       "project_page": null,
       "github_url": "https://github.com/skumar-ml/belief-world-models",
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Towards a Belief-Based World Model for LLM Agents\n\nLarge language models (LLMs) are being used as policies for autonomous decision-making and planning in many domains.\n\narXiv: https://arxiv.org/abs/2609.00455\nCode: https://github.com/skumar-ml/belief-world-models\n\n#worldmodels #robotics"
     },
     {
@@ -689,7 +689,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents\n\nVision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but long-horizon tasks require more than action prediction.\n\narXiv: https://arxiv.org/abs/2609.01281\n\n#VLA #robotics"
     },
     {
@@ -718,7 +718,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs\n\nMost vision-language-action (VLA) models -- OpenVLA, $π_0$, RT-2, RDT-1B -- are monolithic: they emit raw motor commands or short action chunks without organizing behavior into reusable abstractions, so they degrade o...\n\narXiv: https://arxiv.org/abs/2609.01215\n\n#VLA #robotics"
     },
     {
@@ -749,7 +749,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs\n\nAction chunking is a standard execution strategy in modern Vision-Language-Action (VLA) frameworks, but fixed execution horizons impose a trade-off between efficiency and accuracy.\n\narXiv: https://arxiv.org/abs/2609.00908\n\n#VLA #robotics"
     },
     {
@@ -1047,7 +1047,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction\n\nCurrent 4D generation paradigms are often bottlenecked by a sequential decoupling design: video is generated first, followed by 3D reconstruction, leading to high interaction latency.\n\narXiv: https://arxiv.org/abs/2609.00610\n\n#worldmodels #robotics"
     },
     {
@@ -1306,7 +1306,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching\n\nMultimodal Large Language Models (MLLMs) are strong perceivers of images and video.\n\narXiv: https://arxiv.org/abs/2609.01404\n\n#VLA #robotics"
     },
     {
@@ -1336,7 +1336,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets\n\nExtracting scenarios from unlabelled real-world sensor data streams is a critical but challenging task in the development process of automated driving systems (ADS).\n\narXiv: https://arxiv.org/abs/2609.00333\n\n#egocentric #robotlearning"
     },
     {
@@ -1408,7 +1408,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training\n\nWorld models have made remarkable progress in action-conditioned future prediction for embodied agents, yet still struggle to model physically plausible interactions.\n\narXiv: https://arxiv.org/abs/2609.00161\n\n#worldmodels #robotics"
     },
     {
@@ -2178,7 +2178,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "TempCloze: Can Video-LLMs Identify the Missing Middle?\n\nTemporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors.\n\narXiv: https://arxiv.org/abs/2609.01515\n\n#egocentric #robotlearning"
     },
     {
@@ -2224,7 +2224,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training\n\nRobotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity.\n\narXiv: https://arxiv.org/abs/2609.00188\n\n#egocentric #robotlearning"
     },
     {
@@ -2308,7 +2308,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-02",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments\n\nGUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents.\n\narXiv: https://arxiv.org/abs/2609.00048\n\n#worldmodels #robotics"
     },
     {
