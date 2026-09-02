@@ -508,5 +508,91 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2609.00048": {
+    "first_seen": "2026-09-02",
+    "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.00161": {
+    "first_seen": "2026-09-02",
+    "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.00188": {
+    "first_seen": "2026-09-02",
+    "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2609.00333": {
+    "first_seen": "2026-09-02",
+    "title": "Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.00455": {
+    "first_seen": "2026-09-02",
+    "title": "Towards a Belief-Based World Model for LLM Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.00610": {
+    "first_seen": "2026-09-02",
+    "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.00908": {
+    "first_seen": "2026-09-02",
+    "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.01215": {
+    "first_seen": "2026-09-02",
+    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.01276": {
+    "first_seen": "2026-09-02",
+    "title": "Seeing the World and the Self from Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.01281": {
+    "first_seen": "2026-09-02",
+    "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.01404": {
+    "first_seen": "2026-09-02",
+    "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.01515": {
+    "first_seen": "2026-09-02",
+    "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+    "topics": [
+      "egocentric_data"
+    ]
   }
 }
