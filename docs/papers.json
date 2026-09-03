@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 19:07 UTC",
+  "generated": "2026-09-03 23:41 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -71,7 +71,7 @@
       "project_page": null,
       "github_url": "https://github.com/rdharini2001/Robot_World_Model",
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback\n\nPredictive models are increasingly used in robotics for state estimation, planning, control, and policy evaluation, yet they are often judged by open-loop prediction accuracy over a fixed horizon.\n\narXiv: https://arxiv.org/abs/2609.02811\nCode: https://github.com/rdharini2001/Robot_World_Model\n\n#worldmodels #robotics"
     },
     {
@@ -267,7 +267,7 @@
       "project_page": "https://robot-hint.github.io/",
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation\n\nHumans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations.\n\narXiv: https://arxiv.org/abs/2609.02653\nProject page: https://robot-hint.github.io/\n\n#VLA #robotics"
     },
     {
@@ -299,7 +299,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Latent Cluster Analysis for Vision-Language-Action Models\n\nVision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood.\n\narXiv: https://arxiv.org/abs/2609.02634\n\n#VLA #robotics"
     },
     {
@@ -430,7 +430,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Towards Zero-Shot Transfer Across Embodiments For Driving VLAs\n\nVision-Language-Action models (VLAs) have shown strong potential in autonomous driving by leveraging multimodal pretraining for instruction following, visual reasoning, and scene-level generalization.\n\narXiv: https://arxiv.org/abs/2609.02341\n\n#VLA #robotics"
     },
     {
@@ -608,7 +608,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation\n\nZero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly.\n\narXiv: https://arxiv.org/abs/2609.02546\n\n#VLA #robotics"
     },
     {
@@ -637,7 +637,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation\n\nMonolithic world models predict the entire next state at every step, spending capacity re-predicting the static majority of a scene and injecting error into it.\n\narXiv: https://arxiv.org/abs/2609.02046\n\n#worldmodels #robotics"
     },
     {
@@ -1114,7 +1114,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners\n\nFuture-aware representations and world models are increasingly used in proposal-based autonomous-driving planners to improve trajectory selection.\n\narXiv: https://arxiv.org/abs/2609.02688\n\n#worldmodels #robotics"
     },
     {
@@ -1145,7 +1145,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain\n\nFoothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads.\n\narXiv: https://arxiv.org/abs/2609.02542\n\n#worldmodels #robotics"
     },
     {
@@ -1598,7 +1598,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows\n\nAugmenting the dexterity of human surgeons has the potential to free them from tedious subtasks.\n\narXiv: https://arxiv.org/abs/2609.01961\n\n#VLA #robotics"
     },
     {
@@ -1626,7 +1626,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Spatially Aware World Action Model via Geometric Latent Diffusion\n\nWorld Action Models (WAMs) leverage the capabilities of large-scale pretrained video diffusion models to jointly predict future observations and actions, inheriting rich visual and physical priors from internet-scale...\n\narXiv: https://arxiv.org/abs/2609.02531\n\n#worldmodels #robotics"
     },
     {
@@ -1870,7 +1870,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-03",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation\n\nRecent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis.\n\narXiv: https://arxiv.org/abs/2609.02864\n\n#worldmodels #robotics"
     },
     {
