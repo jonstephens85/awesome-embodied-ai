@@ -594,5 +594,82 @@
     "topics": [
       "egocentric_data"
     ]
+  },
+  "2609.01961": {
+    "first_seen": "2026-09-03",
+    "title": "MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.02046": {
+    "first_seen": "2026-09-03",
+    "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.02341": {
+    "first_seen": "2026-09-03",
+    "title": "Towards Zero-Shot Transfer Across Embodiments For Driving VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.02531": {
+    "first_seen": "2026-09-03",
+    "title": "Spatially Aware World Action Model via Geometric Latent Diffusion",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.02542": {
+    "first_seen": "2026-09-03",
+    "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.02546": {
+    "first_seen": "2026-09-03",
+    "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.02634": {
+    "first_seen": "2026-09-03",
+    "title": "Latent Cluster Analysis for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.02653": {
+    "first_seen": "2026-09-03",
+    "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.02688": {
+    "first_seen": "2026-09-03",
+    "title": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.02811": {
+    "first_seen": "2026-09-03",
+    "title": "Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.02864": {
+    "first_seen": "2026-09-03",
+    "title": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation",
+    "topics": [
+      "world_models"
+    ]
   }
 }

@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-02 23:40 UTC
+**Last updated:** 2026-09-03 19:07 UTC
 
-**Papers shown:** 7 (relevance ≥ 2, last 7 days)
+**Papers shown:** 6 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -45,48 +45,13 @@ Project page: https://ka1guan.github.io/RESELF/
 
 ---
 
-### [Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation](https://arxiv.org/abs/2608.25736)
-
-**Authors:** Xu Dong, Wanqing Li, Anthony Adeyemi-Ejeye, Andrew Gilbert
-
-**Published:** 2026-08-26 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "Ego-Exo" in title; 2 distinct keyword hits; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2608.25736) | [PDF](https://arxiv.org/pdf/2608.25736) | [Code](https://github.com/dx199771/AdaMVS)
-
-<details>
-<summary>Abstract</summary>
-
-EgoExo proficiency estimation aims to assess action quality by integrating fine-grained motion cues from egocentric (1st-person) views with spatial context from multiple exocentric (3rd-person) views. Simply adding more exocentric views degrades EgoExo performance, as redundant or noisy perspectives dilute useful motion cues. Our analysis identifies two key causes: (1) Multiview redundancy - From the data perspective, certain views provide limited or noisy information, diluting discriminative cues; (2) Overfitting - From the feature perspective, conventional fusion increases representational c...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation
-
-EgoExo proficiency estimation aims to assess action quality by integrating fine-grained motion cues from egocentric (1st-person) views with spatial context from multiple exocentric (3rd-person) views.
-
-arXiv: https://arxiv.org/abs/2608.25736
-Code: https://github.com/dx199771/AdaMVS
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets](https://arxiv.org/abs/2609.00333)
 
 **Authors:** Stefan Ramdhan, Kyanna Dagenais, Vera Pantelic, Victor Bandur, Mark Lawford
 
 **Published:** 2026-08-31 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric dataset" in title; posted in last 2 days
+**Why surfaced:** "egocentric dataset" in title
 
 **Links:** [arXiv](https://arxiv.org/abs/2609.00333) | [PDF](https://arxiv.org/pdf/2609.00333)
 
@@ -152,9 +117,9 @@ arXiv: https://arxiv.org/abs/2609.01515
 
 **Authors:** Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu et al. (20 authors)
 
-**Published:** 2026-08-31 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-08-31 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "world model" in abstract; posted in last 2 days
+**Why surfaced:** "world model" in abstract
 
 **Also relevant to:** World Models
 
