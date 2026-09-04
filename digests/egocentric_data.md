@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-03 23:41 UTC
+**Last updated:** 2026-09-04 18:49 UTC
 
-**Papers shown:** 6 (relevance ≥ 2, last 7 days)
+**Papers shown:** 5 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,9 +14,9 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Kai Guan, Minchao Jiang, Ruichen WangLi, Wentao Zhu, Lei Zhang
 
-**Published:** 2026-09-01 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-09-01 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.01276) | [PDF](https://arxiv.org/pdf/2609.01276) | [Project Page](https://ka1guan.github.io/RESELF/)
 
@@ -83,9 +83,9 @@ arXiv: https://arxiv.org/abs/2609.00333
 
 **Authors:** Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, Jiahao Meng, Han Chen et al. (7 authors)
 
-**Published:** 2026-09-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2609.01515) | [PDF](https://arxiv.org/pdf/2609.01515)
 
@@ -175,40 +175,6 @@ Everybody Tracking Every Body
 We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination.
 
 arXiv: https://arxiv.org/abs/2608.29927
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [VidParse: Online Parsing of Egocentric Procedures Like a Pro](https://arxiv.org/abs/2608.27562)
-
-**Authors:** Anubhav Gupta, Archit Kambhamettu, Vatsal Agarwal, Pulkit Kumar, Abhinav Shrivastava
-
-**Published:** 2026-08-27 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.27562) | [PDF](https://arxiv.org/pdf/2608.27562)
-
-<details>
-<summary>Abstract</summary>
-
-Translating continuous, noisy egocentric video streams into discrete, temporally ordered action steps is fraught with visual challenges. Heavy ego-motion, transient occlusions, and the high intra-class variability of unscripted human-object interactions cause standard frame-level online temporal models to struggle, often resulting in severe over-segmentation and structural collapse. To bridge the gap between unstable low-level perception and high-level procedural logic, we present VidParse, an online, training-free framework that treats activity understanding as a graph-constrained inference p...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-VidParse: Online Parsing of Egocentric Procedures Like a Pro
-
-Translating continuous, noisy egocentric video streams into discrete, temporally ordered action steps is fraught with visual challenges.
-
-arXiv: https://arxiv.org/abs/2608.27562
 
 #egocentric #robotlearning
 ```

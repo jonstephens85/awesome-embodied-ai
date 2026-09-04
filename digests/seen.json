@@ -671,5 +671,161 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2609.03067": {
+    "first_seen": "2026-09-04",
+    "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03142": {
+    "first_seen": "2026-09-04",
+    "title": "Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03153": {
+    "first_seen": "2026-09-04",
+    "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03225": {
+    "first_seen": "2026-09-04",
+    "title": "Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03276": {
+    "first_seen": "2026-09-04",
+    "title": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03294": {
+    "first_seen": "2026-09-04",
+    "title": "Latent Energy Action Planning with World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03483": {
+    "first_seen": "2026-09-04",
+    "title": "Air-Ground Collaborative Vision-and-Language Navigation via Shared Bird's-Eye Maps",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03557": {
+    "first_seen": "2026-09-04",
+    "title": "Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03565": {
+    "first_seen": "2026-09-04",
+    "title": "Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03572": {
+    "first_seen": "2026-09-04",
+    "title": "Drive-HWM: Hierarchical World Models for Dynamic-Latent Guided Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03591": {
+    "first_seen": "2026-09-04",
+    "title": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03602": {
+    "first_seen": "2026-09-04",
+    "title": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03681": {
+    "first_seen": "2026-09-04",
+    "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.03715": {
+    "first_seen": "2026-09-04",
+    "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03774": {
+    "first_seen": "2026-09-04",
+    "title": "Rethinking World Models for Safety-Critical Embodied Systems",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03834": {
+    "first_seen": "2026-09-04",
+    "title": "Semantic Bayesian World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.03889": {
+    "first_seen": "2026-09-04",
+    "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.03927": {
+    "first_seen": "2026-09-04",
+    "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.03952": {
+    "first_seen": "2026-09-04",
+    "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04034": {
+    "first_seen": "2026-09-04",
+    "title": "Editable Visual Design",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04070": {
+    "first_seen": "2026-09-04",
+    "title": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.04193": {
+    "first_seen": "2026-09-04",
+    "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
   }
 }
