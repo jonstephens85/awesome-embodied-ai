@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04 18:49 UTC",
+  "generated": "2026-09-04 23:33 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -75,7 +75,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation\n\nAction-conditioned video models require large-scale visual data paired with control signals that are temporally aligned with the resulting scene transitions.\n\narXiv: https://arxiv.org/abs/2609.03557\n\n#worldmodels #robotics"
     },
     {
@@ -160,7 +160,7 @@
       "project_page": "https://openphoenix-team.github.io/GIFT-pages",
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation\n\nVision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and...\n\narXiv: https://arxiv.org/abs/2609.04193\nProject page: https://openphoenix-team.github.io/GIFT-pages\n\n#VLA #robotics"
     },
     {
@@ -192,7 +192,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models\n\nPost-training VLA policies typically rely on supervised fine-tuning with costly expert demonstrations or reinforcement learning with expensive and potentially unstable real-world exploration.\n\narXiv: https://arxiv.org/abs/2609.03681\n\n#VLA #robotics"
     },
     {
@@ -226,7 +226,7 @@
       "project_page": "https://r2s-eval.github.io",
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models\n\nEvaluating robot manipulation policies is becoming increasingly important as generalist models, particularly vision-language-action (VLA) models, are deployed on physical robots.\n\narXiv: https://arxiv.org/abs/2609.03276\nProject page: https://r2s-eval.github.io\n\n#VLA #robotics"
     },
     {
@@ -256,7 +256,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning\n\nAction-conditioned JEPA world models enable planning toward visually specified goals without reconstructing future pixels, yet latent prediction alone does not explicitly encourage the learned representations to retai...\n\narXiv: https://arxiv.org/abs/2609.03565\n\n#worldmodels #robotics"
     },
     {
@@ -470,7 +470,7 @@
       "project_page": "https://codegoat24.github.io/WorldReward",
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "WorldReward: Reward Modeling for Camera-Conditioned World Models\n\nCamera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene changes while appearance, geometry, and temporal dynamics remain coherent.\n\narXiv: https://arxiv.org/abs/2609.03952\nProject page: https://codegoat24.github.io/WorldReward\n\n#worldmodels #robotics"
     },
     {
@@ -603,7 +603,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models\n\nFor robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions.\n\narXiv: https://arxiv.org/abs/2609.03927\n\n#VLA #robotics"
     },
     {
@@ -638,7 +638,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation\n\nContact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control.\n\narXiv: https://arxiv.org/abs/2609.03889\n\n#VLA #robotics"
     },
     {
@@ -670,7 +670,7 @@
       "project_page": null,
       "github_url": "https://github.com/ZSN2024/AGC-VLN",
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Air-Ground Collaborative Vision-and-Language Navigation via Shared Bird's-Eye Maps\n\nAir-ground collaborative Vision-and-Language Navigation (VLN) pairs an unmanned aerial vehicle (UAV) with a global bird's-eye view and an unmanned ground vehicle (UGV) with a local first-person view, yet the setting r...\n\narXiv: https://arxiv.org/abs/2609.03483\nCode: https://github.com/ZSN2024/AGC-VLN\n\n#VLA #robotics"
     },
     {
@@ -700,7 +700,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Rethinking World Models for Safety-Critical Embodied Systems\n\nWorld models have progressed from compact latent dynamics to generative, controllable, and interactive simulators of embodied environments.\n\narXiv: https://arxiv.org/abs/2609.03774\n\n#worldmodels #robotics"
     },
     {
@@ -732,7 +732,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies\n\nVision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a fail...\n\narXiv: https://arxiv.org/abs/2609.03142\n\n#VLA #robotics"
     },
     {
@@ -1012,7 +1012,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Drive-HWM: Hierarchical World Models for Dynamic-Latent Guided Autonomous Driving\n\nWorld models offer a promising paradigm for autonomous driving by predicting how traffic scenes may evolve and using such predictions to support action generation.\n\narXiv: https://arxiv.org/abs/2609.03572\n\n#worldmodels #robotics"
     },
     {
@@ -1040,7 +1040,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Latent Energy Action Planning with World Models\n\nLatent world models support efficient model predictive control from high-dimensional observations, yet optimizing a single learned latent objective can favor action sequences whose decoder-predicted terminal descripto...\n\narXiv: https://arxiv.org/abs/2609.03294\n\n#worldmodels #robotics"
     },
     {
@@ -1077,7 +1077,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement\n\nVisual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails.\n\narXiv: https://arxiv.org/abs/2609.03153\n\n#worldmodels #robotics"
     },
     {
@@ -1225,7 +1225,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving\n\nBridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge.\n\narXiv: https://arxiv.org/abs/2609.04070\n\n#VLA #robotics"
     },
     {
@@ -1254,7 +1254,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?\n\nVision-language-action (VLA) models with billions of parameters now dominate the LIBERO manipulation benchmark, but the model capacity actually required by the benchmark remains unclear.\n\narXiv: https://arxiv.org/abs/2609.03715\n\n#VLA #robotics"
     },
     {
@@ -1290,7 +1290,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections\n\nLearning generalist policies for robust bimanual manipulation is bottlenecked by the scarcity of high quality large scale human demonstration data.\n\narXiv: https://arxiv.org/abs/2609.03591\n\n#VLA #robotics"
     },
     {
@@ -1331,7 +1331,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving\n\nWorld models (WMs) have demonstrated strong potential for end-to-end autonomous driving by learning predictive representations of future scene dynamics.\n\narXiv: https://arxiv.org/abs/2609.03602\n\n#worldmodels #robotics"
     },
     {
@@ -1363,7 +1363,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving\n\nEnd-to-end autonomous driving has increasingly adopted world model-based reinforcement learning frameworks to improve learning efficiency through \\textit{imagined rollouts}.\n\narXiv: https://arxiv.org/abs/2609.03225\n\n#worldmodels #robotics"
     },
     {
@@ -1392,7 +1392,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations\n\nWorld models are an emerging paradigm in representation learning in which an agent jointly learns state-action dynamics and observation models from offline trajectory data, enabling multi-step planning and trajectory...\n\narXiv: https://arxiv.org/abs/2609.03067\n\n#worldmodels #robotics"
     },
     {
@@ -1733,7 +1733,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Semantic Bayesian World Models\n\nKnowledge graphs describe reality in crisp assertions, while the systems now consuming them, foundation models and autonomous agents, reason natively in probabilities.\n\narXiv: https://arxiv.org/abs/2609.03834\n\n#worldmodels #robotics"
     },
     {
@@ -2115,7 +2115,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-04",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Editable Visual Design\n\nWhile diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-end generation inherently yields flattened bitmaps with error-prone text, precluding layer-wise po...\n\narXiv: https://arxiv.org/abs/2609.04034\n\n#worldmodels #robotics"
     },
     {
