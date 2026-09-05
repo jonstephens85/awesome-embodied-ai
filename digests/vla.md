@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-09-04 23:33 UTC
+**Last updated:** 2026-09-05 17:56 UTC
 
-**Papers shown:** 34 (relevance ≥ 2, last 7 days)
+**Papers shown:** 33 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -116,75 +116,6 @@ Project page: https://r2s-eval.github.io
 
 ---
 
-### [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
-
-**Authors:** Mingyu Mei, Haojie Xu, Shihao Jin, Zibo Dai, Qihao Cheng et al. (12 authors)
-
-**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.02653) | [PDF](https://arxiv.org/pdf/2609.02653) | [Project Page](https://robot-hint.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations. However, current vision-language action (VLA) models and other action policies struggle to realize this high-level intelligent behavior under dense, evolving visual inputs and sparse language guidance. Visual correlations can then dominate semantic intent, leading actions to follow visual shortcuts rather than human goals. We present HINT (Human-INTent INcepTion), an agentic framework inspired by the human manipulation principles: semantic...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-HINT: Human-Intent Inception for Long-Horizon Robot Manipulation
-
-Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations.
-
-arXiv: https://arxiv.org/abs/2609.02653
-Project page: https://robot-hint.github.io/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Latent Cluster Analysis for Vision-Language-Action Models](https://arxiv.org/abs/2609.02634)
-
-**Authors:** Theodor Wulff, Sergio Lanza, Tamara Bila, Angelo Cangelosi, Stefan Wermter et al. (6 authors)
-
-**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.02634) | [PDF](https://arxiv.org/pdf/2609.02634)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood. We propose LAVLA, a framework for latent cluster analysis of VLA models, and conduct a layer-wise study of the state-of-the-art GR00T N1.5 model, with particular focus on its action decoder. To better characterise the latent space during action diffusion, we introduce a cross-attention-based embedding-weighting method that amplifies relevant features while suppressing less inform...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Latent Cluster Analysis for Vision-Language-Action Models
-
-Vision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood.
-
-arXiv: https://arxiv.org/abs/2609.02634
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks](https://arxiv.org/abs/2608.30536)
 
 **Authors:** Chunyun Ma, Lun Luo, Xingjian Luo, Xiexing Feng, Hang Zhang et al. (10 authors)
@@ -247,40 +178,6 @@ Vision-Language-Action (VLA) models demonstrate strong semantic understanding ye
 
 arXiv: https://arxiv.org/abs/2608.29967
 Project page: https://correctvla.github.io
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Towards Zero-Shot Transfer Across Embodiments For Driving VLAs](https://arxiv.org/abs/2609.02341)
-
-**Authors:** Caio Azevedo, Stefano Sabatini, Sascha Hornauer, Fabien Moutarde
-
-**Published:** 2026-09-02 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in title; 3 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.02341) | [PDF](https://arxiv.org/pdf/2609.02341)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action models (VLAs) have shown strong potential in autonomous driving by leveraging multimodal pretraining for instruction following, visual reasoning, and scene-level generalization. In robotic manipulation, scaling VLA fine-tuning across multiple robot setups--especially when unifying representations across embodiments--has been shown to improve in-dataset performance and cross-embodiment generalization; in autonomous driving, however, VLAs remain largely trained on individual datasets and are rarely evaluated for zero-shot transfer to unseen datasets and camera rigs; furthe...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Towards Zero-Shot Transfer Across Embodiments For Driving VLAs
-
-Vision-Language-Action models (VLAs) have shown strong potential in autonomous driving by leveraging multimodal pretraining for instruction following, visual reasoning, and scene-level generalization.
-
-arXiv: https://arxiv.org/abs/2609.02341
 
 #VLA #robotics
 ```
@@ -394,20 +291,20 @@ Code: https://github.com/ZSN2024/AGC-VLN
 
 ---
 
-### [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142)
+### [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
 
-**Authors:** Yue Yang, Diego Romeres, Chiori Hori, Gedas Bertasius, Daniel Szafir et al. (6 authors)
+**Authors:** Mingyu Mei, Haojie Xu, Shihao Jin, Zibo Dai, Qihao Cheng et al. (12 authors)
 
-**Published:** 2026-09-02 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.03142) | [PDF](https://arxiv.org/pdf/2609.03142)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.02653) | [PDF](https://arxiv.org/pdf/2609.02653) | [Project Page](https://robot-hint.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a failure we term modality entanglement. Under real-world occlusions and distractors, this manifests as nuisance sensitivity to corruption of uninformative sensors and single-modality insufficiency when only one informative sensor remains intact. We propose Evidence-Gated Regularization (EGR), a modality-agnostic training objective that introduces zero inference-time overhead. EGR deriv...
+Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations. However, current vision-language action (VLA) models and other action policies struggle to realize this high-level intelligent behavior under dense, evolving visual inputs and sparse language guidance. Visual correlations can then dominate semantic intent, leading actions to follow visual shortcuts rather than human goals. We present HINT (Human-INTent INcepTion), an agentic framework inspired by the human manipulation principles: semantic...
 
 </details>
 
@@ -415,11 +312,12 @@ Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but traini
 <summary>Share</summary>
 
 ```
-Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies
+HINT: Human-Intent Inception for Long-Horizon Robot Manipulation
 
-Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a fail...
+Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations.
 
-arXiv: https://arxiv.org/abs/2609.03142
+arXiv: https://arxiv.org/abs/2609.02653
+Project page: https://robot-hint.github.io/
 
 #VLA #robotics
 ```
@@ -428,20 +326,20 @@ arXiv: https://arxiv.org/abs/2609.03142
 
 ---
 
-### [ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation](https://arxiv.org/abs/2609.02546)
+### [Latent Cluster Analysis for Vision-Language-Action Models](https://arxiv.org/abs/2609.02634)
 
-**Authors:** Mi Yan, Wenhao Zhang, Zhiqi Zhang, Yu Peng, Tangxinyu Wang et al. (17 authors)
+**Authors:** Theodor Wulff, Sergio Lanza, Tamara Bila, Angelo Cangelosi, Stefan Wermter et al. (6 authors)
 
 **Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.02546) | [PDF](https://arxiv.org/pdf/2609.02546)
+**Links:** [arXiv](https://arxiv.org/abs/2609.02634) | [PDF](https://arxiv.org/pdf/2609.02634)
 
 <details>
 <summary>Abstract</summary>
 
-Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly. However, a systematic understanding of this problem remains limited, in part because the literature lacks a unified zero-shot transfer definition and controlled evaluation settings that isolate embodiment changes from differences in tasks, scenes, or protocols. To address this gap, we first distinguish strict zero-shot transfer, where the target embodiment is absent from all training data, from pretrain-exp...
+Vision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood. We propose LAVLA, a framework for latent cluster analysis of VLA models, and conduct a layer-wise study of the state-of-the-art GR00T N1.5 model, with particular focus on its action decoder. To better characterise the latent space during action diffusion, we introduce a cross-attention-based embedding-weighting method that amplifies relevant features while suppressing less inform...
 
 </details>
 
@@ -449,11 +347,11 @@ Zero-shot generalization to unseen embodiments is important for generalizable vi
 <summary>Share</summary>
 
 ```
-ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation
+Latent Cluster Analysis for Vision-Language-Action Models
 
-Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly.
+Vision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood.
 
-arXiv: https://arxiv.org/abs/2609.02546
+arXiv: https://arxiv.org/abs/2609.02634
 
 #VLA #robotics
 ```
@@ -530,20 +428,20 @@ arXiv: https://arxiv.org/abs/2608.29208
 
 ---
 
-### [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108)
+### [Towards Zero-Shot Transfer Across Embodiments For Driving VLAs](https://arxiv.org/abs/2609.02341)
 
-**Authors:** Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii
+**Authors:** Caio Azevedo, Stefano Sabatini, Sascha Hornauer, Fabien Moutarde
 
-**Published:** 2026-08-28 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-09-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in title; 3 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.28108) | [PDF](https://arxiv.org/pdf/2608.28108)
+**Links:** [arXiv](https://arxiv.org/abs/2609.02341) | [PDF](https://arxiv.org/pdf/2609.02341)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detailed expressions that VLAs may not use reliably. We propose DeicticVLA, which canonicalizes Language Instruction (LI), Vision-Language Instruction (VLI), and Visual Instruction (VI) into a text prompt and deictic masks through text-prompt completion and deictic gesture grounding, enabling a single pretrained VLA to handle all three instruction modes. With a shared backbone, demonst...
+Vision-Language-Action models (VLAs) have shown strong potential in autonomous driving by leveraging multimodal pretraining for instruction following, visual reasoning, and scene-level generalization. In robotic manipulation, scaling VLA fine-tuning across multiple robot setups--especially when unifying representations across embodiments--has been shown to improve in-dataset performance and cross-embodiment generalization; in autonomous driving, however, VLAs remain largely trained on individual datasets and are rarely evaluated for zero-shot transfer to unseen datasets and camera rigs; furthe...
 
 </details>
 
@@ -551,11 +449,11 @@ Vision-Language-Action models (VLAs) allow users to specify manipulation tasks i
 <summary>Share</summary>
 
 ```
-DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA
+Towards Zero-Shot Transfer Across Embodiments For Driving VLAs
 
-Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detai...
+Vision-Language-Action models (VLAs) have shown strong potential in autonomous driving by leveraging multimodal pretraining for instruction following, visual reasoning, and scene-level generalization.
 
-arXiv: https://arxiv.org/abs/2608.28108
+arXiv: https://arxiv.org/abs/2609.02341
 
 #VLA #robotics
 ```
@@ -658,6 +556,74 @@ Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On
 Learning generalist policies for robust bimanual manipulation is bottlenecked by the scarcity of high quality large scale human demonstration data.
 
 arXiv: https://arxiv.org/abs/2609.03591
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142)
+
+**Authors:** Yue Yang, Diego Romeres, Chiori Hori, Gedas Bertasius, Daniel Szafir et al. (6 authors)
+
+**Published:** 2026-09-02 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.03142) | [PDF](https://arxiv.org/pdf/2609.03142)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a failure we term modality entanglement. Under real-world occlusions and distractors, this manifests as nuisance sensitivity to corruption of uninformative sensors and single-modality insufficiency when only one informative sensor remains intact. We propose Evidence-Gated Regularization (EGR), a modality-agnostic training objective that introduces zero inference-time overhead. EGR deriv...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies
+
+Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a fail...
+
+arXiv: https://arxiv.org/abs/2609.03142
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation](https://arxiv.org/abs/2609.02546)
+
+**Authors:** Mi Yan, Wenhao Zhang, Zhiqi Zhang, Yu Peng, Tangxinyu Wang et al. (17 authors)
+
+**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.02546) | [PDF](https://arxiv.org/pdf/2609.02546)
+
+<details>
+<summary>Abstract</summary>
+
+Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly. However, a systematic understanding of this problem remains limited, in part because the literature lacks a unified zero-shot transfer definition and controlled evaluation settings that isolate embodiment changes from differences in tasks, scenes, or protocols. To address this gap, we first distinguish strict zero-shot transfer, where the target embodiment is absent from all training data, from pretrain-exp...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation
+
+Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly.
+
+arXiv: https://arxiv.org/abs/2609.02546
 
 #VLA #robotics
 ```
@@ -940,40 +906,6 @@ arXiv: https://arxiv.org/abs/2608.30122
 
 ---
 
-### [MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows](https://arxiv.org/abs/2609.01961)
-
-**Authors:** Ziyang Chen, Shutong Jin, Preethi Satish, Sareena Mann, Cael Magner et al. (9 authors)
-
-**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.01961) | [PDF](https://arxiv.org/pdf/2609.01961)
-
-<details>
-<summary>Abstract</summary>
-
-Augmenting the dexterity of human surgeons has the potential to free them from tedious subtasks. We consider debridement (removal of diseased or dead tissue fragments), which is challenging due to imprecision in spatial perception and cable actuation. We develop an augmented dexterity system for surgical debridement that uses visual servoing to align the cable-driven gripper with the target position in the image plane, and then introduces a novel approach to depth control, MACAW: Monocular Adaptive Compact Attention Windows. Across 100 physical trials using the da Vinci Research Kit (dVRK) rob...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows
-
-Augmenting the dexterity of human surgeons has the potential to free them from tedious subtasks.
-
-arXiv: https://arxiv.org/abs/2609.01961
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching](https://arxiv.org/abs/2609.01404)
 
 **Authors:** Jaewoo Park, Minyoung Lee, Sukmin Seo, Moonbin Yim, Hyunwook Yoon et al. (14 authors)
@@ -1070,6 +1002,40 @@ DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Pol
 Vision-language-action (VLA) models have made strong progress in language-conditioned robot manipulation, but improving their performance in a new workspace still often requires action-labeled data from that environment.
 
 arXiv: https://arxiv.org/abs/2608.29078
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows](https://arxiv.org/abs/2609.01961)
+
+**Authors:** Ziyang Chen, Shutong Jin, Preethi Satish, Sareena Mann, Cael Magner et al. (9 authors)
+
+**Published:** 2026-09-02 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "VLA" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.01961) | [PDF](https://arxiv.org/pdf/2609.01961)
+
+<details>
+<summary>Abstract</summary>
+
+Augmenting the dexterity of human surgeons has the potential to free them from tedious subtasks. We consider debridement (removal of diseased or dead tissue fragments), which is challenging due to imprecision in spatial perception and cable actuation. We develop an augmented dexterity system for surgical debridement that uses visual servoing to align the cable-driven gripper with the target position in the image plane, and then introduces a novel approach to depth control, MACAW: Monocular Adaptive Compact Attention Windows. Across 100 physical trials using the da Vinci Research Kit (dVRK) rob...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows
+
+Augmenting the dexterity of human surgeons has the potential to free them from tedious subtasks.
+
+arXiv: https://arxiv.org/abs/2609.01961
 
 #VLA #robotics
 ```
