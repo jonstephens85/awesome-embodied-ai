@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07 19:36 UTC",
+  "generated": "2026-09-07 23:51 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -50,7 +50,7 @@
       "project_page": "https://vla-precision.github.io",
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models\n\nPretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability.\n\narXiv: https://arxiv.org/abs/2609.04355\nProject page: https://vla-precision.github.io\n\n#VLA #robotics"
     },
     {
@@ -88,7 +88,7 @@
       "project_page": null,
       "github_url": "https://github.com/fanzhenxuan/RoboSPA",
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?\n\nVision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation.\n\narXiv: https://arxiv.org/abs/2609.05324\nCode: https://github.com/fanzhenxuan/RoboSPA\n\n#VLA #robotics"
     },
     {
@@ -286,7 +286,7 @@
       "project_page": "https://liulin815.github.io/LIBERO-Recovery/",
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models\n\nVision-Language-Action (VLA) or World Action (WAM) models have recently demonstrated remarkable performance in robotic manipulation.\n\narXiv: https://arxiv.org/abs/2609.05178\nProject page: https://liulin815.github.io/LIBERO-Recovery/\n\n#VLA #robotics"
     },
     {
@@ -418,7 +418,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models\n\nVision-language-action (VLA) policies have shown strong potential for general-purpose robotic manipulation, but they can still fail unpredictably during long-horizon execution, making reliable failure detection essent...\n\narXiv: https://arxiv.org/abs/2609.04277\n\n#VLA #robotics"
     },
     {
@@ -692,7 +692,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models\n\nLatent world models have become increasingly popular as a method to predict and plan in latent space rather than pixel space.\n\narXiv: https://arxiv.org/abs/2609.04264\n\n#worldmodels #robotics"
     },
     {
@@ -781,7 +781,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation\n\nVision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable...\n\narXiv: https://arxiv.org/abs/2609.05369\n\n#VLA #robotics"
     },
     {
@@ -812,7 +812,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies\n\nVision-language-action (VLA) models are trained by imitation and capture what action to take but not why; adding causal reasoning improves manipulation, but current methods pay for it at inference time - generating re...\n\narXiv: https://arxiv.org/abs/2609.04893\n\n#VLA #robotics"
     },
     {
@@ -1200,7 +1200,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image\n\nInteractive visual world models must distinguish observation from physical intervention.\n\narXiv: https://arxiv.org/abs/2609.04911\n\n#worldmodels #robotics"
     },
     {
@@ -1388,7 +1388,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision\n\nRecovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality.\n\narXiv: https://arxiv.org/abs/2609.04958\n\n#egocentric #robotlearning"
     },
     {
@@ -1415,7 +1415,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control\n\nRemote robotic systems operating over wireless networks must maintain reliable control despite limited communication resources, changing channel conditions, and environmental disturbances.However, continuously transmi...\n\narXiv: https://arxiv.org/abs/2609.04851\n\n#worldmodels #robotics"
     },
     {
@@ -1830,7 +1830,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments\n\nLarge language models become consequential agents when surrounding systems let outputs change external state.\n\narXiv: https://arxiv.org/abs/2609.04894\n\n#worldmodels #robotics"
     },
     {
@@ -1883,7 +1883,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover\n\nReliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time.\n\narXiv: https://arxiv.org/abs/2609.05282\n\n#VLA #robotics"
     },
     {
@@ -1913,7 +1913,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies\n\nVisuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced.\n\narXiv: https://arxiv.org/abs/2609.05376\n\n#VLA #robotics"
     },
     {
@@ -1942,7 +1942,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles\n\nThe planning algorithms inside an Autonomous Vehicle (AV) rely on information from on-board sensors whose line of sight is limited by emerging traffic conditions and occlusions.\n\narXiv: https://arxiv.org/abs/2609.04364\n\n#worldmodels #robotics"
     },
     {
@@ -2101,7 +2101,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-07",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents\n\nEmbodied agents performing long-horizon tasks require a memory representation in which the state transitions of dynamic objects remain queryable in natural language across hours-to-days observation horizons.\n\narXiv: https://arxiv.org/abs/2609.04802\n\n#egocentric #robotlearning"
     },
     {
