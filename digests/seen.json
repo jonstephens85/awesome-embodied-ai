@@ -827,5 +827,110 @@
     "topics": [
       "vla"
     ]
+  },
+  "2609.04264": {
+    "first_seen": "2026-09-07",
+    "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04277": {
+    "first_seen": "2026-09-07",
+    "title": "FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.04355": {
+    "first_seen": "2026-09-07",
+    "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.04364": {
+    "first_seen": "2026-09-07",
+    "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04802": {
+    "first_seen": "2026-09-07",
+    "title": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.04851": {
+    "first_seen": "2026-09-07",
+    "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04893": {
+    "first_seen": "2026-09-07",
+    "title": "Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.04894": {
+    "first_seen": "2026-09-07",
+    "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04911": {
+    "first_seen": "2026-09-07",
+    "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.04958": {
+    "first_seen": "2026-09-07",
+    "title": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.05178": {
+    "first_seen": "2026-09-07",
+    "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.05282": {
+    "first_seen": "2026-09-07",
+    "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.05324": {
+    "first_seen": "2026-09-07",
+    "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.05369": {
+    "first_seen": "2026-09-07",
+    "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.05376": {
+    "first_seen": "2026-09-07",
+    "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+    "topics": [
+      "vla"
+    ]
   }
 }

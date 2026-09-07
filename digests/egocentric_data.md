@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-06 23:20 UTC
+**Last updated:** 2026-09-07 19:36 UTC
 
-**Papers shown:** 5 (relevance ≥ 2, last 7 days)
+**Papers shown:** 6 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -45,6 +45,40 @@ Project page: https://ka1guan.github.io/RESELF/
 
 ---
 
+### [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](https://arxiv.org/abs/2609.04958)
+
+**Authors:** Zijie Zhu, Weiren Cai, Yizhou Wang, Zhenjie Yang, Yide Liu et al. (7 authors)
+
+**Published:** 2026-09-04 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.04958) | [PDF](https://arxiv.org/pdf/2609.04958)
+
+<details>
+<summary>Abstract</summary>
+
+Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality. Existing systems typically decompose this problem into separate stages for camera motion, depth, hand reconstruction, and trajectory refinement, resulting in substantial computational overhead and preventing the joint modeling of camera and hand motion. We introduce MINT (Minting IN-the-Wild Trajectories), the first foundation model that directly produces complete world-space two-hand trajectories from ego-centric RGB video. From a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision
+
+Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality.
+
+arXiv: https://arxiv.org/abs/2609.04958
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets](https://arxiv.org/abs/2609.00333)
 
 **Authors:** Stefan Ramdhan, Kyanna Dagenais, Vera Pantelic, Victor Bandur, Mark Lawford
@@ -71,6 +105,40 @@ Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets
 Extracting scenarios from unlabelled real-world sensor data streams is a critical but challenging task in the development process of automated driving systems (ADS).
 
 arXiv: https://arxiv.org/abs/2609.00333
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents](https://arxiv.org/abs/2609.04802)
+
+**Authors:** Tianyidan Xie, Shenyi Wang, Qiang Tang, Mingjie Wang, Zhicheng Qiu et al. (10 authors)
+
+**Published:** 2026-09-04 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "Ego4D" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.04802) | [PDF](https://arxiv.org/pdf/2609.04802)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied agents performing long-horizon tasks require a memory representation in which the state transitions of dynamic objects remain queryable in natural language across hours-to-days observation horizons. Existing systems either drop fine-grained motion (clip-level video-language embeddings), keep it only as raw coordinates (geometric SLAM), or organise it around immediate task context (agent working memories). None of them gives the agent a per-object timeline whose state transitions are themselves queryable in language. Our key contribution is \textbf{Linguistic Trajectory Encoding} (LTE)...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents
+
+Embodied agents performing long-horizon tasks require a memory representation in which the state transitions of dynamic objects remain queryable in natural language across hours-to-days observation horizons.
+
+arXiv: https://arxiv.org/abs/2609.04802
 
 #egocentric #robotlearning
 ```
@@ -141,40 +209,6 @@ ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-
 Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity.
 
 arXiv: https://arxiv.org/abs/2609.00188
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Everybody Tracking Every Body](https://arxiv.org/abs/2608.29927)
-
-**Authors:** Daeyun Shin, Yunhan Zhao, Shu Kong, Alexander C. Berg, Charless Fowlkes
-
-**Published:** 2026-08-30 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.29927) | [PDF](https://arxiv.org/pdf/2608.29927)
-
-<details>
-<summary>Abstract</summary>
-
-We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination. Each individual wears a camera recording egocentric video and IMU data. Processing this video with VIO SLAM provides high-quality tracking of each egocentric camera through space. The first-person view from one individual provides third-person observations of other people, although these exocentric observations are sparse, intermittent, and of highly variable reliability as both cameras and subjects move. To integrate these synchronized data streams, we pr...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Everybody Tracking Every Body
-
-We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination.
-
-arXiv: https://arxiv.org/abs/2608.29927
 
 #egocentric #robotlearning
 ```
