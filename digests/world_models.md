@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-09-07 23:51 UTC
+**Last updated:** 2026-09-08 19:16 UTC
 
-**Papers shown:** 29 (relevance ≥ 2, last 7 days)
+**Papers shown:** 24 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -79,76 +79,6 @@ arXiv: https://arxiv.org/abs/2609.03557
 
 ---
 
-### [CAER: Causal Action Effect Reweighting for World Model Training](https://arxiv.org/abs/2608.30897)
-
-**Authors:** Jianjie Fang, Xvyuan Liu, Ziyou Wang, Rongze Tang, Zhaolu Wang et al. (12 authors)
-
-**Published:** 2026-08-31 | **Categories:** cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2608.30897) | [PDF](https://arxiv.org/pdf/2608.30897) | [Project Page](https://manifoldai-research.github.io/CAER/)
-
-<details>
-<summary>Abstract</summary>
-
-World models are becoming core infrastructure for embodied intelligence, with action-conditioned video generation providing controllable predictions of how scenes evolve after agent interventions. Yet existing models are commonly trained with space-time-uniform mean squared error, allowing abundant background tokens to dominate the gradient while sparse interaction dynamics remain under-optimized; such uniform fitting rewards reconstructing appearance rather than learning how actions change the world. We introduce Causal Action Effect Reweighting (CAER), a general training paradigm that redist...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-CAER: Causal Action Effect Reweighting for World Model Training
-
-World models are becoming core infrastructure for embodied intelligence, with action-conditioned video generation providing controllable predictions of how scenes evolve after agent interventions.
-
-arXiv: https://arxiv.org/abs/2608.30897
-Project page: https://manifoldai-research.github.io/CAER/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Can Video World Models Track Unobserved World States?](https://arxiv.org/abs/2608.30692)
-
-**Authors:** Joonghyuk Shin, Yicong Hong, Jaesik Park, Xun Huang
-
-**Published:** 2026-08-31 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2608.30692) | [PDF](https://arxiv.org/pdf/2608.30692) | [Project Page](https://joonghyuk.com/stateful-vwm-web/)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models are increasingly used as simulators, yet visual fidelity alone does not show that a model maintains the hidden state of the world. We examine this gap with an action-conditioned video Shell Game, a visual analog of $S_5$ state tracking that decouples visual rendering from compositing the hidden state underneath. Bidirectional and autoregressive Transformers, Mamba, and linear attention restricted to nonnegative transition eigenvalues all fit the training horizon of 5 swaps and then fall toward chance on longer swap chains (extrapolation) while still rendering plausible video...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Can Video World Models Track Unobserved World States?
-
-Video world models are increasingly used as simulators, yet visual fidelity alone does not show that a model maintains the hidden state of the world.
-
-arXiv: https://arxiv.org/abs/2608.30692
-Project page: https://joonghyuk.com/stateful-vwm-web/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning](https://arxiv.org/abs/2609.03565)
 
 **Authors:** Muyuan Liu, Yue Huang, Zheng Liang, Xiang Gao
@@ -175,42 +105,6 @@ Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planni
 Action-conditioned JEPA world models enable planning toward visually specified goals without reconstructing future pixels, yet latent prediction alone does not explicitly encourage the learned representations to retai...
 
 arXiv: https://arxiv.org/abs/2609.03565
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237)
-
-**Authors:** Hongzhe Bi, Zihao Zhou, Yihang Tang, Jingrui Pang, Shuhe Huang et al. (19 authors)
-
-**Published:** 2026-08-31 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; 2 distinct keyword hits; robotics / embodied focus
-
-**Also relevant to:** Egocentric Data
-
-**Links:** [arXiv](https://arxiv.org/abs/2608.30237) | [PDF](https://arxiv.org/pdf/2608.30237)
-
-<details>
-<summary>Abstract</summary>
-
-General embodied agents should perceive, predict, act, evaluate, and improve within a unified system. World models have shown great promise in building such agents, yet existing models typically append an action output head to a world simulator, without coupling them into a closed decision-and-learning loop for policy improvement. We present Motus2, a self-evolving general world model for dexterous manipulation. Motus2 advances world modeling through model scaling and data scaling. For model scaling, a single model with shared weights exposes three control interfaces: a policy (world-action mo...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Motus2: A Self-Evolving General World Model for Dexterous Manipulation
-
-General embodied agents should perceive, predict, act, evaluate, and improve within a unified system.
-
-arXiv: https://arxiv.org/abs/2608.30237
 
 #worldmodels #robotics
 ```
@@ -280,41 +174,6 @@ Spectral-Target Physical Latent Structuring for JEPA-Style World Models
 Latent world models have become increasingly popular as a method to predict and plan in latent space rather than pixel space.
 
 arXiv: https://arxiv.org/abs/2609.04264
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Towards a Belief-Based World Model for LLM Agents](https://arxiv.org/abs/2609.00455)
-
-**Authors:** Shubham Kumar, Harshit Kumar, Narendra Ahuja, Saurabh Jha
-
-**Published:** 2026-08-31 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.00455) | [PDF](https://arxiv.org/pdf/2609.00455) | [Code](https://github.com/skumar-ml/belief-world-models)
-
-<details>
-<summary>Abstract</summary>
-
-Large language models (LLMs) are being used as policies for autonomous decision-making and planning in many domains. Despite their strong reasoning capabilities, LLMs struggle with long-horizon tasks, especially under partial observability. World models are a promising way to enhance policy performance, both during training and inference. During inference, agents currently use world models to simulate the consequences of candidate actions before committing to an action, which can improve decision-making. However, we argue that simulation alone is an incomplete interface for decision-making und...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Towards a Belief-Based World Model for LLM Agents
-
-Large language models (LLMs) are being used as policies for autonomous decision-making and planning in many domains.
-
-arXiv: https://arxiv.org/abs/2609.00455
-Code: https://github.com/skumar-ml/belief-world-models
 
 #worldmodels #robotics
 ```
@@ -757,40 +616,6 @@ World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Te
 Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads.
 
 arXiv: https://arxiv.org/abs/2609.02542
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training](https://arxiv.org/abs/2609.00161)
-
-**Authors:** Rongze Tang, Jianjie Fang, Zhaolu Wang, Ziyou Wang, Xvyuan Liu et al. (11 authors)
-
-**Published:** 2026-08-31 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.00161) | [PDF](https://arxiv.org/pdf/2609.00161)
-
-<details>
-<summary>Abstract</summary>
-
-World models have made remarkable progress in action-conditioned future prediction for embodied agents, yet still struggle to model physically plausible interactions. Existing approaches address this limitation by constraining the generation process with external representations encoding motion, geometry, or semantics. Obtaining these spatiotemporally dense representations typically requires auxiliary estimators or manual annotations, limiting training scalability. We instead revisit the training objective and identify a supervision-allocation mismatch under the globally averaged mean squared...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training
-
-World models have made remarkable progress in action-conditioned future prediction for embodied agents, yet still struggle to model physically plausible interactions.
-
-arXiv: https://arxiv.org/abs/2609.00161
 
 #worldmodels #robotics
 ```

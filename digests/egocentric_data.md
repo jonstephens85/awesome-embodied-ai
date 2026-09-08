@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-07 23:51 UTC
+**Last updated:** 2026-09-08 19:16 UTC
 
-**Papers shown:** 6 (relevance ≥ 2, last 7 days)
+**Papers shown:** 4 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -79,40 +79,6 @@ arXiv: https://arxiv.org/abs/2609.04958
 
 ---
 
-### [Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets](https://arxiv.org/abs/2609.00333)
-
-**Authors:** Stefan Ramdhan, Kyanna Dagenais, Vera Pantelic, Victor Bandur, Mark Lawford
-
-**Published:** 2026-08-31 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric dataset" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.00333) | [PDF](https://arxiv.org/pdf/2609.00333)
-
-<details>
-<summary>Abstract</summary>
-
-Extracting scenarios from unlabelled real-world sensor data streams is a critical but challenging task in the development process of automated driving systems (ADS). Automatically sifting through large datasets to spatially and temporally locate critical scenarios can enable scenario-based coverage analysis of ADS datasets. In this paper, we present a method for extracting scenarios from egocentric datasets using scene graphs and Linear Temporal Logic (LTL). We first process egocentric sensor data and HD maps to generate a sequence of scene graphs representing a driving scenario. Next, we use...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets
-
-Extracting scenarios from unlabelled real-world sensor data streams is a critical but challenging task in the development process of automated driving systems (ADS).
-
-arXiv: https://arxiv.org/abs/2609.00333
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents](https://arxiv.org/abs/2609.04802)
 
 **Authors:** Tianyidan Xie, Shenyi Wang, Qiang Tang, Mingjie Wang, Zhicheng Qiu et al. (10 authors)
@@ -173,42 +139,6 @@ TempCloze: Can Video-LLMs Identify the Missing Middle?
 Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors.
 
 arXiv: https://arxiv.org/abs/2609.01515
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188)
-
-**Authors:** Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu et al. (20 authors)
-
-**Published:** 2026-08-31 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Also relevant to:** World Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.00188) | [PDF](https://arxiv.org/pdf/2609.00188)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturing object interactions, contact dynamics, tool use, and long-horizon behaviors across diverse environments. The central challenge is how to convert this abundant but action-free experience into effective robot control. We introduce ZimaBlue, a scalable framework for learning generalizable World Actio...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training
-
-Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity.
-
-arXiv: https://arxiv.org/abs/2609.00188
 
 #egocentric #robotlearning
 ```
