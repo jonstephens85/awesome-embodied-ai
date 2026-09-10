@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-10 18:57 UTC
+**Last updated:** 2026-09-10 23:32 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 

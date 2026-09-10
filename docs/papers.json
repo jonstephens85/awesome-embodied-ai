@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10 18:57 UTC",
+  "generated": "2026-09-10 23:32 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -86,7 +86,7 @@
       "project_page": "https://alaya-lab.github.io/pwm",
       "github_url": "https://github.com/AlayaLab/pwm",
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Programmable World Model\n\nRecent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interact...\n\narXiv: https://arxiv.org/abs/2609.10540\nProject page: https://alaya-lab.github.io/pwm\nCode: https://github.com/AlayaLab/pwm\n\n#worldmodels #robotics"
     },
     {
@@ -121,7 +121,7 @@
       "project_page": "https://utn-air.github.io/DUET-DINO",
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation\n\nAction-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control.\n\narXiv: https://arxiv.org/abs/2609.10506\nProject page: https://utn-air.github.io/DUET-DINO\n\n#worldmodels #robotics"
     },
     {
@@ -253,7 +253,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration\n\nWorld Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior.\n\narXiv: https://arxiv.org/abs/2609.09418\n\n#worldmodels #robotics"
     },
     {
@@ -284,7 +284,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models\n\nRobot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions.\n\narXiv: https://arxiv.org/abs/2609.10405\n\n#VLA #robotics"
     },
     {
@@ -316,7 +316,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models\n\nModern vision-language-action (VLA) policies predict a whole chunk of actions: one to two seconds of coordinated motion emitted in a single forward pass.\n\narXiv: https://arxiv.org/abs/2609.09925\n\n#VLA #robotics"
     },
     {
@@ -504,7 +504,7 @@
       "project_page": "https://sg-jepa.github.io",
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization\n\nJoint-Embedding Predictive Architecture (JEPA) world models learn a compact latent representation of the world that supports prediction and planning, but their capability to learn physics and generate physically reali...\n\narXiv: https://arxiv.org/abs/2609.10464\nProject page: https://sg-jepa.github.io\n\n#worldmodels #robotics"
     },
     {
@@ -572,7 +572,7 @@
       "project_page": "https://showlab.github.io/Show-Harness",
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Show-Harness: Just a VLM Agent Can Play Robots\n\nFoundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging.\n\narXiv: https://arxiv.org/abs/2609.10522\nProject page: https://showlab.github.io/Show-Harness\n\n#VLA #robotics"
     },
     {
@@ -605,7 +605,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility\n\nVision--language--action (VLA) models acquire broad generalization through large-scale pretraining, yet adapting them to a new task and robot embodiment still requires post-training on newly collected data.\n\narXiv: https://arxiv.org/abs/2609.10021\n\n#VLA #robotics"
     },
     {
@@ -636,7 +636,7 @@
       "project_page": "https://gta2-project.github.io/",
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes\n\nRobotic manipulation tasks are often decomposed into behaviors or skills.\n\narXiv: https://arxiv.org/abs/2609.09808\nProject page: https://gta2-project.github.io/\n\n#VLA #robotics"
     },
     {
@@ -667,7 +667,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy\n\nGeneralist robot policies have demonstrated strong generalization across robotic manipulation tasks, yet their success rates remain limited in com- plex long-horizon scenarios.\n\narXiv: https://arxiv.org/abs/2609.09941\n\n#worldmodels #robotics"
     },
     {
@@ -1320,7 +1320,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints\n\nAccurate contact prediction is useful for robotic manipulation only if it supports effective decisions.\n\narXiv: https://arxiv.org/abs/2609.09597\n\n#worldmodels #robotics"
     },
     {
@@ -1595,7 +1595,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Identifying Habit, Physics, and Nuisance in Robot World Models\n\nTeleoperated demonstrations are often multimodal even when the underlying dynamics are nearly deterministic given the executed action.\n\narXiv: https://arxiv.org/abs/2609.09210\n\n#worldmodels #robotics"
     },
     {
@@ -1878,7 +1878,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G\n\nSixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, a...\n\narXiv: https://arxiv.org/abs/2609.09591\n\n#VLA #robotics"
     },
     {
@@ -1905,7 +1905,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Seven Sources of Physical AI Capability Formation\n\nCapabilities relevant to Physical AI can arise from materially different formation histories, yet existing taxonomies organized by morphology, architecture, learning algorithm, task, or domain do not directly answer w...\n\narXiv: https://arxiv.org/abs/2609.09627\n\n#worldmodels #robotics"
     },
     {
@@ -2188,7 +2188,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects\n\nEmbodied AI, including vision-language-action and world-action models, must operate reliably in the physical world.\n\narXiv: https://arxiv.org/abs/2609.10243\n\n#VLA #robotics"
     },
     {
@@ -2223,7 +2223,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-10",
-      "is_new": true,
+      "is_new": false,
       "share_text": "No Free Checker: A Survey of Verifiers for Robot Policies\n\nA verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them.\n\narXiv: https://arxiv.org/abs/2609.09250\n\n#VLA #robotics"
     },
     {
