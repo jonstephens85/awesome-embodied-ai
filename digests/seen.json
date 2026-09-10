@@ -1262,5 +1262,118 @@
     "topics": [
       "vla"
     ]
+  },
+  "2609.09210": {
+    "first_seen": "2026-09-10",
+    "title": "Identifying Habit, Physics, and Nuisance in Robot World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.09250": {
+    "first_seen": "2026-09-10",
+    "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.09418": {
+    "first_seen": "2026-09-10",
+    "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.09591": {
+    "first_seen": "2026-09-10",
+    "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.09597": {
+    "first_seen": "2026-09-10",
+    "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.09627": {
+    "first_seen": "2026-09-10",
+    "title": "Seven Sources of Physical AI Capability Formation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.09808": {
+    "first_seen": "2026-09-10",
+    "title": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.09925": {
+    "first_seen": "2026-09-10",
+    "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.09941": {
+    "first_seen": "2026-09-10",
+    "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.10021": {
+    "first_seen": "2026-09-10",
+    "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10243": {
+    "first_seen": "2026-09-10",
+    "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10405": {
+    "first_seen": "2026-09-10",
+    "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10464": {
+    "first_seen": "2026-09-10",
+    "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.10506": {
+    "first_seen": "2026-09-10",
+    "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.10522": {
+    "first_seen": "2026-09-10",
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10540": {
+    "first_seen": "2026-09-10",
+    "title": "Programmable World Model",
+    "topics": [
+      "world_models"
+    ]
   }
 }

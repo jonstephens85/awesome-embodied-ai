@@ -2,47 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-09 23:39 UTC
+**Last updated:** 2026-09-10 18:57 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398)
-
-**Authors:** Yuran Wang, Siqiao Huang, Mingleyang Li, Chenhao Zhang, Jiaqi Liang et al. (24 authors)
-
-**Published:** 2026-09-07 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric human" in abstract; project page; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.07398) | [PDF](https://arxiv.org/pdf/2609.07398) | [Project Page](https://openwam-official.github.io/) | [Code](https://github.com/OpenWAM-Official/OpenWAM)
-
-<details>
-<summary>Abstract</summary>
-
-World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, infere...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining
-
-World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience.
-
-arXiv: https://arxiv.org/abs/2609.07398
-Project page: https://openwam-official.github.io/
-Code: https://github.com/OpenWAM-Official/OpenWAM
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -81,13 +45,49 @@ Project page: https://corrineqiu.github.io/from-where-to-how/
 
 ---
 
+### [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398)
+
+**Authors:** Yuran Wang, Siqiao Huang, Mingleyang Li, Chenhao Zhang, Jiaqi Liang et al. (24 authors)
+
+**Published:** 2026-09-07 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in abstract; project page; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.07398) | [PDF](https://arxiv.org/pdf/2609.07398) | [Project Page](https://openwam-official.github.io/) | [Code](https://github.com/OpenWAM-Official/OpenWAM)
+
+<details>
+<summary>Abstract</summary>
+
+World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, infere...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining
+
+World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience.
+
+arXiv: https://arxiv.org/abs/2609.07398
+Project page: https://openwam-official.github.io/
+Code: https://github.com/OpenWAM-Official/OpenWAM
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction](https://arxiv.org/abs/2609.07747)
 
 **Authors:** Ruoqu Chen, Feixiang Ruan, Liu Cao, Zihao Wang, Botian Xu et al. (12 authors)
 
-**Published:** 2026-09-07 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-09-07 (updated 2026-09-09) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "human video data" in abstract; project page; posted in last 2 days
+**Why surfaced:** "human video data" in abstract; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.07747) | [PDF](https://arxiv.org/pdf/2609.07747) | [Project Page](https://dexx-code.github.io/dexx-code/)
 
@@ -155,7 +155,7 @@ Code: https://github.com/QHUni/BuddyVQA
 
 **Authors:** Diwas Lamsal, Juha Carlon, Reinhard Claeys, Maxim Yudayev, Louis Flynn et al. (11 authors)
 
-**Published:** 2026-09-08 | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-08 (updated 2026-09-09) | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; posted in last 2 days
 
@@ -177,108 +177,6 @@ RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomoti
 Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities.
 
 arXiv: https://arxiv.org/abs/2609.08090
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities](https://arxiv.org/abs/2609.07394)
-
-**Authors:** Raphael Lorenzo-Louis, Bertrand Luvison, Serena Ivaldi
-
-**Published:** 2026-09-07 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.07394) | [PDF](https://arxiv.org/pdf/2609.07394)
-
-<details>
-<summary>Abstract</summary>
-
-Anticipating whether a person will interact from one's own perspective is a highly intuitive task for humans, that relies on a combination of cues. We investigate how humans perform at predicting a person's intention to interact from a service robot's point of view, using pose-only or full video input, then benchmark different lightweight pose-based models and state-of-the-art vision-language models. We conducted our benchmark on the HUI360 dataset on a fixed pilot subset of 100 test tracks (25 positive, 75 negative). We found that with pose-only input, human annotators outperform lightweight...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities
-
-Anticipating whether a person will interact from one's own perspective is a highly intuitive task for humans, that relies on a combination of cues.
-
-arXiv: https://arxiv.org/abs/2609.07394
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model](https://arxiv.org/abs/2609.07154)
-
-**Authors:** Logesh Kumar Umapathi
-
-**Published:** 2026-09-07 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.07154) | [PDF](https://arxiv.org/pdf/2609.07154)
-
-<details>
-<summary>Abstract</summary>
-
-We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set. Our system is a single 2B vision-language model that answers multiple-choice questions about ten-minute egocentric videos in one greedy forward pass; It is obtained by distilling the junior perception module of a tool-using agentic pipeline, not the agent itself into a small student, using teacher traces filtered to those that answered correctly. it reaches 89% of the accuracy of the large agentic pipeline using 1.1% of...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model
-
-We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set.
-
-arXiv: https://arxiv.org/abs/2609.07154
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision](https://arxiv.org/abs/2609.07099)
-
-**Authors:** Logesh Kumar Umapathi
-
-**Published:** 2026-09-07 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.07099) | [PDF](https://arxiv.org/pdf/2609.07099)
-
-<details>
-<summary>Abstract</summary>
-
-We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division. The task requires a wearable assistant to decide after each eight-second segment of egocentric video whether to intervene or remain silent. Our approach has two main components. First, we reformulate intervention timing as single-token classification. Rather than generating either $interrupt$<utterance> or $silent$, the model predicts yes or no, and we derive the decision from the renormalised probabilities of these two toke...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision
-
-We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division.
-
-arXiv: https://arxiv.org/abs/2609.07099
 
 #egocentric #robotlearning
 ```
@@ -313,6 +211,108 @@ MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Sca
 Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality.
 
 arXiv: https://arxiv.org/abs/2609.04958
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities](https://arxiv.org/abs/2609.07394)
+
+**Authors:** Raphael Lorenzo-Louis, Bertrand Luvison, Serena Ivaldi
+
+**Published:** 2026-09-07 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.07394) | [PDF](https://arxiv.org/pdf/2609.07394)
+
+<details>
+<summary>Abstract</summary>
+
+Anticipating whether a person will interact from one's own perspective is a highly intuitive task for humans, that relies on a combination of cues. We investigate how humans perform at predicting a person's intention to interact from a service robot's point of view, using pose-only or full video input, then benchmark different lightweight pose-based models and state-of-the-art vision-language models. We conducted our benchmark on the HUI360 dataset on a fixed pilot subset of 100 test tracks (25 positive, 75 negative). We found that with pose-only input, human annotators outperform lightweight...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Social Intuition vs. Machine Reasoning: Anticipating Human-Robot Interaction from multiple modalities
+
+Anticipating whether a person will interact from one's own perspective is a highly intuitive task for humans, that relies on a combination of cues.
+
+arXiv: https://arxiv.org/abs/2609.07394
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model](https://arxiv.org/abs/2609.07154)
+
+**Authors:** Logesh Kumar Umapathi
+
+**Published:** 2026-09-07 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.07154) | [PDF](https://arxiv.org/pdf/2609.07154)
+
+<details>
+<summary>Abstract</summary>
+
+We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set. Our system is a single 2B vision-language model that answers multiple-choice questions about ten-minute egocentric videos in one greedy forward pass; It is obtained by distilling the junior perception module of a tool-using agentic pipeline, not the agent itself into a small student, using teacher traces filtered to those that answered correctly. it reaches 89% of the accuracy of the large agentic pipeline using 1.1% of...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model
+
+We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set.
+
+arXiv: https://arxiv.org/abs/2609.07154
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision](https://arxiv.org/abs/2609.07099)
+
+**Authors:** Logesh Kumar Umapathi
+
+**Published:** 2026-09-07 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.07099) | [PDF](https://arxiv.org/pdf/2609.07099)
+
+<details>
+<summary>Abstract</summary>
+
+We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division. The task requires a wearable assistant to decide after each eight-second segment of egocentric video whether to intervene or remain silent. Our approach has two main components. First, we reformulate intervention timing as single-token classification. Rather than generating either $interrupt$<utterance> or $silent$, the model predicts yes or no, and we derive the decision from the renormalised probabilities of these two toke...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision
+
+We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division.
+
+arXiv: https://arxiv.org/abs/2609.07099
 
 #egocentric #robotlearning
 ```
