@@ -2,46 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-10 23:32 UTC
+**Last updated:** 2026-09-11 18:59 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](https://arxiv.org/abs/2609.08636)
-
-**Authors:** Qiaohui Chu, Haoyu Zhang, Meng Liu, Haoxiang Shi, Dongmei Jiang et al. (6 authors)
-
-**Published:** 2026-09-08 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.08636) | [PDF](https://arxiv.org/pdf/2609.08636) | [Project Page](https://corrineqiu.github.io/from-where-to-how/)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and human-computer interaction. Existing methods struggle to translate semantic understanding into precise continuous 3D localization and to balance motion diversity with structural consistency in pose forecasting. More fundamentally, these tasks are often modeled separately, leaving the continuous geometric and temporal correspondence between interaction locations and body motion insu...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video
-
-Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and h...
-
-arXiv: https://arxiv.org/abs/2609.08636
-Project page: https://corrineqiu.github.io/from-where-to-how/
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -73,6 +38,41 @@ World-Action Models inherit world knowledge from video-generative priors, and ch
 arXiv: https://arxiv.org/abs/2609.07398
 Project page: https://openwam-official.github.io/
 Code: https://github.com/OpenWAM-Official/OpenWAM
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](https://arxiv.org/abs/2609.08636)
+
+**Authors:** Qiaohui Chu, Haoyu Zhang, Meng Liu, Haoxiang Shi, Dongmei Jiang et al. (6 authors)
+
+**Published:** 2026-09-08 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.08636) | [PDF](https://arxiv.org/pdf/2609.08636) | [Project Page](https://corrineqiu.github.io/from-where-to-how/)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and human-computer interaction. Existing methods struggle to translate semantic understanding into precise continuous 3D localization and to balance motion diversity with structural consistency in pose forecasting. More fundamentally, these tasks are often modeled separately, leaving the continuous geometric and temporal correspondence between interaction locations and body motion insu...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video
+
+Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and h...
+
+arXiv: https://arxiv.org/abs/2609.08636
+Project page: https://corrineqiu.github.io/from-where-to-how/
 
 #egocentric #robotlearning
 ```
@@ -151,40 +151,6 @@ Code: https://github.com/QHUni/BuddyVQA
 
 ---
 
-### [RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts](https://arxiv.org/abs/2609.08090)
-
-**Authors:** Diwas Lamsal, Juha Carlon, Reinhard Claeys, Maxim Yudayev, Louis Flynn et al. (11 authors)
-
-**Published:** 2026-09-08 (updated 2026-09-09) | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.08090) | [PDF](https://arxiv.org/pdf/2609.08090)
-
-<details>
-<summary>Abstract</summary>
-
-Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities. However, public benchmarks are typically collected from healthy adults, lack temporally precise labels necessary for detecting mode transitions, or focus on a limited set of tasks. To support development and evaluation under realistic clinical constraints and daily mobility demands, we introduce RevalExo, a functional daily-activity benchmark for inertial and visual locomotion m...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts
-
-Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities.
-
-arXiv: https://arxiv.org/abs/2609.08090
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](https://arxiv.org/abs/2609.04958)
 
 **Authors:** Zijie Zhu, Weiren Cai, Yizhou Wang, Zhenjie Yang, Yide Liu et al. (7 authors)
@@ -211,6 +177,40 @@ MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Sca
 Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality.
 
 arXiv: https://arxiv.org/abs/2609.04958
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts](https://arxiv.org/abs/2609.08090)
+
+**Authors:** Diwas Lamsal, Juha Carlon, Reinhard Claeys, Maxim Yudayev, Louis Flynn et al. (11 authors)
+
+**Published:** 2026-09-08 (updated 2026-09-09) | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.08090) | [PDF](https://arxiv.org/pdf/2609.08090)
+
+<details>
+<summary>Abstract</summary>
+
+Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities. However, public benchmarks are typically collected from healthy adults, lack temporally precise labels necessary for detecting mode transitions, or focus on a limited set of tasks. To support development and evaluation under realistic clinical constraints and daily mobility demands, we introduce RevalExo, a functional daily-activity benchmark for inertial and visual locomotion m...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts
+
+Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities.
+
+arXiv: https://arxiv.org/abs/2609.08090
 
 #egocentric #robotlearning
 ```
@@ -257,7 +257,7 @@ arXiv: https://arxiv.org/abs/2609.07394
 
 **Authors:** Logesh Kumar Umapathi
 
-**Published:** 2026-09-07 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+**Published:** 2026-09-07 (updated 2026-09-10) | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract
 
@@ -291,7 +291,7 @@ arXiv: https://arxiv.org/abs/2609.07154
 
 **Authors:** Logesh Kumar Umapathi
 
-**Published:** 2026-09-07 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+**Published:** 2026-09-07 (updated 2026-09-10) | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract
 

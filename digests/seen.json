@@ -1375,5 +1375,69 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2609.10706": {
+    "first_seen": "2026-09-11",
+    "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10873": {
+    "first_seen": "2026-09-11",
+    "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.10915": {
+    "first_seen": "2026-09-11",
+    "title": "IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.11308": {
+    "first_seen": "2026-09-11",
+    "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.11310": {
+    "first_seen": "2026-09-11",
+    "title": "Your Model Already Knows Don't Teach It, Learn to Ask It: Soft Prompting for Few-Shot Adaptation of Vision-Language Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.11445": {
+    "first_seen": "2026-09-11",
+    "title": "FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.11553": {
+    "first_seen": "2026-09-11",
+    "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.11697": {
+    "first_seen": "2026-09-11",
+    "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.11875": {
+    "first_seen": "2026-09-11",
+    "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+    "topics": [
+      "vla"
+    ]
   }
 }
