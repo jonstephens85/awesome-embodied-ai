@@ -1439,5 +1439,89 @@
     "topics": [
       "vla"
     ]
+  },
+  "2609.12036": {
+    "first_seen": "2026-09-14",
+    "title": "Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12075": {
+    "first_seen": "2026-09-14",
+    "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.12090": {
+    "first_seen": "2026-09-14",
+    "title": "Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12103": {
+    "first_seen": "2026-09-14",
+    "title": "RodForesight: A World Model Enhanced Diffusion Policy for Slender and Material Agnostic Rod Insertion",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12278": {
+    "first_seen": "2026-09-14",
+    "title": "Amortized Low-Rank Adaptation for Model-Based Reinforcement Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12316": {
+    "first_seen": "2026-09-14",
+    "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.12347": {
+    "first_seen": "2026-09-14",
+    "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12371": {
+    "first_seen": "2026-09-14",
+    "title": "READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.12422": {
+    "first_seen": "2026-09-14",
+    "title": "Hierarchical Belief Modeling for Zero-Shot Opponent Adaptation in Partially Observable Multi-Agent Navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12441": {
+    "first_seen": "2026-09-14",
+    "title": "IMPLY: Physically Anchored Consistency for World-Model Rollouts",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.12641": {
+    "first_seen": "2026-09-14",
+    "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.13053": {
+    "first_seen": "2026-09-14",
+    "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+    "topics": [
+      "vla"
+    ]
   }
 }

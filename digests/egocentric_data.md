@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-11 18:59 UTC
+**Last updated:** 2026-09-14 20:09 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 7 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -108,75 +108,6 @@ Human videos are an abundant source of dexterous manipulation behaviors, but the
 
 arXiv: https://arxiv.org/abs/2609.07747
 Project page: https://dexx-code.github.io/dexx-code/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Companion-style QA Assistance in Ego-Vision](https://arxiv.org/abs/2609.06721)
-
-**Authors:** Hangyu Qin, Junbin Xiao, Shenglang Zhang, Angela Yao
-
-**Published:** 2026-09-06 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.06721) | [PDF](https://arxiv.org/pdf/2609.06721) | [Code](https://github.com/QHUni/BuddyVQA)
-
-<details>
-<summary>Abstract</summary>
-
-AI companions are envisioned as always-on assistants that support users in daily life. With this regard, we introduce BuddyVQA, a benchmark for companion-style question answering (QA) on egocentric streaming video. BuddyVQA contains 21.6K questions linked to 6K highlight moments across 1,012 long, egocentric videos. It features two key characteristics that are common in daily first-person QA assistance but are largely overlooked in existing VideoQA benchmarks: ego-deictic expressions and interactively chained questions (e.g., "Where is it?", "How to get there?"). These require models to infer...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Companion-style QA Assistance in Ego-Vision
-
-AI companions are envisioned as always-on assistants that support users in daily life.
-
-arXiv: https://arxiv.org/abs/2609.06721
-Code: https://github.com/QHUni/BuddyVQA
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](https://arxiv.org/abs/2609.04958)
-
-**Authors:** Zijie Zhu, Weiren Cai, Yizhou Wang, Zhenjie Yang, Yide Liu et al. (7 authors)
-
-**Published:** 2026-09-04 (updated 2026-09-08) | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.04958) | [PDF](https://arxiv.org/pdf/2609.04958)
-
-<details>
-<summary>Abstract</summary>
-
-Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality. Existing systems typically decompose this problem into separate stages for camera motion, depth estimation, hand reconstruction, and trajectory refinement, resulting in substantial computational overhead and preventing the joint modeling of camera and hand motion. We introduce MINT (Minting IN-the-Wild Trajectories), a foundation model for world-space hand motion reconstruction from ego-centric RGB video. From a single shared spatio...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision
-
-Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality.
-
-arXiv: https://arxiv.org/abs/2609.04958
 
 #egocentric #robotlearning
 ```
@@ -313,40 +244,6 @@ Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grou
 We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division.
 
 arXiv: https://arxiv.org/abs/2609.07099
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents](https://arxiv.org/abs/2609.04802)
-
-**Authors:** Tianyidan Xie, Shenyi Wang, Qiang Tang, Mingjie Wang, Zhicheng Qiu et al. (10 authors)
-
-**Published:** 2026-09-04 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "Ego4D" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.04802) | [PDF](https://arxiv.org/pdf/2609.04802)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied agents performing long-horizon tasks require a memory representation in which the state transitions of dynamic objects remain queryable in natural language across hours-to-days observation horizons. Existing systems either drop fine-grained motion (clip-level video-language embeddings), keep it only as raw coordinates (geometric SLAM), or organise it around immediate task context (agent working memories). None of them gives the agent a per-object timeline whose state transitions are themselves queryable in language. Our key contribution is \textbf{Linguistic Trajectory Encoding} (LTE)...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents
-
-Embodied agents performing long-horizon tasks require a memory representation in which the state transitions of dynamic objects remain queryable in natural language across hours-to-days observation horizons.
-
-arXiv: https://arxiv.org/abs/2609.04802
 
 #egocentric #robotlearning
 ```
