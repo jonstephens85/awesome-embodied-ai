@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15 19:31 UTC",
+  "generated": "2026-09-15 23:49 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -153,7 +153,7 @@
       "project_page": null,
       "github_url": "https://github.com/AhernResearch/grava",
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving\n\nDriving vision-language-action (VLA) models increasingly reason before acting, but their intermediate reasoning is often weakly grounded in physical scene evidence and loosely connected to executable behavior.\n\narXiv: https://arxiv.org/abs/2609.15169\nCode: https://github.com/AhernResearch/grava\n\n#VLA #robotics"
     },
     {
@@ -185,7 +185,7 @@
       "project_page": "https://reweight-vla.github.io/",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ReWeight: Leveraging Human Data for VLA Post-Training via Demonstration Retrieval and Sample Weighting\n\nPost-training vision-language-action (VLA) models for specific robots and tasks requires in-domain demonstrations, yet collecting diverse robot data is costly.\n\narXiv: https://arxiv.org/abs/2609.13851\nProject page: https://reweight-vla.github.io/\n\n#VLA #robotics"
     },
     {
@@ -212,7 +212,7 @@
       "project_page": null,
       "github_url": "https://github.com/rafiqul713/smolvla-libero-onnx",
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "When Faster VLA Deployment Changes Closed-Loop Behavior: Task Success-Latency Analysis of SmolVLA Across PyTorch and ONNX Variants\n\nVision-language-action (VLA) deployment can reduce inference latency while changing closed-loop task behavior.\n\narXiv: https://arxiv.org/abs/2609.14146\nCode: https://github.com/rafiqul713/smolvla-libero-onnx\n\n#VLA #robotics"
     },
     {
@@ -242,7 +242,7 @@
       "project_page": "https://devsangho.github.io/GROOVE-public/",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GROOVE: Geometry-Guided Reduction of Operational-Space Jerk in VLA Execution\n\nChunked vision language action (VLA) policies execute several commands per query, but jerk within chunks and across replanning boundaries can induce oscillatory motion and sharp actuator transients.\n\narXiv: https://arxiv.org/abs/2609.13695\nProject page: https://devsangho.github.io/GROOVE-public/\n\n#VLA #robotics"
     },
     {
@@ -276,7 +276,7 @@
       "project_page": "https://LPA-CWM.github.io",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LPA-CWM: A Learned Physical Adjudicator for Motion Reasoning with Counterfactual World Models\n\nCounterfactual world models (CWM) extract motion from pretrained video predictors by comparing factual and intervened predictions.\n\narXiv: https://arxiv.org/abs/2609.14073\nProject page: https://LPA-CWM.github.io\n\n#worldmodels #robotics"
     },
     {
@@ -472,7 +472,7 @@
       "project_page": "https://wla-3.github.io/",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics\n\nScaling generalist policy models with heterogeneous data is limited by the lack of unified, low-noise action supervision.\n\narXiv: https://arxiv.org/abs/2609.15870\nProject page: https://wla-3.github.io/\n\n#egocentric #robotlearning"
     },
     {
@@ -500,7 +500,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies\n\nVision-Language-Action (VLA) policies perform robot manipulation tasks using multimodal inputs such as visual observations, proprioceptive states, and language instructions.\n\narXiv: https://arxiv.org/abs/2609.15005\n\n#VLA #robotics"
     },
     {
@@ -531,7 +531,7 @@
       "project_page": null,
       "github_url": "https://github.com/ASIG-X/JEPLO",
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion\n\nLight detection and ranging (LiDAR) remains less explored than RGB-D sensing for perceptive legged locomotion, and existing LiDAR-based approaches often rely on explicit mapping.\n\narXiv: https://arxiv.org/abs/2609.15770\nCode: https://github.com/ASIG-X/JEPLO\n\n#worldmodels #robotics"
     },
     {
@@ -562,7 +562,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Legislating World-Model-Based Planning with Legal Reasoning\n\nAs robotic systems grow more general, legal norms are needed to integrate them into society.\n\narXiv: https://arxiv.org/abs/2609.15113\n\n#worldmodels #robotics"
     },
     {
@@ -596,7 +596,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GLAM: Training a latent world model over global spatiotemporal memory for active exploration and navigation\n\nActive exploration and semantic navigation require an embodied agent to build memory from partial observations, predict how the evolution of observed spatial memory may support future motion, and convert that predicti...\n\narXiv: https://arxiv.org/abs/2609.14561\n\n#worldmodels #robotics"
     },
     {
@@ -629,7 +629,7 @@
       "project_page": "https://visibletouch.github.io/",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Visible Touch: Rendering Contact for Visuomotor Policies\n\nIntegrating contact information into visuomotor policies remains an open problem.\n\narXiv: https://arxiv.org/abs/2609.14156\nProject page: https://visibletouch.github.io/\n\n#VLA #robotics"
     },
     {
@@ -659,7 +659,7 @@
       "project_page": "https://ziyin-xiong.github.io/geomvla.io/",
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "GeomVLA: Unifying Scene, Motion, and Action in 3D\n\nWe present GeomVLA, a Vision-Language-Action (VLA) model that unifies perception, latent scene motion prediction, and action generation within a shared robot-centric 3D coordinate frame.\n\narXiv: https://arxiv.org/abs/2609.13812\nProject page: https://ziyin-xiong.github.io/geomvla.io/\n\n#VLA #robotics"
     },
     {
@@ -698,7 +698,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "How to Better Train VLAs: Lessons Learned From the REAL-I Challenge at ICRA 2026\n\nHow can robot policies learn more effectively from a fixed demonstration budget?\n\narXiv: https://arxiv.org/abs/2609.13679\n\n#VLA #robotics"
     },
     {
@@ -877,7 +877,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Beyond Single-Axis Testing: Paired Evaluation of Compound Robustness in Vision-Language-Action Policies\n\nVision-language-action policies are typically evaluated one perturbation at a time, providing a useful diagnosis of their sensitivity to individual distribution shifts.\n\narXiv: https://arxiv.org/abs/2609.15940\n\n#VLA #robotics"
     },
     {
@@ -908,7 +908,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation\n\nWheel-loader excavation is a sequential decision problem in which every scoop changes the terrain available to subsequent actions.\n\narXiv: https://arxiv.org/abs/2609.15382\n\n#worldmodels #robotics"
     },
     {
@@ -939,7 +939,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Task-Specified Active Metrological Inspection with Measurement-Steered VLA Manipulation and Deterministic Evidence Gating\n\nHigh-mix low-volume (HMLV) manufacturing requires inspection systems to adapt to changing parts, specifications, and work orders without repeated task-specific programming.\n\narXiv: https://arxiv.org/abs/2609.14219\n\n#VLA #robotics"
     },
     {
@@ -976,7 +976,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "What Makes an Efficient VLA? Navigating Action-Head Design, Scaling, and Latency\n\nVision-Language-Action (VLA) models combine a pretrained vision encoder, a language backbone, and an action head, but their relative contribution has not been established under controlled, latency-paired conditions.\n\narXiv: https://arxiv.org/abs/2609.13984\n\n#VLA #robotics"
     },
     {
@@ -1355,7 +1355,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "When Should a World Model Move? Loss-Conditioned State Execution\n\nWe introduce loss-conditioned state execution, a model-agnostic method that decides whether to execute a world model's fixed feasible proposal or retain the current state.\n\narXiv: https://arxiv.org/abs/2609.15801\n\n#worldmodels #robotics"
     },
     {
@@ -1384,7 +1384,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control\n\nPretrained world models, learned simulators that encode an observation into a latent state and predict how it evolves under actions, are beginning to be reused as off-the-shelf dynamics backbones for control, like pre...\n\narXiv: https://arxiv.org/abs/2609.15781\n\n#worldmodels #robotics"
     },
     {
@@ -1414,7 +1414,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "One Model, Two Physical Stories: Auditing Misalignment in Multi-Modal World Modeling\n\nWorld models, systems that generate what happens next given current environmental conditions, are increasingly being implemented with multi-modal generation in mind.\n\narXiv: https://arxiv.org/abs/2609.14833\n\n#worldmodels #robotics"
     },
     {
@@ -1444,7 +1444,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Talking to Me or Someone Else? Rethinking Talk-to-Me Detection in Egocentric Videos\n\nOnline understanding of who is talking to the camera wearer is a key capability for egocentric social interaction.\n\narXiv: https://arxiv.org/abs/2609.14118\n\n#egocentric #robotlearning"
     },
     {
@@ -1550,7 +1550,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation\n\nCan changing only the language instruction redirect a VLA policy's end effector, or does the visually driven motion prior dominate?\n\narXiv: https://arxiv.org/abs/2609.15012\n\n#VLA #robotics"
     },
     {
@@ -1578,7 +1578,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LePlanner: An Iterative Amortized Controller For World Models\n\nWorld models trained with joint-embedding predictive architectures learn compact, structured latent representations from physical interaction, yet planning in these latent spaces typically relies on one of two costly...\n\narXiv: https://arxiv.org/abs/2609.13845\n\n#worldmodels #robotics"
     },
     {
@@ -1801,7 +1801,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Math for AI safety: an invitation for mathematicians\n\nArtificial intelligence threatens to outrun human understanding and control.\n\narXiv: https://arxiv.org/abs/2609.15289\n\n#worldmodels #robotics"
     },
     {
@@ -2104,7 +2104,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-09-15",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Exploring napping paradigm for Recurrent Spiking Neural Networks\n\nBiological organisms minimize free energy by balancing two competing demands on their internal world model: it must be accurate enough to predict sensory input, yet simple enough to generalize beyond it.\n\narXiv: https://arxiv.org/abs/2609.13927\n\n#worldmodels #robotics"
     },
     {
