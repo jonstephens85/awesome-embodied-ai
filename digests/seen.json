@@ -1463,7 +1463,7 @@
   },
   "2609.12103": {
     "first_seen": "2026-09-14",
-    "title": "RodForesight: A World Model Enhanced Diffusion Policy for Slender and Material Agnostic Rod Insertion",
+    "title": "RodForesight: A World Model Enhanced Diffusion Policy for Slender Rod Insertion",
     "topics": [
       "world_models"
     ]
@@ -1520,6 +1520,182 @@
   "2609.13053": {
     "first_seen": "2026-09-14",
     "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.13679": {
+    "first_seen": "2026-09-15",
+    "title": "How to Better Train VLAs: Lessons Learned From the REAL-I Challenge at ICRA 2026",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.13695": {
+    "first_seen": "2026-09-15",
+    "title": "GROOVE: Geometry-Guided Reduction of Operational-Space Jerk in VLA Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.13812": {
+    "first_seen": "2026-09-15",
+    "title": "GeomVLA: Unifying Scene, Motion, and Action in 3D",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.13845": {
+    "first_seen": "2026-09-15",
+    "title": "LePlanner: An Iterative Amortized Controller For World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.13851": {
+    "first_seen": "2026-09-15",
+    "title": "ReWeight: Leveraging Human Data for VLA Post-Training via Demonstration Retrieval and Sample Weighting",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2609.13927": {
+    "first_seen": "2026-09-15",
+    "title": "Exploring napping paradigm for Recurrent Spiking Neural Networks",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.13984": {
+    "first_seen": "2026-09-15",
+    "title": "What Makes an Efficient VLA? Navigating Action-Head Design, Scaling, and Latency",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.14073": {
+    "first_seen": "2026-09-15",
+    "title": "LPA-CWM: A Learned Physical Adjudicator for Motion Reasoning with Counterfactual World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.14118": {
+    "first_seen": "2026-09-15",
+    "title": "Talking to Me or Someone Else? Rethinking Talk-to-Me Detection in Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.14146": {
+    "first_seen": "2026-09-15",
+    "title": "When Faster VLA Deployment Changes Closed-Loop Behavior: Task Success-Latency Analysis of SmolVLA Across PyTorch and ONNX Variants",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.14156": {
+    "first_seen": "2026-09-15",
+    "title": "Visible Touch: Rendering Contact for Visuomotor Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.14219": {
+    "first_seen": "2026-09-15",
+    "title": "Task-Specified Active Metrological Inspection with Measurement-Steered VLA Manipulation and Deterministic Evidence Gating",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.14561": {
+    "first_seen": "2026-09-15",
+    "title": "GLAM: Training a latent world model over global spatiotemporal memory for active exploration and navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.14833": {
+    "first_seen": "2026-09-15",
+    "title": "One Model, Two Physical Stories: Auditing Misalignment in Multi-Modal World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15005": {
+    "first_seen": "2026-09-15",
+    "title": "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.15012": {
+    "first_seen": "2026-09-15",
+    "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.15113": {
+    "first_seen": "2026-09-15",
+    "title": "Legislating World-Model-Based Planning with Legal Reasoning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15169": {
+    "first_seen": "2026-09-15",
+    "title": "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.15289": {
+    "first_seen": "2026-09-15",
+    "title": "Math for AI safety: an invitation for mathematicians",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15382": {
+    "first_seen": "2026-09-15",
+    "title": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15770": {
+    "first_seen": "2026-09-15",
+    "title": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15781": {
+    "first_seen": "2026-09-15",
+    "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15801": {
+    "first_seen": "2026-09-15",
+    "title": "When Should a World Model Move? Loss-Conditioned State Execution",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.15870": {
+    "first_seen": "2026-09-15",
+    "title": "WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.15940": {
+    "first_seen": "2026-09-15",
+    "title": "Beyond Single-Axis Testing: Paired Evaluation of Compound Robustness in Vision-Language-Action Policies",
     "topics": [
       "vla"
     ]
