@@ -1,7 +1,5 @@
 name: arXiv Header Probe
 
-# Temporary diagnostic. Triggers on push to this branch so it can run without
-# living on the default branch. Delete before merging.
 on:
   push:
     branches: ['claude/github-actions-failures-*']
@@ -12,54 +10,79 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: curl variants
+      - name: Isolate why urllib is rejected but curl is not
         run: |
-          Q='search_query=all:%22egocentric+video%22&sortBy=submittedDate&sortOrder=descending&start=0&max_results=2'
-          BROWSER='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36'
-          probe() { printf '%-46s ' "$1"; shift; curl -s -o /dev/null -w 'http=%{http_code} size=%{size_download}\n' --max-time 40 "$@"; sleep 3; }
-
-          probe "c1 curl default"                 "https://export.arxiv.org/api/query?$Q"
-          probe "c2 curl browser UA"              -H "User-Agent: $BROWSER" "https://export.arxiv.org/api/query?$Q"
-          probe "c3 curl browser UA+accept+gzip"  -H "User-Agent: $BROWSER" -H 'Accept: application/atom+xml,text/html,*/*;q=0.8' -H 'Accept-Encoding: gzip, deflate, br' "https://export.arxiv.org/api/query?$Q"
-          probe "c4 curl http (not https)"        "http://export.arxiv.org/api/query?$Q"
-          probe "c5 curl arxiv.org host"          "https://arxiv.org/api/query?$Q"
-          probe "c6 curl simple query no quotes"  "https://export.arxiv.org/api/query?search_query=all:robot&max_results=2"
-          probe "c7 curl HTTP/1.1 forced"         --http1.1 -H "User-Agent: $BROWSER" "https://export.arxiv.org/api/query?$Q"
-
-      - name: python urllib variants
-        run: |
+          pip install -q requests
           python - <<'PY'
-          import urllib.request, urllib.parse, urllib.error, gzip, io, time
+          import http.client, urllib.parse, urllib.request, urllib.error
+          import subprocess, time, gzip
+
           P = {"search_query":'all:"egocentric video"',"sortBy":"submittedDate",
                "sortOrder":"descending","start":0,"max_results":2}
-          URL = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(P)
-          BROWSER = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
-          SHIPPED = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
+          PATH = "/api/query?" + urllib.parse.urlencode(P)
+          URL = "https://export.arxiv.org" + PATH
+          UA = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
 
-          def go(name, headers, url=URL):
+          def show(name, fn):
               try:
-                  r = urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=40)
-                  b = r.read()
-                  if r.headers.get("Content-Encoding") == "gzip":
-                      b = gzip.decompress(b)
-                  print(f"{name:<46} HTTP {r.status} bytes={len(b)}")
-              except urllib.error.HTTPError as e:
-                  print(f"{name:<46} HTTPError {e.code} {e.reason}")
+                  print(f"{name:<44} {fn()}")
               except Exception as e:
-                  print(f"{name:<46} {type(e).__name__}: {e}")
+                  print(f"{name:<44} {type(e).__name__}: {e}")
               time.sleep(3)
 
-          go("p1 shipped headers (identity)", {"User-Agent":SHIPPED,
-              "Accept":"application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
-              "Accept-Language":"en-US,en;q=0.9","Accept-Encoding":"identity"})
-          go("p2 shipped UA, gzip encoding", {"User-Agent":SHIPPED,
-              "Accept":"application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
-              "Accept-Encoding":"gzip, deflate"})
-          go("p3 browser UA only", {"User-Agent":BROWSER})
-          go("p4 browser UA + gzip + accept", {"User-Agent":BROWSER,
-              "Accept":"application/atom+xml,text/html,*/*;q=0.8",
-              "Accept-Encoding":"gzip, deflate","Accept-Language":"en-US,en;q=0.9",
-              "Connection":"keep-alive"})
-          go("p5 no headers (urllib default)", {})
+          # 1. what urllib actually puts on the wire
+          r = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept": "application/atom+xml"})
+          print("urllib header casing on wire:", dict(r.header_items()))
+          print()
+
+          # 2. http.client with EXACT header casing (stdlib, no urllib rewriting)
+          def exact_case():
+              c = http.client.HTTPSConnection("export.arxiv.org", timeout=40)
+              c.putrequest("GET", PATH, skip_host=True, skip_accept_encoding=True)
+              c.putheader("Host", "export.arxiv.org")
+              c.putheader("User-Agent", UA)
+              c.putheader("Accept", "application/atom+xml,application/xml;q=0.9,*/*;q=0.8")
+              c.putheader("Accept-Encoding", "gzip, deflate")
+              c.putheader("Connection", "keep-alive")
+              c.endheaders()
+              resp = c.getresponse(); body = resp.read(); c.close()
+              return f"HTTP {resp.status} bytes={len(body)}"
+          show("A http.client exact casing", exact_case)
+
+          # 3. http.client mimicking urllib's capitalize() casing
+          def urllib_case():
+              c = http.client.HTTPSConnection("export.arxiv.org", timeout=40)
+              c.putrequest("GET", PATH, skip_host=True, skip_accept_encoding=True)
+              c.putheader("Host", "export.arxiv.org")
+              c.putheader("User-agent", UA)
+              c.putheader("Accept-encoding", "identity")
+              c.putheader("Connection", "close")
+              c.endheaders()
+              resp = c.getresponse(); body = resp.read(); c.close()
+              return f"HTTP {resp.status} bytes={len(body)}"
+          show("B http.client urllib-style casing", urllib_case)
+
+          # 4. requests
+          import requests
+          show("C requests default UA",
+               lambda: f"HTTP {requests.get(URL, timeout=40).status_code}")
+          show("D requests + our UA",
+               lambda: f"HTTP {requests.get(URL, headers={'User-Agent': UA}, timeout=40).status_code}")
+
+          # 5. curl via subprocess (known good)
+          def curl():
+              out = subprocess.run(["curl","-s","-o","/dev/null","-w","%{http_code}",
+                                    "--max-time","40","-H",f"User-Agent: {UA}", URL],
+                                   capture_output=True, text=True)
+              return f"HTTP {out.stdout.strip()}"
+          show("E curl subprocess + our UA", curl)
+
+          # 6. plain urllib for the record
+          def plain():
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(URL, headers={"User-Agent": UA}), timeout=40) as r:
+                      return f"HTTP {r.status} bytes={len(r.read())}"
+              except urllib.error.HTTPError as e:
+                  return f"HTTPError {e.code} {e.reason}"
+          show("F urllib (baseline)", plain)
           PY
