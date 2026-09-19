@@ -8,47 +8,47 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
-      - name: Characterise arXiv throttling
+      - name: Isolate query complexity vs max_results
         run: |
           python - <<'PY'
           import urllib.request, urllib.parse, urllib.error, time
 
           UA = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
+          KW = "egocentric video"
+          SIMPLE  = f'all:"{KW}"'
+          MEDIUM  = f'(ti:"{KW}" OR abs:"{KW}")'
+          COMPLEX = f'(ti:"{KW}" OR abs:"{KW}") AND (cat:cs.RO OR cat:cs.CV OR cat:cs.LG OR cat:cs.AI)'
 
-          def hit(kw, delay_label=""):
-              P = {"search_query": f'(ti:"{kw}" OR abs:"{kw}") AND (cat:cs.RO OR cat:cs.CV)',
-                   "sortBy":"submittedDate","sortOrder":"descending","start":0,"max_results":100}
+          def hit(q, n, sort=True):
+              P = {"search_query": q, "start": 0, "max_results": n}
+              if sort:
+                  P["sortBy"] = "submittedDate"; P["sortOrder"] = "descending"
               url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(P)
-              t = time.time()
               try:
                   with urllib.request.urlopen(
                           urllib.request.Request(url, headers={"User-Agent": UA}), timeout=45) as r:
-                      n = len(r.read())
-                  return f"200 ({n}b, {time.time()-t:.1f}s)"
+                      return f"200 ({len(r.read())}b)"
               except urllib.error.HTTPError as e:
-                  return f"{e.code} {e.reason} ({time.time()-t:.1f}s)"
+                  return f"{e.code}"
               except Exception as e:
-                  return f"{type(e).__name__} ({time.time()-t:.1f}s)"
+                  return type(e).__name__
 
-          KW = ["egocentric video","robot manipulation","vision language action",
-                "world model","embodied ai","sim to real","robot policy","tactile sensing"]
+          print("=== 2x2: query complexity x max_results (each run twice) ===")
+          for label, q in [("simple ", SIMPLE), ("medium ", MEDIUM), ("complex", COMPLEX)]:
+              for n in (2, 25, 50, 100):
+                  a = hit(q, n); time.sleep(4)
+                  b = hit(q, n); time.sleep(4)
+                  print(f"  {label} max_results={n:<4} -> {a:<12} {b}", flush=True)
 
-          print("=== PHASE 1: digest cadence, 3s apart (mimics the real run) ===")
-          for i in range(12):
-              kw = KW[i % len(KW)]
-              print(f"  req {i+1:2d} [{kw:<22}] -> {hit(kw)}", flush=True)
-              time.sleep(3)
+          print("\n=== does sortBy matter? (complex query) ===")
+          for n in (2, 100):
+              print(f"  complex max_results={n:<4} no-sort -> {hit(COMPLEX, n, sort=False)}", flush=True)
+              time.sleep(4)
 
-          print("\n=== PHASE 2: cool off 90s, then retry ===")
-          time.sleep(90)
-          for i in range(3):
-              print(f"  post-cooldown {i+1} -> {hit(KW[i])}", flush=True)
-              time.sleep(3)
-
-          print("\n=== PHASE 3: slow cadence, 20s apart ===")
-          for i in range(5):
-              print(f"  slow {i+1} -> {hit(KW[i])}", flush=True)
-              time.sleep(20)
+          print("\n=== exact digest query at PAGE_SIZE=100 vs smaller ===")
+          for n in (100, 75, 50, 30, 20, 10):
+              print(f"  digest-shaped max_results={n:<4} -> {hit(COMPLEX, n)}", flush=True)
+              time.sleep(4)
           PY
