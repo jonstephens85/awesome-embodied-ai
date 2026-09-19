@@ -251,6 +251,91 @@ def test_parse_arxiv_response_bad_xml_raises():
 
 
 # --------------------------------------------------------------------------- #
+# outgoing request shape
+# --------------------------------------------------------------------------- #
+
+class _FakeResponse:
+    """Minimal stand-in for the object urlopen returns."""
+
+    def __init__(self, data):
+        self._data = data
+
+    def read(self):
+        return self._data
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+def _capture_request(monkeypatch, payload=b"<feed xmlns='http://www.w3.org/2005/Atom'></feed>"):
+    captured = {}
+
+    def fake_urlopen(req, timeout=None):
+        captured["req"] = req
+        return _FakeResponse(payload)
+
+    monkeypatch.setattr(ad.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setattr(ad.time, "sleep", lambda *_: None)
+    return captured
+
+
+def test_query_arxiv_sends_accept_header(monkeypatch):
+    """arXiv answers requests with no Accept header with 406 Not Acceptable."""
+    captured = _capture_request(monkeypatch)
+    ad.query_arxiv("all:robots")
+
+    headers = {k.lower(): v for k, v in captured["req"].header_items()}
+    assert "accept" in headers, "missing Accept header -> arXiv returns HTTP 406"
+    assert "xml" in headers["accept"]
+
+
+def test_query_arxiv_identifies_itself(monkeypatch):
+    """arXiv asks API clients for a User-Agent with a real contact URL."""
+    captured = _capture_request(monkeypatch)
+    ad.query_arxiv("all:robots")
+
+    headers = {k.lower(): v for k, v in captured["req"].header_items()}
+    ua = headers.get("user-agent", "")
+    assert "awesome-embodied-ai" in ua
+    assert "https://github.com/jonstephens85/awesome-embodied-ai" in ua
+
+
+def test_query_arxiv_does_not_request_compression(monkeypatch):
+    """Nothing in the client unwraps gzip, so ask for an undecoded body."""
+    captured = _capture_request(monkeypatch)
+    ad.query_arxiv("all:robots")
+
+    headers = {k.lower(): v for k, v in captured["req"].header_items()}
+    assert headers.get("accept-encoding") == "identity"
+
+
+def test_query_arxiv_raises_after_retries(monkeypatch):
+    def always_fails(req, timeout=None):
+        raise OSError("boom")
+
+    monkeypatch.setattr(ad.urllib.request, "urlopen", always_fails)
+    monkeypatch.setattr(ad.time, "sleep", lambda *_: None)
+
+    with pytest.raises(RuntimeError, match="arXiv request failed after"):
+        ad.query_arxiv("all:robots")
+
+
+def test_query_arxiv_partial_mode_counts_failures(monkeypatch):
+    def always_fails(req, timeout=None):
+        raise OSError("boom")
+
+    monkeypatch.setattr(ad.urllib.request, "urlopen", always_fails)
+    monkeypatch.setattr(ad.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(ad, "FETCH_FAILURES", 0)
+
+    assert ad.query_arxiv("all:robots", allow_partial=True) == []
+    assert ad.FETCH_FAILURES == 1
+
+
+# --------------------------------------------------------------------------- #
 # date-window paging
 # --------------------------------------------------------------------------- #
 
