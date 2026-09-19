@@ -1,53 +1,65 @@
 name: arXiv Header Probe
 
-# Temporary diagnostic: determines which request headers arXiv accepts.
-# Manual dispatch only; delete once the digest is confirmed healthy.
+# Temporary diagnostic. Triggers on push to this branch so it can run without
+# living on the default branch. Delete before merging.
 on:
-  workflow_dispatch:
+  push:
+    branches: ['claude/github-actions-failures-*']
+    paths: ['.github/workflows/arxiv-probe.yml']
 
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Probe arXiv with different header sets
+      - name: curl variants
+        run: |
+          Q='search_query=all:%22egocentric+video%22&sortBy=submittedDate&sortOrder=descending&start=0&max_results=2'
+          BROWSER='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36'
+          probe() { printf '%-46s ' "$1"; shift; curl -s -o /dev/null -w 'http=%{http_code} size=%{size_download}\n' --max-time 40 "$@"; sleep 3; }
+
+          probe "c1 curl default"                 "https://export.arxiv.org/api/query?$Q"
+          probe "c2 curl browser UA"              -H "User-Agent: $BROWSER" "https://export.arxiv.org/api/query?$Q"
+          probe "c3 curl browser UA+accept+gzip"  -H "User-Agent: $BROWSER" -H 'Accept: application/atom+xml,text/html,*/*;q=0.8' -H 'Accept-Encoding: gzip, deflate, br' "https://export.arxiv.org/api/query?$Q"
+          probe "c4 curl http (not https)"        "http://export.arxiv.org/api/query?$Q"
+          probe "c5 curl arxiv.org host"          "https://arxiv.org/api/query?$Q"
+          probe "c6 curl simple query no quotes"  "https://export.arxiv.org/api/query?search_query=all:robot&max_results=2"
+          probe "c7 curl HTTP/1.1 forced"         --http1.1 -H "User-Agent: $BROWSER" "https://export.arxiv.org/api/query?$Q"
+
+      - name: python urllib variants
         run: |
           python - <<'PY'
-          import urllib.request, urllib.parse, urllib.error, time
+          import urllib.request, urllib.parse, urllib.error, gzip, io, time
+          P = {"search_query":'all:"egocentric video"',"sortBy":"submittedDate",
+               "sortOrder":"descending","start":0,"max_results":2}
+          URL = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(P)
+          BROWSER = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
+          SHIPPED = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
 
-          params = {
-              "search_query": 'all:"egocentric video"',
-              "sortBy": "submittedDate",
-              "sortOrder": "descending",
-              "start": 0,
-              "max_results": 5,
-          }
-          url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(params)
-
-          OLD_UA = "arxiv-embodied-digest/2.0 (https://github.com; research paper tracking)"
-          NEW_UA = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
-          ACCEPT = "application/atom+xml,application/xml;q=0.9,*/*;q=0.8"
-
-          cases = [
-              ("1. OLD: UA only, no Accept", {"User-Agent": OLD_UA}),
-              ("2. OLD UA + Accept", {"User-Agent": OLD_UA, "Accept": ACCEPT}),
-              ("3. NEW UA, no Accept", {"User-Agent": NEW_UA}),
-              ("4. NEW full set (what we shipped)", {
-                  "User-Agent": NEW_UA, "Accept": ACCEPT,
-                  "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "identity"}),
-              ("5. no headers at all", {}),
-          ]
-
-          for name, h in cases:
-              t = time.time()
+          def go(name, headers, url=URL):
               try:
-                  req = urllib.request.Request(url, headers=h)
-                  with urllib.request.urlopen(req, timeout=45) as r:
-                      body = r.read()
-                  print(f"{name}: HTTP {r.status} bytes={len(body)} in {time.time()-t:.1f}s")
+                  r = urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=40)
+                  b = r.read()
+                  if r.headers.get("Content-Encoding") == "gzip":
+                      b = gzip.decompress(b)
+                  print(f"{name:<46} HTTP {r.status} bytes={len(b)}")
               except urllib.error.HTTPError as e:
-                  print(f"{name}: HTTPError {e.code} {e.reason} in {time.time()-t:.1f}s")
+                  print(f"{name:<46} HTTPError {e.code} {e.reason}")
               except Exception as e:
-                  print(f"{name}: {type(e).__name__}: {e} in {time.time()-t:.1f}s")
+                  print(f"{name:<46} {type(e).__name__}: {e}")
               time.sleep(3)
+
+          go("p1 shipped headers (identity)", {"User-Agent":SHIPPED,
+              "Accept":"application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language":"en-US,en;q=0.9","Accept-Encoding":"identity"})
+          go("p2 shipped UA, gzip encoding", {"User-Agent":SHIPPED,
+              "Accept":"application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Encoding":"gzip, deflate"})
+          go("p3 browser UA only", {"User-Agent":BROWSER})
+          go("p4 browser UA + gzip + accept", {"User-Agent":BROWSER,
+              "Accept":"application/atom+xml,text/html,*/*;q=0.8",
+              "Accept-Encoding":"gzip, deflate","Accept-Language":"en-US,en;q=0.9",
+              "Connection":"keep-alive"})
+          go("p5 no headers (urllib default)", {})
           PY
