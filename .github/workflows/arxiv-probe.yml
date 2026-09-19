@@ -8,81 +8,47 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
-      - name: Isolate why urllib is rejected but curl is not
+      - name: Characterise arXiv throttling
         run: |
-          pip install -q requests
           python - <<'PY'
-          import http.client, urllib.parse, urllib.request, urllib.error
-          import subprocess, time, gzip
+          import urllib.request, urllib.parse, urllib.error, time
 
-          P = {"search_query":'all:"egocentric video"',"sortBy":"submittedDate",
-               "sortOrder":"descending","start":0,"max_results":2}
-          PATH = "/api/query?" + urllib.parse.urlencode(P)
-          URL = "https://export.arxiv.org" + PATH
           UA = "awesome-embodied-ai-digest/2.1 (+https://github.com/jonstephens85/awesome-embodied-ai)"
 
-          def show(name, fn):
+          def hit(kw, delay_label=""):
+              P = {"search_query": f'(ti:"{kw}" OR abs:"{kw}") AND (cat:cs.RO OR cat:cs.CV)',
+                   "sortBy":"submittedDate","sortOrder":"descending","start":0,"max_results":100}
+              url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(P)
+              t = time.time()
               try:
-                  print(f"{name:<44} {fn()}")
+                  with urllib.request.urlopen(
+                          urllib.request.Request(url, headers={"User-Agent": UA}), timeout=45) as r:
+                      n = len(r.read())
+                  return f"200 ({n}b, {time.time()-t:.1f}s)"
+              except urllib.error.HTTPError as e:
+                  return f"{e.code} {e.reason} ({time.time()-t:.1f}s)"
               except Exception as e:
-                  print(f"{name:<44} {type(e).__name__}: {e}")
+                  return f"{type(e).__name__} ({time.time()-t:.1f}s)"
+
+          KW = ["egocentric video","robot manipulation","vision language action",
+                "world model","embodied ai","sim to real","robot policy","tactile sensing"]
+
+          print("=== PHASE 1: digest cadence, 3s apart (mimics the real run) ===")
+          for i in range(12):
+              kw = KW[i % len(KW)]
+              print(f"  req {i+1:2d} [{kw:<22}] -> {hit(kw)}", flush=True)
               time.sleep(3)
 
-          # 1. what urllib actually puts on the wire
-          r = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept": "application/atom+xml"})
-          print("urllib header casing on wire:", dict(r.header_items()))
-          print()
+          print("\n=== PHASE 2: cool off 90s, then retry ===")
+          time.sleep(90)
+          for i in range(3):
+              print(f"  post-cooldown {i+1} -> {hit(KW[i])}", flush=True)
+              time.sleep(3)
 
-          # 2. http.client with EXACT header casing (stdlib, no urllib rewriting)
-          def exact_case():
-              c = http.client.HTTPSConnection("export.arxiv.org", timeout=40)
-              c.putrequest("GET", PATH, skip_host=True, skip_accept_encoding=True)
-              c.putheader("Host", "export.arxiv.org")
-              c.putheader("User-Agent", UA)
-              c.putheader("Accept", "application/atom+xml,application/xml;q=0.9,*/*;q=0.8")
-              c.putheader("Accept-Encoding", "gzip, deflate")
-              c.putheader("Connection", "keep-alive")
-              c.endheaders()
-              resp = c.getresponse(); body = resp.read(); c.close()
-              return f"HTTP {resp.status} bytes={len(body)}"
-          show("A http.client exact casing", exact_case)
-
-          # 3. http.client mimicking urllib's capitalize() casing
-          def urllib_case():
-              c = http.client.HTTPSConnection("export.arxiv.org", timeout=40)
-              c.putrequest("GET", PATH, skip_host=True, skip_accept_encoding=True)
-              c.putheader("Host", "export.arxiv.org")
-              c.putheader("User-agent", UA)
-              c.putheader("Accept-encoding", "identity")
-              c.putheader("Connection", "close")
-              c.endheaders()
-              resp = c.getresponse(); body = resp.read(); c.close()
-              return f"HTTP {resp.status} bytes={len(body)}"
-          show("B http.client urllib-style casing", urllib_case)
-
-          # 4. requests
-          import requests
-          show("C requests default UA",
-               lambda: f"HTTP {requests.get(URL, timeout=40).status_code}")
-          show("D requests + our UA",
-               lambda: f"HTTP {requests.get(URL, headers={'User-Agent': UA}, timeout=40).status_code}")
-
-          # 5. curl via subprocess (known good)
-          def curl():
-              out = subprocess.run(["curl","-s","-o","/dev/null","-w","%{http_code}",
-                                    "--max-time","40","-H",f"User-Agent: {UA}", URL],
-                                   capture_output=True, text=True)
-              return f"HTTP {out.stdout.strip()}"
-          show("E curl subprocess + our UA", curl)
-
-          # 6. plain urllib for the record
-          def plain():
-              try:
-                  with urllib.request.urlopen(urllib.request.Request(URL, headers={"User-Agent": UA}), timeout=40) as r:
-                      return f"HTTP {r.status} bytes={len(r.read())}"
-              except urllib.error.HTTPError as e:
-                  return f"HTTPError {e.code} {e.reason}"
-          show("F urllib (baseline)", plain)
+          print("\n=== PHASE 3: slow cadence, 20s apart ===")
+          for i in range(5):
+              print(f"  slow {i+1} -> {hit(KW[i])}", flush=True)
+              time.sleep(20)
           PY
