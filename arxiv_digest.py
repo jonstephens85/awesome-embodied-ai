@@ -148,11 +148,12 @@ ARXIV_USER_AGENT = ("awesome-embodied-ai-digest/2.1 "
 
 # Headers sent on every arXiv request.
 #
-# The Accept header is load-bearing: urllib sends no Accept header of its own,
-# and arXiv's edge answers requests that do not negotiate a content type with
-# "406 Not Acceptable". That is what broke every scheduled run after
-# 2026-09-15 -- all four attempts failed identically, so the retry loop could
-# not save it. Keep Accept (and a descriptive User-Agent) on these requests.
+# These are good practice (arXiv asks API clients to identify themselves) but
+# they are NOT a fix for the 406 Not Acceptable failures seen since
+# 2026-09-15. That was measured on a runner: curl, requests and urllib all get
+# 406 or 200 for the *same* request depending only on when it is sent, which
+# points at an IP-level block from arXiv's edge rather than request shape.
+# Do not assume changing these headers will clear a 406.
 ARXIV_HEADERS = {
     "User-Agent": ARXIV_USER_AGENT,
     "Accept": "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",

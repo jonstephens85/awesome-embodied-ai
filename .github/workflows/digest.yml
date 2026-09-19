@@ -37,10 +37,10 @@ jobs:
         run: pytest -q
 
       - name: Run digest script
-        # --allow-partial: one flaky arXiv query should not sink the whole run.
-        # A run that comes back completely empty still exits non-zero, and
-        # writes nothing, so existing digests are never blanked out.
-        run: python arxiv_digest.py --allow-partial
+        # Deliberately NOT --allow-partial. When arXiv is blocking us, that
+        # flag makes the script grind through every keyword's full retry
+        # budget (~21 min) before failing anyway, instead of failing in ~1 min.
+        run: python arxiv_digest.py
 
       - name: Commit and push digest
         run: |
