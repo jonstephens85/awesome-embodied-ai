@@ -14,6 +14,7 @@ and world models; scores them with deterministic relevance rules; and generates:
 import argparse
 import json
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -141,6 +142,31 @@ DOCS_DIR = Path("docs")
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ARXIV_NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 
+# arXiv asks API clients to identify themselves with a real contact URL.
+ARXIV_USER_AGENT = ("awesome-embodied-ai-digest/2.1 "
+                    "(+https://github.com/jonstephens85/awesome-embodied-ai)")
+
+# Headers sent on every arXiv request.
+#
+# These are good practice (arXiv asks API clients to identify themselves) but
+# they are NOT a fix for the 406 Not Acceptable failures seen since
+# 2026-09-15. That was measured on a runner: curl, requests and urllib all get
+# 406 or 200 for the *same* request depending only on when it is sent, which
+# points at an IP-level block from arXiv's edge rather than request shape.
+# Do not assume changing these headers will clear a 406.
+ARXIV_HEADERS = {
+    "User-Agent": ARXIV_USER_AGENT,
+    "Accept": "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    # Ask for an undecoded body; nothing here unwraps gzip.
+    "Accept-Encoding": "identity",
+}
+
+# Count of queries that exhausted their retries during this run. Only ever
+# non-zero under --allow-partial; main() uses it to tell "arXiv is down" apart
+# from "arXiv genuinely returned nothing".
+FETCH_FAILURES = 0
+
 
 def query_arxiv(search_query: str, start: int = 0, page_size: int = PAGE_SIZE,
                 allow_partial: bool = False) -> list[dict]:
@@ -161,11 +187,7 @@ def query_arxiv(search_query: str, start: int = 0, page_size: int = PAGE_SIZE,
     last_err = None
     for attempt in range(len(RETRY_BACKOFF) + 1):
         try:
-            req = urllib.request.Request(
-                url,
-                headers={"User-Agent": "arxiv-embodied-digest/2.0 "
-                                        "(https://github.com; research paper tracking)"},
-            )
+            req = urllib.request.Request(url, headers=dict(ARXIV_HEADERS))
             with urllib.request.urlopen(req, timeout=45) as response:
                 data = response.read()
             return parse_arxiv_response(data)
@@ -178,6 +200,8 @@ def query_arxiv(search_query: str, start: int = 0, page_size: int = PAGE_SIZE,
 
     msg = f"arXiv request failed after {len(RETRY_BACKOFF) + 1} attempts: {last_err}"
     if allow_partial:
+        global FETCH_FAILURES
+        FETCH_FAILURES += 1
         print(f"    ! {msg} -- continuing with partial results (--allow-partial)")
         return []
     raise RuntimeError(msg)
@@ -937,6 +961,7 @@ def generate_setup_doc() -> str:
 python arxiv_digest.py                 # last 7 days
 python arxiv_digest.py --days 30       # custom lookback
 python arxiv_digest.py --allow-partial # tolerate arXiv API failures
+python arxiv_digest.py --allow-empty   # publish even when a run finds nothing
 ```
 
 ## Customization (`arxiv_digest.py`)
@@ -976,6 +1001,8 @@ def main():
                         help=f"days back to search (default: {DAYS_BACK})")
     parser.add_argument("--allow-partial", action="store_true",
                         help="continue even if some arXiv requests fail")
+    parser.add_argument("--allow-empty", action="store_true",
+                        help="publish even if the run found no papers at all")
     args = parser.parse_args()
 
     now = datetime.now(timezone.utc)
@@ -1024,6 +1051,22 @@ def main():
         bid: [t for t in rec["topics"] if t != rec["primary_topic"]]
         for bid, rec in merged.items()
     }
+
+    # 3b. refuse to publish an empty run over good digests.
+    # A run that finds nothing across every topic is almost always arXiv
+    # refusing our requests, not a quiet week on arXiv. Writing it out would
+    # blank every topic page, latest.md and the dashboard, then commit that.
+    # Bail out before touching seen.json or any output file.
+    if not merged:
+        print("\nNo papers found across any topic -- refusing to overwrite "
+              "existing digests with an empty run.")
+        if FETCH_FAILURES:
+            print(f"{FETCH_FAILURES} arXiv request(s) failed after retries; "
+                  "arXiv is likely unreachable or rejecting us.")
+        if not args.allow_empty:
+            print("Nothing was written. Re-run when arXiv is reachable, "
+                  "or pass --allow-empty to publish an empty digest anyway.")
+            sys.exit(1)
 
     # 4. update state
     for bid, rec in merged.items():

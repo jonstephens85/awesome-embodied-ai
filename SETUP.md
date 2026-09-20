@@ -19,6 +19,7 @@ pip install -r requirements-dev.txt   # for the tests only; the script itself is
 python arxiv_digest.py                 # last 7 days
 python arxiv_digest.py --days 30       # custom lookback
 python arxiv_digest.py --allow-partial # tolerate arXiv API failures instead of erroring
+python arxiv_digest.py --allow-empty   # publish even when a run finds nothing
 
 pytest -q                             # run the test suite
 ```

@@ -23,10 +23,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -37,6 +37,9 @@ jobs:
         run: pytest -q
 
       - name: Run digest script
+        # Deliberately NOT --allow-partial. When arXiv is blocking us, that
+        # flag makes the script grind through every keyword's full retry
+        # budget (~21 min) before failing anyway, instead of failing in ~1 min.
         run: python arxiv_digest.py
 
       - name: Commit and push digest
