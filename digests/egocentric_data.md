@@ -2,28 +2,28 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-15 23:49 UTC
+**Last updated:** 2026-09-28 21:35 UTC
 
-**Papers shown:** 4 (relevance ≥ 2, last 7 days)
+**Papers shown:** 5 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
 ---
 
-### [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](https://arxiv.org/abs/2609.08636)
+### [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187)
 
-**Authors:** Qiaohui Chu, Haoyu Zhang, Meng Liu, Haoxiang Shi, Dongmei Jiang et al. (6 authors)
+**Authors:** Abhiram Maddukuri, Georgios Pavlakos
 
-**Published:** 2026-09-08 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-09-24 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
+**Why surfaced:** "Ego-Exo" in title; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.08636) | [PDF](https://arxiv.org/pdf/2609.08636) | [Project Page](https://corrineqiu.github.io/from-where-to-how/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.30187) | [PDF](https://arxiv.org/pdf/2609.30187) | [Project Page](https://abhiram824.github.io/egoexo4d_human_meshes)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and human-computer interaction. Existing methods struggle to translate semantic understanding into precise continuous 3D localization and to balance motion diversity with structural consistency in pose forecasting. More fundamentally, these tasks are often modeled separately, leaving the continuous geometric and temporal correspondence between interaction locations and body motion insu...
+Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI. However, the dataset ships with only sparse 3D human pose annotations, and reconstructing dense human motion from its multi-view captures is nontrivial. To this end, we present Ego-Exo4D-HM, a large-scale dataset of 4D human motion reconstructions for Ego-Exo4D's captures, and release the accompanying reconstruction pipeline. The code, dataset, and documentation can be found at https://abhira...
 
 </details>
 
@@ -31,12 +31,12 @@ Egocentric 4D interaction forecasting aims to anticipate both where future inter
 <summary>Share</summary>
 
 ```
-From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video
+Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures
 
-Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and h...
+Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI.
 
-arXiv: https://arxiv.org/abs/2609.08636
-Project page: https://corrineqiu.github.io/from-where-to-how/
+arXiv: https://arxiv.org/abs/2609.30187
+Project page: https://abhiram824.github.io/egoexo4d_human_meshes
 
 #egocentric #robotlearning
 ```
@@ -45,20 +45,20 @@ Project page: https://corrineqiu.github.io/from-where-to-how/
 
 ---
 
-### [WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics](https://arxiv.org/abs/2609.15870)
+### [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394)
 
-**Authors:** Peidong Liu, Zhiyuan Xiang, Mingyang Li, Wenhao Li, Jiale Zhang et al. (7 authors)
+**Authors:** Xingyu Miao, Zizun Li, Baole Fang, Kaiwen Song, Tenghui Wang et al. (48 authors)
 
-**Published:** 2026-09-14 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-09-25 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in abstract; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.15870) | [PDF](https://arxiv.org/pdf/2609.15870) | [Project Page](https://wla-3.github.io/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.31394) | [PDF](https://arxiv.org/pdf/2609.31394) | [Project Page](https://internrobotics.github.io/InternW0-Delta/)
 
 <details>
 <summary>Abstract</summary>
 
-Scaling generalist policy models with heterogeneous data is limited by the lack of unified, low-noise action supervision. Human egocentric videos are abundant, but only a small fraction comes with high-quality hand-action labels. Observed world transitions offer a common source of action-related supervision across data sources. We introduce WLA$^3$ (World Latent Action Modeling for Semantics, Dynamics, and Kinematics), a unified generalist policy model framework built around representations learned by a World Latent Action Model (WLAM). WLAM first learns how multimodal world states change over...
+World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-$Δ$, a unified WAM pretrained on a heterogeneous corpus that outperforms prior methods across simulation benchmarks and real-robot platforms. InternW0-$Δ$ combines pretrained visual dynamics, scene-level semantics, 4D geometric and motion priors, and action gener...
 
 </details>
 
@@ -66,12 +66,12 @@ Scaling generalist policy models with heterogeneous data is limited by the lack 
 <summary>Share</summary>
 
 ```
-WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics
+InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data
 
-Scaling generalist policy models with heterogeneous data is limited by the lack of unified, low-noise action supervision.
+World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation.
 
-arXiv: https://arxiv.org/abs/2609.15870
-Project page: https://wla-3.github.io/
+arXiv: https://arxiv.org/abs/2609.31394
+Project page: https://internrobotics.github.io/InternW0-Delta/
 
 #egocentric #robotlearning
 ```
@@ -80,20 +80,20 @@ Project page: https://wla-3.github.io/
 
 ---
 
-### [Talking to Me or Someone Else? Rethinking Talk-to-Me Detection in Egocentric Videos](https://arxiv.org/abs/2609.14118)
+### [Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2609.30735)
 
-**Authors:** Feiyu Du, Xi He, Jia Li, Yapeng Tian, Weili Wu
+**Authors:** Shuliang He, Ruiyan Xu, Bo Yue, Hengming Zhang, Huayi Zhou et al. (8 authors)
 
-**Published:** 2026-09-12 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-25 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits
+**Why surfaced:** "egocentric video" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.14118) | [PDF](https://arxiv.org/pdf/2609.14118)
+**Links:** [arXiv](https://arxiv.org/abs/2609.30735) | [PDF](https://arxiv.org/pdf/2609.30735)
 
 <details>
 <summary>Abstract</summary>
 
-Online understanding of who is talking to the camera wearer is a key capability for egocentric social interaction. However, existing talk-to-me (TTM) studies are commonly formulated as offline clip-level recognition, which is poorly aligned with online interaction and overlooks the diverse non-TTM speaking states that naturally arise in egocentric videos. In this paper, we revisit this problem by reformulating it as an online, frame-level prediction task. Instead of treating TTM as a binary problem against a single negative class, we model it in the presence of diverse and previously underexpl...
+Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change. Learning these behaviors from limited task-specific data remains challenging. To bridge this gap, we introduce Praxis, a whole-body manipulation framework that combines physical interaction priors from one-shot egocentric video demonstrations with closed-loop posture calibration and online perception. The framework coordinates three stages: vision-language-guided navigation toward target objects, closed-loop posture calibration to...
 
 </details>
 
@@ -101,11 +101,11 @@ Online understanding of who is talking to the camera wearer is a key capability 
 <summary>Share</summary>
 
 ```
-Talking to Me or Someone Else? Rethinking Talk-to-Me Detection in Egocentric Videos
+Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
 
-Online understanding of who is talking to the camera wearer is a key capability for egocentric social interaction.
+Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change.
 
-arXiv: https://arxiv.org/abs/2609.14118
+arXiv: https://arxiv.org/abs/2609.30735
 
 #egocentric #robotlearning
 ```
@@ -114,20 +114,22 @@ arXiv: https://arxiv.org/abs/2609.14118
 
 ---
 
-### [RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts](https://arxiv.org/abs/2609.08090)
+### [Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation](https://arxiv.org/abs/2609.24411)
 
-**Authors:** Diwas Lamsal, Juha Carlon, Reinhard Claeys, Maxim Yudayev, Louis Flynn et al. (11 authors)
+**Authors:** Bingjia Huang, Xin Ding, Fu Chen, Kun Li, Wei Sun et al. (8 authors)
 
-**Published:** 2026-09-08 (updated 2026-09-09) | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
+**Published:** 2026-09-21 (updated 2026-09-22) | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract
+**Why surfaced:** "VLA" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.08090) | [PDF](https://arxiv.org/pdf/2609.08090)
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.24411) | [PDF](https://arxiv.org/pdf/2609.24411)
 
 <details>
 <summary>Abstract</summary>
 
-Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities. However, public benchmarks are typically collected from healthy adults, lack temporally precise labels necessary for detecting mode transitions, or focus on a limited set of tasks. To support development and evaluation under realistic clinical constraints and daily mobility demands, we introduce RevalExo, a functional daily-activity benchmark for inertial and visual locomotion m...
+Egocentric video offers a scalable source of physical interaction experience, yet translating it into robot-executable knowledge and enabling continual adaptation remain challenging. We introduce Zeva-Ego, a unified framework that learns physical priors from human experience and evolves through robot interaction. An Action-Centric Encoder (ACE) converts egocentric visual transitions into action-centered supervision for VLA mid-training, while In-Context Causal Learning (ICCL) enables parameter-free adaptation from action-effect feedback at deployment. Scaling Ego data to 10K hours improves Rob...
 
 </details>
 
@@ -135,11 +137,47 @@ Assistive devices for people with mobility impairments, such as powered exoskele
 <summary>Share</summary>
 
 ```
-RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts
+Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation
 
-Assistive devices for people with mobility impairments, such as powered exoskeletons, rely on accurate locomotion mode recognition to adapt control strategies and provide appropriate assistance during daily activities.
+Egocentric video offers a scalable source of physical interaction experience, yet translating it into robot-executable knowledge and enabling continual adaptation remain challenging.
 
-arXiv: https://arxiv.org/abs/2609.08090
+arXiv: https://arxiv.org/abs/2609.24411
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Brain-Inspired Hierarchical Modularity for General Continual Learning](https://arxiv.org/abs/2609.25146)
+
+**Authors:** Hongwei Yan, Kanglei Zhou, Qi Cheng, Weiyi Dong, Chunyan Lan et al. (10 authors)
+
+**Published:** 2026-09-21 | **Categories:** cs.LG, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.25146) | [PDF](https://arxiv.org/pdf/2609.25146)
+
+<details>
+<summary>Abstract</summary>
+
+Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments. However, conventional continual learning is typically studied with offline task-wise training and clear task boundaries, leaving a substantial gap from general continual learning under online, uncertain, and evolving data streams. In this regime, intelligent systems must separate conflicting experience to reduce interference while integrating compatible experience to promote generalization. Inspired by the organi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Brain-Inspired Hierarchical Modularity for General Continual Learning
+
+Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments.
+
+arXiv: https://arxiv.org/abs/2609.25146
 
 #egocentric #robotlearning
 ```
