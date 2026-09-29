@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-09-28 21:35 UTC
+**Last updated:** 2026-09-29 01:20 UTC
 
-**Papers shown:** 5 (relevance ≥ 2, last 7 days)
+**Papers shown:** 4 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -80,6 +80,41 @@ Project page: https://internrobotics.github.io/InternW0-Delta/
 
 ---
 
+### [MAESTRO: a Multimodal Auditory-attention Egocentric Speech-TRacking Open corpus](https://arxiv.org/abs/2609.31898)
+
+**Authors:** K M Naimul Hassan, Ali Alavi, Donald S. Williamson
+
+**Published:** 2026-09-25 | **Categories:** eess.AS, cs.HC, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.31898) | [PDF](https://arxiv.org/pdf/2609.31898) | [Code](https://github.com/ASPIRE-OSU/MAESTRO)
+
+<details>
+<summary>Abstract</summary>
+
+Humans rely on gaze, head movements, and visual cues to attend to speakers in noisy environments, yet auditory attention decoding (AAD) has been studied primarily using electroencephalography (EEG). We introduce the Multimodal Auditory-attention Egocentric Speech-TRacking Open (MAESTRO) corpus, the first AAD dataset to simultaneously record EEG, eye gaze, pupillometry, egocentric video, and head inertial measurement unit (IMU) data. MAESTRO includes four competing speakers and background noise across multiple signal-to-noise ratio (SNR) conditions, enabling attention decoding under realistic l...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MAESTRO: a Multimodal Auditory-attention Egocentric Speech-TRacking Open corpus
+
+Humans rely on gaze, head movements, and visual cues to attend to speakers in noisy environments, yet auditory attention decoding (AAD) has been studied primarily using electroencephalography (EEG).
+
+arXiv: https://arxiv.org/abs/2609.31898
+Code: https://github.com/ASPIRE-OSU/MAESTRO
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2609.30735)
 
 **Authors:** Shuliang He, Ruiyan Xu, Bo Yue, Hengming Zhang, Huayi Zhou et al. (8 authors)
@@ -106,78 +141,6 @@ Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Genera
 Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change.
 
 arXiv: https://arxiv.org/abs/2609.30735
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation](https://arxiv.org/abs/2609.24411)
-
-**Authors:** Bingjia Huang, Xin Ding, Fu Chen, Kun Li, Wei Sun et al. (8 authors)
-
-**Published:** 2026-09-21 (updated 2026-09-22) | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "VLA" in abstract
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.24411) | [PDF](https://arxiv.org/pdf/2609.24411)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video offers a scalable source of physical interaction experience, yet translating it into robot-executable knowledge and enabling continual adaptation remain challenging. We introduce Zeva-Ego, a unified framework that learns physical priors from human experience and evolves through robot interaction. An Action-Centric Encoder (ACE) converts egocentric visual transitions into action-centered supervision for VLA mid-training, while In-Context Causal Learning (ICCL) enables parameter-free adaptation from action-effect feedback at deployment. Scaling Ego data to 10K hours improves Rob...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation
-
-Egocentric video offers a scalable source of physical interaction experience, yet translating it into robot-executable knowledge and enabling continual adaptation remain challenging.
-
-arXiv: https://arxiv.org/abs/2609.24411
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Brain-Inspired Hierarchical Modularity for General Continual Learning](https://arxiv.org/abs/2609.25146)
-
-**Authors:** Hongwei Yan, Kanglei Zhou, Qi Cheng, Weiyi Dong, Chunyan Lan et al. (10 authors)
-
-**Published:** 2026-09-21 | **Categories:** cs.LG, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "vision-language-action" in abstract
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.25146) | [PDF](https://arxiv.org/pdf/2609.25146)
-
-<details>
-<summary>Abstract</summary>
-
-Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments. However, conventional continual learning is typically studied with offline task-wise training and clear task boundaries, leaving a substantial gap from general continual learning under online, uncertain, and evolving data streams. In this regime, intelligent systems must separate conflicting experience to reduce interference while integrating compatible experience to promote generalization. Inspired by the organi...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Brain-Inspired Hierarchical Modularity for General Continual Learning
-
-Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments.
-
-arXiv: https://arxiv.org/abs/2609.25146
 
 #egocentric #robotlearning
 ```

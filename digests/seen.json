@@ -2379,5 +2379,194 @@
     "topics": [
       "egocentric_data"
     ]
+  },
+  "2609.31792": {
+    "first_seen": "2026-09-29",
+    "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.31893": {
+    "first_seen": "2026-09-29",
+    "title": "CyberWorld: World Models for Sample-Efficient Autonomous Cyber Defense",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.31898": {
+    "first_seen": "2026-09-29",
+    "title": "MAESTRO: a Multimodal Auditory-attention Egocentric Speech-TRacking Open corpus",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2609.31904": {
+    "first_seen": "2026-09-29",
+    "title": "GT-VLA: Target-Conditioned Trace Guidance for Generalizable Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.31924": {
+    "first_seen": "2026-09-29",
+    "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.31938": {
+    "first_seen": "2026-09-29",
+    "title": "Cache-Aware Conv3D Lowering Across Embedded World-Model Decoders",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32013": {
+    "first_seen": "2026-09-29",
+    "title": "TriO: Tri-Modal Unsupervised Occupancy World Model for Anything Perception",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32069": {
+    "first_seen": "2026-09-29",
+    "title": "Find Something You Can't Do: Agentic Real-World Reinforcement Learning for Self-Improving VLA Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32108": {
+    "first_seen": "2026-09-29",
+    "title": "SAMBAR: Selective Anchoring via Method of Multipliers for Balanced Knowledge Acquisition and Retention in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32155": {
+    "first_seen": "2026-09-29",
+    "title": "RecastVLA: From Past Interaction to Future Control with Adaptive Policy States",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32157": {
+    "first_seen": "2026-09-29",
+    "title": "CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32193": {
+    "first_seen": "2026-09-29",
+    "title": "Devol-ONE: One Autoregressive Mixture of Transformers to Unify Vision-Language-Action and Latent World Modeling",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32239": {
+    "first_seen": "2026-09-29",
+    "title": "Federated Subspace Guided Vision-Language-Action Policy Distillation for Non-IID Multi-Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32253": {
+    "first_seen": "2026-09-29",
+    "title": "DS-VLA: A Dendritic-inspired Vision-Language-Action Model for Robust Action Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32322": {
+    "first_seen": "2026-09-29",
+    "title": "Not All Errors Matter: Decision-Relevant Prediction Error Predicts Planning Quality",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32336": {
+    "first_seen": "2026-09-29",
+    "title": "WSM-Aware HRI: An IoT-Enhanced Framework for Early Detection and Norm-Guided Repair of Failures with LLM Guidance",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32512": {
+    "first_seen": "2026-09-29",
+    "title": "What Do Latent Predictive Vehicle Representations Retain? Measuring State, Geometry, and Local Response",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32550": {
+    "first_seen": "2026-09-29",
+    "title": "Are Vision-Language-Action Models Robust to One-Step Observation Perturbations?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32591": {
+    "first_seen": "2026-09-29",
+    "title": "Think Fast, Plan Selectively: Adaptive Deliberation for Efficient Data-Driven MPC",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32634": {
+    "first_seen": "2026-09-29",
+    "title": "PF-RL: Progress Field Reinforcement Learning via Goal-Conditioned Value Geometry for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32657": {
+    "first_seen": "2026-09-29",
+    "title": "World Models with Predictable Long-Horizon Marginals",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32679": {
+    "first_seen": "2026-09-29",
+    "title": "The GUI Is Not the State: Diagnosing State Aliasing in GUI World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.32681": {
+    "first_seen": "2026-09-29",
+    "title": "RCVLA: 4D Radar-Grounded Semantic Reasoning and Trajectory Arbitration for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32698": {
+    "first_seen": "2026-09-29",
+    "title": "SEES: A Self-Evolving Embodied System via Failure-Guided VLA Policy Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32767": {
+    "first_seen": "2026-09-29",
+    "title": "CLAP: Closed-Loop Alignment with Pressure for Precise Suction Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32779": {
+    "first_seen": "2026-09-29",
+    "title": "Copper-Policy: Focus on the Representation for Robust Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.32837": {
+    "first_seen": "2026-09-29",
+    "title": "Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation",
+    "topics": [
+      "world_models"
+    ]
   }
 }
