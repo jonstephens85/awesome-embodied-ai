@@ -2,11 +2,153 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-09-29 01:20 UTC
+**Last updated:** 2026-09-29 20:27 UTC
 
-**Papers shown:** 41 (relevance ≥ 2, last 7 days)
+**Papers shown:** 82 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning](https://arxiv.org/abs/2609.35047)
+
+**Authors:** Yichao Liang, Amber Li, Dat Nguyen, Emily Bunnapradist, Michelangelo Naim et al. (16 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.35047) | [PDF](https://arxiv.org/pdf/2609.35047) | [Project Page](https://yichao-liang.github.io/empiric)
+
+<details>
+<summary>Abstract</summary>
+
+A robot should be able to learn through experiments how unfamiliar objects behave and interact, then plan with that knowledge. It need not start from scratch: physics engines supply knowledge of motion and contact, but can omit entire mechanisms, such as glue curing, water heating, or wind. We present EMPIRIC, an agent that learns a residual world model: a physics engine extended with code for the missing mechanisms. The learned programs can introduce new forces, constraints, and hidden state, and Bayesian inference estimates their parameters and states from noisy observations. The resulting m...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning
+
+A robot should be able to learn through experiments how unfamiliar objects behave and interact, then plan with that knowledge.
+
+arXiv: https://arxiv.org/abs/2609.35047
+Project page: https://yichao-liang.github.io/empiric
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [WorldAttention: An Efficient Attention Architecture for Interactive Video World Models](https://arxiv.org/abs/2609.34606)
+
+**Authors:** Zeyu Zhang, Jinyuan Mao, Dakai An, Wangbo Zhao, Hanfeng Lu et al. (9 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34606) | [PDF](https://arxiv.org/pdf/2609.34606) | [Project Page](https://alibaba-damo-academy.github.io/WorldAttention) | [Code](https://github.com/alibaba-damo-academy/WorldAttention)
+
+<details>
+<summary>Abstract</summary>
+
+Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate temporally coherent environments guided by textual instructions. While enabling low-latency, long-duration generation is pivotal for embodied AI and simulation-based planning, current frameworks primarily rely on sliding-window mechanisms to bound computational complexity. However, this approach inherently sacrifices historical context, undermining the long-range interactive capabilities. Conversely, maintaining a full-history cache remains computationally prohibitive and memory...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+WorldAttention: An Efficient Attention Architecture for Interactive Video World Models
+
+Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate temporally coherent environments guided by textual instructions.
+
+arXiv: https://arxiv.org/abs/2609.34606
+Project page: https://alibaba-damo-academy.github.io/WorldAttention
+Code: https://github.com/alibaba-damo-academy/WorldAttention
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [WorldWeave: Growing Persistent Geometric Worlds for Video Generation](https://arxiv.org/abs/2609.34221)
+
+**Authors:** Yifan Huang, Lifan Jiang, Qingyue Hao, Cheng Chen, Boxi Wu et al. (8 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in abstract; project page; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34221) | [PDF](https://arxiv.org/pdf/2609.34221) | [Project Page](https://laiyindagm.github.io/WorldWeave/) | [Code](https://github.com/laiyindagm/WorldWeave)
+
+<details>
+<summary>Abstract</summary>
+
+Despite rapid progress, world models still lack explicit, persistent structural memory, making it difficult to preserve consistent world structure during continual scene expansion and cross-view revisits. To address this limitation, we present WorldWeave, a world generation framework that decouples world-state maintenance from visual rendering. Specifically, WorldWeave combines continual elevation-map generation with agent-guided scene organization and stitching to build an expandable explicit 3D world that incrementally extends structural memory while preserving existing structure. First, its...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+WorldWeave: Growing Persistent Geometric Worlds for Video Generation
+
+Despite rapid progress, world models still lack explicit, persistent structural memory, making it difficult to preserve consistent world structure during continual scene expansion and cross-view revisits.
+
+arXiv: https://arxiv.org/abs/2609.34221
+Project page: https://laiyindagm.github.io/WorldWeave/
+Code: https://github.com/laiyindagm/WorldWeave
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving](https://arxiv.org/abs/2609.34085)
+
+**Authors:** Haoran Zhu, Wancong Zhang, Yann LeCun, Anna Choromanska
+
+**Published:** 2026-09-28 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34085) | [PDF](https://arxiv.org/pdf/2609.34085) | [Code](https://github.com/HaoranZhuExplorer/AD-E2E-JEPA)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous driving requires \textit{world models} that can understand the physical world, reason and plan, and operate safely. In this paper, we first systematically evaluate existing action-conditioned joint-embedding predictive architecture (JEPA) world models, including LeWM, DINO-WM, and JEPA-WM for end-to-end autonomous driving (E2EAD). To isolate world-model quality from policy learning, we employ a goal-conditioned zero-shot planning setting that evaluates these models using ground-truth future observations as goals, without training any driving policy. We find that existing JEPA-based...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving
+
+Autonomous driving requires \textit{world models} that can understand the physical world, reason and plan, and operate safely.
+
+arXiv: https://arxiv.org/abs/2609.34085
+Code: https://github.com/HaoranZhuExplorer/AD-E2E-JEPA
+
+#worldmodels #robotics
+```
+
+</details>
 
 ---
 
@@ -37,6 +179,249 @@ Contact-rich manipulation depends on force sensing that is hard to infer from vi
 
 arXiv: https://arxiv.org/abs/2609.31924
 Project page: https://haptic-world.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [CAST: Reconstruction-Coupled Acceleration of Interactive World Models](https://arxiv.org/abs/2609.34144)
+
+**Authors:** Leyang Chen, Junyi Wu, Fanqing Kong, Shaoqiu Zhang, Yulun Zhang
+
+**Published:** 2026-09-28 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34144) | [PDF](https://arxiv.org/pdf/2609.34144) | [Code](https://github.com/lokiniuniu/CAST)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive world models must respond quickly to controls while preserving scene consistency. Existing acceleration methods can miss heterogeneous control responses and spatial transport when recovering skipped features. We observe that interaction-induced feature changes correlate with approximation error, while low-frequency interpolation errors are phase-sensitive and show more predictable phase progression. These findings motivate CAST, a reconstruction-coupled inference framework. CAST selects anchors by interaction sensitivity and cross-layer coverage, reconstructs skipped residuals with...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+CAST: Reconstruction-Coupled Acceleration of Interactive World Models
+
+Interactive world models must respond quickly to controls while preserving scene consistency.
+
+arXiv: https://arxiv.org/abs/2609.34144
+Code: https://github.com/lokiniuniu/CAST
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [MM-ABC: Towards Generalist Mobile Manipulation via Seeing, Coordinating and Imagining](https://arxiv.org/abs/2609.35652)
+
+**Authors:** Qiwei Liang, Guangyu Chen, Shaolong Zhu, Zikuan Xiao, Jinxuan Lu et al. (9 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.35652) | [PDF](https://arxiv.org/pdf/2609.35652) | [Project Page](https://mm-abc.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Mobile manipulation extends robot interaction beyond a fixed kinematic workspace by making the reachable region itself controllable. This flexibility introduces two central challenges: spatially grounded perception under continuous ego-motion and coordinated control of heterogeneous arm and base actions. Existing approaches strengthen geometry through explicit 3D representations or predictive world models, and often decouple mobility and manipulation into separate action streams. We argue that effective mobile manipulation requires not only decoupling, but also representations that support eff...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MM-ABC: Towards Generalist Mobile Manipulation via Seeing, Coordinating and Imagining
+
+Mobile manipulation extends robot interaction beyond a fixed kinematic workspace by making the reachable region itself controllable.
+
+arXiv: https://arxiv.org/abs/2609.35652
+Project page: https://mm-abc.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [RoGSW4RLD: Feed-Forward 4D Gaussian Lifting for Robot World Model Rollouts](https://arxiv.org/abs/2609.35311)
+
+**Authors:** Jin Hyun Kim, Min Young Kim, Soohwan Song, Daekyum Kim
+
+**Published:** 2026-09-28 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.35311) | [PDF](https://arxiv.org/pdf/2609.35311)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned video world models predict future robot interactions from multiple cameras, yet their outputs remain disparate video collections rather than a shared metric scene queryable across viewpoints and time. While existing 4D reconstruction methods offer a path to spatialize these predictions, independently reconstructing and merging each camera stream fails to enforce cross-view consistency. This limitation is particularly detrimental when combining moving robot-mounted cameras with fixed external views. To address this, we introduce RoGSW4RLD, a feed-forward framework that lifts...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoGSW4RLD: Feed-Forward 4D Gaussian Lifting for Robot World Model Rollouts
+
+Action-conditioned video world models predict future robot interactions from multiple cameras, yet their outputs remain disparate video collections rather than a shared metric scene queryable across viewpoints and time.
+
+arXiv: https://arxiv.org/abs/2609.35311
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments](https://arxiv.org/abs/2609.35032)
+
+**Authors:** Zhixi Cai, Fucai Ke, Sukai Huang, Maria Garcia de la Banda, Peter J. Stuckey et al. (7 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.AI, cs.CV, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.35032) | [PDF](https://arxiv.org/pdf/2609.35032) | [Code](https://github.com/ControlNet/JRDB-AVR)
+
+<details>
+<summary>Abstract</summary>
+
+In complex embodied visual reasoning scenarios, an agent often has only a limited field of view, and the evidence needed to answer a question may be distributed across time, viewpoint, and interacting objects. A model may therefore give a plausible answer without ever observing the relevant object, time, or view that supports it. Current visual reasoning benchmarks largely evaluate passive observations and final answers, overlooking settings that require active reasoning and evidence acquisition. We introduce JRDB-AVR, a benchmark derived from existing real-world JRDB robotics data through a s...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments
+
+In complex embodied visual reasoning scenarios, an agent often has only a limited field of view, and the evidence needed to answer a question may be distributed across time, viewpoint, and interacting objects.
+
+arXiv: https://arxiv.org/abs/2609.35032
+Code: https://github.com/ControlNet/JRDB-AVR
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Dexterous Tactile World Model](https://arxiv.org/abs/2609.34286)
+
+**Authors:** Ziyao Zeng, Xiatao Sun, Hao Wang, Yueyang Pan, Zhengxiang Yu et al. (9 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34286) | [PDF](https://arxiv.org/pdf/2609.34286) | [Project Page](https://adonis-galaxy.github.io/dtwm-project-page/)
+
+<details>
+<summary>Abstract</summary>
+
+World models for manipulation are typically trained from video, yet the events that determine how manipulation unfolds, such as making and releasing contact, are difficult to observe visually and are often easier to sense through touch. We present the Dexterous Tactile World Model (DTWM), a video world model for future-frame prediction of egocentric manipulation from both observed video and tactile signals from a glove worn on each hand. We condition a pretrained video diffusion transformer on each hand's tactile signal through a zero-initialized residual at the corresponding hand location in...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Dexterous Tactile World Model
+
+World models for manipulation are typically trained from video, yet the events that determine how manipulation unfolds, such as making and releasing contact, are difficult to observe visually and are often easier to s...
+
+arXiv: https://arxiv.org/abs/2609.34286
+Project page: https://adonis-galaxy.github.io/dtwm-project-page/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Scope-WM: Scoped Computation for Efficient Visual World Models](https://arxiv.org/abs/2609.33218)
+
+**Authors:** Chunzheng Li, Zesheng Jia, Hongda Zhang, Jiaying Tang, Yuntian Wang et al. (7 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.33218) | [PDF](https://arxiv.org/pdf/2609.33218) | [Code](https://github.com/ChunZheng2022/Scope-WM)
+
+<details>
+<summary>Abstract</summary>
+
+Visual world models enable robotic planning by predicting future observations, but dense latent-state propagation and sample-intensive trajectory optimization incur high inference latency and peak memory usage, limiting real-time deployment on resource-constrained platforms. Existing sparse world-model acceleration methods either rely on unguided token sparsification, which may discard planning-relevant information and restrict achievable sparsity, or introduce heavy auxiliary modules and cumbersome multi-stage training pipelines. In this work, we present Scope-WM, an efficient visual world mo...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Scope-WM: Scoped Computation for Efficient Visual World Models
+
+Visual world models enable robotic planning by predicting future observations, but dense latent-state propagation and sample-intensive trajectory optimization incur high inference latency and peak memory usage, limiti...
+
+arXiv: https://arxiv.org/abs/2609.33218
+Code: https://github.com/ChunZheng2022/Scope-WM
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [VPTwin: Real-Sim-Real Video Prediction for Robotic Manipulation Planning](https://arxiv.org/abs/2609.33104)
+
+**Authors:** Zhenghao Xiao, Minting Pan, Nantian He, Dongzhan Zhou, Yunbo Wang
+
+**Published:** 2026-09-27 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; 2 distinct keyword hits; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33104) | [PDF](https://arxiv.org/pdf/2609.33104)
+
+<details>
+<summary>Abstract</summary>
+
+While action-conditioned video prediction provides an intuitive world model for robotics, purely data-driven predictors often suffer from compounding errors and physically implausible hallucinations in long-horizon rollouts, severely undermining downstream action planning. We propose VPTwin, a Real-Sim-Real video prediction framework that anchors real-world future prediction using real-synchronized simulation twins. For a target manipulation task, a VLM reconstructs an executable digital twin from a real demonstration episode. To accommodate the ill-posed estimation of unobserved physical prop...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VPTwin: Real-Sim-Real Video Prediction for Robotic Manipulation Planning
+
+While action-conditioned video prediction provides an intuitive world model for robotics, purely data-driven predictors often suffer from compounding errors and physically implausible hallucinations in long-horizon ro...
+
+arXiv: https://arxiv.org/abs/2609.33104
 
 #worldmodels #robotics
 ```
@@ -150,6 +535,75 @@ Code: https://github.com/TriWorldBench/TriWorldBench
 
 ---
 
+### [FlexiWorld: Learning and Planning via Flexible Action Chunks Across Multiple Time Scales](https://arxiv.org/abs/2609.35138)
+
+**Authors:** Shidu Ren, Qilin Gu, Zhenghao Ni, Junhan Sun, Jiaqi Wang et al. (7 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.35138) | [PDF](https://arxiv.org/pdf/2609.35138) | [Project Page](https://shidu-ren.github.io/FlexiWorld-Project-Page/)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models predict future states for goal-directed planning using action chunks spanning multiple primitive steps. Existing methods typically use fixed-length chunks and either omit goal-conditioned action generation or limit their supervision to short goal spans. We introduce FlexiWorld, a JEPA-based world model that combines mixed-span goal supervision with variable-length action chunks to improve long-horizon control. During training, we sample varying goal spans and randomly partition the actions into variable-length chunks. We jointly train the world model with a causal action en...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FlexiWorld: Learning and Planning via Flexible Action Chunks Across Multiple Time Scales
+
+Latent world models predict future states for goal-directed planning using action chunks spanning multiple primitive steps.
+
+arXiv: https://arxiv.org/abs/2609.35138
+Project page: https://shidu-ren.github.io/FlexiWorld-Project-Page/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Hamiltonian JEPA: Action-Conditioned World Models with an Inherited Control State](https://arxiv.org/abs/2609.33497)
+
+**Authors:** Tamim Zoabi, Ameen Ali, Lior Wolf
+
+**Published:** 2026-09-27 | **Categories:** cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33497) | [PDF](https://arxiv.org/pdf/2609.33497)
+
+<details>
+<summary>Abstract</summary>
+
+Planning from pixels needs more than a latent space that is stable and predictable. The state the planner scores must also be organized by how actions move the system. Joint-embedding predictive architectures (JEPAs) avoid pixel reconstruction by predicting future representations, but existing action-conditioned JEPAs ask one embedding to serve both perception and control. We introduce H-JEPA, which separates the two. A wide perceptual code is regularized toward a well-scaled isotropic geometry with a Bures-Wasserstein prior, and a fixed orthonormal slice of that code is the control state, whi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Hamiltonian JEPA: Action-Conditioned World Models with an Inherited Control State
+
+Planning from pixels needs more than a latent space that is stable and predictable.
+
+arXiv: https://arxiv.org/abs/2609.33497
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models](https://arxiv.org/abs/2609.25652)
 
 **Authors:** Zijun Lin, Zhiyang Deng, Yuzhe Wu, Bihan Wen, Yeying Jin
@@ -177,6 +631,178 @@ Recent game world models support realistic visual simulation and interactive gam
 
 arXiv: https://arxiv.org/abs/2609.25652
 Project page: https://jimntu.github.io/gamedirector/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [LRC-JEPA: Disentangling Dynamics and Residual Context for Efficient World Models](https://arxiv.org/abs/2609.34375)
+
+**Authors:** Luzhe Huang, Lei Chu, Jingyi Liang, Yuhuan Zhao
+
+**Published:** 2026-09-28 | **Categories:** cs.LG, cs.AI, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34375) | [PDF](https://arxiv.org/pdf/2609.34375)
+
+<details>
+<summary>Abstract</summary>
+
+Compact JEPA world models enable efficient latent-space planning, but low-dimensional representation trained under reward-free self-supervision must encode both action-conditioned dynamics and predictable visual context. This competition can entangle controllable state with high-rank nuisance appearance and degrade planning as scenes become more complex. We introduce LRC-JEPA, a lightweight end-to-end world model that routes information into a compact predictive latent $\mathbf{z}$ and learned-query residual-context embeddings $\mathbf{u}$. Only $\mathbf{z}$ is propagated by the dynamics model...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LRC-JEPA: Disentangling Dynamics and Residual Context for Efficient World Models
+
+Compact JEPA world models enable efficient latent-space planning, but low-dimensional representation trained under reward-free self-supervision must encode both action-conditioned dynamics and predictable visual context.
+
+arXiv: https://arxiv.org/abs/2609.34375
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Achieve What You Imagined: Learning to Align Actions with Visual Plans](https://arxiv.org/abs/2609.33832)
+
+**Authors:** Yuheng Qiao, Ziran Wei, Xiaohan Wang, Daqiang Guo, Yichen Luo et al. (8 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.33832) | [PDF](https://arxiv.org/pdf/2609.33832) | [Project Page](https://imagine-to-achieve.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+World-action models can jointly predict future visual observations and robot actions. However, discrepancies may exist between their visual predictions and the consequences implied by generated actions. We observe that WAMs can often generate visually plausible task-completion outcomes before producing action sequences that reliably achieve them. Consequently, we treat the WAM-generated visual prediction as a goal-conditioned visual proposal rather than a directly executable plan. We use a frozen action-conditioned world model to predict action-conditioned consequences and construct feedback b...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Achieve What You Imagined: Learning to Align Actions with Visual Plans
+
+World-action models can jointly predict future visual observations and robot actions.
+
+arXiv: https://arxiv.org/abs/2609.33832
+Project page: https://imagine-to-achieve.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [MomWorld: Momentum-Aware Latent World Model for Long-Horizon Autonomous Driving](https://arxiv.org/abs/2609.33737)
+
+**Authors:** Ziying Song, Shengkai Zhang, Lei Yang, Haozhuang Chi, Yuchen Liu et al. (9 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33737) | [PDF](https://arxiv.org/pdf/2609.33737)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon planning enables autonomous vehicles to anticipate scene evolution and potential risks, supporting safe and stable decisions in complex interactions. However, existing methods struggle to propagate motion trends from observed history into the future. Long rollouts based on a single latent state may further attenuate useful dynamics, retain stale motion patterns, and disrupt reliable near-term plans. We introduce MomWorld, a momentum-aware latent world model for long-horizon planning. MomWorld extracts scene motion trends from historical-to-current observations and propagates laten...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MomWorld: Momentum-Aware Latent World Model for Long-Horizon Autonomous Driving
+
+Long-horizon planning enables autonomous vehicles to anticipate scene evolution and potential risks, supporting safe and stable decisions in complex interactions.
+
+arXiv: https://arxiv.org/abs/2609.33737
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [VIDEAS: Distilling Explicit Action Semantics from Demonstration Videos for World Models via Prior-Guided Simulation](https://arxiv.org/abs/2609.33464)
+
+**Authors:** Jianan Wang, Haoquan Zhai, Siyang Zhang, Bin Li, Juan Chen et al. (10 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33464) | [PDF](https://arxiv.org/pdf/2609.33464)
+
+<details>
+<summary>Abstract</summary>
+
+World models learn internal representations of environment dynamics to predict future states, enabling agents to optimize action plans without physical interactions. However, developing world models that genuinely internalize underlying causal physical laws to explicitly reason about action preconditions and subsequent state transitions remains an open challenge. In this paper, we propose VIDEAS, a data distillation framework that transforms continuous physical dynamics from operational videos into explicit action semantics for foundation models. Specifically, it deconstructs visual demonstrat...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VIDEAS: Distilling Explicit Action Semantics from Demonstration Videos for World Models via Prior-Guided Simulation
+
+World models learn internal representations of environment dynamics to predict future states, enabling agents to optimize action plans without physical interactions.
+
+arXiv: https://arxiv.org/abs/2609.33464
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [FINE: Future-Informed Navigation Encoding for Data-Efficient Vision-Language Navigation](https://arxiv.org/abs/2609.32855)
+
+**Authors:** Khang H. Nguyen, Hoang Pham Quang Nguyen, Ha Phuong Nguyen, Khanh Dinh Binh, Xuan Ha Nguyen et al. (9 authors)
+
+**Published:** 2026-09-26 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.32855) | [PDF](https://arxiv.org/pdf/2609.32855) | [Project Page](https://finevln.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Adapting vision-language navigation (VLN) policies to new environments is expensive because every additional route and instruction requires an embodied demonstration. Yet standard observation-to-action training uses only a small fraction of the information already contained in each trajectory. In particular, future observations reveal the instruction-relevant landmarks that the agent will encounter, including what they look like and how they are arranged in 3D. We introduce FINE, a Future-Informed Navigation Encoding framework that extracts this latent supervision from existing demonstrations....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FINE: Future-Informed Navigation Encoding for Data-Efficient Vision-Language Navigation
+
+Adapting vision-language navigation (VLN) policies to new environments is expensive because every additional route and instruction requires an embodied demonstration.
+
+arXiv: https://arxiv.org/abs/2609.32855
+Project page: https://finevln.github.io/
 
 #worldmodels #robotics
 ```
@@ -281,6 +907,212 @@ Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models
 Monocular drone navigation requires reaching a goal in an unseen environment from a single forward-facing camera, which offers few cues for depth and scale.
 
 arXiv: https://arxiv.org/abs/2609.26007
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time](https://arxiv.org/abs/2609.35704)
+
+**Authors:** Ziqi Ma, Hongqiao Chen, Georgia Gkioxari
+
+**Published:** 2026-09-28 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.35704) | [PDF](https://arxiv.org/pdf/2609.35704) | [Project Page](https://glab-caltech.github.io/dynatokens/)
+
+<details>
+<summary>Abstract</summary>
+
+Video generation must account for two sources of motion, one induced by the observer's camera path and the other caused by scene dynamics. An ideal camera-controlled video model should account for both motions: let users move the camera while evolving the scene dynamics. While current models handle camera-induced motion well in static settings, they struggle for dynamic scenes: objects are static, move incorrectly, or degrade in generation quality. We introduce DynaTokens, a lightweight set of learnable scene-specific tokens that teach dynamics to an existing camera-controlled world model. Our...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time
+
+Video generation must account for two sources of motion, one induced by the observer's camera path and the other caused by scene dynamics.
+
+arXiv: https://arxiv.org/abs/2609.35704
+Project page: https://glab-caltech.github.io/dynatokens/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Graph World Models for Constrained Epidemic Policy Planning](https://arxiv.org/abs/2609.35545)
+
+**Authors:** Yiqi Su, Rashed Shelim, Lingyi Wang, Walid Saad, Naren Ramakrishnan
+
+**Published:** 2026-09-28 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.35545) | [PDF](https://arxiv.org/pdf/2609.35545)
+
+<details>
+<summary>Abstract</summary>
+
+Epidemic policy planning often requires coordination between geographical regions, taking into account mobility-driven spillovers and how to make use of limited resources. Existing methods either lack action-conditioned models of coupled dynamics or cannot guarantee per-period feasibility. We present EpiMind, a graph world model framework for constrained epidemic policy planning across regions. A graph-factored recurrent state-space model generates joint policy-conditioned rollouts from regional latent beliefs, while graph-temporal ADMM optimizes regional interventions, enforces shared-resourc...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Graph World Models for Constrained Epidemic Policy Planning
+
+Epidemic policy planning often requires coordination between geographical regions, taking into account mobility-driven spillovers and how to make use of limited resources.
+
+arXiv: https://arxiv.org/abs/2609.35545
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [CoDrive: Cross-Vehicle World-Consistent Video Generation with Precise Trajectory Control for Cooperative Driving](https://arxiv.org/abs/2609.34749)
+
+**Authors:** Yu Meng, Baining Zhao, Junta Wu, Tengfei Wang, Rongze Tang et al. (13 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34749) | [PDF](https://arxiv.org/pdf/2609.34749)
+
+<details>
+<summary>Abstract</summary>
+
+Real-world driving is inherently multi-agent, yet most existing driving world models generate observations from a single ego vehicle. Independently extending them to multiple vehicles does not ensure that different agents observe a consistent shared world. We present CoDrive, a cross-vehicle, multi-view driving video generation framework that jointly generates observations of vehicles sharing the same dynamic scene with precise camera-trajectory control. CoDrive interleaves local self-attention, which models spatiotemporal dependencies among the views of each vehicle, with global self-attentio...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+CoDrive: Cross-Vehicle World-Consistent Video Generation with Precise Trajectory Control for Cooperative Driving
+
+Real-world driving is inherently multi-agent, yet most existing driving world models generate observations from a single ego vehicle.
+
+arXiv: https://arxiv.org/abs/2609.34749
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Precise Editing and Flexible Referencing for Interactable Worlds](https://arxiv.org/abs/2609.34470)
+
+**Authors:** Xinyao Liao, Xianfang Zeng, Zhu Liang, Zhoujie Fu, Qianxun Xu et al. (8 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.34470) | [PDF](https://arxiv.org/pdf/2609.34470) | [Code](https://github.com/leoisufa/EditWorld)
+
+<details>
+<summary>Abstract</summary>
+
+We present EditWorld, a video world model for precise editing and flexible referencing in interactable worlds. Existing video world models primarily focus on navigation, letting users explore generated worlds but offering limited control over how existing world content is modified. EditWorld extends world modeling from exploration to precise modification by streaming editing instructions and reference images during autoregressive generation. To support these capabilities, EditWorld introduces Gated Causal Attention for temporally varying editing conditions and reference images, together with a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Precise Editing and Flexible Referencing for Interactable Worlds
+
+We present EditWorld, a video world model for precise editing and flexible referencing in interactable worlds.
+
+arXiv: https://arxiv.org/abs/2609.34470
+Code: https://github.com/leoisufa/EditWorld
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Behavioral Monitoring of JEPA World Models with Jacobian Centroids](https://arxiv.org/abs/2609.33940)
+
+**Authors:** Thomas Walker, Randall Balestriero, Richard Baraniuk
+
+**Published:** 2026-09-27 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33940) | [PDF](https://arxiv.org/pdf/2609.33940)
+
+<details>
+<summary>Abstract</summary>
+
+Detecting failures in World Model (WM)-based planning requires monitoring whether the model is behaviorally aligned with the current task, which in turn requires studying its internal representations. Here, we show that centroids---sub-component Jacobian row-sums---effectively identify the behavioral properties of WMs, complementing traditional activation-based knowledge signals. The centroids of a model are easily computed through Jacobian vector products and characterize how the model organizes the geometry of its input space, yielding an efficient perspective on internal representations, in...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Behavioral Monitoring of JEPA World Models with Jacobian Centroids
+
+Detecting failures in World Model (WM)-based planning requires monitoring whether the model is behaviorally aligned with the current task, which in turn requires studying its internal representations.
+
+arXiv: https://arxiv.org/abs/2609.33940
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2609.33563)
+
+**Authors:** Brandon Gary Kaplowitz, Osaze James Obahor, Christian Schroeder de Witt
+
+**Published:** 2026-09-27 | **Categories:** cs.LG, cs.AI, cs.MA | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33563) | [PDF](https://arxiv.org/pdf/2609.33563)
+
+<details>
+<summary>Abstract</summary>
+
+World models improve sample efficiency by training policies on imagined trajectories, but their usefulness depends on learning representations that capture the information needed for future control. We study whether self-supervised joint-embedding prediction (JEPA) can provide this learning signal for multi-agent reinforcement learning. We introduce MA-JEPA, a stochastic world model that replaces observation reconstruction with prediction of target representations, enabling model-based multi-agent reinforcement learning with centralized training and decentralized execution. A categorical laten...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning
+
+World models improve sample efficiency by training policies on imagined trajectories, but their usefulness depends on learning representations that capture the information needed for future control.
+
+arXiv: https://arxiv.org/abs/2609.33563
 
 #worldmodels #robotics
 ```
@@ -428,6 +1260,244 @@ arXiv: https://arxiv.org/abs/2609.26299
 
 ---
 
+### [From Pixel to Poses: Object-centric Tool Manipulation Learning from Human Demonstrations](https://arxiv.org/abs/2609.35375)
+
+**Authors:** Bangjun Wang, Longyan Wu, Yukun Wei, Shenghe Shao, Chaoyi Huang et al. (11 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.35375) | [PDF](https://arxiv.org/pdf/2609.35375)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling up robotic manipulation is primarily bottlenecked by the scarcity of real-world robot data. While recent approaches leverage human video demonstrations to mitigate this shortage, they remain computationally expensive and still rely on paired human-robot data for domain alignment. Although current state-of-the-arts excel at long-horizon tasks, they struggle with the delicate and precise control required for complex tool manipulation. To overcome these limitations, we introduce P2P-T, from Pixel to Poses for Tool Manipulation, a data-efficient, object-centric framework that learns tool u...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Pixel to Poses: Object-centric Tool Manipulation Learning from Human Demonstrations
+
+Scaling up robotic manipulation is primarily bottlenecked by the scarcity of real-world robot data.
+
+arXiv: https://arxiv.org/abs/2609.35375
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [From World Models to World Action Models: Rethinking Next-State Prediction](https://arxiv.org/abs/2609.34414)
+
+**Authors:** Tingyu Yuan, Ziming Ji, Biaoliang Guan, Wen Ye, Wenrui Tian et al. (12 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34414) | [PDF](https://arxiv.org/pdf/2609.34414)
+
+<details>
+<summary>Abstract</summary>
+
+Predicting the next state is a core paradigm of World Models for modeling physical dynamics, emphasizing prediction fidelity. As World Models evolve into World-Action Models (WAMs), existing methods still fix the next state before training as RGB, a single latent feature, or a static combination of predefined targets, thereby constraining action learning to the inductive biases preserved by a particular representation. To address this limitation, we propose CF-WAM, a dynamic next-state prediction framework that samples visual, semantic, geometric, and interaction projections of the same future...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From World Models to World Action Models: Rethinking Next-State Prediction
+
+Predicting the next state is a core paradigm of World Models for modeling physical dynamics, emphasizing prediction fidelity.
+
+arXiv: https://arxiv.org/abs/2609.34414
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [When World Models Lie: Adaptive Safety Analysis Under Wrong Imaginations](https://arxiv.org/abs/2609.34300)
+
+**Authors:** John Cao, Somil Bansal
+
+**Published:** 2026-09-28 | **Categories:** cs.RO, cs.AI, eess.SY | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34300) | [PDF](https://arxiv.org/pdf/2609.34300)
+
+<details>
+<summary>Abstract</summary>
+
+World models offer a powerful substrate for safety reasoning in high-dimensional robotic systems, but they are also fallible: their predictions can be biased, miscalibrated, or confidently wrong. This creates a central challenge for latent-space safety filters, which often learn Hamilton-Jacobi safety value functions on the dynamics of a world model. If the world model is incorrect, the resulting value function can inherit its errors and produce overconfident safety estimates. Existing latent safety filters often rely on auxiliary signals such as ensemble disagreement or value-target consisten...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+When World Models Lie: Adaptive Safety Analysis Under Wrong Imaginations
+
+World models offer a powerful substrate for safety reasoning in high-dimensional robotic systems, but they are also fallible: their predictions can be biased, miscalibrated, or confidently wrong.
+
+arXiv: https://arxiv.org/abs/2609.34300
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Beyond One-Step Accuracy: State-Affine Latent Transition for Reliable Visual Planning](https://arxiv.org/abs/2609.33595)
+
+**Authors:** Boyuan Zhang, Yingjun Du, Xiantong Zhen, Ling Shao
+
+**Published:** 2026-09-27 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33595) | [PDF](https://arxiv.org/pdf/2609.33595)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-embedding world models enable visual planning by learning action-conditioned dynamics in latent space. Yet they are commonly trained for one-step prediction on encoded states, while planning recursively applies the learned transition to its own predictions. One-step accuracy therefore does not capture how prediction errors propagate under recursive rollout. We decompose multi-step rollout error into the errors introduced at individual steps and their propagation through subsequent transitions. We show that state-affine dynamics are precisely the differentiable transitions with state-inde...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Beyond One-Step Accuracy: State-Affine Latent Transition for Reliable Visual Planning
+
+Joint-embedding world models enable visual planning by learning action-conditioned dynamics in latent space.
+
+arXiv: https://arxiv.org/abs/2609.33595
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [VehDyn: A Driving World Model Benchmark for Vehicle Dynamics](https://arxiv.org/abs/2609.33264)
+
+**Authors:** Tianyi Wang, Wangsheng Du, Jiazhou Chen, Tianyi Zeng, Xiangyu Li et al. (15 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.CV, cs.AI, cs.ET | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33264) | [PDF](https://arxiv.org/pdf/2609.33264)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models are emerging as data engines, action planners, and generative simulators for autonomous driving, but existing benchmarks primarily assess visual fidelity and coarse physical plausibility, providing limited evidence on whether generated driving futures obey realistic vehicle kinematics and dynamics. This limitation is further compounded by the lack of datasets in which vehicle, road, maneuver, and speed conditions are independently controlled, and ground-truth vehicle states are recorded in synchrony with videos. We introduce VehDyn, a driving world model benchmark for vehicl...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VehDyn: A Driving World Model Benchmark for Vehicle Dynamics
+
+Video world models are emerging as data engines, action planners, and generative simulators for autonomous driving, but existing benchmarks primarily assess visual fidelity and coarse physical plausibility, providing...
+
+arXiv: https://arxiv.org/abs/2609.33264
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [SwingRL: Adaptive Observation Reinforcement Learning with World-Model Prediction for Cable-Suspended Hoisting Control](https://arxiv.org/abs/2609.33053)
+
+**Authors:** Guangming Wang, Xiaoyu Zhang, Yucheng Xin, Wanli Ma, Jiucai Liu et al. (11 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33053) | [PDF](https://arxiv.org/pdf/2609.33053)
+
+<details>
+<summary>Abstract</summary>
+
+Cable-suspended hoisting is widely used to move heavy or bulky payloads that cannot be handled conveniently by rigid pick-and-place systems, for example in crane-assisted construction. Robotic hoisting using flexible cables is challenging because payload motion is underactuated, external disturbances vary, and delayed or lost visual observations can make the perceived payload state stale at control execution. These effects are particularly critical during precise insertion of a suspended payload's sockets onto rebar pins, which is a very common task in construction environments. We present Swi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SwingRL: Adaptive Observation Reinforcement Learning with World-Model Prediction for Cable-Suspended Hoisting Control
+
+Cable-suspended hoisting is widely used to move heavy or bulky payloads that cannot be handled conveniently by rigid pick-and-place systems, for example in crane-assisted construction.
+
+arXiv: https://arxiv.org/abs/2609.33053
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [What Must a World Model Distinguish for Planning?](https://arxiv.org/abs/2609.33030)
+
+**Authors:** Rongzhe Wei, Hans Hao-Hsun Hsu, Peizhi Niu, Yifan Li, Pan Li
+
+**Published:** 2026-09-26 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33030) | [PDF](https://arxiv.org/pdf/2609.33030)
+
+<details>
+<summary>Abstract</summary>
+
+World models simulate the consequences of action candidates, but good planning need not preserve every physical distinction required for accurate prediction. We formalize this gap through a hierarchy of mechanism, response, and decision sufficiency. Given a candidate set, the planning query determines which physical variations matter and how precisely they must be preserved: coarse decisions can discard much of the information needed for prediction, whereas fine decisions may require nearly the same resolution. In practice, planners often adaptively search to construct candidates, and informat...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+What Must a World Model Distinguish for Planning?
+
+World models simulate the consequences of action candidates, but good planning need not preserve every physical distinction required for accurate prediction.
+
+arXiv: https://arxiv.org/abs/2609.33030
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving](https://arxiv.org/abs/2609.30436)
 
 **Authors:** Mingkai Jia, Jiaxin Guo, Zhijian Shu, Jiawei Xu, Mingxiao Li et al. (8 authors)
@@ -524,6 +1594,108 @@ InternW0: A Foundational Physical World Model for Efficient Real-World Interacti
 Physical intelligence requires more than predicting how the world may evolve: predictions must remain actionable as the world continues to change.
 
 arXiv: https://arxiv.org/abs/2609.27656
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Control-Geometry Straightening for Sampling-Based Latent Planning](https://arxiv.org/abs/2609.35603)
+
+**Authors:** Ziang Fu, Ning Ning
+
+**Published:** 2026-09-28 | **Categories:** cs.LG, stat.ML | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.35603) | [PDF](https://arxiv.org/pdf/2609.35603)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-embedding predictive architectures enable planning with latent world models, but accurate transition prediction alone does not ensure that the planning objective is easy to optimize. We introduce Control-Geometry Straightening (CGS), a single auxiliary loss that learns planner-friendly representations by directly straightening control geometry for sampling-efficient planning. CGS matches pairwise cosine similarities among actions to those among corresponding latent differences only using local transitions from pixel-action pairs. The loss can be applied across world-model architectures u...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Control-Geometry Straightening for Sampling-Based Latent Planning
+
+Joint-embedding predictive architectures enable planning with latent world models, but accurate transition prediction alone does not ensure that the planning objective is easy to optimize.
+
+arXiv: https://arxiv.org/abs/2609.35603
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models](https://arxiv.org/abs/2609.35052)
+
+**Authors:** Hao Wang, Tao Yu, Liuzhou Zhang, HeXin Wang, Haopeng Jin et al. (16 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.35052) | [PDF](https://arxiv.org/pdf/2609.35052)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models must preserve the visual state of the world over time, but existing evaluation protocols often rely on generated histories, video reference, or selected revisit viewpoints that can confound the assessment of a model's true memory capability. To address this, we introduce OPIS, an input-grounded benchmark that strictly anchors the assessment to a fixed set of object instances from the initial observation for evaluating multi-object memory in video world models. The OPIS dataset comprises 500 cases across real-world, embodied-robotic, and game-world domains, providing dense ob...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models
+
+Video world models must preserve the visual state of the world over time, but existing evaluation protocols often rely on generated histories, video reference, or selected revisit viewpoints that can confound the asse...
+
+arXiv: https://arxiv.org/abs/2609.35052
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Do World Models Learn Global Understanding?](https://arxiv.org/abs/2609.34058)
+
+**Authors:** Alexander Detkov, Matt Thomson
+
+**Published:** 2026-09-28 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34058) | [PDF](https://arxiv.org/pdf/2609.34058)
+
+<details>
+<summary>Abstract</summary>
+
+AI systems often feel brittle and fragmented. A large language model (LLM) may correctly explain a concept but fail to apply it, or follow safety instructions in one context but not another. This behavior suggests a general failure to lift local information to a global understanding. To gain fundamental insight, we frame "understanding" as learning constraints and propagating their consequences. We construct learning tasks on monoid worlds, sets of states connected by action transitions, where observed training transitions and an unseen constraint jointly determine held-out transitions. Measur...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Do World Models Learn Global Understanding?
+
+AI systems often feel brittle and fragmented.
+
+arXiv: https://arxiv.org/abs/2609.34058
 
 #worldmodels #robotics
 ```
@@ -635,20 +1807,20 @@ Project page: https://becauseimbatman0.github.io/CoDeR
 
 ---
 
-### [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation](https://arxiv.org/abs/2609.26425)
+### [DeltaWAM: Change-Centric Visual Foresight via Delta Tokens for an Efficient World-Action Model](https://arxiv.org/abs/2609.33177)
 
-**Authors:** Jiaqi Zhao, Xiaobin Hu, Bo Yin, Junpeng Jiang, Miao Zhang et al. (6 authors)
+**Authors:** Tianyun Jiang, Wenrui Bao, Bingxin Xu, Yu Tian, Yuzhang Shang
 
-**Published:** 2026-09-22 (updated 2026-09-23) | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-27 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; robotics / embodied focus
+**Why surfaced:** "world model" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.26425) | [PDF](https://arxiv.org/pdf/2609.26425)
+**Links:** [arXiv](https://arxiv.org/abs/2609.33177) | [PDF](https://arxiv.org/pdf/2609.33177)
 
 <details>
 <summary>Abstract</summary>
 
-KV cache memory has become a major deployment bottleneck for video generation and world models, which motivates low-bit quantization study for efficiency. Existing 2-bit KV cache quantization methods can achieve nearly lossless performance on video benchmarks such as VBench, however, we find that they still cause severe temporal flickering and visual degradation. Meanwhile, deeper investigates show that Key quantization produces smaller reconstruction errors than Value, but surprisingly leads to much larger output degradation. We trace this discrepancy to attention: small Key perturbations can...
+World-Action Models (WAMs) offer visual foresight for robotic manipulation, but pixel-space models repeatedly reconstruct entire future scenes, incurring high computational cost and spatio-temporal redundancy. In physical manipulation, consecutive frames often share most of their visual context; the changes between them are what an action policy needs to anticipate. We introduce DeltaWAM, a change-centric WAM that makes a compact delta token the unit of future prediction. Each token is a single vector encoding changes between consecutive dense DINO feature maps. DeltaWAM builds on DeltaWorld,...
 
 </details>
 
@@ -656,11 +1828,11 @@ KV cache memory has become a major deployment bottleneck for video generation an
 <summary>Share</summary>
 
 ```
-QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation
+DeltaWAM: Change-Centric Visual Foresight via Delta Tokens for an Efficient World-Action Model
 
-KV cache memory has become a major deployment bottleneck for video generation and world models, which motivates low-bit quantization study for efficiency.
+World-Action Models (WAMs) offer visual foresight for robotic manipulation, but pixel-space models repeatedly reconstruct entire future scenes, incurring high computational cost and spatio-temporal redundancy.
 
-arXiv: https://arxiv.org/abs/2609.26425
+arXiv: https://arxiv.org/abs/2609.33177
 
 #worldmodels #robotics
 ```
@@ -763,6 +1935,210 @@ Generalizable Robotic Insertion with World Models
 Robotic assembly in high-mixture settings requires adaptable systems that can handle diverse parts, yet current approaches typically rely on policies specialized to each insertion task.
 
 arXiv: https://arxiv.org/abs/2609.28258
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Shaping Persistent Representations from Independent Interactions](https://arxiv.org/abs/2609.34604)
+
+**Authors:** Ji Dai, Quan Fang, Junyu Gao, Rongfeng Guo, Haoyan Rong et al. (7 authors)
+
+**Published:** 2026-09-28 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.34604) | [PDF](https://arxiv.org/pdf/2609.34604)
+
+<details>
+<summary>Abstract</summary>
+
+World models learn environment dynamics from interaction experience. These dynamics depend on the current state and actions, as well as on properties that persist across interactions. Yet standard predictive training can reduce error using local evidence alone, without organizing persistent information into reusable context. We introduce SPRII, a training principle that uses relations between interactions as weak supervision for persistent context while retaining the learner's native objective. For example, different trajectories of the same system share persistent properties even when their s...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Shaping Persistent Representations from Independent Interactions
+
+World models learn environment dynamics from interaction experience.
+
+arXiv: https://arxiv.org/abs/2609.34604
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [ReDrive: Shaping Representations with World Modeling for End-to-End Driving](https://arxiv.org/abs/2609.33854)
+
+**Authors:** Yueting Zhu, Shaoyu Chen, Yuehao Song, Hui Sun, Qian Zhang et al. (7 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33854) | [PDF](https://arxiv.org/pdf/2609.33854)
+
+<details>
+<summary>Abstract</summary>
+
+Driving policies require capabilities of scene understanding and future evolution prediction. To achieve this goal, current end-to-end models typically construct complex perception-planning pipelines or introduce world models that explicitly predict future states, resulting in a complex system architecture. Inspired by the transferability of general-purpose visual representations, we argue that combining sufficiently strong visual representations with representation world modeling can support effective planning without relying on complex inference-time auxiliary modules. Based on this insight,...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ReDrive: Shaping Representations with World Modeling for End-to-End Driving
+
+Driving policies require capabilities of scene understanding and future evolution prediction.
+
+arXiv: https://arxiv.org/abs/2609.33854
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [ViBR-WM: Visual Bayesian Regression for World Modeling](https://arxiv.org/abs/2609.33844)
+
+**Authors:** Jifan Li, Ning Ning
+
+**Published:** 2026-09-27 | **Categories:** stat.ME, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33844) | [PDF](https://arxiv.org/pdf/2609.33844)
+
+<details>
+<summary>Abstract</summary>
+
+Modeling temporal dependence and uncertainty is central to forecasting with world models. The Visual Bayesian Regression World Model combines visual features, physical histories and known covariates through interpretable regression, within a modular architecture supporting trend, seasonal and cycle dynamics. Visual compression reduces representation dimension, while Bayesian variable selection reduces active regression dimension. Posterior prediction combines forecasts across predictor subsets using their posterior probabilities as weights and accounts for parameter uncertainty and future dist...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ViBR-WM: Visual Bayesian Regression for World Modeling
+
+Modeling temporal dependence and uncertainty is central to forecasting with world models.
+
+arXiv: https://arxiv.org/abs/2609.33844
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [MultiEcho: An Experimental Science of Learned Worlds](https://arxiv.org/abs/2609.33347)
+
+**Authors:** Meng Zhu, Airui Zhang
+
+**Published:** 2026-09-27 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33347) | [PDF](https://arxiv.org/pdf/2609.33347)
+
+<details>
+<summary>Abstract</summary>
+
+World models can be studied as experimental systems with response laws of their own. We introduce MultiEcho, a framework for estimating these laws through controlled counterfactual interventions, delimiting their applicability, and separately testing their physical correspondence. Across nine simulated physical systems and seven frozen model configurations, three-reference estimators predict complete intervention responses and recover intervention parameters. Estimator selection uses discovery data only; frozen fits are evaluated on validation and confirmation contexts. The experiments disting...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MultiEcho: An Experimental Science of Learned Worlds
+
+World models can be studied as experimental systems with response laws of their own.
+
+arXiv: https://arxiv.org/abs/2609.33347
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Beyond Conservatism: Recoverability-Conditioned Exploration for Model-Based Imitation Learning](https://arxiv.org/abs/2609.33336)
+
+**Authors:** Xuanlin Chen, Ziyue Wang, Xunlan Zhou, Yuan-yih Shang, Qiang Wu et al. (6 authors)
+
+**Published:** 2026-09-27 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.33336) | [PDF](https://arxiv.org/pdf/2609.33336)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based imitation learning (MBIL) improves real-environment interaction efficiency by optimizing policies on imagined rollouts from a learned world model. However, the gap between model-induced and real-environment occupancies makes policy learning sensitive to model error. Conservative MBIL mitigates model exploitation during policy optimization, but when real-environment interactions are collected by the same conservative policy, uncertain regions around the expert distribution remain insufficiently sampled. Generic uncertainty-driven exploration, on the other hand, may allocate interact...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Beyond Conservatism: Recoverability-Conditioned Exploration for Model-Based Imitation Learning
+
+Model-based imitation learning (MBIL) improves real-environment interaction efficiency by optimizing policies on imagined rollouts from a learned world model.
+
+arXiv: https://arxiv.org/abs/2609.33336
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Adaptive Latent Capacity for World Models](https://arxiv.org/abs/2609.32921)
+
+**Authors:** Idan Achituve, Lior Dikstein, Idit Diamant, Arnon Netzer, Hai Victor Habi
+
+**Published:** 2026-09-26 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.32921) | [PDF](https://arxiv.org/pdf/2609.32921)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Adaptive LeWorldModel (ALeWM), a world model based on a joint-embedding predictive architecture (JEPA) that learns to concentrate predictive information in compact prefixes of a wide latent representation. To encourage this ordering, ALeWM learns a sequence-conditioned distribution over prefix lengths and trains the predictor to estimate the full next embedding from a sampled input prefix. As standard anti-collapse objectives encourage variation across latent coordinates and do not organize them by predictive importance, we also introduce MixSIGReg. MixSIGReg regularizes the maske...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Adaptive Latent Capacity for World Models
+
+We introduce Adaptive LeWorldModel (ALeWM), a world model based on a joint-embedding predictive architecture (JEPA) that learns to concentrate predictive information in compact prefixes of a wide latent representation.
+
+arXiv: https://arxiv.org/abs/2609.32921
 
 #worldmodels #robotics
 ```
@@ -1103,6 +2479,40 @@ SHRAV: State-Hypothesis-Reason-Action-Verify Framework for Physical Modeling and
 Physical modeling and inverse design require computation that can continue from reusable state.
 
 arXiv: https://arxiv.org/abs/2609.27621
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models](https://arxiv.org/abs/2609.26425)
+
+**Authors:** Jiaqi Zhao, Xiaobin Hu, Bo Yin, Junpeng Jiang, Miao Zhang et al. (6 authors)
+
+**Published:** 2026-09-22 (updated 2026-09-28) | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.26425) | [PDF](https://arxiv.org/pdf/2609.26425)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache makes KV cache memory a major deployment bottleneck, which motivates low-bit quantization study for efficiency. Existing 2-bit KV cache quantization methods can achieve nearly lossless performance on VBench, however, when applied to video world models, we find they still cause severe temporal flickering and visual degradation. Meanwhile, deeper investigates show that Key quantization produces smaller reconstruction errors than Value, but surprisingly leads to larger output de...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models
+
+Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache makes KV cache memory a major deployment bottleneck, which motivates low-bit quantization study f...
+
+arXiv: https://arxiv.org/abs/2609.26425
 
 #worldmodels #robotics
 ```
