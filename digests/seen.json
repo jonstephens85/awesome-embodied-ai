@@ -3214,5 +3214,365 @@
       "egocentric_data",
       "vla"
     ]
+  },
+  "2609.35936": {
+    "first_seen": "2026-09-30",
+    "title": "Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36012": {
+    "first_seen": "2026-09-30",
+    "title": "In-Context Learning for Robots: Methods and Applications",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36118": {
+    "first_seen": "2026-09-30",
+    "title": "The Layer Mystery of VLA: An Information-Theoretical Analysis of VLA Latent Interface",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36305": {
+    "first_seen": "2026-09-30",
+    "title": "Bilinear World Models: Learning Representations with Structured Dynamics for Efficient Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36333": {
+    "first_seen": "2026-09-30",
+    "title": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36352": {
+    "first_seen": "2026-09-30",
+    "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36413": {
+    "first_seen": "2026-09-30",
+    "title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2609.36416": {
+    "first_seen": "2026-09-30",
+    "title": "FineART: Fine-grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36438": {
+    "first_seen": "2026-09-30",
+    "title": "World4Scorer: Outcome-Grounded World Modeling for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36454": {
+    "first_seen": "2026-09-30",
+    "title": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36471": {
+    "first_seen": "2026-09-30",
+    "title": "Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36518": {
+    "first_seen": "2026-09-30",
+    "title": "LIBERO-MAX: Do Robot Policies Adapt When the World Changes?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36531": {
+    "first_seen": "2026-09-30",
+    "title": "Foresight at the Event Boundary: Evaluating Physical Prediction in Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36540": {
+    "first_seen": "2026-09-30",
+    "title": "Reactive Real-Time Flow Policies via Asynchronous Distribution Alignment",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36582": {
+    "first_seen": "2026-09-30",
+    "title": "Inferring Soil Friction Angle from Robot Foot-Ground Force Histories: A Bayesian Inverse Approach to Proprioceptive Soil Sensing",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36588": {
+    "first_seen": "2026-09-30",
+    "title": "Cooperative Multi-Agent Vision-Language-Action Models via Reinforced Fine Tuning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36645": {
+    "first_seen": "2026-09-30",
+    "title": "Where Predictive Supervision Goes Shapes What VLA Policies Learn",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36720": {
+    "first_seen": "2026-09-30",
+    "title": "T$^2$Mem: Learning Test-Time Memory for Robotics",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36774": {
+    "first_seen": "2026-09-30",
+    "title": "LexiconVLA: Learning Reusable Atomic Action Codebooks for Unseen Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36810": {
+    "first_seen": "2026-09-30",
+    "title": "MeteoVerse: Unified Weather-Controllable Video World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36845": {
+    "first_seen": "2026-09-30",
+    "title": "DSWM: Decomposed Spatio-Temporal World Model for Demand-Driven UAV Base Station Repositioning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36851": {
+    "first_seen": "2026-09-30",
+    "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.36915": {
+    "first_seen": "2026-09-30",
+    "title": "AeroManip-VLA: Scalable Vision-Language-Action Learning for Aerial Manipulation with RL-Generated Demonstrations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36934": {
+    "first_seen": "2026-09-30",
+    "title": "VLALight: A Vision-Language-Action Model for Traffic Signal Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36967": {
+    "first_seen": "2026-09-30",
+    "title": "Beyond Token Importance: Preserving Spatial Scaffolds for Efficient Vision-Language-Action Inference",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.36985": {
+    "first_seen": "2026-09-30",
+    "title": "Abductive World Modeling via Causal Representation Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37046": {
+    "first_seen": "2026-09-30",
+    "title": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37107": {
+    "first_seen": "2026-09-30",
+    "title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37150": {
+    "first_seen": "2026-09-30",
+    "title": "CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37156": {
+    "first_seen": "2026-09-30",
+    "title": "Lucid Dreaming for World Models: Learning to Doubt Imagination and Decide by Trust",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37165": {
+    "first_seen": "2026-09-30",
+    "title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37181": {
+    "first_seen": "2026-09-30",
+    "title": "EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2609.37250": {
+    "first_seen": "2026-09-30",
+    "title": "V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37307": {
+    "first_seen": "2026-09-30",
+    "title": "Remember What You Did: Action-History Memory with Dual-Expert Denoising for Long-Horizon Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37334": {
+    "first_seen": "2026-09-30",
+    "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37378": {
+    "first_seen": "2026-09-30",
+    "title": "Do-JEPA: From Masking to Intervention in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37398": {
+    "first_seen": "2026-09-30",
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37441": {
+    "first_seen": "2026-09-30",
+    "title": "Anisotropic Representations Improve Planning in JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37530": {
+    "first_seen": "2026-09-30",
+    "title": "RawVLA: Embodied Neural Image Signal Processor For Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37644": {
+    "first_seen": "2026-09-30",
+    "title": "Beyond a single latent space: a dual-latent world model for long-horizon planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37690": {
+    "first_seen": "2026-09-30",
+    "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.37771": {
+    "first_seen": "2026-09-30",
+    "title": "Faster and Better? Benchmark Bugs and Design Limitations Distort the Evaluation of Vision-Language-Action Acceleration",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37772": {
+    "first_seen": "2026-09-30",
+    "title": "Urgent Actions Go First: Urgency-Aware Denoising for Real-Time VLA Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37810": {
+    "first_seen": "2026-09-30",
+    "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.37922": {
+    "first_seen": "2026-09-30",
+    "title": "WayFinder: Hierarchical Visual-Language-Action for Zero-Shot Waypoint Generation and Low-Level Kinematic Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.38046": {
+    "first_seen": "2026-09-30",
+    "title": "EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2609.38078": {
+    "first_seen": "2026-09-30",
+    "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2609.38123": {
+    "first_seen": "2026-09-30",
+    "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.38140": {
+    "first_seen": "2026-09-30",
+    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.38163": {
+    "first_seen": "2026-09-30",
+    "title": "Rethinking Representations for World-Action Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2609.38164": {
+    "first_seen": "2026-09-30",
+    "title": "Rho: A Foundation for Efficiently Adaptable VLA Models",
+    "topics": [
+      "vla"
+    ]
   }
 }
