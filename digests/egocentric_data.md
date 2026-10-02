@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-01 20:48 UTC
+**Last updated:** 2026-10-02 20:22 UTC
 
-**Papers shown:** 19 (relevance ≥ 2, last 7 days)
+**Papers shown:** 21 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -82,20 +82,20 @@ Project page: https://ropedia.github.io/egotools
 
 ---
 
-### [Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2609.38615)
+### [NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video](https://arxiv.org/abs/2610.01461)
 
-**Authors:** Hongjia Zhai, Xiyu Zhang, Haoran Zhang, Zhichao Ye, Haomin Liu et al. (8 authors)
+**Authors:** Zhaoxu Meng, Yiming Sun, Mingyuan Gao, Jiachang Zhang, Zhuhan Dai et al. (8 authors)
 
-**Published:** 2026-09-29 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-01 | **Categories:** cs.AI | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.38615) | [PDF](https://arxiv.org/pdf/2609.38615) | [Project Page](https://rcl-robotics.github.io/Exo2EgoHOI/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.01461) | [PDF](https://arxiv.org/pdf/2610.01461) | [Project Page](https://kkkkawayi.github.io/nextme-800/)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly. Exocentric-to-egocentric video generation offers a scalable alternative by transforming abundant third-person manipulation videos into first-person observations. However, existing methods often struggle to faithfully preserve demonstrated hand-object interactions (HOI) across large viewpoint changes due to insufficient fine-grained interaction guidance and weak object-centric anchoring. We present Exo2EgoHOI, an HOI-aware video generative framework...
+We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do. Hindsight offers a valuable perspective on past decisions, although we often wish we could have simulated hindsight at the moment of choosing. If a system could generate plausible trajectories from one's personal history, such previews might help people formulate more realistic plans and make better informed decisions. We introduce NextMe-800, an approximately 800-hour first-person dataset from one volunteer over 126 days with 1 Hz images, ga...
 
 </details>
 
@@ -103,12 +103,12 @@ Egocentric videos of human manipulation provide valuable visual experience for e
 <summary>Share</summary>
 
 ```
-Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation
+NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video
 
-Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly.
+We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do.
 
-arXiv: https://arxiv.org/abs/2609.38615
-Project page: https://rcl-robotics.github.io/Exo2EgoHOI/
+arXiv: https://arxiv.org/abs/2610.01461
+Project page: https://kkkkawayi.github.io/nextme-800/
 
 #egocentric #robotlearning
 ```
@@ -144,6 +144,42 @@ World-space hand motion estimation from egocentric video requires recovering 3D 
 
 arXiv: https://arxiv.org/abs/2609.35743
 Project page: https://infinihand.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438)
+
+**Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye et al. (12 authors)
+
+**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in abstract; 4 distinct keyword hits; posted in last 2 days
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.00438) | [PDF](https://arxiv.org/pdf/2610.00438)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation. However, existing supervision from these videos provides limited coverage of whole-body movement and coordination with hand-object interaction, while obtaining such supervision through humanoid teleoperation is also costly and difficult to scale. We therefore explore how h...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
+
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements.
+
+arXiv: https://arxiv.org/abs/2610.00438
 
 #egocentric #robotlearning
 ```
@@ -222,20 +258,20 @@ Project page: https://dexagent123.github.io/
 
 ---
 
-### [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187)
+### [Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2609.38615)
 
-**Authors:** Abhiram Maddukuri, Georgios Pavlakos
+**Authors:** Hongjia Zhai, Xiyu Zhang, Haoran Zhang, Zhichao Ye, Haomin Liu et al. (8 authors)
 
-**Published:** 2026-09-24 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-09-29 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "Ego-Exo" in title; project page
+**Why surfaced:** "egocentric video" in title; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.30187) | [PDF](https://arxiv.org/pdf/2609.30187) | [Project Page](https://abhiram824.github.io/egoexo4d_human_meshes)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.38615) | [PDF](https://arxiv.org/pdf/2609.38615) | [Project Page](https://rcl-robotics.github.io/Exo2EgoHOI/)
 
 <details>
 <summary>Abstract</summary>
 
-Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI. However, the dataset ships with only sparse 3D human pose annotations, and reconstructing dense human motion from its multi-view captures is nontrivial. To this end, we present Ego-Exo4D-HM, a large-scale dataset of 4D human motion reconstructions for Ego-Exo4D's captures, and release the accompanying reconstruction pipeline. The code, dataset, and documentation can be found at https://abhira...
+Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly. Exocentric-to-egocentric video generation offers a scalable alternative by transforming abundant third-person manipulation videos into first-person observations. However, existing methods often struggle to faithfully preserve demonstrated hand-object interactions (HOI) across large viewpoint changes due to insufficient fine-grained interaction guidance and weak object-centric anchoring. We present Exo2EgoHOI, an HOI-aware video generative framework...
 
 </details>
 
@@ -243,12 +279,12 @@ Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-v
 <summary>Share</summary>
 
 ```
-Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures
+Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation
 
-Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI.
+Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly.
 
-arXiv: https://arxiv.org/abs/2609.30187
-Project page: https://abhiram824.github.io/egoexo4d_human_meshes
+arXiv: https://arxiv.org/abs/2609.38615
+Project page: https://rcl-robotics.github.io/Exo2EgoHOI/
 
 #egocentric #robotlearning
 ```
@@ -563,6 +599,40 @@ Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Genera
 Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change.
 
 arXiv: https://arxiv.org/abs/2609.30735
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210)
+
+**Authors:** Hongming Fu, Jingcheng Shi, Wenjia Wang, Binhua Zuo, Bo Zhao
+
+**Published:** 2026-10-01 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.01210) | [PDF](https://arxiv.org/pdf/2610.01210)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult. Existing reconstruction pipelines typically separate hand and scene estimation, leave interaction attributes to separate task-specific models, and invoke several models per video, so no prior reconstruction model estimates these attributes and throughput becomes a practical constraint on large-scale annotation. We therefore introduce EgoFound3R, a unified end-to-end model that estimates world-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes
+
+Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult.
+
+arXiv: https://arxiv.org/abs/2610.01210
 
 #egocentric #robotlearning
 ```
