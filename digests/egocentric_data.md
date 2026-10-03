@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-02 20:22 UTC
+**Last updated:** 2026-10-03 00:48 UTC
 
-**Papers shown:** 21 (relevance ≥ 2, last 7 days)
+**Papers shown:** 18 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,9 +14,9 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Huimin Pan, Yufan Ren, Kunpeng Song, Siyang Wang, Xiwen Zhang et al. (19 authors)
 
-**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in abstract; 4 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; 4 distinct keyword hits; project page
 
 **Also relevant to:** Vision-Language-Action Models
 
@@ -39,41 +39,6 @@ Egocentric human video offers a scalable data source for dexterous manipulation,
 
 arXiv: https://arxiv.org/abs/2609.39403
 Project page: https://xpeng-robotics.github.io/ironmind/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos](https://arxiv.org/abs/2609.39378)
-
-**Authors:** Shulin Tian, Junsu Kim, Shuai Liu, Hao Li, Yujiao Shen et al. (20 authors)
-
-**Published:** 2026-09-30 | **Categories:** cs.CV | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.39378) | [PDF](https://arxiv.org/pdf/2609.39378) | [Project Page](https://ropedia.github.io/egotools)
-
-<details>
-<summary>Abstract</summary>
-
-Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as captioning and general video QA, current multimodal video models remain limited in this form of tool...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos
-
-Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states.
-
-arXiv: https://arxiv.org/abs/2609.39378
-Project page: https://ropedia.github.io/egotools
 
 #egocentric #robotlearning
 ```
@@ -117,6 +82,41 @@ Project page: https://kkkkawayi.github.io/nextme-800/
 
 ---
 
+### [EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos](https://arxiv.org/abs/2609.39378)
+
+**Authors:** Shulin Tian, Junsu Kim, Shuai Liu, Hao Li, Yujiao Shen et al. (20 authors)
+
+**Published:** 2026-09-30 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.39378) | [PDF](https://arxiv.org/pdf/2609.39378) | [Project Page](https://ropedia.github.io/egotools)
+
+<details>
+<summary>Abstract</summary>
+
+Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as captioning and general video QA, current multimodal video models remain limited in this form of tool...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos
+
+Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states.
+
+arXiv: https://arxiv.org/abs/2609.39378
+Project page: https://ropedia.github.io/egotools
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video](https://arxiv.org/abs/2609.35743)
 
 **Authors:** Kerui Ren, Kaiwen Song, Weiguang Zhao, Yuxi Wang, Yufei Liu et al. (11 authors)
@@ -144,77 +144,6 @@ World-space hand motion estimation from egocentric video requires recovering 3D 
 
 arXiv: https://arxiv.org/abs/2609.35743
 Project page: https://infinihand.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438)
-
-**Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye et al. (12 authors)
-
-**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in abstract; 4 distinct keyword hits; posted in last 2 days
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.00438) | [PDF](https://arxiv.org/pdf/2610.00438)
-
-<details>
-<summary>Abstract</summary>
-
-Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation. However, existing supervision from these videos provides limited coverage of whole-body movement and coordination with hand-object interaction, while obtaining such supervision through humanoid teleoperation is also costly and difficult to scale. We therefore explore how h...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
-
-Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements.
-
-arXiv: https://arxiv.org/abs/2610.00438
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence](https://arxiv.org/abs/2609.39870)
-
-**Authors:** Xuhua Chen, Zhenhan Yin, Yuan Zhang, Lingfeng Zhang, He Zheng et al. (18 authors)
-
-**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.39870) | [PDF](https://arxiv.org/pdf/2609.39870) | [Project Page](https://embodied.magiclab.top/works/wam/magic-w0/index.html)
-
-<details>
-<summary>Abstract</summary>
-
-World-action models (WAMs) augment robot policies with action-conditioned environment dynamics, yet existing approaches largely rely on future observation reconstruction or generic latent prediction and lack structured, control-oriented world representations tightly coupled with action generation. We introduce Magic-W0, a world-action foundation model that jointly models structured physical state evolution and continuous actions. Magic-W0 represents interaction as a Structured World Transition consisting of Current State, Transition, and Future State. Current State combines vision-language con...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence
-
-World-action models (WAMs) augment robot policies with action-conditioned environment dynamics, yet existing approaches largely rely on future observation reconstruction or generic latent prediction and lack structure...
-
-arXiv: https://arxiv.org/abs/2609.39870
-Project page: https://embodied.magiclab.top/works/wam/magic-w0/index.html
 
 #egocentric #robotlearning
 ```
@@ -293,22 +222,22 @@ Project page: https://rcl-robotics.github.io/Exo2EgoHOI/
 
 ---
 
-### [EWAM: Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action](https://arxiv.org/abs/2609.39973)
+### [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438)
 
-**Authors:** Hao Wang, Jiajun Wen, Jingzhi Liu, Shuoshuo Xue, Zhiliang Chen et al. (24 authors)
+**Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye et al. (12 authors)
 
 **Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; 4 distinct keyword hits
 
 **Also relevant to:** Vision-Language-Action Models
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.39973) | [PDF](https://arxiv.org/pdf/2609.39973)
+**Links:** [arXiv](https://arxiv.org/abs/2610.00438) | [PDF](https://arxiv.org/pdf/2610.00438)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) policies emphasize semantic understanding, whereas world-action models (WAMs) learn predictive representations of environment dynamics. Systems that expose a policy to both sources often still concentrate action computation on a single expert. We present EWAM, an action-centric unified embodied model whose asymmetric joint attention lets action tokens read semantic, current-visual, predicted-future, and action information at every layer while the perceptual experts retain their distinct roles. Without layer-wise supervision, EWAM develops an emergent depth-wise spe...
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation. However, existing supervision from these videos provides limited coverage of whole-body movement and coordination with hand-object interaction, while obtaining such supervision through humanoid teleoperation is also costly and difficult to scale. We therefore explore how h...
 
 </details>
 
@@ -316,11 +245,11 @@ Vision-language-action (VLA) policies emphasize semantic understanding, whereas 
 <summary>Share</summary>
 
 ```
-EWAM: Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action
+Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
 
-Vision-language-action (VLA) policies emphasize semantic understanding, whereas world-action models (WAMs) learn predictive representations of environment dynamics.
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements.
 
-arXiv: https://arxiv.org/abs/2609.39973
+arXiv: https://arxiv.org/abs/2610.00438
 
 #egocentric #robotlearning
 ```
@@ -329,20 +258,20 @@ arXiv: https://arxiv.org/abs/2609.39973
 
 ---
 
-### [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341)
+### [Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence](https://arxiv.org/abs/2609.39870)
 
-**Authors:** Zhihao Sun, Liu Liu, Xinjiang Wang, Haoyi Jiang, Wei Feng et al. (9 authors)
+**Authors:** Xuhua Chen, Zhenhan Yin, Yuan Zhang, Lingfeng Zhang, He Zheng et al. (18 authors)
 
-**Published:** 2026-09-30 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric human" in title; posted in last 2 days
+**Why surfaced:** "egocentric human" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.40341) | [PDF](https://arxiv.org/pdf/2609.40341)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.39870) | [PDF](https://arxiv.org/pdf/2609.39870) | [Project Page](https://embodied.magiclab.top/works/wam/magic-w0/index.html)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline. We present a systematic study of egocentric human data with different alignment and supervision under a unified world-action model framework. With the model backbone fixed, we disentangle the effects of human-robot alig...
+World-action models (WAMs) augment robot policies with action-conditioned environment dynamics, yet existing approaches largely rely on future observation reconstruction or generic latent prediction and lack structured, control-oriented world representations tightly coupled with action generation. We introduce Magic-W0, a world-action foundation model that jointly models structured physical state evolution and continuous actions. Magic-W0 represents interaction as a Structured World Transition consisting of Current State, Transition, and Future State. Current State combines vision-language con...
 
 </details>
 
@@ -350,11 +279,12 @@ Egocentric human data provides a scalable source of experience for robot learnin
 <summary>Share</summary>
 
 ```
-Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
+Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence
 
-Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision.
+World-action models (WAMs) augment robot policies with action-conditioned environment dynamics, yet existing approaches largely rely on future observation reconstruction or generic latent prediction and lack structure...
 
-arXiv: https://arxiv.org/abs/2609.40341
+arXiv: https://arxiv.org/abs/2609.39870
+Project page: https://embodied.magiclab.top/works/wam/magic-w0/index.html
 
 #egocentric #robotlearning
 ```
@@ -435,20 +365,22 @@ Project page: https://wb-wam.github.io
 
 ---
 
-### [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394)
+### [EWAM: Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action](https://arxiv.org/abs/2609.39973)
 
-**Authors:** Xingyu Miao, Zizun Li, Baole Fang, Kaiwen Song, Tenghui Wang et al. (48 authors)
+**Authors:** Hao Wang, Jiajun Wen, Jingzhi Liu, Shuoshuo Xue, Zhiliang Chen et al. (24 authors)
 
-**Published:** 2026-09-25 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric human" in abstract; project page
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.31394) | [PDF](https://arxiv.org/pdf/2609.31394) | [Project Page](https://internrobotics.github.io/InternW0-Delta/)
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.39973) | [PDF](https://arxiv.org/pdf/2609.39973)
 
 <details>
 <summary>Abstract</summary>
 
-World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-$Δ$, a unified WAM pretrained on a heterogeneous corpus that outperforms prior methods across simulation benchmarks and real-robot platforms. InternW0-$Δ$ combines pretrained visual dynamics, scene-level semantics, 4D geometric and motion priors, and action gener...
+Vision-language-action (VLA) policies emphasize semantic understanding, whereas world-action models (WAMs) learn predictive representations of environment dynamics. Systems that expose a policy to both sources often still concentrate action computation on a single expert. We present EWAM, an action-centric unified embodied model whose asymmetric joint attention lets action tokens read semantic, current-visual, predicted-future, and action information at every layer while the perceptual experts retain their distinct roles. Without layer-wise supervision, EWAM develops an emergent depth-wise spe...
 
 </details>
 
@@ -456,12 +388,11 @@ World Action Models (WAMs) jointly model visual dynamics and action generation f
 <summary>Share</summary>
 
 ```
-InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data
+EWAM: Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action
 
-World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation.
+Vision-language-action (VLA) policies emphasize semantic understanding, whereas world-action models (WAMs) learn predictive representations of environment dynamics.
 
-arXiv: https://arxiv.org/abs/2609.31394
-Project page: https://internrobotics.github.io/InternW0-Delta/
+arXiv: https://arxiv.org/abs/2609.39973
 
 #egocentric #robotlearning
 ```
@@ -470,20 +401,20 @@ Project page: https://internrobotics.github.io/InternW0-Delta/
 
 ---
 
-### [MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories](https://arxiv.org/abs/2609.40195)
+### [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341)
 
-**Authors:** Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, Hyokun Yun, Kai Zhang et al. (17 authors)
+**Authors:** Zhihao Sun, Liu Liu, Xinjiang Wang, Haoyi Jiang, Wei Feng et al. (9 authors)
 
-**Published:** 2026-09-30 | **Categories:** cs.CV, cs.AI, cs.CL | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-30 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
+**Why surfaced:** "egocentric human" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2609.40195) | [PDF](https://arxiv.org/pdf/2609.40195)
+**Links:** [arXiv](https://arxiv.org/abs/2609.40341) | [PDF](https://arxiv.org/pdf/2609.40341)
 
 <details>
 <summary>Abstract</summary>
 
-Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories grow to hundreds of hours spanning months or years, reprocessing raw clips for every query becomes computationally prohibitive. Memory systems offer a scalable alternative by compacting videos into text representations, but often fail on practical benchmarks: either the memory does not preserve key evidence, or the retriever fails to locate relevant entries due to retrieval competition in growing search spaces. To address these challenges, we introduce MemLife, a multimodal mem...
+Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline. We present a systematic study of egocentric human data with different alignment and supervision under a unified world-action model framework. With the model backbone fixed, we disentangle the effects of human-robot alig...
 
 </details>
 
@@ -491,46 +422,11 @@ Long-term egocentric video enables personalized AI assistants to reason about da
 <summary>Share</summary>
 
 ```
-MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories
+Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 
-Long-term egocentric video enables personalized AI assistants to reason about daily life.
+Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision.
 
-arXiv: https://arxiv.org/abs/2609.40195
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [MAESTRO: a Multimodal Auditory-attention Egocentric Speech-TRacking Open corpus](https://arxiv.org/abs/2609.31898)
-
-**Authors:** K M Naimul Hassan, Ali Alavi, Donald S. Williamson
-
-**Published:** 2026-09-25 | **Categories:** eess.AS, cs.HC, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.31898) | [PDF](https://arxiv.org/pdf/2609.31898) | [Code](https://github.com/ASPIRE-OSU/MAESTRO)
-
-<details>
-<summary>Abstract</summary>
-
-Humans rely on gaze, head movements, and visual cues to attend to speakers in noisy environments, yet auditory attention decoding (AAD) has been studied primarily using electroencephalography (EEG). We introduce the Multimodal Auditory-attention Egocentric Speech-TRacking Open (MAESTRO) corpus, the first AAD dataset to simultaneously record EEG, eye gaze, pupillometry, egocentric video, and head inertial measurement unit (IMU) data. MAESTRO includes four competing speakers and background noise across multiple signal-to-noise ratio (SNR) conditions, enabling attention decoding under realistic l...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MAESTRO: a Multimodal Auditory-attention Egocentric Speech-TRacking Open corpus
-
-Humans rely on gaze, head movements, and visual cues to attend to speakers in noisy environments, yet auditory attention decoding (AAD) has been studied primarily using electroencephalography (EEG).
-
-arXiv: https://arxiv.org/abs/2609.31898
-Code: https://github.com/ASPIRE-OSU/MAESTRO
+arXiv: https://arxiv.org/abs/2609.40341
 
 #egocentric #robotlearning
 ```
@@ -573,40 +469,6 @@ arXiv: https://arxiv.org/abs/2609.34512
 
 ---
 
-### [Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2609.30735)
-
-**Authors:** Shuliang He, Ruiyan Xu, Bo Yue, Hengming Zhang, Huayi Zhou et al. (8 authors)
-
-**Published:** 2026-09-25 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2609.30735) | [PDF](https://arxiv.org/pdf/2609.30735)
-
-<details>
-<summary>Abstract</summary>
-
-Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change. Learning these behaviors from limited task-specific data remains challenging. To bridge this gap, we introduce Praxis, a whole-body manipulation framework that combines physical interaction priors from one-shot egocentric video demonstrations with closed-loop posture calibration and online perception. The framework coordinates three stages: vision-language-guided navigation toward target objects, closed-loop posture calibration to...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
-
-Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change.
-
-arXiv: https://arxiv.org/abs/2609.30735
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210)
 
 **Authors:** Hongming Fu, Jingcheng Shi, Wenjia Wang, Binhua Zuo, Bo Zhao
@@ -633,6 +495,40 @@ EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-
 Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult.
 
 arXiv: https://arxiv.org/abs/2610.01210
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories](https://arxiv.org/abs/2609.40195)
+
+**Authors:** Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, Hyokun Yun, Kai Zhang et al. (17 authors)
+
+**Published:** 2026-09-30 | **Categories:** cs.CV, cs.AI, cs.CL | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2609.40195) | [PDF](https://arxiv.org/pdf/2609.40195)
+
+<details>
+<summary>Abstract</summary>
+
+Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories grow to hundreds of hours spanning months or years, reprocessing raw clips for every query becomes computationally prohibitive. Memory systems offer a scalable alternative by compacting videos into text representations, but often fail on practical benchmarks: either the memory does not preserve key evidence, or the retriever fails to locate relevant entries due to retrieval competition in growing search spaces. To address these challenges, we introduce MemLife, a multimodal mem...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories
+
+Long-term egocentric video enables personalized AI assistants to reason about daily life.
+
+arXiv: https://arxiv.org/abs/2609.40195
 
 #egocentric #robotlearning
 ```
