@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-03 00:48 UTC
+**Last updated:** 2026-10-04 19:13 UTC
 
 **Papers shown:** 18 (relevance ≥ 2, last 7 days)
 
@@ -39,41 +39,6 @@ Egocentric human video offers a scalable data source for dexterous manipulation,
 
 arXiv: https://arxiv.org/abs/2609.39403
 Project page: https://xpeng-robotics.github.io/ironmind/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video](https://arxiv.org/abs/2610.01461)
-
-**Authors:** Zhaoxu Meng, Yiming Sun, Mingyuan Gao, Jiachang Zhang, Zhuhan Dai et al. (8 authors)
-
-**Published:** 2026-10-01 | **Categories:** cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.01461) | [PDF](https://arxiv.org/pdf/2610.01461) | [Project Page](https://kkkkawayi.github.io/nextme-800/)
-
-<details>
-<summary>Abstract</summary>
-
-We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do. Hindsight offers a valuable perspective on past decisions, although we often wish we could have simulated hindsight at the moment of choosing. If a system could generate plausible trajectories from one's personal history, such previews might help people formulate more realistic plans and make better informed decisions. We introduce NextMe-800, an approximately 800-hour first-person dataset from one volunteer over 126 days with 1 Hz images, ga...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video
-
-We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do.
-
-arXiv: https://arxiv.org/abs/2610.01461
-Project page: https://kkkkawayi.github.io/nextme-800/
 
 #egocentric #robotlearning
 ```
@@ -179,6 +144,41 @@ Human videos offer a scalable source of demonstrations for dexterous robot manip
 
 arXiv: https://arxiv.org/abs/2609.35318
 Project page: https://dexagent123.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video](https://arxiv.org/abs/2610.01461)
+
+**Authors:** Zhaoxu Meng, Yiming Sun, Mingyuan Gao, Jiachang Zhang, Zhuhan Dai et al. (8 authors)
+
+**Published:** 2026-10-01 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.01461) | [PDF](https://arxiv.org/pdf/2610.01461) | [Project Page](https://kkkkawayi.github.io/nextme-800/)
+
+<details>
+<summary>Abstract</summary>
+
+We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do. Hindsight offers a valuable perspective on past decisions, although we often wish we could have simulated hindsight at the moment of choosing. If a system could generate plausible trajectories from one's personal history, such previews might help people formulate more realistic plans and make better informed decisions. We introduce NextMe-800, an approximately 800-hour first-person dataset from one volunteer over 126 days with 1 Hz images, ga...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video
+
+We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do.
+
+arXiv: https://arxiv.org/abs/2610.01461
+Project page: https://kkkkawayi.github.io/nextme-800/
 
 #egocentric #robotlearning
 ```
@@ -469,40 +469,6 @@ arXiv: https://arxiv.org/abs/2609.34512
 
 ---
 
-### [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210)
-
-**Authors:** Hongming Fu, Jingcheng Shi, Wenjia Wang, Binhua Zuo, Bo Zhao
-
-**Published:** 2026-10-01 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.01210) | [PDF](https://arxiv.org/pdf/2610.01210)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult. Existing reconstruction pipelines typically separate hand and scene estimation, leave interaction attributes to separate task-specific models, and invoke several models per video, so no prior reconstruction model estimates these attributes and throughput becomes a practical constraint on large-scale annotation. We therefore introduce EgoFound3R, a unified end-to-end model that estimates world-...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes
-
-Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult.
-
-arXiv: https://arxiv.org/abs/2610.01210
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories](https://arxiv.org/abs/2609.40195)
 
 **Authors:** Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, Hyokun Yun, Kai Zhang et al. (17 authors)
@@ -631,6 +597,40 @@ Action Sequence Transfer via LLMs for Heterogeneous Environments
 We present an action sequence transfer system that adaptively transfers user action sequences across different target spaces.
 
 arXiv: https://arxiv.org/abs/2609.34730
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210)
+
+**Authors:** Hongming Fu, Jingcheng Shi, Wenjia Wang, Binhua Zuo, Bo Zhao
+
+**Published:** 2026-10-01 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.01210) | [PDF](https://arxiv.org/pdf/2610.01210)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult. Existing reconstruction pipelines typically separate hand and scene estimation, leave interaction attributes to separate task-specific models, and invoke several models per video, so no prior reconstruction model estimates these attributes and throughput becomes a practical constraint on large-scale annotation. We therefore introduce EgoFound3R, a unified end-to-end model that estimates world-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes
+
+Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult.
+
+arXiv: https://arxiv.org/abs/2610.01210
 
 #egocentric #robotlearning
 ```
