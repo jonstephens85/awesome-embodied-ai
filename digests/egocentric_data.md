@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-04 19:13 UTC
+**Last updated:** 2026-10-05 22:19 UTC
 
-**Papers shown:** 18 (relevance ≥ 2, last 7 days)
+**Papers shown:** 20 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -51,7 +51,7 @@ Project page: https://xpeng-robotics.github.io/ironmind/
 
 **Authors:** Shulin Tian, Junsu Kim, Shuai Liu, Hao Li, Yujiao Shen et al. (20 authors)
 
-**Published:** 2026-09-30 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-09-30 (updated 2026-10-02) | **Categories:** cs.CV | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
 
@@ -222,6 +222,41 @@ Project page: https://rcl-robotics.github.io/Exo2EgoHOI/
 
 ---
 
+### [World Action Learning via Interaction-Centric Spectral Latent Guidance](https://arxiv.org/abs/2610.03607)
+
+**Authors:** Zhiming Liu, Yikun Miao, Ying Chen, Hongrui Yin, Fangqi Zhu et al. (10 authors)
+
+**Published:** 2026-10-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.03607) | [PDF](https://arxiv.org/pdf/2610.03607) | [Project Page](https://mikuz12.github.io/wing/)
+
+<details>
+<summary>Abstract</summary>
+
+Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct transfer is challenging for two reasons: latent actions inferred from frame reconstruction can be dominated by nuisance variation such as ego-camera motion, and human and robot behaviors often exhibit different temporal dynamics. We propose WING (World Action Learning via INteraction-Centric Spectral La...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+World Action Learning via Interaction-Centric Spectral Latent Guidance
+
+Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale.
+
+arXiv: https://arxiv.org/abs/2610.03607
+Project page: https://mikuz12.github.io/wing/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438)
 
 **Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye et al. (12 authors)
@@ -334,7 +369,7 @@ Project page: https://dexroam.github.io/
 
 **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao et al. (7 authors)
 
-**Published:** 2026-09-28 (updated 2026-09-30) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-09-28 (updated 2026-10-02) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric human" in abstract; project page
 
@@ -597,6 +632,40 @@ Action Sequence Transfer via LLMs for Heterogeneous Environments
 We present an action sequence transfer system that adaptively transfers user action sequences across different target spaces.
 
 arXiv: https://arxiv.org/abs/2609.34730
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning](https://arxiv.org/abs/2610.02715)
+
+**Authors:** Qinchuan Cheng, Zhantao Gong, Pengzhan Sun, Angela Yao, Shijie Li
+
+**Published:** 2026-10-02 | **Categories:** cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.02715) | [PDF](https://arxiv.org/pdf/2610.02715)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric videos capture how people carry out everyday activities, yet testing an agent requires evaluating the consequences of actions it chooses itself. We introduce Ego2World, a benchmark that turns annotated cooking activities into executable planning environments under partial observation. Its compiler links source steps and objects to symbolic action rules, persistent world states, and explicit task conditions, so researchers can execute an agent's proposed actions and check their outcomes. World state and agent belief are maintained separately, enabling controlled studies of planning a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning
+
+Egocentric videos capture how people carry out everyday activities, yet testing an agent requires evaluating the consequences of actions it chooses itself.
+
+arXiv: https://arxiv.org/abs/2610.02715
 
 #egocentric #robotlearning
 ```

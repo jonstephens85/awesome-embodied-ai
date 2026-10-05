@@ -4219,5 +4219,222 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.02323": {
+    "first_seen": "2026-10-05",
+    "title": "World-Calibrated Proposal-to-Action Flow for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02331": {
+    "first_seen": "2026-10-05",
+    "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02360": {
+    "first_seen": "2026-10-05",
+    "title": "SocialVLA: A Social Perception Gateway for Human-Reaction-Based Failure Detection and Recovery in VLA Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02368": {
+    "first_seen": "2026-10-05",
+    "title": "Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02515": {
+    "first_seen": "2026-10-05",
+    "title": "IGNITE Tokamak World Model Architecture",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02521": {
+    "first_seen": "2026-10-05",
+    "title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02542": {
+    "first_seen": "2026-10-05",
+    "title": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02626": {
+    "first_seen": "2026-10-05",
+    "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02660": {
+    "first_seen": "2026-10-05",
+    "title": "SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02666": {
+    "first_seen": "2026-10-05",
+    "title": "CHASE-VLA: Post-Training Quantization Framework for Vision-Language-Action Models with Chunk-Aware Scale Estimation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02691": {
+    "first_seen": "2026-10-05",
+    "title": "DeltaWorld: Physically Consistent Interactive World Simulators via Action-Conditioned Latent Increment Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02715": {
+    "first_seen": "2026-10-05",
+    "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.02717": {
+    "first_seen": "2026-10-05",
+    "title": "RoboBridge: A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02726": {
+    "first_seen": "2026-10-05",
+    "title": "SymRegFlow: Symmetry-Regularized Flow Matching for Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02784": {
+    "first_seen": "2026-10-05",
+    "title": "SimpleTouch: Can Vision-Language-Action Models Master Contact-Rich Manipulation Without Tactile Policy Pretraining?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02802": {
+    "first_seen": "2026-10-05",
+    "title": "ManiPhysicsBench: Physics-Based Assessment of Object Preservation in VLA Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02804": {
+    "first_seen": "2026-10-05",
+    "title": "SARI: Phase-Split Sim-Real Co-Training for Contact-Rich Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02832": {
+    "first_seen": "2026-10-05",
+    "title": "FastOPD: On-Policy Distillation for Lightweight VLA Deployment",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02840": {
+    "first_seen": "2026-10-05",
+    "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.02860": {
+    "first_seen": "2026-10-05",
+    "title": "Counterfactual Action Evaluation, Observation Bottlenecks, and Representation Geometry in Joint-Embedding Predictive World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.02898": {
+    "first_seen": "2026-10-05",
+    "title": "MixVLA: Adaptive Mixing of Non-Invariant Information for Generalizable Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.03137": {
+    "first_seen": "2026-10-05",
+    "title": "Keeping JEPA World Models Plannable When Little of the Frame Moves",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03154": {
+    "first_seen": "2026-10-05",
+    "title": "Does Physics Live in the Activations? Localizing Physical Quantities in Video Diffusion Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03356": {
+    "first_seen": "2026-10-05",
+    "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03374": {
+    "first_seen": "2026-10-05",
+    "title": "EVEWorld: Physical Evolution Supervision for Embodied World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03476": {
+    "first_seen": "2026-10-05",
+    "title": "MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.03498": {
+    "first_seen": "2026-10-05",
+    "title": "Detect and Suppress: A Mechanistic Defense against Adversarial Patches in VLA Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.03587": {
+    "first_seen": "2026-10-05",
+    "title": "AVL-JEPA: Preventing Causal Dynamics Information Collapse In Joint Embedding Predictive Architecture World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03607": {
+    "first_seen": "2026-10-05",
+    "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.03632": {
+    "first_seen": "2026-10-05",
+    "title": "World Embedding Benchmark",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.03713": {
+    "first_seen": "2026-10-05",
+    "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+    "topics": [
+      "world_models"
+    ]
   }
 }
