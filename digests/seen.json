@@ -4215,7 +4215,7 @@
   },
   "2610.02205": {
     "first_seen": "2026-10-02",
-    "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+    "title": "PROWBench: Do Video Models Render What the Program Specifies?",
     "topics": [
       "world_models"
     ]
@@ -4553,6 +4553,273 @@
   "2610.04681": {
     "first_seen": "2026-10-06",
     "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04767": {
+    "first_seen": "2026-10-06",
+    "title": "Flow Policies as Actions of Skill-Level World Models: Learned and Symbolic Abstractions for Long-Horizon Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04805": {
+    "first_seen": "2026-10-06",
+    "title": "ExStereo: Lifting 2D Vision-Language-Action Models to 3D with Explicit Stereo Representations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04896": {
+    "first_seen": "2026-10-06",
+    "title": "Tackling Sim-to-Real Mismatch Through Sampling-Based Disturbance Observers: From Analytical Models to Learned World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04916": {
+    "first_seen": "2026-10-06",
+    "title": "PreAct-Nav: Agentic Reasoning Before Action for Urban Navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04920": {
+    "first_seen": "2026-10-06",
+    "title": "PWM: Personalized World Models with Online Reinforcement Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04933": {
+    "first_seen": "2026-10-06",
+    "title": "DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04988": {
+    "first_seen": "2026-10-06",
+    "title": "How Long, Not How Close: A Learned Temporal Metric for Planning in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.05025": {
+    "first_seen": "2026-10-06",
+    "title": "Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05026": {
+    "first_seen": "2026-10-06",
+    "title": "GeoBridge-VLA: Geometry-Aware Residual Adaptation for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05062": {
+    "first_seen": "2026-10-06",
+    "title": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05166": {
+    "first_seen": "2026-10-06",
+    "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05230": {
+    "first_seen": "2026-10-06",
+    "title": "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05273": {
+    "first_seen": "2026-10-06",
+    "title": "When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05418": {
+    "first_seen": "2026-10-06",
+    "title": "EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05483": {
+    "first_seen": "2026-10-06",
+    "title": "FLEX-WAM: Flexible Block-Causal World-Action Models for Long-Horizon Imagination and Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.05492": {
+    "first_seen": "2026-10-06",
+    "title": "When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05550": {
+    "first_seen": "2026-10-06",
+    "title": "When Low Prediction Error Misleads Planning: Diagnosing Representation, Dynamics, and Decision Failures in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.05719": {
+    "first_seen": "2026-10-06",
+    "title": "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05745": {
+    "first_seen": "2026-10-06",
+    "title": "Beyond In-Distribution Preservation: Recovering Generalization in Quantized VLAs via Vulnerability-Oriented Tuning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05755": {
+    "first_seen": "2026-10-06",
+    "title": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05818": {
+    "first_seen": "2026-10-06",
+    "title": "What the Guard Misses, the Robot Executes: Implied Harm in VLA Instructions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05861": {
+    "first_seen": "2026-10-06",
+    "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.05878": {
+    "first_seen": "2026-10-06",
+    "title": "OGAM: Connecting Systematic Testing to Runtime Assurance through Object-Grounded Attention Monitoring for VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05994": {
+    "first_seen": "2026-10-06",
+    "title": "How (and How Not) to Use Data Augmentation in VLA Post-Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.05996": {
+    "first_seen": "2026-10-06",
+    "title": "EpicWorldModel: Exploration-driven Planning with Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06078": {
+    "first_seen": "2026-10-06",
+    "title": "Do VLAs Understand and Adapt to the Objects They Handle, or Simply Replay Learned Behaviors?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06184": {
+    "first_seen": "2026-10-06",
+    "title": "Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06235": {
+    "first_seen": "2026-10-06",
+    "title": "Encoded but Not in Control: Revealing the Grounding Gap in Vision-Language Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06250": {
+    "first_seen": "2026-10-06",
+    "title": "Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06271": {
+    "first_seen": "2026-10-06",
+    "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06318": {
+    "first_seen": "2026-10-06",
+    "title": "Wiring Matters: Injection Topology and Initialization of Affordance Heads in Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06349": {
+    "first_seen": "2026-10-06",
+    "title": "KineWorld: Action-Induced Transport Fields for Embodied World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06469": {
+    "first_seen": "2026-10-06",
+    "title": "Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.06582": {
+    "first_seen": "2026-10-06",
+    "title": "Mind the Execution Gap: Action-Semantic Mismatch in World-Model Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06598": {
+    "first_seen": "2026-10-06",
+    "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.06805": {
+    "first_seen": "2026-10-06",
+    "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06814": {
+    "first_seen": "2026-10-06",
+    "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.06843": {
+    "first_seen": "2026-10-06",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
     "topics": [
       "vla"
     ]
