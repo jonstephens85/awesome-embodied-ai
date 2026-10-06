@@ -4436,5 +4436,125 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.04009": {
+    "first_seen": "2026-10-06",
+    "title": "SUAVE: Unified Video-Action Models via Masked Diffusion",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.04152": {
+    "first_seen": "2026-10-06",
+    "title": "Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04168": {
+    "first_seen": "2026-10-06",
+    "title": "Agentic Cognitive Depth: Operational Criteria for Evaluating LLM Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04255": {
+    "first_seen": "2026-10-06",
+    "title": "Grounded in Time: A Multi-Source Dataset and Benchmark for Temporal Grounding in Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04301": {
+    "first_seen": "2026-10-06",
+    "title": "EnvDreamer: Large-Scale Multimodal-to-Environment Generation for Embodied AI",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04303": {
+    "first_seen": "2026-10-06",
+    "title": "What to Preserve in Recursive Computation: A Local Predictive Sufficiency Principle",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04336": {
+    "first_seen": "2026-10-06",
+    "title": "A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04391": {
+    "first_seen": "2026-10-06",
+    "title": "AgenticTactileVLA: Contact-Guided Execution-Time Supervision for Generalizable Dexterous Manipulation without VLA Retraining",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04494": {
+    "first_seen": "2026-10-06",
+    "title": "DreamTest: World-Model Surrogates for Search-Based Testing of Deep Reinforcement Learning Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04506": {
+    "first_seen": "2026-10-06",
+    "title": "EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and Cross-View Reasoning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.04539": {
+    "first_seen": "2026-10-06",
+    "title": "Action-Consequence Alignment for Reliable Planning and Self-Improving in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04540": {
+    "first_seen": "2026-10-06",
+    "title": "DreamFormer: Dream Imitation with a Transformer World Model for Language-Conditioned Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04585": {
+    "first_seen": "2026-10-06",
+    "title": "Frozen in a Frame: The Velocity Blind Spot in JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.04607": {
+    "first_seen": "2026-10-06",
+    "title": "ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04616": {
+    "first_seen": "2026-10-06",
+    "title": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04659": {
+    "first_seen": "2026-10-06",
+    "title": "PermVLA: Factorization Order as a Regularizer for VLA Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.04681": {
+    "first_seen": "2026-10-06",
+    "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+    "topics": [
+      "vla"
+    ]
   }
 }
