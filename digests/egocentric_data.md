@@ -2,11 +2,48 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-06 20:47 UTC
+**Last updated:** 2026-10-07 21:00 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning](https://arxiv.org/abs/2610.08726)
+
+**Authors:** Lihan Zha, Shresth Grover, Tenny Yin, Samuel M. Bateman, Hengkai Pan et al. (10 authors)
+
+**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in title; project page; posted in last 2 days
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08726) | [PDF](https://arxiv.org/pdf/2610.08726) | [Project Page](https://ego-lap.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracte...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning
+
+Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control.
+
+arXiv: https://arxiv.org/abs/2610.08726
+Project page: https://ego-lap.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -153,41 +190,6 @@ Project page: https://kkkkawayi.github.io/nextme-800/
 
 ---
 
-### [Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2609.38615)
-
-**Authors:** Hongjia Zhai, Xiyu Zhang, Haoran Zhang, Zhichao Ye, Haomin Liu et al. (8 authors)
-
-**Published:** 2026-09-29 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2609.38615) | [PDF](https://arxiv.org/pdf/2609.38615) | [Project Page](https://rcl-robotics.github.io/Exo2EgoHOI/)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly. Exocentric-to-egocentric video generation offers a scalable alternative by transforming abundant third-person manipulation videos into first-person observations. However, existing methods often struggle to faithfully preserve demonstrated hand-object interactions (HOI) across large viewpoint changes due to insufficient fine-grained interaction guidance and weak object-centric anchoring. We present Exo2EgoHOI, an HOI-aware video generative framework...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation
-
-Egocentric videos of human manipulation provide valuable visual experience for embodied intelligence, yet collecting such data at scale is costly.
-
-arXiv: https://arxiv.org/abs/2609.38615
-Project page: https://rcl-robotics.github.io/Exo2EgoHOI/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [World Action Learning via Interaction-Centric Spectral Latent Guidance](https://arxiv.org/abs/2610.03607)
 
 **Authors:** Zhiming Liu, Yikun Miao, Ying Chen, Hongrui Yin, Fangqi Zhu et al. (10 authors)
@@ -259,6 +261,40 @@ arXiv: https://arxiv.org/abs/2610.00438
 
 ---
 
+### [MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos](https://arxiv.org/abs/2610.08192)
+
+**Authors:** Souptik Sen, Zahra Ahmadi
+
+**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.08192) | [PDF](https://arxiv.org/pdf/2610.08192)
+
+<details>
+<summary>Abstract</summary>
+
+Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \textbf{MacJEPA}, a missing-modality-robust \textbf{Ma}...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos
+
+Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference.
+
+arXiv: https://arxiv.org/abs/2610.08192
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and Cross-View Reasoning](https://arxiv.org/abs/2610.04506)
 
 **Authors:** Yutong Li, Molin Wang, Xiaotong Li, Yanyan Fang, Daoguo Dong et al. (6 authors)
@@ -285,6 +321,40 @@ EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and 
 Vision-language models (VLMs) are increasingly evaluated for egocentric and cross-view video reasoning, yet existing benchmarks largely focus on semantic event understanding, temporal relations, or correspondence betw...
 
 arXiv: https://arxiv.org/abs/2610.04506
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RoboCap: A New Platform for Egocentric Robot Learning](https://arxiv.org/abs/2610.07217)
+
+**Authors:** Grounded Superintelligence, BitRobot
+
+**Published:** 2026-10-05 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric data" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.07217) | [PDF](https://arxiv.org/pdf/2610.07217)
+
+<details>
+<summary>Abstract</summary>
+
+Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today. Collection at scale requires vertically integrating ergonomic hardware with centimeter-precise 3D algorithms, at a precision that has not been publicly demonstrated. To address this gap, we introduce RoboCap, a 250\,g six-camera dual-IMU hat designed for in-the-wild egocentric data capture, and the Grounded API, a suite of device-agnostic 3D algorithms tuned for RoboCap. In this report, we demonstrate how hardware, calibration, and 3D algorithms interact to achieve state-of-the-art performance o...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboCap: A New Platform for Egocentric Robot Learning
+
+Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today.
+
+arXiv: https://arxiv.org/abs/2610.07217
 
 #egocentric #robotlearning
 ```
