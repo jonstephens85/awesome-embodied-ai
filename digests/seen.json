@@ -5077,5 +5077,181 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.08917": {
+    "first_seen": "2026-10-08",
+    "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.08941": {
+    "first_seen": "2026-10-08",
+    "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.08960": {
+    "first_seen": "2026-10-08",
+    "title": "Directed Temporal Representations for Offline Visual Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09016": {
+    "first_seen": "2026-10-08",
+    "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09048": {
+    "first_seen": "2026-10-08",
+    "title": "Towards Financial World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09134": {
+    "first_seen": "2026-10-08",
+    "title": "World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09144": {
+    "first_seen": "2026-10-08",
+    "title": "DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09170": {
+    "first_seen": "2026-10-08",
+    "title": "Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09228": {
+    "first_seen": "2026-10-08",
+    "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09285": {
+    "first_seen": "2026-10-08",
+    "title": "LeCuration: A Tiny World Model as a Data Curation Multi-Tool",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09305": {
+    "first_seen": "2026-10-08",
+    "title": "Kuration SDK: Addressing the Virtual2Real Gap via Data Curation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09309": {
+    "first_seen": "2026-10-08",
+    "title": "Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09335": {
+    "first_seen": "2026-10-08",
+    "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09438": {
+    "first_seen": "2026-10-08",
+    "title": "Controllable Crowd Generation through World-Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09451": {
+    "first_seen": "2026-10-08",
+    "title": "TempoBridge: Language-Guided Tempo Control for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09455": {
+    "first_seen": "2026-10-08",
+    "title": "RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.09457": {
+    "first_seen": "2026-10-08",
+    "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09462": {
+    "first_seen": "2026-10-08",
+    "title": "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09496": {
+    "first_seen": "2026-10-08",
+    "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09696": {
+    "first_seen": "2026-10-08",
+    "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09718": {
+    "first_seen": "2026-10-08",
+    "title": "YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.09734": {
+    "first_seen": "2026-10-08",
+    "title": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09763": {
+    "first_seen": "2026-10-08",
+    "title": "Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.09940": {
+    "first_seen": "2026-10-08",
+    "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.09943": {
+    "first_seen": "2026-10-08",
+    "title": "Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization",
+    "topics": [
+      "vla"
+    ]
   }
 }

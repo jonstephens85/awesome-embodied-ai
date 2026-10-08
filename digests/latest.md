@@ -1,31 +1,29 @@
 # What's New
 
-Papers discovered in the run at **2026-10-07 21:00 UTC**.
+Papers discovered in the run at **2026-10-08 01:26 UTC**.
 
-**New this run:** 36
+**New this run:** 25
 
 [Dashboard](../docs/index.html) · [Back to Home](../README.md)
 
 ---
 
-## Egocentric Data (3)
+## Egocentric Data (1)
 
-### [EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning](https://arxiv.org/abs/2610.08726)
+### [RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning](https://arxiv.org/abs/2610.09455)
 
-**Authors:** Lihan Zha, Shresth Grover, Tenny Yin, Samuel M. Bateman, Hengkai Pan et al. (10 authors)
+**Authors:** Seungjun Moon, Subin Jeon, Sangwoo Kim, Hanbyul Joo, Jinwoo Shin
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-07 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric human" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
 
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08726) | [PDF](https://arxiv.org/pdf/2610.08726) | [Project Page](https://ego-lap.github.io/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09455) | [PDF](https://arxiv.org/pdf/2610.09455) | [Project Page](https://seungjun-moon.github.io/rlhnd/)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracte...
+Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent. However, most existing hand trackers regress pose from cropped frames with limited priors on hand motion and object interaction, resulting in inaccurate and physically inconsistent estimates. Moreover, the lack of physical cues, e.g., contact and force, limits the use of human videos for robot policy training. To this end, we propose RLHND, a video foundation model-based hand tracking model that jointly estimates hand pose and realistic tactile information from monocular egocen...
 
 </details>
 
@@ -33,12 +31,12 @@ Egocentric human data offer a path to scaling robot learning beyond costly robot
 <summary>Share</summary>
 
 ```
-EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning
+RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning
 
-Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control.
+Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent.
 
-arXiv: https://arxiv.org/abs/2610.08726
-Project page: https://ego-lap.github.io/
+arXiv: https://arxiv.org/abs/2610.09455
+Project page: https://seungjun-moon.github.io/rlhnd/
 
 #egocentric #robotlearning
 ```
@@ -47,125 +45,24 @@ Project page: https://ego-lap.github.io/
 
 ---
 
-### [MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos](https://arxiv.org/abs/2610.08192)
+## Vision-Language-Action Models (12)
 
-**Authors:** Souptik Sen, Zahra Ahmadi
+### [Juno: Taming Predictive Latents for Vision-Language-Action Models](https://arxiv.org/abs/2610.09940)
 
-**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Authors:** Yuchen Zhu, Chenyi Xu, Yulin Zhang, Gang Xu, Wentao Zhu
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08192) | [PDF](https://arxiv.org/pdf/2610.08192)
-
-<details>
-<summary>Abstract</summary>
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \textbf{MacJEPA}, a missing-modality-robust \textbf{Ma}...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference.
-
-arXiv: https://arxiv.org/abs/2610.08192
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [RoboCap: A New Platform for Egocentric Robot Learning](https://arxiv.org/abs/2610.07217)
-
-**Authors:** Grounded Superintelligence, BitRobot
-
-**Published:** 2026-10-05 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric data" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07217) | [PDF](https://arxiv.org/pdf/2610.07217)
-
-<details>
-<summary>Abstract</summary>
-
-Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today. Collection at scale requires vertically integrating ergonomic hardware with centimeter-precise 3D algorithms, at a precision that has not been publicly demonstrated. To address this gap, we introduce RoboCap, a 250\,g six-camera dual-IMU hat designed for in-the-wild egocentric data capture, and the Grounded API, a suite of device-agnostic 3D algorithms tuned for RoboCap. In this report, we demonstrate how hardware, calibration, and 3D algorithms interact to achieve state-of-the-art performance o...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RoboCap: A New Platform for Egocentric Robot Learning
-
-Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today.
-
-arXiv: https://arxiv.org/abs/2610.07217
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-## Vision-Language-Action Models (16)
-
-### [VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2610.08133)
-
-**Authors:** Owen Du, Yang Yue, Jie Zhang, Jiaqi Pi, Chi Bene Chen et al. (6 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
-
-**Why surfaced:** "VLA" in title; 3 distinct keyword hits; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08133) | [PDF](https://arxiv.org/pdf/2610.08133) | [Code](https://github.com/du-owen/VLA-ACL)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models achieve strong robotic manipulation performance but incur high computational costs from processing long token sequences at every control step, limiting real-time deployment. Visual token pruning offers a direct solution, as visual patches dominate the input sequence and contain considerable redundancy. Existing approaches, however, either rely on indirect training-free heuristics, such as attention scores and motion thresholds, or require costly fine-tuning of the base VLA model. We introduce VLA-ACL (Action Consistency Learning), which learns a lightweight...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models
-
-Vision-Language-Action (VLA) models achieve strong robotic manipulation performance but incur high computational costs from processing long token sequences at every control step, limiting real-time deployment.
-
-arXiv: https://arxiv.org/abs/2610.08133
-Code: https://github.com/du-owen/VLA-ACL
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [StairVLA: Stage-Aware Hierarchical Action Generation for Vision-Language-Action Models](https://arxiv.org/abs/2610.07756)
-
-**Authors:** Shangyuan Yuan, Xinda Qi, Yujiang Pu, Wenliang Guo, Xiaobo Tan
-
-**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
 
 **Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.07756) | [PDF](https://arxiv.org/pdf/2610.07756) | [Project Page](https://dicomsky.github.io/projects/stairvla)
+**Also relevant to:** World Models
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09940) | [PDF](https://arxiv.org/pdf/2610.09940) | [Project Page](https://juno-policy.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) models increasingly rely on diffusion- or flow-matching-based action heads to generate continuous robot actions. These action heads typically process the denoising trajectory in a largely uniform manner. However, we observe that the conditioning focus naturally shifts across denoising stages: early stages combine language instructions and visual observations to establish a coarse action trajectory, whereas later stages place greater emphasis on current visual observations for action alignment. Based on this insight, we introduce StairVLA, a stage-aware hierarchical...
+Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models. Yet making these latents useful across pretraining, policy learning, and deployment requires addressing three failures: mismatch with embodiment-specific control, interference with action learning, and teacher miscalibration under distribution shifts. We introduce Juno, a unified framework built around one action-conditioned JEPA that serves as a control-aligned representation backbone, a predict...
 
 </details>
 
@@ -173,12 +70,12 @@ Vision-language-action (VLA) models increasingly rely on diffusion- or flow-matc
 <summary>Share</summary>
 
 ```
-StairVLA: Stage-Aware Hierarchical Action Generation for Vision-Language-Action Models
+Juno: Taming Predictive Latents for Vision-Language-Action Models
 
-Vision-language-action (VLA) models increasingly rely on diffusion- or flow-matching-based action heads to generate continuous robot actions.
+Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models.
 
-arXiv: https://arxiv.org/abs/2610.07756
-Project page: https://dicomsky.github.io/projects/stairvla
+arXiv: https://arxiv.org/abs/2610.09940
+Project page: https://juno-policy.github.io/
 
 #VLA #robotics
 ```
@@ -187,20 +84,125 @@ Project page: https://dicomsky.github.io/projects/stairvla
 
 ---
 
-### [ViDAL: A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action Models](https://arxiv.org/abs/2610.08150)
+### [YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding](https://arxiv.org/abs/2610.09718)
 
-**Authors:** Yuan Xu, Yixiang Chen, Qisen Ma, Jiabing Yang, Peiyan Li et al. (13 authors)
+**Authors:** Masatoshi Tateno, Takehiko Ohkawa, Yueh-Hua Wu, Hanlong Li, Tatsuya Matsushima et al. (7 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09718) | [PDF](https://arxiv.org/pdf/2610.09718) | [Project Page](https://yubi-stag.airoa.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models acquire broad manipulation capabilities via large-scale pretraining, yet eliciting them through language requires fine-grained alignment between instructions and physical interactions. Existing robot demonstrations typically provide only coarse task descriptions, omitting how actions are executed, including which gripper acts, which object is contacted, and how it is grasped and moved. We introduce YUBI-STAG, a framework for Spatio-Temporal Annotation and Grounding that automatically enriches manipulation demonstrations with interaction-rich semantics to ali...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding
+
+Vision-Language-Action (VLA) models acquire broad manipulation capabilities via large-scale pretraining, yet eliciting them through language requires fine-grained alignment between instructions and physical interactions.
+
+arXiv: https://arxiv.org/abs/2610.09718
+Project page: https://yubi-stag.airoa.io/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks](https://arxiv.org/abs/2610.09462)
+
+**Authors:** Zirun Zhou, Jingfeng Zhang, HaoChuan Xu, Xizhe Zhang, Elliott Wen et al. (7 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09462) | [PDF](https://arxiv.org/pdf/2610.09462) | [Project Page](https://zzr42.github.io/tmt/)
+
+<details>
+<summary>Abstract</summary>
+
+Backdoored vision-language-action (VLA) policies can preserve benign task performance while producing malicious actions when a trigger appears. Detecting such activation is difficult because malicious behavior can comprise individually plausible actions, while unfamiliar tasks introduce legitimate changes in observations and behavior. We introduce TMT, a runtime backdoor detector based on Token Manifold and latent Transition modeling. Trained on benign rollouts, its two branches assess input-token structure and prediction errors in adjacent-layer latent dynamics. A suspicious rollout identifie...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks
+
+Backdoored vision-language-action (VLA) policies can preserve benign task performance while producing malicious actions when a trigger appears.
+
+arXiv: https://arxiv.org/abs/2610.09462
+Project page: https://zzr42.github.io/tmt/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [TempoBridge: Language-Guided Tempo Control for Vision-Language-Action Policies](https://arxiv.org/abs/2610.09451)
+
+**Authors:** Yeonseo Lee, Hyosup Shin, Guebin Hwang, Sungho Jo
+
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09451) | [PDF](https://arxiv.org/pdf/2610.09451) | [Project Page](https://lysees.github.io/tempobridge-page/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models are effective at understanding what task to perform, but provide limited control over how it should be executed, such as moving quickly or slowly. We introduce TempoBridge, a lightweight framework that uses frozen VLA representations to modulate actions according to tempo cues in the instruction at each task phase, without additional tempo-conditioned robot demonstrations or tempo-specific base-policy fine-tuning. TempoBridge extracts tempo cues from contextual VLM representations, aligns them with task progress through a causal phase router, and modulates n...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TempoBridge: Language-Guided Tempo Control for Vision-Language-Action Policies
+
+Vision-Language-Action (VLA) models are effective at understanding what task to perform, but provide limited control over how it should be executed, such as moving quickly or slowly.
+
+arXiv: https://arxiv.org/abs/2610.09451
+Project page: https://lysees.github.io/tempobridge-page/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models](https://arxiv.org/abs/2610.09496)
+
+**Authors:** Jiho Lee, Jeongeun Park, Heayoun Choi, Taekyung Kim, Eunwoo Kim
+
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.08150) | [PDF](https://arxiv.org/pdf/2610.08150)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09496) | [PDF](https://arxiv.org/pdf/2610.09496)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models have become a central paradigm for robot policy learning, which predict actions in three forms: raw action chunks, discrete action tokens, or continuous action latents. However, existing action representations primarily model action trajectories, with limited consideration of the visual dynamics induced by these actions. We introduce ViDAL, a Visual Dynamics-grounded Action Latent Space that anchors continuous action latents in the future visual dynamics of the scene. Specifically, ViDAL learns action latent space by training an Action Variational Autoencode...
+Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by leveraging rich representations from pretrained vision-language models. However, their deployment in real-world environments remains limited by recurring unreliable behaviors. In this work, we study state hallucination, a recurring failure pattern in which a VLA continues acting as if an unrealized robot-object state had been achieved. Our analyses find that state hallucination coincides with weakened attention to task-relevant visual regions, and a mechanistic interpretation via sparse autoencoders...
 
 </details>
 
@@ -208,11 +210,11 @@ Vision-Language-Action (VLA) models have become a central paradigm for robot pol
 <summary>Share</summary>
 
 ```
-ViDAL: A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action Models
+Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models
 
-Vision-Language-Action (VLA) models have become a central paradigm for robot policy learning, which predict actions in three forms: raw action chunks, discrete action tokens, or continuous action latents.
+Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by leveraging rich representations from pretrained vision-language models.
 
-arXiv: https://arxiv.org/abs/2610.08150
+arXiv: https://arxiv.org/abs/2610.09496
 
 #VLA #robotics
 ```
@@ -221,20 +223,55 @@ arXiv: https://arxiv.org/abs/2610.08150
 
 ---
 
-### [Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution](https://arxiv.org/abs/2610.07946)
+### [Co-Evolving Robot Orchestrators and Policies through Deployment](https://arxiv.org/abs/2610.09228)
 
-**Authors:** Ahin Lee, Jinwoo Seo, Youngsoo Jang, Taesik Gong
+**Authors:** Xilun Zhang, Maggie Wang, Erik Bauer, Hong-Xing Yu, Huang Huang et al. (7 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-06 | **Categories:** cs.RO, eess.SY | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09228) | [PDF](https://arxiv.org/pdf/2610.09228) | [Project Page](https://robo-cop.pages.dev/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment. Agentic robot systems complement the policy with a vision-language model (VLM) orchestrator that learns when to call the policy, how to instruct it, and when to use scripted skills instead. However, because the harness is built around a frozen policy that has limited language steerability, the orchestrator can avoid the policy's failures but never overcome them. The policy becomes the bo...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Co-Evolving Robot Orchestrators and Policies through Deployment
+
+Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment.
+
+arXiv: https://arxiv.org/abs/2610.09228
+Project page: https://robo-cop.pages.dev/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [PAIR: Bridging Perception and Action in Vision-Language-Action Models](https://arxiv.org/abs/2610.09016)
+
+**Authors:** Kaixi Feng, Guoheng Sun, Ang li
+
+**Published:** 2026-10-06 | **Categories:** cs.AI | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.07946) | [PDF](https://arxiv.org/pdf/2610.07946)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09016) | [PDF](https://arxiv.org/pdf/2610.09016)
 
 <details>
 <summary>Abstract</summary>
 
-Visual disruptions can arise while a robot is executing a task, leaving a vision-language-action (VLA) policy to respond without knowing the disruption type or timing. We introduce Self-supervised Adaptation from Leftover Trajectories (SALT), which uses the leftover trajectory, the unexecuted part of the previous action chunk, as self-supervision for test-time adaptation. Because consecutive chunks overlap in time, the leftover provides a temporally aligned target for the current prediction over the same future control interval. At the onset of a visual shift, the leftover can retain a plan fo...
+Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to representations that support action generation. Many continuous-action VLAs leave this transition implicit and supervise it mainly through the final action-prediction loss. We introduce PAIR, a framework that learns a shared perception-action representation between these two spaces. During training, a Masked Action Autoencoder encodes expert action chunks into horizon-aligned Action Lat...
 
 </details>
 
@@ -242,11 +279,11 @@ Visual disruptions can arise while a robot is executing a task, leaving a vision
 <summary>Share</summary>
 
 ```
-Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution
+PAIR: Bridging Perception and Action in Vision-Language-Action Models
 
-Visual disruptions can arise while a robot is executing a task, leaving a vision-language-action (VLA) policy to respond without knowing the disruption type or timing.
+Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.
 
-arXiv: https://arxiv.org/abs/2610.07946
+arXiv: https://arxiv.org/abs/2610.09016
 
 #VLA #robotics
 ```
@@ -255,22 +292,20 @@ arXiv: https://arxiv.org/abs/2610.07946
 
 ---
 
-### [WareFly-VLA: A Vision-Language-Action Framework for UAV Navigation and Human Tracking in Smart Warehouses](https://arxiv.org/abs/2610.08526)
+### [Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization](https://arxiv.org/abs/2610.09943)
 
-**Authors:** Thinh D. Le, Son T. Nguyen, Duong Q. Nguyen, Dung D. Le, Ngo Anh Vien et al. (6 authors)
+**Authors:** Haoru Li, Jinmei Liu, Zhiyong Wang, Xiaoming Li, Zhenhong Sun et al. (8 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
 
-**Also relevant to:** World Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08526) | [PDF](https://arxiv.org/pdf/2610.08526)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09943) | [PDF](https://arxiv.org/pdf/2610.09943)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models have achieved impressive results in robotic manipulation and ground-mobile navigation, yet language-conditioned control of unmanned aerial vehicles (UAVs) in smart warehouses remains largely unexplored, hindered by the lack of benchmarks that jointly provide continuous low-level flight actions, fine-grained natural-language target descriptions, and realistic industrial environments. This paper introduces WareFly-VLA, a photorealistic UAV VLA framework and dataset for language-guided human search, localization, and tracking in warehouse environments. It conta...
+Reinforcement learning (RL) fine-tuning improves vision-language-action (VLA) policies through closed-loop experience, yet generalization beyond the fine-tuning distribution remains limited. Our analysis reveals a selective reshaping of exploration: RL contracts behavior globally, yet diversifies successful trajectories, elicits success with fewer rollouts, and covers more of the latent task-valid solution space than supervised fine-tuning. Broader successful-mode coverage may provide alternative strategies under distribution shifts. Inspired by this, we introduce DRIVE (Diversity-driven RL fI...
 
 </details>
 
@@ -278,11 +313,11 @@ Vision-Language-Action (VLA) models have achieved impressive results in robotic 
 <summary>Share</summary>
 
 ```
-WareFly-VLA: A Vision-Language-Action Framework for UAV Navigation and Human Tracking in Smart Warehouses
+Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization
 
-Vision-Language-Action (VLA) models have achieved impressive results in robotic manipulation and ground-mobile navigation, yet language-conditioned control of unmanned aerial vehicles (UAVs) in smart warehouses remain...
+Reinforcement learning (RL) fine-tuning improves vision-language-action (VLA) policies through closed-loop experience, yet generalization beyond the fine-tuning distribution remains limited.
 
-arXiv: https://arxiv.org/abs/2610.08526
+arXiv: https://arxiv.org/abs/2610.09943
 
 #VLA #robotics
 ```
@@ -291,20 +326,20 @@ arXiv: https://arxiv.org/abs/2610.08526
 
 ---
 
-### [ActTune: Action-Aware Precision and GPU Operating-Point Adaptation for Energy-Efficient Vision-Language-Action Inference](https://arxiv.org/abs/2610.08444)
+### [DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies](https://arxiv.org/abs/2610.09144)
 
-**Authors:** Zou Qingyun, Bin Gao, Wenju Zhao, Weng-Fai Wong, Bingsheng He et al. (6 authors)
+**Authors:** Kaixi Feng, Guoheng Sun, Ziyao Wang, Yexiao He, Zheyu Shen et al. (6 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AR | **Relevance:** ★★★☆☆
+**Published:** 2026-10-06 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.08444) | [PDF](https://arxiv.org/pdf/2610.08444)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09144) | [PDF](https://arxiv.org/pdf/2610.09144)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) policies repeatedly invoke inference to control robots, making graphics processing unit (GPU) energy a recurring cost of task execution. Reducing energy per inference call, however, may not reduce energy per successful task if numerical errors increase failures or slower inference prolongs execution. We therefore target GPU energy per successful task while preserving task success and keeping the inference-latency increase within 10\%. Our approach builds on two observations: quantization sensitivity varies across action classes, model layers, and weights versus act...
+Vision-language-action (VLA) policies typically feed dense visual patch tokens into a language-action backbone, preserving scene context but offering no explicit mechanism to regulate how strongly different visual tokens influence policy computation. We introduce DIVA, a Dual-Space Intent-Aware Visual Attenuation module with an anchor-then-attenuate design. DIVA combines high-level task intent with low-level visual evidence to estimate patch-wise relevance anchors, then applies them in two complementary spaces: it reweights projected visual tokens before backbone entry and persistently attenua...
 
 </details>
 
@@ -312,11 +347,11 @@ Vision-language-action (VLA) policies repeatedly invoke inference to control rob
 <summary>Share</summary>
 
 ```
-ActTune: Action-Aware Precision and GPU Operating-Point Adaptation for Energy-Efficient Vision-Language-Action Inference
+DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies
 
-Vision-language-action (VLA) policies repeatedly invoke inference to control robots, making graphics processing unit (GPU) energy a recurring cost of task execution.
+Vision-language-action (VLA) policies typically feed dense visual patch tokens into a language-action backbone, preserving scene context but offering no explicit mechanism to regulate how strongly different visual tok...
 
-arXiv: https://arxiv.org/abs/2610.08444
+arXiv: https://arxiv.org/abs/2610.09144
 
 #VLA #robotics
 ```
@@ -325,20 +360,20 @@ arXiv: https://arxiv.org/abs/2610.08444
 
 ---
 
-### [MIM-VLA: Learning Physical Interaction Representations from Gripper Motor Feedback](https://arxiv.org/abs/2610.08425)
+### [CARE: Certifying Acceleration for Vision-Language-Action Inference](https://arxiv.org/abs/2610.08917)
 
-**Authors:** Jaeyoung Lee, Jiyeon Koo, Taehwa Kim, Yerin Cha, Andrew Jaeyong Choi
+**Authors:** Rui Liu, Tong Zheng, Jindong Gu, Zhipeng Wang
 
-**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-06 | **Categories:** cs.CL, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.08425) | [PDF](https://arxiv.org/pdf/2610.08425)
+**Links:** [arXiv](https://arxiv.org/abs/2610.08917) | [PDF](https://arxiv.org/pdf/2610.08917)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) policies infer grasp actions primarily from visual observations and robot state, but do not explicitly represent the physical response observed after contact. We present MIM-VLA, a motor-feedback-based architecture that encodes recent gripper current, position, velocity, and signal validity as a 128-dimensional interaction token. A motor-only Motor Interaction Module (MIM) is pretrained with human-reviewed contact and interaction-phase labels and then conditions only the gripper-action pathway of SmolVLA; arm actions and the position-control interface remain unchan...
+While vision-language-action (VLA) models have advanced rapidly, running them at every control step remains expensive. Prior work accelerates VLA inference using techniques like action chunking and visual-token pruning, typically evaluating based on latency and average task success. However, acceleration may discard information and break tasks the original policy would solve, a risk hidden by average metrics. Measuring these failures is challenging because action deviations compound over closed-loop trajectories, meaning task failure is only observable across full episodes. We therefore define...
 
 </details>
 
@@ -346,11 +381,11 @@ Vision-language-action (VLA) policies infer grasp actions primarily from visual 
 <summary>Share</summary>
 
 ```
-MIM-VLA: Learning Physical Interaction Representations from Gripper Motor Feedback
+CARE: Certifying Acceleration for Vision-Language-Action Inference
 
-Vision-language-action (VLA) policies infer grasp actions primarily from visual observations and robot state, but do not explicitly represent the physical response observed after contact.
+While vision-language-action (VLA) models have advanced rapidly, running them at every control step remains expensive.
 
-arXiv: https://arxiv.org/abs/2610.08425
+arXiv: https://arxiv.org/abs/2610.08917
 
 #VLA #robotics
 ```
@@ -359,123 +394,20 @@ arXiv: https://arxiv.org/abs/2610.08425
 
 ---
 
-### [Seeing the Invisible: Physics-Guided Visual Prompting for Temperature- and Radiation-Aware VLA Navigation](https://arxiv.org/abs/2610.07558)
+### [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696)
 
-**Authors:** Hojoon Son, Fan Zhang
+**Authors:** Mimo Shirasaka, Takehiko Ohkawa, Takuya Okubo, Nicola Scianca, Tatsuya Matsushima et al. (6 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07558) | [PDF](https://arxiv.org/pdf/2610.07558)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have become a major paradigm for Vision-and-Language Navigation (VLN). However, in safety-critical facilities, invisible risks such as radiation or temperature spikes cannot be detected by an RGB camera, and handling each risk is expensive, requiring a new encoder, new data, and model retraining. We propose Physics-Guided Visual Prompting (PG-VP), a plug-and-play multimodal perception module that instead reuses what a frozen VLA model already does well: avoiding visible obstacles. Given a proximal radiation or thermal source, PG-VP performs a physics-guided...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Seeing the Invisible: Physics-Guided Visual Prompting for Temperature- and Radiation-Aware VLA Navigation
-
-Vision-Language-Action (VLA) models have become a major paradigm for Vision-and-Language Navigation (VLN).
-
-arXiv: https://arxiv.org/abs/2610.07558
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation](https://arxiv.org/abs/2610.07594)
-
-**Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in abstract; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.07594) | [PDF](https://arxiv.org/pdf/2610.07594) | [Code](https://github.com/swirl-uk/BiGym2)
-
-<details>
-<summary>Abstract</summary>
-
-Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture. We present BiGym 2.0, an adaptation of BiGym for the Unitree G1 across 20 household tasks using a unified whole-body controller for demonstration and evaluation. The suite provides 60 native human virtual-reality demonstrations per task with synchronised multi-camera views and full-body execution records. We benchmark vision-language-action fine-tuning, imitation learning, demo-driven reinforcement learning, and cold-start coding agents given the interaction budget of online reinforceme...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
-
-Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture.
-
-arXiv: https://arxiv.org/abs/2610.07594
-Code: https://github.com/swirl-uk/BiGym2
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models](https://arxiv.org/abs/2610.06926)
-
-**Authors:** Mousumi Das, Aditeya Prajapati, Abrar Anwar, Jesse Thomason
-
-**Published:** 2026-10-03 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.06926) | [PDF](https://arxiv.org/pdf/2610.06926)
-
-<details>
-<summary>Abstract</summary>
-
-Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution. However, individual VLAs do not perform well across different task states and environments. We introduce a framework for dynamically composing multiple VLA policies during execution: StepWise Action Policy Routing (SWAP). SWAP formulates policy routing as an offline reinforcement learning problem, learning a routing critic that selects the most appropriate policy at each decision step given the current observation. SWAP enables robots to select new policies to execute on...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models
-
-Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution.
-
-arXiv: https://arxiv.org/abs/2610.06926
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation](https://arxiv.org/abs/2610.08220)
-
-**Authors:** Yutian Zhang, Xingrui Xiong, Siyuan Ma, Yang Li, Jiawen Wen et al. (15 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.08220) | [PDF](https://arxiv.org/pdf/2610.08220)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09696) | [PDF](https://arxiv.org/pdf/2610.09696)
 
 <details>
 <summary>Abstract</summary>
 
-Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging. Existing approaches often rely on teleoperation or specialized devices equipped with additional sensing hardware, while directly using estimated visual odometry (VO) trajectories can introduce inconsistencies due to accumulated drift and imperfect motion supervision. We present the Visual-Odometry-Conditioned Mobile Manipulation Interface (VOMMI), a portable demonstration collection...
+Robot manipulation data collection has been shifting from teleoperation toward robot-free demonstrations, through interfaces such as the Universal Manipulation Interface (UMI) or directly from human hands. Vision-Language-Action (VLA) policies trained on such data inherit the demonstrator's timing. Yet human timing does not directly transfer to robots: compliant hands tolerate fast contact, whereas robots may overshoot due to actuator and tracking limitations; conversely, robots can move faster in free space. This motivates a unified approach that reconciles execution speed with contact safety...
 
 </details>
 
@@ -483,11 +415,11 @@ Portable mobile-manipulation demonstrations can help alleviate data scarcity for
 <summary>Share</summary>
 
 ```
-VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation
+RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies
 
-Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging.
+Robot manipulation data collection has been shifting from teleoperation toward robot-free demonstrations, through interfaces such as the Universal Manipulation Interface (UMI) or directly from human hands.
 
-arXiv: https://arxiv.org/abs/2610.08220
+arXiv: https://arxiv.org/abs/2610.09696
 
 #VLA #robotics
 ```
@@ -496,156 +428,20 @@ arXiv: https://arxiv.org/abs/2610.08220
 
 ---
 
-### [ESP: Energy-Score Policy for One-Step Multimodal Action Generation](https://arxiv.org/abs/2610.07696)
+### [Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?](https://arxiv.org/abs/2610.09170)
 
-**Authors:** Lilika Makabe, Heecheol Kim, Yasuyuki Matsushita
+**Authors:** Haoran Chen, Jingtian Ji, Samuel Wheeler, Kaylene Caswell Stocking, Matthew Walter
 
 **Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07696) | [PDF](https://arxiv.org/pdf/2610.07696)
-
-<details>
-<summary>Abstract</summary>
-
-Generative action models based on diffusion and flow matching have been increasingly adopted in vision-language-action (VLA) policies for their ability to capture diverse behaviors, including multiple valid action sequences under the same observation and instruction. Their iterative sampling procedures, however, require repeated network evaluations to generate each action chunk, increasing inference latency in closed-loop control. We propose ESP (Energy-Score Policy), a teacher-free approach that maps policy context and noise directly to an action chunk in a single network evaluation. ESP trai...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ESP: Energy-Score Policy for One-Step Multimodal Action Generation
-
-Generative action models based on diffusion and flow matching have been increasingly adopted in vision-language-action (VLA) policies for their ability to capture diverse behaviors, including multiple valid action seq...
-
-arXiv: https://arxiv.org/abs/2610.07696
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining](https://arxiv.org/abs/2610.07652)
-
-**Authors:** Jicong Ao, Shuhan Jiang, Yuling Zhong, Yanwen Liu, Yuhan Gao et al. (10 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07652) | [PDF](https://arxiv.org/pdf/2610.07652)
-
-<details>
-<summary>Abstract</summary>
-
-The ability to interact with articulated objects is essential for embodied intelligent systems, but collecting large-scale real-world demonstrations for these interactions remains challenging due to the precise contact and constraint-following motions involved. Although simulation provides a promising alternative, existing synthetic data efforts cover limited articulated-object categories, while general-purpose synthesis pipelines lack explicit designs for part-level semantics and articulation constraints, hindering agentic task generation and scalable synthesis of high-quality articulated-man...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining
-
-The ability to interact with articulated objects is essential for embodied intelligent systems, but collecting large-scale real-world demonstrations for these interactions remains challenging due to the precise contac...
-
-arXiv: https://arxiv.org/abs/2610.07652
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration](https://arxiv.org/abs/2610.06999)
-
-**Authors:** Shizuo Tian, Haodong Luo, Yutong Li, Yuebing Song, Yunxin Liu et al. (6 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.06999) | [PDF](https://arxiv.org/pdf/2610.06999)
-
-<details>
-<summary>Abstract</summary>
-
-Rapid adaptation to a new environment requires a robot to acquire useful knowledge about local objects, states, and interactions from limited experience. Systems that combine a reasoning agent with a frozen vision-language-action model (VLA) can adapt through execution feedback and memory, making the choice of experience central to their effectiveness. Repeated practice of a target task may refine a familiar solution while leaving other interactions relevant to changed conditions untested. We introduce ProactiveVLA, which uses proactive environment exploration to acquire reusable knowledge for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration
-
-Rapid adaptation to a new environment requires a robot to acquire useful knowledge about local objects, states, and interactions from limited experience.
-
-arXiv: https://arxiv.org/abs/2610.06999
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA](https://arxiv.org/abs/2610.06921)
-
-**Authors:** Chenchao Sheng, Zhuang Jiang, Liuhaichen Yang, Ningwei Bai, Zezhi Tang
-
-**Published:** 2026-10-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.06921) | [PDF](https://arxiv.org/pdf/2610.06921)
-
-<details>
-<summary>Abstract</summary>
-
-Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over a simple action. We evaluate these questions on frozen $π_{0.5}$ across four RoboTwin tasks. For each test seed, we pair rollouts with and without correction and include a same-seed base-policy re-run as a placebo. Seed-cluster intervals and prespecified comparison rules assess net gains against stochastic outcome changes. Across 3,888 paired episodes, the full pipeline raises su...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA
-
-Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over...
-
-arXiv: https://arxiv.org/abs/2610.06921
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence](https://arxiv.org/abs/2610.07127)
-
-**Authors:** Dheeraj Varghese, Anna Vettoruzzo, Walter Simoncini, Michelle Lorena Acevedo Callejas, Mohammad Mahdi Derakhshani et al. (8 authors)
-
-**Published:** 2026-10-05 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.07127) | [PDF](https://arxiv.org/pdf/2610.07127)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09170) | [PDF](https://arxiv.org/pdf/2610.09170)
 
 <details>
 <summary>Abstract</summary>
 
-Recent advances in multimodal foundation models yield strong performance on static perception and reasoning benchmarks, yet such evaluations largely overlook a central aspect of intelligence: acting competently in dynamic environments over extended time horizons. We introduce PlaySuite, a large-scale benchmark for evaluating interactive visual intelligence across more than 5K open-source video games curated from PyWeek and itch.io. Spanning diverse genres and engines, including Pygame, HTML5, Godot, and Unity, these independent games are largely out-of-distribution for current models, reducing...
+Autoregressive action-token policies such as vision-language-action models require action tokenizers to translate discrete token sequences into precise control actions in continuous space. Many action tokenizers learn the mapping between tokens and actions via a reconstruction objective. However, as we show through extensive analysis, sufficiently accurate action reconstruction is only one part of what makes a downstream robot policy successful. It is also critical that the policy is able to predict the right tokens for new observations, and that unseen policy token predictions still decode in...
 
 </details>
 
@@ -653,11 +449,11 @@ Recent advances in multimodal foundation models yield strong performance on stat
 <summary>Share</summary>
 
 ```
-PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence
+Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?
 
-Recent advances in multimodal foundation models yield strong performance on static perception and reasoning benchmarks, yet such evaluations largely overlook a central aspect of intelligence: acting competently in dyn...
+Autoregressive action-token policies such as vision-language-action models require action tokenizers to translate discrete token sequences into precise control actions in continuous space.
 
-arXiv: https://arxiv.org/abs/2610.07127
+arXiv: https://arxiv.org/abs/2610.09170
 
 #VLA #robotics
 ```
@@ -666,22 +462,128 @@ arXiv: https://arxiv.org/abs/2610.07127
 
 ---
 
-## World Models (17)
+## World Models (12)
 
-### [DepthWorld: 3D World Model for Robot Manipulation](https://arxiv.org/abs/2610.08780)
+### [Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation](https://arxiv.org/abs/2610.09309)
 
-**Authors:** Jai Bardhan, Josef Sivic, Vladimir Petrik
+**Authors:** Tzu-Yu Chuang, Ching-Hsiang Chang, Yi-Hsiu Lee, Yi-Ting Chen, Min Sun et al. (6 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★★★★
+
+**Why surfaced:** "world model" in abstract; project page; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09309) | [PDF](https://arxiv.org/pdf/2610.09309) | [Project Page](https://claire0730.github.io/executable-goals/) | [Code](https://github.com/Claire0730/executable-goals)
+
+<details>
+<summary>Abstract</summary>
+
+Generative world models provide rich predictions of how manipulation scenes may evolve toward task objectives, yet those futures do not directly expose the compact task variables required by control. When training supervises future prediction alone, terminal goal accuracy is not an explicit learning objective, even when geometric recovery is available. We present Entity-Level Goal Readout, a learned prediction-to-execution interface that makes the executable terminal goal an explicit output of a 3D trace world model. It combines object-centric pose prediction with translation grounded in obser...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation
+
+Generative world models provide rich predictions of how manipulation scenes may evolve toward task objectives, yet those futures do not directly expose the compact task variables required by control.
+
+arXiv: https://arxiv.org/abs/2610.09309
+Project page: https://claire0730.github.io/executable-goals/
+Code: https://github.com/Claire0730/executable-goals
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation](https://arxiv.org/abs/2610.08941)
+
+**Authors:** Yunheng Liu, Ziqi Cai, Siqi Yang, Yimu Wang, Minggui Teng et al. (10 authors)
+
+**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08941) | [PDF](https://arxiv.org/pdf/2610.08941) | [Project Page](https://alaya-lab.github.io/SPW-Nav)
+
+<details>
+<summary>Abstract</summary>
+
+Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training. Existing panoramic generators follow predefined trajectories, and interactive world models act through low-level actions in perspective views. We propose SPW-Nav, a streaming panoramic world model that understands movement instructions and streams one minute of 2K 360-degree video in real time from a single panorama. SPW-Nav interprets each instruction in the previously generated panorama as camera motion. Spher...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation
+
+Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training.
+
+arXiv: https://arxiv.org/abs/2610.08941
+Project page: https://alaya-lab.github.io/SPW-Nav
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models](https://arxiv.org/abs/2610.09134)
+
+**Authors:** Jiuyi Xu, Xiao Hu, Meida Chen, Peng Gao, Yang Ye et al. (6 authors)
+
+**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09134) | [PDF](https://arxiv.org/pdf/2610.09134) | [Code](https://github.com/jiuyixu25/CureWM)
+
+<details>
+<summary>Abstract</summary>
+
+Robot world models support policy evaluation, planning, and synthetic data generation, but these applications require predictions that distinguish successful actions from failures. Across four released checkpoints from two architecture families, we observe weak sensitivity to action changes and success-like predictions on verified failures. Although recent work incorporates failures into model training, which data can repair released checkpoints without changing their architecture or training objective still remains underexplored. To this end, we introduce CureWM, which constructs alternative...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models
+
+Robot world models support policy evaluation, planning, and synthetic data generation, but these applications require predictions that distinguish successful actions from failures.
+
+arXiv: https://arxiv.org/abs/2610.09134
+Code: https://github.com/jiuyixu25/CureWM
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Controllable Crowd Generation through World-Model Planning](https://arxiv.org/abs/2610.09438)
+
+**Authors:** JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon
+
+**Published:** 2026-10-07 | **Categories:** cs.CV | **Relevance:** ★★★★☆
 
 **Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08780) | [PDF](https://arxiv.org/pdf/2610.08780) | [Project Page](https://www.jaibardhan.com/depthworld)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09438) | [PDF](https://arxiv.org/pdf/2610.09438) | [Project Page](https://jungyu0413.github.io/Ctrl-CWM)
 
 <details>
 <summary>Abstract</summary>
 
-World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires progress on two fronts: large-scale 3D supervision for manipulation, and an architecture that can absorb it without disturbing strong pretrained video priors. We introduce a calibration pipeline that com...
+Crowd simulation plays a central role in robot navigation, autonomous driving, and urban planning. For these applications, realistic simulation requires crowds to adapt their behavior to environmental changes and user objectives. However, existing methods that rely on predefined control settings have limited flexibility in accommodating new user-specified objectives. To address this limitation, we propose Ctrl-CWM, a multi-agent Controllable Crowd World Model that integrates crowd generation and run-time control. Our key idea is to adapt the world-model principle of planning using imagined fut...
 
 </details>
 
@@ -689,12 +591,12 @@ World models offer a data-driven alternative to traditional simulators for robot
 <summary>Share</summary>
 
 ```
-DepthWorld: 3D World Model for Robot Manipulation
+Controllable Crowd Generation through World-Model Planning
 
-World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning.
+Crowd simulation plays a central role in robot navigation, autonomous driving, and urban planning.
 
-arXiv: https://arxiv.org/abs/2610.08780
-Project page: https://www.jaibardhan.com/depthworld
+arXiv: https://arxiv.org/abs/2610.09438
+Project page: https://jungyu0413.github.io/Ctrl-CWM
 
 #worldmodels #robotics
 ```
@@ -703,20 +605,20 @@ Project page: https://www.jaibardhan.com/depthworld
 
 ---
 
-### [Modeling Latent Disturbances for Robust Decision-Making in World Models](https://arxiv.org/abs/2610.07599)
+### [Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/2610.09763)
 
-**Authors:** Junwon Seo, Andrea Bajcsy
+**Authors:** Mahmoud Selim, Cristina Cipriani, Karl Henrik Johansson
 
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-10-07 | **Categories:** cs.LG, cs.AI, cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.07599) | [PDF](https://arxiv.org/pdf/2610.07599) | [Project Page](https://junwon.me/LatentDisturbance/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09763) | [PDF](https://arxiv.org/pdf/2610.09763) | [Project Page](https://mahmoud-selim.github.io/ICDP/)
 
 <details>
 <summary>Abstract</summary>
 
-In this paper, we study robust decision-making in the latent space of world models (WMs). Robust optimization is a mathematical framework where, given explicitly specified dynamics and physically meaningful disturbances, a robot can select actions that remain effective even under worst-case disturbances. However, applying this principle to the learned latent space of WMs introduces a fundamental challenge: because WMs have fully learned state spaces and dynamics inferred from high-dimensional observations, it is unclear how to define latent-space disturbances that faithfully represent uncertai...
+Offline reinforcement learning enables reward-driven policy improvement from fixed datasets without requiring online exploration, making it particularly attractive in safety-critical domains. A central challenge, however, is distribution shift: policy optimization may favor actions that are weakly supported by the offline data, rendering value estimates unreliable. Existing approaches primarily control this shift in the policy's own action space. In interactive environments such as autonomous driving, this can be insufficient: a candidate ego trajectory may remain well supported under the marg...
 
 </details>
 
@@ -724,12 +626,12 @@ In this paper, we study robust decision-making in the latent space of world mode
 <summary>Share</summary>
 
 ```
-Modeling Latent Disturbances for Robust Decision-Making in World Models
+Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving
 
-In this paper, we study robust decision-making in the latent space of world models (WMs).
+Offline reinforcement learning enables reward-driven policy improvement from fixed datasets without requiring online exploration, making it particularly attractive in safety-critical domains.
 
-arXiv: https://arxiv.org/abs/2610.07599
-Project page: https://junwon.me/LatentDisturbance/
+arXiv: https://arxiv.org/abs/2610.09763
+Project page: https://mahmoud-selim.github.io/ICDP/
 
 #worldmodels #robotics
 ```
@@ -738,192 +640,20 @@ Project page: https://junwon.me/LatentDisturbance/
 
 ---
 
-### [CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching](https://arxiv.org/abs/2610.08777)
+### [DSReg: Provably Recovering Individual World Latents without Reconstruction](https://arxiv.org/abs/2610.09457)
 
-**Authors:** Shangye Song, Dong Gong, Hong Jia, Yun Sing Koh, Xinyu Zhang
+**Authors:** Yujia Zheng, David Klindt, Randall Balestriero, Bernhard Schölkopf
 
-**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08777) | [PDF](https://arxiv.org/pdf/2610.08777) | [Project Page](https://wrecklong.github.io/CtrlCache/)
-
-<details>
-<summary>Abstract</summary>
-
-Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can reduce this cost, yet existing policies make reuse decisions primarily from model-internal denoising dynamics and do not explicitly account for control transitions. Actually, interactive generation explicitly exposes a signal they do not use: the controls for a chunk arrive before it is denoised, so a sc...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching
-
-Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls.
-
-arXiv: https://arxiv.org/abs/2610.08777
-Project page: https://wrecklong.github.io/CtrlCache/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model](https://arxiv.org/abs/2610.08773)
-
-**Authors:** Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma et al. (6 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.CL, cs.AI, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08773) | [PDF](https://arxiv.org/pdf/2610.08773) | [Code](https://github.com/Sarim-MBZUAI/advsim2real)
-
-<details>
-<summary>Abstract</summary>
-
-Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the trained model bypass them. Adversarial training lets the attacker adapt but keeps the tasks fixed, so a task stops teaching once the agent solves it. We introduce AdvSim2Real, which co-evolves a task curri...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model
-
-Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal.
-
-arXiv: https://arxiv.org/abs/2610.08773
-Code: https://github.com/Sarim-MBZUAI/advsim2real
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [How Much Planning Is Enough? Reducing Search and Computation in World-Model Planning](https://arxiv.org/abs/2610.08350)
-
-**Authors:** Changbai Li, Sirui Li, Yichen Yang, Tongfei Chen, Zichao Feng et al. (7 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08350) | [PDF](https://arxiv.org/pdf/2610.08350)
-
-<details>
-<summary>Abstract</summary>
-
-Visual world models enable goal-directed control through decision-time action search, but their deployment efficiency is often limited by conservatively large planning budgets. We show that competitive task performance can be achieved without agreement with the Full-budget action, that sufficient budgets vary across model--task pairs, and that iterative planners repeatedly encode solve-invariant context. To address these inefficiencies, we propose {SufficientPlan}, a simple deployment framework that requires no modification to pretrained world models or planner updates. Its {Paired Sequential...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-How Much Planning Is Enough? Reducing Search and Computation in World-Model Planning
-
-Visual world models enable goal-directed control through decision-time action search, but their deployment efficiency is often limited by conservatively large planning budgets.
-
-arXiv: https://arxiv.org/abs/2610.08350
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation](https://arxiv.org/abs/2610.07949)
-
-**Authors:** Yuyan Li, Yujia Wang, Yusong Huang, Junjie Yang, Yanggang Sheng et al. (11 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07949) | [PDF](https://arxiv.org/pdf/2610.07949)
-
-<details>
-<summary>Abstract</summary>
-
-Action-chunking policies predict multi-step control sequences, but a fundamental question remains: how much of a predicted action chunk should be committed before replanning? Existing systems typically execute a fixed-length prefix, implicitly assuming that the same execution horizon remains trustworthy across states. Some adaptive methods estimate this horizon from the similarity or stability of predicted actions. However, different actions may lead to the same successful outcome, whereas similar actions can produce different futures, suggesting that commitment should be determined by agreeme...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation
-
-Action-chunking policies predict multi-step control sequences, but a fundamental question remains: how much of a predicted action chunk should be committed before replanning?
-
-arXiv: https://arxiv.org/abs/2610.07949
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models](https://arxiv.org/abs/2610.07540)
-
-**Authors:** Leonardo F. Toso, Yann LeCun, James Anderson, Oumayma Bounou
-
-**Published:** 2026-10-06 | **Categories:** cs.LG, cs.RO, eess.SY | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07540) | [PDF](https://arxiv.org/pdf/2610.07540)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic systems often exhibit unstable modes, along which small perturbations and disturbances can cause unbounded growth unless corrected through feedback. Controlling such systems from high-dimensional visual observations requires representations that preserve these modes. Joint-embedding predictive architectures (JEPAs) provide a natural framework for learning such representations and their dynamics from visual data. However, we demonstrate that next step prediction combined with anti-collapse regularization does not guarantee that controllable unstable modes are preserved: the training los...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models
-
-Robotic systems often exhibit unstable modes, along which small perturbations and disturbances can cause unbounded growth unless corrected through feedback.
-
-arXiv: https://arxiv.org/abs/2610.07540
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [WorldSonus: Bringing Sound to Worlds](https://arxiv.org/abs/2610.08760)
-
-**Authors:** Pengjun Fang, Jingyi Fa, Kam Man Wu, Jiaming Wang, Haoyuan Huang et al. (12 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.SD, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.LG, cs.AI, cs.RO | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "world model" in abstract; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08760) | [PDF](https://arxiv.org/pdf/2610.08760) | [Project Page](https://noizai.github.io/WorldSonus/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09457) | [PDF](https://arxiv.org/pdf/2610.09457) | [Project Page](https://dsreg.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and camera motion. To address these demands, we introduce WorldSonus, an interactive video-to-audio framework designed for real-time spatial sound synthesis in world models. For real-time generation, WorldSo...
+Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervision, or distributional asymmetries such as non-Gaussianity. Methods without these anchors, including joint-embedding predictive architectures (JEPAs), identify the latent state only up to a linear transformation, so individual latents remain mixed. We close this gap: individual world latents can be provably recovered with no reconstruction, no decoder, and no labels. The key cond...
 
 </details>
 
@@ -931,12 +661,12 @@ Recent advances in world models have enabled increasingly realistic visual synth
 <summary>Share</summary>
 
 ```
-WorldSonus: Bringing Sound to Worlds
+DSReg: Provably Recovering Individual World Latents without Reconstruction
 
-Recent advances in world models have enabled increasingly realistic visual synthesis.
+Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervi...
 
-arXiv: https://arxiv.org/abs/2610.08760
-Project page: https://noizai.github.io/WorldSonus/
+arXiv: https://arxiv.org/abs/2610.09457
+Project page: https://dsreg.github.io/
 
 #worldmodels #robotics
 ```
@@ -945,158 +675,20 @@ Project page: https://noizai.github.io/WorldSonus/
 
 ---
 
-### [Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning](https://arxiv.org/abs/2610.08627)
+### [LeCuration: A Tiny World Model as a Data Curation Multi-Tool](https://arxiv.org/abs/2610.09285)
 
-**Authors:** Wanjin Feng, Baobin Zhang, Ao Yu, Shibo Feng, Xi Wang et al. (6 authors)
+**Authors:** Mayank Sengupta, Nirmit Desai, Eric Song, Kunal Sawarkar
 
-**Published:** 2026-10-06 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08627) | [PDF](https://arxiv.org/pdf/2610.08627)
-
-<details>
-<summary>Abstract</summary>
-
-Long-horizon world-model planning typically relies on autoregressive rollouts, where predicted states are repeatedly fed back into the model. This preserves temporal structure but creates a horizon-length sequential path and exposes later predictions to recursive decoded-state feedback. We introduce Parallel Predictive World Models (PPWM), which predict a finite-horizon trajectory in parallel while retaining causal interaction among future representations. Each horizon is conditioned on its causal action prefix, and future representations interact before decoding, separating temporal causality...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning
-
-Long-horizon world-model planning typically relies on autoregressive rollouts, where predicted states are repeatedly fed back into the model.
-
-arXiv: https://arxiv.org/abs/2610.08627
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA](https://arxiv.org/abs/2610.08033)
-
-**Authors:** Jordy Kieto
-
-**Published:** 2026-10-06 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08033) | [PDF](https://arxiv.org/pdf/2610.08033) | [Code](https://github.com/JordyKieto/puffermoba-dyna)
-
-<details>
-<summary>Abstract</summary>
-
-World models are usually judged from the inside: by prediction loss, by the return a policy earns in imagination, or by how convincing their frames look. We judge one from the outside. We learn a structured, multi-agent world model of a complete ten-hero MOBA (206 units, every hero acting every tick, games of up to 6,000 ticks), train a policy only inside it with 1,400-tick free-running imagined episodes, and measure that policy in the real game against the opponent the game ships with. The real game never provides a gradient; it provides the policy's own games as training data for the world m...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA
-
-World models are usually judged from the inside: by prediction loss, by the return a policy earns in imagination, or by how convincing their frames look.
-
-arXiv: https://arxiv.org/abs/2610.08033
-Code: https://github.com/JordyKieto/puffermoba-dyna
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update](https://arxiv.org/abs/2610.07031)
-
-**Authors:** Sitian Shen, Jiuming Liu, Mengmeng Liu, Yian Wang, Michael Ying Yang et al. (10 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.07031) | [PDF](https://arxiv.org/pdf/2610.07031) | [Project Page](https://liujiuming123.github.io/Artemis/)
-
-<details>
-<summary>Abstract</summary>
-
-Recent video world models have witnessed the paradigm shift from single-agent to multi-agent involvements, which can reveal more complicated dynamics and cross-agent interaction in the real world. However, existing approaches commonly adopt implicit inter-agent communications via cross attention, which lack explicit geometry constraints and unified 3D state, thereby leading to poor multi-view consistency and struggling with recovering out-of-sight agents. In addition, most of them assume a static background, failing to represent uncontrolled background dynamics. To address these problems, we p...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update
-
-Recent video world models have witnessed the paradigm shift from single-agent to multi-agent involvements, which can reveal more complicated dynamics and cross-agent interaction in the real world.
-
-arXiv: https://arxiv.org/abs/2610.07031
-Project page: https://liujiuming123.github.io/Artemis/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation](https://arxiv.org/abs/2610.08640)
-
-**Authors:** Jing Xie, Shouwei Ruan, Yubin Wang, Yuxiang Zhang, Haitao Yang et al. (7 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08640) | [PDF](https://arxiv.org/pdf/2610.08640)
-
-<details>
-<summary>Abstract</summary>
-
-Long-horizon urban navigation requires sequential local decisions whose errors can compound over time. Imitation learning (IL) rarely learns from failures, while physical trial-and-error reinforcement learning (RL) is costly. Action-conditioned world models can provide imagined feedback by predicting visual consequences for candidate actions. However, a frozen world model may become less reliable as the policy evolves. In this paper, we introduce RIWANAV, a post-training framework that casts the coupled adaptation of a world model and an action model (policy) as task-specific recursive self-im...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation
-
-Long-horizon urban navigation requires sequential local decisions whose errors can compound over time.
-
-arXiv: https://arxiv.org/abs/2610.08640
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [World Models' Last Exam in Physics](https://arxiv.org/abs/2610.08791)
-
-**Authors:** Mingju Gao, Qingle Liu, Yuzhao Peng, Xinjie Lin, Ziming Qin et al. (11 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.LG, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in title; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.08791) | [PDF](https://arxiv.org/pdf/2610.08791)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09285) | [PDF](https://arxiv.org/pdf/2610.09285)
 
 <details>
 <summary>Abstract</summary>
 
-Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely focus on mechanics. We introduce World Models' Last Exam in Physics, a measurement-based benchmark for evaluating physical consistency in video world models. The benchmark comprises 40 controlled tasks spanning mechanics, optics, fluids, thermal and phase-change phenomena, electromagnetism, and surface...
+Many applications of physical AI run within finite or closed physical worlds with a limited set of physical laws governing object behavior. Examples include robots working in a warehouse and agents moving around in a video game. In order to better organize, filter, and curate data for physical AI applications, we propose a new approach centered on the unique settings and physical laws of individual datasets. We train LeCuration, a small world model intended to serve as a data curation tool for a separate, larger downstream model. To build this model, we choose LeWorldModel (LeWM)as our latent...
 
 </details>
 
@@ -1104,11 +696,11 @@ Video world models can produce visually convincing yet physically inconsistent s
 <summary>Share</summary>
 
 ```
-World Models' Last Exam in Physics
+LeCuration: A Tiny World Model as a Data Curation Multi-Tool
 
-Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems.
+Many applications of physical AI run within finite or closed physical worlds with a limited set of physical laws governing object behavior.
 
-arXiv: https://arxiv.org/abs/2610.08791
+arXiv: https://arxiv.org/abs/2610.09285
 
 #worldmodels #robotics
 ```
@@ -1117,20 +709,20 @@ arXiv: https://arxiv.org/abs/2610.08791
 
 ---
 
-### [Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models](https://arxiv.org/abs/2610.07704)
+### [SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models](https://arxiv.org/abs/2610.09335)
 
-**Authors:** Fernando Martinez, Tao Li, Yingdong Lu, Juntao Chen
+**Authors:** Yatai Ji, Zhengqiu Zhu, Yong Zhao, Yue Hu, Fanglong Yao et al. (8 authors)
 
-**Published:** 2026-10-06 | **Categories:** cs.MA, cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.AI, cs.LG | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in title; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.07704) | [PDF](https://arxiv.org/pdf/2610.07704)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09335) | [PDF](https://arxiv.org/pdf/2610.09335)
 
 <details>
 <summary>Abstract</summary>
 
-Fully decentralized multi-agent reinforcement learning (MARL), also referred to as independent learning, requires each agent to learn and act using only its local information and experience, without a centralized critic or inter-agent communication. Such a stringent information structure renders the conventional reward signal ambiguous. A poor return may result from an ineffective ego action, an incompatible teammate response, or an effective opponent response, yet scalar rewards alone do not reveal which explanation is responsible. We argue that agents can learn more effectively by prospectiv...
+Autonomous unmanned aerial vehicle (UAV) object search involves a closed loop of perception, decision-making, and action under partial observability. Urban environments pose several challenges: large search areas and narrow egocentric views limit coverage, dense 3D geometry constrains safe motion, and open-world instructions require identifying a specific target among distractors. Many existing methods mitigate partial observability through explicit maps or memory representations, yet remain largely reactive, reasoning over past observations without explicitly predicting future states. World m...
 
 </details>
 
@@ -1138,11 +730,11 @@ Fully decentralized multi-agent reinforcement learning (MARL), also referred to 
 <summary>Share</summary>
 
 ```
-Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models
+SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models
 
-Fully decentralized multi-agent reinforcement learning (MARL), also referred to as independent learning, requires each agent to learn and act using only its local information and experience, without a centralized crit...
+Autonomous unmanned aerial vehicle (UAV) object search involves a closed loop of perception, decision-making, and action under partial observability.
 
-arXiv: https://arxiv.org/abs/2610.07704
+arXiv: https://arxiv.org/abs/2610.09335
 
 #worldmodels #robotics
 ```
@@ -1151,54 +743,20 @@ arXiv: https://arxiv.org/abs/2610.07704
 
 ---
 
-### [Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object](https://arxiv.org/abs/2610.07355)
+### [ΔWAM: Distilling Action Tangent Fields into World Action Models](https://arxiv.org/abs/2610.09734)
 
-**Authors:** Peng Xie, Amr Alanwar
+**Authors:** Ke Wu, Hanwen Huang, Bo Gu, Kaizhao Zhang, Xiangting Meng et al. (9 authors)
 
-**Published:** 2026-10-05 | **Categories:** cs.CV, cs.CL | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07355) | [PDF](https://arxiv.org/pdf/2610.07355)
-
-<details>
-<summary>Abstract</summary>
-
-Video world models track objects they can see; we ask what they keep of objects they cannot. We hide an object from a frozen V-JEPA 2 predictor and compare its prediction for the hidden region with the encoder's representation of two worlds that differ only inside that region. The predictor's decision keeps a stationary object in part and one carried inside a container not at all, and loses a moving one within 0.3 s (0.5 s under V-JEPA's own tube mask; ViT-H keeps it to 1.1 s at pretraining's 90% masking ratio); in projection a trace remains, below the midpoint, at 14-60% of what a baseline co...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object
-
-Video world models track objects they can see; we ask what they keep of objects they cannot.
-
-arXiv: https://arxiv.org/abs/2610.07355
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [GeoWM: Efficient Direct World Modeling in Explicit Geometry](https://arxiv.org/abs/2610.07381)
-
-**Authors:** Mehrdad Noori, Guile Wu, Sam Hosseini, Dongfeng Bai
-
-**Published:** 2026-10-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.07381) | [PDF](https://arxiv.org/pdf/2610.07381)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09734) | [PDF](https://arxiv.org/pdf/2610.09734)
 
 <details>
 <summary>Abstract</summary>
 
-Modeling 3D scene geometry and its evolution over time is essential for autonomous driving and robotics. A common paradigm is to use world models to predict future images or latent representations of the environment and subsequently recover geometry from these predictions. However, this paradigm does not explicitly model geometric structure and typically relies on recursive rollouts to reach longer prediction horizons, leading to error accumulation and increasing computational cost. To address these limitations, we present GeoWM, a geometry world model that directly forecasts future scene geom...
+World Action Models (WAM) improve robot policies by augmenting sparse action supervision with dense future prediction. However, much of the predictable future is dominated by appearance and scene persistence rather than action-dependent dynamics. We observe that several recent WAM designs, including optical flow, motion-centric representations, and latent actions, can be understood from a common perspective in which world supervision becomes more efficient as it contains a higher proportion of action-relevant variation. Based on this insight, we introduce Action Tangent Fields, which reformula...
 
 </details>
 
@@ -1206,11 +764,11 @@ Modeling 3D scene geometry and its evolution over time is essential for autonomo
 <summary>Share</summary>
 
 ```
-GeoWM: Efficient Direct World Modeling in Explicit Geometry
+ΔWAM: Distilling Action Tangent Fields into World Action Models
 
-Modeling 3D scene geometry and its evolution over time is essential for autonomous driving and robotics.
+World Action Models (WAM) improve robot policies by augmenting sparse action supervision with dense future prediction.
 
-arXiv: https://arxiv.org/abs/2610.07381
+arXiv: https://arxiv.org/abs/2610.09734
 
 #worldmodels #robotics
 ```
@@ -1219,20 +777,20 @@ arXiv: https://arxiv.org/abs/2610.07381
 
 ---
 
-### [Identifiable World Models from Pretrained Diffusion Representations](https://arxiv.org/abs/2610.07028)
+### [Kuration SDK: Addressing the Virtual2Real Gap via Data Curation](https://arxiv.org/abs/2610.09305)
 
-**Authors:** Ruchi Sandilya, Conor Liston, Logan Grosenick
+**Authors:** Nirmit Desai, Eric Song, Mayank Sengupta, Tejal Bedmutha, Siri Reddy et al. (7 authors)
 
-**Published:** 2026-10-04 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 | **Categories:** cs.LG, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title
+**Why surfaced:** "world model" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.07028) | [PDF](https://arxiv.org/pdf/2610.07028)
+**Links:** [arXiv](https://arxiv.org/abs/2610.09305) | [PDF](https://arxiv.org/pdf/2610.09305)
 
 <details>
 <summary>Abstract</summary>
 
-Diffusion-based world models can generate and predict trajectories in high-dimensional dynamical systems, but predictive accuracy does not imply that their latent coordinates recover the underlying state variables or causal interactions. We ask whether a frozen pretrained diffusion model can be equipped with identifiable coordinates without retraining its generative backbone. We show that auxiliary-variable nonlinear ICA guarantees can be transferred to Contrastive Diffusion Alignment (ConDA), which learns only a lightweight alignment map on top of frozen diffusion latents. Under standard TCL/...
+Benchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away from visual similarity-based metrics to action-semantic and physically-grounded metrics. However, for domain and task-agnostic action-conditioned world model training, existing benchmarks provide a limited signal. By training and evaluating diffusion world models on CounterStrike gameplay data, we confirm that qualitative playability does not correspond with metrics such as FVD, LPIPS, and JEDi. We term this the Virtual2Real gap. We posit that, in lieu of reliable benchmarks, curating r...
 
 </details>
 
@@ -1240,11 +798,79 @@ Diffusion-based world models can generate and predict trajectories in high-dimen
 <summary>Share</summary>
 
 ```
-Identifiable World Models from Pretrained Diffusion Representations
+Kuration SDK: Addressing the Virtual2Real Gap via Data Curation
 
-Diffusion-based world models can generate and predict trajectories in high-dimensional dynamical systems, but predictive accuracy does not imply that their latent coordinates recover the underlying state variables or...
+Benchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away from visual similarity-based metrics to action-semantic and physically-grounded metrics.
 
-arXiv: https://arxiv.org/abs/2610.07028
+arXiv: https://arxiv.org/abs/2610.09305
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Towards Financial World Modeling](https://arxiv.org/abs/2610.09048)
+
+**Authors:** Humzah Merchant, Alec Guthrie, Simon Mahns, Randall Balestriero, Bradford Levy
+
+**Published:** 2026-10-06 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.09048) | [PDF](https://arxiv.org/pdf/2610.09048)
+
+<details>
+<summary>Abstract</summary>
+
+Building a world model requires a state representation useful for planning and decision-making---potentially over tasks unknown at training time. In the context of financial markets, planning and decision-making may require a model to reason about market-wide conditions, asset-specific expected returns, liquidity, volatility, and cross-asset relationships. Yet financial representation learning has largely been evaluated on individual predictive tasks, oftentimes on a single time period using comparatively narrow datasets. We address this through three primary contributions. First, we introduce...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Towards Financial World Modeling
+
+Building a world model requires a state representation useful for planning and decision-making---potentially over tasks unknown at training time.
+
+arXiv: https://arxiv.org/abs/2610.09048
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Directed Temporal Representations for Offline Visual Control](https://arxiv.org/abs/2610.08960)
+
+**Authors:** Chenyang Yuan, Haoyu Wang, Zhuo Sun, Xiaoyuan Cheng
+
+**Published:** 2026-10-06 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.08960) | [PDF](https://arxiv.org/pdf/2610.08960)
+
+<details>
+<summary>Abstract</summary>
+
+Predictive world models provide compact visual representations for control. Control requires a latent geometry aligned with temporal reachability rather than predictive similarity alone. We introduce Directed Temporal Representations for Control (DTRC), which learns such a geometry from offline visual trajectories on top of frozen LeWorldModel (LeWM) features. DTRC constructs a directed temporal quasimetric over the learned control representation. Short-range temporal offsets calibrate the distance scale. Bootstrapped targets extend temporal reachability across longer horizons. Action-conditio...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Directed Temporal Representations for Offline Visual Control
+
+Predictive world models provide compact visual representations for control.
+
+arXiv: https://arxiv.org/abs/2610.08960
 
 #worldmodels #robotics
 ```
