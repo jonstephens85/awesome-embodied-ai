@@ -1,21 +1,54 @@
 {
-  "generated": "2026-10-08 01:26 UTC",
+  "generated": "2026-10-08 21:02 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
       "title": "Egocentric Data",
-      "count": 11
+      "count": 14
     },
     "vla": {
       "title": "Vision-Language-Action Models",
-      "count": 86
+      "count": 91
     },
     "world_models": {
       "title": "World Models",
-      "count": 87
+      "count": 89
     }
   },
   "papers": [
+    {
+      "id": "2610.10538",
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "authors": [
+        "Shravan Chaudhari",
+        "William Paul",
+        "Suchi Saria",
+        "Rama Chellappa",
+        "Homanga Bharadhwaj"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 9.5,
+      "match_reasons": [
+        "\"egocentric video\" in title",
+        "2 distinct keyword hits",
+        "project page",
+        "code repo",
+        "posted in last 2 days"
+      ],
+      "abstract": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual descriptions. It associates observations across the recording and retains objects after they leave the view, including those the person never touches. It clusters each object's observations by resting locations and records a move only after repeated evidence, reducing the effect of localization noise. Short descriptions preserve details such as an object's contents or supporting surface. It saves these records to later answer spatial questions without having to access the original images or video. Our memory raises HD-EPIC accuracy from 29.7% to 42.6%, UCS-Bench accuracy from 33.8% to 38.5% and localizes Ego4D objects with a 0.99 m median error on returned predictions. Our analyses identify complementary roles for temporal persistence, contextual descriptions, and retrieval. Our study on 100 stitched streams of multiple scenes each further exposes failures in both retrieval and construction. Per-scene construction partially recovers the performance lost across scene changes compared to that of single scene streams.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10538",
+      "pdf_url": "https://arxiv.org/pdf/2610.10538",
+      "project_page": "https://ledger-3d.github.io",
+      "github_url": "https://github.com/LEDGER-3D/LEDGER",
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos\n\nAs we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later.\n\narXiv: https://arxiv.org/abs/2610.10538\nProject page: https://ledger-3d.github.io\nCode: https://github.com/LEDGER-3D/LEDGER\n\n#egocentric #robotlearning"
+    },
     {
       "id": "2610.09309",
       "title": "Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation",
@@ -47,8 +80,37 @@
       "project_page": "https://claire0730.github.io/executable-goals/",
       "github_url": "https://github.com/Claire0730/executable-goals",
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation\n\nGenerative world models provide rich predictions of how manipulation scenes may evolve toward task objectives, yet those futures do not directly expose the compact task variables required by control.\n\narXiv: https://arxiv.org/abs/2610.09309\nProject page: https://claire0730.github.io/executable-goals/\nCode: https://github.com/Claire0730/executable-goals\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.10526",
+      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+      "authors": [
+        "Mikey Watts",
+        "Yuchen Cui"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 8.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $π_{0.5}$ turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a $π_0$ checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. We characterize this sensitivity with statistically tested single-edit swings and an oracle phrase search, which shows that phrasing alone nearly closes the 21-point gap between in-distribution and out-of-distribution tasks. We then reduce it without modifying the policy. Because the sensitivity is systematic, it can be expressed as explicit rules: we score many phrasings of a few training tasks, have a large language model distill the evidence into ten to twenty rephrasing rules, and at deployment rewrite each incoming instruction once under these rules. The rules improve the frozen $π_0$ by 16 to 27% relative on twelve held-out tasks across adversarial, VLM-generated, and human-generated phrasings, with gains concentrated on out-of-distribution tasks. The pipeline replicates on $π_{0.5}$ and LIBERO, lifting in-finetune success from 93.6% to 97.8%. The method requires no retraining and no per-step verification, and applies zero-shot to unseen tasks and instructions. Project website: https://sttawm.github.io/rephrase-before-you-act",
+      "arxiv_url": "https://arxiv.org/abs/2610.10526",
+      "pdf_url": "https://arxiv.org/pdf/2610.10526",
+      "project_page": "https://sttawm.github.io/rephrase-before-you-act",
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models\n\nVision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on.\n\narXiv: https://arxiv.org/abs/2610.10526\nProject page: https://sttawm.github.io/rephrase-before-you-act\n\n#VLA #robotics"
     },
     {
       "id": "2610.09940",
@@ -80,7 +142,7 @@
       "project_page": "https://juno-policy.github.io/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Juno: Taming Predictive Latents for Vision-Language-Action Models\n\nJoint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models.\n\narXiv: https://arxiv.org/abs/2610.09940\nProject page: https://juno-policy.github.io/\n\n#VLA #robotics"
     },
     {
@@ -213,7 +275,7 @@
       "project_page": "https://alaya-lab.github.io/SPW-Nav",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation\n\nLanguage-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training.\n\narXiv: https://arxiv.org/abs/2610.08941\nProject page: https://alaya-lab.github.io/SPW-Nav\n\n#worldmodels #robotics"
     },
     {
@@ -280,7 +342,7 @@
       "project_page": "https://yubi-stag.airoa.io/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding\n\nVision-Language-Action (VLA) models acquire broad manipulation capabilities via large-scale pretraining, yet eliciting them through language requires fine-grained alignment between instructions and physical interactions.\n\narXiv: https://arxiv.org/abs/2610.09718\nProject page: https://yubi-stag.airoa.io/\n\n#VLA #robotics"
     },
     {
@@ -314,7 +376,7 @@
       "project_page": "https://zzr42.github.io/tmt/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks\n\nBackdoored vision-language-action (VLA) policies can preserve benign task performance while producing malicious actions when a trigger appears.\n\narXiv: https://arxiv.org/abs/2610.09462\nProject page: https://zzr42.github.io/tmt/\n\n#VLA #robotics"
     },
     {
@@ -345,7 +407,7 @@
       "project_page": "https://lysees.github.io/tempobridge-page/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "TempoBridge: Language-Guided Tempo Control for Vision-Language-Action Policies\n\nVision-Language-Action (VLA) models are effective at understanding what task to perform, but provide limited control over how it should be executed, such as moving quickly or slowly.\n\narXiv: https://arxiv.org/abs/2610.09451\nProject page: https://lysees.github.io/tempobridge-page/\n\n#VLA #robotics"
     },
     {
@@ -378,7 +440,7 @@
       "project_page": null,
       "github_url": "https://github.com/jiuyixu25/CureWM",
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models\n\nRobot world models support policy evaluation, planning, and synthetic data generation, but these applications require predictions that distinguish successful actions from failures.\n\narXiv: https://arxiv.org/abs/2610.09134\nCode: https://github.com/jiuyixu25/CureWM\n\n#worldmodels #robotics"
     },
     {
@@ -578,6 +640,68 @@
       "share_text": "World-Calibrated Proposal-to-Action Flow for Vision-Language-Action Models\n\nFlow-based Vision-Language-Action (VLA) policies generate action chunks by transporting samples from a task-agnostic isotropic Gaussian source.\n\narXiv: https://arxiv.org/abs/2610.02323\nCode: https://github.com/JiuTian-VL/ProAct-page\n\n#VLA #robotics"
     },
     {
+      "id": "2610.10390",
+      "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
+      "authors": [
+        "Xingtai Gui",
+        "Yucheng Zhou",
+        "Dongqian Guo",
+        "Jiahao Gong",
+        "Feiyang Tan",
+        "Jianbing Shen"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 7.0,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "2 distinct keyword hits",
+        "code repo",
+        "posted in last 2 days"
+      ],
+      "abstract": "Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner. GeoCoTDrive follows a think with 2D first, drive with dedicated 3D priors paradigm. It first grounds 2D regions corresponding to decision-critical cues, and then retrieves localized 3D priors by sampling features from a geometric foundation model within the grounded regions. These localized geometric features are interleaved into the autoregressive context to support the trajectory generation. To supervise this process, we introduce planning-relevant grounding, a new region-level grounding task that focuses on local spatial cues directly affecting ego planning decisions, and construct the PlanningGrounding dataset to endow VLAs with planning-oriented grounding capability. Experiments across multiple end-to-end autonomous driving benchmarks show that GeoCoTDrive consistently improves safety-critical planning performance, demonstrating the effectiveness of the explicit geometric chain-of-thought process for VLA-based planning.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10390",
+      "pdf_url": "https://arxiv.org/pdf/2610.10390",
+      "project_page": null,
+      "github_url": "https://github.com/TabGuigui/GeoCoTDrive",
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving\n\nVision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving.\n\narXiv: https://arxiv.org/abs/2610.10390\nCode: https://github.com/TabGuigui/GeoCoTDrive\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.10274",
+      "title": "Sparse Planning in Visual World Models via Cost Gradients",
+      "authors": [
+        "Yingchen Xu",
+        "Edward Grefenstette"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 7.0,
+      "match_reasons": [
+        "\"world model\" in title",
+        "project page",
+        "robotics / embodied focus",
+        "posted in last 2 days"
+      ],
+      "abstract": "Token-based world models enable fine-grained latent planning, but repeatedly processing large spatial token grids makes action search expensive. We introduce COSTGRAD, a training-free, goal-conditioned selector that ranks spatial tokens by the gradient norm of the planning cost with respect to each input token. By deriving importance from the downstream control objective, COSTGRAD targets tokens that matter for planning rather than merely for prediction. On AdaLN-conditioned predictors at $50\\%$ sparsity, COSTGRAD matches or exceeds full-token planning on three of four continuous-control benchmarks, while giving a measured $2.6\\times$ wall-clock speedup per environment planning step. Combining token sparsity with reduced CEM search increases this to a $\\sim 5\\times$ total speedup while still exceeding the full-token baseline. We also identify an architecture-dependent failure mode: in a matched AdaLN-vs-concat comparison, concat maintains comparable full-token performance but pure COSTGRAD loses its advantage over random selection. This difference tracks action-pathway drift: gradient-selected removal produces less drift than random removal on AdaLN, but more on concat. These results highlight selector-architecture compatibility as a design axis for sparse world-model planning. Project page and demos: https://ycxuyingchen.github.io/costgrad/",
+      "arxiv_url": "https://arxiv.org/abs/2610.10274",
+      "pdf_url": "https://arxiv.org/pdf/2610.10274",
+      "project_page": "https://ycxuyingchen.github.io/costgrad/",
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Sparse Planning in Visual World Models via Cost Gradients\n\nToken-based world models enable fine-grained latent planning, but repeatedly processing large spatial token grids makes action search expensive.\n\narXiv: https://arxiv.org/abs/2610.10274\nProject page: https://ycxuyingchen.github.io/costgrad/\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2610.09438",
       "title": "Controllable Crowd Generation through World-Model Planning",
       "authors": [
@@ -605,7 +729,7 @@
       "project_page": "https://jungyu0413.github.io/Ctrl-CWM",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Controllable Crowd Generation through World-Model Planning\n\nCrowd simulation plays a central role in robot navigation, autonomous driving, and urban planning.\n\narXiv: https://arxiv.org/abs/2610.09438\nProject page: https://jungyu0413.github.io/Ctrl-CWM\n\n#worldmodels #robotics"
     },
     {
@@ -646,6 +770,34 @@
       "share_text": "ATI-VLA: Action-Centric Predictive Vision-Language-Action Models via Actionable Alignment Then Adaptive Injection\n\nPredictive Vision-Language-Action (VLA) models aim to improve robotic manipulation via future observation or world dynamics forecasting.\n\narXiv: https://arxiv.org/abs/2610.01741\nProject page: https://jiutian-vl.github.io/ATI-VLA-page/\n\n#VLA #robotics"
     },
     {
+      "id": "2610.10178",
+      "title": "Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding",
+      "authors": [
+        "Theodor Wulff",
+        "Angelo Cangelosi"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 6.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits",
+        "posted in last 2 days"
+      ],
+      "abstract": "Vision-Language-Action models are designed to generalise across environments and task descriptions, raising the question of whether their action generation actually depends on the language instruction, or whether they largely rely on visual cues and superficial correlations. Robustness to variance in the visual and linguistic observation space is critical for real-world deployment, yet VLAs lack explicit grounding modules and instead rely on the intrinsic language grounding capabilities of their Vision-Language model backbones. For this reason, we conduct a controlled mechanistic interpretability study on the language grounding capabilities of two state-of-the-art Vision-Language-Action models, $π_{0.5}$ and GR00T N1.7, by applying activation and attribution patching to the residual stream of the action generation modules. We systematically corrupt the task instruction of input samples of the LIBERO benchmark following five strategies: synonym replacement, semantic scaling, directional corruption, random object substitution, and empty string. Our experiments find that both models are comparatively insensitive to abstract rephrasing and to referencing non-existent objects, but react strongly to empty task descriptions and, especially, to directional language. During action generation, this sensitivity is concentrated in different loci for each model: mainly in the early, periodic cross-attention layers for GR00T N1.7, versus distributed across the earliest and selected later layers for $π_{0.5}$. For GR00T N1.7, directional perturbations drive some of the largest causal effects while leaving the internal representational geometry comparatively unchanged, a dissociation we do not observe clearly for $π_{0.5}$. Finally, the reliability of attribution patching is model-dependent: it closely tracks activation patching for GR00T N1.7 but not for $π_{0.5}$.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10178",
+      "pdf_url": "https://arxiv.org/pdf/2610.10178",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding\n\nVision-Language-Action models are designed to generalise across environments and task descriptions, raising the question of whether their action generation actually depends on the language instruction, or whether they...\n\narXiv: https://arxiv.org/abs/2610.10178\n\n#VLA #robotics"
+    },
+    {
       "id": "2610.09496",
       "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
       "authors": [
@@ -673,7 +825,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models\n\nVision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by leveraging rich representations from pretrained vision-language models.\n\narXiv: https://arxiv.org/abs/2610.09496\n\n#VLA #robotics"
     },
     {
@@ -703,7 +855,7 @@
       "project_page": "https://mahmoud-selim.github.io/ICDP/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving\n\nOffline reinforcement learning enables reward-driven policy improvement from fixed datasets without requiring online exploration, making it particularly attractive in safety-critical domains.\n\narXiv: https://arxiv.org/abs/2610.09763\nProject page: https://mahmoud-selim.github.io/ICDP/\n\n#worldmodels #robotics"
     },
     {
@@ -774,7 +926,7 @@
       "project_page": "https://robo-cop.pages.dev/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Co-Evolving Robot Orchestrators and Policies through Deployment\n\nVision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment.\n\narXiv: https://arxiv.org/abs/2610.09228\nProject page: https://robo-cop.pages.dev/\n\n#VLA #robotics"
     },
     {
@@ -1184,7 +1336,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "PAIR: Bridging Perception and Action in Vision-Language-Action Models\n\nVision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.\n\narXiv: https://arxiv.org/abs/2610.09016\n\n#VLA #robotics"
     },
     {
@@ -1278,8 +1430,51 @@
       "project_page": "https://seungjun-moon.github.io/rlhnd/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning\n\nRecently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent.\n\narXiv: https://arxiv.org/abs/2610.09455\nProject page: https://seungjun-moon.github.io/rlhnd/\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2610.10384",
+      "title": "OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework",
+      "authors": [
+        "Yifan Wu",
+        "Qin Li",
+        "Nan Min",
+        "Guojin Zhong",
+        "Haoyu Zhao",
+        "Zhiyuan Li",
+        "Houze Xu",
+        "Shengqi Xu",
+        "Xingyao Lin",
+        "Zijie Diao",
+        "Zhaoxiang Liu",
+        "Shiguo Lian",
+        "Shunlin Lu",
+        "Shihao Zhao",
+        "Ziyi Ye",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "Tactile feedback provides embodied agents with physical information beyond visual observations, enabling more reliable interaction with the real world. However, despite the rapid progress of vision-tactile-language-action (VTLA) policies, there remains a lack of unified benchmarks for evaluating tactile-enabled robot manipulation across simulation and the real world. To address this gap, we introduce OpenViTac, a visuo-tactile manipulation benchmark for evaluating robot policies across simulation and the real world. OpenViTac organizes contact-rich manipulation into four tactile-relevant capability dimensions and provides paired simulation-real-world settings for consistent evaluation of VLA, WAM, and VTLA policies. Building upon this benchmark, we investigate how different tactile representations and integration strategies affect the performance of pretrained VLA models. Correspondingly, we introduce OpenVTLA, a tactile augmentation framework that combines the best-performing representation and integration strategy. Furthermore, we leverage the paired benchmark setting to study sim-real co-training and analyze factors affecting cross-domain policy learning. Together, OpenViTac provides a unified platform for evaluating and advancing visuo-tactile robot manipulation.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10384",
+      "pdf_url": "https://arxiv.org/pdf/2610.10384",
+      "project_page": "https://fvl-repo.github.io/OpenViTac/",
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework\n\nTactile feedback provides embodied agents with physical information beyond visual observations, enabling more reliable interaction with the real world.\n\narXiv: https://arxiv.org/abs/2610.10384\nProject page: https://fvl-repo.github.io/OpenViTac/\n\n#VLA #robotics"
     },
     {
       "id": "2610.09943",
@@ -1312,7 +1507,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization\n\nReinforcement learning (RL) fine-tuning improves vision-language-action (VLA) policies through closed-loop experience, yet generalization beyond the fine-tuning distribution remains limited.\n\narXiv: https://arxiv.org/abs/2610.09943\n\n#VLA #robotics"
     },
     {
@@ -1342,7 +1537,7 @@
       "project_page": "https://dsreg.github.io/",
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "DSReg: Provably Recovering Individual World Latents without Reconstruction\n\nMethods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervi...\n\narXiv: https://arxiv.org/abs/2610.09457\nProject page: https://dsreg.github.io/\n\n#worldmodels #robotics"
     },
     {
@@ -2050,6 +2245,58 @@
       "share_text": "FutureWorlds: Learning Robotic World Models from Alternative Futures\n\nRobotic world models predict action-conditioned future scenes, providing a foundation for understanding action outcomes.\n\narXiv: https://arxiv.org/abs/2610.01019\nCode: https://github.com/Alexander-wu/FutureWorlds\n\n#worldmodels #robotics"
     },
     {
+      "id": "2610.10288",
+      "title": "TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning",
+      "authors": [
+        "Dayou Li",
+        "Hao Wang",
+        "Qianqian Yang",
+        "Zihao Zhu",
+        "Haoquan Fang",
+        "Ziyao Zeng",
+        "Yan Han",
+        "Zihan Wang",
+        "Yan Wang",
+        "Baoru Huang",
+        "Dilin Wang",
+        "Kenji Shimada",
+        "Yiyue Luo",
+        "Manling Li",
+        "Teresa Lv",
+        "Mustafa Mukadam",
+        "Rakesh Ranjan",
+        "Ruohan Zhang",
+        "Qi He",
+        "Changliu Liu",
+        "Xu Chen",
+        "Marco Pavone",
+        "Bangya Liu",
+        "Jiachen Li",
+        "Masayoshi Tomizuka",
+        "Zhiwen Fan"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 5.0,
+      "match_reasons": [
+        "\"egocentric human\" in abstract",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrecorded. Recent visual-tactile datasets provide this missing supervision, but their synchronized tactile data remain far smaller in volume than human video. Moreover, the largest resources often merge recordings from different sensors or annotation procedures, which makes the effect of data scale difficult to isolate. We therefore introduce TouchScale, a 500-hour dataset of contact-rich human interaction recorded with a single unified wearable setup. Its approximately 2K predefined task descriptions span everyday activities and structured manipulation, and each recording temporally aligns egocentric RGB-D video with wrist RGB video and dense full-hand bimanual tactile measurements. Compared with prior tactile data, training on the full TouchScale raises zero-shot contact IoU on data from an unseen tactile sensor from 0.134 to 0.383. Pretraining a visual encoder on TouchScale also yields the highest action recognition accuracy on three benchmarks among the compared visual-tactile datasets. Used for visual-tactile mid-training of a robot policy, TouchScale improves the average real-world success rate across four contact-rich manipulation tasks from 22.5% to 57.5%. With the sensor and collection protocol held fixed, both zero-shot tactile prediction and robot success show an overall upward trend as more TouchScale data is used. These results suggest that human visual-tactile data collected at scale with consistent sensing benefits both perception and robot manipulation. We will publicly release TouchScale, including all synchronized visual-tactile recordings and reconstructed object models, to support future research on scalable visual-tactile learning.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10288",
+      "pdf_url": "https://arxiv.org/pdf/2610.10288",
+      "project_page": "https://touch-scale.github.io/",
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning\n\nLarge-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrec...\n\narXiv: https://arxiv.org/abs/2610.10288\nProject page: https://touch-scale.github.io/\n\n#egocentric #robotlearning"
+    },
+    {
       "id": "2610.09144",
       "title": "DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies",
       "authors": [
@@ -2078,7 +2325,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies\n\nVision-language-action (VLA) policies typically feed dense visual patch tokens into a language-action backbone, preserving scene context but offering no explicit mechanism to regulate how strongly different visual tok...\n\narXiv: https://arxiv.org/abs/2610.09144\n\n#VLA #robotics"
     },
     {
@@ -2108,7 +2355,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "CARE: Certifying Acceleration for Vision-Language-Action Inference\n\nWhile vision-language-action (VLA) models have advanced rapidly, running them at every control step remains expensive.\n\narXiv: https://arxiv.org/abs/2610.08917\n\n#VLA #robotics"
     },
     {
@@ -2666,8 +2913,45 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies\n\nRobot manipulation data collection has been shifting from teleoperation toward robot-free demonstrations, through interfaces such as the Universal Manipulation Interface (UMI) or directly from human hands.\n\narXiv: https://arxiv.org/abs/2610.09696\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.10515",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "authors": [
+        "Artem Zholus",
+        "Nicolas Beltran-Velez",
+        "Jianhao Yuan",
+        "Sarath Chandar",
+        "Tushar Nagarajan",
+        "Daniel Severo",
+        "Koustuv Sinha",
+        "Michal Drozdzal",
+        "Adriana Romero Soriano",
+        "Jeannette Bohg",
+        "Nicolas Ballas",
+        "Mahmoud Assran"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination error, the error of its latent rollouts, follows a second-order power law in compute, allowing us to predict model quality well beyond the scale at which the law is fit. We further show that downstream robotic planning performance improves predictably with compute, and that imagination error is strongly correlated with it, making it a reliable proxy for real-robot evaluation. Finally, we demonstrate that latent world models can be deployed zero-shot as robotic agents, planning toward a single goal image to solve tasks requiring long-horizon planning on real hardware. We release all model checkpoints together with our training and robot deployment code. To our knowledge, this is the first work to establish scaling laws for multi-embodiment robotic world models trained on real robot data, and RoboJEPA, at 8B parameters, is the largest JEPA predictor model trained to date.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10515",
+      "pdf_url": "https://arxiv.org/pdf/2610.10515",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "RoboJEPA: Scaling Robotic Latent World Models\n\nLatent world models have shown a remarkable ability to predict future states and to plan in the real world.\n\narXiv: https://arxiv.org/abs/2610.10515\n\n#worldmodels #robotics"
     },
     {
       "id": "2610.09285",
@@ -2695,7 +2979,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LeCuration: A Tiny World Model as a Data Curation Multi-Tool\n\nMany applications of physical AI run within finite or closed physical worlds with a limited set of physical laws governing object behavior.\n\narXiv: https://arxiv.org/abs/2610.09285\n\n#worldmodels #robotics"
     },
     {
@@ -2832,7 +3116,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?\n\nAutoregressive action-token policies such as vision-language-action models require action tokenizers to translate discrete token sequences into precise control actions in continuous space.\n\narXiv: https://arxiv.org/abs/2610.09170\n\n#VLA #robotics"
     },
     {
@@ -3752,7 +4036,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models\n\nAutonomous unmanned aerial vehicle (UAV) object search involves a closed loop of perception, decision-making, and action under partial observability.\n\narXiv: https://arxiv.org/abs/2610.09335\n\n#worldmodels #robotics"
     },
     {
@@ -4254,6 +4538,78 @@
       "share_text": "iSEE: Object Permanence Through Self-Supervision\n\nObject permanence, keeping track of an object's identity and position while it is occluded, is central to video representations that track, predict and plan.\n\narXiv: https://arxiv.org/abs/2610.01201\nProject page: https://insait-institute.github.io/iSEE/\n\n#worldmodels #robotics"
     },
     {
+      "id": "2610.10528",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "authors": [
+        "Wei Huang",
+        "Bohan Zhang",
+        "Chenzhi Liu",
+        "Isabella Liu",
+        "Shuai Yang",
+        "Weian Mao",
+        "Luozhou Wang",
+        "Yicheng Xiao",
+        "Weifeng Lin",
+        "Qixin Hu",
+        "Bryan Chu",
+        "Sifei Liu",
+        "Linxi Fan",
+        "Xiaojuan Qi",
+        "Song Han",
+        "Yukang Chen"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 3.5,
+      "match_reasons": [
+        "\"egocentric video\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10528",
+      "pdf_url": "https://arxiv.org/pdf/2610.10528",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Long-WAM: Scaling the Context of World-Action Models\n\nReal-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action.\n\narXiv: https://arxiv.org/abs/2610.10528\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2610.10437",
+      "title": "Q-Learning with Scalar Adjoint Matching",
+      "authors": [
+        "Yonghoon Dong",
+        "Minsung Yoon",
+        "Jaehyuk Kim",
+        "Jungwoo Park",
+        "Changyeon Kim",
+        "Jinwoo Shin"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"vision-language-action\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest. However, fine-tuning a flow policy against a learned value function is not trivial, because the policy generates its action over many flow steps. Adjoint matching offers a principled way to update the flow model itself by propagating value information from the final action back to each flow step, but it requires a vector--Jacobian product through the policy at every step, a cost that grows with the number of flow steps and the policy size. We observe that the batch-averaged velocity Jacobian of pretrained flow policies concentrates on its diagonal. Motivated by this finding, we derive a closed-form scalar adjoint that scales the value gradient at the final action by the flow time, eliminating the per-step vector--Jacobian products. We further find that controlling the critic's value at policy-generated actions is particularly important under the scalar adjoint. Based on these findings, we propose Q-learning with Scalar Adjoint Matching (SQAM), which combines the scalar adjoint with a value penalty at those actions. SQAM's gains concentrate on the four hardest OGBench domains, where its success rate exceeds that of the strongest baseline in each domain by 18 to 35 percentage points. To test whether SQAM extends to large pretrained policies, we also fine-tune a vision-language-action policy on a real bimanual robot. SQAM improves over supervised fine-tuning on all three tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2610.10437",
+      "pdf_url": "https://arxiv.org/pdf/2610.10437",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-08",
+      "is_new": true,
+      "share_text": "Q-Learning with Scalar Adjoint Matching\n\nFlow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest.\n\narXiv: https://arxiv.org/abs/2610.10437\n\n#VLA #robotics"
+    },
+    {
       "id": "2610.09734",
       "title": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
       "authors": [
@@ -4284,7 +4640,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ΔWAM: Distilling Action Tangent Fields into World Action Models\n\nWorld Action Models (WAM) improve robot policies by augmenting sparse action supervision with dense future prediction.\n\narXiv: https://arxiv.org/abs/2610.09734\n\n#worldmodels #robotics"
     },
     {
@@ -4316,7 +4672,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Kuration SDK: Addressing the Virtual2Real Gap via Data Curation\n\nBenchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away from visual similarity-based metrics to action-semantic and physically-grounded metrics.\n\narXiv: https://arxiv.org/abs/2610.09305\n\n#worldmodels #robotics"
     },
     {
@@ -4733,7 +5089,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Towards Financial World Modeling\n\nBuilding a world model requires a state representation useful for planning and decision-making---potentially over tasks unknown at training time.\n\narXiv: https://arxiv.org/abs/2610.09048\n\n#worldmodels #robotics"
     },
     {
@@ -4762,7 +5118,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-08",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Directed Temporal Representations for Offline Visual Control\n\nPredictive world models provide compact visual representations for control.\n\narXiv: https://arxiv.org/abs/2610.08960\n\n#worldmodels #robotics"
     },
     {

@@ -2,11 +2,46 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-10-08 01:26 UTC
+**Last updated:** 2026-10-08 21:02 UTC
 
-**Papers shown:** 84 (relevance ≥ 2, last 7 days)
+**Papers shown:** 89 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models](https://arxiv.org/abs/2610.10526)
+
+**Authors:** Mikey Watts, Yuchen Cui
+
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.CL, cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10526) | [PDF](https://arxiv.org/pdf/2610.10526) | [Project Page](https://sttawm.github.io/rephrase-before-you-act)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $π_{0.5}$ turns on a LIBERO stove 100% of the time for "switch on the stove" and 2% for "switch on the hot plate", and a $π_0$ checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. We characterize this sensitivity with statistically tested single-edit swings and an oracle phrase search, which shows that phrasing alone nearly closes the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models
+
+Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on.
+
+arXiv: https://arxiv.org/abs/2610.10526
+Project page: https://sttawm.github.io/rephrase-before-you-act
+
+#VLA #robotics
+```
+
+</details>
 
 ---
 
@@ -362,6 +397,41 @@ Code: https://github.com/JiuTian-VL/ProAct-page
 
 ---
 
+### [Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving](https://arxiv.org/abs/2610.10390)
+
+**Authors:** Xingtai Gui, Yucheng Zhou, Dongqian Guo, Jiahao Gong, Feiyang Tan et al. (6 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10390) | [PDF](https://arxiv.org/pdf/2610.10390) | [Code](https://github.com/TabGuigui/GeoCoTDrive)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner. GeoCoTDrive follows a think with 2D first, drive with dedicated 3D priors paradigm. It first grounds 2D regions corresponding to decision-critic...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving
+
+Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving.
+
+arXiv: https://arxiv.org/abs/2610.10390
+Code: https://github.com/TabGuigui/GeoCoTDrive
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [ATI-VLA: Action-Centric Predictive Vision-Language-Action Models via Actionable Alignment Then Adaptive Injection](https://arxiv.org/abs/2610.01741)
 
 **Authors:** Yijie Zhu, Rui Shao, Jie He, Wei Li, Bo Zhao et al. (11 authors)
@@ -389,6 +459,40 @@ Predictive Vision-Language-Action (VLA) models aim to improve robotic manipulati
 
 arXiv: https://arxiv.org/abs/2610.01741
 Project page: https://jiutian-vl.github.io/ATI-VLA-page/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding](https://arxiv.org/abs/2610.10178)
+
+**Authors:** Theodor Wulff, Angelo Cangelosi
+
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.10178) | [PDF](https://arxiv.org/pdf/2610.10178)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action models are designed to generalise across environments and task descriptions, raising the question of whether their action generation actually depends on the language instruction, or whether they largely rely on visual cues and superficial correlations. Robustness to variance in the visual and linguistic observation space is critical for real-world deployment, yet VLAs lack explicit grounding modules and instead rely on the intrinsic language grounding capabilities of their Vision-Language model backbones. For this reason, we conduct a controlled mechanistic interpretabil...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding
+
+Vision-Language-Action models are designed to generalise across environments and task descriptions, raising the question of whether their action generation actually depends on the language instruction, or whether they...
+
+arXiv: https://arxiv.org/abs/2610.10178
 
 #VLA #robotics
 ```
@@ -840,6 +944,41 @@ PAIR: Bridging Perception and Action in Vision-Language-Action Models
 Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.
 
 arXiv: https://arxiv.org/abs/2610.09016
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework](https://arxiv.org/abs/2610.10384)
+
+**Authors:** Yifan Wu, Qin Li, Nan Min, Guojin Zhong, Haoyu Zhao et al. (17 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10384) | [PDF](https://arxiv.org/pdf/2610.10384) | [Project Page](https://fvl-repo.github.io/OpenViTac/)
+
+<details>
+<summary>Abstract</summary>
+
+Tactile feedback provides embodied agents with physical information beyond visual observations, enabling more reliable interaction with the real world. However, despite the rapid progress of vision-tactile-language-action (VTLA) policies, there remains a lack of unified benchmarks for evaluating tactile-enabled robot manipulation across simulation and the real world. To address this gap, we introduce OpenViTac, a visuo-tactile manipulation benchmark for evaluating robot policies across simulation and the real world. OpenViTac organizes contact-rich manipulation into four tactile-relevant capab...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework
+
+Tactile feedback provides embodied agents with physical information beyond visual observations, enabling more reliable interaction with the real world.
+
+arXiv: https://arxiv.org/abs/2610.10384
+Project page: https://fvl-repo.github.io/OpenViTac/
 
 #VLA #robotics
 ```
@@ -2481,6 +2620,40 @@ Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internaliz
 Vision-language-action (VLA) models increasingly incorporate intermediate reasoning to improve robotic manipulation, yet existing approaches primarily reason about observed states without explicitly anticipating futur...
 
 arXiv: https://arxiv.org/abs/2610.02626
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Q-Learning with Scalar Adjoint Matching](https://arxiv.org/abs/2610.10437)
+
+**Authors:** Yonghoon Dong, Minsung Yoon, Jaehyuk Kim, Jungwoo Park, Changyeon Kim et al. (6 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.LG, cs.AI, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.10437) | [PDF](https://arxiv.org/pdf/2610.10437)
+
+<details>
+<summary>Abstract</summary>
+
+Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest. However, fine-tuning a flow policy against a learned value function is not trivial, because the policy generates its action over many flow steps. Adjoint matching offers a principled way to update the flow model itself by propagating value information from the final action back to each flow step, but it requires a vector--Jacobian product through the policy at every step, a cost that grows with the number of flow steps and the pol...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Q-Learning with Scalar Adjoint Matching
+
+Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest.
+
+arXiv: https://arxiv.org/abs/2610.10437
 
 #VLA #robotics
 ```

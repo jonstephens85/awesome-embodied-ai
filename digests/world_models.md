@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-08 01:26 UTC
+**Last updated:** 2026-10-08 21:02 UTC
 
-**Papers shown:** 84 (relevance ≥ 2, last 7 days)
+**Papers shown:** 86 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -250,6 +250,41 @@ DeltaWorld: Physically Consistent Interactive World Simulators via Action-Condit
 Interactive world simulators can provide scalable environments for robot planning, policy training, and evaluation by predicting action consequences while reducing reliance on repeated physical rollouts.
 
 arXiv: https://arxiv.org/abs/2610.02691
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Sparse Planning in Visual World Models via Cost Gradients](https://arxiv.org/abs/2610.10274)
+
+**Authors:** Yingchen Xu, Edward Grefenstette
+
+**Published:** 2026-10-07 | **Categories:** cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10274) | [PDF](https://arxiv.org/pdf/2610.10274) | [Project Page](https://ycxuyingchen.github.io/costgrad/)
+
+<details>
+<summary>Abstract</summary>
+
+Token-based world models enable fine-grained latent planning, but repeatedly processing large spatial token grids makes action search expensive. We introduce COSTGRAD, a training-free, goal-conditioned selector that ranks spatial tokens by the gradient norm of the planning cost with respect to each input token. By deriving importance from the downstream control objective, COSTGRAD targets tokens that matter for planning rather than merely for prediction. On AdaLN-conditioned predictors at $50\%$ sparsity, COSTGRAD matches or exceeds full-token planning on three of four continuous-control bench...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Sparse Planning in Visual World Models via Cost Gradients
+
+Token-based world models enable fine-grained latent planning, but repeatedly processing large spatial token grids makes action search expensive.
+
+arXiv: https://arxiv.org/abs/2610.10274
+Project page: https://ycxuyingchen.github.io/costgrad/
 
 #worldmodels #robotics
 ```
@@ -1189,6 +1224,40 @@ Video generation models have achieved remarkable visual fidelity and have strong
 
 arXiv: https://arxiv.org/abs/2610.02197
 Project page: https://hiphy-video.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [RoboJEPA: Scaling Robotic Latent World Models](https://arxiv.org/abs/2610.10515)
+
+**Authors:** Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan, Sarath Chandar, Tushar Nagarajan et al. (12 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.10515) | [PDF](https://arxiv.org/pdf/2610.10515)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination error, the error of its latent rollouts, follows a second-order power law in compute, allowing us to pre...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboJEPA: Scaling Robotic Latent World Models
+
+Latent world models have shown a remarkable ability to predict future states and to plan in the real world.
+
+arXiv: https://arxiv.org/abs/2610.10515
 
 #worldmodels #robotics
 ```

@@ -2,11 +2,47 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-08 01:26 UTC
+**Last updated:** 2026-10-08 21:02 UTC
 
-**Papers shown:** 9 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos](https://arxiv.org/abs/2610.10538)
+
+**Authors:** Shravan Chaudhari, William Paul, Suchi Saria, Rama Chellappa, Homanga Bharadhwaj
+
+**Published:** 2026-10-07 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★★★★
+
+**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10538) | [PDF](https://arxiv.org/pdf/2610.10538) | [Project Page](https://ledger-3d.github.io) | [Code](https://github.com/LEDGER-3D/LEDGER)
+
+<details>
+<summary>Abstract</summary>
+
+As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual descriptions. It associates observations across the recording and retains objects after they leave the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos
+
+As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later.
+
+arXiv: https://arxiv.org/abs/2610.10538
+Project page: https://ledger-3d.github.io
+Code: https://github.com/LEDGER-3D/LEDGER
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -74,6 +110,41 @@ Recently, approaches that leverage human video datasets for robot policy trainin
 
 arXiv: https://arxiv.org/abs/2610.09455
 Project page: https://seungjun-moon.github.io/rlhnd/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning](https://arxiv.org/abs/2610.10288)
+
+**Authors:** Dayou Li, Hao Wang, Qianqian Yang, Zihao Zhu, Haoquan Fang et al. (26 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10288) | [PDF](https://arxiv.org/pdf/2610.10288) | [Project Page](https://touch-scale.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrecorded. Recent visual-tactile datasets provide this missing supervision, but their synchronized tactile data remain far smaller in volume than human video. Moreover, the largest resources often merge recordings from different sensors or annotation procedures, which makes the effect of data scale difficult to isolate. We therefore introduce TouchScale, a 500-hour dataset of contact-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning
+
+Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrec...
+
+arXiv: https://arxiv.org/abs/2610.10288
+Project page: https://touch-scale.github.io/
 
 #egocentric #robotlearning
 ```
@@ -212,6 +283,40 @@ EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and 
 Vision-language models (VLMs) are increasingly evaluated for egocentric and cross-view video reasoning, yet existing benchmarks largely focus on semantic event understanding, temporal relations, or correspondence betw...
 
 arXiv: https://arxiv.org/abs/2610.04506
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Long-WAM: Scaling the Context of World-Action Models](https://arxiv.org/abs/2610.10528)
+
+**Authors:** Wei Huang, Bohan Zhang, Chenzhi Liu, Isabella Liu, Shuai Yang et al. (16 authors)
+
+**Published:** 2026-10-07 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.10528) | [PDF](https://arxiv.org/pdf/2610.10528)
+
+<details>
+<summary>Abstract</summary>
+
+Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Long-WAM: Scaling the Context of World-Action Models
+
+Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action.
+
+arXiv: https://arxiv.org/abs/2610.10528
 
 #egocentric #robotlearning
 ```

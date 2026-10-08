@@ -5253,5 +5253,75 @@
     "topics": [
       "vla"
     ]
+  },
+  "2610.10178": {
+    "first_seen": "2026-10-08",
+    "title": "Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10274": {
+    "first_seen": "2026-10-08",
+    "title": "Sparse Planning in Visual World Models via Cost Gradients",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.10288": {
+    "first_seen": "2026-10-08",
+    "title": "TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.10384": {
+    "first_seen": "2026-10-08",
+    "title": "OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10390": {
+    "first_seen": "2026-10-08",
+    "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10437": {
+    "first_seen": "2026-10-08",
+    "title": "Q-Learning with Scalar Adjoint Matching",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10515": {
+    "first_seen": "2026-10-08",
+    "title": "RoboJEPA: Scaling Robotic Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.10526": {
+    "first_seen": "2026-10-08",
+    "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10528": {
+    "first_seen": "2026-10-08",
+    "title": "Long-WAM: Scaling the Context of World-Action Models",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.10538": {
+    "first_seen": "2026-10-08",
+    "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
   }
 }
