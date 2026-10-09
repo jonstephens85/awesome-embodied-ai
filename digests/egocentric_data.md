@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-09 01:32 UTC
+**Last updated:** 2026-10-09 20:33 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,6 +38,41 @@ As we move through the world and carry out everyday tasks, we encounter objects 
 arXiv: https://arxiv.org/abs/2610.10538
 Project page: https://ledger-3d.github.io
 Code: https://github.com/LEDGER-3D/LEDGER
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation](https://arxiv.org/abs/2610.12245)
+
+**Authors:** Bowen Yang, Xinliang Xiao, Wenjing Zhang, Li Yang, Wei Zhou
+
+**Published:** 2026-10-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric dataset" in abstract; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12245) | [PDF](https://arxiv.org/pdf/2610.12245) | [Code](https://github.com/WeiZhou96/FRPR-interaction-anticipation)
+
+<details>
+<summary>Abstract</summary>
+
+Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference pose residual (FRPR) model: a geometry predictor built from the person's bounding box and mask is trained and frozen, and a temporal network then learns from body pose an additive correction to its logit, so that every prediction splits exactl...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation
+
+Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact.
+
+arXiv: https://arxiv.org/abs/2610.12245
+Code: https://github.com/WeiZhou96/FRPR-interaction-anticipation
 
 #egocentric #robotlearning
 ```
@@ -153,11 +188,46 @@ Project page: https://byulharang.github.io/FloorSAV/
 
 ---
 
+### [EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams](https://arxiv.org/abs/2610.12248)
+
+**Authors:** Heeseung Kim
+
+**Published:** 2026-10-08 | **Categories:** cs.CL, cs.CV, cs.SD | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "first-person video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12248) | [PDF](https://arxiv.org/pdf/2610.12248) | [Project Page](https://egocentricvoice.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly asked. While proactive video assistants, spoken dialog systems, and egocentric task understanding have each advanced rapidly, existing systems do not address the joint problem of deciding when to speak and what to say from continuous first-person streams. We introduce EgoVoice, a framework for training and evaluating proactive egocentric spoken assistants. From Hol...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams
+
+Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without b...
+
+arXiv: https://arxiv.org/abs/2610.12248
+Project page: https://egocentricvoice.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning](https://arxiv.org/abs/2610.10288)
 
 **Authors:** Dayou Li, Hao Wang, Qianqian Yang, Zihao Zhu, Haoquan Fang et al. (26 authors)
 
-**Published:** 2026-10-07 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-07 (updated 2026-10-08) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric human" in abstract; project page; posted in last 2 days
 
@@ -215,6 +285,40 @@ Learning general-purpose robot policies requires large-scale real-world interact
 
 arXiv: https://arxiv.org/abs/2610.03607
 Project page: https://mikuz12.github.io/wing/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442)
+
+**Authors:** Suhwan Cho, Yonwoo Choi, Soongjin Kim, Jicheol Park, Taegyu Lim
+
+**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.12442) | [PDF](https://arxiv.org/pdf/2610.12442)
+
+<details>
+<summary>Abstract</summary>
+
+Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model sh...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
+
+Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
+
+arXiv: https://arxiv.org/abs/2610.12442
 
 #egocentric #robotlearning
 ```
