@@ -5323,5 +5323,119 @@
     "topics": [
       "egocentric_data"
     ]
+  },
+  "2610.10787": {
+    "first_seen": "2026-10-09",
+    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.10810": {
+    "first_seen": "2026-10-09",
+    "title": "Diagnosing and Recovering from Observation-Space Shift at Long-Horizon Skill Seams",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.10846": {
+    "first_seen": "2026-10-09",
+    "title": "Cross-Embodiment Robot Foundation World Models with Latent Actions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.10912": {
+    "first_seen": "2026-10-09",
+    "title": "When Listening Becomes Easier: Scrubbing Visual Cues for Shortcut-Free VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.11060": {
+    "first_seen": "2026-10-09",
+    "title": "AffordDrive3D: Affordance-Aware World-Action Modeling with Spatial Understanding",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.11161": {
+    "first_seen": "2026-10-09",
+    "title": "VGGTWorld-VLA: Intent-Conditioned 3D World Evolution for Autonomous Driving",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.11248": {
+    "first_seen": "2026-10-09",
+    "title": "SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.11310": {
+    "first_seen": "2026-10-09",
+    "title": "FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.11347": {
+    "first_seen": "2026-10-09",
+    "title": "EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.11382": {
+    "first_seen": "2026-10-09",
+    "title": "PlanWAM: Planning-Shaped Future Representations for End-to-End Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.11416": {
+    "first_seen": "2026-10-09",
+    "title": "Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.11418": {
+    "first_seen": "2026-10-09",
+    "title": "Experience-Guided Initiation Search for Learned Skills in Skill Composition",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.11480": {
+    "first_seen": "2026-10-09",
+    "title": "RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.11508": {
+    "first_seen": "2026-10-09",
+    "title": "WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.11527": {
+    "first_seen": "2026-10-09",
+    "title": "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.11591": {
+    "first_seen": "2026-10-09",
+    "title": "Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception",
+    "topics": [
+      "world_models"
+    ]
   }
 }

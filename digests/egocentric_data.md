@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-08 21:02 UTC
+**Last updated:** 2026-10-09 01:32 UTC
 
 **Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
@@ -46,13 +46,48 @@ Code: https://github.com/LEDGER-3D/LEDGER
 
 ---
 
+### [RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning](https://arxiv.org/abs/2610.09455)
+
+**Authors:** Seungjun Moon, Subin Jeon, Sangwoo Kim, Hanbyul Joo, Jinwoo Shin
+
+**Published:** 2026-10-07 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09455) | [PDF](https://arxiv.org/pdf/2610.09455) | [Project Page](https://seungjun-moon.github.io/rlhnd/)
+
+<details>
+<summary>Abstract</summary>
+
+Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent. However, most existing hand trackers regress pose from cropped frames with limited priors on hand motion and object interaction, resulting in inaccurate and physically inconsistent estimates. Moreover, the lack of physical cues, e.g., contact and force, limits the use of human videos for robot policy training. To this end, we propose RLHND, a video foundation model-based hand tracking model that jointly estimates hand pose and realistic tactile information from monocular egocen...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning
+
+Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent.
+
+arXiv: https://arxiv.org/abs/2610.09455
+Project page: https://seungjun-moon.github.io/rlhnd/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning](https://arxiv.org/abs/2610.08726)
 
 **Authors:** Lihan Zha, Shresth Grover, Tenny Yin, Samuel M. Bateman, Hengkai Pan et al. (10 authors)
 
 **Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric human" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in title; project page
 
 **Also relevant to:** Vision-Language-Action Models
 
@@ -83,20 +118,20 @@ Project page: https://ego-lap.github.io/
 
 ---
 
-### [RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning](https://arxiv.org/abs/2610.09455)
+### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
 
-**Authors:** Seungjun Moon, Subin Jeon, Sangwoo Kim, Hanbyul Joo, Jinwoo Shin
+**Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
 
-**Published:** 2026-10-07 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-08 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09455) | [PDF](https://arxiv.org/pdf/2610.09455) | [Project Page](https://seungjun-moon.github.io/rlhnd/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.11310) | [PDF](https://arxiv.org/pdf/2610.11310) | [Project Page](https://byulharang.github.io/FloorSAV/)
 
 <details>
 <summary>Abstract</summary>
 
-Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent. However, most existing hand trackers regress pose from cropped frames with limited priors on hand motion and object interaction, resulting in inaccurate and physically inconsistent estimates. Moreover, the lack of physical cues, e.g., contact and force, limits the use of human videos for robot policy training. To this end, we propose RLHND, a video foundation model-based hand tracking model that jointly estimates hand pose and realistic tactile information from monocular egocen...
+While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry directly from raw sensory streams. Existing approaches either require costly fine-tuning or underutilize the model's cross-modal reasoning capacities. In this paper, we propose FloorSAV, a novel framework that explicitly grounds spatial audio-visual context by rendering a dynamic 2D floormap. By integrating 3D point clouds, camera trajectories, spatial audio cues, and semantically gro...
 
 </details>
 
@@ -104,12 +139,12 @@ Recently, approaches that leverage human video datasets for robot policy trainin
 <summary>Share</summary>
 
 ```
-RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning
+FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs
 
-Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent.
+While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry dire...
 
-arXiv: https://arxiv.org/abs/2610.09455
-Project page: https://seungjun-moon.github.io/rlhnd/
+arXiv: https://arxiv.org/abs/2610.11310
+Project page: https://byulharang.github.io/FloorSAV/
 
 #egocentric #robotlearning
 ```
@@ -153,41 +188,6 @@ Project page: https://touch-scale.github.io/
 
 ---
 
-### [NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video](https://arxiv.org/abs/2610.01461)
-
-**Authors:** Zhaoxu Meng, Yiming Sun, Mingyuan Gao, Jiachang Zhang, Zhuhan Dai et al. (8 authors)
-
-**Published:** 2026-10-01 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.01461) | [PDF](https://arxiv.org/pdf/2610.01461) | [Project Page](https://kkkkawayi.github.io/nextme-800/)
-
-<details>
-<summary>Abstract</summary>
-
-We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do. Hindsight offers a valuable perspective on past decisions, although we often wish we could have simulated hindsight at the moment of choosing. If a system could generate plausible trajectories from one's personal history, such previews might help people formulate more realistic plans and make better informed decisions. We introduce NextMe-800, an approximately 800-hour first-person dataset from one volunteer over 126 days with 1 Hz images, ga...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video
-
-We often plan ambitiously yet act habitually and wonder, in retrospect, whether we would have planned differently had we known what we would actually do.
-
-arXiv: https://arxiv.org/abs/2610.01461
-Project page: https://kkkkawayi.github.io/nextme-800/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [World Action Learning via Interaction-Centric Spectral Latent Guidance](https://arxiv.org/abs/2610.03607)
 
 **Authors:** Zhiming Liu, Yikun Miao, Ying Chen, Hongrui Yin, Fangqi Zhu et al. (10 authors)
@@ -215,40 +215,6 @@ Learning general-purpose robot policies requires large-scale real-world interact
 
 arXiv: https://arxiv.org/abs/2610.03607
 Project page: https://mikuz12.github.io/wing/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos](https://arxiv.org/abs/2610.08192)
-
-**Authors:** Souptik Sen, Zahra Ahmadi
-
-**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08192) | [PDF](https://arxiv.org/pdf/2610.08192)
-
-<details>
-<summary>Abstract</summary>
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \textbf{MacJEPA}, a missing-modality-robust \textbf{Ma}...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference.
-
-arXiv: https://arxiv.org/abs/2610.08192
 
 #egocentric #robotlearning
 ```
@@ -325,6 +291,74 @@ arXiv: https://arxiv.org/abs/2610.10528
 
 ---
 
+### [EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video](https://arxiv.org/abs/2610.11347)
+
+**Authors:** Zhuo Dong, Jianhua Yang, Haohao Li, Yumeng Zhao, Keji He et al. (7 authors)
+
+**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.11347) | [PDF](https://arxiv.org/pdf/2610.11347)
+
+<details>
+<summary>Abstract</summary>
+
+Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move. Peak contact force and mechanical work quantify these complementary aspects, but estimating them from egocentric video is challenging because physical interaction cues are local and indirect. Moreover, peak force is associated with brief contact events, whereas mechanical work depends on force-motion coupling throughout the contact duration. To address these challenges, we propose EgoPhys, an RGB-only framework comprising...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video
+
+Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move.
+
+arXiv: https://arxiv.org/abs/2610.11347
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos](https://arxiv.org/abs/2610.08192)
+
+**Authors:** Souptik Sen, Zahra Ahmadi
+
+**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.08192) | [PDF](https://arxiv.org/pdf/2610.08192)
+
+<details>
+<summary>Abstract</summary>
+
+Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \textbf{MacJEPA}, a missing-modality-robust \textbf{Ma}...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos
+
+Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference.
+
+arXiv: https://arxiv.org/abs/2610.08192
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [RoboCap: A New Platform for Egocentric Robot Learning](https://arxiv.org/abs/2610.07217)
 
 **Authors:** Grounded Superintelligence, BitRobot
@@ -385,40 +419,6 @@ Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief
 Egocentric videos capture how people carry out everyday activities, yet testing an agent requires evaluating the consequences of actions it chooses itself.
 
 arXiv: https://arxiv.org/abs/2610.02715
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210)
-
-**Authors:** Hongming Fu, Jingcheng Shi, Wenjia Wang, Binhua Zuo, Bo Zhao
-
-**Published:** 2026-10-01 (updated 2026-10-03) | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.01210) | [PDF](https://arxiv.org/pdf/2610.01210)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult. Existing reconstruction pipelines typically separate hand and scene estimation, leave interaction attributes to separate task-specific models, and invoke several models per video, so no prior reconstruction model estimates these attributes and throughput becomes a practical constraint on large-scale annotation. We therefore introduce EgoFound3R, a unified end-to-end model that estimates world-...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes
-
-Egocentric video has become a primary source of supervision for embodied models, and its value rests on recovering hand motion in world coordinates, which camera motion and hand occlusion make difficult.
-
-arXiv: https://arxiv.org/abs/2610.01210
 
 #egocentric #robotlearning
 ```
