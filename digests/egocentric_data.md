@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-10 19:48 UTC
+**Last updated:** 2026-10-11 00:34 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,41 +38,6 @@ As we move through the world and carry out everyday tasks, we encounter objects 
 arXiv: https://arxiv.org/abs/2610.10538
 Project page: https://ledger-3d.github.io
 Code: https://github.com/LEDGER-3D/LEDGER
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation](https://arxiv.org/abs/2610.12245)
-
-**Authors:** Bowen Yang, Xinliang Xiao, Wenjing Zhang, Li Yang, Wei Zhou
-
-**Published:** 2026-10-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric dataset" in abstract; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12245) | [PDF](https://arxiv.org/pdf/2610.12245) | [Code](https://github.com/WeiZhou96/FRPR-interaction-anticipation)
-
-<details>
-<summary>Abstract</summary>
-
-Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference pose residual (FRPR) model: a geometry predictor built from the person's bounding box and mask is trained and frozen, and a temporal network then learns from body pose an additive correction to its logit, so that every prediction splits exactl...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation
-
-Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact.
-
-arXiv: https://arxiv.org/abs/2610.12245
-Code: https://github.com/WeiZhou96/FRPR-interaction-anticipation
 
 #egocentric #robotlearning
 ```
@@ -118,20 +83,20 @@ Project page: https://ego-lap.github.io/
 
 ---
 
-### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
+### [Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation](https://arxiv.org/abs/2610.12245)
 
-**Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
+**Authors:** Bowen Yang, Xinliang Xiao, Wenjing Zhang, Li Yang, Wei Zhou
 
-**Published:** 2026-10-08 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-08 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric dataset" in abstract; code repo
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.11310) | [PDF](https://arxiv.org/pdf/2610.11310) | [Project Page](https://byulharang.github.io/FloorSAV/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12245) | [PDF](https://arxiv.org/pdf/2610.12245) | [Code](https://github.com/WeiZhou96/FRPR-interaction-anticipation)
 
 <details>
 <summary>Abstract</summary>
 
-While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry directly from raw sensory streams. Existing approaches either require costly fine-tuning or underutilize the model's cross-modal reasoning capacities. In this paper, we propose FloorSAV, a novel framework that explicitly grounds spatial audio-visual context by rendering a dynamic 2D floormap. By integrating 3D point clouds, camera trajectories, spatial audio cues, and semantically gro...
+Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference pose residual (FRPR) model: a geometry predictor built from the person's bounding box and mask is trained and frozen, and a temporal network then learns from body pose an additive correction to its logit, so that every prediction splits exactl...
 
 </details>
 
@@ -139,47 +104,12 @@ While 3D spatial reasoning in dynamic egocentric environments is crucial for emb
 <summary>Share</summary>
 
 ```
-FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs
+Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation
 
-While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry dire...
+Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact.
 
-arXiv: https://arxiv.org/abs/2610.11310
-Project page: https://byulharang.github.io/FloorSAV/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams](https://arxiv.org/abs/2610.12248)
-
-**Authors:** Heeseung Kim
-
-**Published:** 2026-10-08 | **Categories:** cs.CL, cs.CV, cs.SD | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "first-person video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12248) | [PDF](https://arxiv.org/pdf/2610.12248) | [Project Page](https://egocentricvoice.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly asked. While proactive video assistants, spoken dialog systems, and egocentric task understanding have each advanced rapidly, existing systems do not address the joint problem of deciding when to speak and what to say from continuous first-person streams. We introduce EgoVoice, a framework for training and evaluating proactive egocentric spoken assistants. From Hol...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams
-
-Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without b...
-
-arXiv: https://arxiv.org/abs/2610.12248
-Project page: https://egocentricvoice.github.io/
+arXiv: https://arxiv.org/abs/2610.12245
+Code: https://github.com/WeiZhou96/FRPR-interaction-anticipation
 
 #egocentric #robotlearning
 ```
@@ -223,20 +153,20 @@ Project page: https://seungjun-moon.github.io/rlhnd/
 
 ---
 
-### [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442)
+### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
 
-**Authors:** Suhwan Cho, Yonwoo Choi, Soongjin Kim, Jicheol Park, Taegyu Lim
+**Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
 
-**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-08 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.12442) | [PDF](https://arxiv.org/pdf/2610.12442)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.11310) | [PDF](https://arxiv.org/pdf/2610.11310) | [Project Page](https://byulharang.github.io/FloorSAV/)
 
 <details>
 <summary>Abstract</summary>
 
-Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model sh...
+While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry directly from raw sensory streams. Existing approaches either require costly fine-tuning or underutilize the model's cross-modal reasoning capacities. In this paper, we propose FloorSAV, a novel framework that explicitly grounds spatial audio-visual context by rendering a dynamic 2D floormap. By integrating 3D point clouds, camera trajectories, spatial audio cues, and semantically gro...
 
 </details>
 
@@ -244,11 +174,47 @@ Generating an egocentric video from a single exocentric recording is a challengi
 <summary>Share</summary>
 
 ```
-LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
+FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs
 
-Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
+While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry dire...
 
-arXiv: https://arxiv.org/abs/2610.12442
+arXiv: https://arxiv.org/abs/2610.11310
+Project page: https://byulharang.github.io/FloorSAV/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams](https://arxiv.org/abs/2610.12248)
+
+**Authors:** Heeseung Kim
+
+**Published:** 2026-10-08 | **Categories:** cs.CL, cs.CV, cs.SD | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "first-person video" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12248) | [PDF](https://arxiv.org/pdf/2610.12248) | [Project Page](https://egocentricvoice.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly asked. While proactive video assistants, spoken dialog systems, and egocentric task understanding have each advanced rapidly, existing systems do not address the joint problem of deciding when to speak and what to say from continuous first-person streams. We introduce EgoVoice, a framework for training and evaluating proactive egocentric spoken assistants. From Hol...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams
+
+Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without b...
+
+arXiv: https://arxiv.org/abs/2610.12248
+Project page: https://egocentricvoice.github.io/
 
 #egocentric #robotlearning
 ```
@@ -292,54 +258,20 @@ Project page: https://touch-scale.github.io/
 
 ---
 
-### [EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and Cross-View Reasoning](https://arxiv.org/abs/2610.04506)
+### [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442)
 
-**Authors:** Yutong Li, Molin Wang, Xiaotong Li, Yanyan Fang, Daoguo Dong et al. (6 authors)
-
-**Published:** 2026-10-03 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "EgoExo" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.04506) | [PDF](https://arxiv.org/pdf/2610.04506)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language models (VLMs) are increasingly evaluated for egocentric and cross-view video reasoning, yet existing benchmarks largely focus on semantic event understanding, temporal relations, or correspondence between already observed views, leaving their ability to reason directly about future visual states underexplored. We introduce EgoExo-Next, a visual-option benchmark for dynamic visual-state reasoning, where models must identify how an observed action trajectory subsequently appears rather than predict only an action label or textual description. EgoExo-Next contains 2,503 human-cura...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoExo-Next:Benchmarking Vision-Language Models on Visual-Option Next-State and Cross-View Reasoning
-
-Vision-language models (VLMs) are increasingly evaluated for egocentric and cross-view video reasoning, yet existing benchmarks largely focus on semantic event understanding, temporal relations, or correspondence betw...
-
-arXiv: https://arxiv.org/abs/2610.04506
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video](https://arxiv.org/abs/2610.11347)
-
-**Authors:** Zhuo Dong, Jianhua Yang, Haohao Li, Yumeng Zhao, Keji He et al. (7 authors)
+**Authors:** Suhwan Cho, Yonwoo Choi, Soongjin Kim, Jicheol Park, Taegyu Lim
 
 **Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+**Why surfaced:** "egocentric video" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.11347) | [PDF](https://arxiv.org/pdf/2610.11347)
+**Links:** [arXiv](https://arxiv.org/abs/2610.12442) | [PDF](https://arxiv.org/pdf/2610.12442)
 
 <details>
 <summary>Abstract</summary>
 
-Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move. Peak contact force and mechanical work quantify these complementary aspects, but estimating them from egocentric video is challenging because physical interaction cues are local and indirect. Moreover, peak force is associated with brief contact events, whereas mechanical work depends on force-motion coupling throughout the contact duration. To address these challenges, we propose EgoPhys, an RGB-only framework comprising...
+Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model sh...
 
 </details>
 
@@ -347,11 +279,11 @@ Physically grounded manipulation of articulated objects requires understanding b
 <summary>Share</summary>
 
 ```
-EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video
+LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
 
-Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move.
+Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
 
-arXiv: https://arxiv.org/abs/2610.11347
+arXiv: https://arxiv.org/abs/2610.12442
 
 #egocentric #robotlearning
 ```
@@ -454,6 +386,40 @@ RoboCap: A New Platform for Egocentric Robot Learning
 Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today.
 
 arXiv: https://arxiv.org/abs/2610.07217
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video](https://arxiv.org/abs/2610.11347)
+
+**Authors:** Zhuo Dong, Jianhua Yang, Haohao Li, Yumeng Zhao, Keji He et al. (7 authors)
+
+**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.11347) | [PDF](https://arxiv.org/pdf/2610.11347)
+
+<details>
+<summary>Abstract</summary>
+
+Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move. Peak contact force and mechanical work quantify these complementary aspects, but estimating them from egocentric video is challenging because physical interaction cues are local and indirect. Moreover, peak force is associated with brief contact events, whereas mechanical work depends on force-motion coupling throughout the contact duration. To address these challenges, we propose EgoPhys, an RGB-only framework comprising...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video
+
+Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move.
+
+arXiv: https://arxiv.org/abs/2610.11347
 
 #egocentric #robotlearning
 ```
