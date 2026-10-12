@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-10-11 19:55 UTC
+**Last updated:** 2026-10-12 00:49 UTC
 
-**Papers shown:** 76 (relevance ≥ 2, last 7 days)
+**Papers shown:** 66 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -389,41 +389,6 @@ Vision-language-action (VLA) models currently demonstrate strong performance in 
 
 arXiv: https://arxiv.org/abs/2610.05994
 Project page: https://bramgrooten.nl/vla-augm/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization](https://arxiv.org/abs/2610.05230)
-
-**Authors:** Yifan Li, Jiaxu Wang, Dongming Wu, Yicheng Jiang, Ryan Ji et al. (7 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.05230) | [PDF](https://arxiv.org/pdf/2610.05230) | [Project Page](https://clementine24.github.io/Vela/)
-
-<details>
-<summary>Abstract</summary>
-
-Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and prediction horizon to a fixed output budget. This pointwise representation wastes capacity on highly correlated neighboring actions, leaves temporal continuity and smoothness to be learned implicitly, and forces a tradeoff between long-horizon coverage and the local precision required for contact-rich manipulation. To address these limitations, we introduce Vela, a vision-language-action foundation model that represents future robot behavior as continuous trajectories. Vela com...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization
-
-Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and prediction horizon to a fixed output budget.
-
-arXiv: https://arxiv.org/abs/2610.05230
-Project page: https://clementine24.github.io/Vela/
 
 #VLA #robotics
 ```
@@ -879,40 +844,6 @@ Code: https://github.com/ruanruan-andy/PIVOT-Q
 
 ---
 
-### [GeoBridge-VLA: Geometry-Aware Residual Adaptation for Vision-Language-Action Models](https://arxiv.org/abs/2610.05026)
-
-**Authors:** Hyun Song, Kangmin Kim, Loren Jinsoo Um, Minhui Han, Jaehyeok Park et al. (7 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in title; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05026) | [PDF](https://arxiv.org/pdf/2610.05026)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models encode semantic information from vision-language pretraining, but manipulation also requires precise spatial reasoning. We present GeoBridge-VLA, a two-stage method for learning geometric features from a pretrained VLA's frozen visual encoder and using them for action prediction. Stage I trains a feature bridge and geometry decoder with depth supervision. Stage II freezes these modules and trains a gated residual interface together with the action-side projections and action expert. The residual augments the existing visual tokens without adding a second ima...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-GeoBridge-VLA: Geometry-Aware Residual Adaptation for Vision-Language-Action Models
-
-Vision-language-action (VLA) models encode semantic information from vision-language pretraining, but manipulation also requires precise spatial reasoning.
-
-arXiv: https://arxiv.org/abs/2610.05026
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models](https://arxiv.org/abs/2610.12090)
 
 **Authors:** Hongyu Shi, Sen Zhao, Zuyu Zhang, Lifeng Shen, Ding Zou et al. (8 authors)
@@ -973,40 +904,6 @@ PAIR: Bridging Perception and Action in Vision-Language-Action Models
 Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.
 
 arXiv: https://arxiv.org/abs/2610.09016
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models](https://arxiv.org/abs/2610.05492)
-
-**Authors:** Zixuan Liu, Joris Köster, Zizhan Zheng, Siavash Khajavi
-
-**Published:** 2026-10-04 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05492) | [PDF](https://arxiv.org/pdf/2610.05492)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models have shown strong potential as generalist robot policies, but adapting them to unseen tasks often requires costly parameter updates. Recent work such as RICL introduces in-context adaptability by retrieving expert demonstrations based on the current VLA observation and providing them as additional context at test time. The effectiveness of this adaptation therefore depends critically on the retrieval mechanism. In this work, we systematically study how different retrieval methods affect both retrieval quality and task performance within the RICL framework. S...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models
-
-Vision-language-action (VLA) models have shown strong potential as generalist robot policies, but adapting them to unseen tasks often requires costly parameter updates.
-
-arXiv: https://arxiv.org/abs/2610.05492
 
 #VLA #robotics
 ```
@@ -1567,210 +1464,6 @@ arXiv: https://arxiv.org/abs/2610.05878
 
 ---
 
-### [EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2610.05418)
-
-**Authors:** Yuheng Na, Zhide Zhong, Junjie He, Junfeng Li, Haodong Yan et al. (10 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05418) | [PDF](https://arxiv.org/pdf/2610.05418)
-
-<details>
-<summary>Abstract</summary>
-
-Most vision-language-action (VLA) models rely on current observations and lose task-relevant evidence once it leaves view, limiting performance on long-horizon, memory-dependent tasks. Existing efforts incorporate compressed historical features or sparse visual keyframes. However, isolated snapshots can leave the policy uncertain about what changed during past interactions and which action should follow. To overcome this limitation, we propose EvoMem-VLA, which constructs state-evolution memory by explicitly encoding and retaining observed changes between historical states. These change repres...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation
-
-Most vision-language-action (VLA) models rely on current observations and lose task-relevant evidence once it leaves view, limiting performance on long-horizon, memory-dependent tasks.
-
-arXiv: https://arxiv.org/abs/2610.05418
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA](https://arxiv.org/abs/2610.05273)
-
-**Authors:** Tianjun Shi, Haotian Xiong, Ziyu Gong, Qi Lu, Li Li
-
-**Published:** 2026-10-04 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05273) | [PDF](https://arxiv.org/pdf/2610.05273)
-
-<details>
-<summary>Abstract</summary>
-
-Visual token pruning is an effective way to accelerate vision-language models and is especially useful for vision-language-action (VLA) inference, where many visual tokens must be processed before predicting robot actions. Existing pruning methods usually estimate which tokens can be pruned based on attention scores or feature diversity, retaining tokens that are either highly attended or visually different from others. However, most of them use fixed pruning schedules, such as pruning once at a preset layer or pruning at uniformly spaced layers. Such schedules can be risky for VLA models, bec...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA
-
-Visual token pruning is an effective way to accelerate vision-language models and is especially useful for vision-language-action (VLA) inference, where many visual tokens must be processed before predicting robot act...
-
-arXiv: https://arxiv.org/abs/2610.05273
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies](https://arxiv.org/abs/2610.05166)
-
-**Authors:** Tu Nguyen, Matthieu Zimmer, Vu Anh Vu, Ziyi Wang, Jannik Hammel Nielsen et al. (7 authors)
-
-**Published:** 2026-10-04 (updated 2026-10-06) | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05166) | [PDF](https://arxiv.org/pdf/2610.05166)
-
-<details>
-<summary>Abstract</summary>
-
-A safe action is not necessarily a viable one. A frozen vision-language-action (VLA) policy can favor a locally admissible move that leaves no policy-supported route to safe task completion. We call this the feasibility-likelihood gap: likelihood ranks the next move, while feasibility depends on the futures it leaves open. To bring those futures into the decision, we derive the exact next-block marginal of the history-conditioned policy-environment trajectory law restricted to safe task completion. The derivation reveals a candidate-dependent feasible-future mass: its support records whether s...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies
-
-A safe action is not necessarily a viable one.
-
-arXiv: https://arxiv.org/abs/2610.05166
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design](https://arxiv.org/abs/2610.05062)
-
-**Authors:** Seonghun Jung, Sieun Moon, Jiyoung Jeong, Jimin Lee, Jaehyuk Huh
-
-**Published:** 2026-10-04 | **Categories:** cs.AR, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05062) | [PDF](https://arxiv.org/pdf/2610.05062)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models translate multimodal observations into low-level robot actions. During robot operation, each control period sets an inference deadline, and overruns leave the robot acting on stale observations, reducing task success. Meeting this deadline motivates on-device or nearby edge execution, where a single robot requires batch-1 inference outside the design point of LLM serving systems. Although VLA architectures combine familiar vision-language, autoregressive, and diffusion-style components, their runtime behavior in this batch-1 control setting remains uncharact...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design
-
-Vision-language-action (VLA) models translate multimodal observations into low-level robot actions.
-
-arXiv: https://arxiv.org/abs/2610.05062
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration](https://arxiv.org/abs/2610.06999)
-
-**Authors:** Shizuo Tian, Haodong Luo, Yutong Li, Yuebing Song, Yunxin Liu et al. (6 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.06999) | [PDF](https://arxiv.org/pdf/2610.06999)
-
-<details>
-<summary>Abstract</summary>
-
-Rapid adaptation to a new environment requires a robot to acquire useful knowledge about local objects, states, and interactions from limited experience. Systems that combine a reasoning agent with a frozen vision-language-action model (VLA) can adapt through execution feedback and memory, making the choice of experience central to their effectiveness. Repeated practice of a target task may refine a familiar solution while leaving other interactions relevant to changed conditions untested. We introduce ProactiveVLA, which uses proactive environment exploration to acquire reusable knowledge for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration
-
-Rapid adaptation to a new environment requires a robot to acquire useful knowledge about local objects, states, and interactions from limited experience.
-
-arXiv: https://arxiv.org/abs/2610.06999
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling](https://arxiv.org/abs/2610.04933)
-
-**Authors:** Seongheon Park, Heecheol Kim, Shulin Tian, Lilika Makabe, Namiko Saito et al. (8 authors)
-
-**Published:** 2026-10-04 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.04933) | [PDF](https://arxiv.org/pdf/2610.04933)
-
-<details>
-<summary>Abstract</summary>
-
-Scaling robot data and model capacity has improved Vision-Language-Action (VLA) policies, but further progress is constrained by the high cost of robotic data. Verifier-guided test-time scaling offers an efficient alternative by sampling multiple action candidates and selecting the one most likely to lead to task success at inference time. Existing classification-based verifiers learn from trajectory-level outcomes but treat all visited states equally, even though their value for candidate discrimination can vary across a trajectory. At many states, plausible actions are similar and provide li...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling
-
-Scaling robot data and model capacity has improved Vision-Language-Action (VLA) policies, but further progress is constrained by the high cost of robotic data.
-
-arXiv: https://arxiv.org/abs/2610.04933
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [DIVA: Dual-Space Intent-Aware Visual Attenuation for Vision-Language-Action Policies](https://arxiv.org/abs/2610.09144)
 
 **Authors:** Kaixi Feng, Guoheng Sun, Ziyao Wang, Yexiao He, Zheyu Shen et al. (6 authors)
@@ -1865,40 +1558,6 @@ Wiring Matters: Injection Topology and Initialization of Affordance Heads in Vis
 Dense affordance supervision is an appealing auxiliary signal for vision-language-action (VLA) policies, yet naively co-training an affordance head can severely damage instruction following.
 
 arXiv: https://arxiv.org/abs/2610.06318
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA](https://arxiv.org/abs/2610.05025)
-
-**Authors:** Hyemin Yang, Wooseong Jeong, Giwon Lee, Kuk-Jin Yoon
-
-**Published:** 2026-10-04 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.05025) | [PDF](https://arxiv.org/pdf/2610.05025)
-
-<details>
-<summary>Abstract</summary>
-
-Dual-system Vision-Language-Action (VLA) models improve real-time robotic control by pairing a slow, reasoning-capable generalist with a fast specialist action expert. However, existing methods invoke the generalist at a fixed frequency, ignoring the fact that decision-making complexity varies throughout a rollout. This static strategy wastes computation in easy phases and can delay renewed reasoning when the scene changes unexpectedly. We propose TUD (Triggering generalist reasoning via predictive Uncertainty for Dual-system VLA), an adaptive inference framework that selectively skips unneces...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA
-
-Dual-system Vision-Language-Action (VLA) models improve real-time robotic control by pairing a slow, reasoning-capable generalist with a fast specialist action expert.
-
-arXiv: https://arxiv.org/abs/2610.05025
 
 #VLA #robotics
 ```
