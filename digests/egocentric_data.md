@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-12 00:49 UTC
+**Last updated:** 2026-10-12 22:43 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -75,6 +75,76 @@ Egocentric human data offer a path to scaling robot learning beyond costly robot
 
 arXiv: https://arxiv.org/abs/2610.08726
 Project page: https://ego-lap.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos](https://arxiv.org/abs/2610.13732)
+
+**Authors:** Zhiyuan Xiang, Peidong Liu, Mingyang Li, Jiawei Li, Wenhow Li et al. (7 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.13732) | [PDF](https://arxiv.org/pdf/2610.13732)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data. Large-scale egocentric human videos offer a rich alternative, but they lack robot action labels, and existing action annotation methods are often noisy under real-world visual complexity and diverse manipulation dynamics. We introduce LAPT-Scale, a scalable latent action pre-training paradigm with two components: LAPT-Scale-LAM learns continuous latent actions by explaining frame-to-frame visual transitions in human videos and uses them as human-derived supervision, while LAPT-Scale-Policy...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos
+
+Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data.
+
+arXiv: https://arxiv.org/abs/2610.13732
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations](https://arxiv.org/abs/2610.12999)
+
+**Authors:** Hiromu Kurihara, Kazutoshi Tanaka, Masashi Hatano, Tadashi Kozuno, Hideo Saito et al. (6 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.12999) | [PDF](https://arxiv.org/pdf/2610.12999)
+
+<details>
+<summary>Abstract</summary>
+
+Learning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations. In contrast to resource-intensive and labor-intensive teleoperation, egocentric demonstrations are easy to collect, enabling scalable data collection. Manipulated objects are often partially occluded in everyday environments, yet prior egocentric demonstration-based methods that require no robots or specialized teaching devices do not explicitly address occlusions. To fill this gap, we propose EgoReveal, a framework that learns viewpoint-repositioning together with manipulation ac...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations
+
+Learning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations.
+
+arXiv: https://arxiv.org/abs/2610.12999
 
 #egocentric #robotlearning
 ```
@@ -258,6 +328,40 @@ Project page: https://touch-scale.github.io/
 
 ---
 
+### [What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition](https://arxiv.org/abs/2610.12926)
+
+**Authors:** Kansuke Habano
+
+**Published:** 2026-10-09 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.12926) | [PDF](https://arxiv.org/pdf/2610.12926)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models. What these embeddings represent when the camera sits on the head, and how they should be combined with inertial sensing, has received little attention. Across VideoMAEv2, CLIP, DINOv2 and the egocentric VC-1, the leading principal directions of the embedding are dominated by where the camera looks. Measured head orientation explains them on Ego-Exo4D for egocentric (R^2 0.49-0.70) but not exocentric cameras, and the scene layout explains them on WEAR. The p...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition
+
+Egocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models.
+
+arXiv: https://arxiv.org/abs/2610.12926
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442)
 
 **Authors:** Suhwan Cho, Yonwoo Choi, Soongjin Kim, Jicheol Park, Taegyu Lim
@@ -296,7 +400,7 @@ arXiv: https://arxiv.org/abs/2610.12442
 
 **Authors:** Souptik Sen, Zahra Ahmadi
 
-**Published:** 2026-10-06 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-06 (updated 2026-10-09) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in title
 

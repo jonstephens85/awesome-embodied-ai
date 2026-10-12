@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-12 00:49 UTC
+**Last updated:** 2026-10-12 22:43 UTC
 
-**Papers shown:** 54 (relevance ≥ 2, last 7 days)
+**Papers shown:** 63 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -74,6 +74,41 @@ Generative world models provide rich predictions of how manipulation scenes may 
 arXiv: https://arxiv.org/abs/2610.09309
 Project page: https://claire0730.github.io/executable-goals/
 Code: https://github.com/Claire0730/executable-goals
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding](https://arxiv.org/abs/2610.13164)
+
+**Authors:** Feng Jiang, Shu Chen, Yuanfei Wang, Yuan Li, Zhenhao Shen et al. (10 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.13164) | [PDF](https://arxiv.org/pdf/2610.13164) | [Project Page](https://fffstrong.github.io/Grounded-Dreamer/)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale. Existing methods either depend on human teleoperation, rely on simulation with limited visual realism, or use human videos that lack embodiment-specific annotations. In this paper, we introduce Grounded-Dreamer, a framework for synthesizing physically grounded robot manipulation data with video world models while avoiding human teleoperation demonstrations. Grounded-Dreamer combines the visual realism of generative vide...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding
+
+Scaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale.
+
+arXiv: https://arxiv.org/abs/2610.13164
+Project page: https://fffstrong.github.io/Grounded-Dreamer/
 
 #worldmodels #robotics
 ```
@@ -189,6 +224,41 @@ Project page: https://alaya-lab.github.io/SPW-Nav
 
 ---
 
+### [ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving](https://arxiv.org/abs/2610.13409)
+
+**Authors:** Yuhao Wei, Yong Chen, Chen Yang, Yingchen Wang, Delin Ouyang et al. (10 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.13409) | [PDF](https://arxiv.org/pdf/2610.13409) | [Code](https://github.com/wyh-autonomy/maneuverflow)
+
+<details>
+<summary>Abstract</summary>
+
+End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collapse to one mode, while anchor-based and generative planners share a scaling bottleneck: small candidate sets limit maneuver coverage or discovery of high-quality trajectories, whereas large sets increase generation and scoring costs. We propose ManeuverFlow to generate trajectories for distinct intentions in one step and evaluate and refine them using current and future evidence. The model selects r...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving
+
+End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks.
+
+arXiv: https://arxiv.org/abs/2610.13409
+Code: https://github.com/wyh-autonomy/maneuverflow
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Cross-Embodiment Robot Foundation World Models with Latent Actions](https://arxiv.org/abs/2610.10846)
 
 **Authors:** Huang Huang, Sriram Yenamandra, Arjun Majumdar, Elie Aljalbout, Tushar Nagarajan et al. (12 authors)
@@ -259,6 +329,41 @@ Code: https://github.com/jiuyixu25/CureWM
 
 ---
 
+### [SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models](https://arxiv.org/abs/2610.13781)
+
+**Authors:** Changhui Jing, Haochen Tian, Hongchen Li, Tianyu Li, Caojun Wang et al. (11 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world simulator" in abstract; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.13781) | [PDF](https://arxiv.org/pdf/2610.13781) | [Project Page](https://opendrivelab.com/SimVTA/)
+
+<details>
+<summary>Abstract</summary>
+
+Driving world action models (WAMs) learn from paired trajectories and future observations. Post-training with reinforcement learning allows the policy to explore alternative trajectories and improve planning using driving rewards. However, driving logs contain future videos only for the recorded trajectories, leaving these alternatives without corresponding visual supervision. Thus, we introduce SimVTA, a simulation-grounded post-training framework that combines trajectory optimization with video supervision. First, we sample candidate trajectories for each observation and use a real-world sim...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models
+
+Driving world action models (WAMs) learn from paired trajectories and future observations.
+
+arXiv: https://arxiv.org/abs/2610.13781
+Project page: https://opendrivelab.com/SimVTA/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Sparse Planning in Visual World Models via Cost Gradients](https://arxiv.org/abs/2610.10274)
 
 **Authors:** Yingchen Xu, Edward Grefenstette
@@ -321,6 +426,41 @@ Crowd simulation plays a central role in robot navigation, autonomous driving, a
 
 arXiv: https://arxiv.org/abs/2610.09438
 Project page: https://jungyu0413.github.io/Ctrl-CWM
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [LeWAM: End-to-End World and Action Modeling with JEPAs](https://arxiv.org/abs/2610.12818)
+
+**Authors:** Minghao Fu, Tavis Siebert, Eryk Halicki, Randall Balestriero
+
+**Published:** 2026-10-08 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12818) | [PDF](https://arxiv.org/pdf/2610.12818) | [Project Page](https://le-wam.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, and (2) an isotropic Gaussian constraint on the latent state, enabling a single model to support direct policy execution and efficient planning by evaluating sampled actions with its learned latent dyna...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LeWAM: End-to-End World and Action Modeling with JEPAs
+
+Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction.
+
+arXiv: https://arxiv.org/abs/2610.12818
+Project page: https://le-wam.github.io/
 
 #worldmodels #robotics
 ```
@@ -437,7 +577,7 @@ arXiv: https://arxiv.org/abs/2610.06805
 
 **Authors:** Ziying Song, Yuchen Liu, Zhuoran Xu, Ziyang Liu, Jian Jin et al. (9 authors)
 
-**Published:** 2026-10-05 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-05 (updated 2026-10-08) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
 
@@ -565,6 +705,110 @@ Graphical User Interface (GUI) agents have emerged as a promising paradigm for a
 
 arXiv: https://arxiv.org/abs/2610.05861
 Code: https://github.com/swaydy-n/Infinite-Dreamer
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics](https://arxiv.org/abs/2610.13522)
+
+**Authors:** Peiyan Tu, Cong Wang, Hanxin Zhu, Xin Jin, Zhibo Chen
+
+**Published:** 2026-10-09 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; 2 distinct keyword hits; robotics / embodied focus
+
+**Also relevant to:** Egocentric Data
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.13522) | [PDF](https://arxiv.org/pdf/2610.13522)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned world models offer a promising foundation for generalist robotic intelligence by predicting the consequences of actions. However, existing robotic datasets provide limited coverage of the diverse interaction dynamics required for generalizable world modeling. Large-scale egocentric human videos offer complementary interaction experience, yet the embodiment gap between human hands and robotic manipulators hinders effective cross-embodiment learning. Meanwhile, the predominance of successful demonstrations leaves failure dynamics substantially underrepresented, limiting the ab...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics
+
+Action-conditioned world models offer a promising foundation for generalist robotic intelligence by predicting the consequences of actions.
+
+arXiv: https://arxiv.org/abs/2610.13522
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Dream to Remember: Continual Steering of Generalist Robot Policies with World Models](https://arxiv.org/abs/2610.13816)
+
+**Authors:** Bahey Tharwat, Iman Nematollahi, Marvin Alles, Xingyuan Zhang, Akshay L Chandra et al. (6 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.13816) | [PDF](https://arxiv.org/pdf/2610.13816)
+
+<details>
+<summary>Abstract</summary>
+
+Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations. Reinforcement learning can improve and extend them, either by fine-tuning the policy weights or by training a small module to steer the input noise of a frozen generative policy. When tasks arrive sequentially, both approaches suffer from catastrophic forgetting. Fine-tuning on a task degrades prior tasks, and steering only shifts forgetting to the shared steering module. We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Dream to Remember: Continual Steering of Generalist Robot Policies with World Models
+
+Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations.
+
+arXiv: https://arxiv.org/abs/2610.13816
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Sampling-based Kinodynamic Planning with World Models](https://arxiv.org/abs/2610.12910)
+
+**Authors:** Yitian Gao, Hanlan Yang, Zachary Kingston
+
+**Published:** 2026-10-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.12910) | [PDF](https://arxiv.org/pdf/2610.12910)
+
+<details>
+<summary>Abstract</summary>
+
+Visual world models predict the consequences of actions from images, but planning with them is typically done by optimizers such as CEM and MPPI. However, these optimizers stall on long-horizon tasks where progress requires motion the objective does not reward, such as moving around a block before pushing it. This paper revisits kinodynamic sampling-based motion planning for world models, using the learned model as the propagator of a tree search in latent space. Our key insight is that the sampling strategies devised for high-dimensional search in configuration space apply directly to the lat...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Sampling-based Kinodynamic Planning with World Models
+
+Visual world models predict the consequences of actions from images, but planning with them is typically done by optimizers such as CEM and MPPI.
+
+arXiv: https://arxiv.org/abs/2610.12910
 
 #worldmodels #robotics
 ```
@@ -1190,6 +1434,40 @@ arXiv: https://arxiv.org/abs/2610.08640
 
 ---
 
+### [Golden Anchor for Video Generation](https://arxiv.org/abs/2610.13217)
+
+**Authors:** Jinyuan Xu, Shitong Shao, Lichen Bai, Zikai Zhou, Guoxi Huang et al. (7 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.13217) | [PDF](https://arxiv.org/pdf/2610.13217)
+
+<details>
+<summary>Abstract</summary>
+
+Video generation supports digital content creation, with applications in virtual avatars, AI-driven filmmaking, interactive game engines, and world models. State-of-the-art systems achieve controllability primarily through image-to-video (I2V) generation, in which an injected anchor image determines the identity, composition, and style of the resulting video. In modern pipelines, this anchor is synthesized by a text-to-image (T2I) generator. This raises a largely overlooked question: Are images obtained directly from the T2I model truly suitable for current video models? Our analysis shows tha...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Golden Anchor for Video Generation
+
+Video generation supports digital content creation, with applications in virtual avatars, AI-driven filmmaking, interactive game engines, and world models.
+
+arXiv: https://arxiv.org/abs/2610.13217
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [WorldGuide: Goal-Directed Video World Model for Procedural Task Execution](https://arxiv.org/abs/2610.12459)
 
 **Authors:** Ankan Deria, Komal Kumar, Hisham Cholakkal, Fahad Shahbaz Khan, Salman Khan
@@ -1624,6 +1902,40 @@ Kuration SDK: Addressing the Virtual2Real Gap via Data Curation
 Benchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away from visual similarity-based metrics to action-semantic and physically-grounded metrics.
 
 arXiv: https://arxiv.org/abs/2610.09305
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing](https://arxiv.org/abs/2610.12881)
+
+**Authors:** Zheng Ren, Yanning Wang, Ziheng Huang, Fei Huang, Shiqi Wang et al. (7 authors)
+
+**Published:** 2026-10-09 | **Categories:** cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "world model" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.12881) | [PDF](https://arxiv.org/pdf/2610.12881)
+
+<details>
+<summary>Abstract</summary>
+
+Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning rely predominantly on static question-answering (QA) over small-scale or synthetic scenes, rarely probing whether models can modify spatial configurations while satisfying explicit geometric constraints. We introduce GeoSpatialBench, a benchmark designed to evaluate an escalating progression of spatial cognition, ranging from spatial relation unde...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing
+
+Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models.
+
+arXiv: https://arxiv.org/abs/2610.12881
 
 #worldmodels #robotics
 ```

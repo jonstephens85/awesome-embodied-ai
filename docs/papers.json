@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-12 00:49 UTC",
+  "generated": "2026-10-12 22:43 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
       "title": "Egocentric Data",
-      "count": 12
+      "count": 16
     },
     "vla": {
       "title": "Vision-Language-Action Models",
-      "count": 68
+      "count": 86
     },
     "world_models": {
       "title": "World Models",
-      "count": 58
+      "count": 67
     }
   },
   "papers": [
@@ -116,6 +116,108 @@
       "first_seen": "2026-10-08",
       "is_new": false,
       "share_text": "Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation\n\nGenerative world models provide rich predictions of how manipulation scenes may evolve toward task objectives, yet those futures do not directly expose the compact task variables required by control.\n\narXiv: https://arxiv.org/abs/2610.09309\nProject page: https://claire0730.github.io/executable-goals/\nCode: https://github.com/Claire0730/executable-goals\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.13212",
+      "title": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models",
+      "authors": [
+        "Min Lin",
+        "Bokai Zhou",
+        "Jianqi Lin",
+        "Kaiyuan Yang",
+        "Yicheng Chang",
+        "Junjie Yu",
+        "Xiaofan Liu",
+        "Jianhua Han",
+        "Rui Li",
+        "Shen Zhao",
+        "Xiaodan Liang"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 7.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Actions specify what a robot should execute, but do not describe what those commands will achieve. Vision-language-action (VLA) policies nevertheless learn primarily by predicting action chunks from images, language, and state. We introduce Action--Future Coupled Effect Learning (AFCE), which makes a future-grounded physical Effect the policy's primary prediction target. An offline tokenizer constructs temporally ordered Effect tokens from demonstrated actions, realized robot responses, and sparse visual transitions. Reconstruction objectives encourage the representation to retain executable detail and observed physical change. A flow-matching VLA predicts Effects from current images, instruction, and robot state, while a state-conditioned decoder converts them into action chunks. Embodiment-specific interfaces allow single- and dual-arm tasks to share the Effect model. On DexJoCo, AFCE achieves $50.97\\%$ overall success, improving over $π_{0.5}$ and UVT by 11.82 and 15.21 percentage points, respectively. It leads on all five bimanual tasks, highlighting the value of Effect supervision for coordinated dexterous manipulation. The project page is available at https://afceproject.github.io/AFCE-Web/.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13212",
+      "pdf_url": "https://arxiv.org/pdf/2610.13212",
+      "project_page": "https://afceproject.github.io/AFCE-Web/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models\n\nActions specify what a robot should execute, but do not describe what those commands will achieve.\n\narXiv: https://arxiv.org/abs/2610.13212\nProject page: https://afceproject.github.io/AFCE-Web/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13164",
+      "title": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
+      "authors": [
+        "Feng Jiang",
+        "Shu Chen",
+        "Yuanfei Wang",
+        "Yuan Li",
+        "Zhenhao Shen",
+        "Jiaqi Liang",
+        "Yang Chen",
+        "Lei Wei",
+        "Chen Xie",
+        "Ruihai Wu"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 7.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "project page",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Scaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale. Existing methods either depend on human teleoperation, rely on simulation with limited visual realism, or use human videos that lack embodiment-specific annotations. In this paper, we introduce Grounded-Dreamer, a framework for synthesizing physically grounded robot manipulation data with video world models while avoiding human teleoperation demonstrations. Grounded-Dreamer combines the visual realism of generative video models with simulator physics engines. Starting from a small set of real images depicting robot task initial states, our method automatically reconstructs task-relevant objects and camera geometry, aligns them in simulation, and collects physically valid trajectories. These trajectories are used to post-train both a video world model and an inverse dynamics model, enabling the generation of visually realistic robot manipulation videos and corresponding robot actions from real images. To filter physically implausible rollouts, Grounded-Dreamer replays generated trajectories in the reconstructed simulation and retains only those that successfully complete the tasks. The real-world robot policies are trained solely on the grounded synthetic trajectories without any human demonstrations. Empirical results in real-world tasks demonstrate that Grounded-Dreamer can synthesize physically grounded data and substantially facilitate policy learning without requiring human teleoperation effort.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13164",
+      "pdf_url": "https://arxiv.org/pdf/2610.13164",
+      "project_page": "https://fffstrong.github.io/Grounded-Dreamer/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding\n\nScaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale.\n\narXiv: https://arxiv.org/abs/2610.13164\nProject page: https://fffstrong.github.io/Grounded-Dreamer/\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.12696",
+      "title": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models",
+      "authors": [
+        "Justin Tien-Smith",
+        "Matthew Pidden",
+        "Rolandos Alexandros Potamias"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 7.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned control. However, most VLA evaluations emphasize aggregate manipulation success under changes in objects, instructions, or environments, leaving unclear how reliably these policies ground spatial descriptions in the physical scenes where they act. We therefore ask a sharper question: how reliably can current VLAs translate spatial descriptions into appropriate real-robot behavior? To investigate this, we introduce Spa-Bench, a real-robot benchmark that evaluates spatial grounding across six tabletop tasks covering Object State, Relative Size, Referential Description, Relational Placement, Ordinal Position, and Counting. Our primary evaluation compares in-distribution (ID) and out-of-distribution (OOD) spatial configurations while retaining training support for the relevant objects, concepts, and actions, reducing object and motor unfamiliarity as alternative explanations for failure. Four diagnostic conditions further probe physical execution, sensitivity to wording, object-task associations, and recognition that no action is required. We release 4,092 episodes collected on the SO-101 robot arm: 1,200 human-teleoperated demonstrations and 2,892 real-robot evaluation rollouts from five state-of-the-art VLA policies. Across the three fully evaluated policies, success falls from 67.5-73.3% on ID spatial configurations to 40.7-52.0% on OOD spatial configurations, while matched direct instructions improve success by 28.3-40.0 percentage points. These results show that the evaluated VLAs can often execute the required manipulations but lack robust spatial grounding. Project materials, including videos, code, and benchmark data, are available at https://justintiensmith.github.io/Spa-Bench/.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12696",
+      "pdf_url": "https://arxiv.org/pdf/2610.12696",
+      "project_page": "https://justintiensmith.github.io/Spa-Bench/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models\n\nVision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned control.\n\narXiv: https://arxiv.org/abs/2610.12696\nProject page: https://justintiensmith.github.io/Spa-Bench/\n\n#VLA #robotics"
     },
     {
       "id": "2610.10526",
@@ -372,6 +474,104 @@
       "first_seen": "2026-10-08",
       "is_new": false,
       "share_text": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation\n\nLanguage-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training.\n\narXiv: https://arxiv.org/abs/2610.08941\nProject page: https://alaya-lab.github.io/SPW-Nav\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.13945",
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "authors": [
+        "Xiaomeng Ye",
+        "Krishna Jaganathan",
+        "Gyubeum Lim",
+        "Gunjan Chhablani",
+        "Muhammad Zubair Irshad",
+        "Zsolt Kira"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 6.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. Unlike prior real-to-sim work that reconstructs individual tabletops, Splat2Act operates on building-scale indoor environments: it builds a photorealistic digital twin with 3D Gaussian Splatting and collision geometry, automatically discovers tabletop and non-tabletop receptacles, constructs feasible pickup tasks, and generates successful demonstrations with a privileged simulation oracle, with only scene and object capture required from a human. Applied to 101 scanned campus environments with a median navigable area of 104.87 m$^2$ and 7 receptacles, the pipeline yields 852 receptacles and over 68,000 pickup demonstrations. We fine-tune $π_{0.5}$ in two stages: Stage 1 adapts to hundreds of public object assets, drawn either from the deployment scene alone or from all 101 scenes; Stage 2 personalizes to the user's own objects on the deployment scene's receptacles. Our strongest personalized policy reaches 62.5% aggregate pickup success in the target scene. Deployed on a real Stretch 3, the same policy achieves 63.9% success on a 12-task subset, closely tracking its 66.7% simulated success on those tasks. These results suggest that automated real-to-sim-to-real training can personalize VLA manipulation policies using only simulation-oracle data.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13945",
+      "pdf_url": "https://arxiv.org/pdf/2610.13945",
+      "project_page": "https://splat2act.github.io",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation\n\nA user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables.\n\narXiv: https://arxiv.org/abs/2610.13945\nProject page: https://splat2act.github.io\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13628",
+      "title": "JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation",
+      "authors": [
+        "Faith Ogunwoye",
+        "Didar Seyidov",
+        "Konstantin Gubernatorov",
+        "Dzmitry Tsetserukou"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 6.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Vision-language-action (VLA) policies issue sparse targets whose arrival at the robot controller is delayed and irregular, so a reasonable predicted action can still produce abrupt motion near people. Remedies are evaluated on different streams, delays and metrics. JitterVLA replays identical commands and arrival traces through alternative controllers, isolating the controller's effect. We apply it to synthetic reaches, hand trajectories from 20 people, three open VLA pipelines (838 episodes) and a physical UR3. Interpolation lowered modeled p99 jerk for every source, by 83% (615 to 106 m/s^3) on human motion with 200 ms delay, at a 2.0 cm tracking cost, and the effect replicated on 598 new episodes; jerk-limited generation lowered jerk further at a larger cost. Entropy-discontinuity associations had opposite, replicated signs in two pipelines, and entropy gating helped in one but not the other. On the UR3, interpolation lowered accelerometer-derived jerk by 3.0-14.0% in all six exploratory pairs, while a position-derived metric did not resolve the contrast. JitterVLA supports screening before human-centred studies; code and data will be released.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13628",
+      "pdf_url": "https://arxiv.org/pdf/2610.13628",
+      "project_page": "https://faithogunwoye.github.io/JitterVLA/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation\n\nVision-language-action (VLA) policies issue sparse targets whose arrival at the robot controller is delayed and irregular, so a reasonable predicted action can still produce abrupt motion near people.\n\narXiv: https://arxiv.org/abs/2610.13628\nProject page: https://faithogunwoye.github.io/JitterVLA/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13409",
+      "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+      "authors": [
+        "Yuhao Wei",
+        "Yong Chen",
+        "Chen Yang",
+        "Yingchen Wang",
+        "Delin Ouyang",
+        "Lingfeng Qi",
+        "Qi Lan",
+        "Zhanhua Zhang",
+        "Jie Li",
+        "Guofa Li"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 6.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "code repo",
+        "robotics / embodied focus"
+      ],
+      "abstract": "End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collapse to one mode, while anchor-based and generative planners share a scaling bottleneck: small candidate sets limit maneuver coverage or discovery of high-quality trajectories, whereas large sets increase generation and scoring costs. We propose ManeuverFlow to generate trajectories for distinct intentions in one step and evaluate and refine them using current and future evidence. The model selects relevant maneuver modes, draws corresponding noise from the Gaussian mixture prior, and maps it to intention-specific trajectories through a maneuver-routed mixture-of-experts MeanFlow field. Current features and future features predicted by the world model are aggregated along each candidate path into trajectory-specific evidence for PDM-factor prediction. Using the same evidence, the refiner predicts local Frenet residuals for selected candidates; refined and retained candidates are then jointly re-scored for selection. With a lightweight TransFuser-style ResNet-34 backbone, ManeuverFlow achieves 90.6 PDMS and 90.1 EPDMS on NAVSIM v1/v2 navtest, respectively. On WorldEngine's recent 3DGS closed-loop benchmark, it attains the highest listed PDMS$^\\ast$ scores of 75.19 and 74.58 under logged and IDM-controlled traffic, respectively. Code: https://github.com/wyh-autonomy/maneuverflow.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13409",
+      "pdf_url": "https://arxiv.org/pdf/2610.13409",
+      "project_page": null,
+      "github_url": "https://github.com/wyh-autonomy/maneuverflow",
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving\n\nEnd-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks.\n\narXiv: https://arxiv.org/abs/2610.13409\nCode: https://github.com/wyh-autonomy/maneuverflow\n\n#worldmodels #robotics"
     },
     {
       "id": "2610.12451",
@@ -636,6 +836,43 @@
       "share_text": "How (and How Not) to Use Data Augmentation in VLA Post-Training\n\nVision-language-action (VLA) models currently demonstrate strong performance in a wide range of real-world robotics tasks.\n\narXiv: https://arxiv.org/abs/2610.05994\nProject page: https://bramgrooten.nl/vla-augm/\n\n#VLA #robotics"
     },
     {
+      "id": "2610.13781",
+      "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+      "authors": [
+        "Changhui Jing",
+        "Haochen Tian",
+        "Hongchen Li",
+        "Tianyu Li",
+        "Caojun Wang",
+        "Zihao Zhang",
+        "Yanhao Liu",
+        "Chengen Xie",
+        "Bailin Li",
+        "Hao Zhao",
+        "Zhenjie Yang"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 6.0,
+      "match_reasons": [
+        "\"world simulator\" in abstract",
+        "project page",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Driving world action models (WAMs) learn from paired trajectories and future observations. Post-training with reinforcement learning allows the policy to explore alternative trajectories and improve planning using driving rewards. However, driving logs contain future videos only for the recorded trajectories, leaving these alternatives without corresponding visual supervision. Thus, we introduce SimVTA, a simulation-grounded post-training framework that combines trajectory optimization with video supervision. First, we sample candidate trajectories for each observation and use a real-world simulator (e.g., World Engine) to render future videos for high-reward candidates in real-world scenes reconstructed with 3D Gaussian Splatting (3DGS). This provides trajectory-matched supervision independent of the model's own predictions. Under a limited rendering budget, we prioritize video supervision for higher-error futures among these rendered candidates. Finally, we optimize trajectory planning with Group Relative Policy Optimization (GRPO) and use a flow-matching loss on the matched videos to update shared representations. At inference time, the model predicts trajectories directly, without simulator calls. On NAVSIM v1, applying SimVTA to a WAM initialization improves PDMS from 86.2 to 91.3 (+5.1). It achieves 88.2 EPDMS on NAVSIM v2 and an average HD-Score of 38.8 in closed-loop evaluation on HUGSIM. Ablations show that updating shared representations with video supervision improves planning, while prioritizing higher-error futures among high-reward trajectories further improves performance.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13781",
+      "pdf_url": "https://arxiv.org/pdf/2610.13781",
+      "project_page": "https://opendrivelab.com/SimVTA/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models\n\nDriving world action models (WAMs) learn from paired trajectories and future observations.\n\narXiv: https://arxiv.org/abs/2610.13781\nProject page: https://opendrivelab.com/SimVTA/\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2610.10390",
       "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
       "authors": [
@@ -724,6 +961,202 @@
       "first_seen": "2026-10-08",
       "is_new": false,
       "share_text": "Controllable Crowd Generation through World-Model Planning\n\nCrowd simulation plays a central role in robot navigation, autonomous driving, and urban planning.\n\narXiv: https://arxiv.org/abs/2610.09438\nProject page: https://jungyu0413.github.io/Ctrl-CWM\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.13578",
+      "title": "RARA: Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignment for Robotic Manipulation",
+      "authors": [
+        "Xuhui Kang",
+        "Sung-Wook Lee",
+        "Yan Zhuang",
+        "Tianle Zhong",
+        "Yen-Ling Kuo"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Pre-trained robot policies, such as Vision-Language-Action (VLA) models, provide a strong foundation for generalist robotic manipulation, but adapting them to new tasks with only a few demonstrations remains challenging. Directly fine-tuning a pre-trained policy often achieves strong in-distribution performance, yet it can distort the representations learned during pre-training and weaken the model's generalization ability under out-of-distribution shifts. We propose Retrieval-Anchored Representation Alignment (RARA), a two-stage adaptation method, to address this issue. First, RARA retrieves representation features from pretraining with similar task intent and motion, and aligns the policy's representations of the target demonstrations with the pre-trained representations of the retrieved demonstrations. Second, RARA fine-tunes the policy on the target demonstrations while limiting how much its representations of the retrieved demonstrations change during fine-tuning. By reducing the representation mismatch before action learning and preserving pre-trained knowledge during adaptation, RARA limits unnecessary representation drift during fine-tuning. Experiments with Diffusion Policy and GR00T on 13 tasks in RoboTwin, RoboCasa, and on a real robot show that RARA improves the average success of fine-tuning by 9.5 points in-distribution and 13.6 points out-of-distribution, and outperforms all compared baselines. Project page: https://shua-kang.github.io/RARA_robot/",
+      "arxiv_url": "https://arxiv.org/abs/2610.13578",
+      "pdf_url": "https://arxiv.org/pdf/2610.13578",
+      "project_page": "https://shua-kang.github.io/RARA_robot/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "RARA: Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignment for Robotic Manipulation\n\nPre-trained robot policies, such as Vision-Language-Action (VLA) models, provide a strong foundation for generalist robotic manipulation, but adapting them to new tasks with only a few demonstrations remains challenging.\n\narXiv: https://arxiv.org/abs/2610.13578\nProject page: https://shua-kang.github.io/RARA_robot/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13117",
+      "title": "Forward Dynamics Models",
+      "authors": [
+        "Zipei Ma",
+        "Junzhe Jiang",
+        "Jiahui Zhang",
+        "Juntong Zhang",
+        "Chun Gu",
+        "Bozhou Zhang",
+        "Jiankang Deng",
+        "Xiatian Zhu",
+        "Li Zhang"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Vision-language-action (VLA) models and world action models (WAMs) have advanced robotic policy learning by building on pretrained vision-language models (VLMs) and video generative models (VGMs), respectively. Yet VLAs learn without explicit supervision from future world states, while WAMs that condition actions on predicted futures incur extra inference cost and let visual prediction errors propagate into actions. We present Forward Dynamics Models (FDM), a family of robotic action models that couples action and future world-state prediction through an action-to-future paradigm. Future prediction is conditioned on action features, never the reverse: end-to-end training lets ground-truth future states supervise the policy through these features, while prediction errors cannot propagate into actions. At inference, FDM skips future generation entirely, avoiding its computational cost. The paradigm is backbone-agnostic, and we instantiate it with both VLM and VGM backbones. Experiments in simulation and on real robots demonstrate the effectiveness of FDM across both backbone families, achieving a state-of-the-art 99.4% average success rate on LIBERO and absolute gains of up to 13% over VLA and WAM methods on real-world tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13117",
+      "pdf_url": "https://arxiv.org/pdf/2610.13117",
+      "project_page": "https://logosroboticsgroup.github.io/FDM/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Forward Dynamics Models\n\nVision-language-action (VLA) models and world action models (WAMs) have advanced robotic policy learning by building on pretrained vision-language models (VLMs) and video generative models (VGMs), respectively.\n\narXiv: https://arxiv.org/abs/2610.13117\nProject page: https://logosroboticsgroup.github.io/FDM/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12936",
+      "title": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision",
+      "authors": [
+        "Zile Zhong",
+        "Yuxin Du",
+        "Tao Lin",
+        "Haoxiao Wang",
+        "Wei Dai",
+        "Binhua Zuo",
+        "Bo Zhao"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits"
+      ],
+      "abstract": "Vision-language-action (VLA) models provide a unified framework for visual understanding, language grounding, and robot control, yet anticipating how the scene will evolve beyond the current observation can provide additional information for control. Action supervision alone does not explicitly encourage such anticipation, while future-image prediction entangles task-relevant motion with largely static appearance. To address these limitations, we introduce Evo-World, a lightweight VLA model that augments policy learning with future motion prediction through optical-flow supervision, thereby providing a task-relevant predictive signal focused on motion rather than appearance. We further design the training procedure to preserve these predictive representations during policy learning, regulating representation diversity while decoupling representation learning from action optimization. Across simulation benchmarks, Evo-World demonstrates strong performance, achieving a tier-averaged success rate of 91.1% on Meta-World MT50 , with a 13.0% relative improvement over the non-predictive baseline. On real-world AgileX robots, Evo-World outperforms the evaluated baselines across single-arm and bimanual manipulation tasks while using only 0.87B parameters and delivering lower GPU memory usage and higher inference efficiency. These results demonstrate that future motion prediction through optical-flow supervision provides an effective and lightweight approach to enhancing the predictive capabilities of VLA models.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12936",
+      "pdf_url": "https://arxiv.org/pdf/2610.12936",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision\n\nVision-language-action (VLA) models provide a unified framework for visual understanding, language grounding, and robot control, yet anticipating how the scene will evolve beyond the current observation can provide ad...\n\narXiv: https://arxiv.org/abs/2610.12936\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12861",
+      "title": "Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies",
+      "authors": [
+        "Weiwei Chen",
+        "Chenghao Xu",
+        "Meiling Yu",
+        "Xu Yang",
+        "Cheng Deng"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "In the practical deployment of vision--language--action policies, handling long-tailed task distributions is a common challenge due to the highly imbalanced composition of robot demonstration datasets. To investigate this issue, we study the head-task action bias in shared robot policies, particularly focusing on its relationship with task-specific visual evidence. Our experimental analysis shows that, when the visual evidence required by a tail task is insufficient, the policy increasingly falls back on action patterns reinforced by data-rich head tasks, resulting in degraded performance on under-represented tasks. Motivated by this observation, we propose Evidence-Guided Counterfactual Learning, a training framework for long-tailed robot policies. Our method identifies decision-relevant visual evidence using instruction-related and action-related signals, and constructs counterfactual observations by removing the selected evidence. The resulting counterfactual predictions are used to strengthen the association among task instructions, visual evidence, and actions, with the supervision adaptively adjusted according to the number of demonstrations available for each task. The proposed framework requires neither additional training data nor region-level annotations and incurs no additional computation during deployment. Extensive experiments across simulated benchmarks, different VLA architectures, and real-world robot platforms demonstrate that our method robustly and consistently improves long-tailed robot policy learning, particularly for tail tasks, while maintaining reliable performance on head tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12861",
+      "pdf_url": "https://arxiv.org/pdf/2610.12861",
+      "project_page": "https://krlozhilderman287-creator.github.io/EVIDENCE-GUIDED-COUNTERFACTUAL-LEARNING-FOR-LONG-TAILED-ROBOTIC-POLICIES/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies\n\nIn the practical deployment of vision--language--action policies, handling long-tailed task distributions is a common challenge due to the highly imbalanced composition of robot demonstration datasets.\n\narXiv: https://arxiv.org/abs/2610.12861\nProject page: https://krlozhilderman287-creator.github.io/EVIDENCE-GUIDED-COUNTERFACTUAL-LEARNING-FOR-LONG-TAILED-ROBOTIC-POLICIES/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12832",
+      "title": "VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding",
+      "authors": [
+        "Jingkun Yi",
+        "Shujie Zhang",
+        "Zirui Zhou",
+        "Haoxiao Wang",
+        "Haiyang Sun",
+        "Yuhang Dong",
+        "Xudong Xu",
+        "Xing Shen",
+        "Tao Zhang",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Pretrained vision-language models (VLMs) already exhibit strong visual, spatial and reasoning capabilities relevant to robotic manipulation. The key challenge in turning pretrained VLMs into generalist manipulation policies is to expose these capabilities through an appropriate action interface. Vision-language-action (VLA) models provide a unified trainable policy, but typically introduce learned action tokens, action heads, or action experts whose semantics must be learned from robot data pretraining. In contrast, modular foundation-model-based manipulation methods can exploit pretrained VLM capabilities for zero-shot manipulation, but rely on external planning and control scaffolds that are not end-to-end trainable as a unified continuous-action policy. In this work, we introduce EASG, an Explicit Action-Space Grounding framework that bridges these two paradigms. By projecting a tool center point (TCP)-centered action frame into the wrist camera observation and expressing actions in the form of VLM's native textual generation interface, EASG makes the semantics of a continuous robot action space directly observable in the VLM's perceptual context. This allows pretrained VLMs to directly generate executable robot actions using their existing visual-spatial reasoning capabilities, without robot-action pretraining or additional action modules. Besides, the same action interface supports direct fine-tuning with robot trajectories, allowing the models to continuously improve beyond their manipulation capabilities unleashed by EASG. Overall, EASG enables zero-shot manipulation and generalization across object positions, categories, and robot embodiments, while supporting effective fine-tuning in the same continuous action space. These results demonstrate that, given an appropriate action interface, pretrained VLMs can themselves serve as native action models for robotic manipulation.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12832",
+      "pdf_url": "https://arxiv.org/pdf/2610.12832",
+      "project_page": "https://general-robo.github.io/EASG/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding\n\nPretrained vision-language models (VLMs) already exhibit strong visual, spatial and reasoning capabilities relevant to robotic manipulation.\n\narXiv: https://arxiv.org/abs/2610.12832\nProject page: https://general-robo.github.io/EASG/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12734",
+      "title": "StereoEngine: Scaling Stereo Bimanual Robot Data without Stereo Cameras",
+      "authors": [
+        "Jason Chen",
+        "I-Chun Arthur Liu",
+        "Gaurav Sukhatme",
+        "Daniel Seita"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page"
+      ],
+      "abstract": "Stereo vision is increasingly used for robotic manipulation, with a growing body of work incorporating it into Vision-Language-Action (VLA) models. However, the scarcity of large-scale, real-world stereo datasets remains a fundamental bottleneck for scaling such policies. Recent generative monocular-to-stereo methods target settings such as VR content and autonomous driving. No prior work produces realistic synthetic stereo data for robotic manipulation, where stereo supervision has come predominantly from simulation. We propose StereoEngine, which introduces two complementary methods to synthesize stereo data for robotic manipulation. In the first, we warp a monocular (left) video into the right view using estimated depth and inpaint the disoccluded regions with a video diffusion model, lifting monocular demonstrations into stereo pairs without training on real stereo. In the second, we render a stereo pair in simulation and jointly generate both photorealistic views, producing consistent left-right data without any real video as input. StereoEngine outperforms existing baselines in generated stereo quality, and using its synthetic data for policy mid-training or task-specific fine-tuning substantially improves downstream bimanual manipulation. Project website: https://stereoengine.github.io",
+      "arxiv_url": "https://arxiv.org/abs/2610.12734",
+      "pdf_url": "https://arxiv.org/pdf/2610.12734",
+      "project_page": "https://stereoengine.github.io",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "StereoEngine: Scaling Stereo Bimanual Robot Data without Stereo Cameras\n\nStereo vision is increasingly used for robotic manipulation, with a growing body of work incorporating it into Vision-Language-Action (VLA) models.\n\narXiv: https://arxiv.org/abs/2610.12734\nProject page: https://stereoengine.github.io\n\n#VLA #robotics"
     },
     {
       "id": "2610.11971",
@@ -817,6 +1250,36 @@
       "first_seen": "2026-10-09",
       "is_new": false,
       "share_text": "SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation\n\nLarge-scale, diverse datasets have driven the success of LLMs and VLMs.\n\narXiv: https://arxiv.org/abs/2610.11248\nProject page: https://kyounginbaik.github.io/simvla/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12818",
+      "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+      "authors": [
+        "Minghao Fu",
+        "Tavis Siebert",
+        "Eryk Halicki",
+        "Randall Balestriero"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 5.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "project page",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, and (2) an isotropic Gaussian constraint on the latent state, enabling a single model to support direct policy execution and efficient planning by evaluating sampled actions with its learned latent dynamics. Compared with prior JEPAs in visual planning, LeWAM improves success rate from 28.6% to 89.7% on contact-rich tasks and from 10.9% to 46.2% on long-horizon tasks, and plans 32.3 times faster. On behavior cloning tasks in simulation and physical robots, LeWAM is also competitive with established methods. Interpretability analyses show that LeWAM learns control-relevant representations and action distributions effectively guiding test-time planning and control.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12818",
+      "pdf_url": "https://arxiv.org/pdf/2610.12818",
+      "project_page": "https://le-wam.github.io/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "LeWAM: End-to-End World and Action Modeling with JEPAs\n\nJoint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction.\n\narXiv: https://arxiv.org/abs/2610.12818\nProject page: https://le-wam.github.io/\n\n#worldmodels #robotics"
     },
     {
       "id": "2610.10178",
@@ -1168,12 +1631,12 @@
         "Wenchang Gao",
         "Jin Wang",
         "Siao Liu",
-        "Zhoxizhuoma",
+        "Zhaxizhuoma",
         "Dongchun Ren",
         "Xin Zheng"
       ],
       "published": "2026-10-05",
-      "updated": "2026-10-05",
+      "updated": "2026-10-09",
       "topics": [
         "vla"
       ],
@@ -1237,7 +1700,7 @@
         "Yuanpei Chen"
       ],
       "published": "2026-10-05",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "topics": [
         "world_models"
       ],
@@ -1256,6 +1719,37 @@
       "first_seen": "2026-10-06",
       "is_new": false,
       "share_text": "KineWorld: Action-Induced Transport Fields for Embodied World Modeling\n\nEmbodied world models predict the visual consequences of candidate actions before execution.\n\narXiv: https://arxiv.org/abs/2610.06349\nProject page: https://modaxiansheng.github.io/KineWorld/\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.12914",
+      "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+      "authors": [
+        "Xule Gao",
+        "Xi Wang",
+        "Zehua Zang",
+        "Rui Wang",
+        "Changwen Zheng",
+        "Chuxiong Sun"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.0,
+      "match_reasons": [
+        "\"vision-language-action\" in title",
+        "3 distinct keyword hits"
+      ],
+      "abstract": "Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrations. While effective for learning feasible actions, this paradigm supervises policies to reproduce expert actions at each step, biasing them toward demonstration-specific action paths and providing limited guidance for recovering toward task-progress states once execution deviates from demonstrated trajectories. To address this limitation, we propose OGPO, an Offline Goal-conditioned Policy Optimization framework for recoverable VLA post-training. Instead of treating offline demonstrations merely as step-wise action labels, OGPO adaptively relabels trajectories with semantic key states and constructs goal-conditioned process rewards to optimize the policy for reaching these task-progress states. In this way, OGPO shifts VLA post-training from trajectory-level action imitation to key-state reachability learning, enabling policies to acquire a more robust ability to complete goal states from feasible off-demonstration states without requiring additional online interaction. Experiments on LIBERO and MetaWorld show that OGPO consistently improves VLA policy performance over standard supervised fine-tuning. Moreover, evaluations on LIBERO-Plus and our proposed LIBERO-ReAct, a mid-execution perturbation benchmark, further demonstrate that OGPO achieves stronger robustness and goal-directed recoverability under distribution shifts and recoverable off-demonstration states.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12914",
+      "pdf_url": "https://arxiv.org/pdf/2610.12914",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models\n\nVision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrations.\n\narXiv: https://arxiv.org/abs/2610.12914\n\n#VLA #robotics"
     },
     {
       "id": "2610.12090",
@@ -1410,6 +1904,228 @@
       "first_seen": "2026-10-06",
       "is_new": false,
       "share_text": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training\n\nGraphical User Interface (GUI) agents have emerged as a promising paradigm for automating complex digital workflows across diverse applications.\n\narXiv: https://arxiv.org/abs/2610.05861\nCode: https://github.com/swaydy-n/Infinite-Dreamer\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.13732",
+      "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+      "authors": [
+        "Zhiyuan Xiang",
+        "Peidong Liu",
+        "Mingyang Li",
+        "Jiawei Li",
+        "Wenhow Li",
+        "Wenbo Ding",
+        "Xiang Deng"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "egocentric_data",
+        "vla"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 4.5,
+      "match_reasons": [
+        "\"egocentric video\" in abstract",
+        "3 distinct keyword hits"
+      ],
+      "abstract": "Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data. Large-scale egocentric human videos offer a rich alternative, but they lack robot action labels, and existing action annotation methods are often noisy under real-world visual complexity and diverse manipulation dynamics. We introduce LAPT-Scale, a scalable latent action pre-training paradigm with two components: LAPT-Scale-LAM learns continuous latent actions by explaining frame-to-frame visual transitions in human videos and uses them as human-derived supervision, while LAPT-Scale-Policy trains a VLA policy through human-video latent-action pre-training, target-robot embodiment alignment, and task-specific post-training. Unlike prior vector-quantized LAMs, LAPT-Scale-LAM uses a continuous latent space to preserve fine-grained motion and interaction dynamics. We further combine perceptual, semantic, and optical-flow alignment signals to improve transition-level supervision beyond pixel reconstruction. Trained on 23.3K hours of egocentric video, LAPT-Scale-LAM provides implicit action supervision for policy pre-training, yielding consistent scaling gains and improving real-robot success from 63.3% to 85.0% as annotated human video scales from 1K to 5K hours. The learned policy also generalizes to unseen visual conditions.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13732",
+      "pdf_url": "https://arxiv.org/pdf/2610.13732",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos\n\nScaling generalist robotic policies is limited by the high cost of collecting embodied interaction data.\n\narXiv: https://arxiv.org/abs/2610.13732\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2610.12999",
+      "title": "EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations",
+      "authors": [
+        "Hiromu Kurihara",
+        "Kazutoshi Tanaka",
+        "Masashi Hatano",
+        "Tadashi Kozuno",
+        "Hideo Saito",
+        "Mariko Isogawa"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 4.5,
+      "match_reasons": [
+        "\"egocentric demonstration\" in title",
+        "2 distinct keyword hits"
+      ],
+      "abstract": "Learning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations. In contrast to resource-intensive and labor-intensive teleoperation, egocentric demonstrations are easy to collect, enabling scalable data collection. Manipulated objects are often partially occluded in everyday environments, yet prior egocentric demonstration-based methods that require no robots or specialized teaching devices do not explicitly address occlusions. To fill this gap, we propose EgoReveal, a framework that learns viewpoint-repositioning together with manipulation actions from egocentric human demonstrations to reposition the viewpoint and obtain target visibility under partial occlusions. EgoReveal instantiates this as two imitation policies: one predicts the future camera-arm pose sequence from the current view and camera-arm pose, and the other predicts the future control commands from object keypoints and a history of control commands. EgoReveal switches between the two based on target visibility. In experiments where the manipulated object is partially occluded initially, EgoReveal repositions the camera to obtain visibility and completes the task more reliably than fixed-camera baselines.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12999",
+      "pdf_url": "https://arxiv.org/pdf/2610.12999",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations\n\nLearning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations.\n\narXiv: https://arxiv.org/abs/2610.12999\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2610.13522",
+      "title": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics",
+      "authors": [
+        "Peiyan Tu",
+        "Cong Wang",
+        "Hanxin Zhu",
+        "Xin Jin",
+        "Zhibo Chen"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "egocentric_data",
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "2 distinct keyword hits",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Action-conditioned world models offer a promising foundation for generalist robotic intelligence by predicting the consequences of actions. However, existing robotic datasets provide limited coverage of the diverse interaction dynamics required for generalizable world modeling. Large-scale egocentric human videos offer complementary interaction experience, yet the embodiment gap between human hands and robotic manipulators hinders effective cross-embodiment learning. Meanwhile, the predominance of successful demonstrations leaves failure dynamics substantially underrepresented, limiting the ability of world models to anticipate unsuccessful executions. To address these limitations, we introduce HF-WM, an action-conditioned world model that combines Human interaction learning with Failure-aware post-training. To bridge the embodiment gap, we develop a dual-branch framework that couples video generation with auxiliary pointflow prediction, using stabilized pointflow as a unified motion representation across human and robot interactions while suppressing egocentric camera motion. To improve failure modeling, we further perform Group Relative Policy Optimization (GRPO) post-training on perturbed actions derived from successful demonstrations, guided by action alignment and physical plausibility rewards, enabling the model to learn plausible failure dynamics without paired ground-truth videos. Extensive experiments demonstrate that HF-WM achieves state-of-the-art performance in action-conditioned video generation and exhibits strong utility for policy evaluation in downstream robotic tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13522",
+      "pdf_url": "https://arxiv.org/pdf/2610.13522",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics\n\nAction-conditioned world models offer a promising foundation for generalist robotic intelligence by predicting the consequences of actions.\n\narXiv: https://arxiv.org/abs/2610.13522\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.13943",
+      "title": "Noise Space Learning for VLA Adaptation",
+      "authors": [
+        "Junjie Lu",
+        "Chuheng Zhang",
+        "Yucen Wang",
+        "Yuhua Jiang",
+        "Xinyao Qin",
+        "Min Xu",
+        "Li Zhao"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 4.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits"
+      ],
+      "abstract": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditioned distribution over noise while keeping the pretrained VLA fixed. Building on prior noise-steering methods, we formulate NSL as an interface for VLA adaptation that accommodates different learning algorithms and instantiate it with PPO, SAC, and AWR. Theoretically, we provide an information-theoretic analysis of how NSL enables efficient adaptation. Empirically, we study these NSL algorithms on LIBERO, RoboTwin, and four real-robot manipulation tasks under interaction, computation, and execution constraints. Across these settings, we develop a suite of effective NSL variants and derive practical recommendations for choosing among them under different resource and deployment regimes.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13943",
+      "pdf_url": "https://arxiv.org/pdf/2610.13943",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Noise Space Learning for VLA Adaptation\n\nPretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints.\n\narXiv: https://arxiv.org/abs/2610.13943\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13453",
+      "title": "Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving",
+      "authors": [
+        "Yuechen Luo",
+        "He Chong",
+        "Fang Li",
+        "Shaoqing Xu",
+        "Hexin Zhang",
+        "Ruiqi Zhang",
+        "Ziying Song",
+        "Lei Yang",
+        "Zhi-Xin Yang",
+        "Fuxi Wen"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 4.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits"
+      ],
+      "abstract": "Reinforcement Learning (RL) substantially improves planning performance in autonomous-driving Vision-Language-Action (VLA) models. However, existing RL methods rely on scalar trajectory rewards that measure overall quality but fail to identify specific planning errors or provide actionable correction signals. In long-tail scenarios, errors in scene understanding, behavior selection, and trajectory execution are compressed into a single score. We observe that Reflective Guidance turns trajectory evaluation into explicit diagnoses and corrective instructions, substantially improving planning accuracy. Yet such guidance requires an initial prediction and its evaluation results, making it unavailable for direct single-pass inference. We propose Reflect-VLA, which treats Reflective Guidance as training-time privileged information and internalizes its planning benefits through Dual-Path On-Policy Self-Distillation (Dual-OPSD). Unlike scalar-reward optimization, Dual-OPSD uses the driving score only to route student-generated trajectories. It distills dense token-level corrective distributions from the teacher for risky trajectories while applying self-imitation to preserve reliable ones. To provide reliable corrective distributions on student rollouts, the teacher is progressively constructed through Driving-Knowledge Pretraining, Planning-and-Refinement SFT, and Self-Refinement Rejection Sampling. At inference time, Reflect-VLA generates trajectories in a single pass without explicit guidance or iterative refinement. Experiments on NAVSIM v1/v2 and Bench2Drive demonstrate competitive planning performance while reducing training time by over 90% compared with RL.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13453",
+      "pdf_url": "https://arxiv.org/pdf/2610.13453",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving\n\nReinforcement Learning (RL) substantially improves planning performance in autonomous-driving Vision-Language-Action (VLA) models.\n\narXiv: https://arxiv.org/abs/2610.13453\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13816",
+      "title": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+      "authors": [
+        "Bahey Tharwat",
+        "Iman Nematollahi",
+        "Marvin Alles",
+        "Xingyuan Zhang",
+        "Akshay L Chandra",
+        "Abhinav Valada"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations. Reinforcement learning can improve and extend them, either by fine-tuning the policy weights or by training a small module to steer the input noise of a frozen generative policy. When tasks arrive sequentially, both approaches suffer from catastrophic forgetting. Fine-tuning on a task degrades prior tasks, and steering only shifts forgetting to the shared steering module. We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward new tasks, while retaining its earlier skills. As the steering module learns a new task, a frozen pretrained world model rehearses prior tasks through imagined rollouts, anchoring the module to its earlier behavior without a replay buffer or new data. When the world model is faithful enough, D2R learns the new task entirely in imagination. Otherwise, it learns the task in the environment while using the world model only to rehearse prior tasks. On CALVIN, D2R improves eight tasks in sequence entirely in imagination, raising average success from 63.7% to 74.8%, while LoRA fine-tuning on the same sequence drops it to 11.7%. With a frozen off-the-shelf generalist policy and world model, $π_0$ and A2World, D2R learns unseen LIBERO-90 tasks in the environment while keeping $π_0$'s performance on the LIBERO suites it was fine-tuned on, even though the world model is not accurate enough for policy optimization. Finally, on a real Franka robot, D2R improves three tasks in sequence entirely in imagination while retaining the earlier improvements.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13816",
+      "pdf_url": "https://arxiv.org/pdf/2610.13816",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models\n\nGeneralist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations.\n\narXiv: https://arxiv.org/abs/2610.13816\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2610.12910",
+      "title": "Sampling-based Kinodynamic Planning with World Models",
+      "authors": [
+        "Yitian Gao",
+        "Hanlan Yang",
+        "Zachary Kingston"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Visual world models predict the consequences of actions from images, but planning with them is typically done by optimizers such as CEM and MPPI. However, these optimizers stall on long-horizon tasks where progress requires motion the objective does not reward, such as moving around a block before pushing it. This paper revisits kinodynamic sampling-based motion planning for world models, using the learned model as the propagator of a tree search in latent space. Our key insight is that the sampling strategies devised for high-dimensional search in configuration space apply directly to the latent space of a world model, where they rapidly expand through intermediate states that myopic optimizers never sample. We present two exploration strategies for the high-dimensional latent space, nearest-neighbor-guided RRT and projection-based KPIECE, with GPU-native batched expansion for efficient device utilization. We evaluate with an off-the-shelf DINO-WM on four simulated domains and a real-world block-pushing task. Our approaches match or exceed the success rate of CEM and MPPI at up to 13.8x lower planning time in simulation, and improve the success rate by 20% on the real robot.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12910",
+      "pdf_url": "https://arxiv.org/pdf/2610.12910",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Sampling-based Kinodynamic Planning with World Models\n\nVisual world models predict the consequences of actions from images, but planning with them is typically done by optimizers such as CEM and MPPI.\n\narXiv: https://arxiv.org/abs/2610.12910\n\n#worldmodels #robotics"
     },
     {
       "id": "2610.12245",
@@ -1609,6 +2325,35 @@
       "first_seen": "2026-10-09",
       "is_new": false,
       "share_text": "PathTime-VLA: Path-Time Decoupling for Factorized Post-Training of Vision-Language-Action Policies\n\nVision-Language-Action (VLA) policies typically predict actions at fixed time intervals, coupling the route a robot follows with its execution pace.\n\narXiv: https://arxiv.org/abs/2610.11771\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12710",
+      "title": "REMM: Revisable Embodied Memory for Manipulation",
+      "authors": [
+        "Revanth Krishna Senthilkumaran",
+        "Ruwan Wickramarachchi",
+        "Alessandro Oltramari",
+        "Jonathan Francis"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 4.5,
+      "match_reasons": [
+        "\"vision-language-action\" in abstract",
+        "project page"
+      ],
+      "abstract": "Long-horizon manipulation requires robots to retain task-relevant history while revising conclusions no longer supported by physical evidence. Retaining observations alone does not specify which completed conditions should be withdrawn after a disturbance or which obligations require repair. We introduce REMM, Revisable Embodied Memory for Manipulation, a supervisory memory layer for a frozen G0.5 vision-language-action executor. REMM separates an append-only evidence history from revisable task state and explicitly links derived relations and completed conditions to their supporting facts. When accepted evidence changes a supporting fact, it withdraws dependent conclusions and schedules targeted recovery at verified skill boundaries without updating the executor. Across 51 physical trials, including operator-assisted runs, REMM improves mean recorded task progress over the strongest baseline from 57% to 91% in intervention recovery and from 43% to 70% in sequence recall. Complementary video diagnostics show improved grounding of retained history into the next instruction, including comparisons with $π_{0.5}$-compatible high-level planner adaptations. These results support revisable memory as a practical interface for continued manipulation without policy retraining. Project: https://revanthsenthil.github.io/remm/.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12710",
+      "pdf_url": "https://arxiv.org/pdf/2610.12710",
+      "project_page": "https://revanthsenthil.github.io/remm/",
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "REMM: Revisable Embodied Memory for Manipulation\n\nLong-horizon manipulation requires robots to retain task-relevant history while revising conclusions no longer supported by physical evidence.\n\narXiv: https://arxiv.org/abs/2610.12710\nProject page: https://revanthsenthil.github.io/remm/\n\n#VLA #robotics"
     },
     {
       "id": "2610.12231",
@@ -2076,7 +2821,7 @@
         "Stephen James"
       ],
       "published": "2026-10-06",
-      "updated": "2026-10-06",
+      "updated": "2026-10-08",
       "topics": [
         "vla"
       ],
@@ -2647,6 +3392,103 @@
       "first_seen": "2026-10-06",
       "is_new": false,
       "share_text": "Wiring Matters: Injection Topology and Initialization of Affordance Heads in Vision-Language-Action Policies\n\nDense affordance supervision is an appealing auxiliary signal for vision-language-action (VLA) policies, yet naively co-training an affordance head can severely damage instruction following.\n\narXiv: https://arxiv.org/abs/2610.06318\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13516",
+      "title": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors",
+      "authors": [
+        "David Ahmedt-Aristizabal",
+        "Abdelwahed Khamis",
+        "Mohammad Ali Armin",
+        "Lars Petersson"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"VLA\" in title"
+      ],
+      "abstract": "Runtime failure monitors for robot policies are typically evaluated by how accurately they distinguish failed from successful executions. Yet an accurate alarm may arrive too late for recovery, while an unnecessary intervention may disrupt an execution that would otherwise succeed. We introduce RESCUE, a counterfactual framework for evaluating whether a monitor's alarms enable useful interventions. By restoring simulator and policy states at execution checkpoints, RESCUE compares alternative actions, identifies the latest checkpoint satisfying a specified recovery criterion, and evaluates whether acting on alarms reduces expected task-completion cost. We evaluate RESCUE with OpenVLA-OFT and $π_{0.5}$ over LIBERO-Spatial and LIBERO-Plus using 128,340 counterfactual branches. Recoverability depends on the state--intervention pair rather than on robot state alone: at $τ=0.5$, 14 of 66 OpenVLA-OFT/LIBERO-Plus failures contain a recoverable checkpoint under continuation, compared with 34 of 66 under continuation or scripted recovery, while recovery reduces recoverability in other conditions. On the primary strong-policy conditions, favourable detection scores do not establish lower intervention cost. Under the evaluated stop-and-reset model, even an idealised detector can afford only a 2.0--3.3% false-alarm rate before unnecessary resets outweigh the savings from stopping failures early. These results show that monitor value depends jointly on the intervention available and the workload in which it is deployed.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13516",
+      "pdf_url": "https://arxiv.org/pdf/2610.13516",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors\n\nRuntime failure monitors for robot policies are typically evaluated by how accurately they distinguish failed from successful executions.\n\narXiv: https://arxiv.org/abs/2610.13516\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.13262",
+      "title": "Dual-Stream Memory for Vision-Language-Action Policies",
+      "authors": [
+        "Yang Wang",
+        "Ping Liu",
+        "Ruiyu Wang",
+        "Xuhua Chen",
+        "Lingfeng Zhang",
+        "Tao Zhang"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"vision-language-action\" in title"
+      ],
+      "abstract": "Memory-dependent manipulation requires a policy to track execution state and recover visual evidence that is no longer observable. We propose dual-stream memory for vision-language-action policies, assigning these requirements to complementary representations. A task-agnostic Gated DeltaNet compresses history into one temporal token, supervised by progress prediction and action-conditioned feature reconstruction. A task-conditioned retriever retains frames above a fixed relevance threshold; linear multi-scale fusion encodes each frame into sixteen spatial tokens. We then freeze the temporal compressor and jointly optimize retrieval and policy learning. Across sixteen RoboMME tasks, the complete model achieves 49.22% mean success versus 44.51% for the published FrameSamp+Modul reference, improving fourteen tasks and all four suite means. On four real-robot tasks, mean success reaches 62.5% versus 37.5%, with the largest gains on repeated actions requiring execution-stage discrimination. These results support combining execution context with selective visual access, while failures under cup swaps expose persistent identity tracking as an unresolved requirement.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13262",
+      "pdf_url": "https://arxiv.org/pdf/2610.13262",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Dual-Stream Memory for Vision-Language-Action Policies\n\nMemory-dependent manipulation requires a policy to track execution state and recover visual evidence that is no longer observable.\n\narXiv: https://arxiv.org/abs/2610.13262\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12793",
+      "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
+      "authors": [
+        "Yudong Liu",
+        "Yueqian Lin",
+        "Zijia Tang",
+        "Yuxi Zheng",
+        "Yuan Li",
+        "Shuai Zhang",
+        "Yi Li",
+        "Taotao Jing",
+        "Shuangjun Liu",
+        "Dashan Gao",
+        "Ning Bi",
+        "Jingwei Sun",
+        "Yiran Chen",
+        "Hai Helen Li"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits"
+      ],
+      "abstract": "Pretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and mapping episodic memory directly to action chunks is hard. Yet the same policy, finetuned once to follow a privileged oracle's grounded-subgoal text, nearly solves these tasks: the difficulty lies entirely in mapping memory to a grounded symbolic subgoal. Existing work entrusts this stage to a single VLM that selects keyframes and reasons over raw frames, and falls far short of the oracle: key identities and dynamics are buried in noisy pixels, the reasoning spans hundreds of frames in an unbounded context, and hallucination corrupts the memory itself. We instead present GAMMA (Grounded multi-Agent Memory with Mechanical Audit), which builds the stage as a collaborating two-agent memory system: a detector tool (SAM-3) for spatial grounding, a VLM writer that distils each replan window into one grounded text line, an append-only text memory bank, and a VLM reasoner that reads the bank and emits the next grounded subgoal at the oracle's cadence, wrapped in a propose-verify harness that admits, defers, corrects, or rejects every agent claim against mechanical visual evidence, at training-corpus construction and at deployment alike. On a sixteen-task memory-manipulation suite GAMMA recovers a large fraction of the oracle ceiling with the policy held fixed, reaching the ceiling on several tasks, and transfers with unchanged contracts to a second benchmark.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12793",
+      "pdf_url": "https://arxiv.org/pdf/2610.12793",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation\n\nPretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and mapping episodic...\n\narXiv: https://arxiv.org/abs/2610.12793\n\n#VLA #robotics"
     },
     {
       "id": "2610.12089",
@@ -3233,6 +4075,63 @@
       "share_text": "Do VLAs Understand and Adapt to the Objects They Handle, or Simply Replay Learned Behaviors?\n\nThis paper asks whether VLA generalization is grounded in a global understanding of objects' physical properties that enables policies to adapt their motion to unseen setups, or if policies simply replay the motions t...\n\narXiv: https://arxiv.org/abs/2610.06078\n\n#VLA #robotics"
     },
     {
+      "id": "2610.12926",
+      "title": "What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition",
+      "authors": [
+        "Kansuke Habano"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 3.0,
+      "match_reasons": [
+        "\"egocentric video\" in title"
+      ],
+      "abstract": "Egocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models. What these embeddings represent when the camera sits on the head, and how they should be combined with inertial sensing, has received little attention. Across VideoMAEv2, CLIP, DINOv2 and the egocentric VC-1, the leading principal directions of the embedding are dominated by where the camera looks. Measured head orientation explains them on Ego-Exo4D for egocentric (R^2 0.49-0.70) but not exocentric cameras, and the scene layout explains them on WEAR. The part that the limbs' inertial signals predict separates activities across people. In a set-level probe, the rest separates exercise sets within a participant but not activities across people. This is consistent with separate roles: the video finds the clips of the same set, and the inertial classifier labels them. On WEAR, with temporal order removed and one random limb per one-second clip, we propagate inertial predictions over a within-participant video graph whose leading components are removed. This raises subject-wise cross-validated macro-F1 from 0.648 to 0.852. In our comparisons, propagation helps only over the video graph, and fusing the modalities in one classifier, or adding inertial edges to the graph, performs worse.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12926",
+      "pdf_url": "https://arxiv.org/pdf/2610.12926",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition\n\nEgocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models.\n\narXiv: https://arxiv.org/abs/2610.12926\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2610.13217",
+      "title": "Golden Anchor for Video Generation",
+      "authors": [
+        "Jinyuan Xu",
+        "Shitong Shao",
+        "Lichen Bai",
+        "Zikai Zhou",
+        "Guoxi Huang",
+        "Nantheera Anantrasirichai",
+        "Zeke Xie"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 3.0,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "robotics / embodied focus"
+      ],
+      "abstract": "Video generation supports digital content creation, with applications in virtual avatars, AI-driven filmmaking, interactive game engines, and world models. State-of-the-art systems achieve controllability primarily through image-to-video (I2V) generation, in which an injected anchor image determines the identity, composition, and style of the resulting video. In modern pipelines, this anchor is synthesized by a text-to-image (T2I) generator. This raises a largely overlooked question: Are images obtained directly from the T2I model truly suitable for current video models? Our analysis shows that anchor aesthetic and quality scores are weakly correlated with downstream video quality. The structure-and-texture score is negatively correlated with I2V video quality in both the visual and motion dimensions. Fine-tuning the T2I model on an image reward accordingly yields anchors with visibly denser structural and character detail: they score higher on image metrics, yet lower the video reward on every I2V model we test and change downstream motion unpredictably. We therefore introduce Golden Anchor Learning (GAL), to our knowledge the first framework for learning golden anchors by optimizing a T2I generator with downstream video feedback. GAL evaluates candidate anchors through the videos they induce under a frozen I2V model and converts video rewards into image-level preferences for DPO fine-tuning of the T2I generator. On all four I2V models, GAL raises the VBench average by $2.97\\%$--$8.46\\%$ over the untuned generator. The rendered clips also score higher under VideoReward-Overall, and their extracted frames under HPSv3 and UniPercept. GAL yields consistent motion gains across all four I2V models, as measured by a $5.62\\%$--$38.24\\%$ increase in VBench dynamic degree. Although GAL is trained only on HunyuanVideo-1.5 renders, these gains extend to the other three I2V models.",
+      "arxiv_url": "https://arxiv.org/abs/2610.13217",
+      "pdf_url": "https://arxiv.org/pdf/2610.13217",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Golden Anchor for Video Generation\n\nVideo generation supports digital content creation, with applications in virtual avatars, AI-driven filmmaking, interactive game engines, and world models.\n\narXiv: https://arxiv.org/abs/2610.13217\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2610.12442",
       "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
       "authors": [
@@ -3420,7 +4319,7 @@
         "Zahra Ahmadi"
       ],
       "published": "2026-10-06",
-      "updated": "2026-10-06",
+      "updated": "2026-10-09",
       "topics": [
         "egocentric_data"
       ],
@@ -3913,7 +4812,7 @@
     },
     {
       "id": "2610.05755",
-      "title": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
+      "title": "Demonstration Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
       "authors": [
         "Yulong Yang",
         "Fan Wu",
@@ -3921,7 +4820,7 @@
         "Amit Chakraborty"
       ],
       "published": "2026-10-05",
-      "updated": "2026-10-06",
+      "updated": "2026-10-09",
       "topics": [
         "vla"
       ],
@@ -3937,7 +4836,38 @@
       "github_url": null,
       "first_seen": "2026-10-06",
       "is_new": false,
-      "share_text": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies\n\nDiffusion and VLA policies for manipulation are often deployed through downstream impedance controllers.\n\narXiv: https://arxiv.org/abs/2610.05755\n\n#VLA #robotics"
+      "share_text": "Demonstration Calibrated Port-Hamiltonian Retuning for Manipulation Policies\n\nDiffusion and VLA policies for manipulation are often deployed through downstream impedance controllers.\n\narXiv: https://arxiv.org/abs/2610.05755\n\n#VLA #robotics"
+    },
+    {
+      "id": "2610.12881",
+      "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+      "authors": [
+        "Zheng Ren",
+        "Yanning Wang",
+        "Ziheng Huang",
+        "Fei Huang",
+        "Shiqi Wang",
+        "Ziqian Ye",
+        "Yang Yue"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 2.0,
+      "match_reasons": [
+        "\"world model\" in abstract"
+      ],
+      "abstract": "Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning rely predominantly on static question-answering (QA) over small-scale or synthetic scenes, rarely probing whether models can modify spatial configurations while satisfying explicit geometric constraints. We introduce GeoSpatialBench, a benchmark designed to evaluate an escalating progression of spatial cognition, ranging from spatial relation understanding and geometric reasoning to constrained spatial editing. Grounded in real-world urban data across six geographically diverse cities, GeoSpatialBench evaluates a comprehensive taxonomy of 28 topological, directional, metric, and ordering relations across structured GeoJSON and map image modalities, with ground-truth references and constraints verified via GIS operations. Our empirical evaluation across frontier MLLMs uncovers a stark spatial gap: structured GeoJSON consistently outperforms map images, with multimodal combinations offering no reliable gain over GeoJSON alone, and while models show reasonable competence on qualitative topological and ordering, performance drops on quantitative metric relations. Crucially, editing performance on ordering relations declines relative to QA, and most failed edits violate at least one specified spatial constraint. These results highlight a gap between passively recognizing spatial relations and actively manipulating geometric configurations. GeoSpatialBench provides an open, rigorous diagnostic testbed to benchmark these spatial limitations, laying essential empirical groundwork for physically grounded world models and embodied spatial AI.",
+      "arxiv_url": "https://arxiv.org/abs/2610.12881",
+      "pdf_url": "https://arxiv.org/pdf/2610.12881",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-10-12",
+      "is_new": true,
+      "share_text": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing\n\nUnderstanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models.\n\narXiv: https://arxiv.org/abs/2610.12881\n\n#worldmodels #robotics"
     },
     {
       "id": "2610.11347",

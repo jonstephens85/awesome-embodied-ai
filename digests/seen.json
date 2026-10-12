@@ -4692,7 +4692,7 @@
   },
   "2610.05755": {
     "first_seen": "2026-10-06",
-    "title": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
+    "title": "Demonstration Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
     "topics": [
       "vla"
     ]
@@ -5639,6 +5639,211 @@
     "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
     "topics": [
       "world_models"
+    ]
+  },
+  "2610.12696": {
+    "first_seen": "2026-10-12",
+    "title": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12710": {
+    "first_seen": "2026-10-12",
+    "title": "REMM: Revisable Embodied Memory for Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12734": {
+    "first_seen": "2026-10-12",
+    "title": "StereoEngine: Scaling Stereo Bimanual Robot Data without Stereo Cameras",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12793": {
+    "first_seen": "2026-10-12",
+    "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12818": {
+    "first_seen": "2026-10-12",
+    "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.12832": {
+    "first_seen": "2026-10-12",
+    "title": "VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12861": {
+    "first_seen": "2026-10-12",
+    "title": "Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12881": {
+    "first_seen": "2026-10-12",
+    "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.12910": {
+    "first_seen": "2026-10-12",
+    "title": "Sampling-based Kinodynamic Planning with World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.12914": {
+    "first_seen": "2026-10-12",
+    "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12926": {
+    "first_seen": "2026-10-12",
+    "title": "What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.12936": {
+    "first_seen": "2026-10-12",
+    "title": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.12999": {
+    "first_seen": "2026-10-12",
+    "title": "EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.13117": {
+    "first_seen": "2026-10-12",
+    "title": "Forward Dynamics Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13164": {
+    "first_seen": "2026-10-12",
+    "title": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.13212": {
+    "first_seen": "2026-10-12",
+    "title": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13217": {
+    "first_seen": "2026-10-12",
+    "title": "Golden Anchor for Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.13262": {
+    "first_seen": "2026-10-12",
+    "title": "Dual-Stream Memory for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13409": {
+    "first_seen": "2026-10-12",
+    "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.13453": {
+    "first_seen": "2026-10-12",
+    "title": "Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13516": {
+    "first_seen": "2026-10-12",
+    "title": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13522": {
+    "first_seen": "2026-10-12",
+    "title": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2610.13578": {
+    "first_seen": "2026-10-12",
+    "title": "RARA: Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignment for Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13628": {
+    "first_seen": "2026-10-12",
+    "title": "JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13732": {
+    "first_seen": "2026-10-12",
+    "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2610.13781": {
+    "first_seen": "2026-10-12",
+    "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.13816": {
+    "first_seen": "2026-10-12",
+    "title": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.13943": {
+    "first_seen": "2026-10-12",
+    "title": "Noise Space Learning for VLA Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.13945": {
+    "first_seen": "2026-10-12",
+    "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+    "topics": [
+      "vla"
     ]
   }
 }
