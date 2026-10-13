@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-12 22:43 UTC
+**Last updated:** 2026-10-13 02:45 UTC
 
-**Papers shown:** 15 (relevance ≥ 2, last 7 days)
+**Papers shown:** 14 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -456,40 +456,6 @@ Long-WAM: Scaling the Context of World-Action Models
 Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action.
 
 arXiv: https://arxiv.org/abs/2610.10528
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [RoboCap: A New Platform for Egocentric Robot Learning](https://arxiv.org/abs/2610.07217)
-
-**Authors:** Grounded Superintelligence, BitRobot
-
-**Published:** 2026-10-05 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric data" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.07217) | [PDF](https://arxiv.org/pdf/2610.07217)
-
-<details>
-<summary>Abstract</summary>
-
-Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today. Collection at scale requires vertically integrating ergonomic hardware with centimeter-precise 3D algorithms, at a precision that has not been publicly demonstrated. To address this gap, we introduce RoboCap, a 250\,g six-camera dual-IMU hat designed for in-the-wild egocentric data capture, and the Grounded API, a suite of device-agnostic 3D algorithms tuned for RoboCap. In this report, we demonstrate how hardware, calibration, and 3D algorithms interact to achieve state-of-the-art performance o...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RoboCap: A New Platform for Egocentric Robot Learning
-
-Despite its promise for scaling robot learning, egocentric manipulation data is still scarce today.
-
-arXiv: https://arxiv.org/abs/2610.07217
 
 #egocentric #robotlearning
 ```
