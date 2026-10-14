@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-13 21:00 UTC
+**Last updated:** 2026-10-14 00:44 UTC
 
-**Papers shown:** 14 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,43 +38,6 @@ As we move through the world and carry out everyday tasks, we encounter objects 
 arXiv: https://arxiv.org/abs/2610.10538
 Project page: https://ledger-3d.github.io
 Code: https://github.com/LEDGER-3D/LEDGER
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning](https://arxiv.org/abs/2610.08726)
-
-**Authors:** Lihan Zha, Shresth Grover, Tenny Yin, Samuel M. Bateman, Hengkai Pan et al. (10 authors)
-
-**Published:** 2026-10-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; project page
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.08726) | [PDF](https://arxiv.org/pdf/2610.08726) | [Project Page](https://ego-lap.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracte...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning
-
-Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control.
-
-arXiv: https://arxiv.org/abs/2610.08726
-Project page: https://ego-lap.github.io/
 
 #egocentric #robotlearning
 ```
@@ -388,40 +351,6 @@ LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
 Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
 
 arXiv: https://arxiv.org/abs/2610.12442
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos](https://arxiv.org/abs/2610.08192)
-
-**Authors:** Souptik Sen, Zahra Ahmadi
-
-**Published:** 2026-10-06 (updated 2026-10-09) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.08192) | [PDF](https://arxiv.org/pdf/2610.08192)
-
-<details>
-<summary>Abstract</summary>
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \textbf{MacJEPA}, a missing-modality-robust \textbf{Ma}...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos
-
-Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference.
-
-arXiv: https://arxiv.org/abs/2610.08192
 
 #egocentric #robotlearning
 ```
