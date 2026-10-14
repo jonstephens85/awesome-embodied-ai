@@ -5489,7 +5489,7 @@
   },
   "2610.12026": {
     "first_seen": "2026-10-09",
-    "title": "Humanoid World Action Model With Joint State--Action Generation",
+    "title": "HWAM: Humanoid World Action Model With Joint State--Action Generation",
     "topics": [
       "vla"
     ]
@@ -5842,6 +5842,678 @@
   "2610.13945": {
     "first_seen": "2026-10-12",
     "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14155": {
+    "first_seen": "2026-10-14",
+    "title": "Axiom-0: Hierarchical Self-Refinement for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14191": {
+    "first_seen": "2026-10-14",
+    "title": "Observation-Referenced Tissue Deformation Forecasting with Tool-Driven and Residual Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14228": {
+    "first_seen": "2026-10-14",
+    "title": "Latent World Action Model for GUI Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14302": {
+    "first_seen": "2026-10-14",
+    "title": "Learning to See through Action: Predictive Curiosity for Robots",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14335": {
+    "first_seen": "2026-10-14",
+    "title": "PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Visual Subgoals and Policy Priors",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14406": {
+    "first_seen": "2026-10-14",
+    "title": "Memory Without Curation: Learning Multi-Stream Latent Memory for Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14415": {
+    "first_seen": "2026-10-14",
+    "title": "Red-Teaming of Vision-Language-Action Models via Quality Diversity Environment Generation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14544": {
+    "first_seen": "2026-10-14",
+    "title": "InfraWorld: Motion-Aware World Modeling for Roadside 4D Occupancy Forecasting",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14564": {
+    "first_seen": "2026-10-14",
+    "title": "Chunk-wise Model-based Policy Optimization",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14583": {
+    "first_seen": "2026-10-14",
+    "title": "Remembering What Matters for Long-Horizon Robotic World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14588": {
+    "first_seen": "2026-10-14",
+    "title": "Flow-Support-Weighted Proposals for Test-Time Verified VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14603": {
+    "first_seen": "2026-10-14",
+    "title": "AnyRank: Reliable Anytime Policy Ranking via Sequential Testing",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14682": {
+    "first_seen": "2026-10-14",
+    "title": "Successful but Unsafe: An Analytical Benchmark for Revealing Collisions in Vision-and-Language Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14704": {
+    "first_seen": "2026-10-14",
+    "title": "PRISM: Precision Forcing for Generalist Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14727": {
+    "first_seen": "2026-10-14",
+    "title": "MHWA: Multi-timescale Hierarchical World-Action Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14802": {
+    "first_seen": "2026-10-14",
+    "title": "YOUDrive: Driving Style as a Composable Direction for End-to-End Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14854": {
+    "first_seen": "2026-10-14",
+    "title": "DEFT-VLA: Stage-Localized Force Specialization for Contact-Rich Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14871": {
+    "first_seen": "2026-10-14",
+    "title": "MORE: Learning Motion-Oriented Registers for Driving World Models and Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.14885": {
+    "first_seen": "2026-10-14",
+    "title": "Verify, Act, Distill: Turning Test-Time Compute into Test-Time Adaptation for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.14936": {
+    "first_seen": "2026-10-14",
+    "title": "CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.14997": {
+    "first_seen": "2026-10-14",
+    "title": "Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15267": {
+    "first_seen": "2026-10-14",
+    "title": "LeHami: Symplectic Latent Dynamics for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15294": {
+    "first_seen": "2026-10-14",
+    "title": "ProWorld: Multi-View World Model with Proprioceptive Feedback for Closed-Loop Policy Evaluation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15337": {
+    "first_seen": "2026-10-14",
+    "title": "CoLA: Multi-VLA Coordination via Learned Adapters",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15343": {
+    "first_seen": "2026-10-14",
+    "title": "Across Viewpoints and Time: Trajectory-Generalizable Physical Attacks on World Models and Video Understanding Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15425": {
+    "first_seen": "2026-10-14",
+    "title": "Exploring the Limits of Combinatorial Generalization in Embodied Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15429": {
+    "first_seen": "2026-10-14",
+    "title": "World Modeling through Spectral Alignment",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15556": {
+    "first_seen": "2026-10-14",
+    "title": "Vision-Predictor-Action: Towards Efficient Embodied AI via Neuro-Symbolic JEPA Predictors",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15562": {
+    "first_seen": "2026-10-14",
+    "title": "A Plausible Future Is Not a Causal Future: Can Video Models Generate How the World Unfolds?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15585": {
+    "first_seen": "2026-10-14",
+    "title": "StreamingWAM: Streaming World Action Modeling via Chunk-Wise Staircase Flow Matching",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15645": {
+    "first_seen": "2026-10-14",
+    "title": "SurgCast: Action-Conditioned Future Skeletons for Controllable Surgical World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.15666": {
+    "first_seen": "2026-10-14",
+    "title": "A Persian Vision-Language-Action Dataset and Benchmark for Ambiguity- and Infeasibility-Aware Instruction-to-Plan Grounding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15675": {
+    "first_seen": "2026-10-14",
+    "title": "Recovering Low-Bit Failures in Vision-Language-Action Policies via Quantization-Conditioned Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15766": {
+    "first_seen": "2026-10-14",
+    "title": "SurgiCLAW: An Interpretable Atomic-Skill Agent for Precision Robotic Micromanipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15794": {
+    "first_seen": "2026-10-14",
+    "title": "$Δ$ Flow Matching for Robot Foundation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.15956": {
+    "first_seen": "2026-10-14",
+    "title": "ADAPT: Audio-Depth Action Planning with Transition-Aware Rewards for Lights-Out Industrial Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16139": {
+    "first_seen": "2026-10-14",
+    "title": "Directional Pullback Regularization for Long-Horizon Rollout of Latent World Models in Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16160": {
+    "first_seen": "2026-10-14",
+    "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16166": {
+    "first_seen": "2026-10-14",
+    "title": "Esports World Model Dataset",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16238": {
+    "first_seen": "2026-10-14",
+    "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16302": {
+    "first_seen": "2026-10-14",
+    "title": "RAR: Rate-Adaptive Rollout for Time-Consistent Interactive World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16313": {
+    "first_seen": "2026-10-14",
+    "title": "Listen Before Act: Audio-Conditioned Robot Manipulation with ListenVLA",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16365": {
+    "first_seen": "2026-10-14",
+    "title": "World Models Need a Physical Registry: Learning Internal Predictive States for Physically Plausible World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16517": {
+    "first_seen": "2026-10-14",
+    "title": "Trust-Calibrated VLA Policy Post-Training with Evolving Imagination",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.16558": {
+    "first_seen": "2026-10-14",
+    "title": "G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16567": {
+    "first_seen": "2026-10-14",
+    "title": "VLA-GAUGE: Systematically Evaluating Generalization and Robustness in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16634": {
+    "first_seen": "2026-10-14",
+    "title": "Language2Drive: Do Vision-Language-Action Models Really Follow the Instructions in Autonomous Driving?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16641": {
+    "first_seen": "2026-10-14",
+    "title": "What Limits Cross-Task Generalization in World Action Models?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.16782": {
+    "first_seen": "2026-10-14",
+    "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16969": {
+    "first_seen": "2026-10-14",
+    "title": "UniLAP: A Unified Latent Action Policy for Cross-Embodiment Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.16985": {
+    "first_seen": "2026-10-14",
+    "title": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.17114": {
+    "first_seen": "2026-10-14",
+    "title": "D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17128": {
+    "first_seen": "2026-10-14",
+    "title": "EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.17201": {
+    "first_seen": "2026-10-14",
+    "title": "Multics: Generative Multi-Player World Model with Hierarchical Communication",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17434": {
+    "first_seen": "2026-10-14",
+    "title": "World-T3: Test-Time Training as Persistent Memory for Real-Time Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17521": {
+    "first_seen": "2026-10-14",
+    "title": "YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.17540": {
+    "first_seen": "2026-10-14",
+    "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.17584": {
+    "first_seen": "2026-10-14",
+    "title": "RAN-JEPA: An Action-Conditioned World Model for Energy-efficient Mobile Network Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17630": {
+    "first_seen": "2026-10-14",
+    "title": "From Pixels to Executable Physics: Behavior-Grounded World Models for Embodied Action Consequence Prediction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17638": {
+    "first_seen": "2026-10-14",
+    "title": "Acting Through Registers",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17688": {
+    "first_seen": "2026-10-14",
+    "title": "OccWAM: Occupancy World-Action Models with Joint Scene-to-Ego Flow Matching",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17728": {
+    "first_seen": "2026-10-14",
+    "title": "Safety for Whom? Benchmarking Understanding Beyond Refusal in Egocentric Multimodal Assistants",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.17746": {
+    "first_seen": "2026-10-14",
+    "title": "The Human--VLA Communication Gap: What Humans Leave Implicit and What Policies Cannot Recover",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.17903": {
+    "first_seen": "2026-10-14",
+    "title": "DriveWLA: Unifying Future Dynamics and Scene Semantics through World-Language-Action Modeling for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.17922": {
+    "first_seen": "2026-10-14",
+    "title": "WoVR+: World Model as Reliable Simulator for Versatile VLA Policy Optimization with RL",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.17983": {
+    "first_seen": "2026-10-14",
+    "title": "Breaking the Average: Overcoming Convergent Defaults in Robotic Manipulation via Diagnostic Chain-of-Thought and Structured Guidance",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.17999": {
+    "first_seen": "2026-10-14",
+    "title": "TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18093": {
+    "first_seen": "2026-10-14",
+    "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18135": {
+    "first_seen": "2026-10-14",
+    "title": "SkipWorld: Latent Skip Planning with Distilled World Models for Efficient Visual Navigation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18289": {
+    "first_seen": "2026-10-14",
+    "title": "LongForcing: Scaling Temporal Manifold Matching for Long-Horizon World Rollout",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18305": {
+    "first_seen": "2026-10-14",
+    "title": "AffectWorld: Benchmarking Emotion-Driven Future World Prediction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18373": {
+    "first_seen": "2026-10-14",
+    "title": "DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18381": {
+    "first_seen": "2026-10-14",
+    "title": "Benchmarking Interaction-Oriented Aerial Mobility across Heterogeneous Environments",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18447": {
+    "first_seen": "2026-10-14",
+    "title": "Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2610.18499": {
+    "first_seen": "2026-10-14",
+    "title": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.18568": {
+    "first_seen": "2026-10-14",
+    "title": "WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.18570": {
+    "first_seen": "2026-10-14",
+    "title": "Order-Consistent Latent Geometry for Reliable Short-Horizon Planning in World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18596": {
+    "first_seen": "2026-10-14",
+    "title": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18637": {
+    "first_seen": "2026-10-14",
+    "title": "Grid or Nodes? Probing Object Memory in World Models Under Partial Observability",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18650": {
+    "first_seen": "2026-10-14",
+    "title": "ForkCast: Predictive Recovery for Vision-Language-Action Policies via Counterfactual Futures",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.18697": {
+    "first_seen": "2026-10-14",
+    "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18699": {
+    "first_seen": "2026-10-14",
+    "title": "RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18711": {
+    "first_seen": "2026-10-14",
+    "title": "Steertuning Policies from a Few Human Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.18774": {
+    "first_seen": "2026-10-14",
+    "title": "GreenWAM: A World Foundation Model for Robotics",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.18790": {
+    "first_seen": "2026-10-14",
+    "title": "EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18792": {
+    "first_seen": "2026-10-14",
+    "title": "SEAR: Self-Evolving Agentic Robotics",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18822": {
+    "first_seen": "2026-10-14",
+    "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.18826": {
+    "first_seen": "2026-10-14",
+    "title": "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18843": {
+    "first_seen": "2026-10-14",
+    "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18852": {
+    "first_seen": "2026-10-14",
+    "title": "ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.18855": {
+    "first_seen": "2026-10-14",
+    "title": "Interaction Latents as Actions for Contact-Rich Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18867": {
+    "first_seen": "2026-10-14",
+    "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18869": {
+    "first_seen": "2026-10-14",
+    "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.18872": {
+    "first_seen": "2026-10-14",
+    "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.18874": {
+    "first_seen": "2026-10-14",
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
     "topics": [
       "vla"
     ]

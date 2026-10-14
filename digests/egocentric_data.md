@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-14 00:44 UTC
+**Last updated:** 2026-10-14 19:59 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 18 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,6 +38,111 @@ As we move through the world and carry out everyday tasks, we encounter objects 
 arXiv: https://arxiv.org/abs/2610.10538
 Project page: https://ledger-3d.github.io
 Code: https://github.com/LEDGER-3D/LEDGER
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos](https://arxiv.org/abs/2610.18822)
+
+**Authors:** Ziheng Wang, Yanming Shao, Ting Mao, Kaihan Chen, Yiqun Wang et al. (7 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18822) | [PDF](https://arxiv.org/pdf/2610.18822) | [Project Page](https://spikew726.github.io/EgoMatrix/)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots. It reconstructs HOI with emphasis on rela...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos
+
+Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data.
+
+arXiv: https://arxiv.org/abs/2610.18822
+Project page: https://spikew726.github.io/EgoMatrix/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Steertuning Policies from a Few Human Videos](https://arxiv.org/abs/2610.18711)
+
+**Authors:** Billy Yan, Isaac Tu, Kelly Lee, Blake Chang, Kenny Ma et al. (11 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18711) | [PDF](https://arxiv.org/pdf/2610.18711) | [Project Page](https://steertuning.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies. In this work, we introduce Steertuning, a system that enables robots to learn new tasks in new environments from 5 human demonstrations in under 5 Steertuning consists of two parts. (1) We pretrain a 400M-parameter diffusion policy on our egocentric human dataset, which consists of 100 hours of densely annotated random interactions. This pretraining makes Steertuning robust to background differences and enables spatial and object generalization when deployed on new tasks....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Steertuning Policies from a Few Human Videos
+
+Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies.
+
+arXiv: https://arxiv.org/abs/2610.18711
+Project page: https://steertuning.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Safety for Whom? Benchmarking Understanding Beyond Refusal in Egocentric Multimodal Assistants](https://arxiv.org/abs/2610.17728)
+
+**Authors:** Yewon Han, Jisu Jeon, Suhyun Choi, Juan Yeo, Minsoo Jo et al. (8 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.AI, cs.HC | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.17728) | [PDF](https://arxiv.org/pdf/2610.17728) | [Project Page](https://onedayoneyeah.github.io/safety-for-whom)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric multimodal assistants see through the user's eyes and guide what the user does next, so their outputs directly shape physical actions, including those that affect bystanders. Yet existing safety evaluations do not distinguish whom a response would harm, and score only whether a model refuses. Pooling all harms into one refusal rate hides two failures: a model may protect one target but not another, and it may refuse without understanding the risk, or understand it and comply anyway. We present STOU, a benchmark of 2,902 egocentric video-audio and video-text queries whose potential h...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Safety for Whom? Benchmarking Understanding Beyond Refusal in Egocentric Multimodal Assistants
+
+Egocentric multimodal assistants see through the user's eyes and guide what the user does next, so their outputs directly shape physical actions, including those that affect bystanders.
+
+arXiv: https://arxiv.org/abs/2610.17728
+Project page: https://onedayoneyeah.github.io/safety-for-whom
 
 #egocentric #robotlearning
 ```
@@ -186,6 +291,40 @@ Project page: https://seungjun-moon.github.io/rlhnd/
 
 ---
 
+### [EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos](https://arxiv.org/abs/2610.17128)
+
+**Authors:** Haokai Pang, Yuqian Fu, Yifei Wang, Yujiao Shen, Tianwen Qian et al. (7 authors)
+
+**Published:** 2026-10-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.17128) | [PDF](https://arxiv.org/pdf/2610.17128)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants. Unlike offline video understanding, streaming systems must process observations as they arrive, while queries may refer to experiences from the distant past. Recent work has begun to explore whether information can be recalled across long temporal gaps. Yet remembering how far is only part of the challenge: recurring objects, actions, and locations also require models to remember exactly which detail belongs to which event. We introduce EgoProbe, a bench...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos
+
+Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants.
+
+arXiv: https://arxiv.org/abs/2610.17128
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
 
 **Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
@@ -283,6 +422,74 @@ Large-scale egocentric human interaction data is becoming an important source of
 
 arXiv: https://arxiv.org/abs/2610.10288
 Project page: https://touch-scale.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872)
+
+**Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi et al. (14 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.18872) | [PDF](https://arxiv.org/pdf/2610.18872)
+
+<details>
+<summary>Abstract</summary>
+
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion,...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
+
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold.
+
+arXiv: https://arxiv.org/abs/2610.18872
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions](https://arxiv.org/abs/2610.18499)
+
+**Authors:** Songruo Chen, Yuqian Fu, Yu Li, Mingkang Dong, Sifan Zhou et al. (10 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.18499) | [PDF](https://arxiv.org/pdf/2610.18499)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction. We propose the Ego-Action-World interaction loop as a unifying principle: the wearer perceives the world, forms goals, acts, changes the world, and uses feedback to guide subsequent behavior. Based on this view, we introduce EgoOmniWorld, a benchmark organized around four complementary interaction structures: Node captures ego, action, and world states; Edge captures directed relations among them; Chain c...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions
+
+Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction.
+
+arXiv: https://arxiv.org/abs/2610.18499
 
 #egocentric #robotlearning
 ```
