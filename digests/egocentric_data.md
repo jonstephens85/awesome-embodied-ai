@@ -2,11 +2,46 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-15 00:10 UTC
+**Last updated:** 2026-10-15 19:42 UTC
 
-**Papers shown:** 14 (relevance ≥ 2, last 7 days)
+**Papers shown:** 17 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950)
+
+**Authors:** Lambda-humanoid Team
+
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18950) | [PDF](https://arxiv.org/pdf/2610.18950) | [Project Page](https://lambdahumanoid.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchronized body and hand motion. Our human-to-humanoid pipeline aligns camera viewpoints and arm appearance...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
+
+Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly.
+
+arXiv: https://arxiv.org/abs/2610.18950
+Project page: https://lambdahumanoid.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -290,6 +325,40 @@ Project page: https://egocentricvoice.github.io/
 
 ---
 
+### [NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation](https://arxiv.org/abs/2610.19330)
+
+**Authors:** Hochul Hwang, Jahir Sadik Monon, Soowan Yang, Shiven Umeshbhai Patel, Anh Nhat Hong Nguyen et al. (12 authors)
+
+**Published:** 2026-10-14 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric data" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.19330) | [PDF](https://arxiv.org/pdf/2610.19330)
+
+<details>
+<summary>Abstract</summary>
+
+Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobility for blind and low-vision (BLV) users. Yet these categories are underrepresented in existing large-scale vision datasets, and the few datasets that include them suffer from limited class coverage, inconsistent annotations, and poor diversity. We introduce NavAble, a large-scale dataset spanning 11 accessibility-critical object classes, combining 41K curated open-source images w...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation
+
+Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobil...
+
+arXiv: https://arxiv.org/abs/2610.19330
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872)
 
 **Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi et al. (14 authors)
@@ -350,6 +419,40 @@ EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interaction
 Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction.
 
 arXiv: https://arxiv.org/abs/2610.18499
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013)
+
+**Authors:** Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Hrant Khachatrian
+
+**Published:** 2026-10-13 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "Ego4D" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.19013) | [PDF](https://arxiv.org/pdf/2610.19013)
+
+<details>
+<summary>Abstract</summary>
+
+Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value. In this work, we examine this assumption for image self-distillation models. Through systematic experiments across diverse datasets, namely Maxar, SATLAS, Waymo, nuPlan, Ego4D, ImageNet, and YFCC15M, we demonstrate that the effects of sample repetition on downstream performance are non-trivial and dataset-dependent. We identify settings where repeatedly training on a smaller random subset can outpe...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Data Density Scaling Laws for Image Self-Distillation
+
+Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value.
+
+arXiv: https://arxiv.org/abs/2610.19013
 
 #egocentric #robotlearning
 ```
