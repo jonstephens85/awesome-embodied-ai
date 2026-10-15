@@ -2,47 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-14 19:59 UTC
+**Last updated:** 2026-10-15 00:10 UTC
 
-**Papers shown:** 18 (relevance ≥ 2, last 7 days)
+**Papers shown:** 14 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos](https://arxiv.org/abs/2610.10538)
-
-**Authors:** Shravan Chaudhari, William Paul, Suchi Saria, Rama Chellappa, Homanga Bharadhwaj
-
-**Published:** 2026-10-07 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10538) | [PDF](https://arxiv.org/pdf/2610.10538) | [Project Page](https://ledger-3d.github.io) | [Code](https://github.com/LEDGER-3D/LEDGER)
-
-<details>
-<summary>Abstract</summary>
-
-As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual descriptions. It associates observations across the recording and retains objects after they leave the...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos
-
-As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later.
-
-arXiv: https://arxiv.org/abs/2610.10538
-Project page: https://ledger-3d.github.io
-Code: https://github.com/LEDGER-3D/LEDGER
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -256,75 +220,6 @@ Code: https://github.com/WeiZhou96/FRPR-interaction-anticipation
 
 ---
 
-### [RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning](https://arxiv.org/abs/2610.09455)
-
-**Authors:** Seungjun Moon, Subin Jeon, Sangwoo Kim, Hanbyul Joo, Jinwoo Shin
-
-**Published:** 2026-10-07 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.09455) | [PDF](https://arxiv.org/pdf/2610.09455) | [Project Page](https://seungjun-moon.github.io/rlhnd/)
-
-<details>
-<summary>Abstract</summary>
-
-Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent. However, most existing hand trackers regress pose from cropped frames with limited priors on hand motion and object interaction, resulting in inaccurate and physically inconsistent estimates. Moreover, the lack of physical cues, e.g., contact and force, limits the use of human videos for robot policy training. To this end, we propose RLHND, a video foundation model-based hand tracking model that jointly estimates hand pose and realistic tactile information from monocular egocen...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning
-
-Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent.
-
-arXiv: https://arxiv.org/abs/2610.09455
-Project page: https://seungjun-moon.github.io/rlhnd/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos](https://arxiv.org/abs/2610.17128)
-
-**Authors:** Haokai Pang, Yuqian Fu, Yifei Wang, Yujiao Shen, Tianwen Qian et al. (7 authors)
-
-**Published:** 2026-10-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17128) | [PDF](https://arxiv.org/pdf/2610.17128)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants. Unlike offline video understanding, streaming systems must process observations as they arrive, while queries may refer to experiences from the distant past. Recent work has begun to explore whether information can be recalled across long temporal gaps. Yet remembering how far is only part of the challenge: recurring objects, actions, and locations also require models to remember exactly which detail belongs to which event. We introduce EgoProbe, a bench...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos
-
-Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants.
-
-arXiv: https://arxiv.org/abs/2610.17128
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
 
 **Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
@@ -387,41 +282,6 @@ Wearable augmented reality (AR) assistants are moving toward continuous real-wor
 
 arXiv: https://arxiv.org/abs/2610.12248
 Project page: https://egocentricvoice.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning](https://arxiv.org/abs/2610.10288)
-
-**Authors:** Dayou Li, Hao Wang, Qianqian Yang, Zihao Zhu, Haoquan Fang et al. (26 authors)
-
-**Published:** 2026-10-07 (updated 2026-10-08) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric human" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.10288) | [PDF](https://arxiv.org/pdf/2610.10288) | [Project Page](https://touch-scale.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrecorded. Recent visual-tactile datasets provide this missing supervision, but their synchronized tactile data remain far smaller in volume than human video. Moreover, the largest resources often merge recordings from different sensors or annotation procedures, which makes the effect of data scale difficult to isolate. We therefore introduce TouchScale, a 500-hour dataset of contact-...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning
-
-Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that characterize physical interaction unrec...
-
-arXiv: https://arxiv.org/abs/2610.10288
-Project page: https://touch-scale.github.io/
 
 #egocentric #robotlearning
 ```
@@ -498,6 +358,40 @@ arXiv: https://arxiv.org/abs/2610.18499
 
 ---
 
+### [EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos](https://arxiv.org/abs/2610.17128)
+
+**Authors:** Haokai Pang, Yuqian Fu, Yifei Wang, Yujiao Shen, Tianwen Qian et al. (7 authors)
+
+**Published:** 2026-10-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.17128) | [PDF](https://arxiv.org/pdf/2610.17128)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants. Unlike offline video understanding, streaming systems must process observations as they arrive, while queries may refer to experiences from the distant past. Recent work has begun to explore whether information can be recalled across long temporal gaps. Yet remembering how far is only part of the challenge: recurring objects, actions, and locations also require models to remember exactly which detail belongs to which event. We introduce EgoProbe, a bench...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos
+
+Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants.
+
+arXiv: https://arxiv.org/abs/2610.17128
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition](https://arxiv.org/abs/2610.12926)
 
 **Authors:** Kansuke Habano
@@ -558,40 +452,6 @@ LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
 Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
 
 arXiv: https://arxiv.org/abs/2610.12442
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Long-WAM: Scaling the Context of World-Action Models](https://arxiv.org/abs/2610.10528)
-
-**Authors:** Wei Huang, Bohan Zhang, Chenzhi Liu, Isabella Liu, Shuai Yang et al. (16 authors)
-
-**Published:** 2026-10-07 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.10528) | [PDF](https://arxiv.org/pdf/2610.10528)
-
-<details>
-<summary>Abstract</summary>
-
-Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Long-WAM: Scaling the Context of World-Action Models
-
-Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action.
-
-arXiv: https://arxiv.org/abs/2610.10528
 
 #egocentric #robotlearning
 ```
