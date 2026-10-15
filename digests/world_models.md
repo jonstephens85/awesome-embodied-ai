@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-15 19:42 UTC
+**Last updated:** 2026-10-15 23:58 UTC
 
 **Papers shown:** 79 (relevance ≥ 2, last 7 days)
 
