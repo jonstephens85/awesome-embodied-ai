@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17 18:10 UTC",
+  "generated": "2026-10-17 23:37 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -46,7 +46,7 @@
       "project_page": null,
       "github_url": "https://github.com/kyutai-labs/reki",
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "REKI: Registering Knowledge in VLAs\n\nWe introduce REKI, a 2.4B vision-language-action model (VLA) pretrained exclusively on public data that sets a new Pareto frontier between performance and model size: on LIBERO-Plus, RoboTwin Clean2Rand and RoboCasa36...\n\narXiv: https://arxiv.org/abs/2610.22178\nCode: https://github.com/kyutai-labs/reki\n\n#VLA #robotics"
     },
     {
@@ -78,7 +78,7 @@
       "project_page": null,
       "github_url": "https://github.com/jiuyixu25/FastVLA",
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models\n\nVision-Language-Action (VLA) models present a promising paradigm for general-purpose robot manipulation, but closed-loop deployment is often limited by inference efficiency: at each timestep, high-resolution, often mu...\n\narXiv: https://arxiv.org/abs/2610.22146\nCode: https://github.com/jiuyixu25/FastVLA\n\n#VLA #robotics"
     },
     {
@@ -113,7 +113,7 @@
       "project_page": null,
       "github_url": "https://github.com/ZJU-OmniAI/VLA-Delta",
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "VLA-$Δ$: Learning Physical State Transition for Vision-Language-Action Models\n\nVision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks.\n\narXiv: https://arxiv.org/abs/2610.21306\nCode: https://github.com/ZJU-OmniAI/VLA-Delta\n\n#VLA #robotics"
     },
     {
@@ -149,7 +149,7 @@
       "project_page": "https://garfield-kh.github.io/FastVLA",
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Fast-VLA: You Only Think Once for Robot Manipulation\n\nVision-language-action (VLA) policies commonly place a multi-billion-parameter model inside the feedback loop, repeatedly recomputing task context whenever they predict a new action chunk.\n\narXiv: https://arxiv.org/abs/2610.21389\nProject page: https://garfield-kh.github.io/FastVLA\n\n#VLA #robotics"
     },
     {
@@ -182,7 +182,7 @@
       "project_page": null,
       "github_url": "https://github.com/buaa-colalab/LTM-pi",
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models\n\nRobotic manipulation often requires remembering interactions that are no longer visible.\n\narXiv: https://arxiv.org/abs/2610.21362\nCode: https://github.com/buaa-colalab/LTM-pi\n\n#VLA #robotics"
     },
     {
@@ -455,7 +455,7 @@
       "project_page": "https://orbia-bench.github.io/",
       "github_url": "https://github.com/worldbench/Orbia",
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Orbia: Do Generated Videos Form a Consistent 3D World?\n\nVideo generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world.\n\narXiv: https://arxiv.org/abs/2610.20693\nProject page: https://orbia-bench.github.io/\nCode: https://github.com/worldbench/Orbia\n\n#worldmodels #robotics"
     },
     {
@@ -516,7 +516,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models\n\nSpecialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging.\n\narXiv: https://arxiv.org/abs/2610.21522\n\n#VLA #robotics"
     },
     {
@@ -553,7 +553,7 @@
       "project_page": "https://vincent2311.github.io/Projects/CarryOn/",
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance\n\nWhile generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic assistance requires two critical capabilities they currently lack: personalization and reliable exe...\n\narXiv: https://arxiv.org/abs/2610.21453\nProject page: https://vincent2311.github.io/Projects/CarryOn/\n\n#VLA #robotics"
     },
     {
@@ -583,7 +583,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Do VLAs Really Follow Instructions? Diagnosing How-Level Instruction Following in Vision-Language-Action Models\n\nVision-language-action (VLA) models are expected to follow instructions like their language backbones, yet prior work has focused on What-level instructions that specify the task rather than How-level instructions tha...\n\narXiv: https://arxiv.org/abs/2610.21251\n\n#VLA #robotics"
     },
     {
@@ -610,7 +610,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "When to Ask for Help: A Decision-Theoretic Account and Measurement Standard for Slow-Module Scheduling in Dual-System Vision-Language-Action Models\n\nDual-system vision-language-action (VLA) models pair a high-frequency fast policy with a slow, expensive module, and published trigger mechanisms for invoking it lack a shared objective, measured costs, and any standa...\n\narXiv: https://arxiv.org/abs/2610.21160\n\n#VLA #robotics"
     },
     {
@@ -651,7 +651,7 @@
       "project_page": "https://p3-wam.pages.dev/",
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation\n\nWe introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perc...\n\narXiv: https://arxiv.org/abs/2610.22363\nProject page: https://p3-wam.pages.dev/\n\n#worldmodels #robotics"
     },
     {
@@ -1221,7 +1221,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration\n\nTraining humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels.\n\narXiv: https://arxiv.org/abs/2610.21152\n\n#egocentric #robotlearning"
     },
     {
@@ -1257,7 +1257,7 @@
       "project_page": "https://libero-perm.github.io/",
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation\n\nPersonalization is essential for general-purpose robots to transition into household environments and achieve true practicality.\n\narXiv: https://arxiv.org/abs/2610.22372\nProject page: https://libero-perm.github.io/\n\n#VLA #robotics"
     },
     {
@@ -1291,7 +1291,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models\n\nFlow-based Vision-Language-Action (VLA) policies are inherently stochastic: different noise seeds can produce action chunks of varying quality from the same observation.\n\narXiv: https://arxiv.org/abs/2610.21985\n\n#VLA #robotics"
     },
     {
@@ -1327,7 +1327,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "What Should Robot Policies Learn to Predict? Rethinking Supervision Targets in Vision-Language-Action Learning\n\nVision-language-action (VLA) policies are typically trained with action prediction as the primary supervision signal, since robots ultimately execute actions.\n\narXiv: https://arxiv.org/abs/2610.21915\n\n#VLA #robotics"
     },
     {
@@ -1360,7 +1360,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution\n\nVision-language-action (VLA) policies generate action sequences that reduce repeated inference, but deciding how much of each sequence to execute is critical to task success.\n\narXiv: https://arxiv.org/abs/2610.21434\n\n#VLA #robotics"
     },
     {
@@ -1394,7 +1394,7 @@
       "project_page": "https://davian-robotics.github.io/PAM/",
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "An Agentic Framework for Proactive Robots with Procedural Assistance Memory\n\nProactive robots should anticipate user needs and provide assistance before being explicitly asked.\n\narXiv: https://arxiv.org/abs/2610.21211\nProject page: https://davian-robotics.github.io/PAM/\n\n#VLA #robotics"
     },
     {
@@ -1425,7 +1425,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models\n\nReliable contact-rich manipulation requires detecting execution deviations early enough for corrective action.\n\narXiv: https://arxiv.org/abs/2610.21686\n\n#worldmodels #robotics"
     },
     {
@@ -1465,7 +1465,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos\n\nEgocentric human videos offer a scalable alternative to costly robot demonstra- tions, yet transferring their manipulation priors to robot control remains chal- lenging.\n\narXiv: https://arxiv.org/abs/2610.20904\n\n#egocentric #robotlearning"
     },
     {
@@ -1509,7 +1509,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "A Phenomenology of Neural Geometry in Vision-Language-Action Models\n\nRobotic manipulation is inherently geometric, but what shape does the world take inside the policy that performs it?\n\narXiv: https://arxiv.org/abs/2610.20840\n\n#VLA #robotics"
     },
     {
@@ -2360,7 +2360,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control\n\nMany vision-language-action policies rely on action-labeled robot demonstrations and lack an explicit mechanism for predicting future visual states.\n\narXiv: https://arxiv.org/abs/2610.21922\n\n#worldmodels #robotics"
     },
     {
@@ -2397,7 +2397,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models\n\nPredicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties...\n\narXiv: https://arxiv.org/abs/2610.22364\n\n#worldmodels #robotics"
     },
     {
@@ -2431,7 +2431,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Plans Are Not Executions: Adapting Frozen World-Model Planners to Controller-Induced Execution Shift\n\nWorld-model planners evaluate candidate trajectories by predicting their future consequences, implicitly relying on the plan-to-motion relationship learned during training.\n\narXiv: https://arxiv.org/abs/2610.22041\n\n#worldmodels #robotics"
     },
     {
@@ -3271,7 +3271,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Memory as Weights: Internalizing Long-Term History for Streaming Videos\n\nStreaming vision-language models (VLMs) must continuously integrate information from the past while remaining responsive to current observations and user queries.\n\narXiv: https://arxiv.org/abs/2610.22070\n\n#VLA #robotics"
     },
     {
@@ -3299,7 +3299,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Velox: Spatial Memory Makes World Models Efficient\n\nVideo world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation.\n\narXiv: https://arxiv.org/abs/2610.22311\n\n#worldmodels #robotics"
     },
     {
@@ -3329,7 +3329,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Learning Intrinsic Dynamics in Latent World Models\n\nLearning intrinsic dynamics---the relationship between actions and their consequences---is essential for world models.\n\narXiv: https://arxiv.org/abs/2610.21612\n\n#worldmodels #robotics"
     },
     {
@@ -3606,7 +3606,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation\n\nGeneralist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images.\n\narXiv: https://arxiv.org/abs/2610.22342\n\n#egocentric #robotlearning"
     },
     {
@@ -3637,7 +3637,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Dexterity from Supervised Play\n\nHow can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation?\n\narXiv: https://arxiv.org/abs/2610.22340\n\n#worldmodels #robotics"
     },
     {
@@ -3664,7 +3664,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion\n\nSafe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable.\n\narXiv: https://arxiv.org/abs/2610.21374\n\n#worldmodels #robotics"
     },
     {
@@ -3705,7 +3705,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains\n\nVision-language-action (VLA) models are a promising approach to general purpose robot manipulation.\n\narXiv: https://arxiv.org/abs/2610.20750\n\n#VLA #robotics"
     },
     {
@@ -3777,7 +3777,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-10-17",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Multi-Dimensional Featurizers Yield Fine-Grained Steering and Data Shaping in Robot Foundation Models\n\nCan better feature discovery improve control over robot behavior through internal interventions and training data?\n\narXiv: https://arxiv.org/abs/2610.20767\n\n#VLA #robotics"
     },
     {
