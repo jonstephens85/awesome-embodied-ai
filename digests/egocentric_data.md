@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-15 23:58 UTC
+**Last updated:** 2026-10-17 18:10 UTC
 
-**Papers shown:** 17 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,9 +14,9 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Lambda-humanoid Team
 
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18950) | [PDF](https://arxiv.org/pdf/2610.18950) | [Project Page](https://lambdahumanoid.github.io/)
 
@@ -49,9 +49,9 @@ Project page: https://lambdahumanoid.github.io/
 
 **Authors:** Ziheng Wang, Yanming Shao, Ting Mao, Kaihan Chen, Yiqun Wang et al. (7 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18822) | [PDF](https://arxiv.org/pdf/2610.18822) | [Project Page](https://spikew726.github.io/EgoMatrix/)
 
@@ -80,13 +80,83 @@ Project page: https://spikew726.github.io/EgoMatrix/
 
 ---
 
+### [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152)
+
+**Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu et al. (11 authors)
+
+**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.21152) | [PDF](https://arxiv.org/pdf/2610.21152)
+
+<details>
+<summary>Abstract</summary>
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues. Existing approaches either pretrain policies that still require robot data for adaptation or generate controller-specific commands that limit reuse. Conversion also requires robot-view observations aligned with the generated whole-body motion. We present KODA (Kinematics-Observation Data Ali...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels.
+
+arXiv: https://arxiv.org/abs/2610.21152
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2610.20904)
+
+**Authors:** Meng Cao, Can Zhao, Jinjie Wei, Haonan Zhao, Yulong Zhang et al. (15 authors)
+
+**Published:** 2026-10-14 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; 3 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.20904) | [PDF](https://arxiv.org/pdf/2610.20904)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric human videos offer a scalable alternative to costly robot demonstra- tions, yet transferring their manipulation priors to robot control remains chal- lenging. The commonly adopted retargeting-based approaches convert human wrist and finger poses into embodiment-specific action commands through hand- crafted geometric mappings. However, such mappings require meticulous recal- ibration across different embodiments and risk propagating hand-tracking errors into downstream robot control pipelines. To this end, we propose EgoJEPA, a three-stage framework that learns embodiment-agnostic r...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos
+
+Egocentric human videos offer a scalable alternative to costly robot demonstra- tions, yet transferring their manipulation priors to robot control remains chal- lenging.
+
+arXiv: https://arxiv.org/abs/2610.20904
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Steertuning Policies from a Few Human Videos](https://arxiv.org/abs/2610.18711)
 
 **Authors:** Billy Yan, Isaac Tu, Kelly Lee, Blake Chang, Kenny Ma et al. (11 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric human" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in abstract; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18711) | [PDF](https://arxiv.org/pdf/2610.18711) | [Project Page](https://steertuning.github.io)
 
@@ -121,7 +191,7 @@ Project page: https://steertuning.github.io
 
 **Published:** 2026-10-13 | **Categories:** cs.AI, cs.HC | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.17728) | [PDF](https://arxiv.org/pdf/2610.17728) | [Project Page](https://onedayoneyeah.github.io/safety-for-whom)
 
@@ -150,229 +220,20 @@ Project page: https://onedayoneyeah.github.io/safety-for-whom
 
 ---
 
-### [LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos](https://arxiv.org/abs/2610.13732)
+### [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342)
 
-**Authors:** Zhiyuan Xiang, Peidong Liu, Mingyang Li, Jiawei Li, Wenhow Li et al. (7 authors)
+**Authors:** Tianxing Chen, Wenwei Lin, Chuqiao Lyu, Peicheng Xiang, Junyuan Tang et al. (22 authors)
 
-**Published:** 2026-10-09 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.13732) | [PDF](https://arxiv.org/pdf/2610.13732)
-
-<details>
-<summary>Abstract</summary>
-
-Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data. Large-scale egocentric human videos offer a rich alternative, but they lack robot action labels, and existing action annotation methods are often noisy under real-world visual complexity and diverse manipulation dynamics. We introduce LAPT-Scale, a scalable latent action pre-training paradigm with two components: LAPT-Scale-LAM learns continuous latent actions by explaining frame-to-frame visual transitions in human videos and uses them as human-derived supervision, while LAPT-Scale-Policy...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos
-
-Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data.
-
-arXiv: https://arxiv.org/abs/2610.13732
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations](https://arxiv.org/abs/2610.12999)
-
-**Authors:** Hiromu Kurihara, Kazutoshi Tanaka, Masashi Hatano, Tadashi Kozuno, Hideo Saito et al. (6 authors)
-
-**Published:** 2026-10-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.12999) | [PDF](https://arxiv.org/pdf/2610.12999)
-
-<details>
-<summary>Abstract</summary>
-
-Learning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations. In contrast to resource-intensive and labor-intensive teleoperation, egocentric demonstrations are easy to collect, enabling scalable data collection. Manipulated objects are often partially occluded in everyday environments, yet prior egocentric demonstration-based methods that require no robots or specialized teaching devices do not explicitly address occlusions. To fill this gap, we propose EgoReveal, a framework that learns viewpoint-repositioning together with manipulation ac...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations
-
-Learning from Demonstrations (LfD) enables robots to learn object manipulation directly from human demonstrations.
-
-arXiv: https://arxiv.org/abs/2610.12999
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation](https://arxiv.org/abs/2610.12245)
-
-**Authors:** Bowen Yang, Xinliang Xiao, Wenjing Zhang, Li Yang, Wei Zhou
-
-**Published:** 2026-10-08 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric dataset" in abstract; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12245) | [PDF](https://arxiv.org/pdf/2610.12245) | [Code](https://github.com/WeiZhou96/FRPR-interaction-anticipation)
-
-<details>
-<summary>Abstract</summary>
-
-Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference pose residual (FRPR) model: a geometry predictor built from the person's bounding box and mask is trained and frozen, and a temporal network then learns from body pose an additive correction to its logit, so that every prediction splits exactl...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation
-
-Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact.
-
-arXiv: https://arxiv.org/abs/2610.12245
-Code: https://github.com/WeiZhou96/FRPR-interaction-anticipation
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](https://arxiv.org/abs/2610.11310)
-
-**Authors:** Kyeong-Rae Kim, Sungnyun Kim, Tae-Hyun Oh
-
-**Published:** 2026-10-08 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.11310) | [PDF](https://arxiv.org/pdf/2610.11310) | [Project Page](https://byulharang.github.io/FloorSAV/)
-
-<details>
-<summary>Abstract</summary>
-
-While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry directly from raw sensory streams. Existing approaches either require costly fine-tuning or underutilize the model's cross-modal reasoning capacities. In this paper, we propose FloorSAV, a novel framework that explicitly grounds spatial audio-visual context by rendering a dynamic 2D floormap. By integrating 3D point clouds, camera trajectories, spatial audio cues, and semantically gro...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs
-
-While 3D spatial reasoning in dynamic egocentric environments is crucial for embodied intelligence, audio-visual large language models (AV-LLMs) lack explicit mechanisms to process and internalize global geometry dire...
-
-arXiv: https://arxiv.org/abs/2610.11310
-Project page: https://byulharang.github.io/FloorSAV/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams](https://arxiv.org/abs/2610.12248)
-
-**Authors:** Heeseung Kim
-
-**Published:** 2026-10-08 | **Categories:** cs.CL, cs.CV, cs.SD | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "first-person video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.12248) | [PDF](https://arxiv.org/pdf/2610.12248) | [Project Page](https://egocentricvoice.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly asked. While proactive video assistants, spoken dialog systems, and egocentric task understanding have each advanced rapidly, existing systems do not address the joint problem of deciding when to speak and what to say from continuous first-person streams. We introduce EgoVoice, a framework for training and evaluating proactive egocentric spoken assistants. From Hol...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams
-
-Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without b...
-
-arXiv: https://arxiv.org/abs/2610.12248
-Project page: https://egocentricvoice.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation](https://arxiv.org/abs/2610.19330)
-
-**Authors:** Hochul Hwang, Jahir Sadik Monon, Soowan Yang, Shiven Umeshbhai Patel, Anh Nhat Hong Nguyen et al. (12 authors)
-
-**Published:** 2026-10-14 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric data" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.19330) | [PDF](https://arxiv.org/pdf/2610.19330)
-
-<details>
-<summary>Abstract</summary>
-
-Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobility for blind and low-vision (BLV) users. Yet these categories are underrepresented in existing large-scale vision datasets, and the few datasets that include them suffer from limited class coverage, inconsistent annotations, and poor diversity. We introduce NavAble, a large-scale dataset spanning 11 accessibility-critical object classes, combining 41K curated open-source images w...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation
-
-Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobil...
-
-arXiv: https://arxiv.org/abs/2610.19330
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872)
-
-**Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi et al. (14 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.18872) | [PDF](https://arxiv.org/pdf/2610.18872)
+**Links:** [arXiv](https://arxiv.org/abs/2610.22342) | [PDF](https://arxiv.org/pdf/2610.22342)
 
 <details>
 <summary>Abstract</summary>
 
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion,...
+Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining, image-space contact maps derived from tactile gloves, together with features from a frozen 3D geometry teacher, supervise the visual tokens; these objectives are removed at inference. In parallel, a tactile pathway encodes regional force histori...
 
 </details>
 
@@ -380,79 +241,11 @@ Learning humanoid loco-manipulation from human demonstrations rests on observing
 <summary>Share</summary>
 
 ```
-EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
+Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation
 
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold.
+Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images.
 
-arXiv: https://arxiv.org/abs/2610.18872
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions](https://arxiv.org/abs/2610.18499)
-
-**Authors:** Songruo Chen, Yuqian Fu, Yu Li, Mingkang Dong, Sifan Zhou et al. (10 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18499) | [PDF](https://arxiv.org/pdf/2610.18499)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction. We propose the Ego-Action-World interaction loop as a unifying principle: the wearer perceives the world, forms goals, acts, changes the world, and uses feedback to guide subsequent behavior. Based on this view, we introduce EgoOmniWorld, a benchmark organized around four complementary interaction structures: Node captures ego, action, and world states; Edge captures directed relations among them; Chain c...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions
-
-Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction.
-
-arXiv: https://arxiv.org/abs/2610.18499
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013)
-
-**Authors:** Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Hrant Khachatrian
-
-**Published:** 2026-10-13 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "Ego4D" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.19013) | [PDF](https://arxiv.org/pdf/2610.19013)
-
-<details>
-<summary>Abstract</summary>
-
-Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value. In this work, we examine this assumption for image self-distillation models. Through systematic experiments across diverse datasets, namely Maxar, SATLAS, Waymo, nuPlan, Ego4D, ImageNet, and YFCC15M, we demonstrate that the effects of sample repetition on downstream performance are non-trivial and dataset-dependent. We identify settings where repeatedly training on a smaller random subset can outpe...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Data Density Scaling Laws for Image Self-Distillation
-
-Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value.
-
-arXiv: https://arxiv.org/abs/2610.19013
+arXiv: https://arxiv.org/abs/2610.22342
 
 #egocentric #robotlearning
 ```
@@ -495,20 +288,20 @@ arXiv: https://arxiv.org/abs/2610.17128
 
 ---
 
-### [What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition](https://arxiv.org/abs/2610.12926)
+### [NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation](https://arxiv.org/abs/2610.19330)
 
-**Authors:** Kansuke Habano
+**Authors:** Hochul Hwang, Jahir Sadik Monon, Soowan Yang, Shiven Umeshbhai Patel, Anh Nhat Hong Nguyen et al. (12 authors)
 
-**Published:** 2026-10-09 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-14 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in title
+**Why surfaced:** "egocentric data" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.12926) | [PDF](https://arxiv.org/pdf/2610.12926)
+**Links:** [arXiv](https://arxiv.org/abs/2610.19330) | [PDF](https://arxiv.org/pdf/2610.19330)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models. What these embeddings represent when the camera sits on the head, and how they should be combined with inertial sensing, has received little attention. Across VideoMAEv2, CLIP, DINOv2 and the egocentric VC-1, the leading principal directions of the embedding are dominated by where the camera looks. Measured head orientation explains them on Ego-Exo4D for egocentric (R^2 0.49-0.70) but not exocentric cameras, and the scene layout explains them on WEAR. The p...
+Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobility for blind and low-vision (BLV) users. Yet these categories are underrepresented in existing large-scale vision datasets, and the few datasets that include them suffer from limited class coverage, inconsistent annotations, and poor diversity. We introduce NavAble, a large-scale dataset spanning 11 accessibility-critical object classes, combining 41K curated open-source images w...
 
 </details>
 
@@ -516,11 +309,11 @@ Egocentric video and body-worn inertial sensors are increasingly recorded togeth
 <summary>Share</summary>
 
 ```
-What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition
+NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation
 
-Egocentric video and body-worn inertial sensors are increasingly recorded together, and the video is usually encoded by pretrained models.
+Reliable recognition of accessibility-critical objects (e.g., audible pedestrian signals, door-activation buttons, and handrails) is essential for assistive navigation technologies that support safe, independent mobil...
 
-arXiv: https://arxiv.org/abs/2610.12926
+arXiv: https://arxiv.org/abs/2610.19330
 
 #egocentric #robotlearning
 ```
@@ -529,54 +322,20 @@ arXiv: https://arxiv.org/abs/2610.12926
 
 ---
 
-### [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442)
+### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872)
 
-**Authors:** Suhwan Cho, Yonwoo Choi, Soongjin Kim, Jicheol Park, Taegyu Lim
+**Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi et al. (14 authors)
 
-**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.12442) | [PDF](https://arxiv.org/pdf/2610.12442)
-
-<details>
-<summary>Abstract</summary>
-
-Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model sh...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
-
-Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.
-
-arXiv: https://arxiv.org/abs/2610.12442
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video](https://arxiv.org/abs/2610.11347)
-
-**Authors:** Zhuo Dong, Jianhua Yang, Haohao Li, Yumeng Zhao, Keji He et al. (7 authors)
-
-**Published:** 2026-10-08 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★☆☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.11347) | [PDF](https://arxiv.org/pdf/2610.11347)
+**Links:** [arXiv](https://arxiv.org/abs/2610.18872) | [PDF](https://arxiv.org/pdf/2610.18872)
 
 <details>
 <summary>Abstract</summary>
 
-Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move. Peak contact force and mechanical work quantify these complementary aspects, but estimating them from egocentric video is challenging because physical interaction cues are local and indirect. Moreover, peak force is associated with brief contact events, whereas mechanical work depends on force-motion coupling throughout the contact duration. To address these challenges, we propose EgoPhys, an RGB-only framework comprising...
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion,...
 
 </details>
 
@@ -584,11 +343,79 @@ Physically grounded manipulation of articulated objects requires understanding b
 <summary>Share</summary>
 
 ```
-EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video
+EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
 
-Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move.
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold.
 
-arXiv: https://arxiv.org/abs/2610.11347
+arXiv: https://arxiv.org/abs/2610.18872
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions](https://arxiv.org/abs/2610.18499)
+
+**Authors:** Songruo Chen, Yuqian Fu, Yu Li, Mingkang Dong, Sifan Zhou et al. (10 authors)
+
+**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.18499) | [PDF](https://arxiv.org/pdf/2610.18499)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction. We propose the Ego-Action-World interaction loop as a unifying principle: the wearer perceives the world, forms goals, acts, changes the world, and uses feedback to guide subsequent behavior. Based on this view, we introduce EgoOmniWorld, a benchmark organized around four complementary interaction structures: Node captures ego, action, and world states; Edge captures directed relations among them; Chain c...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions
+
+Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction.
+
+arXiv: https://arxiv.org/abs/2610.18499
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013)
+
+**Authors:** Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Hrant Khachatrian
+
+**Published:** 2026-10-13 | **Categories:** cs.LG | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "Ego4D" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.19013) | [PDF](https://arxiv.org/pdf/2610.19013)
+
+<details>
+<summary>Abstract</summary>
+
+Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value. In this work, we examine this assumption for image self-distillation models. Through systematic experiments across diverse datasets, namely Maxar, SATLAS, Waymo, nuPlan, Ego4D, ImageNet, and YFCC15M, we demonstrate that the effects of sample repetition on downstream performance are non-trivial and dataset-dependent. We identify settings where repeatedly training on a smaller random subset can outpe...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Data Density Scaling Laws for Image Self-Distillation
+
+Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value.
+
+arXiv: https://arxiv.org/abs/2610.19013
 
 #egocentric #robotlearning
 ```
