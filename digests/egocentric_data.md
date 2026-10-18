@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-17 23:37 UTC
+**Last updated:** 2026-10-18 18:27 UTC
 
 **Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
@@ -80,42 +80,6 @@ Project page: https://spikew726.github.io/EgoMatrix/
 
 ---
 
-### [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152)
-
-**Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu et al. (11 authors)
-
-**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits; posted in last 2 days
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.21152) | [PDF](https://arxiv.org/pdf/2610.21152)
-
-<details>
-<summary>Abstract</summary>
-
-Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues. Existing approaches either pretrain policies that still require robot data for adaptation or generate controller-specific commands that limit reuse. Conversion also requires robot-view observations aligned with the generated whole-body motion. We present KODA (Kinematics-Observation Data Ali...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
-
-Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels.
-
-arXiv: https://arxiv.org/abs/2610.21152
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2610.20904)
 
 **Authors:** Meng Cao, Can Zhao, Jinjie Wei, Haonan Zhao, Yulong Zhang et al. (15 authors)
@@ -142,6 +106,42 @@ EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos
 Egocentric human videos offer a scalable alternative to costly robot demonstra- tions, yet transferring their manipulation priors to robot control remains chal- lenging.
 
 arXiv: https://arxiv.org/abs/2610.20904
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152)
+
+**Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu et al. (11 authors)
+
+**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.21152) | [PDF](https://arxiv.org/pdf/2610.21152)
+
+<details>
+<summary>Abstract</summary>
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues. Existing approaches either pretrain policies that still require robot data for adaptation or generate controller-specific commands that limit reuse. Conversion also requires robot-view observations aligned with the generated whole-body motion. We present KODA (Kinematics-Observation Data Ali...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels.
+
+arXiv: https://arxiv.org/abs/2610.21152
 
 #egocentric #robotlearning
 ```
@@ -220,40 +220,6 @@ Project page: https://onedayoneyeah.github.io/safety-for-whom
 
 ---
 
-### [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342)
-
-**Authors:** Tianxing Chen, Wenwei Lin, Chuqiao Lyu, Peicheng Xiang, Junyuan Tang et al. (22 authors)
-
-**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.22342) | [PDF](https://arxiv.org/pdf/2610.22342)
-
-<details>
-<summary>Abstract</summary>
-
-Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining, image-space contact maps derived from tactile gloves, together with features from a frozen 3D geometry teacher, supervise the visual tokens; these objectives are removed at inference. In parallel, a tactile pathway encodes regional force histori...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation
-
-Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images.
-
-arXiv: https://arxiv.org/abs/2610.22342
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos](https://arxiv.org/abs/2610.17128)
 
 **Authors:** Haokai Pang, Yuqian Fu, Yifei Wang, Yujiao Shen, Tianwen Qian et al. (7 authors)
@@ -280,6 +246,40 @@ EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Video
 Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants.
 
 arXiv: https://arxiv.org/abs/2610.17128
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342)
+
+**Authors:** Tianxing Chen, Wenwei Lin, Chuqiao Lyu, Peicheng Xiang, Junyuan Tang et al. (22 authors)
+
+**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.22342) | [PDF](https://arxiv.org/pdf/2610.22342)
+
+<details>
+<summary>Abstract</summary>
+
+Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining, image-space contact maps derived from tactile gloves, together with features from a frozen 3D geometry teacher, supervise the visual tokens; these objectives are removed at inference. In parallel, a tactile pathway encodes regional force histori...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation
+
+Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images.
+
+arXiv: https://arxiv.org/abs/2610.22342
 
 #egocentric #robotlearning
 ```
