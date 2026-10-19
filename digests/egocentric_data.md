@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-18 23:47 UTC
+**Last updated:** 2026-10-19 20:53 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 14 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -72,6 +72,40 @@ Egocentric human videos offer a scalable alternative to robot teleoperation for 
 
 arXiv: https://arxiv.org/abs/2610.18822
 Project page: https://spikew726.github.io/EgoMatrix/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.22932)
+
+**Authors:** Qianqian Yang, Dayou Li, Bangya Liu, Zihao Zhu, Nuo Chen et al. (14 authors)
+
+**Published:** 2026-10-16 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in title; 3 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.22932) | [PDF](https://arxiv.org/pdf/2610.22932)
+
+<details>
+<summary>Abstract</summary>
+
+Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone. Measuring them on robots requires specialized tactile hardware and platform-specific data collection, which keeps robot tactile data scarce. Human egocentric video is far easier to scale but lacks touch. Recent predictors trained on egocentric recordings paired with tactile-glove measurements can predict this missing signal from video alone. These predictors, however, remain confined to human hands, which differ from robot hands in appearance and tactile layout....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation
+
+Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone.
+
+arXiv: https://arxiv.org/abs/2610.22932
 
 #egocentric #robotlearning
 ```
@@ -212,6 +246,40 @@ Egocentric multimodal assistants see through the user's eyes and guide what the 
 
 arXiv: https://arxiv.org/abs/2610.17728
 Project page: https://onedayoneyeah.github.io/safety-for-whom
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video](https://arxiv.org/abs/2610.22681)
+
+**Authors:** Chaoyu Li, Arka Sadhu, Yuliang Li, Hyo Jin Kim, Yuning Chai et al. (6 authors)
+
+**Published:** 2026-10-15 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.22681) | [PDF](https://arxiv.org/pdf/2610.22681)
+
+<details>
+<summary>Abstract</summary>
+
+Answering complex spatial reasoning questions from egocentric video requires determining what evidence is needed, acquiring targeted observations, and combining them through multiple reasoning steps. Existing vision-language models (VLMs) struggle to perform this process reliably. Agentic systems address this challenge by querying external vision and geometry tools, but training their reasoning leaves these tools unchanged, so inaccurate observations can still lead to incorrect answers. We introduce EgoP$^{2}$C, a framework that internalizes a plan-perceive-compose process within a single VLM....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video
+
+Answering complex spatial reasoning questions from egocentric video requires determining what evidence is needed, acquiring targeted observations, and combining them through multiple reasoning steps.
+
+arXiv: https://arxiv.org/abs/2610.22681
 
 #egocentric #robotlearning
 ```

@@ -7014,5 +7014,173 @@
     "topics": [
       "vla"
     ]
+  },
+  "2610.22450": {
+    "first_seen": "2026-10-19",
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.22556": {
+    "first_seen": "2026-10-19",
+    "title": "When Plans Change, Remember: Replanning-Guided Visual Memory for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.22576": {
+    "first_seen": "2026-10-19",
+    "title": "Embodiment-Classifier Guidance: Transferring Frozen VLAs Across Robot Dynamics without Demonstrations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.22655": {
+    "first_seen": "2026-10-19",
+    "title": "Is a Linear Probe Evidence of a Linear Representation?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.22681": {
+    "first_seen": "2026-10-19",
+    "title": "EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.22708": {
+    "first_seen": "2026-10-19",
+    "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.22825": {
+    "first_seen": "2026-10-19",
+    "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.22932": {
+    "first_seen": "2026-10-19",
+    "title": "Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.22951": {
+    "first_seen": "2026-10-19",
+    "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23018": {
+    "first_seen": "2026-10-19",
+    "title": "VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23053": {
+    "first_seen": "2026-10-19",
+    "title": "Unifying Embodied Foundation Models via a Model-to-Policy Formulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23123": {
+    "first_seen": "2026-10-19",
+    "title": "GRASP: Global-Local Representation Alignment and Spatial-Physical Grounding for Bimanual Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23127": {
+    "first_seen": "2026-10-19",
+    "title": "BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.23156": {
+    "first_seen": "2026-10-19",
+    "title": "ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.23271": {
+    "first_seen": "2026-10-19",
+    "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23288": {
+    "first_seen": "2026-10-19",
+    "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23319": {
+    "first_seen": "2026-10-19",
+    "title": "From Sliding Windows to Self-evolving Lifelong Memory: A Dual-perspective Survey of Memory Paradigms for Long-Horizon Robotics VLA Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23372": {
+    "first_seen": "2026-10-19",
+    "title": "Beyond Success Rate: Interventional Evaluation of Memory in Vision-Language-Action Systems",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23378": {
+    "first_seen": "2026-10-19",
+    "title": "Look Before You Act: Bridging Active Perception and Vision-Language-Action Models via Observation-Aligned Data Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23396": {
+    "first_seen": "2026-10-19",
+    "title": "AWAM: Active Trajectory-Conditioned View Imagination for Robust Robot Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.23423": {
+    "first_seen": "2026-10-19",
+    "title": "Momentum: Persistent Dynamics for Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.23566": {
+    "first_seen": "2026-10-19",
+    "title": "Enhancing Visual Task-Redirection Attacks on Vision-Language-Action Models via Closed-Loop Optimization",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.23615": {
+    "first_seen": "2026-10-19",
+    "title": "Beyond Action Prediction: Learning Search-Free Planning in Latent Space",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.23722": {
+    "first_seen": "2026-10-19",
+    "title": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability",
+    "topics": [
+      "world_models"
+    ]
   }
 }
