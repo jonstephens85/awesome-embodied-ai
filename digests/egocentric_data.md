@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-19 20:53 UTC
+**Last updated:** 2026-10-20 00:48 UTC
 
-**Papers shown:** 14 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -280,40 +280,6 @@ EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocen
 Answering complex spatial reasoning questions from egocentric video requires determining what evidence is needed, acquiring targeted observations, and combining them through multiple reasoning steps.
 
 arXiv: https://arxiv.org/abs/2610.22681
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos](https://arxiv.org/abs/2610.17128)
-
-**Authors:** Haokai Pang, Yuqian Fu, Yifei Wang, Yujiao Shen, Tianwen Qian et al. (7 authors)
-
-**Published:** 2026-10-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17128) | [PDF](https://arxiv.org/pdf/2610.17128)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants. Unlike offline video understanding, streaming systems must process observations as they arrive, while queries may refer to experiences from the distant past. Recent work has begun to explore whether information can be recalled across long temporal gaps. Yet remembering how far is only part of the challenge: recurring objects, actions, and locations also require models to remember exactly which detail belongs to which event. We introduce EgoProbe, a bench...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos
-
-Egocentric video provides a continuous first-person record of everyday activities, making it a natural foundation for wearable AI assistants.
-
-arXiv: https://arxiv.org/abs/2610.17128
 
 #egocentric #robotlearning
 ```
