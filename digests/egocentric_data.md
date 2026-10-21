@@ -2,81 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-20 19:49 UTC
+**Last updated:** 2026-10-21 19:55 UTC
 
-**Papers shown:** 18 (relevance ≥ 2, last 7 days)
+**Papers shown:** 14 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950)
-
-**Authors:** Lambda-humanoid Team
-
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18950) | [PDF](https://arxiv.org/pdf/2610.18950) | [Project Page](https://lambdahumanoid.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchronized body and hand motion. Our human-to-humanoid pipeline aligns camera viewpoints and arm appearance...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
-
-Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly.
-
-arXiv: https://arxiv.org/abs/2610.18950
-Project page: https://lambdahumanoid.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos](https://arxiv.org/abs/2610.18822)
-
-**Authors:** Ziheng Wang, Yanming Shao, Ting Mao, Kaihan Chen, Yiqun Wang et al. (7 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18822) | [PDF](https://arxiv.org/pdf/2610.18822) | [Project Page](https://spikew726.github.io/EgoMatrix/)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots. It reconstructs HOI with emphasis on rela...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos
-
-Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data.
-
-arXiv: https://arxiv.org/abs/2610.18822
-Project page: https://spikew726.github.io/EgoMatrix/
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -218,41 +148,6 @@ arXiv: https://arxiv.org/abs/2610.20904
 
 ---
 
-### [SENRI: Understanding the Space-Event Nexus in Real-Life Videos](https://arxiv.org/abs/2610.25309)
-
-**Authors:** Kehan Lan, Kaining Ying, Henghui Ding, Kaipeng Zhang
-
-**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25309) | [PDF](https://arxiv.org/pdf/2610.25309) | [Project Page](https://senri-video.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Human memories are organized in a way that connects events with their corresponding spatial contexts. An AI assistant should also be able to memorize and recall the nexus of events and spaces. Thus we introduce SENRI, a task that studies this space--event connection in long, continuous real-life egocentric video. It contains six task types in two directions: Event$\rightarrow$Space, which recovers spatial knowledge from event cues, and Space$\rightarrow$Event, which retrieves events from regions and trajectories. To evaluate this, we build SENRI-Bench, containing 500 manually annotated multipl...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SENRI: Understanding the Space-Event Nexus in Real-Life Videos
-
-Human memories are organized in a way that connects events with their corresponding spatial contexts.
-
-arXiv: https://arxiv.org/abs/2610.25309
-Project page: https://senri-video.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152)
 
 **Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu et al. (11 authors)
@@ -289,20 +184,20 @@ arXiv: https://arxiv.org/abs/2610.21152
 
 ---
 
-### [Steertuning Policies from a Few Human Videos](https://arxiv.org/abs/2610.18711)
+### [GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction](https://arxiv.org/abs/2610.28502)
 
-**Authors:** Billy Yan, Isaac Tu, Kelly Lee, Blake Chang, Kenny Ma et al. (11 authors)
+**Authors:** Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen, Ngan Le
 
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric human" in abstract; project page
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18711) | [PDF](https://arxiv.org/pdf/2610.18711) | [Project Page](https://steertuning.github.io)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28502) | [PDF](https://arxiv.org/pdf/2610.28502)
 
 <details>
 <summary>Abstract</summary>
 
-Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies. In this work, we introduce Steertuning, a system that enables robots to learn new tasks in new environments from 5 human demonstrations in under 5 Steertuning consists of two parts. (1) We pretrain a 400M-parameter diffusion policy on our egocentric human dataset, which consists of 100 hours of densely annotated random interactions. This pretraining makes Steertuning robust to background differences and enables spatial and object generalization when deployed on new tasks....
+Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can discard relevant details. Although gaze identifies the wearer's focus, the question may require evidence from the surrounding scene. To address these constraints, we propose GazeLens, which combines frame selection with gaze- and question-guided token reduction. First, HOG transitions and image sharpness select frames bef...
 
 </details>
 
@@ -310,12 +205,11 @@ Current recipes for robot learning require massive amounts of robot demonstratio
 <summary>Share</summary>
 
 ```
-Steertuning Policies from a Few Human Videos
+GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction
 
-Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies.
+Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation.
 
-arXiv: https://arxiv.org/abs/2610.18711
-Project page: https://steertuning.github.io
+arXiv: https://arxiv.org/abs/2610.28502
 
 #egocentric #robotlearning
 ```
@@ -324,20 +218,20 @@ Project page: https://steertuning.github.io
 
 ---
 
-### [Safety for Whom? Benchmarking Understanding Beyond Refusal in Egocentric Multimodal Assistants](https://arxiv.org/abs/2610.17728)
+### [SENRI: Understanding the Space-Event Nexus in Real-Life Videos](https://arxiv.org/abs/2610.25309)
 
-**Authors:** Yewon Han, Jisu Jeon, Suhyun Choi, Juan Yeo, Minsoo Jo et al. (8 authors)
+**Authors:** Kehan Lan, Kaining Ying, Henghui Ding, Kaipeng Zhang
 
-**Published:** 2026-10-13 | **Categories:** cs.AI, cs.HC | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.17728) | [PDF](https://arxiv.org/pdf/2610.17728) | [Project Page](https://onedayoneyeah.github.io/safety-for-whom)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25309) | [PDF](https://arxiv.org/pdf/2610.25309) | [Project Page](https://senri-video.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric multimodal assistants see through the user's eyes and guide what the user does next, so their outputs directly shape physical actions, including those that affect bystanders. Yet existing safety evaluations do not distinguish whom a response would harm, and score only whether a model refuses. Pooling all harms into one refusal rate hides two failures: a model may protect one target but not another, and it may refuse without understanding the risk, or understand it and comply anyway. We present STOU, a benchmark of 2,902 egocentric video-audio and video-text queries whose potential h...
+Human memories are organized in a way that connects events with their corresponding spatial contexts. An AI assistant should also be able to memorize and recall the nexus of events and spaces. Thus we introduce SENRI, a task that studies this space--event connection in long, continuous real-life egocentric video. It contains six task types in two directions: Event$\rightarrow$Space, which recovers spatial knowledge from event cues, and Space$\rightarrow$Event, which retrieves events from regions and trajectories. To evaluate this, we build SENRI-Bench, containing 500 manually annotated multipl...
 
 </details>
 
@@ -345,12 +239,80 @@ Egocentric multimodal assistants see through the user's eyes and guide what the 
 <summary>Share</summary>
 
 ```
-Safety for Whom? Benchmarking Understanding Beyond Refusal in Egocentric Multimodal Assistants
+SENRI: Understanding the Space-Event Nexus in Real-Life Videos
 
-Egocentric multimodal assistants see through the user's eyes and guide what the user does next, so their outputs directly shape physical actions, including those that affect bystanders.
+Human memories are organized in a way that connects events with their corresponding spatial contexts.
 
-arXiv: https://arxiv.org/abs/2610.17728
-Project page: https://onedayoneyeah.github.io/safety-for-whom
+arXiv: https://arxiv.org/abs/2610.25309
+Project page: https://senri-video.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation](https://arxiv.org/abs/2610.28476)
+
+**Authors:** Pengying Wu, Mingye Jiang, Yunze Hu, Zhejia Wen, Kangjie Zhou et al. (8 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.28476) | [PDF](https://arxiv.org/pdf/2610.28476)
+
+<details>
+<summary>Abstract</summary>
+
+Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it. The agent typically relies on an object detector but must judge online from a limited egocentric video stream, sometimes a single frame, whether a detected candidate is the target. Detectors often confidently mistake similar objects, such as a sofa for a bed, and stopping at a false positive fails the episode. Prevailing systems also approach candidates greedily, leaving them occluded or partially observed. We present CLOSER, an evidence-aware act...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation
+
+Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it.
+
+arXiv: https://arxiv.org/abs/2610.28476
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions](https://arxiv.org/abs/2610.27400)
+
+**Authors:** Lilin Xu, Linyang He, Kaiyuan Hou, Yuang Fan, Minghui Zhao et al. (7 authors)
+
+**Published:** 2026-10-19 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.27400) | [PDF](https://arxiv.org/pdf/2610.27400)
+
+<details>
+<summary>Abstract</summary>
+
+Large language model (LLM) agents are moving beyond reactive responses toward proactive assistance that anticipates user needs without explicit requests. However, existing proactive agents primarily address immediate needs, while many everyday situations involve delayed intentions that can only be acted on hours or days later. Humans handle such intentions through prospective memory, the ability to remember to act on an intention when the right moment arises. In this paper, we introduce ProMemAgent, the first proactive agent to incorporate prospective memory over everyday sensory contexts for...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions
+
+Large language model (LLM) agents are moving beyond reactive responses toward proactive assistance that anticipates user needs without explicit requests.
+
+arXiv: https://arxiv.org/abs/2610.27400
 
 #egocentric #robotlearning
 ```
@@ -385,40 +347,6 @@ EgoXperience: Learning World-Grounded Egocentric Representations from Human Expe
 Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent w...
 
 arXiv: https://arxiv.org/abs/2610.26625
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control](https://arxiv.org/abs/2610.25223)
-
-**Authors:** Yulin Dai, Yuqian Fu, Tianwen Qian, Zhen Xing, Bojia Zi et al. (6 authors)
-
-**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.25223) | [PDF](https://arxiv.org/pdf/2610.25223)
-
-<details>
-<summary>Abstract</summary>
-
-Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation. Text prompts are spatially ambiguous, while camera-trajectory control relies on low-level motion specifications that are unintuitive for human users and difficult to manipulate. In this work, we introduce Map2Vid, a novel task that reformulates embodied navigation video generation as a BEV-map-to-video synthesis problem, together with a large-scale benchmark for systematic evaluation. By using BEV maps, which provide a visual representation...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control
-
-Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation.
-
-arXiv: https://arxiv.org/abs/2610.25223
 
 #egocentric #robotlearning
 ```
@@ -529,54 +457,20 @@ arXiv: https://arxiv.org/abs/2610.19330
 
 ---
 
-### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872)
+### [Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control](https://arxiv.org/abs/2610.25223)
 
-**Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi et al. (14 authors)
+**Authors:** Yulin Dai, Yuqian Fu, Tianwen Qian, Zhen Xing, Bojia Zi et al. (6 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18872) | [PDF](https://arxiv.org/pdf/2610.18872)
-
-<details>
-<summary>Abstract</summary>
-
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion,...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
-
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold.
-
-arXiv: https://arxiv.org/abs/2610.18872
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions](https://arxiv.org/abs/2610.18499)
-
-**Authors:** Songruo Chen, Yuqian Fu, Yu Li, Mingkang Dong, Sifan Zhou et al. (10 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.18499) | [PDF](https://arxiv.org/pdf/2610.18499)
+**Links:** [arXiv](https://arxiv.org/abs/2610.25223) | [PDF](https://arxiv.org/pdf/2610.25223)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction. We propose the Ego-Action-World interaction loop as a unifying principle: the wearer perceives the world, forms goals, acts, changes the world, and uses feedback to guide subsequent behavior. Based on this view, we introduce EgoOmniWorld, a benchmark organized around four complementary interaction structures: Node captures ego, action, and world states; Edge captures directed relations among them; Chain c...
+Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation. Text prompts are spatially ambiguous, while camera-trajectory control relies on low-level motion specifications that are unintuitive for human users and difficult to manipulate. In this work, we introduce Map2Vid, a novel task that reformulates embodied navigation video generation as a BEV-map-to-video synthesis problem, together with a large-scale benchmark for systematic evaluation. By using BEV maps, which provide a visual representation...
 
 </details>
 
@@ -584,45 +478,11 @@ Egocentric video understanding spans diverse capabilities, modalities, and evalu
 <summary>Share</summary>
 
 ```
-EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions
+Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control
 
-Egocentric video understanding spans diverse capabilities, modalities, and evaluation formats, yet these are often studied in isolation despite their tight coupling in real-world interaction.
+Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation.
 
-arXiv: https://arxiv.org/abs/2610.18499
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013)
-
-**Authors:** Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Hrant Khachatrian
-
-**Published:** 2026-10-13 | **Categories:** cs.LG | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "Ego4D" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.19013) | [PDF](https://arxiv.org/pdf/2610.19013)
-
-<details>
-<summary>Abstract</summary>
-
-Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value. In this work, we examine this assumption for image self-distillation models. Through systematic experiments across diverse datasets, namely Maxar, SATLAS, Waymo, nuPlan, Ego4D, ImageNet, and YFCC15M, we demonstrate that the effects of sample repetition on downstream performance are non-trivial and dataset-dependent. We identify settings where repeatedly training on a smaller random subset can outpe...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Data Density Scaling Laws for Image Self-Distillation
-
-Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value.
-
-arXiv: https://arxiv.org/abs/2610.19013
+arXiv: https://arxiv.org/abs/2610.25223
 
 #egocentric #robotlearning
 ```

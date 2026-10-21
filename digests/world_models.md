@@ -2,7 +2,7 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-20 19:49 UTC
+**Last updated:** 2026-10-21 19:55 UTC
 
 **Papers shown:** 73 (relevance ≥ 2, last 7 days)
 
@@ -83,6 +83,112 @@ Project page: https://xiaokunfeng.github.io/EmbodiedWorld-200K/
 
 ---
 
+### [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613)
+
+**Authors:** Zebin Xing, Yuhang Zheng, Yupeng Zheng, Yichen Zhang, Zichen Li et al. (11 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.28613) | [PDF](https://arxiv.org/pdf/2610.28613) | [Project Page](https://zebinx.github.io/PhysCanvas_HomePage/)
+
+<details>
+<summary>Abstract</summary>
+
+Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, task state, and actions within a unified vision space. All modalities share a video VAE and pretrained...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning
+
+Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators.
+
+arXiv: https://arxiv.org/abs/2610.28613
+Project page: https://zebinx.github.io/PhysCanvas_HomePage/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [LaLa-World: Scaling Latent World Models with Natural Language Actions](https://arxiv.org/abs/2610.27851)
+
+**Authors:** Junha Song, Geonmo Gu, Jeongeun Park, Heejeong Nam, Lucas Maes et al. (8 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.27851) | [PDF](https://arxiv.org/pdf/2610.27851) | [Project Page](https://june-page.github.io/lala-world/) | [Code](https://github.com/junha1125/LaLa-World)
+
+<details>
+<summary>Abstract</summary>
+
+This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data. Two designs make this work. First, we describe both numerical actions and visual changes in language, enabling j...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LaLa-World: Scaling Latent World Models with Natural Language Actions
+
+This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models.
+
+arXiv: https://arxiv.org/abs/2610.27851
+Project page: https://june-page.github.io/lala-world/
+Code: https://github.com/junha1125/LaLa-World
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation](https://arxiv.org/abs/2610.27782)
+
+**Authors:** Siyuan Ma, Yu Qi, Cheng Ye, Ruotian Peng, Xinyi Xu et al. (11 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.27782) | [PDF](https://arxiv.org/pdf/2610.27782) | [Project Page](https://spherelab.ai/RoboJudge)
+
+<details>
+<summary>Abstract</summary>
+
+Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos has not been systematically evaluated. To address this gap, we introduce RoboJudge-Bench, a benchmark for evaluating MLLMs as judges of embodied video generation. The benchmark measures two fundamental dimensions, Physical Adherence and Instruction Alignment, across 800 human-ann...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation
+
+Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions.
+
+arXiv: https://arxiv.org/abs/2610.27782
+Project page: https://spherelab.ai/RoboJudge
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving](https://arxiv.org/abs/2610.20609)
 
 **Authors:** Shaoyuan Xie, Zihan Zhang, Jingxuan Wang, Jiashu Qu, Xiaoqing Liang et al. (9 authors)
@@ -120,11 +226,46 @@ Project page: https://safedrive-vla.github.io/SafeDriveVLA/
 
 ---
 
-### [ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models](https://arxiv.org/abs/2610.25861)
+### [Exploring Temporal Context-Aware Physical Grounding in Latent World Models](https://arxiv.org/abs/2610.28483)
+
+**Authors:** Yilei Man, Yang Chen, Jingcai Guo
+
+**Published:** 2026-10-20 | **Categories:** cs.AI | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.28483) | [PDF](https://arxiv.org/pdf/2610.28483) | [Code](https://github.com/myl11045/G-JEPA)
+
+<details>
+<summary>Abstract</summary>
+
+Learning latent dynamics is fundamental to building action-conditioned world models for planning. Among existing families, Joint Embedding Predictive Architectures (JEPAs) offer a natural framework by modeling transitions directly in latent space rather than at the pixel level. However, two issues remain in JEPA-based world models: (i) physical grounding lacks explicit aggregation of temporal context and (ii) action planning always overly relies on generic sampling distributions. To this end, we propose $\mathcal{G}$-JEPA, which incorporates temporal context into physical grounding for latent...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Exploring Temporal Context-Aware Physical Grounding in Latent World Models
+
+Learning latent dynamics is fundamental to building action-conditioned world models for planning.
+
+arXiv: https://arxiv.org/abs/2610.28483
+Code: https://github.com/myl11045/G-JEPA
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [ActionRoPE: Action as Coordinates for Spatially Consistent Control in Planar-Camera Game World Models](https://arxiv.org/abs/2610.25861)
 
 **Authors:** Zhiyang Deng, Yuzhe Wu, Zijun Lin, Yeying Jin
 
-**Published:** 2026-10-19 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-10-19 (updated 2026-10-20) | **Categories:** cs.CV | **Relevance:** ★★★★☆
 
 **Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
 
@@ -141,7 +282,7 @@ Game world models have made rapid progress toward real-time interactive generati
 <summary>Share</summary>
 
 ```
-ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models
+ActionRoPE: Action as Coordinates for Spatially Consistent Control in Planar-Camera Game World Models
 
 Game world models have made rapid progress toward real-time interactive generation.
 
@@ -261,6 +402,41 @@ Code: https://github.com/Lishenyi2004/Time-JEPA
 
 ---
 
+### [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](https://arxiv.org/abs/2610.28480)
+
+**Authors:** Qiayuan Liao, Yiyang Shao, Junfeng Long, Kevin Zakka, Roberto Horowitz et al. (7 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.28480) | [PDF](https://arxiv.org/pdf/2610.28480) | [Project Page](https://supermimic.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute. SuperMimic amortizes learning across all motions with one differentiable world model of their shared dynamics, fit from logged transitions of a standard rigid-body simulator. The world model and the tracking policy train together in one loop, and back...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model
+
+Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive.
+
+arXiv: https://arxiv.org/abs/2610.28480
+Project page: https://supermimic.github.io
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation](https://arxiv.org/abs/2610.25600)
 
 **Authors:** Xuezhou Xu, Chung-Pang Wang, Zhenzhen Li, Benjamin Riviere
@@ -289,6 +465,41 @@ Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipula
 Visual world models have shown strong potential for robot planning, yet long-horizon manipulation remains challenging due to compounding prediction errors, large search complexity, and latent plans that the low-level...
 
 arXiv: https://arxiv.org/abs/2610.25600
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Latent Projection for Latent Planning](https://arxiv.org/abs/2610.26979)
+
+**Authors:** Yoo Sung Jang, Michael Ryoo
+
+**Published:** 2026-10-19 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.26979) | [PDF](https://arxiv.org/pdf/2610.26979) | [Code](https://github.com/yjang43/lp2)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal. We show that the same regularizer also supplies the structure to prune that noise in the latent. SIGReg drives the latent marginal to a standard Gaussian at every step, and assuming further that the latent sequenc...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Latent Projection for Latent Planning
+
+Latent world models let an agent plan in latent space.
+
+arXiv: https://arxiv.org/abs/2610.26979
+Code: https://github.com/yjang43/lp2
 
 #worldmodels #robotics
 ```
@@ -369,22 +580,20 @@ Project page: https://policy-improvement-wm.pages.dev/
 
 ---
 
-### [Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence](https://arxiv.org/abs/2610.18447)
+### [AEON: Unifying Video and 3D World Models](https://arxiv.org/abs/2610.28631)
 
-**Authors:** Thinker Team, Peng Gao, Jichao Jiao, Chen Liao, Daqin Luo et al. (11 authors)
+**Authors:** Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou
 
-**Published:** 2026-10-13 (updated 2026-10-14) | **Categories:** cs.AI, cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+**Why surfaced:** "world model" in title; project page; posted in last 2 days
 
-**Also relevant to:** Egocentric Data
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18447) | [PDF](https://arxiv.org/pdf/2610.18447) | [Project Page](https://thinkercosmos.ubtrobot.com/thinker-wm)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.28631) | [PDF](https://arxiv.org/pdf/2610.28631) | [Project Page](https://weiqi-zhang.github.io/AEON)
 
 <details>
 <summary>Abstract</summary>
 
-World models have emerged as a promising paradigm for embodied AI, yet existing systems often remain fragmented in the modalities they model and the functions they support. In particular, visual dynamics, geometric structure, and executable action are commonly coupled through separate interfaces or downstream modules rather than being jointly represented and evolved within a shared dynamics model. In this work, we present Thinker-WM, a unified multimodal world model that jointly models and generates RGB, metric depth, and robot action through a shared intermediate Unified Dynamics Transformer...
+Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON lies in a generative model that operates within the text- or image-conditioned video latent space whi...
 
 </details>
 
@@ -392,12 +601,12 @@ World models have emerged as a promising paradigm for embodied AI, yet existing 
 <summary>Share</summary>
 
 ```
-Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence
+AEON: Unifying Video and 3D World Models
 
-World models have emerged as a promising paradigm for embodied AI, yet existing systems often remain fragmented in the modalities they model and the functions they support.
+Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D...
 
-arXiv: https://arxiv.org/abs/2610.18447
-Project page: https://thinkercosmos.ubtrobot.com/thinker-wm
+arXiv: https://arxiv.org/abs/2610.28631
+Project page: https://weiqi-zhang.github.io/AEON
 
 #worldmodels #robotics
 ```
@@ -406,20 +615,20 @@ Project page: https://thinkercosmos.ubtrobot.com/thinker-wm
 
 ---
 
-### [WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions](https://arxiv.org/abs/2610.18826)
+### [World Models with Configurable Perception](https://arxiv.org/abs/2610.27914)
 
-**Authors:** Haoyi Duan, Liliang Chen, Nan Wang, Yang Zhang, Yuhang Lu et al. (16 authors)
+**Authors:** Yijun Shen, Delong Chen, Xianming Hu, Kai Zhang, Pascale Fung
 
-**Published:** 2026-10-13 (updated 2026-10-16) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+**Why surfaced:** "world model" in title; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18826) | [PDF](https://arxiv.org/pdf/2610.18826) | [Project Page](https://worldoracle-benchmark.github.io/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.27914) | [PDF](https://arxiv.org/pdf/2610.27914) | [Project Page](https://configwm.github.io)
 
 <details>
 <summary>Abstract</summary>
 
-We introduce WorldOracle, a benchmark specifically designed to evaluate action-conditioned world models (ACWMs) against paired real-world executions. Given the same initial observation and low-level action sequence, WorldOracle asks whether a predicted rollout reproduces what happens in the real world, including physical consequences and task-state transitions. We evaluate models along four complementary dimensions: physical state correctness, interaction spatial alignment, key interaction area fidelity, and multi-view action coherence. To support this evaluation, we curate real-world training...
+Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models are typically non-adaptive, leading to state representations that are easily distracted by task-irrelevant information. As a result, the model may not selectively filter observations to cater to different task demands. To address this problem, we introduce ConfigWM, which realizes configurable perception through task-co...
 
 </details>
 
@@ -427,12 +636,12 @@ We introduce WorldOracle, a benchmark specifically designed to evaluate action-c
 <summary>Share</summary>
 
 ```
-WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions
+World Models with Configurable Perception
 
-We introduce WorldOracle, a benchmark specifically designed to evaluate action-conditioned world models (ACWMs) against paired real-world executions.
+Real-world observations are noisy and often contain excessive task-irrelevant information.
 
-arXiv: https://arxiv.org/abs/2610.18826
-Project page: https://worldoracle-benchmark.github.io/
+arXiv: https://arxiv.org/abs/2610.27914
+Project page: https://configwm.github.io
 
 #worldmodels #robotics
 ```
@@ -476,76 +685,6 @@ Project page: https://hazel-heejeong-nam.github.io/anygoal/
 
 ---
 
-### [UniState: Unifying Memory and Intervention for Controllable World Simulation](https://arxiv.org/abs/2610.25414)
-
-**Authors:** Jaeseok Jeong, Kyungmook Choi, Sohyun Chung, Youngsik Yun, Youngjung Uh
-
-**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25414) | [PDF](https://arxiv.org/pdf/2610.25414) | [Project Page](https://curryjung.github.io/unistate/)
-
-<details>
-<summary>Abstract</summary>
-
-World models offer increasingly rich environments for exploration, yet intervening in a world while observing the consequences from freely chosen viewpoints remains challenging. We tackle these challenges by introducing UniState, a framework for controllable world simulation built on a unified world-state representation. This representation unifies spatial memory and user interventions. Users specify object motion directly within spatial memory, while independently choosing the camera trajectory from which the resulting world state is observed. This unification makes the relationship between t...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UniState: Unifying Memory and Intervention for Controllable World Simulation
-
-World models offer increasingly rich environments for exploration, yet intervening in a world while observing the consequences from freely chosen viewpoints remains challenging.
-
-arXiv: https://arxiv.org/abs/2610.25414
-Project page: https://curryjung.github.io/unistate/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [World Models, Trees and Foundation Models for Retail Forecasting: Evidence from Four Public Data Sets](https://arxiv.org/abs/2610.25170)
-
-**Authors:** Karthik Iyer, Madan Dabbeeru
-
-**Published:** 2026-10-18 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25170) | [PDF](https://arxiv.org/pdf/2610.25170) | [Code](https://github.com/karthik-iyer-au/retail-world-models)
-
-<details>
-<summary>Abstract</summary>
-
-A retailer makes different decisions at different grains of the product, store and time hierarchy: store orders for an item in a store, supplier funding for an item across stores, category performance by store, and the financial plan for the chain. Which forecasting model to use depends on the grain. This paper compares models at each grain on four public data sets (M5, six Dominick's categories, Breakfast at the Frat, and Corporación Favorita, the last kept out of all development), over rolling forecast origins with paired tests and model confidence sets. It covers price and promotion through...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-World Models, Trees and Foundation Models for Retail Forecasting: Evidence from Four Public Data Sets
-
-A retailer makes different decisions at different grains of the product, store and time hierarchy: store orders for an item in a store, supplier funding for an item across stores, category performance by store, and th...
-
-arXiv: https://arxiv.org/abs/2610.25170
-Code: https://github.com/karthik-iyer-au/retail-world-models
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations](https://arxiv.org/abs/2610.22708)
 
 **Authors:** Nicholas Saban, Charvi Bannur, Mariya Vasileva, Darshan Deshpande
@@ -581,20 +720,20 @@ Code: https://github.com/patronus-ai/globebench
 
 ---
 
-### [Decoupled Drift-Diffusion World Models for Consistent Future Frame Prediction](https://arxiv.org/abs/2610.19212)
+### [Knowing When to Stop Thinking: A Dissection of Expected Free Energy as a Test-Time Compute Controller for Latent World-Model Planning](https://arxiv.org/abs/2610.28011)
 
-**Authors:** Anton Arapin, Aditya Singh, Yixin Wang, Jun Gao, Bernadette Bucher
+**Authors:** Tong Zhang, Zhiyuan Shi, Yun Peng, Tao Xie
 
-**Published:** 2026-10-13 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-10-20 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.19212) | [PDF](https://arxiv.org/pdf/2610.19212) | [Project Page](https://anton-arapin.github.io/d3wm-site)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28011) | [PDF](https://arxiv.org/pdf/2610.28011)
 
 <details>
 <summary>Abstract</summary>
 
-World models of visual information predict future image frames conditioned on given action sequences. This predicted scene evolution is driven by deterministic changes such as controlled motion on a robot platform, as well as stochastic changes such as rendering of manipulated objects or previously occluded regions. Our key insight is that the spatial location of these stochastic changes is itself learnable. We leverage this insight by jointly regressing both the deterministic next-state prediction and the spatial uncertainty map, then using the uncertainty map to guide a conditional diffusion...
+A planner using a learned world model can improve its predicted outcome while choosing a worse action. We study when expected free energy (EFE) can help decide how much computation to spend on a plan. An EFE-inspired objective combines goal distance with disagreement among stochastic predictions. We test candidate scoring, stopping, and online predictor updates separately. Stopping when elite cost stalls reduces refinement on tasks whose success plateaus with depth, with mean success close to fixed-depth references. At the larger tested weights, rewarding disagreement lowers success with a fro...
 
 </details>
 
@@ -602,12 +741,45 @@ World models of visual information predict future image frames conditioned on gi
 <summary>Share</summary>
 
 ```
-Decoupled Drift-Diffusion World Models for Consistent Future Frame Prediction
+Knowing When to Stop Thinking: A Dissection of Expected Free Energy as a Test-Time Compute Controller for Latent World-Model Planning
 
-World models of visual information predict future image frames conditioned on given action sequences.
+A planner using a learned world model can improve its predicted outcome while choosing a worse action.
 
-arXiv: https://arxiv.org/abs/2610.19212
-Project page: https://anton-arapin.github.io/d3wm-site
+arXiv: https://arxiv.org/abs/2610.28011
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Training Controllable World Models via Action Influence Maximization](https://arxiv.org/abs/2610.27387)
+
+**Authors:** Samuel M. Bateman, Tenny Yin, Chongyi Zheng, Lei Huang, Brian Wang et al. (8 authors)
+
+**Published:** 2026-10-19 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.27387) | [PDF](https://arxiv.org/pdf/2610.27387)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned video generative models trained on successful, goal-directed demonstrations tend to ignore the commanded action, rendering a plausible expert-like future regardless of what is asked of them. We trace this failure to training data that lack sufficient action influence. We analyze this metric and prove that it upper bounds the action influence that any model trained on that data can express. Expert demonstrations, whose narrow action distributions let next states be predicted without attending to the action, set a low ceiling that no amount of model capacity alone can raise. R...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Training Controllable World Models via Action Influence Maximization
+
+Action-conditioned video generative models trained on successful, goal-directed demonstrations tend to ignore the commanded action, rendering a plausible expert-like future regardless of what is asked of them.
+
+arXiv: https://arxiv.org/abs/2610.27387
 
 #worldmodels #robotics
 ```
@@ -686,20 +858,20 @@ Project page: https://p3-wam.pages.dev/
 
 ---
 
-### [Into the LidarVerse: A Real-Time Unified LiDAR World Model Across Tasks and Sensors](https://arxiv.org/abs/2610.19201)
+### [Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models](https://arxiv.org/abs/2610.28074)
 
-**Authors:** Henry Che, Xuanchi Ren, Sanja Fidler, Shenlong Wang, Laura Leal-Taixé et al. (6 authors)
+**Authors:** Peisong Wen, Qianqian Xu, Minye Lei, Siran Dai, Yang Liu et al. (6 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-20 | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; project page
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.19201) | [PDF](https://arxiv.org/pdf/2610.19201) | [Project Page](https://research.nvidia.com/labs/sil/projects/lidarverse)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28074) | [PDF](https://arxiv.org/pdf/2610.28074)
 
 <details>
 <summary>Abstract</summary>
 
-We present LidarVerse, a real-time unified LiDAR world model for sensor simulation across tasks and sensors. Existing LiDAR simulators largely follow one of two complementary paradigms: reconstruction-based methods preserve the geometry of a captured scene but require lengthy per-scene optimization, whereas generative methods amortize learning across data but lack the consistency needed for long-horizon rollouts. LidarVerse brings both paradigms into a single, unified conditional generative framework. A universal tokenizer maps LiDAR range sequences into a shared latent space, where a bidirect...
+As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations. However, dense patch representations expose a redundant interface to downstream predictors, which must implicitly infer spatial organization and temporal correspondence, presenting three challenges. First, object information is distributed across patches, forcing each downstream predictor to redundantly recover object structure that could otherwise be reused across tasks before modeling interactions. Second, the lack of explicit entity correspondence across time makes...
 
 </details>
 
@@ -707,12 +879,11 @@ We present LidarVerse, a real-time unified LiDAR world model for sensor simulati
 <summary>Share</summary>
 
 ```
-Into the LidarVerse: A Real-Time Unified LiDAR World Model Across Tasks and Sensors
+Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models
 
-We present LidarVerse, a real-time unified LiDAR world model for sensor simulation across tasks and sensors.
+As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations.
 
-arXiv: https://arxiv.org/abs/2610.19201
-Project page: https://research.nvidia.com/labs/sil/projects/lidarverse
+arXiv: https://arxiv.org/abs/2610.28074
 
 #worldmodels #robotics
 ```
@@ -721,20 +892,20 @@ Project page: https://research.nvidia.com/labs/sil/projects/lidarverse
 
 ---
 
-### [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991)
+### [Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models](https://arxiv.org/abs/2610.27921)
 
-**Authors:** Nolan Fey, Khai Nguyen, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal
+**Authors:** Zhiyuan Liu, Sicheng Liu, Haiyu Wu
 
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-20 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; project page
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18991) | [PDF](https://arxiv.org/pdf/2610.18991) | [Project Page](https://contact-uan.csail.mit.edu/)
+**Links:** [arXiv](https://arxiv.org/abs/2610.27921) | [PDF](https://arxiv.org/pdf/2610.27921)
 
 <details>
 <summary>Abstract</summary>
 
-Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques. We introduce Contact-UAN, a residual world model that preserves a simulator's physics priors while correcting actuator dynamics to align simulated rollouts with recorded hardware rollouts. For humanoid motion with contact, this requires contact-consistent replay: if hardwar...
+A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Quantum-JEPA, a latent-action JEPA framework that learns distributions of future representations using a conditional quantum Born prior. Circuit measurements generate binary latent actions, which a shared predictor maps to alternative future representations. We train the quantum prior through the quality and diversity of these predictions using a sampled energy objective. Our model learns distinct...
 
 </details>
 
@@ -742,12 +913,11 @@ Humanoid policies trained in simulation can transfer qualitatively to hardware w
 <summary>Share</summary>
 
 ```
-Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control
+Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models
 
-Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness...
+A single observation can admit several plausible futures, making uncertainty an essential part of world modelling.
 
-arXiv: https://arxiv.org/abs/2610.18991
-Project page: https://contact-uan.csail.mit.edu/
+arXiv: https://arxiv.org/abs/2610.27921
 
 #worldmodels #robotics
 ```
@@ -756,20 +926,20 @@ Project page: https://contact-uan.csail.mit.edu/
 
 ---
 
-### [ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation](https://arxiv.org/abs/2610.18852)
+### [VPFlow: Value-Predictive Planning with Imperfect World Models for Offline Goal Reaching](https://arxiv.org/abs/2610.27280)
 
-**Authors:** Zijun Xu, Wendi Chen, Xinkai Wang, Jiachen Zou, Hongjin Chen et al. (19 authors)
+**Authors:** Yunzhe Hu, Dong Xu
 
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-19 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18852) | [PDF](https://arxiv.org/pdf/2610.18852) | [Project Page](https://force-wam.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2610.27280) | [PDF](https://arxiv.org/pdf/2610.27280)
 
 <details>
 <summary>Abstract</summary>
 
-Expert demonstrations show how to complete contact-rich tasks, but provide limited coverage of how interaction forces respond to different actions. Task-agnostic play provides broader experience of contact dynamics without specifying task goals. To fully leverage these two types of data, we introduce ForceWAM, a force world action model that decouples knowledge of task-compatible interaction outcomes from knowledge of how local actions change contact. A world model learns from successful demonstrations to jointly predict future video and six-axis force/torque trajectories. Together, these futu...
+Offline goal-conditioned reinforcement learning enables skill acquisition by reaching any goal from any state without dense rewards. Model-based methods allow for planning by scaling test-time compute to solve complex tasks. Combining both holds appealing promise for pre-training on suboptimal demonstrations and zero-shot adaptation via goal specification and planning. Yet existing methods assume effective planning requires accurate next-state prediction in pixel or latent space. In this work, we show that value prediction is more useful for planning, whereas accurate state prediction is often...
 
 </details>
 
@@ -777,46 +947,11 @@ Expert demonstrations show how to complete contact-rich tasks, but provide limit
 <summary>Share</summary>
 
 ```
-ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation
+VPFlow: Value-Predictive Planning with Imperfect World Models for Offline Goal Reaching
 
-Expert demonstrations show how to complete contact-rich tasks, but provide limited coverage of how interaction forces respond to different actions.
+Offline goal-conditioned reinforcement learning enables skill acquisition by reaching any goal from any state without dense rewards.
 
-arXiv: https://arxiv.org/abs/2610.18852
-Project page: https://force-wam.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [SkipWorld: Latent Skip Planning with Distilled World Models for Efficient Visual Navigation](https://arxiv.org/abs/2610.18135)
-
-**Authors:** Yifei Yang, Zehua Fan, Zike Yan, Zhongyu Li, Yan Wang
-
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18135) | [PDF](https://arxiv.org/pdf/2610.18135)
-
-<details>
-<summary>Abstract</summary>
-
-World-model-based visual navigation enables action planning by predicting future states under candidate trajectories. However, long-horizon rollout remains challenging: models are often trained with ground-truth visual histories but deployed in closed-loop prediction, and evaluating many candidates with step-by-step rollout is computationally expensive. We propose SkipWorld, a latent skip planning framework for efficient visual navigation. SkipWorld introduces three components: (i) Latent AutoRoll, which trains a world model to recursively roll out future states in latent space, reducing the m...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SkipWorld: Latent Skip Planning with Distilled World Models for Efficient Visual Navigation
-
-World-model-based visual navigation enables action planning by predicting future states under candidate trajectories.
-
-arXiv: https://arxiv.org/abs/2610.18135
+arXiv: https://arxiv.org/abs/2610.27280
 
 #worldmodels #robotics
 ```
@@ -928,6 +1063,110 @@ Project page: https://prism-wam.github.io/
 
 ---
 
+### [UniState: Unifying Memory and Intervention for Controllable World Simulation](https://arxiv.org/abs/2610.25414)
+
+**Authors:** Jaeseok Jeong, Kyungmook Choi, Sohyun Chung, Youngsik Yun, Youngjung Uh
+
+**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25414) | [PDF](https://arxiv.org/pdf/2610.25414) | [Project Page](https://curryjung.github.io/unistate/)
+
+<details>
+<summary>Abstract</summary>
+
+World models offer increasingly rich environments for exploration, yet intervening in a world while observing the consequences from freely chosen viewpoints remains challenging. We tackle these challenges by introducing UniState, a framework for controllable world simulation built on a unified world-state representation. This representation unifies spatial memory and user interventions. Users specify object motion directly within spatial memory, while independently choosing the camera trajectory from which the resulting world state is observed. This unification makes the relationship between t...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+UniState: Unifying Memory and Intervention for Controllable World Simulation
+
+World models offer increasingly rich environments for exploration, yet intervening in a world while observing the consequences from freely chosen viewpoints remains challenging.
+
+arXiv: https://arxiv.org/abs/2610.25414
+Project page: https://curryjung.github.io/unistate/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [World Models, Trees and Foundation Models for Retail Forecasting: Evidence from Four Public Data Sets](https://arxiv.org/abs/2610.25170)
+
+**Authors:** Karthik Iyer, Madan Dabbeeru
+
+**Published:** 2026-10-18 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25170) | [PDF](https://arxiv.org/pdf/2610.25170) | [Code](https://github.com/karthik-iyer-au/retail-world-models)
+
+<details>
+<summary>Abstract</summary>
+
+A retailer makes different decisions at different grains of the product, store and time hierarchy: store orders for an item in a store, supplier funding for an item across stores, category performance by store, and the financial plan for the chain. Which forecasting model to use depends on the grain. This paper compares models at each grain on four public data sets (M5, six Dominick's categories, Breakfast at the Frat, and Corporación Favorita, the last kept out of all development), over rolling forecast origins with paired tests and model confidence sets. It covers price and promotion through...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+World Models, Trees and Foundation Models for Retail Forecasting: Evidence from Four Public Data Sets
+
+A retailer makes different decisions at different grains of the product, store and time hierarchy: store orders for an item in a store, supplier funding for an item across stores, category performance by store, and th...
+
+arXiv: https://arxiv.org/abs/2610.25170
+Code: https://github.com/karthik-iyer-au/retail-world-models
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Beckmann World Models: Direct Terminal-Map Learning for One-Step Action-Conditioned Prediction](https://arxiv.org/abs/2610.26903)
+
+**Authors:** Adam Lee, Shobhit Agarwal, June Pyo Suh
+
+**Published:** 2026-10-16 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.26903) | [PDF](https://arxiv.org/pdf/2610.26903)
+
+<details>
+<summary>Abstract</summary>
+
+Action-conditioned world models support planning and policy evaluation by predicting future states. However, learning an accurate one-step predictor can require substantial training computation. We introduce Beckmann World Models (BWM), which learn a direct map from noise, visual history, and actions to future frames without a pretrained generative teacher. We adapt the terminal-map conservation law of Beckmann Transport Models to action-conditioned video prediction, training directly from noise-data pairs without conditional populations of generated samples required by DriftWorld. However, tr...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Beckmann World Models: Direct Terminal-Map Learning for One-Step Action-Conditioned Prediction
+
+Action-conditioned world models support planning and policy evaluation by predicting future states.
+
+arXiv: https://arxiv.org/abs/2610.26903
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [PAWA: Panoramic Action-conditioned World Modeling for Multiple Agents](https://arxiv.org/abs/2610.20240)
 
 **Authors:** Siqi Yang, Yimu Wang, Ziqi Cai, Chengxuan Zhu, Shuchen Weng et al. (9 authors)
@@ -997,20 +1236,20 @@ arXiv: https://arxiv.org/abs/2610.19375
 
 ---
 
-### [Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold](https://arxiv.org/abs/2610.19007)
+### [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045)
 
-**Authors:** Anton Arapin, Chahyon Ku, Bernadette Bucher
+**Authors:** Weinan Zhang, Chunhua Shen, Tianfan Xue, Bin Zhao, Bingqi Jiang et al. (52 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-19 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.19007) | [PDF](https://arxiv.org/pdf/2610.19007) | [Project Page](https://anton-arapin.github.io/action-jets-site)
+**Links:** [arXiv](https://arxiv.org/abs/2610.27045) | [PDF](https://arxiv.org/pdf/2610.27045)
 
 <details>
 <summary>Abstract</summary>
 
-World models are a powerful means of reasoning and planning, but many of these action-conditioned predictive models are high dimensional and computationally expensive. These challenges limit the number of action candidates that can be evaluated by a planner. We show that this cost is avoidable for planners over short horizons, which only require local information with respect to the current state. For a fixed state, the frames reachable by varying a low-dimensional action (a camera movement or an end-effector command) lie on a low-dimensional manifold. We estimate the local shape of that manif...
+In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry. However, the field has yet to reach consensus on its definition, technical landscape, and core challenges. To address this gap, this monograph seeks to define physical AI, present its technical landscape, and examine each key technical subfield in depth. In doing so, it establishes a unified framework for Physical AI: artificial systems that perceive, model, and act upon the physical world through continuous feedback under real-world const...
 
 </details>
 
@@ -1018,46 +1257,11 @@ World models are a powerful means of reasoning and planning, but many of these a
 <summary>Share</summary>
 
 ```
-Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold
+Physical AI: Concepts, Techniques, and Challenges
 
-World models are a powerful means of reasoning and planning, but many of these action-conditioned predictive models are high dimensional and computationally expensive.
+In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry.
 
-arXiv: https://arxiv.org/abs/2610.19007
-Project page: https://anton-arapin.github.io/action-jets-site
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [RAN-JEPA: An Action-Conditioned World Model for Energy-efficient Mobile Network Control](https://arxiv.org/abs/2610.17584)
-
-**Authors:** Binghan Wu, Kai Zeng, Kai Yang, Ya-Qin Zhang, Joseph Sifakis et al. (6 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17584) | [PDF](https://arxiv.org/pdf/2610.17584)
-
-<details>
-<summary>Abstract</summary>
-
-Operational mobile networks are rich in observations but poor in interventions: they continuously generate large volumes of passive telemetry, while controlled action--response trajectories remain comparatively scarce and costly to collect. This observation--intervention asymmetry is a central obstacle to building practical world models for RAN control. We address this problem with RAN-JEPA, an action-conditioned world model that separates representation learning from intervention learning. The model first learns a predictive latent representation from observation-only network data, adapts tha...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RAN-JEPA: An Action-Conditioned World Model for Energy-efficient Mobile Network Control
-
-Operational mobile networks are rich in observations but poor in interventions: they continuously generate large volumes of passive telemetry, while controlled action--response trajectories remain comparatively scarce...
-
-arXiv: https://arxiv.org/abs/2610.17584
+arXiv: https://arxiv.org/abs/2610.27045
 
 #worldmodels #robotics
 ```
@@ -1092,40 +1296,6 @@ Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing
 Reinforcement learning enables learning high-performance control policies, but its reliance on extensive interaction limits deployment on physical systems where data collection is costly, and failures are unsafe.
 
 arXiv: https://arxiv.org/abs/2610.26757
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Latent World Models Should Plan with Distances Along the Latent Manifold](https://arxiv.org/abs/2610.25013)
-
-**Authors:** Zunzhi You, Linwei Tao, Siyu Xu, Yunke Wang, Chang Xu
-
-**Published:** 2026-10-18 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.25013) | [PDF](https://arxiv.org/pdf/2610.25013)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance. Planning with such a cost assumes that proximity in the ambient latent space reflects proximity to the goal in the environment. Studying LeWM, we find that this assumption holds only in a small neighborhood around the goal, whereas farther away the L2 cost forms spurious low-cost basins that trap the planner. Yet neighborhood-based embeddings show that the latents retain the underlying physical state. We t...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Latent World Models Should Plan with Distances Along the Latent Manifold
-
-Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance.
-
-arXiv: https://arxiv.org/abs/2610.25013
 
 #worldmodels #robotics
 ```
@@ -1236,20 +1406,20 @@ arXiv: https://arxiv.org/abs/2610.21686
 
 ---
 
-### [LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction](https://arxiv.org/abs/2610.18093)
+### [Learning the 4D World through Point Trajectory Forecasting](https://arxiv.org/abs/2610.28594)
 
-**Authors:** Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin et al. (8 authors)
+**Authors:** Byungwoo Jeon, Sunghwan Hong, Dohyeon Kim, Jonghoon Lee, Jungwoo Park et al. (13 authors)
 
-**Published:** 2026-10-13 (updated 2026-10-17) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.18093) | [PDF](https://arxiv.org/pdf/2610.18093)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28594) | [PDF](https://arxiv.org/pdf/2610.28594)
 
 <details>
 <summary>Abstract</summary>
 
-Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction. However, existing datasets typically support these capabilities in isolation and rarely provide dense spatial and behavior-level supervision on real wheel-legged platforms. We introduce LynxScenes, a large-scale real-world dataset and benchmark collected with a LYNX M20 wheel-legged robot. It contains approximately 100K 30-s navigation clips spanning 833.6 h and 3,294.7 km, with 3.0M annotated frames. The synchronized r...
+Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras, and add a trajectory head that predicts how physical points move through time. Each trajectory trac...
 
 </details>
 
@@ -1257,11 +1427,11 @@ Wheel-legged robots operating in outdoor spaces shared with humans require accur
 <summary>Share</summary>
 
 ```
-LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction
+Learning the 4D World through Point Trajectory Forecasting
 
-Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction.
+Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene.
 
-arXiv: https://arxiv.org/abs/2610.18093
+arXiv: https://arxiv.org/abs/2610.28594
 
 #worldmodels #robotics
 ```
@@ -1270,20 +1440,20 @@ arXiv: https://arxiv.org/abs/2610.18093
 
 ---
 
-### [From Pixels to Executable Physics: Behavior-Grounded World Models for Embodied Action Consequence Prediction](https://arxiv.org/abs/2610.17630)
+### [OverSeer: Multi-Agent World Models Beyond What Agents See](https://arxiv.org/abs/2610.28554)
 
-**Authors:** Ruo Chen, Jiahua Pang, Yingjie Niu, Hongyi Lin, Jun Tian et al. (7 authors)
+**Authors:** Runjia Li, Kam Woh Ng, Minghao Chen, Junlin Han, Jianyuan Wang et al. (9 authors)
 
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; robotics / embodied focus
+**Why surfaced:** "world model" in title; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.17630) | [PDF](https://arxiv.org/pdf/2610.17630)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28554) | [PDF](https://arxiv.org/pdf/2610.28554)
 
 <details>
 <summary>Abstract</summary>
 
-In outdoor environments, varying terrain and contact conditions can cause identical action commands to produce different motion outcomes for quadruped robots. Predicting these outcomes is essential for reliable navigation and informed path selection. Existing video world models can generate visually plausible futures, yet often struggle to capture robot dynamics and terrain interactions, leading to overly optimistic predictions of action outcomes. We present DR-WM, a physically consistent world model that incorporates robot-terrain contact dynamics to predict the consequences of quadruped acti...
+Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents. To address this gap, we introduce OverSeer, a multi-agent world model that augments egocentric agent views with auxiliary camera views. We suggest that, by fixing the auxiliary views in space, they act as a proxy for a world-centric representation: Unlike the agents' views, which can change entirely due to a simple change in agent position, changes in the auxiliary views directly map to loca...
 
 </details>
 
@@ -1291,11 +1461,79 @@ In outdoor environments, varying terrain and contact conditions can cause identi
 <summary>Share</summary>
 
 ```
-From Pixels to Executable Physics: Behavior-Grounded World Models for Embodied Action Consequence Prediction
+OverSeer: Multi-Agent World Models Beyond What Agents See
 
-In outdoor environments, varying terrain and contact conditions can cause identical action commands to produce different motion outcomes for quadruped robots.
+Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents.
 
-arXiv: https://arxiv.org/abs/2610.17630
+arXiv: https://arxiv.org/abs/2610.28554
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [MoDDiT: Simple Token Routing in Diffusion Transformers](https://arxiv.org/abs/2610.28086)
+
+**Authors:** Jarek Liesen, Matthew T. Jackson, Benjamin Ellis, Shimon Whiteson, Jakob N. Foerster
+
+**Published:** 2026-10-20 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.28086) | [PDF](https://arxiv.org/pdf/2610.28086)
+
+<details>
+<summary>Abstract</summary>
+
+Real-time video generation, interactive world models, and on-device image synthesis are almost a reality. Diffusion Transformers (DiT) achieve excellent sample quality, shifting the bottleneck to the throughput of the models themselves. Natural images are inherently sparse, as large portions of an image are often background, contribute little to the scene content, and are easy to denoise. DiTs fail to exploit this sparsity, as they process image tokens statically and uniformly. We propose MoDDiT, a simple architecture modification that learns to route tokens through both MLP and self-attention...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MoDDiT: Simple Token Routing in Diffusion Transformers
+
+Real-time video generation, interactive world models, and on-device image synthesis are almost a reality.
+
+arXiv: https://arxiv.org/abs/2610.28086
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [EndoWorld-JEPA: Motion-Guided Global-Local Latent World Modeling for Endoscopic Video Representation Learning](https://arxiv.org/abs/2610.27890)
+
+**Authors:** Jie Wang, Shilong Yang, Tao Zhou, Juan Yu, Rong Qu et al. (8 authors)
+
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.27890) | [PDF](https://arxiv.org/pdf/2610.27890)
+
+<details>
+<summary>Abstract</summary>
+
+Endoscopic video contains state transitions induced by camera displacement, deformable tissue, and instrument interaction, yet existing pre-training methods treat dynamics implicitly. Inspired by action-conditioned joint-embedding predictive world models and by the observation that endoscopic optical flow contains both shared image-plane displacement and localized residual motion, we reformulate passive endoscopic video pre-training as causal motion-guided latent-state prediction. We present EndoWorld-JEPA, to our knowledge the first latent world-model pre-training framework designed for gener...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EndoWorld-JEPA: Motion-Guided Global-Local Latent World Modeling for Endoscopic Video Representation Learning
+
+Endoscopic video contains state transitions induced by camera displacement, deformable tissue, and instrument interaction, yet existing pre-training methods treat dynamics implicitly.
+
+arXiv: https://arxiv.org/abs/2610.27890
 
 #worldmodels #robotics
 ```
@@ -1308,7 +1546,7 @@ arXiv: https://arxiv.org/abs/2610.17630
 
 **Authors:** Xiang Kaibo, Liu Qingfeng
 
-**Published:** 2026-10-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-19 (updated 2026-10-20) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in title; posted in last 2 days
 
@@ -1406,74 +1644,6 @@ arXiv: https://arxiv.org/abs/2610.25666
 
 ---
 
-### [Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence](https://arxiv.org/abs/2610.25360)
-
-**Authors:** One Octadion, Firmansyah Sundana, Novanto Yudistira
-
-**Published:** 2026-10-18 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.25360) | [PDF](https://arxiv.org/pdf/2610.25360)
-
-<details>
-<summary>Abstract</summary>
-
-World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target. The same scene can evolve under many latent rules, and a future that is smooth and physically valid under one rule can be incoherent under the rule actually in force. We formalize the resulting failure, operator-blindness, and show that it is systematically hidden by standard evaluation: a scorer can attain near-perfect generic ranking while separating current-world from other-world futures no better than chance. We introduce Operator-Mismatch Contrastive (OMC) learning, wh...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence
-
-World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target.
-
-arXiv: https://arxiv.org/abs/2610.25360
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [World Model Interpretability: From Decoding Representations to Understanding Latent Worlds](https://arxiv.org/abs/2610.25296)
-
-**Authors:** Jize Wang, Yongcheng Jing, Xinyi Le, Cailian Chen, Xinping Guan et al. (6 authors)
-
-**Published:** 2026-10-18 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.25296) | [PDF](https://arxiv.org/pdf/2610.25296)
-
-<details>
-<summary>Abstract</summary>
-
-Emerging Joint-Embedding Predictive Architectures (JEPAs) are moving beyond representation learning towards latent world models that support prediction, planning, and control. Yet their latent worlds naturally lack a human-interpretable interface. In this Perspective, we argue that as JEPA latents become internal states for prediction and action, interpretability must move beyond what they encode to how latent variables interact, evolve, and causally drive prediction. To this end, we envision a four-stage research agenda, involving Ground, Structure, Verify, and Act, to guide this shift toward...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-World Model Interpretability: From Decoding Representations to Understanding Latent Worlds
-
-Emerging Joint-Embedding Predictive Architectures (JEPAs) are moving beyond representation learning towards latent world models that support prediction, planning, and control.
-
-arXiv: https://arxiv.org/abs/2610.25296
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Structured Latent Dynamics for Long-Horizon Embodied World Models](https://arxiv.org/abs/2610.24534)
 
 **Authors:** Kevin Chen, Yu-Wei Zhan, Haoran Liang, Sen Cui, Changshui Zhang
@@ -1510,9 +1680,9 @@ arXiv: https://arxiv.org/abs/2610.24534
 
 ### [Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability](https://arxiv.org/abs/2610.23722)
 
-**Authors:** Qingshi Wang
+**Authors:** Qingshi Wang, Huiqi Tong
 
-**Published:** 2026-10-16 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-16 (updated 2026-10-19) | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in title; robotics / embodied focus
 
@@ -1576,20 +1746,20 @@ arXiv: https://arxiv.org/abs/2610.23984
 
 ---
 
-### [Order-Consistent Latent Geometry for Reliable Short-Horizon Planning in World Models](https://arxiv.org/abs/2610.18570)
+### [Latent World Models Should Plan with Distances Along the Latent Manifold](https://arxiv.org/abs/2610.25013)
 
-**Authors:** Junlin Wu, Wen Fan, Dandan Zhang
+**Authors:** Zunzhi You, Linwei Tao, Siyu Xu, Yunke Wang, Chang Xu
 
-**Published:** 2026-10-13 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-18 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; robotics / embodied focus
+**Why surfaced:** "world model" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.18570) | [PDF](https://arxiv.org/pdf/2610.18570)
+**Links:** [arXiv](https://arxiv.org/abs/2610.25013) | [PDF](https://arxiv.org/pdf/2610.25013)
 
 <details>
 <summary>Abstract</summary>
 
-Latent planners often rank candidate action sequences by terminal Euclidean distance to a goal latent. Exact agreement with transition distance would make this score ideal, but is stronger than planning requires: along a transition-shortest rollout, the essential requirement is that latent distance does not reverse true transition progress. We show that this pathwise no-reversal requirement is precisely the classical self-approaching condition. To the best of our knowledge, we are the first to identify self-approachingness as a planner-facing compatibility condition for terminal Euclidean late...
+Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance. Planning with such a cost assumes that proximity in the ambient latent space reflects proximity to the goal in the environment. Studying LeWM, we find that this assumption holds only in a small neighborhood around the goal, whereas farther away the L2 cost forms spurious low-cost basins that trap the planner. Yet neighborhood-based embeddings show that the latents retain the underlying physical state. We t...
 
 </details>
 
@@ -1597,46 +1767,11 @@ Latent planners often rank candidate action sequences by terminal Euclidean dist
 <summary>Share</summary>
 
 ```
-Order-Consistent Latent Geometry for Reliable Short-Horizon Planning in World Models
+Latent World Models Should Plan with Distances Along the Latent Manifold
 
-Latent planners often rank candidate action sequences by terminal Euclidean distance to a goal latent.
+Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance.
 
-arXiv: https://arxiv.org/abs/2610.18570
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [LongForcing: Scaling Temporal Manifold Matching for Long-Horizon World Rollout](https://arxiv.org/abs/2610.18289)
-
-**Authors:** Ziyu Zhu, Zhaoxu Sun, Fan Jiang, Mengchao Wang, Junfeng Ni et al. (8 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.18289) | [PDF](https://arxiv.org/pdf/2610.18289) | [Code](https://github.com/Fantasy-AMAP/LongForcing)
-
-<details>
-<summary>Abstract</summary>
-
-Autoregressive video diffusion models have emerged as a foundation for long-horizon world rollout. However, when extended far beyond their training windows, these models suffer from progressive drift: visual quality deteriorates, motion becomes inconsistent, and object identity gradually collapses as generated frames are recursively reused as context. We study a supervision-horizon gap: short-horizon distillation leaves later rollout states without direct supervision. We show that matching short-window marginals need not determine long-horizon behavior, while longer on-policy trajectories expo...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-LongForcing: Scaling Temporal Manifold Matching for Long-Horizon World Rollout
-
-Autoregressive video diffusion models have emerged as a foundation for long-horizon world rollout.
-
-arXiv: https://arxiv.org/abs/2610.18289
-Code: https://github.com/Fantasy-AMAP/LongForcing
+arXiv: https://arxiv.org/abs/2610.25013
 
 #worldmodels #robotics
 ```
@@ -1851,20 +1986,20 @@ arXiv: https://arxiv.org/abs/2610.20134
 
 ---
 
-### [RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories](https://arxiv.org/abs/2610.18699)
+### [Learning Computational Structure for Sample-Efficient Prediction](https://arxiv.org/abs/2610.28555)
 
-**Authors:** Yunfu Deng, Sangwoo Shin, Brahma S. Pavse, Josiah P. Hanna
+**Authors:** Hangyu Zhou, Constantine Dovrolis, Stephen Mussmann
 
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-20 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
+**Why surfaced:** "world model" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.18699) | [PDF](https://arxiv.org/pdf/2610.18699)
+**Links:** [arXiv](https://arxiv.org/abs/2610.28555) | [PDF](https://arxiv.org/pdf/2610.28555)
 
 <details>
 <summary>Abstract</summary>
 
-Evaluating robot policies before deployment typically requires producing new trajectories through real-world execution, simulators, or learned world models. These rollout-based approaches impose infrastructure requirements; simulator and world-model evaluators additionally face prediction errors that can compound over the evaluation horizon. In this paper, we study off-policy evaluation as an alternative to rollout-based robot-policy evaluation methods. Specifically, we introduce RoboFQE, an evaluator that estimates the discounted expected return of a target policy from offline robot trajector...
+Statistical learning in high dimensions suffers from the curse of dimensionality. Fortunately, many functions of practical interest are compositionally sparse, meaning they admit a composition of local functions, each depending on only a few variables, allowing sample complexity to depend on local arity rather than ambient dimension. Yet realizing this benefit requires exploiting hidden compositional structure, which theory does not establish for practical gradient-based training. We study this gap with CSFRBench, a controlled benchmark that hides the target's compositional computation during...
 
 </details>
 
@@ -1872,113 +2007,11 @@ Evaluating robot policies before deployment typically requires producing new tra
 <summary>Share</summary>
 
 ```
-RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories
+Learning Computational Structure for Sample-Efficient Prediction
 
-Evaluating robot policies before deployment typically requires producing new trajectories through real-world execution, simulators, or learned world models.
+Statistical learning in high dimensions suffers from the curse of dimensionality.
 
-arXiv: https://arxiv.org/abs/2610.18699
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Grid or Nodes? Probing Object Memory in World Models Under Partial Observability](https://arxiv.org/abs/2610.18637)
-
-**Authors:** Justin McMillen, Yasin Yilmaz
-
-**Published:** 2026-10-13 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18637) | [PDF](https://arxiv.org/pdf/2610.18637)
-
-<details>
-<summary>Abstract</summary>
-
-A robot's world model must remember objects that leave the camera's view. FloWM, a learned world model, keeps them in a spatial grid of features that it moves with five built-in velocities. A node memory instead keeps each object's position and velocity as numbers. We compare them in FloWM's own block world, with an oracle-fed Kalman tracker as the node memory. How the grid is read changes its score: a single-cell probe finds 66% of out-of-view blocks, while FloWM's own probe 89%. FloWM also scores 8 points higher in view although no frame is shown, which we attribute to its write-back of its...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Grid or Nodes? Probing Object Memory in World Models Under Partial Observability
-
-A robot's world model must remember objects that leave the camera's view.
-
-arXiv: https://arxiv.org/abs/2610.18637
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [DriveWLA: Unifying Future Dynamics and Scene Semantics through World-Language-Action Modeling for Autonomous Driving](https://arxiv.org/abs/2610.17903)
-
-**Authors:** Shuzheng Wang, Haoxuan Li, Shengzhen Li, Chenxi Wu, Yajing Sun et al. (8 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17903) | [PDF](https://arxiv.org/pdf/2610.17903)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language Models (VLMs) and world models have demonstrated strong capabilities in semantic understanding and future scene evolution for autonomous driving. However, effectively integrating both capabilities for trajectory generation remains challenging. In this work, we propose DriveWLA, a unified World-Language-Action model based on Mixture-of-Transformers (MoT) that jointly models semantic understanding, future scene dynamics, and trajectory generation. DriveWLA consists of three experts: a World Expert for future prediction, a Language Expert for semantic understanding, and an Action...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DriveWLA: Unifying Future Dynamics and Scene Semantics through World-Language-Action Modeling for Autonomous Driving
-
-Vision-Language Models (VLMs) and world models have demonstrated strong capabilities in semantic understanding and future scene evolution for autonomous driving.
-
-arXiv: https://arxiv.org/abs/2610.17903
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [OccWAM: Occupancy World-Action Models with Joint Scene-to-Ego Flow Matching](https://arxiv.org/abs/2610.17688)
-
-**Authors:** Qihang Huang, Wenhui Huang, Collister Chua, Shiyu Fang, Zhan Chen et al. (9 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17688) | [PDF](https://arxiv.org/pdf/2610.17688)
-
-<details>
-<summary>Abstract</summary>
-
-Occupancy world models provide a structured, metric representation of future driving scenes, making them a promising basis for end-to-end autonomous driving. However, existing occupancy-aware planners typically couple occupancy prediction and action generation through either hierarchical coupling or parallel multi-task learning. Hierarchical methods use occupancy either as a fully predicted future preceding action generation or as an action-conditioned rollout for trajectory evaluation, whereas parallel multi-task methods predict occupancy alongside planning through a separate branch or auxili...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-OccWAM: Occupancy World-Action Models with Joint Scene-to-Ego Flow Matching
-
-Occupancy world models provide a structured, metric representation of future driving scenes, making them a promising basis for end-to-end autonomous driving.
-
-arXiv: https://arxiv.org/abs/2610.17688
+arXiv: https://arxiv.org/abs/2610.28555
 
 #worldmodels #robotics
 ```
@@ -1991,7 +2024,7 @@ arXiv: https://arxiv.org/abs/2610.17688
 
 **Authors:** Chenyan Zheng, Fan Wu, Ruibo Li, Jiaxing Li, Minghao Yang et al. (7 authors)
 
-**Published:** 2026-10-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-19 (updated 2026-10-20) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world simulator" in abstract; posted in last 2 days
 
@@ -2013,6 +2046,74 @@ Risk Decomposition for Hallucination-Aware Video Sampling
 Despite achieving high visual fidelity, video models still suffer from physical hallucinations, limiting their reliability as world simulators.
 
 arXiv: https://arxiv.org/abs/2610.26069
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence](https://arxiv.org/abs/2610.25360)
+
+**Authors:** One Octadion, Firmansyah Sundana, Novanto Yudistira
+
+**Published:** 2026-10-18 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.25360) | [PDF](https://arxiv.org/pdf/2610.25360)
+
+<details>
+<summary>Abstract</summary>
+
+World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target. The same scene can evolve under many latent rules, and a future that is smooth and physically valid under one rule can be incoherent under the rule actually in force. We formalize the resulting failure, operator-blindness, and show that it is systematically hidden by standard evaluation: a scorer can attain near-perfect generic ranking while separating current-world from other-world futures no better than chance. We introduce Operator-Mismatch Contrastive (OMC) learning, wh...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence
+
+World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target.
+
+arXiv: https://arxiv.org/abs/2610.25360
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [World Model Interpretability: From Decoding Representations to Understanding Latent Worlds](https://arxiv.org/abs/2610.25296)
+
+**Authors:** Jize Wang, Yongcheng Jing, Xinyi Le, Cailian Chen, Xinping Guan et al. (6 authors)
+
+**Published:** 2026-10-18 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.25296) | [PDF](https://arxiv.org/pdf/2610.25296)
+
+<details>
+<summary>Abstract</summary>
+
+Emerging Joint-Embedding Predictive Architectures (JEPAs) are moving beyond representation learning towards latent world models that support prediction, planning, and control. Yet their latent worlds naturally lack a human-interpretable interface. In this Perspective, we argue that as JEPA latents become internal states for prediction and action, interpretability must move beyond what they encode to how latent variables interact, evolve, and causally drive prediction. To this end, we envision a four-stage research agenda, involving Ground, Structure, Verify, and Act, to guide this shift toward...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+World Model Interpretability: From Decoding Representations to Understanding Latent Worlds
+
+Emerging Joint-Embedding Predictive Architectures (JEPAs) are moving beyond representation learning towards latent world models that support prediction, planning, and control.
+
+arXiv: https://arxiv.org/abs/2610.25296
 
 #worldmodels #robotics
 ```
@@ -2259,74 +2360,6 @@ arXiv: https://arxiv.org/abs/2610.21374
 
 ---
 
-### [UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models](https://arxiv.org/abs/2610.18697)
-
-**Authors:** Jingbo Xu, Jianjie Fang, Zhuohang Li, Zihao Song, Zhaolu Wang et al. (12 authors)
-
-**Published:** 2026-10-13 (updated 2026-10-19) | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18697) | [PDF](https://arxiv.org/pdf/2610.18697)
-
-<details>
-<summary>Abstract</summary>
-
-World models (WMs) and world-action models (WAMs) focus on future world prediction and executable action generation, respectively. Although these models learn shared physical dynamics and interaction semantics from embodied trajectories, they are typically trained in isolation, which restricts knowledge reuse between prediction and control. The central challenge is therefore to develop a unified learning framework that shares these dynamics while preserving the distinct modeling capabilities required by each paradigm. We propose UniW(A)M, a mixture-of-experts world-(action) model built upon di...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models
-
-World models (WMs) and world-action models (WAMs) focus on future world prediction and executable action generation, respectively.
-
-arXiv: https://arxiv.org/abs/2610.18697
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Acting Through Registers](https://arxiv.org/abs/2610.17638)
-
-**Authors:** Yiwei Zhang, Yantai Yang, Jin Gao, Jin Lou, Andong Chen et al. (10 authors)
-
-**Published:** 2026-10-13 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.17638) | [PDF](https://arxiv.org/pdf/2610.17638)
-
-<details>
-<summary>Abstract</summary>
-
-World Action Models (WAMs) use generative visual representations to condition robot actions, yet how these representations organize action-relevant information remains poorly understood. We identify persistent high-norm spatial outliers in WAM representations and find that their action relevance persists even after normalization and K/V projection attenuate their extreme magnitude. Motivated by this observation, we introduce RegisterWAM, which adds learnable non-spatial registers to the world model and uses them directly for action conditioning. Registers alone do not fully eliminate spatial o...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Acting Through Registers
-
-World Action Models (WAMs) use generative visual representations to condition robot actions, yet how these representations organize action-relevant information remains poorly understood.
-
-arXiv: https://arxiv.org/abs/2610.17638
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Axiomatic World Modeling for Physics Reasoning](https://arxiv.org/abs/2610.24519)
 
 **Authors:** Xinye Yang, Zhenyang Liu, Yuxuan Wang, Yuanyuan Lei
@@ -2489,40 +2522,6 @@ SceneAE: Scene Generation and Reconstruction in Queryable 3D-Anchored Latent Spa
 Recent video world models have increasingly adopted 3D memory mechanisms to integrate historical observations into a lightweight and persistent scene representation.
 
 arXiv: https://arxiv.org/abs/2610.19708
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [AffectWorld: Benchmarking Emotion-Driven Future World Prediction](https://arxiv.org/abs/2610.18305)
-
-**Authors:** Changhao Song, Yacong Chen, Hui Gao, Yazhou Zhang, Peng Zhang
-
-**Published:** 2026-10-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.18305) | [PDF](https://arxiv.org/pdf/2610.18305)
-
-<details>
-<summary>Abstract</summary>
-
-The world encompasses both physical environments and human actors. Predicting its evolution requires understanding both physical laws and how emotions shape human actions. However, existing world model benchmarks primarily assess physical plausibility and perceptual quality, leaving emotion-driven world evolution largely untested.We introduce AffectWorld, a benchmark that evaluates the chain Emotion-Action-World State through three tasks: World-State Consistency, Emotion-Action Consistency, and Causal Consistency. It comprises 1,498 everyday video samples annotated with plausible emotions, act...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AffectWorld: Benchmarking Emotion-Driven Future World Prediction
-
-The world encompasses both physical environments and human actors.
-
-arXiv: https://arxiv.org/abs/2610.18305
 
 #worldmodels #robotics
 ```
