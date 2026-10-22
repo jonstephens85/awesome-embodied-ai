@@ -7801,5 +7801,181 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.28779": {
+    "first_seen": "2026-10-22",
+    "title": "Second Thoughts: Exploring and Planning through Comparative Imagination in World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.28827": {
+    "first_seen": "2026-10-22",
+    "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.28880": {
+    "first_seen": "2026-10-22",
+    "title": "Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29061": {
+    "first_seen": "2026-10-22",
+    "title": "OccJEPA: Occlusion as Masking for Amodal Video Segmentation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.29088": {
+    "first_seen": "2026-10-22",
+    "title": "Causal world models under physical parameter shifts",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.29161": {
+    "first_seen": "2026-10-22",
+    "title": "SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29203": {
+    "first_seen": "2026-10-22",
+    "title": "NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29308": {
+    "first_seen": "2026-10-22",
+    "title": "LLM-Based Exogenous World Modeling for Dynamic Scheduling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.29329": {
+    "first_seen": "2026-10-22",
+    "title": "Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29408": {
+    "first_seen": "2026-10-22",
+    "title": "LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.29435": {
+    "first_seen": "2026-10-22",
+    "title": "Events, Not Pixels: Where World Models Get the Return Wrong",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.29560": {
+    "first_seen": "2026-10-22",
+    "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29646": {
+    "first_seen": "2026-10-22",
+    "title": "From Association to Decision Value: Testing Paired Instruction Dependence for VLA Corpus Selection",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29692": {
+    "first_seen": "2026-10-22",
+    "title": "FlowVLA: Learning Flow-Aware Physical Completion for Quantitative Robotic Pouring",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29730": {
+    "first_seen": "2026-10-22",
+    "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29866": {
+    "first_seen": "2026-10-22",
+    "title": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.29936": {
+    "first_seen": "2026-10-22",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.29989": {
+    "first_seen": "2026-10-22",
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30044": {
+    "first_seen": "2026-10-22",
+    "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30089": {
+    "first_seen": "2026-10-22",
+    "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.30097": {
+    "first_seen": "2026-10-22",
+    "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30120": {
+    "first_seen": "2026-10-22",
+    "title": "ALPS: Visual State Encoders for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30125": {
+    "first_seen": "2026-10-22",
+    "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30129": {
+    "first_seen": "2026-10-22",
+    "title": "Rethinking Video Autoencoders for Interactive World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30136": {
+    "first_seen": "2026-10-22",
+    "title": "Agentic World Action Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
   }
 }
