@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-22 19:45 UTC
+**Last updated:** 2026-10-23 00:14 UTC
 
-**Papers shown:** 14 (relevance ≥ 2, last 7 days)
+**Papers shown:** 11 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -184,76 +184,6 @@ Project page: https://zju3dv.github.io/ScaleNav/
 
 ---
 
-### [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152)
-
-**Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu et al. (11 authors)
-
-**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.21152) | [PDF](https://arxiv.org/pdf/2610.21152)
-
-<details>
-<summary>Abstract</summary>
-
-Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues. Existing approaches either pretrain policies that still require robot data for adaptation or generate controller-specific commands that limit reuse. Conversion also requires robot-view observations aligned with the generated whole-body motion. We present KODA (Kinematics-Observation Data Ali...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
-
-Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels.
-
-arXiv: https://arxiv.org/abs/2610.21152
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction](https://arxiv.org/abs/2610.28502)
-
-**Authors:** Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen, Ngan Le
-
-**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.28502) | [PDF](https://arxiv.org/pdf/2610.28502)
-
-<details>
-<summary>Abstract</summary>
-
-Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can discard relevant details. Although gaze identifies the wearer's focus, the question may require evidence from the surrounding scene. To address these constraints, we propose GazeLens, which combines frame selection with gaze- and question-guided token reduction. First, HOG transitions and image sharpness select frames bef...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction
-
-Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation.
-
-arXiv: https://arxiv.org/abs/2610.28502
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [SENRI: Understanding the Space-Event Nexus in Real-Life Videos](https://arxiv.org/abs/2610.25309)
 
 **Authors:** Kehan Lan, Kaining Ying, Henghui Ding, Kaipeng Zhang
@@ -289,13 +219,47 @@ Project page: https://senri-video.github.io/
 
 ---
 
+### [GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction](https://arxiv.org/abs/2610.28502)
+
+**Authors:** Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen, Ngan Le
+
+**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.28502) | [PDF](https://arxiv.org/pdf/2610.28502)
+
+<details>
+<summary>Abstract</summary>
+
+Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can discard relevant details. Although gaze identifies the wearer's focus, the question may require evidence from the surrounding scene. To address these constraints, we propose GazeLens, which combines frame selection with gaze- and question-guided token reduction. First, HOG transitions and image sharpness select frames bef...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction
+
+Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation.
+
+arXiv: https://arxiv.org/abs/2610.28502
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation](https://arxiv.org/abs/2610.28476)
 
 **Authors:** Pengying Wu, Mingye Jiang, Yunze Hu, Zhejia Wen, Kangjie Zhou et al. (8 authors)
 
-**Published:** 2026-10-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2610.28476) | [PDF](https://arxiv.org/pdf/2610.28476)
 
@@ -315,74 +279,6 @@ CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navig
 Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it.
 
 arXiv: https://arxiv.org/abs/2610.28476
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video](https://arxiv.org/abs/2610.22681)
-
-**Authors:** Chaoyu Li, Arka Sadhu, Yuliang Li, Hyo Jin Kim, Yuning Chai et al. (6 authors)
-
-**Published:** 2026-10-15 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.22681) | [PDF](https://arxiv.org/pdf/2610.22681)
-
-<details>
-<summary>Abstract</summary>
-
-Answering complex spatial reasoning questions from egocentric video requires determining what evidence is needed, acquiring targeted observations, and combining them through multiple reasoning steps. Existing vision-language models (VLMs) struggle to perform this process reliably. Agentic systems address this challenge by querying external vision and geometry tools, but training their reasoning leaves these tools unchanged, so inaccurate observations can still lead to incorrect answers. We introduce EgoP$^{2}$C, a framework that internalizes a plan-perceive-compose process within a single VLM....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video
-
-Answering complex spatial reasoning questions from egocentric video requires determining what evidence is needed, acquiring targeted observations, and combining them through multiple reasoning steps.
-
-arXiv: https://arxiv.org/abs/2610.22681
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342)
-
-**Authors:** Tianxing Chen, Wenwei Lin, Chuqiao Lyu, Peicheng Xiang, Junyuan Tang et al. (22 authors)
-
-**Published:** 2026-10-15 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.22342) | [PDF](https://arxiv.org/pdf/2610.22342)
-
-<details>
-<summary>Abstract</summary>
-
-Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining, image-space contact maps derived from tactile gloves, together with features from a frozen 3D geometry teacher, supervise the visual tokens; these objectives are removed at inference. In parallel, a tactile pathway encodes regional force histori...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation
-
-Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images.
-
-arXiv: https://arxiv.org/abs/2610.22342
 
 #egocentric #robotlearning
 ```
