@@ -7977,5 +7977,188 @@
       "vla",
       "world_models"
     ]
+  },
+  "2610.30293": {
+    "first_seen": "2026-10-23",
+    "title": "EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.30438": {
+    "first_seen": "2026-10-23",
+    "title": "Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30488": {
+    "first_seen": "2026-10-23",
+    "title": "From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30657": {
+    "first_seen": "2026-10-23",
+    "title": "Anticipating Social Consequences with Distributional World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30671": {
+    "first_seen": "2026-10-23",
+    "title": "Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30732": {
+    "first_seen": "2026-10-23",
+    "title": "SmolVLA-MoE: Sparse Mixture-of-Experts for Efficient Multi-Task Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30735": {
+    "first_seen": "2026-10-23",
+    "title": "When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30781": {
+    "first_seen": "2026-10-23",
+    "title": "DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30789": {
+    "first_seen": "2026-10-23",
+    "title": "An Introduction to World Models for Generalist Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.30814": {
+    "first_seen": "2026-10-23",
+    "title": "DRILL: Training World Models to Improve Policies, Not Predict Pixels",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.30953": {
+    "first_seen": "2026-10-23",
+    "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.30988": {
+    "first_seen": "2026-10-23",
+    "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31066": {
+    "first_seen": "2026-10-23",
+    "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31162": {
+    "first_seen": "2026-10-23",
+    "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31166": {
+    "first_seen": "2026-10-23",
+    "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31194": {
+    "first_seen": "2026-10-23",
+    "title": "Inside-JEPA: From Prediction to Relational Grounding in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31284": {
+    "first_seen": "2026-10-23",
+    "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.31423": {
+    "first_seen": "2026-10-23",
+    "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31427": {
+    "first_seen": "2026-10-23",
+    "title": "FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31474": {
+    "first_seen": "2026-10-23",
+    "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31494": {
+    "first_seen": "2026-10-23",
+    "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.31569": {
+    "first_seen": "2026-10-23",
+    "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31613": {
+    "first_seen": "2026-10-23",
+    "title": "Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31617": {
+    "first_seen": "2026-10-23",
+    "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31668": {
+    "first_seen": "2026-10-23",
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31670": {
+    "first_seen": "2026-10-23",
+    "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "topics": [
+      "vla"
+    ]
   }
 }
