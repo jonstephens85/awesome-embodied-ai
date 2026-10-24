@@ -2,11 +2,46 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-23 19:47 UTC
+**Last updated:** 2026-10-24 00:07 UTC
 
-**Papers shown:** 14 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494)
+
+**Authors:** Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch, Zhuang Liu
+
+**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31494) | [PDF](https://arxiv.org/pdf/2610.31494) | [Project Page](https://zlab-princeton.github.io/AgentVQA)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AgentVQA: A Unified Benchmark for Agentic Visual Understanding
+
+Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood.
+
+arXiv: https://arxiv.org/abs/2610.31494
+Project page: https://zlab-princeton.github.io/AgentVQA
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -14,9 +49,9 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Ruotong Liao, Meikel Kokowski, Xiaoxiao Sun, Yongqin Xian, Laura Bravo Sánchez et al. (9 authors)
 
-**Published:** 2026-10-21 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-10-21 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.30089) | [PDF](https://arxiv.org/pdf/2610.30089) | [Project Page](https://proactegomem.github.io/)
 
@@ -49,9 +84,9 @@ Project page: https://proactegomem.github.io/
 
 **Authors:** Naru Suzuki, Satoshi Ikehata, Takehiko Ohkawa, Yoichi Sato, Shuhei Kurita
 
-**Published:** 2026-10-21 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-10-21 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.29936) | [PDF](https://arxiv.org/pdf/2610.29936) | [Project Page](https://narusuzuki.github.io/projects/26-dewhand/)
 
@@ -72,75 +107,6 @@ Recovering metric world-space hand motion from egocentric video supports underst
 
 arXiv: https://arxiv.org/abs/2610.29936
 Project page: https://narusuzuki.github.io/projects/26-dewhand/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.22932)
-
-**Authors:** Qianqian Yang, Dayou Li, Bangya Liu, Zihao Zhu, Nuo Chen et al. (14 authors)
-
-**Published:** 2026-10-16 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.22932) | [PDF](https://arxiv.org/pdf/2610.22932)
-
-<details>
-<summary>Abstract</summary>
-
-Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone. Measuring them on robots requires specialized tactile hardware and platform-specific data collection, which keeps robot tactile data scarce. Human egocentric video is far easier to scale but lacks touch. Recent predictors trained on egocentric recordings paired with tactile-glove measurements can predict this missing signal from video alone. These predictors, however, remain confined to human hands, which differ from robot hands in appearance and tactile layout....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation
-
-Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone.
-
-arXiv: https://arxiv.org/abs/2610.22932
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494)
-
-**Authors:** Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch, Zhuang Liu
-
-**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31494) | [PDF](https://arxiv.org/pdf/2610.31494) | [Project Page](https://zlab-princeton.github.io/AgentVQA)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AgentVQA: A Unified Benchmark for Agentic Visual Understanding
-
-Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood.
-
-arXiv: https://arxiv.org/abs/2610.31494
-Project page: https://zlab-princeton.github.io/AgentVQA
 
 #egocentric #robotlearning
 ```
@@ -253,40 +219,6 @@ arXiv: https://arxiv.org/abs/2610.31284
 
 ---
 
-### [EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.30293)
-
-**Authors:** Chao-Yeh Chen, Tiffany Chen, Lin Duan, Tianyi Hu, Yu-Hsiang Huang et al. (15 authors)
-
-**Published:** 2026-10-21 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.30293) | [PDF](https://arxiv.org/pdf/2610.30293)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video. Central to our approach is the curation of a high-quality training corpus of 14 million images, combining synthetic data, in-the-wild video, and multi-camera motion capture to balance scene diversity and supervision quality. The model adopts SOMA-Hand as its parametric representation and processes 2D hand crops with a transformer encoder, incorporating camera cues and an auxiliary 2D branch to improve geometric consistency and image alignment. Zero-shot evaluations on...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video
-
-We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video.
-
-arXiv: https://arxiv.org/abs/2610.30293
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [SENRI: Understanding the Space-Event Nexus in Real-Life Videos](https://arxiv.org/abs/2610.25309)
 
 **Authors:** Kehan Lan, Kaining Ying, Henghui Ding, Kaipeng Zhang
@@ -314,6 +246,40 @@ Human memories are organized in a way that connects events with their correspond
 
 arXiv: https://arxiv.org/abs/2610.25309
 Project page: https://senri-video.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.30293)
+
+**Authors:** Chao-Yeh Chen, Tiffany Chen, Lin Duan, Tianyi Hu, Yu-Hsiang Huang et al. (15 authors)
+
+**Published:** 2026-10-21 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.30293) | [PDF](https://arxiv.org/pdf/2610.30293)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video. Central to our approach is the curation of a high-quality training corpus of 14 million images, combining synthetic data, in-the-wild video, and multi-camera motion capture to balance scene diversity and supervision quality. The model adopts SOMA-Hand as its parametric representation and processes 2D hand crops with a transformer encoder, incorporating camera cues and an auxiliary 2D branch to improve geometric consistency and image alignment. Zero-shot evaluations on...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video
+
+We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video.
+
+arXiv: https://arxiv.org/abs/2610.30293
 
 #egocentric #robotlearning
 ```
