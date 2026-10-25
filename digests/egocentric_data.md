@@ -2,46 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-24 23:51 UTC
+**Last updated:** 2026-10-25 18:44 UTC
 
 **Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494)
-
-**Authors:** Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch, Zhuang Liu
-
-**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31494) | [PDF](https://arxiv.org/pdf/2610.31494) | [Project Page](https://zlab-princeton.github.io/AgentVQA)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AgentVQA: A Unified Benchmark for Agentic Visual Understanding
-
-Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood.
-
-arXiv: https://arxiv.org/abs/2610.31494
-Project page: https://zlab-princeton.github.io/AgentVQA
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -185,20 +150,20 @@ Project page: https://zju3dv.github.io/ScaleNav/
 
 ---
 
-### [Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering](https://arxiv.org/abs/2610.31284)
+### [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494)
 
-**Authors:** Raffaele Cali, Giuseppe Lando, Rosario Forte, Antonino Furnari
+**Authors:** Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch, Zhuang Liu
 
 **Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.31284) | [PDF](https://arxiv.org/pdf/2610.31284)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31494) | [PDF](https://arxiv.org/pdf/2610.31494) | [Project Page](https://zlab-princeton.github.io/AgentVQA)
 
 <details>
 <summary>Abstract</summary>
 
-Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence needed for question answering. Building on an online textual-memory framework in which first-person videos are converted into temporally grounded captions, this work systematically studies the role of retrieval in episodic-memory video question answering. We evaluate how different retrieval units, query formulations, context budgets, and reranking strategies affect multiple-choice a...
+Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic...
 
 </details>
 
@@ -206,11 +171,12 @@ Long egocentric videos pose a central challenge for multimodal language models: 
 <summary>Share</summary>
 
 ```
-Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering
+AgentVQA: A Unified Benchmark for Agentic Visual Understanding
 
-Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence ne...
+Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood.
 
-arXiv: https://arxiv.org/abs/2610.31284
+arXiv: https://arxiv.org/abs/2610.31494
+Project page: https://zlab-princeton.github.io/AgentVQA
 
 #egocentric #robotlearning
 ```
@@ -246,6 +212,40 @@ Human memories are organized in a way that connects events with their correspond
 
 arXiv: https://arxiv.org/abs/2610.25309
 Project page: https://senri-video.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering](https://arxiv.org/abs/2610.31284)
+
+**Authors:** Raffaele Cali, Giuseppe Lando, Rosario Forte, Antonino Furnari
+
+**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.31284) | [PDF](https://arxiv.org/pdf/2610.31284)
+
+<details>
+<summary>Abstract</summary>
+
+Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence needed for question answering. Building on an online textual-memory framework in which first-person videos are converted into temporally grounded captions, this work systematically studies the role of retrieval in episodic-memory video question answering. We evaluate how different retrieval units, query formulations, context budgets, and reranking strategies affect multiple-choice a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering
+
+Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence ne...
+
+arXiv: https://arxiv.org/abs/2610.31284
 
 #egocentric #robotlearning
 ```

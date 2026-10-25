@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-24 23:51 UTC
+**Last updated:** 2026-10-25 18:44 UTC
 
-**Papers shown:** 61 (relevance ≥ 2, last 7 days)
+**Papers shown:** 59 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -48,41 +48,6 @@ Code: https://github.com/Ropedia/ropedia-w0
 
 ---
 
-### [DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models](https://arxiv.org/abs/2610.30781)
-
-**Authors:** Adam Lee, Mutian Xu, Yukang Cao, Shulin Tian, Ziwei Liu
-
-**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★★★☆
-
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.30781) | [PDF](https://arxiv.org/pdf/2610.30781) | [Project Page](https://dexplicit.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Before acting on an object, a robot needs to anticipate how its hand motion will change the physical world and what the resulting scene will look like. Existing approaches typically entangle action-conditioned dynamics, camera motion, and visual synthesis within a video generation model, or represent dynamics as point trajectories without explicit object structure. We introduce DeXplicit, a dexterous manipulation world model that instead predicts how the world evolves explicitly in metric 3D before rendering its visual consequences. Given an initial scene and a future hand trajectory, a lightw...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models
-
-Before acting on an object, a robot needs to anticipate how its hand motion will change the physical world and what the resulting scene will look like.
-
-arXiv: https://arxiv.org/abs/2610.30781
-Project page: https://dexplicit.github.io
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models](https://arxiv.org/abs/2610.25959)
 
 **Authors:** X. Feng, J. Tang, Z. Lin, L. Chen, S. Shao et al. (7 authors)
@@ -118,41 +83,6 @@ Project page: https://xiaokunfeng.github.io/EmbodiedWorld-200K/
 
 ---
 
-### [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474)
-
-**Authors:** Qi Lv, Jiayi Lin, Yuxin Jiang, Jianzong Wang, Xiang Deng et al. (6 authors)
-
-**Published:** 2026-10-22 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31474) | [PDF](https://arxiv.org/pdf/2610.31474) | [Project Page](https://aopolin-lv.github.io/SkeLAM/)
-
-<details>
-<summary>Abstract</summary>
-
-Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their correspondence with robot controls. We propose SkeLAM, a skeleton-guided latent action model for controllable robot world modeling. SkeLAM decomposes latent actions into a kinematic component grounded by robot skeleton supervision and a residual component retaining complementary vi...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Skeleton-Grounded Latent Action Model for Robot World Models
-
-Robot world models simulate how environments evolve in response to robot actions.
-
-arXiv: https://arxiv.org/abs/2610.31474
-Project page: https://aopolin-lv.github.io/SkeLAM/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613)
 
 **Authors:** Zebin Xing, Yuhang Zheng, Yupeng Zheng, Yichen Zhang, Zichen Li et al. (11 authors)
@@ -180,6 +110,41 @@ Evaluating and post-training robot policies through physical interaction is cost
 
 arXiv: https://arxiv.org/abs/2610.28613
 Project page: https://zebinx.github.io/PhysCanvas_HomePage/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models](https://arxiv.org/abs/2610.30781)
+
+**Authors:** Adam Lee, Mutian Xu, Yukang Cao, Shulin Tian, Ziwei Liu
+
+**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.30781) | [PDF](https://arxiv.org/pdf/2610.30781) | [Project Page](https://dexplicit.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Before acting on an object, a robot needs to anticipate how its hand motion will change the physical world and what the resulting scene will look like. Existing approaches typically entangle action-conditioned dynamics, camera motion, and visual synthesis within a video generation model, or represent dynamics as point trajectories without explicit object structure. We introduce DeXplicit, a dexterous manipulation world model that instead predicts how the world evolves explicitly in metric 3D before rendering its visual consequences. Given an initial scene and a future hand trajectory, a lightw...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models
+
+Before acting on an object, a robot needs to anticipate how its hand motion will change the physical world and what the resulting scene will look like.
+
+arXiv: https://arxiv.org/abs/2610.30781
+Project page: https://dexplicit.github.io
 
 #worldmodels #robotics
 ```
@@ -260,20 +225,20 @@ Code: https://github.com/junha1125/LaLa-World
 
 ---
 
-### [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988)
+### [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474)
 
-**Authors:** Hengyi Sim, Quentin Rouxel, Dennis Hong, Darwin Caldwell, Fei Chen
+**Authors:** Qi Lv, Jiayi Lin, Yuxin Jiang, Jianzong Wang, Xiang Deng et al. (6 authors)
 
 **Published:** 2026-10-22 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.30988) | [PDF](https://arxiv.org/pdf/2610.30988)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31474) | [PDF](https://arxiv.org/pdf/2610.31474) | [Project Page](https://aopolin-lv.github.io/SkeLAM/)
 
 <details>
 <summary>Abstract</summary>
 
-Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations. Humans address this challenge by using mental world models that "imagine" the shape and material properties from partial observations, which enables them to predict how actions affect future states. As such, embedding such world models in robots allows for better generalization in manipulating a wide variety of garments in the real world. However, learned world models typically...
+Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their correspondence with robot controls. We propose SkeLAM, a skeleton-guided latent action model for controllable robot world modeling. SkeLAM decomposes latent actions into a kinematic component grounded by robot skeleton supervision and a residual component retaining complementary vi...
 
 </details>
 
@@ -281,11 +246,12 @@ Robust manipulation of soft objects, such as garments, is a critical skill for s
 <summary>Share</summary>
 
 ```
-In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations
+Skeleton-Grounded Latent Action Model for Robot World Models
 
-Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations.
+Robot world models simulate how environments evolve in response to robot actions.
 
-arXiv: https://arxiv.org/abs/2610.30988
+arXiv: https://arxiv.org/abs/2610.31474
+Project page: https://aopolin-lv.github.io/SkeLAM/
 
 #worldmodels #robotics
 ```
@@ -434,20 +400,20 @@ Code: https://github.com/woyut/TESS_EMNLP26
 
 ---
 
-### [DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control](https://arxiv.org/abs/2610.31617)
+### [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988)
 
-**Authors:** Fanxing Li, Yuxiang Huang, Shengyang Wang, Fangyu Sun, Shuyu Wu et al. (10 authors)
+**Authors:** Hengyi Sim, Quentin Rouxel, Dennis Hong, Darwin Caldwell, Fei Chen
 
 **Published:** 2026-10-22 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+**Why surfaced:** "world model" in title; robotics / embodied focus
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.31617) | [PDF](https://arxiv.org/pdf/2610.31617)
+**Links:** [arXiv](https://arxiv.org/abs/2610.30988) | [PDF](https://arxiv.org/pdf/2610.30988)
 
 <details>
 <summary>Abstract</summary>
 
-Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future imagination, yet it often entangles environmental evolution and the robot's own dynamics in a single learned rollout, where model bias can affect policy optimization efficiency. We propose DiffDreamer, a differentiable reinforcement learning framework that tightly couples a learned world model with differentiable simulation for actor optimization. In...
+Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations. Humans address this challenge by using mental world models that "imagine" the shape and material properties from partial observations, which enables them to predict how actions affect future states. As such, embedding such world models in robots allows for better generalization in manipulating a wide variety of garments in the real world. However, learned world models typically...
 
 </details>
 
@@ -455,45 +421,11 @@ Tasks such as quadrotor dynamic-gate racing require agents to anticipate externa
 <summary>Share</summary>
 
 ```
-DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control
+In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations
 
-Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control.
+Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations.
 
-arXiv: https://arxiv.org/abs/2610.31617
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Inside-JEPA: From Prediction to Relational Grounding in Latent World Models](https://arxiv.org/abs/2610.31194)
-
-**Authors:** Hossein Resani, Javen Qinfeng Shi
-
-**Published:** 2026-10-22 | **Categories:** cs.LG, cs.CV, cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.31194) | [PDF](https://arxiv.org/pdf/2610.31194)
-
-<details>
-<summary>Abstract</summary>
-
-Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque. We introduce Inside-JEPA, which places relational channels for ordered entity pairs inside the JEPA latent state and shows that an inverse-dynamics loss can ground these channels without relation labels when its head reads them, either alone or as part of the full state. On Something-Something V2, latent prediction alone performs no better than a random relation head, while inverse-dynamics supervision that recovers actions from channel changes impro...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Inside-JEPA: From Prediction to Relational Grounding in Latent World Models
-
-Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque.
-
-arXiv: https://arxiv.org/abs/2610.31194
+arXiv: https://arxiv.org/abs/2610.30988
 
 #worldmodels #robotics
 ```
@@ -635,41 +567,6 @@ Latent world models let an agent plan in latent space.
 
 arXiv: https://arxiv.org/abs/2610.26979
 Code: https://github.com/yjang43/lp2
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Reading, Writing, Sharing, and Interacting with the World through Video](https://arxiv.org/abs/2610.31668)
-
-**Authors:** Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu, Shuicheng Yan et al. (8 authors)
-
-**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31668) | [PDF](https://arxiv.org/pdf/2610.31668) | [Project Page](https://vid-gen.github.io/video-world-model-survey)
-
-<details>
-<summary>Abstract</summary>
-
-Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, we organize the literature around four complementary operations: reading infers world properties from...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Reading, Writing, Sharing, and Interacting with the World through Video
-
-Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.
-
-arXiv: https://arxiv.org/abs/2610.31668
-Project page: https://vid-gen.github.io/video-world-model-survey
 
 #worldmodels #robotics
 ```
@@ -923,6 +820,74 @@ Code: https://github.com/karthik-iyer-au/retail-world-models
 
 ---
 
+### [DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control](https://arxiv.org/abs/2610.31617)
+
+**Authors:** Fanxing Li, Yuxiang Huang, Shengyang Wang, Fangyu Sun, Shuyu Wu et al. (10 authors)
+
+**Published:** 2026-10-22 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.31617) | [PDF](https://arxiv.org/pdf/2610.31617)
+
+<details>
+<summary>Abstract</summary>
+
+Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future imagination, yet it often entangles environmental evolution and the robot's own dynamics in a single learned rollout, where model bias can affect policy optimization efficiency. We propose DiffDreamer, a differentiable reinforcement learning framework that tightly couples a learned world model with differentiable simulation for actor optimization. In...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control
+
+Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control.
+
+arXiv: https://arxiv.org/abs/2610.31617
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Inside-JEPA: From Prediction to Relational Grounding in Latent World Models](https://arxiv.org/abs/2610.31194)
+
+**Authors:** Hossein Resani, Javen Qinfeng Shi
+
+**Published:** 2026-10-22 | **Categories:** cs.LG, cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.31194) | [PDF](https://arxiv.org/pdf/2610.31194)
+
+<details>
+<summary>Abstract</summary>
+
+Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque. We introduce Inside-JEPA, which places relational channels for ordered entity pairs inside the JEPA latent state and shows that an inverse-dynamics loss can ground these channels without relation labels when its head reads them, either alone or as part of the full state. On Something-Something V2, latent prediction alone performs no better than a random relation head, while inverse-dynamics supervision that recovers actions from channel changes impro...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Inside-JEPA: From Prediction to Relational Grounding in Latent World Models
+
+Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque.
+
+arXiv: https://arxiv.org/abs/2610.31194
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Causal world models under physical parameter shifts](https://arxiv.org/abs/2610.29088)
 
 **Authors:** Chu Lin, Yi Sun
@@ -1025,20 +990,20 @@ arXiv: https://arxiv.org/abs/2610.27387
 
 ---
 
-### [Dual Exam: Controlled Evaluation of Multimodal Agents and World Models](https://arxiv.org/abs/2610.31066)
+### [Reading, Writing, Sharing, and Interacting with the World through Video](https://arxiv.org/abs/2610.31668)
 
-**Authors:** Zhefan Rao, Meng Chu, Xuan Zhang, Jingfan Chen, Guohao Cai et al. (83 authors)
+**Authors:** Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu, Shuicheng Yan et al. (8 authors)
 
-**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-22 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; posted in last 2 days
+**Why surfaced:** "world model" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.31066) | [PDF](https://arxiv.org/pdf/2610.31066)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31668) | [PDF](https://arxiv.org/pdf/2610.31668) | [Project Page](https://vid-gen.github.io/video-world-model-survey)
 
 <details>
 <summary>Abstract</summary>
 
-World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in 15 reporting categories. The World Model track contains 400 cases across eight scenarios; 15 configu...
+Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, we organize the literature around four complementary operations: reading infers world properties from...
 
 </details>
 
@@ -1046,79 +1011,12 @@ World Models (WMs) can support Multimodal Agents (MAs) through simulated experie
 <summary>Share</summary>
 
 ```
-Dual Exam: Controlled Evaluation of Multimodal Agents and World Models
+Reading, Writing, Sharing, and Interacting with the World through Video
 
-World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement.
+Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.
 
-arXiv: https://arxiv.org/abs/2610.31066
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [An Introduction to World Models for Generalist Agents](https://arxiv.org/abs/2610.30789)
-
-**Authors:** Zhihui Zhu
-
-**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.30789) | [PDF](https://arxiv.org/pdf/2610.30789)
-
-<details>
-<summary>Abstract</summary>
-
-World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments. However, despite growing interest, the concept of a world model remains loosely defined, encompassing approaches ranging from predictive dynamics models and learned simulators to models that jointly generate future observations and actions. This introductory paper aims to clarify the concept of world models and provide a unified perspective on their role in developing generalist agents. Starting from the partially obser...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-An Introduction to World Models for Generalist Agents
-
-World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments.
-
-arXiv: https://arxiv.org/abs/2610.30789
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Anticipating Social Consequences with Distributional World Models](https://arxiv.org/abs/2610.30657)
-
-**Authors:** Viet-Thanh Pham, Thuy-Trang Vu, Zhuang Li, Lizhen Qu, Gholamreza Haffari
-
-**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.30657) | [PDF](https://arxiv.org/pdf/2610.30657)
-
-<details>
-<summary>Abstract</summary>
-
-Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate. In these situations, one action can lead to several plausible futures, hence predicting only one future can overlook consequential alternatives, while exploring them through repeated simulations increases inference cost. We propose DSWM, a Distributional Social World Model that predicts alternative responses, their probabilities and immediate and final outcome values in one output per candidate action. We train a 4B model on repeated simulations using supervised fine-tuning an...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Anticipating Social Consequences with Distributional World Models
-
-Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate.
-
-arXiv: https://arxiv.org/abs/2610.30657
+arXiv: https://arxiv.org/abs/2610.31668
+Project page: https://vid-gen.github.io/video-world-model-survey
 
 #worldmodels #robotics
 ```
@@ -1435,40 +1333,6 @@ Project page: https://prism-wam.github.io/
 
 ---
 
-### [Structured Latent Dynamics for Long-Horizon Embodied World Models](https://arxiv.org/abs/2610.24534)
-
-**Authors:** Kevin Chen, Yu-Wei Zhan, Haoran Liang, Sen Cui, Changshui Zhang
-
-**Published:** 2026-10-17 | **Categories:** cs.LG, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.24534) | [PDF](https://arxiv.org/pdf/2610.24534)
-
-<details>
-<summary>Abstract</summary>
-
-Reliable long-horizon prediction remains a central challenge for embodied world models. Although recent generative models can synthesize visually plausible action-conditioned futures, their latent dynamics are typically learned through unconstrained transition modules, which may gradually deviate from coherent physical evolution as predictions are recursively rolled forward. We investigate whether explicitly structuring latent state evolution can improve the stability and utility of such imagined trajectories. To this end, we introduce HWM, a structured dynamics framework that represents backb...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Structured Latent Dynamics for Long-Horizon Embodied World Models
-
-Reliable long-horizon prediction remains a central challenge for embodied world models.
-
-arXiv: https://arxiv.org/abs/2610.24534
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045)
 
 **Authors:** Weinan Zhang, Chunhua Shen, Tianfan Xue, Bin Zhao, Bingqi Jiang et al. (52 authors)
@@ -1563,6 +1427,108 @@ Latent World Models Should Plan with Distances Along the Latent Manifold
 Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance.
 
 arXiv: https://arxiv.org/abs/2610.25013
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Dual Exam: Controlled Evaluation of Multimodal Agents and World Models](https://arxiv.org/abs/2610.31066)
+
+**Authors:** Zhefan Rao, Meng Chu, Xuan Zhang, Jingfan Chen, Guohao Cai et al. (83 authors)
+
+**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.31066) | [PDF](https://arxiv.org/pdf/2610.31066)
+
+<details>
+<summary>Abstract</summary>
+
+World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in 15 reporting categories. The World Model track contains 400 cases across eight scenarios; 15 configu...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Dual Exam: Controlled Evaluation of Multimodal Agents and World Models
+
+World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement.
+
+arXiv: https://arxiv.org/abs/2610.31066
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [An Introduction to World Models for Generalist Agents](https://arxiv.org/abs/2610.30789)
+
+**Authors:** Zhihui Zhu
+
+**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.30789) | [PDF](https://arxiv.org/pdf/2610.30789)
+
+<details>
+<summary>Abstract</summary>
+
+World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments. However, despite growing interest, the concept of a world model remains loosely defined, encompassing approaches ranging from predictive dynamics models and learned simulators to models that jointly generate future observations and actions. This introductory paper aims to clarify the concept of world models and provide a unified perspective on their role in developing generalist agents. Starting from the partially obser...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+An Introduction to World Models for Generalist Agents
+
+World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments.
+
+arXiv: https://arxiv.org/abs/2610.30789
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Anticipating Social Consequences with Distributional World Models](https://arxiv.org/abs/2610.30657)
+
+**Authors:** Viet-Thanh Pham, Thuy-Trang Vu, Zhuang Li, Lizhen Qu, Gholamreza Haffari
+
+**Published:** 2026-10-22 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.30657) | [PDF](https://arxiv.org/pdf/2610.30657)
+
+<details>
+<summary>Abstract</summary>
+
+Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate. In these situations, one action can lead to several plausible futures, hence predicting only one future can overlook consequential alternatives, while exploring them through repeated simulations increases inference cost. We propose DSWM, a Distributional Social World Model that predicts alternative responses, their probabilities and immediate and final outcome values in one output per candidate action. We train a 4B model on repeated simulations using supervised fine-tuning an...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Anticipating Social Consequences with Distributional World Models
+
+Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate.
+
+arXiv: https://arxiv.org/abs/2610.30657
 
 #worldmodels #robotics
 ```
@@ -2073,40 +2039,6 @@ Risk Decomposition for Hallucination-Aware Video Sampling
 Despite achieving high visual fidelity, video models still suffer from physical hallucinations, limiting their reliability as world simulators.
 
 arXiv: https://arxiv.org/abs/2610.26069
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Axiomatic World Modeling for Physics Reasoning](https://arxiv.org/abs/2610.24519)
-
-**Authors:** Xinye Yang, Zhenyang Liu, Yuxuan Wang, Yuanyuan Lei
-
-**Published:** 2026-10-17 | **Categories:** cs.AI, cs.CL | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.24519) | [PDF](https://arxiv.org/pdf/2610.24519)
-
-<details>
-<summary>Abstract</summary>
-
-Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about. Models often silently alter given quantities, fabricate laws, or inject unstated assumptions to force a problem into familiar patterns, and then reason inside this corrupted world. We define this premise-level divergence as modeling drift: the gap between a model's internal axiomatic world model (AWM) and the true physical world specified in the problem. Although RLVR and PRM have yielded substantial gains in mathematics and...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Axiomatic World Modeling for Physics Reasoning
-
-Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about.
-
-arXiv: https://arxiv.org/abs/2610.24519
 
 #worldmodels #robotics
 ```
