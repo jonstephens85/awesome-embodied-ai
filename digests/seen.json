@@ -8160,5 +8160,160 @@
     "topics": [
       "vla"
     ]
+  },
+  "2610.31762": {
+    "first_seen": "2026-10-26",
+    "title": "See What I Need, Dream What I Want: A Navigation Foundation Model on a Self-Constructed Representation Space",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.31801": {
+    "first_seen": "2026-10-26",
+    "title": "KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.31845": {
+    "first_seen": "2026-10-26",
+    "title": "EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2610.31859": {
+    "first_seen": "2026-10-26",
+    "title": "Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.31983": {
+    "first_seen": "2026-10-26",
+    "title": "Interpreting Physics in Video Encoders using Multi-Object Interaction Videos",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32093": {
+    "first_seen": "2026-10-26",
+    "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32094": {
+    "first_seen": "2026-10-26",
+    "title": "TTT in VLA Models: Exploring Training with Human Demonstrations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32102": {
+    "first_seen": "2026-10-26",
+    "title": "Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32177": {
+    "first_seen": "2026-10-26",
+    "title": "$Ψ$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32208": {
+    "first_seen": "2026-10-26",
+    "title": "Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32222": {
+    "first_seen": "2026-10-26",
+    "title": "ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32271": {
+    "first_seen": "2026-10-26",
+    "title": "From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32312": {
+    "first_seen": "2026-10-26",
+    "title": "MAST-VLA: Skill-Conditioned Adaptation with Trajectory-Affordance Priors for Multi-Skill Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32381": {
+    "first_seen": "2026-10-26",
+    "title": "UniWorld: A Unified World Model for Real-Time Visual World Simulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32431": {
+    "first_seen": "2026-10-26",
+    "title": "When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32657": {
+    "first_seen": "2026-10-26",
+    "title": "DT-JEPA: Learning to Predict Future Representations for Decision-Making",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32676": {
+    "first_seen": "2026-10-26",
+    "title": "Retiming Robot Demonstrations with a Learned Speed Prior",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32742": {
+    "first_seen": "2026-10-26",
+    "title": "Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.32888": {
+    "first_seen": "2026-10-26",
+    "title": "When Human Corrections Travel: Safety in Federated VLA Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32941": {
+    "first_seen": "2026-10-26",
+    "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32971": {
+    "first_seen": "2026-10-26",
+    "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.32977": {
+    "first_seen": "2026-10-26",
+    "title": "UniAction: Unified Action Conditioning for World Models",
+    "topics": [
+      "world_models"
+    ]
   }
 }

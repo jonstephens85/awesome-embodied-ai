@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-25 23:40 UTC
+**Last updated:** 2026-10-26 20:53 UTC
 
 **Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
@@ -115,6 +115,78 @@ Project page: https://qft-333.github.io/V-JEPA-Hand-Page/
 
 ---
 
+### [EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions](https://arxiv.org/abs/2610.31845)
+
+**Authors:** Chubin Zhang, Changyuan Wang, Yirui Wang, Ao Li, Shilin Ma et al. (10 authors)
+
+**Published:** 2026-10-22 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; project page
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31845) | [PDF](https://arxiv.org/pdf/2610.31845) | [Project Page](https://lin-shan.com/EgoForesight)
+
+<details>
+<summary>Abstract</summary>
+
+Scaling policy learning requires broad experience and reliable supervision. Robot demonstrations provide high-quality trajectory supervision but are costly to collect. Egocentric videos broaden task and environment coverage, yet motion reconstruction and retargeting introduce noisy action labels. To address this challenge, we introduce EgoForesight, a vision-language-action framework that learns jointly from both sources by reducing the influence of unreliable action labels and exploiting demonstrated outcomes as complementary supervision. A joint vision-action flow couples future visual repre...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions
+
+Scaling policy learning requires broad experience and reliable supervision.
+
+arXiv: https://arxiv.org/abs/2610.31845
+Project page: https://lin-shan.com/EgoForesight
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations](https://arxiv.org/abs/2610.31801)
+
+**Authors:** Shuangyu Xie, Kaiyuan Chen, Muhammad Zubair Irshad, Richard Cheng, Sergey Zakharov et al. (6 authors)
+
+**Published:** 2026-10-22 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.31801) | [PDF](https://arxiv.org/pdf/2610.31801) | [Project Page](https://berkeleyautomation.github.io/kirose/)
+
+<details>
+<summary>Abstract</summary>
+
+Segmenting robot demonstration data into disjoint temporal and semantic subsegments is valuable for learning, cleaning, retrieval, and analysis. Segmentation is often performed manually in a tedious and error prone process. Multimodal Large Language Models (MLLMs) have the potential for automating this process, but directly ingesting raw multi camera video streams into MLLMs can be costly and can quickly exhaust context windows. In this paper, we introduce KiRoSe (Kinematics for Robot Segmentation), a novel framework that focuses on the companion stream of robot kinematic data. Inspired by the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations
+
+Segmenting robot demonstration data into disjoint temporal and semantic subsegments is valuable for learning, cleaning, retrieval, and analysis.
+
+arXiv: https://arxiv.org/abs/2610.31801
+Project page: https://berkeleyautomation.github.io/kirose/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation](https://arxiv.org/abs/2610.25690)
 
 **Authors:** Yihui Yang, Yuanhong Yu, Jiawei Wang, Zhongrui Yu, Jia Shi et al. (10 authors)
@@ -177,41 +249,6 @@ Vision-language models (VLMs) can perform a broad range of tasks across diverse 
 
 arXiv: https://arxiv.org/abs/2610.31494
 Project page: https://zlab-princeton.github.io/AgentVQA
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [SENRI: Understanding the Space-Event Nexus in Real-Life Videos](https://arxiv.org/abs/2610.25309)
-
-**Authors:** Kehan Lan, Kaining Ying, Henghui Ding, Kaipeng Zhang
-
-**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25309) | [PDF](https://arxiv.org/pdf/2610.25309) | [Project Page](https://senri-video.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Human memories are organized in a way that connects events with their corresponding spatial contexts. An AI assistant should also be able to memorize and recall the nexus of events and spaces. Thus we introduce SENRI, a task that studies this space--event connection in long, continuous real-life egocentric video. It contains six task types in two directions: Event$\rightarrow$Space, which recovers spatial knowledge from event cues, and Space$\rightarrow$Event, which retrieves events from regions and trajectories. To evaluate this, we build SENRI-Bench, containing 500 manually annotated multipl...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SENRI: Understanding the Space-Event Nexus in Real-Life Videos
-
-Human memories are organized in a way that connects events with their corresponding spatial contexts.
-
-arXiv: https://arxiv.org/abs/2610.25309
-Project page: https://senri-video.github.io/
 
 #egocentric #robotlearning
 ```
@@ -416,40 +453,6 @@ EgoXperience: Learning World-Grounded Egocentric Representations from Human Expe
 Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent w...
 
 arXiv: https://arxiv.org/abs/2610.26625
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control](https://arxiv.org/abs/2610.25223)
-
-**Authors:** Yulin Dai, Yuqian Fu, Tianwen Qian, Zhen Xing, Bojia Zi et al. (6 authors)
-
-**Published:** 2026-10-18 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.25223) | [PDF](https://arxiv.org/pdf/2610.25223)
-
-<details>
-<summary>Abstract</summary>
-
-Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation. Text prompts are spatially ambiguous, while camera-trajectory control relies on low-level motion specifications that are unintuitive for human users and difficult to manipulate. In this work, we introduce Map2Vid, a novel task that reformulates embodied navigation video generation as a BEV-map-to-video synthesis problem, together with a large-scale benchmark for systematic evaluation. By using BEV maps, which provide a visual representation...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control
-
-Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation.
-
-arXiv: https://arxiv.org/abs/2610.25223
 
 #egocentric #robotlearning
 ```
