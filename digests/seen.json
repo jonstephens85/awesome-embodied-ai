@@ -8316,6 +8316,13 @@
       "world_models"
     ]
   },
+  "2610.33074": {
+    "first_seen": "2026-10-27",
+    "title": "AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
   "2610.33169": {
     "first_seen": "2026-10-27",
     "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
@@ -8351,6 +8358,28 @@
       "vla"
     ]
   },
+  "2610.33658": {
+    "first_seen": "2026-10-27",
+    "title": "Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.33685": {
+    "first_seen": "2026-10-27",
+    "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2610.33794": {
+    "first_seen": "2026-10-27",
+    "title": "One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
   "2610.33807": {
     "first_seen": "2026-10-27",
     "title": "RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models",
@@ -8377,6 +8406,169 @@
     "title": "TurboWAM: Learning What Matters for Fast World Action Models",
     "topics": [
       "world_models"
+    ]
+  },
+  "2610.34051": {
+    "first_seen": "2026-10-27",
+    "title": "Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34108": {
+    "first_seen": "2026-10-27",
+    "title": "RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34186": {
+    "first_seen": "2026-10-27",
+    "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2610.34251": {
+    "first_seen": "2026-10-27",
+    "title": "Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34356": {
+    "first_seen": "2026-10-27",
+    "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34519": {
+    "first_seen": "2026-10-27",
+    "title": "TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34523": {
+    "first_seen": "2026-10-27",
+    "title": "How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.34564": {
+    "first_seen": "2026-10-27",
+    "title": "FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2610.34649": {
+    "first_seen": "2026-10-27",
+    "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34650": {
+    "first_seen": "2026-10-27",
+    "title": "Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.34663": {
+    "first_seen": "2026-10-27",
+    "title": "Video World Models Need Predictable Latents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.34674": {
+    "first_seen": "2026-10-27",
+    "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34717": {
+    "first_seen": "2026-10-27",
+    "title": "VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.34797": {
+    "first_seen": "2026-10-27",
+    "title": "TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.34837": {
+    "first_seen": "2026-10-27",
+    "title": "Beyond Behaviour: A Stimulus-Response Safety Evaluation of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.35010": {
+    "first_seen": "2026-10-27",
+    "title": "JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.35044": {
+    "first_seen": "2026-10-27",
+    "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.35252": {
+    "first_seen": "2026-10-27",
+    "title": "Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.35529": {
+    "first_seen": "2026-10-27",
+    "title": "WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.35626": {
+    "first_seen": "2026-10-27",
+    "title": "Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.35636": {
+    "first_seen": "2026-10-27",
+    "title": "Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.35817": {
+    "first_seen": "2026-10-27",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.35832": {
+    "first_seen": "2026-10-27",
+    "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+    "topics": [
+      "vla"
     ]
   }
 }

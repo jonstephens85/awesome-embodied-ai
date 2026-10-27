@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-27 00:59 UTC
+**Last updated:** 2026-10-27 20:26 UTC
 
-**Papers shown:** 50 (relevance ≥ 2, last 7 days)
+**Papers shown:** 58 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -187,6 +187,41 @@ Code: https://github.com/junha1125/LaLa-World
 
 ---
 
+### [Video World Models Need Predictable Latents](https://arxiv.org/abs/2610.34663)
+
+**Authors:** Mattia Scardecchia, Sherry Yang
+
+**Published:** 2026-10-26 | **Categories:** cs.LG, cs.AI, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.34663) | [PDF](https://arxiv.org/pdf/2610.34663) | [Code](https://github.com/mattia-scardecchia/predictable-latents)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models trained on large-scale robot data promise a safe and scalable approach for learning and evaluating policies that act in the physical world. However, they still struggle with long-horizon rollouts and out-of-distribution generalization, and they remain computationally demanding at inference time. Typically, video world models make predictions in the latent space of a reconstruction-trained autoencoder, which however is not directly optimized for dynamics modeling. On the other hand, world models designed for latent planning usually optimize latents to be predictable, but they...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Video World Models Need Predictable Latents
+
+Video world models trained on large-scale robot data promise a safe and scalable approach for learning and evaluating policies that act in the physical world.
+
+arXiv: https://arxiv.org/abs/2610.34663
+Code: https://github.com/mattia-scardecchia/predictable-latents
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474)
 
 **Authors:** Qi Lv, Jiayi Lin, Yuxin Jiang, Jianzong Wang, Xiang Deng et al. (6 authors)
@@ -257,6 +292,77 @@ Project page: https://spherelab.ai/RoboJudge
 
 ---
 
+### [FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation](https://arxiv.org/abs/2610.34564)
+
+**Authors:** Meryem Koksal, Yunzhe Wang, Volkan Ustun
+
+**Published:** 2026-10-25 | **Categories:** cs.CV, cs.MA | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; robotics / embodied focus; posted in last 2 days
+
+**Also relevant to:** Egocentric Data
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.34564) | [PDF](https://arxiv.org/pdf/2610.34564)
+
+<details>
+<summary>Abstract</summary>
+
+Most action-conditioned video world models remain limited to a single player, while existing multiplayer models support only small, fixed groups of agents. We introduce FlockWorld, an artificial-life environment built on Reynolds's Boids algorithm for studying population-scale multi-agent video world models. Specifically, FlockWorld renders synchronized egocentric crops, assigns distinct colors to preserve camera-agent identity across views, exposes rule-derived accelerations as actions, and lets the number of camera agents be configured independently of the size of the surrounding population....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation
+
+Most action-conditioned video world models remain limited to a single player, while existing multiplayer models support only small, fixed groups of agents.
+
+arXiv: https://arxiv.org/abs/2610.34564
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [UniWorld: A Unified World Model for Real-Time Visual World Simulation](https://arxiv.org/abs/2610.32381)
+
+**Authors:** Xin Zhang, Yabo Chen, Shuaiwei Wang, Zixuan Duan, Haibin Huang et al. (7 authors)
+
+**Published:** 2026-10-23 (updated 2026-10-26) | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.32381) | [PDF](https://arxiv.org/pdf/2610.32381) | [Project Page](https://zephipage.github.io/UniWorld)
+
+<details>
+<summary>Abstract</summary>
+
+Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geome...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+UniWorld: A Unified World Model for Real-Time Visual World Simulation
+
+Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance.
+
+arXiv: https://arxiv.org/abs/2610.32381
+Project page: https://zephipage.github.io/UniWorld
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Exploring Temporal Context-Aware Physical Grounding in Latent World Models](https://arxiv.org/abs/2610.28483)
 
 **Authors:** Yilei Man, Yang Chen, Jingcai Guo
@@ -284,6 +390,40 @@ Learning latent dynamics is fundamental to building action-conditioned world mod
 
 arXiv: https://arxiv.org/abs/2610.28483
 Code: https://github.com/myl11045/G-JEPA
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation](https://arxiv.org/abs/2610.35636)
+
+**Authors:** Akshay Mete, Dileep Kalathil, P. R. Kumar
+
+**Published:** 2026-10-26 | **Categories:** cs.LG, cs.AI, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.35636) | [PDF](https://arxiv.org/pdf/2610.35636)
+
+<details>
+<summary>Abstract</summary>
+
+Latent world models are typically pre-trained offline and kept frozen at test time, so planning with them can degrade under distribution shift. Test-time adaptation (TTA) can mitigate this degradation by updating the model during deployment. Unlike pre-training on fixed data, TTA for planning is closed-loop: the planner uses model rollouts to select actions, and the resulting transitions drive the next update. This raises the question: which objective should guide TTA for planning? Under a prediction-only objective, the model is fit only to the outcomes of its own actions, so it can remain wro...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation
+
+Latent world models are typically pre-trained offline and kept frozen at test time, so planning with them can degrade under distribution shift.
+
+arXiv: https://arxiv.org/abs/2610.35636
 
 #worldmodels #robotics
 ```
@@ -423,6 +563,109 @@ Tracking large human-motion datasets has become the dominant route to general, e
 
 arXiv: https://arxiv.org/abs/2610.28480
 Project page: https://supermimic.github.io
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU](https://arxiv.org/abs/2610.35529)
+
+**Authors:** Bingnan Liu, Ruini Xue
+
+**Published:** 2026-10-26 | **Categories:** cs.DC, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.35529) | [PDF](https://arxiv.org/pdf/2610.35529)
+
+<details>
+<summary>Abstract</summary>
+
+Interactive world models keep the KV of past chunks as retrieval memory so that revisited places stay consistent. On a single consumer machine (one RTX 4090, 32 GiB of host memory, one NVMe SSD), long sessions with such memory hit two walls. The first is capacity: the KV of Matrix-Game 2.0 exhausts host memory after 45 seconds of video in bf16 and after 2.8 minutes in int4. The second is the model's positional horizon of 4.3 minutes. We show that this memory is capacity-bound rather than bandwidth-bound and that its access set is known before compute, because the camera pose is an input. An an...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU
+
+Interactive world models keep the KV of past chunks as retrieval memory so that revisited places stay consistent.
+
+arXiv: https://arxiv.org/abs/2610.35529
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting](https://arxiv.org/abs/2610.34797)
+
+**Authors:** Hang Ni, Weijia Zhang, Hao Liu
+
+**Published:** 2026-10-26 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.34797) | [PDF](https://arxiv.org/pdf/2610.34797)
+
+<details>
+<summary>Abstract</summary>
+
+Time series forecasting supports decision-making in web applications such as online retail and network management, where planned actions can reshape future dynamics. World models provide a natural paradigm for predicting such action-dependent changes beyond extrapolating historical patterns. However, existing time series world models (TSWMs) typically rely on fixed, domain-specific covariate schemas that limit flexible intervention specification, while multimodal forecasters treat text primarily as passive predictive context. To investigate these gaps, we introduce TSWM-Bench, a cross-domain b...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting
+
+Time series forecasting supports decision-making in web applications such as online retail and network management, where planned actions can reshape future dynamics.
+
+arXiv: https://arxiv.org/abs/2610.34797
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3](https://arxiv.org/abs/2610.34523)
+
+**Authors:** Shuzhi Liu, Archana Warrier, Dat Nguyen, Chengqi Zheng, Kevin Ellis et al. (6 authors)
+
+**Published:** 2026-10-25 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.34523) | [PDF](https://arxiv.org/pdf/2610.34523) | [Project Page](https://arc3-human-think-aloud.github.io/](https://arc3-human-think-aloud.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Learning through exploration and using newly acquired knowledge to achieve goals are central capabilities of general intelligence. Understanding these capabilities requires tracing how learners build, use, and revise world models during interaction. We construct the first dataset that records how humans discover and use the mechanisms of novel environments, using ARC-AGI-3 as a testbed: 144 trajectories from 64 participants across 25 public games, each pairing time-synchronized actions with think-aloud audio, plus 250 trajectories from large language model (LLM) agents with and without harness...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3
+
+Learning through exploration and using newly acquired knowledge to achieve goals are central capabilities of general intelligence.
+
+arXiv: https://arxiv.org/abs/2610.34523
+Project page: https://arc3-human-think-aloud.github.io/](https://arc3-human-think-aloud.github.io/
 
 #worldmodels #robotics
 ```
@@ -598,6 +841,40 @@ Real-world observations are noisy and often contain excessive task-irrelevant in
 
 arXiv: https://arxiv.org/abs/2610.27914
 Project page: https://configwm.github.io
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control](https://arxiv.org/abs/2610.34650)
+
+**Authors:** Jonathan DeCastro, Thomas Balch, Emily Sumner, Deepak Gopinath, Laporsha Dees et al. (12 authors)
+
+**Published:** 2026-10-26 | **Categories:** cs.RO, cs.HC, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.34650) | [PDF](https://arxiv.org/pdf/2610.34650)
+
+<details>
+<summary>Abstract</summary>
+
+Assistive agents in shared-control settings face a dual challenge: acting proactively to align with the human's intentions while remaining legible enough for the human to comprehend and fluently respond in real time. We present Dream2Assist, a model-based reinforcement learning framework for tightly-coupled shared decision making that addresses both sides of this challenge. Our approach extends a recurrent state-space world model with intent inference, enabling an assistive policy trained via fictitious co-play to anticipate and support discrete human objectives without overriding human agency...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control
+
+Assistive agents in shared-control settings face a dual challenge: acting proactively to align with the human's intentions while remaining legible enough for the human to comprehend and fluently respond in real time.
+
+arXiv: https://arxiv.org/abs/2610.34650
 
 #worldmodels #robotics
 ```
@@ -914,40 +1191,6 @@ Project page: https://haroldchen19.github.io/WiC-site/
 
 ---
 
-### [UniWorld: A Unified World Model for Real-Time Visual World Simulation](https://arxiv.org/abs/2610.32381)
-
-**Authors:** Xin Zhang, Yabo Chen, Shuaiwei Wang, Zixuan Duan, Haibin Huang et al. (7 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.32381) | [PDF](https://arxiv.org/pdf/2610.32381)
-
-<details>
-<summary>Abstract</summary>
-
-Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geome...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UniWorld: A Unified World Model for Real-Time Visual World Simulation
-
-Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance.
-
-arXiv: https://arxiv.org/abs/2610.32381
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Reading, Writing, Sharing, and Interacting with the World through Video](https://arxiv.org/abs/2610.31668)
 
 **Authors:** Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu, Shuicheng Yan et al. (8 authors)
@@ -1146,6 +1389,40 @@ Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models
 A single observation can admit several plausible futures, making uncertainty an essential part of world modelling.
 
 arXiv: https://arxiv.org/abs/2610.27921
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models](https://arxiv.org/abs/2610.35044)
+
+**Authors:** Jingbo Xu, Hanchao Leng, JiaHui Huang, Hanbing Li, Jingwei Zhao et al. (10 authors)
+
+**Published:** 2026-10-26 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.35044) | [PDF](https://arxiv.org/pdf/2610.35044)
+
+<details>
+<summary>Abstract</summary>
+
+World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dynamic environment. Existing approaches, however, often model appearance, metric geometry represented by projected LiDAR depth, and ego motion either partially or independently, overlooking the fact that these modalities are different projections of a shared underlying world state. This separation can lead to information loss and cross-modal inconsistency, ultimately limiting downstream performance...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models
+
+World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dynamic environment.
+
+arXiv: https://arxiv.org/abs/2610.35044
 
 #worldmodels #robotics
 ```
