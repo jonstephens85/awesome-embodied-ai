@@ -8315,5 +8315,68 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.33169": {
+    "first_seen": "2026-10-27",
+    "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.33486": {
+    "first_seen": "2026-10-27",
+    "title": "Learning Dexterous Manipulation: Hands, Simulators, Training, and Evaluation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.33565": {
+    "first_seen": "2026-10-27",
+    "title": "WorldFailBench: Do World Models Understand Policy Failures?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.33566": {
+    "first_seen": "2026-10-27",
+    "title": "Distilling Dense Trajectory Teachers For Large-Motion Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.33650": {
+    "first_seen": "2026-10-27",
+    "title": "TAD: Distilling Vision-Language-Action Policies from Teacher Trajectories Alone",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.33807": {
+    "first_seen": "2026-10-27",
+    "title": "RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.33866": {
+    "first_seen": "2026-10-27",
+    "title": "Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.33894": {
+    "first_seen": "2026-10-27",
+    "title": "WMEval: Evaluating Interactive World Models Grounded on Physical Simulations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.33941": {
+    "first_seen": "2026-10-27",
+    "title": "TurboWAM: Learning What Matters for Fast World Action Models",
+    "topics": [
+      "world_models"
+    ]
   }
 }

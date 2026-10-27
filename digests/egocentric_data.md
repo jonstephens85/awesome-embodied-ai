@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-26 20:53 UTC
+**Last updated:** 2026-10-27 00:59 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 9 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -80,41 +80,6 @@ Project page: https://narusuzuki.github.io/projects/26-dewhand/
 
 ---
 
-### [V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos](https://arxiv.org/abs/2610.26780)
-
-**Authors:** Ruicheng Li, Qixiu Li, Yu Deng, Sicheng Xu, Jiaolong Yang et al. (6 authors)
-
-**Published:** 2026-10-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.26780) | [PDF](https://arxiv.org/pdf/2610.26780) | [Project Page](https://qft-333.github.io/V-JEPA-Hand-Page/)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video supports diverse applications, including robot learning, augmented reality, and human activity understanding. Recovering metric 3D hand trajectories from such video requires estimating both hand motion and camera egomotion to express the hands in a consistent reference frame. Many existing pipelines recover hand and camera motion in separate stages, combining hand detection, hand reconstruction, camera tracking, and trajectory refinement. We present V-JEPA Hand, a simple feed-forward video model that jointly reconstructs bilateral hand motion and camera motion from egocentric...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos
-
-Egocentric video supports diverse applications, including robot learning, augmented reality, and human activity understanding.
-
-arXiv: https://arxiv.org/abs/2610.26780
-Project page: https://qft-333.github.io/V-JEPA-Hand-Page/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions](https://arxiv.org/abs/2610.31845)
 
 **Authors:** Chubin Zhang, Changyuan Wang, Yirui Wang, Ao Li, Shilin Ma et al. (10 authors)
@@ -179,41 +144,6 @@ Segmenting robot demonstration data into disjoint temporal and semantic subsegme
 
 arXiv: https://arxiv.org/abs/2610.31801
 Project page: https://berkeleyautomation.github.io/kirose/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation](https://arxiv.org/abs/2610.25690)
-
-**Authors:** Yihui Yang, Yuanhong Yu, Jiawei Wang, Zhongrui Yu, Jia Shi et al. (10 authors)
-
-**Published:** 2026-10-19 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.25690) | [PDF](https://arxiv.org/pdf/2610.25690) | [Project Page](https://zju3dv.github.io/ScaleNav/)
-
-<details>
-<summary>Abstract</summary>
-
-We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from Internet egocentric videos, and use these dynamics to support robot action generation. To this end,...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation
-
-We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location.
-
-arXiv: https://arxiv.org/abs/2610.25690
-Project page: https://zju3dv.github.io/ScaleNav/
 
 #egocentric #robotlearning
 ```
@@ -385,74 +315,6 @@ CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navig
 Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it.
 
 arXiv: https://arxiv.org/abs/2610.28476
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions](https://arxiv.org/abs/2610.27400)
-
-**Authors:** Lilin Xu, Linyang He, Kaiyuan Hou, Yuang Fan, Minghui Zhao et al. (7 authors)
-
-**Published:** 2026-10-19 | **Categories:** cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.27400) | [PDF](https://arxiv.org/pdf/2610.27400)
-
-<details>
-<summary>Abstract</summary>
-
-Large language model (LLM) agents are moving beyond reactive responses toward proactive assistance that anticipates user needs without explicit requests. However, existing proactive agents primarily address immediate needs, while many everyday situations involve delayed intentions that can only be acted on hours or days later. Humans handle such intentions through prospective memory, the ability to remember to act on an intention when the right moment arises. In this paper, we introduce ProMemAgent, the first proactive agent to incorporate prospective memory over everyday sensory contexts for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions
-
-Large language model (LLM) agents are moving beyond reactive responses toward proactive assistance that anticipates user needs without explicit requests.
-
-arXiv: https://arxiv.org/abs/2610.27400
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience](https://arxiv.org/abs/2610.26625)
-
-**Authors:** Xinhao Ji, Hui En Pang, Hao Li, Kairui Hu, Jiner Wang et al. (15 authors)
-
-**Published:** 2026-10-19 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.26625) | [PDF](https://arxiv.org/pdf/2610.26625)
-
-<details>
-<summary>Abstract</summary>
-
-Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, unified modeling, and benchmarking. Central to EgoXperience is an automatic annotation engine, EgoX-Eng...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience
-
-Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent w...
-
-arXiv: https://arxiv.org/abs/2610.26625
 
 #egocentric #robotlearning
 ```
