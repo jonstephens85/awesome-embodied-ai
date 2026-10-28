@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-27 20:26 UTC
+**Last updated:** 2026-10-28 00:48 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 8 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -283,74 +283,6 @@ EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video
 We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video.
 
 arXiv: https://arxiv.org/abs/2610.30293
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction](https://arxiv.org/abs/2610.28502)
-
-**Authors:** Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen, Ngan Le
-
-**Published:** 2026-10-20 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.28502) | [PDF](https://arxiv.org/pdf/2610.28502)
-
-<details>
-<summary>Abstract</summary>
-
-Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can discard relevant details. Although gaze identifies the wearer's focus, the question may require evidence from the surrounding scene. To address these constraints, we propose GazeLens, which combines frame selection with gaze- and question-guided token reduction. First, HOG transitions and image sharpness select frames bef...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction
-
-Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation.
-
-arXiv: https://arxiv.org/abs/2610.28502
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation](https://arxiv.org/abs/2610.28476)
-
-**Authors:** Pengying Wu, Mingye Jiang, Yunze Hu, Zhejia Wen, Kangjie Zhou et al. (8 authors)
-
-**Published:** 2026-10-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.28476) | [PDF](https://arxiv.org/pdf/2610.28476)
-
-<details>
-<summary>Abstract</summary>
-
-Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it. The agent typically relies on an object detector but must judge online from a limited egocentric video stream, sometimes a single frame, whether a detected candidate is the target. Detectors often confidently mistake similar objects, such as a sofa for a bed, and stopping at a false positive fails the episode. Prevailing systems also approach candidates greedily, leaving them occluded or partially observed. We present CLOSER, an evidence-aware act...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation
-
-Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it.
-
-arXiv: https://arxiv.org/abs/2610.28476
 
 #egocentric #robotlearning
 ```
