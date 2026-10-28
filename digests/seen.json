@@ -8570,5 +8570,175 @@
     "topics": [
       "vla"
     ]
+  },
+  "2610.36068": {
+    "first_seen": "2026-10-28",
+    "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.36285": {
+    "first_seen": "2026-10-28",
+    "title": "ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.36371": {
+    "first_seen": "2026-10-28",
+    "title": "BoxWorld: Let World Engines Control and Video Generators Render",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.36384": {
+    "first_seen": "2026-10-28",
+    "title": "SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.36420": {
+    "first_seen": "2026-10-28",
+    "title": "SO-101 Bench: Accessible Spatial Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.36507": {
+    "first_seen": "2026-10-28",
+    "title": "GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.36662": {
+    "first_seen": "2026-10-28",
+    "title": "SWIM: Learning What Matters from Behaviors for JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.36761": {
+    "first_seen": "2026-10-28",
+    "title": "Making Self-Driving Laboratories Auditable:A Unified Framework for Hybrid Actions,Measurements, and Safe Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.36765": {
+    "first_seen": "2026-10-28",
+    "title": "Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.36791": {
+    "first_seen": "2026-10-28",
+    "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37091": {
+    "first_seen": "2026-10-28",
+    "title": "GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.37215": {
+    "first_seen": "2026-10-28",
+    "title": "Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37219": {
+    "first_seen": "2026-10-28",
+    "title": "Vision-Language-Action or World-Action? Just Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37257": {
+    "first_seen": "2026-10-28",
+    "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37330": {
+    "first_seen": "2026-10-28",
+    "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37378": {
+    "first_seen": "2026-10-28",
+    "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37381": {
+    "first_seen": "2026-10-28",
+    "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.37391": {
+    "first_seen": "2026-10-28",
+    "title": "JEPA-Inspired Latent Field Prediction for Sparse-Pilot MIMO-OFDM Channel Reconstruction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37437": {
+    "first_seen": "2026-10-28",
+    "title": "Representing the Unseen: Rethinking Visual Imagination for Spatial Reasoning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37509": {
+    "first_seen": "2026-10-28",
+    "title": "Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.37518": {
+    "first_seen": "2026-10-28",
+    "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37588": {
+    "first_seen": "2026-10-28",
+    "title": "Understanding the limits of latent world models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37619": {
+    "first_seen": "2026-10-28",
+    "title": "Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.37666": {
+    "first_seen": "2026-10-28",
+    "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+    "topics": [
+      "vla"
+    ]
   }
 }
