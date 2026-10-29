@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-28 20:47 UTC
+**Last updated:** 2026-10-29 01:22 UTC
 
-**Papers shown:** 11 (relevance ≥ 2, last 7 days)
+**Papers shown:** 8 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -37,111 +37,6 @@ Agile robots require spatiotemporal intelligence to interpret scenes, reason abo
 
 arXiv: https://arxiv.org/abs/2610.37619
 Project page: https://tennis-vision.csail.mit.edu/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.30293)
-
-**Authors:** Chao-Yeh Chen, Tiffany Chen, Lin Duan, Tianyi Hu, Yu-Hsiang Huang et al. (15 authors)
-
-**Published:** 2026-10-21 (updated 2026-10-26) | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.30293) | [PDF](https://arxiv.org/pdf/2610.30293) | [Code](https://github.com/NVIDIA/IsaacCapture)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video. Central to our approach is the curation of a high-quality training corpus of 14 million images, combining synthetic data, in-the-wild video, and multi-camera motion capture to balance scene diversity and supervision quality. The model adopts SOMA-Hand as its parametric representation and processes 2D hand crops with a transformer encoder, incorporating camera cues and an auxiliary 2D branch to improve geometric consistency and image alignment. Zero-shot evaluations on...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video
-
-We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video.
-
-arXiv: https://arxiv.org/abs/2610.30293
-Code: https://github.com/NVIDIA/IsaacCapture
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video](https://arxiv.org/abs/2610.30089)
-
-**Authors:** Ruotong Liao, Meikel Kokowski, Xiaoxiao Sun, Yongqin Xian, Laura Bravo Sánchez et al. (9 authors)
-
-**Published:** 2026-10-21 (updated 2026-10-26) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.30089) | [PDF](https://arxiv.org/pdf/2610.30089) | [Project Page](https://proactegomem.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them. To offload the cognitive burden of remembering across long horizons, wearable assistants should instead proactively acquire and maintain useful memory as the user's surroundings evolve. Doing so on the user's behalf requires identifying what matters, understanding the scene in real time, and initiating memory maintenance in the background while the user stays focused on their activities. We introduce ProactEgoMem, a benchmark that evaluates proactive memory in streaming egocentric video. Th...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video
-
-Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them.
-
-arXiv: https://arxiv.org/abs/2610.30089
-Project page: https://proactegomem.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2610.29936)
-
-**Authors:** Naru Suzuki, Satoshi Ikehata, Takehiko Ohkawa, Yoichi Sato, Shuhei Kurita
-
-**Published:** 2026-10-21 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.29936) | [PDF](https://arxiv.org/pdf/2610.29936) | [Project Page](https://narusuzuki.github.io/projects/26-dewhand/)
-
-<details>
-<summary>Abstract</summary>
-
-Recovering metric world-space hand motion from egocentric video supports understanding human interactions and transferring them to embodied agents. Three challenges complicate this task: multi-stage pipelines propagate errors from independently estimated hand and camera motion; monocular observations leave physical scale ambiguous; and occlusion and out-of-view hands admit multiple plausible motion trajectories. We present DewHand, a unified model for direct joint reconstruction of world-space hand and camera motion. To avoid compounding errors from multi-stage estimation, DewHand jointly pred...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos
-
-Recovering metric world-space hand motion from egocentric video supports understanding human interactions and transferring them to embodied agents.
-
-arXiv: https://arxiv.org/abs/2610.29936
-Project page: https://narusuzuki.github.io/projects/26-dewhand/
 
 #egocentric #robotlearning
 ```
@@ -327,40 +222,6 @@ Project page: https://zlab-princeton.github.io/AgentVQA
 
 ---
 
-### [SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding](https://arxiv.org/abs/2610.36384)
-
-**Authors:** Matea Tashkovska, Naël Ouerghemi, Haozhe Qi, Alexander Mathis
-
-**Published:** 2026-10-26 | **Categories:** cs.CV, cs.AI, cs.CL | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.36384) | [PDF](https://arxiv.org/pdf/2610.36384)
-
-<details>
-<summary>Abstract</summary>
-
-Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluations of Multimodal Large Language Models (MLLMs) largely focus on objects, scenes, and coarse actions, leaving their ability to reason about the body itself poorly assessed. This is especially challenging from the egocentric perspective, in which the body is only partially visible and motion must be inferred from occluded and temporally distributed cues. We introduce SOMA, a benchmark for fine-grained body-motion understanding from egocentric video, comprising 1,632 human-verif...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding
-
-Perceiving human body motion is critical for multimodal systems that understand and assist people.
-
-arXiv: https://arxiv.org/abs/2610.36384
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering](https://arxiv.org/abs/2610.31284)
 
 **Authors:** Raffaele Cali, Giuseppe Lando, Rosario Forte, Antonino Furnari
@@ -387,6 +248,40 @@ Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Ans
 Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence ne...
 
 arXiv: https://arxiv.org/abs/2610.31284
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding](https://arxiv.org/abs/2610.36384)
+
+**Authors:** Matea Tashkovska, Naël Ouerghemi, Haozhe Qi, Alexander Mathis
+
+**Published:** 2026-10-26 | **Categories:** cs.CV, cs.AI, cs.CL | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.36384) | [PDF](https://arxiv.org/pdf/2610.36384)
+
+<details>
+<summary>Abstract</summary>
+
+Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluations of Multimodal Large Language Models (MLLMs) largely focus on objects, scenes, and coarse actions, leaving their ability to reason about the body itself poorly assessed. This is especially challenging from the egocentric perspective, in which the body is only partially visible and motion must be inferred from occluded and temporally distributed cues. We introduce SOMA, a benchmark for fine-grained body-motion understanding from egocentric video, comprising 1,632 human-verif...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding
+
+Perceiving human body motion is critical for multimodal systems that understand and assist people.
+
+arXiv: https://arxiv.org/abs/2610.36384
 
 #egocentric #robotlearning
 ```
