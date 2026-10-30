@@ -8410,7 +8410,7 @@
   },
   "2610.34051": {
     "first_seen": "2026-10-27",
-    "title": "Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics",
+    "title": "BEHAVIOR-Spatial Benchmark: Evaluating Spatial Understanding for Robotics",
     "topics": [
       "vla"
     ]
@@ -8739,6 +8739,273 @@
     "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
     "topics": [
       "vla"
+    ]
+  },
+  "2610.37891": {
+    "first_seen": "2026-10-30",
+    "title": "When More Planning Hurts: Learned Planners for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.37917": {
+    "first_seen": "2026-10-30",
+    "title": "What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.37963": {
+    "first_seen": "2026-10-30",
+    "title": "Self-Supervised Latent Action-Conditioned World Modeling for Time Series",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.38000": {
+    "first_seen": "2026-10-30",
+    "title": "Self-Labeled Preference Transfer for Steerable Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.38199": {
+    "first_seen": "2026-10-30",
+    "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.38266": {
+    "first_seen": "2026-10-30",
+    "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.38508": {
+    "first_seen": "2026-10-30",
+    "title": "SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.38657": {
+    "first_seen": "2026-10-30",
+    "title": "Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.38661": {
+    "first_seen": "2026-10-30",
+    "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.38903": {
+    "first_seen": "2026-10-30",
+    "title": "Structural-Test Geometry as an Inductive Bias for Partially Observable World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39076": {
+    "first_seen": "2026-10-30",
+    "title": "Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39100": {
+    "first_seen": "2026-10-30",
+    "title": "Generating Critic-Guided Synthetic Experience in Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39167": {
+    "first_seen": "2026-10-30",
+    "title": "EgoContact: Evaluating Physical Intelligence with Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.39232": {
+    "first_seen": "2026-10-30",
+    "title": "Seeing and Imagining as One: Unified Video Generation and 4D Perception for Embodied World Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39278": {
+    "first_seen": "2026-10-30",
+    "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39287": {
+    "first_seen": "2026-10-30",
+    "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.39385": {
+    "first_seen": "2026-10-30",
+    "title": "UMI-Live for In-The-Wild Bimanual Robotics Data Collection",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.39451": {
+    "first_seen": "2026-10-30",
+    "title": "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.39516": {
+    "first_seen": "2026-10-30",
+    "title": "Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39528": {
+    "first_seen": "2026-10-30",
+    "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2610.39543": {
+    "first_seen": "2026-10-30",
+    "title": "From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.39547": {
+    "first_seen": "2026-10-30",
+    "title": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.39619": {
+    "first_seen": "2026-10-30",
+    "title": "FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40002": {
+    "first_seen": "2026-10-30",
+    "title": "How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40016": {
+    "first_seen": "2026-10-30",
+    "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40026": {
+    "first_seen": "2026-10-30",
+    "title": "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40030": {
+    "first_seen": "2026-10-30",
+    "title": "Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40153": {
+    "first_seen": "2026-10-30",
+    "title": "Hierarchical Step Decomposition for Training-free Online Video Step Grounding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.40191": {
+    "first_seen": "2026-10-30",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40339": {
+    "first_seen": "2026-10-30",
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40349": {
+    "first_seen": "2026-10-30",
+    "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40373": {
+    "first_seen": "2026-10-30",
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40401": {
+    "first_seen": "2026-10-30",
+    "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40430": {
+    "first_seen": "2026-10-30",
+    "title": "Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40503": {
+    "first_seen": "2026-10-30",
+    "title": "Algebraic World Model: From Exploration to Proofs",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40532": {
+    "first_seen": "2026-10-30",
+    "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40565": {
+    "first_seen": "2026-10-30",
+    "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40607": {
+    "first_seen": "2026-10-30",
+    "title": "Fight World Model: Customizable Combat through Visual Interaction Proxies",
+    "topics": [
+      "world_models"
     ]
   }
 }
