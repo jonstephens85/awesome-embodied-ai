@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-10-30 20:25 UTC
+**Last updated:** 2026-10-31 01:13 UTC
 
-**Papers shown:** 48 (relevance ≥ 2, last 7 days)
+**Papers shown:** 41 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -294,41 +294,6 @@ Project page: https://agentic-videogen.github.io/
 
 ---
 
-### [UniWorld: A Unified World Model for Real-Time Visual World Simulation](https://arxiv.org/abs/2610.32381)
-
-**Authors:** Xin Zhang, Yabo Chen, Shuaiwei Wang, Zixuan Duan, Haibin Huang et al. (7 authors)
-
-**Published:** 2026-10-23 (updated 2026-10-28) | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.32381) | [PDF](https://arxiv.org/pdf/2610.32381) | [Project Page](https://zephipage.github.io/UniWorld)
-
-<details>
-<summary>Abstract</summary>
-
-Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geome...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UniWorld: A Unified World Model for Real-Time Visual World Simulation
-
-Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance.
-
-arXiv: https://arxiv.org/abs/2610.32381
-Project page: https://zephipage.github.io/UniWorld
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining](https://arxiv.org/abs/2610.39278)
 
 **Authors:** Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li et al. (12 authors)
@@ -356,41 +321,6 @@ Predicting future physical states stands as a central challenge in embodied inte
 
 arXiv: https://arxiv.org/abs/2610.39278
 Project page: https://worldflow-rbs.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation](https://arxiv.org/abs/2610.38657)
-
-**Authors:** Jacob Levy, Arthur Bouton, Tristan D. Hassler, Hari Nayar, David Fridovich-Keil
-
-**Published:** 2026-10-28 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.38657) | [PDF](https://arxiv.org/pdf/2610.38657) | [Project Page](https://terra-explore.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility. Although simulation can capture some wheel-soil effects, unmodeled deformable-terrain phenomena create sim-to-real gaps requiring deployment-time adaptation. Yet, rover operations leave little room for extensive trial-and-error. We introduce TERRA (Targeted Exploration for Reward-Relevant Adaptation), an online adaptation framework that efficiently seeks deployment data exposing task-relevant model errors and corrects them. TERRA adapts a simulation-trained world...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation
-
-Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility.
-
-arXiv: https://arxiv.org/abs/2610.38657
-Project page: https://terra-explore.github.io
 
 #worldmodels #robotics
 ```
@@ -575,41 +505,6 @@ arXiv: https://arxiv.org/abs/2610.34564
 
 ---
 
-### [UniAction: Unified Action Conditioning for World Models](https://arxiv.org/abs/2610.32977)
-
-**Authors:** Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
-
-**Published:** 2026-10-23 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.32977) | [PDF](https://arxiv.org/pdf/2610.32977) | [Project Page](https://uniaction.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework that represents any action as a sparse set of action elements, each with a discrete semantic identity and a continuous spatiotemporal grounding coordinate. By mapping these coordinates directly into the pretrained video model's native positional space, UniAction allows heterogeneous actions to condit...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UniAction: Unified Action Conditioning for World Models
-
-Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across...
-
-arXiv: https://arxiv.org/abs/2610.32977
-Project page: https://uniaction.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors](https://arxiv.org/abs/2610.40401)
 
 **Authors:** Liangyu Li, Qingwen Liu
@@ -678,20 +573,20 @@ arXiv: https://arxiv.org/abs/2610.39547
 
 ---
 
-### [Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation](https://arxiv.org/abs/2610.38266)
+### [Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation](https://arxiv.org/abs/2610.38657)
 
-**Authors:** Xiaofeng Han, Kaize Luo, Zenghuang Fu, Zichong Zhu, Zhe Feng et al. (9 authors)
+**Authors:** Jacob Levy, Arthur Bouton, Tristan D. Hassler, Hari Nayar, David Fridovich-Keil
 
-**Published:** 2026-10-28 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-28 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+**Why surfaced:** "world model" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.38266) | [PDF](https://arxiv.org/pdf/2610.38266)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.38657) | [PDF](https://arxiv.org/pdf/2610.38657) | [Project Page](https://terra-explore.github.io)
 
 <details>
 <summary>Abstract</summary>
 
-Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined e...
+Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility. Although simulation can capture some wheel-soil effects, unmodeled deformable-terrain phenomena create sim-to-real gaps requiring deployment-time adaptation. Yet, rover operations leave little room for extensive trial-and-error. We introduce TERRA (Targeted Exploration for Reward-Relevant Adaptation), an online adaptation framework that efficiently seeks deployment data exposing task-relevant model errors and corrects them. TERRA adapts a simulation-trained world...
 
 </details>
 
@@ -699,11 +594,12 @@ Embodied systems can update policies, world models, skills, and executable progr
 <summary>Share</summary>
 
 ```
-Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation
 
-Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks.
+Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility.
 
-arXiv: https://arxiv.org/abs/2610.38266
+arXiv: https://arxiv.org/abs/2610.38657
+Project page: https://terra-explore.github.io
 
 #worldmodels #robotics
 ```
@@ -848,40 +744,6 @@ arXiv: https://arxiv.org/abs/2610.33807
 
 ---
 
-### [Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection](https://arxiv.org/abs/2610.32742)
-
-**Authors:** Luke Beddow, George Mavroghenis, Rodrigo Chacon Quesada, Kamil Dreczkowski, Cong Sun et al. (8 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.32742) | [PDF](https://arxiv.org/pdf/2610.32742)
-
-<details>
-<summary>Abstract</summary>
-
-Unrecognized anomalies in critical infrastructure can rapidly cascade into catastrophic physical or operational failures. Current anomaly detection approaches often rely on direct access to the monitored system by utilizing onboard sensors, such as motor encoders, to detect anomalous states. However, legacy hardware often lacks these sensors, or strict security protocols may prohibit access altogether. We therefore present AWARE, a world model framework that is capable of anomaly detection using only external camera monitoring via system dynamics estimation and state prediction. Evaluated acro...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection
-
-Unrecognized anomalies in critical infrastructure can rapidly cascade into catastrophic physical or operational failures.
-
-arXiv: https://arxiv.org/abs/2610.32742
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Generating Critic-Guided Synthetic Experience in Latent World Models](https://arxiv.org/abs/2610.39100)
 
 **Authors:** Jorge de Freitas, Christos Ziakas, Alessandra Russo
@@ -908,40 +770,6 @@ Generating Critic-Guided Synthetic Experience in Latent World Models
 Learning from offline datasets is limited in scalability, as collecting new experience is often costly or unsafe in the real world.
 
 arXiv: https://arxiv.org/abs/2610.39100
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Structural-Test Geometry as an Inductive Bias for Partially Observable World Models](https://arxiv.org/abs/2610.38903)
-
-**Authors:** Todd Y. Zhou
-
-**Published:** 2026-10-28 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.38903) | [PDF](https://arxiv.org/pdf/2610.38903)
-
-<details>
-<summary>Abstract</summary>
-
-Predictive world-model objectives need not organize latent histories according to distinctions required for later control. With privileged simulator access during training, should response-derived structural information be predicted, decoded, or imposed directly on latent geometry--and how do these choices compare with structured belief distillation? We define posterior-marginalized structural tests whose response distributions induce a pseudometric over histories, then train quotient-preserving (QP) world models by aligning shared latent Euclidean distances to that metric. Across a fixed six-...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Structural-Test Geometry as an Inductive Bias for Partially Observable World Models
-
-Predictive world-model objectives need not organize latent histories according to distinctions required for later control.
-
-arXiv: https://arxiv.org/abs/2610.38903
 
 #worldmodels #robotics
 ```
@@ -1192,41 +1020,6 @@ arXiv: https://arxiv.org/abs/2610.33566
 
 ---
 
-### [World-in-Context: Interactive Video World Modeling with In-Context Conditioning](https://arxiv.org/abs/2610.33169)
-
-**Authors:** Harold Haodong Chen, Rui Peng, Rongjin Guo, Lingteng Qiu, Kejie Qiu et al. (7 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.33169) | [PDF](https://arxiv.org/pdf/2610.33169) | [Project Page](https://haroldchen19.github.io/WiC-site/)
-
-<details>
-<summary>Abstract</summary>
-
-Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion. Existing methods typically leave view modes implicit in text captions, conflate action with camera motion, and inject controls through fragmented architectural pathways that capture interdependencies only indirectly. In this work, we present World-in-Context, an interactive world modeling framework powered by In-Context Conditioning (ICC). Rather than relying on specialized conditioning pathways, World-in-Context unifies view, action, and camera controls into explicit tok...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-World-in-Context: Interactive Video World Modeling with In-Context Conditioning
-
-Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion.
-
-arXiv: https://arxiv.org/abs/2610.33169
-Project page: https://haroldchen19.github.io/WiC-site/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection](https://arxiv.org/abs/2610.39076)
 
 **Authors:** Li Guan, Rachael Granberry, Sahar Aseeri, Sahar Rostami, Taylor Niehues et al. (104 authors)
@@ -1253,6 +1046,40 @@ Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection
 Collecting naturalistic human manipulation demonstrations with accurate contact force and hand pose is essential for robot dexterous manipulation policy and foundational world model learning - yet no existing wearable...
 
 arXiv: https://arxiv.org/abs/2610.39076
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation](https://arxiv.org/abs/2610.38266)
+
+**Authors:** Xiaofeng Han, Kaize Luo, Zenghuang Fu, Zichong Zhu, Zhe Feng et al. (9 authors)
+
+**Published:** 2026-10-28 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.38266) | [PDF](https://arxiv.org/pdf/2610.38266)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined e...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks.
+
+arXiv: https://arxiv.org/abs/2610.38266
 
 #worldmodels #robotics
 ```
@@ -1397,6 +1224,40 @@ arXiv: https://arxiv.org/abs/2610.39516
 
 ---
 
+### [Structural-Test Geometry as an Inductive Bias for Partially Observable World Models](https://arxiv.org/abs/2610.38903)
+
+**Authors:** Todd Y. Zhou
+
+**Published:** 2026-10-28 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.38903) | [PDF](https://arxiv.org/pdf/2610.38903)
+
+<details>
+<summary>Abstract</summary>
+
+Predictive world-model objectives need not organize latent histories according to distinctions required for later control. With privileged simulator access during training, should response-derived structural information be predicted, decoded, or imposed directly on latent geometry--and how do these choices compare with structured belief distillation? We define posterior-marginalized structural tests whose response distributions induce a pseudometric over histories, then train quotient-preserving (QP) world models by aligning shared latent Euclidean distances to that metric. Across a fixed six-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Structural-Test Geometry as an Inductive Bias for Partially Observable World Models
+
+Predictive world-model objectives need not organize latent histories according to distinctions required for later control.
+
+arXiv: https://arxiv.org/abs/2610.38903
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Self-Supervised Latent Action-Conditioned World Modeling for Time Series](https://arxiv.org/abs/2610.37963)
 
 **Authors:** Chia-Han Kuo, Chengshuai Zhao, Huan Liu, Lo Pang-Yun Ting
@@ -1533,74 +1394,6 @@ arXiv: https://arxiv.org/abs/2610.37257
 
 ---
 
-### [DT-JEPA: Learning to Predict Future Representations for Decision-Making](https://arxiv.org/abs/2610.32657)
-
-**Authors:** Changxu Ni, Yiyang Ni, Jun Li, Feiran You, Hongyang Du et al. (7 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.32657) | [PDF](https://arxiv.org/pdf/2610.32657)
-
-<details>
-<summary>Abstract</summary>
-
-Decision Transformer (DT) has demonstrated strong performance in various offline reinforcement learning (RL) tasks by conditioning action generation on expected future returns and historical trajectories. However, treating expected future returns as the condition provides an incomplete description of the future, as trajectories with different state transitions and behaviors may share similar returns. Moreover, expected future returns inherently depend on task-specific reward functions, which makes policy learning reliant on reward-labeled datasets and restricts its scalability to tasks with si...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DT-JEPA: Learning to Predict Future Representations for Decision-Making
-
-Decision Transformer (DT) has demonstrated strong performance in various offline reinforcement learning (RL) tasks by conditioning action generation on expected future returns and historical trajectories.
-
-arXiv: https://arxiv.org/abs/2610.32657
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [$Ψ$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model](https://arxiv.org/abs/2610.32177)
-
-**Authors:** Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen et al. (8 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.AI, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.32177) | [PDF](https://arxiv.org/pdf/2610.32177)
-
-<details>
-<summary>Abstract</summary>
-
-Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. We introduce $Ψ$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation within a shared reasoning process we call streams of thought. These streams interleave images, text, and explicit representations of geometry and motion, all of which t...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-$Ψ$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model
-
-Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds.
-
-arXiv: https://arxiv.org/abs/2610.32177
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models](https://arxiv.org/abs/2610.35044)
 
 **Authors:** Jingbo Xu, Hanchao Leng, JiaHui Huang, Hanbing Li, Jingwei Zhao et al. (10 authors)
@@ -1627,40 +1420,6 @@ DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models
 World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dynamic environment.
 
 arXiv: https://arxiv.org/abs/2610.35044
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences](https://arxiv.org/abs/2610.32222)
-
-**Authors:** Shibo Hong, Siyu Ren, FengJiao Chen, Zhongyuan Peng, Wei Shi et al. (6 authors)
-
-**Published:** 2026-10-23 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.32222) | [PDF](https://arxiv.org/pdf/2610.32222)
-
-<details>
-<summary>Abstract</summary>
-
-Reinforcement learning has gained attention for improving action-conditioned world models (ACWMs), as it enables reward-driven optimization of visual quality (VQ) and action-following fidelity (AF) beyond flow-matching optimization. Realizing this potential requires reward signals that reliably rank videos by both VQ and AF. However, existing rewards capture only one dimension: metric-based rewards assess VQ but require ground-truth videos and do not directly assess AF, while inverse dynamics model (IDM) rewards assess AF without references but do not guarantee VQ. Moreover, IDMs, typically tr...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences
-
-Reinforcement learning has gained attention for improving action-conditioned world models (ACWMs), as it enables reward-driven optimization of visual quality (VQ) and action-following fidelity (AF) beyond flow-matchin...
-
-arXiv: https://arxiv.org/abs/2610.32222
 
 #worldmodels #robotics
 ```
