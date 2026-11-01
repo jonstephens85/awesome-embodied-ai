@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-10-31 19:44 UTC
+**Last updated:** 2026-11-01 00:31 UTC
 
-**Papers shown:** 49 (relevance ≥ 2, last 7 days)
+**Papers shown:** 44 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -16,7 +16,7 @@ Papers on VLAs and vision-language-action architectures for robotics.
 
 **Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★★☆
 
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39543) | [PDF](https://arxiv.org/pdf/2610.39543) | [Project Page](https://onlyxingxingzyx.github.io/CoRAct/)
 
@@ -37,111 +37,6 @@ Reasoning informs decision-making by connecting intended actions with their expe
 
 arXiv: https://arxiv.org/abs/2610.39543
 Project page: https://onlyxingxingzyx.github.io/CoRAct/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565)
-
-**Authors:** Pranjal Aggarwal, Sean Welleck
-
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★★☆
-
-**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40565) | [PDF](https://arxiv.org/pdf/2610.40565) | [Project Page](https://gym-anything.github.io/robotics)
-
-<details>
-<summary>Abstract</summary>
-
-Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in codi...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Gym-Anything for Robotics: Scaling physical simulations with digital agents
-
-Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world.
-
-arXiv: https://arxiv.org/abs/2610.40565
-Project page: https://gym-anything.github.io/robotics
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence](https://arxiv.org/abs/2610.40026)
-
-**Authors:** Xin Ma, Furong Chen, Xinlong Man, Bo Zhang, Yalong Guo et al. (12 authors)
-
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40026) | [PDF](https://arxiv.org/pdf/2610.40026) | [Code](https://github.com/PrimitiveX/RoboSeed)
-
-<details>
-<summary>Abstract</summary>
-
-Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed, a multidimensional evaluation framework for vision-language-action (VLA) and world-action models (WAM), within a continuing program to train, evaluate, and openly release robot models with verifiable evidence for model selection. The framework defines five dimensions: capability, downstream training affordability, dep...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
-
-Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions.
-
-arXiv: https://arxiv.org/abs/2610.40026
-Code: https://github.com/PrimitiveX/RoboSeed
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation](https://arxiv.org/abs/2610.39287)
-
-**Authors:** Junli Liu, Zhongrui You, Chenhui Li, Zhen Li, Yuyang Tian et al. (12 authors)
-
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39287) | [PDF](https://arxiv.org/pdf/2610.39287) | [Code](https://github.com/Ideal-ljl/AeroBrain)
-
-<details>
-<summary>Abstract</summary>
-
-Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional organization remains challenging, as existing systems are often specialized for individual capabilities, dependent on offboard computation, or unable to sustain closed-loop operation on resource-constrained platforms. We present OpenFlyV2, a unified onboard vision-language-action architecture that uses a shared vision-language representation to support semantic understanding,...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation
-
-Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act.
-
-arXiv: https://arxiv.org/abs/2610.39287
-Code: https://github.com/Ideal-ljl/AeroBrain
 
 #VLA #robotics
 ```
@@ -221,20 +116,20 @@ Code: https://github.com/alibaba-damo-academy/RynnVLA-Latent
 
 ---
 
-### [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532)
+### [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565)
 
-**Authors:** Xiangyu Xu, Bangshuai Peng, Ziyi Liu, Mengjie Zhao, Chenhao Lu et al. (8 authors)
+**Authors:** Pranjal Aggarwal, Sean Welleck
 
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40532) | [PDF](https://arxiv.org/pdf/2610.40532) | [Project Page](https://siyingzhao.github.io/BURGER/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40565) | [PDF](https://arxiv.org/pdf/2610.40565) | [Project Page](https://gym-anything.github.io/robotics)
 
 <details>
 <summary>Abstract</summary>
 
-How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. In BURGER, an agent starts from the same blank canvas and controls a robot arm to draw the object or spatial composition specified by language, while each...
+Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in codi...
 
 </details>
 
@@ -242,12 +137,12 @@ How effectively can vision-language-action (VLA) models learn diverse language-c
 <summary>Share</summary>
 
 ```
-BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+Gym-Anything for Robotics: Scaling physical simulations with digital agents
 
-How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales?
+Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world.
 
-arXiv: https://arxiv.org/abs/2610.40532
-Project page: https://siyingzhao.github.io/BURGER/
+arXiv: https://arxiv.org/abs/2610.40565
+Project page: https://gym-anything.github.io/robotics
 
 #VLA #robotics
 ```
@@ -256,20 +151,20 @@ Project page: https://siyingzhao.github.io/BURGER/
 
 ---
 
-### [HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model](https://arxiv.org/abs/2610.40373)
+### [RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence](https://arxiv.org/abs/2610.40026)
 
-**Authors:** Rongxing Ding, Hongyu Qu, Kehong Wu, Xudong Wang, Fan Zhang et al. (7 authors)
+**Authors:** Xin Ma, Furong Chen, Xinlong Man, Bo Zhang, Yalong Guo et al. (12 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.40373) | [PDF](https://arxiv.org/pdf/2610.40373)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40026) | [PDF](https://arxiv.org/pdf/2610.40026) | [Code](https://github.com/PrimitiveX/RoboSeed)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately, while directly incorporating predicted futures into action policies without sufficiently considering their relevance to current action requirements. To address these limitations, we...
+Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed, a multidimensional evaluation framework for vision-language-action (VLA) and world-action models (WAM), within a continuing program to train, evaluate, and openly release robot models with verifiable evidence for model selection. The framework defines five dimensions: capability, downstream training affordability, dep...
 
 </details>
 
@@ -277,11 +172,47 @@ Vision-Language-Action (VLA) models have demonstrated promising capabilities in 
 <summary>Share</summary>
 
 ```
-HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
 
-Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation.
+Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions.
 
-arXiv: https://arxiv.org/abs/2610.40373
+arXiv: https://arxiv.org/abs/2610.40026
+Code: https://github.com/PrimitiveX/RoboSeed
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation](https://arxiv.org/abs/2610.39287)
+
+**Authors:** Junli Liu, Zhongrui You, Chenhui Li, Zhen Li, Yuyang Tian et al. (12 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39287) | [PDF](https://arxiv.org/pdf/2610.39287) | [Code](https://github.com/Ideal-ljl/AeroBrain)
+
+<details>
+<summary>Abstract</summary>
+
+Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional organization remains challenging, as existing systems are often specialized for individual capabilities, dependent on offboard computation, or unable to sustain closed-loop operation on resource-constrained platforms. We present OpenFlyV2, a unified onboard vision-language-action architecture that uses a shared vision-language representation to support semantic understanding,...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation
+
+Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act.
+
+arXiv: https://arxiv.org/abs/2610.39287
+Code: https://github.com/Ideal-ljl/AeroBrain
 
 #VLA #robotics
 ```
@@ -466,20 +397,20 @@ Code: https://github.com/5hadytru/so101_bench
 
 ---
 
-### [How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function](https://arxiv.org/abs/2610.40002)
+### [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532)
 
-**Authors:** Dabin Seo, Eunhyek Joa
+**Authors:** Xiangyu Xu, Bangshuai Peng, Ziyi Liu, Mengjie Zhao, Chenhao Lu et al. (8 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.40002) | [PDF](https://arxiv.org/pdf/2610.40002)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.40532) | [PDF](https://arxiv.org/pdf/2610.40532) | [Project Page](https://siyingzhao.github.io/BURGER/)
 
 <details>
 <summary>Abstract</summary>
 
-Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it. A wrong trace yields a wrong action, and even a correct-looking trace can mislead the plan. Existing remedies ask whether the reasoning is right. We ask how strongly it should steer. CoC-CFG applies classifier-free guidance between the policy's context and the same context without the reasoning span. One weight per Euler step attenuates or amplifies the reasoning, and w=1 recovers the original policy. We treat the choice of this weight as a Markov decision process whose action values are...
+How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. In BURGER, an agent starts from the same blank canvas and controls a robot arm to draw the object or spatial composition specified by language, while each...
 
 </details>
 
@@ -487,11 +418,12 @@ Reasoning vision-language-action (VLA) policies write a reasoning trace and then
 <summary>Share</summary>
 
 ```
-How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
+BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
 
-Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it.
+How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales?
 
-arXiv: https://arxiv.org/abs/2610.40002
+arXiv: https://arxiv.org/abs/2610.40532
+Project page: https://siyingzhao.github.io/BURGER/
 
 #VLA #robotics
 ```
@@ -500,20 +432,20 @@ arXiv: https://arxiv.org/abs/2610.40002
 
 ---
 
-### [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385)
+### [HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model](https://arxiv.org/abs/2610.40373)
 
-**Authors:** Govind Velamoor, Adrian Lin, Sam Jung, Spencer Mateega, Brandon Y. Yang et al. (6 authors)
+**Authors:** Rongxing Ding, Hongyu Qu, Kehong Wu, Xudong Wang, Fan Zhang et al. (7 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-10-29 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in abstract; project page; posted in last 2 days
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39385) | [PDF](https://arxiv.org/pdf/2610.39385) | [Project Page](https://umi-live.github.io/)
+**Links:** [arXiv](https://arxiv.org/abs/2610.40373) | [PDF](https://arxiv.org/pdf/2610.40373)
 
 <details>
 <summary>Abstract</summary>
 
-Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks for robot learning without teleoperating physical robots. Using these demonstrations as training data still requires a consistent hardware setup, calibration, and data processing. We present UMI-Live, a full-stack open-source bimanual UMI system for in-the-wild data collection. We design our custom UMI-Live hardware to integrate camera and LiDAR--inertial sensing, onboard compute, and power, without external tracking equipment or calibration within the collection environment. We implement a simple user inte...
+Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately, while directly incorporating predicted futures into action policies without sufficiently considering their relevance to current action requirements. To address these limitations, we...
 
 </details>
 
@@ -521,12 +453,11 @@ Universal Manipulation Interface (UMI) devices allow human experts to demonstrat
 <summary>Share</summary>
 
 ```
-UMI-Live for In-The-Wild Bimanual Robotics Data Collection
+HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
 
-Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks for robot learning without teleoperating physical robots.
+Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation.
 
-arXiv: https://arxiv.org/abs/2610.39385
-Project page: https://umi-live.github.io/
+arXiv: https://arxiv.org/abs/2610.40373
 
 #VLA #robotics
 ```
@@ -884,20 +815,20 @@ arXiv: https://arxiv.org/abs/2610.34251
 
 ---
 
-### [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](https://arxiv.org/abs/2610.40349)
+### [How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function](https://arxiv.org/abs/2610.40002)
 
-**Authors:** Haozhe Zhang, Gu Zhang, Zirui Zou, Yuzheng Chen, Jinlong Wu et al. (10 authors)
+**Authors:** Dabin Seo, Eunhyek Joa
 
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.40349) | [PDF](https://arxiv.org/pdf/2610.40349)
+**Links:** [arXiv](https://arxiv.org/abs/2610.40002) | [PDF](https://arxiv.org/pdf/2610.40002)
 
 <details>
 <summary>Abstract</summary>
 
-Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions. We present TouchBridge, a hardware--software co-designed framework for human-to-robot data transformation. A wearable human demonstration interface and a corresponding robot interface establish cross-embodiment correspondence in visual and fingertip tactile sensing. We introduce Tac-Retarget, a tactile-conditioned retargeting method that uses measured contact to align fingertip contact patches...
+Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it. A wrong trace yields a wrong action, and even a correct-looking trace can mislead the plan. Existing remedies ask whether the reasoning is right. We ask how strongly it should steer. CoC-CFG applies classifier-free guidance between the policy's context and the same context without the reasoning span. One weight per Euler step attenuates or amplifies the reasoning, and w=1 recovers the original policy. We treat the choice of this weight as a Markov decision process whose action values are...
 
 </details>
 
@@ -905,11 +836,11 @@ Human demonstrations offer an efficient and scalable source of data for dexterou
 <summary>Share</summary>
 
 ```
-TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
+How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
 
-Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions.
+Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it.
 
-arXiv: https://arxiv.org/abs/2610.40349
+arXiv: https://arxiv.org/abs/2610.40002
 
 #VLA #robotics
 ```
@@ -918,20 +849,20 @@ arXiv: https://arxiv.org/abs/2610.40349
 
 ---
 
-### [LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks](https://arxiv.org/abs/2610.40016)
+### [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385)
 
-**Authors:** Enqiao Lu, Yuxiang Xie, Xingrui Yu, Yuyang Wang, Yipeng Gu et al. (11 authors)
+**Authors:** Govind Velamoor, Adrian Lin, Sam Jung, Spencer Mateega, Brandon Y. Yang et al. (6 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.40016) | [PDF](https://arxiv.org/pdf/2610.40016)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39385) | [PDF](https://arxiv.org/pdf/2610.39385) | [Project Page](https://umi-live.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan into condition-support and resource-ordering edges, checks their physical validity during execution, an...
+Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks for robot learning without teleoperating physical robots. Using these demonstrations as training data still requires a consistent hardware setup, calibration, and data processing. We present UMI-Live, a full-stack open-source bimanual UMI system for in-the-wild data collection. We design our custom UMI-Live hardware to integrate camera and LiDAR--inertial sensing, onboard compute, and power, without external tracking equipment or calibration within the collection environment. We implement a simple user inte...
 
 </details>
 
@@ -939,45 +870,12 @@ Agentic robots must turn a high-level goal into actions while keeping the physic
 <summary>Share</summary>
 
 ```
-LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+UMI-Live for In-The-Wild Bimanual Robotics Data Collection
 
-Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid.
+Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks for robot learning without teleoperating physical robots.
 
-arXiv: https://arxiv.org/abs/2610.40016
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning](https://arxiv.org/abs/2610.39451)
-
-**Authors:** Shota Nomura, Takayuki Osa, Yasuhiro Kato, Kazuki Ota, Naoki Shitanda et al. (6 authors)
-
-**Published:** 2026-10-29 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.39451) | [PDF](https://arxiv.org/pdf/2610.39451)
-
-<details>
-<summary>Abstract</summary>
-
-Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets. As these policies have grown more capable, action chunking has become their standard interface. At each decision step the policy outputs several future actions at once. Backbones from diffusion policies to large vision-language-action models all share it. Whatever backbone produces the chunk, its temporal structure is learned only implicitly. The commanded trajectory is therefore jerky both within a chunk and bet...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning
-
-Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets.
-
-arXiv: https://arxiv.org/abs/2610.39451
+arXiv: https://arxiv.org/abs/2610.39385
+Project page: https://umi-live.github.io/
 
 #VLA #robotics
 ```
@@ -1226,88 +1124,20 @@ arXiv: https://arxiv.org/abs/2610.34837
 
 ---
 
-### [Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference](https://arxiv.org/abs/2610.33658)
+### [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](https://arxiv.org/abs/2610.40349)
 
-**Authors:** Rui Liu, He Lv, Ziyao Zhang, Rui Ma, Rongxiang Nie
-
-**Published:** 2026-10-24 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.33658) | [PDF](https://arxiv.org/pdf/2610.33658)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models have demonstrated strong capabilities in robotic manipulation, yet their reliance on dense, continuous-valued computation presents a fundamental challenge for energy-constrained deployment. Inspired by the sparse, event-driven signaling and temporal integration mechanisms of biological neurons, a promising alternative is to introduce spiking computation into VLA models. However, enabling such computation without restructuring pretrained policies or compromising closed-loop control remains an open challenge. To address this challenge, we introduce the Power-o...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference
-
-Vision-language-action (VLA) models have demonstrated strong capabilities in robotic manipulation, yet their reliance on dense, continuous-valued computation presents a fundamental challenge for energy-constrained dep...
-
-arXiv: https://arxiv.org/abs/2610.33658
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [TAD: Distilling Vision-Language-Action Policies from Teacher Trajectories Alone](https://arxiv.org/abs/2610.33650)
-
-**Authors:** Yun Zhu, Da Wang
-
-**Published:** 2026-10-24 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.33650) | [PDF](https://arxiv.org/pdf/2610.33650)
-
-<details>
-<summary>Abstract</summary>
-
-Online distillation of vision-language-action (VLA) policies commonly relies on teacher action scores that an inference-only interface may not expose. Trajectory-only Adversarial Distillation (\gad{}) instead turns a fixed bank of teacher joint-position features into adaptive feedback: a discriminator compares feature marginals from teacher and student rollouts and supplies rewards for on-policy learning. The student interacts with the environment without online teacher queries or environment task rewards. On ManiSkill \texttt{PutOnPlateInScene25Main}, \gad{} improves OpenVLA-OFT (7B) from $26...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-TAD: Distilling Vision-Language-Action Policies from Teacher Trajectories Alone
-
-Online distillation of vision-language-action (VLA) policies commonly relies on teacher action scores that an inference-only interface may not expose.
-
-arXiv: https://arxiv.org/abs/2610.33650
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design](https://arxiv.org/abs/2610.40430)
-
-**Authors:** Jingxu Gu, Dongze Lian
+**Authors:** Haozhe Zhang, Gu Zhang, Zirui Zou, Yuzheng Chen, Jinlong Wu et al. (10 authors)
 
 **Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "vision-language-action" in abstract; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.40430) | [PDF](https://arxiv.org/pdf/2610.40430)
+**Links:** [arXiv](https://arxiv.org/abs/2610.40349) | [PDF](https://arxiv.org/pdf/2610.40349)
 
 <details>
 <summary>Abstract</summary>
 
-Fine-grained manipulation requires a robot policy to follow instructions, remain robust to visual variations, and translate predicted actions into precise robot control. We present Demonstration Expansion and Execution Design (DEED), a framework for adapting a pretrained vision-language-action policy to the five MetaFine tasks through structured demonstration expansion and execution design. DEED generates demonstrations for different instructions from the same initial scene and renders each physical trajectory under different camera positions and lighting conditions while preserving its origin...
+Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions. We present TouchBridge, a hardware--software co-designed framework for human-to-robot data transformation. A wearable human demonstration interface and a corresponding robot interface establish cross-embodiment correspondence in visual and fingertip tactile sensing. We introduce Tac-Retarget, a tactile-conditioned retargeting method that uses measured contact to align fingertip contact patches...
 
 </details>
 
@@ -1315,11 +1145,79 @@ Fine-grained manipulation requires a robot policy to follow instructions, remain
 <summary>Share</summary>
 
 ```
-Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
+TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
 
-Fine-grained manipulation requires a robot policy to follow instructions, remain robust to visual variations, and translate predicted actions into precise robot control.
+Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions.
 
-arXiv: https://arxiv.org/abs/2610.40430
+arXiv: https://arxiv.org/abs/2610.40349
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks](https://arxiv.org/abs/2610.40016)
+
+**Authors:** Enqiao Lu, Yuxiang Xie, Xingrui Yu, Yuyang Wang, Yipeng Gu et al. (11 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.40016) | [PDF](https://arxiv.org/pdf/2610.40016)
+
+<details>
+<summary>Abstract</summary>
+
+Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan into condition-support and resource-ordering edges, checks their physical validity during execution, an...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid.
+
+arXiv: https://arxiv.org/abs/2610.40016
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning](https://arxiv.org/abs/2610.39451)
+
+**Authors:** Shota Nomura, Takayuki Osa, Yasuhiro Kato, Kazuki Ota, Naoki Shitanda et al. (6 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.LG, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.39451) | [PDF](https://arxiv.org/pdf/2610.39451)
+
+<details>
+<summary>Abstract</summary>
+
+Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets. As these policies have grown more capable, action chunking has become their standard interface. At each decision step the policy outputs several future actions at once. Backbones from diffusion policies to large vision-language-action models all share it. Whatever backbone produces the chunk, its temporal structure is learned only implicitly. The commanded trajectory is therefore jerky both within a chunk and bet...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning
+
+Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets.
+
+arXiv: https://arxiv.org/abs/2610.39451
 
 #VLA #robotics
 ```
@@ -1430,40 +1328,6 @@ arXiv: https://arxiv.org/abs/2610.34674
 
 ---
 
-### [Learning Dexterous Manipulation: Hands, Simulators, Training, and Evaluation](https://arxiv.org/abs/2610.33486)
-
-**Authors:** Luai Abuelsamen
-
-**Published:** 2026-10-24 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.33486) | [PDF](https://arxiv.org/pdf/2610.33486)
-
-<details>
-<summary>Abstract</summary>
-
-A dexterous hand can change an object's pose without setting it down. This survey covers 113 learning-based methods that attempt it, the hands they run on, the simulators they train in, and how they report results. The field has largely converged on one recipe: reinforcement learning on privileged state in a GPU simulator, distilled into a vision-only student for transfer to hardware. Almost half the corpus trains that way, nearly all of it in one simulator, whose own successors are barely used. A second and faster-growing branch learns from teleoperated demonstration instead, through vision-l...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Learning Dexterous Manipulation: Hands, Simulators, Training, and Evaluation
-
-A dexterous hand can change an object's pose without setting it down.
-
-arXiv: https://arxiv.org/abs/2610.33486
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition](https://arxiv.org/abs/2610.36765)
 
 **Authors:** Lifan Zheng, Guotao Chen, Zhenyang Li, Shujie Cui, Qiang Huang et al. (6 authors)
@@ -1498,20 +1362,20 @@ arXiv: https://arxiv.org/abs/2610.36765
 
 ---
 
-### [Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation](https://arxiv.org/abs/2610.33866)
+### [Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design](https://arxiv.org/abs/2610.40430)
 
-**Authors:** Enfu Nan, Pu Zhao, Yixiao Chen, Lin Zhao, Juyi Lin et al. (8 authors)
+**Authors:** Jingxu Gu, Dongze Lian
 
-**Published:** 2026-10-24 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
+**Why surfaced:** "vision-language-action" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.33866) | [PDF](https://arxiv.org/pdf/2610.33866)
+**Links:** [arXiv](https://arxiv.org/abs/2610.40430) | [PDF](https://arxiv.org/pdf/2610.40430)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) models enable robots to follow instructions in typed text, limiting broader deployment in natural speech. The traditional solution by prepending a speech recognition before VLA to convert speech into texts would incur additional latency and propagate errors. To address this, we present Speech-$π_{0.5}$, which maps raw speech directly to motor commands without explicit textual transcriptions. Specifically, built on $π_{0.5}$, we use a cross-modal projection to convert voice frames directly into audio tokens with significant response latency reduction. To further imp...
+Fine-grained manipulation requires a robot policy to follow instructions, remain robust to visual variations, and translate predicted actions into precise robot control. We present Demonstration Expansion and Execution Design (DEED), a framework for adapting a pretrained vision-language-action policy to the five MetaFine tasks through structured demonstration expansion and execution design. DEED generates demonstrations for different instructions from the same initial scene and renders each physical trajectory under different camera positions and lighting conditions while preserving its origin...
 
 </details>
 
@@ -1519,11 +1383,11 @@ Vision-language-action (VLA) models enable robots to follow instructions in type
 <summary>Share</summary>
 
 ```
-Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation
+Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
 
-Vision-language-action (VLA) models enable robots to follow instructions in typed text, limiting broader deployment in natural speech.
+Fine-grained manipulation requires a robot policy to follow instructions, remain robust to visual variations, and translate predicted actions into precise robot control.
 
-arXiv: https://arxiv.org/abs/2610.33866
+arXiv: https://arxiv.org/abs/2610.40430
 
 #VLA #robotics
 ```
@@ -1660,40 +1524,6 @@ Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories
 Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery.
 
 arXiv: https://arxiv.org/abs/2610.35252
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation](https://arxiv.org/abs/2610.33794)
-
-**Authors:** Zhuoyuan Yu, Yuxing Long, Du Wang, Junyang Wang, Hongwei Fan et al. (6 authors)
-
-**Published:** 2026-10-24 | **Categories:** cs.RO, cs.AI, cs.CL | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "VLA" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.33794) | [PDF](https://arxiv.org/pdf/2610.33794)
-
-<details>
-<summary>Abstract</summary>
-
-Deploying a language-guided navigation policy in a new building usually means watching it fail. Public-benchmark VLAs degrade scene by scene as layout, appearance, and language drift, and the standard fix of teleoperating fresh trajectories on site does not scale. We replace human demonstration with a single brief iPhone scan. Scan2Instruction compiles that scan into a complete training environment, automatically synthesizing executable navigation episodes with grounded instructions. PRPT-KS then adapts the policy through a closed-form Pareto utility read directly off the reconstructed scene,...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
-
-Deploying a language-guided navigation policy in a new building usually means watching it fail.
-
-arXiv: https://arxiv.org/abs/2610.33794
 
 #VLA #robotics
 ```

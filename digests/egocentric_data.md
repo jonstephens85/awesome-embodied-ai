@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-10-31 19:44 UTC
+**Last updated:** 2026-11-01 00:31 UTC
 
-**Papers shown:** 6 (relevance ≥ 2, last 7 days)
+**Papers shown:** 5 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,9 +14,9 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Adam Deryło, Alexey Gavryushin, Daniel Cremers, Marc Pollefeys, Xi Wang
 
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39167) | [PDF](https://arxiv.org/pdf/2610.39167) | [Project Page](https://egocontact.github.io)
 
@@ -80,42 +80,6 @@ Project page: https://tennis-vision.csail.mit.edu/
 
 ---
 
-### [EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models](https://arxiv.org/abs/2610.33685)
-
-**Authors:** Qingyuan Cai, Bo Zhang, Yongzhen Huang, Jianyu Chen
-
-**Published:** 2026-10-24 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.33685) | [PDF](https://arxiv.org/pdf/2610.33685)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models are bottlenecked by the scarcity of robot data. Egocentric human manipulation videos offer an abundant, diverse, and semantically-rich alternative that inherently captures manipulation intent. However, the embodiment gap makes it difficult to extract action-relevant representations from these videos. From the perspective of action execution, human hands and robots share analogous manipulation primitives---reaching, grasping, placing---yet exhibit distinct kinematics tied to their embodiments. This might motivate our key approach: egocentric video pretraining...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models
-
-Vision-Language-Action (VLA) models are bottlenecked by the scarcity of robot data.
-
-arXiv: https://arxiv.org/abs/2610.33685
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos](https://arxiv.org/abs/2610.37509)
 
 **Authors:** Keru Zhou, Zhirui Fang, Xinrun Xu, Yaopeng Lou, Zeyuan He et al. (22 authors)
@@ -154,9 +118,9 @@ arXiv: https://arxiv.org/abs/2610.37509
 
 **Authors:** Long Zhou, Luca Zanella, Paolo Rota, Massimiliano Mancini, Elisa Ricci
 
-**Published:** 2026-10-29 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-29 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "Ego4D" in abstract; posted in last 2 days
+**Why surfaced:** "Ego4D" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2610.40153) | [PDF](https://arxiv.org/pdf/2610.40153)
 
