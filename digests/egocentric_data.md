@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-02 01:06 UTC
+**Last updated:** 2026-11-02 23:18 UTC
 
-**Papers shown:** 5 (relevance ≥ 2, last 7 days)
+**Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -37,6 +37,75 @@ Egocentric video has emerged as one of the most scalable sources of data for lea
 
 arXiv: https://arxiv.org/abs/2610.39167
 Project page: https://egocontact.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos](https://arxiv.org/abs/2610.41336)
+
+**Authors:** Zihan Gao, Yufei Liu, Yuhong Zhang, Zhen Yu, Xinhao Huang et al. (10 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.41336) | [PDF](https://arxiv.org/pdf/2610.41336)
+
+<details>
+<summary>Abstract</summary>
+
+Learning dexterous manipulation from human videos remains an open challenge, particularly in the context of transferring a single demonstration into a spatially generalizable robotic skill and maintaining physically plausible human-like interactions. Unlike prior works that emphasize hand-motion imitation, we introduce an object-centric framework for acquiring dexterous skills from egocentric human RGB-D videos. Within our framework, we formulate the reinforcement learning (RL) objective in terms of object motion to decouple the underlying skill from the specific hand trajectory and impose con...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos
+
+Learning dexterous manipulation from human videos remains an open challenge, particularly in the context of transferring a single demonstration into a spatially generalizable robotic skill and maintaining physically p...
+
+arXiv: https://arxiv.org/abs/2610.41336
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding](https://arxiv.org/abs/2610.41127)
+
+**Authors:** Eadom Dessalene, Michael Maynord, Amir-Hossein Shahidzadeh, Botao He, Yasamin Tabatabaee et al. (9 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.41127) | [PDF](https://arxiv.org/pdf/2610.41127) | [Project Page](https://www.cs.umd.edu/~edessale/motorsense/)
+
+<details>
+<summary>Abstract</summary>
+
+Computer vision models learn hand action only from its visual consequences, without access to the underlying embodied motor signals. We address this absence with MotorSense, the first large-scale paired egocentric video and surface electromyography (EMG) dataset. MotorSense pairs bimanual EMG bands with egocentric video and yields synchronized video, bimanual EMG and IMU, and audio across 100 hours of unscripted manipulation. EMG offers a powerful scalable alternative to manual annotation: it captures finger movement, hand configuration, and the forces exerted between hand and environment as a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding
+
+Computer vision models learn hand action only from its visual consequences, without access to the underlying embodied motor signals.
+
+arXiv: https://arxiv.org/abs/2610.41127
+Project page: https://www.cs.umd.edu/~edessale/motorsense/
 
 #egocentric #robotlearning
 ```
@@ -80,6 +149,77 @@ Project page: https://tennis-vision.csail.mit.edu/
 
 ---
 
+### [DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos](https://arxiv.org/abs/2610.41402)
+
+**Authors:** Mohammed Aman Bhuiyan, Md. Sazzad Hossain Adib, Samiul Basir Bhuiyan, Mir Faiyaz Hossain, Syed Mohammed Shamsul Islam et al. (7 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric dataset" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.41402) | [PDF](https://arxiv.org/pdf/2610.41402) | [Project Page](https://aman554-eq.github.io/DUGO)
+
+<details>
+<summary>Abstract</summary>
+
+Online Temporal Action Localization (OnTAL) aims to detect and localize action instances from untrimmed streaming videos in real time. Unlike offline approaches, OnTAL models have no access to future frames and cannot go back and refine earlier predictions, which makes the task considerably harder given the strict real-time constraints and narrow temporal window available. Most existing OnTAL methods lean on either brief anchor-based context or a single-scale memory of past frames, which limits how well they can capture actions unfolding across multiple time scales or requiring long-range reas...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos
+
+Online Temporal Action Localization (OnTAL) aims to detect and localize action instances from untrimmed streaming videos in real time.
+
+arXiv: https://arxiv.org/abs/2610.41402
+Project page: https://aman554-eq.github.io/DUGO
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021)
+
+**Authors:** Biaoliang Guan, Tingyu Yuan, Wen Ye, Ziming Ji, Xu Yang et al. (8 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in title
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.42021) | [PDF](https://arxiv.org/pdf/2610.42021)
+
+<details>
+<summary>Abstract</summary>
+
+Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effective knowledge transfer. Existing methods often decouple cross-embodiment knowledge alignment from robot policy learning, making it difficult for human manipulation knowledge to directly and fully contribute to robot action learning. To address this issue, we propose Nexus-VLA, a hybrid policy learning framework that enables cross-embodiment knowledge transfer through end-to-end...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
+
+Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effe...
+
+arXiv: https://arxiv.org/abs/2610.42021
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos](https://arxiv.org/abs/2610.37509)
 
 **Authors:** Keru Zhou, Zhirui Fang, Xinrun Xu, Yaopeng Lou, Zeyuan He et al. (22 authors)
@@ -106,6 +246,40 @@ Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric
 As egocentric video becomes increasingly available for embodied learning, an important research question is how to turn this low-cost, scalable source of data into robot manipulation capabilities.
 
 arXiv: https://arxiv.org/abs/2610.37509
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.40832)
+
+**Authors:** Mingzhi Pei, Zhangchen Ye, Ruoqu Chen, Liu Cao, Mengdi Xu
+
+**Published:** 2026-10-29 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.40832) | [PDF](https://arxiv.org/pdf/2610.40832)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world. Existing methods focus on either camera-frame hands or world-space hand trajectories, without jointly recovering the scene pointmaps or interaction information. Building a complete reconstruction from such specialized predictions therefore typically requires per-sequence optimization. We propose EgoHSI3R, a unified feed-forward framework for online 4D hand-scene interaction reconstruction from egocentric monocular vid...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
+
+Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world.
+
+arXiv: https://arxiv.org/abs/2610.40832
 
 #egocentric #robotlearning
 ```

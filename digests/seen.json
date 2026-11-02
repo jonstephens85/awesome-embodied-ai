@@ -9007,5 +9007,181 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2610.40798": {
+    "first_seen": "2026-11-02",
+    "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40799": {
+    "first_seen": "2026-11-02",
+    "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40828": {
+    "first_seen": "2026-11-02",
+    "title": "From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.40832": {
+    "first_seen": "2026-11-02",
+    "title": "EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.40927": {
+    "first_seen": "2026-11-02",
+    "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40935": {
+    "first_seen": "2026-11-02",
+    "title": "Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.40947": {
+    "first_seen": "2026-11-02",
+    "title": "UFMF: Radar-Guided Kinematic Priors for Real-Time 4D Occupancy Forecasting",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41009": {
+    "first_seen": "2026-11-02",
+    "title": "STAR: Steering Action Representations during Inference",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.41022": {
+    "first_seen": "2026-11-02",
+    "title": "Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41030": {
+    "first_seen": "2026-11-02",
+    "title": "Dreams Are Cheaper Than Flights: Curated World-Model Data Improves Aerial Detection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41041": {
+    "first_seen": "2026-11-02",
+    "title": "Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41127": {
+    "first_seen": "2026-11-02",
+    "title": "MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.41130": {
+    "first_seen": "2026-11-02",
+    "title": "One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41273": {
+    "first_seen": "2026-11-02",
+    "title": "SPT-Flow: One Integration, Many Futures in Continuous-Time World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41275": {
+    "first_seen": "2026-11-02",
+    "title": "TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.41330": {
+    "first_seen": "2026-11-02",
+    "title": "Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41336": {
+    "first_seen": "2026-11-02",
+    "title": "HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.41402": {
+    "first_seen": "2026-11-02",
+    "title": "DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2610.41408": {
+    "first_seen": "2026-11-02",
+    "title": "SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.41609": {
+    "first_seen": "2026-11-02",
+    "title": "VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.41654": {
+    "first_seen": "2026-11-02",
+    "title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2610.41857": {
+    "first_seen": "2026-11-02",
+    "title": "When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.42021": {
+    "first_seen": "2026-11-02",
+    "title": "Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2610.42053": {
+    "first_seen": "2026-11-02",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2610.42146": {
+    "first_seen": "2026-11-02",
+    "title": "Hierarchical World Models with Implicit Dynamics",
+    "topics": [
+      "world_models"
+    ]
   }
 }

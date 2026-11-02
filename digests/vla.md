@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-02 01:06 UTC
+**Last updated:** 2026-11-02 23:18 UTC
 
-**Papers shown:** 38 (relevance ≥ 2, last 7 days)
+**Papers shown:** 46 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -72,6 +72,76 @@ Post-training quantization (PTQ) reduces the memory footprint of vision-language
 
 arXiv: https://arxiv.org/abs/2610.38661
 Code: https://github.com/jiuyixu25/QbD-VLA
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression](https://arxiv.org/abs/2610.41609)
+
+**Authors:** Minsu Jang, Jae-Woo Choi, Youngwoo Yoon, Dohyung Kim
+
+**Published:** 2026-10-30 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.41609) | [PDF](https://arxiv.org/pdf/2610.41609) | [Code](https://github.com/zebehn/vla-start-suppression)
+
+<details>
+<summary>Abstract</summary>
+
+A robot should act only on an instruction from a person or on an intent that the robot explicitly represents and generates. Unintended actions taken without such an instruction can cause risk or inconvenience to people and the environment. We examine how recent vision-language-action (VLA) policies respond when the instruction is missing or meaningless. We apply a paired protocol with empty, neutral, nonsense, infeasible, and wrong-task instructions to six model checkpoints in LIBERO-Goal simulation. Holding the initial state fixed and varying only the instruction, we ask three questions: whet...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression
+
+A robot should act only on an instruction from a person or on an intent that the robot explicitly represents and generates.
+
+arXiv: https://arxiv.org/abs/2610.41609
+Code: https://github.com/zebehn/vla-start-suppression
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [STAR: Steering Action Representations during Inference](https://arxiv.org/abs/2610.41009)
+
+**Authors:** Guangyu Zhao, Yongchang Zhang, Haoxuan Ru, Kaichen He, Haoran Wen et al. (9 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.41009) | [PDF](https://arxiv.org/pdf/2610.41009) | [Code](https://github.com/PKU-VaLuE-Lab/STAR)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models (VLAs) map language instructions and visual observations to robot actions, showing strong capabilities across robotic manipulation tasks. However, in our probing experiment, we find that action representations near the action output do not fully preserve task-relevant visual grounding. Motivated by this late-layer grounding gap, we introduce STAR, for STeering Action Representations, a training-free inference method for pre-trained VLAs. STAR applies an exponential moving average over late-layer residual updates, allowing later action representations to inherit ob...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+STAR: Steering Action Representations during Inference
+
+Vision-language-action models (VLAs) map language instructions and visual observations to robot actions, showing strong capabilities across robotic manipulation tasks.
+
+arXiv: https://arxiv.org/abs/2610.41009
+Code: https://github.com/PKU-VaLuE-Lab/STAR
 
 #VLA #robotics
 ```
@@ -154,7 +224,7 @@ Code: https://github.com/PrimitiveX/RoboSeed
 
 **Authors:** Junli Liu, Zhongrui You, Chenhui Li, Zhen Li, Yuyang Tian et al. (12 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-10-29 (updated 2026-10-30) | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo
 
@@ -361,6 +431,75 @@ Code: https://github.com/5hadytru/so101_bench
 
 ---
 
+### [SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models](https://arxiv.org/abs/2610.41408)
+
+**Authors:** Haesung Lee, Insu Han
+
+**Published:** 2026-10-30 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.41408) | [PDF](https://arxiv.org/pdf/2610.41408)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models enable capable robot behavior, but their large memory footprint limits deployment on resource-constrained robotic platforms. Weight quantization is a natural remedy, yet post-training quantization (PTQ) recipes inherited from large language models degrade when applied to VLAs at ultra-low precision. Existing low-bit PTQ methods often fail to explicitly account for the structure of downstream operations and allocate precision without considering its effect on the policy actions. We introduce SACQ, an ultra- low-bit weight-only vector-codebook quantization fra...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models
+
+Vision-Language-Action (VLA) models enable capable robot behavior, but their large memory footprint limits deployment on resource-constrained robotic platforms.
+
+arXiv: https://arxiv.org/abs/2610.41408
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857)
+
+**Authors:** Alex Zhou, Junhao Wu, Xueyang Zhou, Yixiao Huo, Hongcheng Gao et al. (8 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.41857) | [PDF](https://arxiv.org/pdf/2610.41857) | [Code](https://github.com/ALEXander22568/simuguard)
+
+<details>
+<summary>Abstract</summary>
+
+Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. Many of these failures are the simulator's fault, not the policy's; we find the cause and fix it. Testing a vision language action model and a world action model in simulation, we find that the policy often places the object and the simulator then ejects it, and that the benchmark's own scripted demonstrations fail the same way. We present SimuGuard, an auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo. It leaves the evaluation unchanged. At every physics step, it records t...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks
+
+Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy.
+
+arXiv: https://arxiv.org/abs/2610.41857
+Code: https://github.com/ALEXander22568/simuguard
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532)
 
 **Authors:** Xiangyu Xu, Bangshuai Peng, Ziyi Liu, Mengjie Zhao, Chenhao Lu et al. (8 authors)
@@ -539,7 +678,7 @@ Project page: https://thinkworld-project.github.io/
 
 **Authors:** Hanqing Wang, Zhaotian Cai, Ruichuan An, Bohan Zeng, Tao Zhang et al. (15 authors)
 
-**Published:** 2026-10-27 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-10-27 (updated 2026-10-29) | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
 
@@ -667,6 +806,40 @@ Recent advances in vision-language-action (VLA) and world-action models (WAMs) h
 
 arXiv: https://arxiv.org/abs/2610.34649
 Project page: https://aetherlabsai.github.io/RobotAgentBench/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents](https://arxiv.org/abs/2610.40799)
+
+**Authors:** Yijia Fan, Xilin He, Yilei Jiang, Dongming Wu, Jiaxu Wang et al. (6 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.40799) | [PDF](https://arxiv.org/pdf/2610.40799)
+
+<details>
+<summary>Abstract</summary>
+
+Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it.
+
+arXiv: https://arxiv.org/abs/2610.40799
 
 #VLA #robotics
 ```
@@ -915,6 +1088,40 @@ arXiv: https://arxiv.org/abs/2610.34837
 
 ---
 
+### [TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking](https://arxiv.org/abs/2610.41275)
+
+**Authors:** Mingyang Lyu, Gongce Cao, Yiyang Jia, Lu Jia, Erliang Lin et al. (10 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.41275) | [PDF](https://arxiv.org/pdf/2610.41275)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied visual tracking requires a robot to follow a language-specified person under occlusion, look-alike distractors, and ambiguous instructions. We show that improving tracking persistence can simultaneously increase safety violations. Using a compact 0.6B vision-language-action (VLA) tracker with a frozen backbone, we update only the planner head with proximal policy optimization (PPO). PPO improves success and following rates across all three EVT-Bench settings, but increases the collision rate on distracted tracking because episodes that previously ended in target loss can instead end i...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking
+
+Embodied visual tracking requires a robot to follow a language-specified person under occlusion, look-alike distractors, and ambiguous instructions.
+
+arXiv: https://arxiv.org/abs/2610.41275
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](https://arxiv.org/abs/2610.40349)
 
 **Authors:** Haozhe Zhang, Gu Zhang, Zirui Zou, Yuzheng Chen, Jinlong Wu et al. (10 authors)
@@ -951,9 +1158,9 @@ arXiv: https://arxiv.org/abs/2610.40349
 
 ### [LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks](https://arxiv.org/abs/2610.40016)
 
-**Authors:** Enqiao Lu, Yuxiang Xie, Xingrui Yu, Yuyang Wang, Yipeng Gu et al. (11 authors)
+**Authors:** Enqiao Lu, Yuxiang Xie, Xingrui Yu, Yuyang Wang, Yipeng Gu et al. (13 authors)
 
-**Published:** 2026-10-29 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-29 (updated 2026-10-30) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
@@ -1145,6 +1352,74 @@ Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: 
 We fine-tuned a separate $π_{0.5}$ policy for each of the five tasks in the MetaFine Open Competition, with a task-specific training mixture and number of actions executed per prediction.
 
 arXiv: https://arxiv.org/abs/2610.36765
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053)
+
+**Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan et al. (8 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.RO, cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "VLA" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.42053) | [PDF](https://arxiv.org/pdf/2610.42053)
+
+<details>
+<summary>Abstract</summary>
+
+Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stal...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers.
+
+arXiv: https://arxiv.org/abs/2610.42053
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation](https://arxiv.org/abs/2610.40828)
+
+**Authors:** Ammar N. Abbas, Aayush Jain, Prashanth Viswanath, Nivesh Gadipudi, Giulia Vilone et al. (6 authors)
+
+**Published:** 2026-10-29 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2610.40828) | [PDF](https://arxiv.org/pdf/2610.40828)
+
+<details>
+<summary>Abstract</summary>
+
+Imitation learning policies are intended to make robotic manipulation robust to variations in object pose, appearance, and environment that challenge pre-programmed motion. However, real-world performance remains difficult to predict, as conventional optimization signals such as validation loss show no consistent relationship with robot success. To identify the design choices that govern real-world performance, 281 imitation-learning policies spanning seven policy families were evaluated in approximately 1,700 real-robot trials of RJ45 connector grasping and insertion using a five-fingered rob...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation
+
+Imitation learning policies are intended to make robotic manipulation robust to variations in object pose, appearance, and environment that challenge pre-programmed motion.
+
+arXiv: https://arxiv.org/abs/2610.40828
 
 #VLA #robotics
 ```
