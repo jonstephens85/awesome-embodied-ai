@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-01 20:13 UTC
+**Last updated:** 2026-11-02 01:06 UTC
 
-**Papers shown:** 36 (relevance ≥ 2, last 7 days)
+**Papers shown:** 34 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -286,42 +286,6 @@ Video generation is shifting from end-to-end synthesis toward agentic generation
 
 arXiv: https://arxiv.org/abs/2610.40191
 Project page: https://agentic-videogen.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation](https://arxiv.org/abs/2610.34564)
-
-**Authors:** Meryem Koksal, Yunzhe Wang, Volkan Ustun
-
-**Published:** 2026-10-25 | **Categories:** cs.CV, cs.MA | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; 2 distinct keyword hits; robotics / embodied focus
-
-**Also relevant to:** Egocentric Data
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.34564) | [PDF](https://arxiv.org/pdf/2610.34564)
-
-<details>
-<summary>Abstract</summary>
-
-Most action-conditioned video world models remain limited to a single player, while existing multiplayer models support only small, fixed groups of agents. We introduce FlockWorld, an artificial-life environment built on Reynolds's Boids algorithm for studying population-scale multi-agent video world models. Specifically, FlockWorld renders synchronized egocentric crops, assigns distinct colors to preserve camera-agent identity across views, exposes rule-derived accelerations as actions, and lets the number of camera agents be configured independently of the size of the surrounding population....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation
-
-Most action-conditioned video world models remain limited to a single player, while existing multiplayer models support only small, fixed groups of agents.
-
-arXiv: https://arxiv.org/abs/2610.34564
 
 #worldmodels #robotics
 ```
@@ -737,41 +701,6 @@ TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Fo
 Time series forecasting supports decision-making in web applications such as online retail and network management, where planned actions can reshape future dynamics.
 
 arXiv: https://arxiv.org/abs/2610.34797
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3](https://arxiv.org/abs/2610.34523)
-
-**Authors:** Shuzhi Liu, Archana Warrier, Dat Nguyen, Chengqi Zheng, Kevin Ellis et al. (6 authors)
-
-**Published:** 2026-10-25 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.34523) | [PDF](https://arxiv.org/pdf/2610.34523) | [Project Page](https://arc3-human-think-aloud.github.io/](https://arc3-human-think-aloud.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Learning through exploration and using newly acquired knowledge to achieve goals are central capabilities of general intelligence. Understanding these capabilities requires tracing how learners build, use, and revise world models during interaction. We construct the first dataset that records how humans discover and use the mechanisms of novel environments, using ARC-AGI-3 as a testbed: 144 trajectories from 64 participants across 25 public games, each pairing time-synchronized actions with think-aloud audio, plus 250 trajectories from large language model (LLM) agents with and without harness...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3
-
-Learning through exploration and using newly acquired knowledge to achieve goals are central capabilities of general intelligence.
-
-arXiv: https://arxiv.org/abs/2610.34523
-Project page: https://arc3-human-think-aloud.github.io/](https://arc3-human-think-aloud.github.io/
 
 #worldmodels #robotics
 ```
