@@ -9316,5 +9316,230 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.01390": {
+    "first_seen": "2026-11-03",
+    "title": "Same Path, Less Time: Training-Free Fast Execution of Vision-Language-Action Models under Inference Latency",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01404": {
+    "first_seen": "2026-11-03",
+    "title": "Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01438": {
+    "first_seen": "2026-11-03",
+    "title": "FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.01560": {
+    "first_seen": "2026-11-03",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01600": {
+    "first_seen": "2026-11-03",
+    "title": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.01627": {
+    "first_seen": "2026-11-03",
+    "title": "EgoMo3R: Joint Egocentric Motion and Scene Reconstruction",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.01663": {
+    "first_seen": "2026-11-03",
+    "title": "GatedVLA with Camera-Based Emergency Braking: AlpaSim E2E Closed Loop Challenge Technical Report",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01666": {
+    "first_seen": "2026-11-03",
+    "title": "Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01677": {
+    "first_seen": "2026-11-03",
+    "title": "Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01713": {
+    "first_seen": "2026-11-03",
+    "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01729": {
+    "first_seen": "2026-11-03",
+    "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01815": {
+    "first_seen": "2026-11-03",
+    "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01844": {
+    "first_seen": "2026-11-03",
+    "title": "OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02076": {
+    "first_seen": "2026-11-03",
+    "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02101": {
+    "first_seen": "2026-11-03",
+    "title": "When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02218": {
+    "first_seen": "2026-11-03",
+    "title": "Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02284": {
+    "first_seen": "2026-11-03",
+    "title": "SVD-Prune: Spectral Vision Token Pruning under Extreme Compression",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02341": {
+    "first_seen": "2026-11-03",
+    "title": "AgiWorld: An Agentic Video World Model for Building Persistent Worlds",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02497": {
+    "first_seen": "2026-11-03",
+    "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02526": {
+    "first_seen": "2026-11-03",
+    "title": "INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02660": {
+    "first_seen": "2026-11-03",
+    "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02699": {
+    "first_seen": "2026-11-03",
+    "title": "Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02777": {
+    "first_seen": "2026-11-03",
+    "title": "Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.02782": {
+    "first_seen": "2026-11-03",
+    "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02815": {
+    "first_seen": "2026-11-03",
+    "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.02922": {
+    "first_seen": "2026-11-03",
+    "title": "An intelligent satellite must do nothing well",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.03103": {
+    "first_seen": "2026-11-03",
+    "title": "VLALagBench: Understanding When and Why VLA Inference Latency Matters",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.03163": {
+    "first_seen": "2026-11-03",
+    "title": "FineCraft: Enhancing VLA Models for Fine-Grained Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.03168": {
+    "first_seen": "2026-11-03",
+    "title": "Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.03428": {
+    "first_seen": "2026-11-03",
+    "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.03626": {
+    "first_seen": "2026-11-03",
+    "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.03646": {
+    "first_seen": "2026-11-03",
+    "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+    "topics": [
+      "egocentric_data"
+    ]
   }
 }

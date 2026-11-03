@@ -2,11 +2,46 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-03 03:09 UTC
+**Last updated:** 2026-11-03 21:30 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646)
+
+**Authors:** Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
+
+**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03646) | [PDF](https://arxiv.org/pdf/2611.03646) | [Project Page](https://egoaction-bench.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally localized atomic actions associated with the left hand, right hand, or both hands. EgoActionBench contains 1,407 episodes with 41,132 human-refined action annotations. To evaluate such dense predictions...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
+
+Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations.
+
+arXiv: https://arxiv.org/abs/2611.03646
+Project page: https://egoaction-bench.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -37,6 +72,41 @@ Egocentric video has emerged as one of the most scalable sources of data for lea
 
 arXiv: https://arxiv.org/abs/2610.39167
 Project page: https://egocontact.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoMo3R: Joint Egocentric Motion and Scene Reconstruction](https://arxiv.org/abs/2611.01627)
+
+**Authors:** Chaitanya Patel, Yusuke Kato, Rin Takahira, Kazuki Kozuka, Juan Carlos Niebles et al. (6 authors)
+
+**Published:** 2026-11-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01627) | [PDF](https://arxiv.org/pdf/2611.01627) | [Project Page](https://chaitanya100100.github.io/EgoMo3R/)
+
+<details>
+<summary>Abstract</summary>
+
+Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics. Although these tasks are inherently coupled, existing methods treat them separately. In particular, egocentric motion reconstruction methods typically assume access to metric, gravity-aligned camera trajectories from specialized inertial sensors. Recovering such trajectories from monocular egocentric video remains a significant challenge due to rapid head movements and motion blur. We present EgoMo3R, a joint optimization framework that simultaneou...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoMo3R: Joint Egocentric Motion and Scene Reconstruction
+
+Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics.
+
+arXiv: https://arxiv.org/abs/2611.01627
+Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 #egocentric #robotlearning
 ```
@@ -246,6 +316,40 @@ Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric
 As egocentric video becomes increasingly available for embodied learning, an important research question is how to turn this low-cost, scalable source of data into robot manipulation capabilities.
 
 arXiv: https://arxiv.org/abs/2610.37509
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding](https://arxiv.org/abs/2611.01438)
+
+**Authors:** Akul Santhosh, Aastha Jhunjhunwala
+
+**Published:** 2026-11-01 | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.01438) | [PDF](https://arxiv.org/pdf/2611.01438)
+
+<details>
+<summary>Abstract</summary>
+
+Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video. Existing approaches either sub-sample frames uniformly, ignoring content and missing important events, or prune visual tokens inside the VLM to cut per-call cost while still invoking the model on every sampled frame. We introduce FOCUS, a training-free three-layer framework that reduces the number of invocations and steers each one towards what matters. Temporal gating measures inter-frame dissimilarity in the patch-embedding space of a smal...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding
+
+Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
+
+arXiv: https://arxiv.org/abs/2611.01438
 
 #egocentric #robotlearning
 ```
