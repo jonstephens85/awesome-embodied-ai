@@ -9183,5 +9183,138 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.00177": {
+    "first_seen": "2026-11-03",
+    "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.00394": {
+    "first_seen": "2026-11-03",
+    "title": "CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.00427": {
+    "first_seen": "2026-11-03",
+    "title": "Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.00455": {
+    "first_seen": "2026-11-03",
+    "title": "TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.00513": {
+    "first_seen": "2026-11-03",
+    "title": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.00522": {
+    "first_seen": "2026-11-03",
+    "title": "Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.00596": {
+    "first_seen": "2026-11-03",
+    "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.00612": {
+    "first_seen": "2026-11-03",
+    "title": "Roz: A Taste Test for World Model Latents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.00615": {
+    "first_seen": "2026-11-03",
+    "title": "Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.00634": {
+    "first_seen": "2026-11-03",
+    "title": "PREM: Prediction-Regulated Memory for Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.00718": {
+    "first_seen": "2026-11-03",
+    "title": "STEER: Route-Aware Adaptive Reasoning for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.00896": {
+    "first_seen": "2026-11-03",
+    "title": "Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01001": {
+    "first_seen": "2026-11-03",
+    "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01011": {
+    "first_seen": "2026-11-03",
+    "title": "Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01039": {
+    "first_seen": "2026-11-03",
+    "title": "pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01112": {
+    "first_seen": "2026-11-03",
+    "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01139": {
+    "first_seen": "2026-11-03",
+    "title": "World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.01190": {
+    "first_seen": "2026-11-03",
+    "title": "ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.01215": {
+    "first_seen": "2026-11-03",
+    "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
+    "topics": [
+      "vla"
+    ]
   }
 }

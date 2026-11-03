@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-02 23:18 UTC
+**Last updated:** 2026-11-03 03:09 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
@@ -288,6 +288,40 @@ arXiv: https://arxiv.org/abs/2610.40832
 
 ---
 
+### [AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation](https://arxiv.org/abs/2611.00177)
+
+**Authors:** Hao Xue, Peng-Fei Zhang, Ying Cheng, Lanyun Zhu, Lei Zhu et al. (6 authors)
+
+**Published:** 2026-10-30 | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.00177) | [PDF](https://arxiv.org/pdf/2611.00177)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos un...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from e...
+
+arXiv: https://arxiv.org/abs/2611.00177
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Hierarchical Step Decomposition for Training-free Online Video Step Grounding](https://arxiv.org/abs/2610.40153)
 
 **Authors:** Long Zhou, Luca Zanella, Paolo Rota, Massimiliano Mancini, Elisa Ricci
@@ -314,40 +348,6 @@ Hierarchical Step Decomposition for Training-free Online Video Step Grounding
 Given a set of procedural steps, Video Step Grounding (VSG) aims to identify which steps occur in a video and localize when they are performed.
 
 arXiv: https://arxiv.org/abs/2610.40153
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding](https://arxiv.org/abs/2610.36384)
-
-**Authors:** Matea Tashkovska, Naël Ouerghemi, Haozhe Qi, Alexander Mathis
-
-**Published:** 2026-10-26 | **Categories:** cs.CV, cs.AI, cs.CL | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.36384) | [PDF](https://arxiv.org/pdf/2610.36384)
-
-<details>
-<summary>Abstract</summary>
-
-Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluations of Multimodal Large Language Models (MLLMs) largely focus on objects, scenes, and coarse actions, leaving their ability to reason about the body itself poorly assessed. This is especially challenging from the egocentric perspective, in which the body is only partially visible and motion must be inferred from occluded and temporally distributed cues. We introduce SOMA, a benchmark for fine-grained body-motion understanding from egocentric video, comprising 1,632 human-verif...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding
-
-Perceiving human body motion is critical for multimodal systems that understand and assist people.
-
-arXiv: https://arxiv.org/abs/2610.36384
 
 #egocentric #robotlearning
 ```
