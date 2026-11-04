@@ -9541,5 +9541,217 @@
     "topics": [
       "egocentric_data"
     ]
+  },
+  "2611.03815": {
+    "first_seen": "2026-11-04",
+    "title": "AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.03850": {
+    "first_seen": "2026-11-04",
+    "title": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.03937": {
+    "first_seen": "2026-11-04",
+    "title": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04006": {
+    "first_seen": "2026-11-04",
+    "title": "Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.04016": {
+    "first_seen": "2026-11-04",
+    "title": "Physical Experience Builds Continual Spatial World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04028": {
+    "first_seen": "2026-11-04",
+    "title": "Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04073": {
+    "first_seen": "2026-11-04",
+    "title": "Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04096": {
+    "first_seen": "2026-11-04",
+    "title": "Online Hamilton-Jacobi Reachability Onboard the Robot Control Loop: A Real-Time GPU Solver for Safety-Critical Autonomy",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04166": {
+    "first_seen": "2026-11-04",
+    "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04226": {
+    "first_seen": "2026-11-04",
+    "title": "DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04241": {
+    "first_seen": "2026-11-04",
+    "title": "AceAction-5M: Hierarchical Goals for Generalist Action Learning Across 3D Game Worlds",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04368": {
+    "first_seen": "2026-11-04",
+    "title": "RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04371": {
+    "first_seen": "2026-11-04",
+    "title": "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04391": {
+    "first_seen": "2026-11-04",
+    "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04392": {
+    "first_seen": "2026-11-04",
+    "title": "Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04492": {
+    "first_seen": "2026-11-04",
+    "title": "Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04522": {
+    "first_seen": "2026-11-04",
+    "title": "Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04527": {
+    "first_seen": "2026-11-04",
+    "title": "Future Representation Distillation for Imagination-Free World Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.04566": {
+    "first_seen": "2026-11-04",
+    "title": "A research world model of power engineering learns its dynamics and reveals what-ifs",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04870": {
+    "first_seen": "2026-11-04",
+    "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.04873": {
+    "first_seen": "2026-11-04",
+    "title": "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.04913": {
+    "first_seen": "2026-11-04",
+    "title": "EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.04972": {
+    "first_seen": "2026-11-04",
+    "title": "Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05072": {
+    "first_seen": "2026-11-04",
+    "title": "Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.05080": {
+    "first_seen": "2026-11-04",
+    "title": "CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05093": {
+    "first_seen": "2026-11-04",
+    "title": "LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05155": {
+    "first_seen": "2026-11-04",
+    "title": "Asynchronous Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05163": {
+    "first_seen": "2026-11-04",
+    "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.05249": {
+    "first_seen": "2026-11-04",
+    "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05372": {
+    "first_seen": "2026-11-04",
+    "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
   }
 }

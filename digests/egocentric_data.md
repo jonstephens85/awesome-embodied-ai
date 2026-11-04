@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-04 01:45 UTC
+**Last updated:** 2026-11-04 21:43 UTC
 
-**Papers shown:** 11 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -37,6 +37,41 @@ Learning from human data offers a scalable path toward embodied intelligence, ye
 
 arXiv: https://arxiv.org/abs/2611.03646
 Project page: https://egoaction-bench.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
+
+**Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
+
+**Published:** 2026-11-03 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05163) | [PDF](https://arxiv.org/pdf/2611.05163) | [Project Page](https://ryan-seungyong-lee.github.io/RoboTryOn)
+
+<details>
+<summary>Abstract</summary>
+
+Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+
+Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations.
+
+arXiv: https://arxiv.org/abs/2611.05163
+Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
 
 #egocentric #robotlearning
 ```
@@ -247,6 +282,40 @@ Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semant
 Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effe...
 
 arXiv: https://arxiv.org/abs/2610.42021
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering](https://arxiv.org/abs/2611.04913)
+
+**Authors:** Guoning Chen, Zhexun Hu, Yifan Wei, Yixuan Weng, Bin Li et al. (6 authors)
+
+**Published:** 2026-11-03 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "Ego4D" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.04913) | [PDF](https://arxiv.org/pdf/2611.04913)
+
+<details>
+<summary>Abstract</summary>
+
+Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy, OCR sparse, and decisive actions briefly shown without narration. Existing VideoQA systems typically return labels or free-form text, making answer support difficult to inspect. We study Long Video Moment Question Answering (LVMQA), where a system returns timestamped answer-supporting evidence. We propose EP-LVMQA, an evidence-preserving coarse-to-fine framework comprising an Unce...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering
+
+Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy,...
+
+arXiv: https://arxiv.org/abs/2611.04913
 
 #egocentric #robotlearning
 ```
