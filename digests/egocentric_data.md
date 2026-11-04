@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-03 21:30 UTC
+**Last updated:** 2026-11-04 01:45 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 11 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -72,41 +72,6 @@ Egocentric video has emerged as one of the most scalable sources of data for lea
 
 arXiv: https://arxiv.org/abs/2610.39167
 Project page: https://egocontact.github.io
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoMo3R: Joint Egocentric Motion and Scene Reconstruction](https://arxiv.org/abs/2611.01627)
-
-**Authors:** Chaitanya Patel, Yusuke Kato, Rin Takahira, Kazuki Kozuka, Juan Carlos Niebles et al. (6 authors)
-
-**Published:** 2026-11-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01627) | [PDF](https://arxiv.org/pdf/2611.01627) | [Project Page](https://chaitanya100100.github.io/EgoMo3R/)
-
-<details>
-<summary>Abstract</summary>
-
-Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics. Although these tasks are inherently coupled, existing methods treat them separately. In particular, egocentric motion reconstruction methods typically assume access to metric, gravity-aligned camera trajectories from specialized inertial sensors. Recovering such trajectories from monocular egocentric video remains a significant challenge due to rapid head movements and motion blur. We present EgoMo3R, a joint optimization framework that simultaneou...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoMo3R: Joint Egocentric Motion and Scene Reconstruction
-
-Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics.
-
-arXiv: https://arxiv.org/abs/2611.01627
-Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 #egocentric #robotlearning
 ```
@@ -184,20 +149,20 @@ Project page: https://www.cs.umd.edu/~edessale/motorsense/
 
 ---
 
-### [Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video](https://arxiv.org/abs/2610.37619)
+### [EgoMo3R: Joint Egocentric Motion and Scene Reconstruction](https://arxiv.org/abs/2611.01627)
 
-**Authors:** Tudor Braicu, Joseph DelPreto, Jared Boyer, Mónika Farsang, Maximilian Stölzle et al. (7 authors)
+**Authors:** Chaitanya Patel, Yusuke Kato, Rin Takahira, Kazuki Kozuka, Juan Carlos Niebles et al. (6 authors)
 
-**Published:** 2026-10-27 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.37619) | [PDF](https://arxiv.org/pdf/2610.37619) | [Project Page](https://tennis-vision.csail.mit.edu/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01627) | [PDF](https://arxiv.org/pdf/2611.01627) | [Project Page](https://chaitanya100100.github.io/EgoMo3R/)
 
 <details>
 <summary>Abstract</summary>
 
-Agile robots require spatiotemporal intelligence to interpret scenes, reason about interactions, and anticipate future events. Yet it remains unclear how well foundation vision models support these capabilities, particularly from a moving egocentric camera, which is a natural view for robots. To investigate this, we collect an annotated tennis dataset and train a suite of vision models on spatiotemporal tasks. Our dataset contains egocentric video synchronized with five allocentric videos, estimated global positions, labeled contact times, and annotated stroke types. We then evaluate seven pre...
+Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics. Although these tasks are inherently coupled, existing methods treat them separately. In particular, egocentric motion reconstruction methods typically assume access to metric, gravity-aligned camera trajectories from specialized inertial sensors. Recovering such trajectories from monocular egocentric video remains a significant challenge due to rapid head movements and motion blur. We present EgoMo3R, a joint optimization framework that simultaneou...
 
 </details>
 
@@ -205,12 +170,12 @@ Agile robots require spatiotemporal intelligence to interpret scenes, reason abo
 <summary>Share</summary>
 
 ```
-Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video
+EgoMo3R: Joint Egocentric Motion and Scene Reconstruction
 
-Agile robots require spatiotemporal intelligence to interpret scenes, reason about interactions, and anticipate future events.
+Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics.
 
-arXiv: https://arxiv.org/abs/2610.37619
-Project page: https://tennis-vision.csail.mit.edu/
+arXiv: https://arxiv.org/abs/2611.01627
+Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 #egocentric #robotlearning
 ```
@@ -290,74 +255,6 @@ arXiv: https://arxiv.org/abs/2610.42021
 
 ---
 
-### [Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos](https://arxiv.org/abs/2610.37509)
-
-**Authors:** Keru Zhou, Zhirui Fang, Xinrun Xu, Yaopeng Lou, Zeyuan He et al. (22 authors)
-
-**Published:** 2026-10-27 (updated 2026-10-28) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.37509) | [PDF](https://arxiv.org/pdf/2610.37509)
-
-<details>
-<summary>Abstract</summary>
-
-As egocentric video becomes increasingly available for embodied learning, an important research question is how to turn this low-cost, scalable source of data into robot manipulation capabilities. Egocentric videos naturally provide rich context for high-level task understanding, while real-robot demonstrations with wrist observations and action annotations provide supervision for fine-grained action alignment. We present Ego-CEVR, a data-native framework for hierarchical visual representation learning that assigns distinct learning objectives to global and interaction representations. The glo...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos
-
-As egocentric video becomes increasingly available for embodied learning, an important research question is how to turn this low-cost, scalable source of data into robot manipulation capabilities.
-
-arXiv: https://arxiv.org/abs/2610.37509
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding](https://arxiv.org/abs/2611.01438)
-
-**Authors:** Akul Santhosh, Aastha Jhunjhunwala
-
-**Published:** 2026-11-01 | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.01438) | [PDF](https://arxiv.org/pdf/2611.01438)
-
-<details>
-<summary>Abstract</summary>
-
-Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video. Existing approaches either sub-sample frames uniformly, ignoring content and missing important events, or prune visual tokens inside the VLM to cut per-call cost while still invoking the model on every sampled frame. We introduce FOCUS, a training-free three-layer framework that reduces the number of invocations and steers each one towards what matters. Temporal gating measures inter-frame dissimilarity in the patch-embedding space of a smal...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding
-
-Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
-
-arXiv: https://arxiv.org/abs/2611.01438
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.40832)
 
 **Authors:** Mingzhi Pei, Zhangchen Ye, Ruoqu Chen, Liu Cao, Mengdi Xu
@@ -384,6 +281,40 @@ EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
 Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world.
 
 arXiv: https://arxiv.org/abs/2610.40832
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding](https://arxiv.org/abs/2611.01438)
+
+**Authors:** Akul Santhosh, Aastha Jhunjhunwala
+
+**Published:** 2026-11-01 | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.01438) | [PDF](https://arxiv.org/pdf/2611.01438)
+
+<details>
+<summary>Abstract</summary>
+
+Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video. Existing approaches either sub-sample frames uniformly, ignoring content and missing important events, or prune visual tokens inside the VLM to cut per-call cost while still invoking the model on every sampled frame. We introduce FOCUS, a training-free three-layer framework that reduces the number of invocations and steers each one towards what matters. Temporal gating measures inter-frame dissimilarity in the patch-embedding space of a smal...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding
+
+Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
+
+arXiv: https://arxiv.org/abs/2611.01438
 
 #egocentric #robotlearning
 ```
