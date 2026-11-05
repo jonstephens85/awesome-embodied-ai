@@ -2,46 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-04 21:43 UTC
+**Last updated:** 2026-11-05 01:53 UTC
 
 **Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646)
-
-**Authors:** Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
-
-**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03646) | [PDF](https://arxiv.org/pdf/2611.03646) | [Project Page](https://egoaction-bench.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally localized atomic actions associated with the left hand, right hand, or both hands. EgoActionBench contains 1,407 episodes with 41,132 human-refined action annotations. To evaluate such dense predictions...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
-
-Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations.
-
-arXiv: https://arxiv.org/abs/2611.03646
-Project page: https://egoaction-bench.github.io
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -107,6 +72,41 @@ Egocentric video has emerged as one of the most scalable sources of data for lea
 
 arXiv: https://arxiv.org/abs/2610.39167
 Project page: https://egocontact.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646)
+
+**Authors:** Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
+
+**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03646) | [PDF](https://arxiv.org/pdf/2611.03646) | [Project Page](https://egoaction-bench.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally localized atomic actions associated with the left hand, right hand, or both hands. EgoActionBench contains 1,407 episodes with 41,132 human-refined action annotations. To evaluate such dense predictions...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
+
+Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations.
+
+arXiv: https://arxiv.org/abs/2611.03646
+Project page: https://egoaction-bench.github.io
 
 #egocentric #robotlearning
 ```

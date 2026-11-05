@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-04 21:43 UTC
+**Last updated:** 2026-11-05 01:53 UTC
 
-**Papers shown:** 60 (relevance ≥ 2, last 7 days)
+**Papers shown:** 57 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -115,76 +115,6 @@ Project page: https://gensight-rbs.github.io/
 
 ---
 
-### [Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials](https://arxiv.org/abs/2611.04073)
-
-**Authors:** Anh Nguyen, Tianyi Xu, Phat Tran, Harry Yu, Huazheng Wang et al. (6 authors)
-
-**Published:** 2026-11-02 | **Categories:** cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.04073) | [PDF](https://arxiv.org/pdf/2611.04073) | [Code](https://github.com/realjoenguyen/RAGPJ-official)
-
-<details>
-<summary>Abstract</summary>
-
-Recent work has improved computer-use agents (CUAs) by combining retrieved task-relevant tutorials and look-ahead planning using world models with MLLM judges. However, the contribution of each component -- tutorials, the judge, and the world model -- to overall improvement has not been evaluated in isolation. To fill this gap, we first construct OSWorld-Tutorial and ScienceBoard-Tutorial: two datasets for CUAs with curated multimodal tutorials, covering everyday and scientific domains. We then propose RAG-PolicyJudge (RAG-PJ), a policy-judge framework for CUAs conditioned on task-specific tut...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials
-
-Recent work has improved computer-use agents (CUAs) by combining retrieved task-relevant tutorials and look-ahead planning using world models with MLLM judges.
-
-arXiv: https://arxiv.org/abs/2611.04073
-Code: https://github.com/realjoenguyen/RAGPJ-official
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models](https://arxiv.org/abs/2611.02782)
-
-**Authors:** Hangyi Kuang, Chengzhi Wang, Yefei He, Weijie Wang, Yuke Zhao et al. (11 authors)
-
-**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.02782) | [PDF](https://arxiv.org/pdf/2611.02782) | [Project Page](https://ziplab.co/History-Forcing-Project-Page/)
-
-<details>
-<summary>Abstract</summary>
-
-Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fully exploit richer historical information to constrain the student's current prediction. To address this gap, we introduce \textbf{History Forcing}, a unified on-policy distillation framework that strengthens historical supervision for few-step autoregressive video generators. The framework uses the...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models
-
-Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight.
-
-arXiv: https://arxiv.org/abs/2611.02782
-Project page: https://ziplab.co/History-Forcing-Project-Page/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence](https://arxiv.org/abs/2611.01677)
 
 **Authors:** Zhenxin Zhu, Zhijian Huang, Cheng Chi, Yuru Wang, Jianhua Wu et al. (23 authors)
@@ -280,74 +210,6 @@ Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation
 Predicting how the world evolves in response to robot actions is central to policy learning, evaluation, and planning.
 
 arXiv: https://arxiv.org/abs/2611.04492
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Physical Experience Builds Continual Spatial World Models](https://arxiv.org/abs/2611.04016)
-
-**Authors:** Yuhang Sun
-
-**Published:** 2026-11-02 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.04016) | [PDF](https://arxiv.org/pdf/2611.04016)
-
-<details>
-<summary>Abstract</summary>
-
-World models are increasingly used to support prediction and planning in embodied agents, but the knowledge is usually established before deployment and then carried into later encounters. Continual operation faces a different problem. A familiar environment may change, and the agent must use previous experience without allowing old expectations to override current physical evidence. This study asks what repeated physical experience must contribute for a spatial world model to become progressively more useful rather than simply more persistent. A physics-grounded dynamic maze separates recurri...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Physical Experience Builds Continual Spatial World Models
-
-World models are increasingly used to support prediction and planning in embodied agents, but the knowledge is usually established before deployment and then carried into later encounters.
-
-arXiv: https://arxiv.org/abs/2611.04016
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up](https://arxiv.org/abs/2611.02699)
-
-**Authors:** Joyjeet Singh
-
-**Published:** 2026-11-02 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.02699) | [PDF](https://arxiv.org/pdf/2611.02699)
-
-<details>
-<summary>Abstract</summary>
-
-We reimplement the dynamics model of the Robotic World Model (RWM) and test the uncertainty estimate that its follow-up, RWM-U, uses to penalize reward in offline policy optimization. Our implementation matches the released model's gradients. On held-out data, training on the model's own rollouts beats one-step training at the preregistered long horizon for all ten episodes, but loses on short one-step windows. RWM-U's ensemble disagreement ranks rollout errors better than forecast step (Spearman rho = 0.90 at 100 steps), yet its spread substantially understates error: one-sigma coverage on th...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up
-
-We reimplement the dynamics model of the Robotic World Model (RWM) and test the uncertainty estimate that its follow-up, RWM-U, uses to penalize reward in offline policy optimization.
-
-arXiv: https://arxiv.org/abs/2611.02699
 
 #worldmodels #robotics
 ```
@@ -531,20 +393,20 @@ arXiv: https://arxiv.org/abs/2611.04371
 
 ---
 
-### [FlowBench: Counterfactual Imagination Training for Spatial Intelligence](https://arxiv.org/abs/2611.03937)
+### [Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials](https://arxiv.org/abs/2611.04073)
 
-**Authors:** Yifan Liu, Baihan Zhang, Khai Loong Aw, Klemen Kotar, Daniel L. K. Yamins
+**Authors:** Anh Nguyen, Tianyi Xu, Phat Tran, Harry Yu, Huazheng Wang et al. (6 authors)
 
-**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-02 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; code repo; posted in last 2 days
+**Why surfaced:** "world model" in title; code repo
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03937) | [PDF](https://arxiv.org/pdf/2611.03937) | [Code](https://github.com/liuyifan22/FlowBench)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.04073) | [PDF](https://arxiv.org/pdf/2611.04073) | [Code](https://github.com/realjoenguyen/RAGPJ-official)
 
 <details>
 <summary>Abstract</summary>
 
-Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning. However, this capability remains underexplored in vision-language models and world models. We formalize this capability as Counterfactual Spatial Imagination (CSI) and introduce FlowBench, a resource for training and evaluating both, with 428K training examples spanning simulated and real-world scenes, household environments and tabletop manipulation, and diverse question types. A scalable, fully automatic pipeline pairs each hypothetical motion with spatial questions and, in...
+Recent work has improved computer-use agents (CUAs) by combining retrieved task-relevant tutorials and look-ahead planning using world models with MLLM judges. However, the contribution of each component -- tutorials, the judge, and the world model -- to overall improvement has not been evaluated in isolation. To fill this gap, we first construct OSWorld-Tutorial and ScienceBoard-Tutorial: two datasets for CUAs with curated multimodal tutorials, covering everyday and scientific domains. We then propose RAG-PolicyJudge (RAG-PJ), a policy-judge framework for CUAs conditioned on task-specific tut...
 
 </details>
 
@@ -552,12 +414,47 @@ Humans imagine scene changes under hypothetical motions, an ability central to s
 <summary>Share</summary>
 
 ```
-FlowBench: Counterfactual Imagination Training for Spatial Intelligence
+Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials
 
-Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning.
+Recent work has improved computer-use agents (CUAs) by combining retrieved task-relevant tutorials and look-ahead planning using world models with MLLM judges.
 
-arXiv: https://arxiv.org/abs/2611.03937
-Code: https://github.com/liuyifan22/FlowBench
+arXiv: https://arxiv.org/abs/2611.04073
+Code: https://github.com/realjoenguyen/RAGPJ-official
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models](https://arxiv.org/abs/2611.02782)
+
+**Authors:** Hangyi Kuang, Chengzhi Wang, Yefei He, Weijie Wang, Yuke Zhao et al. (11 authors)
+
+**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.02782) | [PDF](https://arxiv.org/pdf/2611.02782) | [Project Page](https://ziplab.co/History-Forcing-Project-Page/)
+
+<details>
+<summary>Abstract</summary>
+
+Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fully exploit richer historical information to constrain the student's current prediction. To address this gap, we introduce \textbf{History Forcing}, a unified on-policy distillation framework that strengthens historical supervision for few-step autoregressive video generators. The framework uses the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models
+
+Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight.
+
+arXiv: https://arxiv.org/abs/2611.02782
+Project page: https://ziplab.co/History-Forcing-Project-Page/
 
 #worldmodels #robotics
 ```
@@ -671,20 +568,20 @@ Project page: https://agentic-videogen.github.io/
 
 ---
 
-### [Toward Uncertainty-Aware, Physics-Grounded Human World Models](https://arxiv.org/abs/2611.03428)
+### [Physical Experience Builds Continual Spatial World Models](https://arxiv.org/abs/2611.04016)
 
-**Authors:** Yufei Zhang, Zijun Cui
+**Authors:** Yuhang Sun
 
 **Published:** 2026-11-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; posted in last 2 days
+**Why surfaced:** "world model" in title; robotics / embodied focus
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.03428) | [PDF](https://arxiv.org/pdf/2611.03428)
+**Links:** [arXiv](https://arxiv.org/abs/2611.04016) | [PDF](https://arxiv.org/pdf/2611.04016)
 
 <details>
 <summary>Abstract</summary>
 
-A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term r...
+World models are increasingly used to support prediction and planning in embodied agents, but the knowledge is usually established before deployment and then carried into later encounters. Continual operation faces a different problem. A familiar environment may change, and the agent must use previous experience without allowing old expectations to override current physical evidence. This study asks what repeated physical experience must contribute for a spatial world model to become progressively more useful rather than simply more persistent. A physics-grounded dynamic maze separates recurri...
 
 </details>
 
@@ -692,11 +589,45 @@ A robot that acts around people needs a world model of the human: a belief over 
 <summary>Share</summary>
 
 ```
-Toward Uncertainty-Aware, Physics-Grounded Human World Models
+Physical Experience Builds Continual Spatial World Models
 
-A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next.
+World models are increasingly used to support prediction and planning in embodied agents, but the knowledge is usually established before deployment and then carried into later encounters.
 
-arXiv: https://arxiv.org/abs/2611.03428
+arXiv: https://arxiv.org/abs/2611.04016
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up](https://arxiv.org/abs/2611.02699)
+
+**Authors:** Joyjeet Singh
+
+**Published:** 2026-11-02 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.02699) | [PDF](https://arxiv.org/pdf/2611.02699)
+
+<details>
+<summary>Abstract</summary>
+
+We reimplement the dynamics model of the Robotic World Model (RWM) and test the uncertainty estimate that its follow-up, RWM-U, uses to penalize reward in offline policy optimization. Our implementation matches the released model's gradients. On held-out data, training on the model's own rollouts beats one-step training at the preregistered long horizon for all ten episodes, but loses on short one-step windows. RWM-U's ensemble disagreement ranks rollout errors better than forecast step (Spearman rho = 0.90 at 100 steps), yet its spread substantially understates error: one-sigma coverage on th...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up
+
+We reimplement the dynamics model of the Robotic World Model (RWM) and test the uncertainty estimate that its follow-up, RWM-U, uses to penalize reward in offline policy optimization.
+
+arXiv: https://arxiv.org/abs/2611.02699
 
 #worldmodels #robotics
 ```
@@ -844,41 +775,6 @@ Project page: https://worldflow-rbs.github.io/
 
 ---
 
-### [Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation](https://arxiv.org/abs/2610.38657)
-
-**Authors:** Jacob Levy, Arthur Bouton, Tristan D. Hassler, Hari Nayar, David Fridovich-Keil
-
-**Published:** 2026-10-28 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.38657) | [PDF](https://arxiv.org/pdf/2610.38657) | [Project Page](https://terra-explore.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility. Although simulation can capture some wheel-soil effects, unmodeled deformable-terrain phenomena create sim-to-real gaps requiring deployment-time adaptation. Yet, rover operations leave little room for extensive trial-and-error. We introduce TERRA (Targeted Exploration for Reward-Relevant Adaptation), an online adaptation framework that efficiently seeks deployment data exposing task-relevant model errors and corrects them. TERRA adapts a simulation-trained world...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation
-
-Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility.
-
-arXiv: https://arxiv.org/abs/2610.38657
-Project page: https://terra-explore.github.io
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [A research world model of power engineering learns its dynamics and reveals what-ifs](https://arxiv.org/abs/2611.04566)
 
 **Authors:** Fanping Sui, Ying Zhang, Liwei Lin
@@ -913,54 +809,20 @@ arXiv: https://arxiv.org/abs/2611.04566
 
 ---
 
-### [Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models](https://arxiv.org/abs/2611.04028)
+### [FlowBench: Counterfactual Imagination Training for Spatial Intelligence](https://arxiv.org/abs/2611.03937)
 
-**Authors:** Siqiao Huang, Partha Kaushik, Michael Chen, Hengkai Pan, Kaiwen Geng et al. (8 authors)
-
-**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.04028) | [PDF](https://arxiv.org/pdf/2611.04028)
-
-<details>
-<summary>Abstract</summary>
-
-Effective world modeling requires compressing salient history information that facilitates future prediction. However, most existing approaches inherit tokenization and conditioning mechanisms from video generation, where objectives are centered around perceptual realism rather than predictive utility. This discrepancy limits the world model's effectiveness, especially in environments dominated by visual nuisances or task-irrelevant background details. To this end, we introduce Compression Forcing (CF), a general framework that aligns history compression with the predictive objective of world...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
-
-Effective world modeling requires compressing salient history information that facilitates future prediction.
-
-arXiv: https://arxiv.org/abs/2611.04028
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving](https://arxiv.org/abs/2611.02526)
-
-**Authors:** Zhan Chen, Songyan Zhang, Wenhui Huang, Zirui Li, Zhidong Wang et al. (8 authors)
+**Authors:** Yifan Liu, Baihan Zhang, Khai Loong Aw, Klemen Kotar, Daniel L. K. Yamins
 
 **Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+**Why surfaced:** "world model" in abstract; code repo
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.02526) | [PDF](https://arxiv.org/pdf/2611.02526)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03937) | [PDF](https://arxiv.org/pdf/2611.03937) | [Code](https://github.com/liuyifan22/FlowBench)
 
 <details>
 <summary>Abstract</summary>
 
-Safe autonomous driving requires more than recognizing the current scene: the ego vehicle must anticipate how surrounding traffic participants will evolve under its own motion. However, existing end-to-end driving models typically encode scenes into dense visual or BEV features, leaving object-level interactions implicit. We propose (INTERACT INTERaction-aware Action-Conditioned Trajectory learning), a three-stage framework that learns a slot-based object-centric world model from unlabeled driving videos and transfers it to trajectory planning. INTERACT first learns recurrent slots that group...
+Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning. However, this capability remains underexplored in vision-language models and world models. We formalize this capability as Counterfactual Spatial Imagination (CSI) and introduce FlowBench, a resource for training and evaluating both, with 428K training examples spanning simulated and real-world scenes, household environments and tabletop manipulation, and diverse question types. A scalable, fully automatic pipeline pairs each hypothetical motion with spatial questions and, in...
 
 </details>
 
@@ -968,45 +830,12 @@ Safe autonomous driving requires more than recognizing the current scene: the eg
 <summary>Share</summary>
 
 ```
-INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving
+FlowBench: Counterfactual Imagination Training for Spatial Intelligence
 
-Safe autonomous driving requires more than recognizing the current scene: the ego vehicle must anticipate how surrounding traffic participants will evolve under its own motion.
+Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning.
 
-arXiv: https://arxiv.org/abs/2611.02526
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [AgiWorld: An Agentic Video World Model for Building Persistent Worlds](https://arxiv.org/abs/2611.02341)
-
-**Authors:** Shaoheng Fang, Yiqun Mei, Hanwen Jiang, Xin Sun, Haitian Zheng et al. (10 authors)
-
-**Published:** 2026-11-02 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.02341) | [PDF](https://arxiv.org/pdf/2611.02341)
-
-<details>
-<summary>Abstract</summary>
-
-Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts. However, such low-level control demands substantial user effort to realize a high-level intent, and the generated world struggles to remain persistent as the exploration proceeds. In this work, we present AgiWorld, an agentic video world model that explores and builds a persistent world from a single image and a free-form instruction. For high-level planning, our agent AgiWorld-Agent designs the world and the journey through it in a world state...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AgiWorld: An Agentic Video World Model for Building Persistent Worlds
-
-Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts.
-
-arXiv: https://arxiv.org/abs/2611.02341
+arXiv: https://arxiv.org/abs/2611.03937
+Code: https://github.com/liuyifan22/FlowBench
 
 #worldmodels #robotics
 ```
@@ -1154,20 +983,20 @@ Project page: https://GuangYuanKK.github.io/futureworld
 
 ---
 
-### [An intelligent satellite must do nothing well](https://arxiv.org/abs/2611.02922)
+### [Toward Uncertainty-Aware, Physics-Grounded Human World Models](https://arxiv.org/abs/2611.03428)
 
-**Authors:** Fabrizio Pilone, Giordana Bucchioni
+**Authors:** Yufei Zhang, Zijun Cui
 
 **Published:** 2026-11-02 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; posted in last 2 days
+**Why surfaced:** "world model" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.02922) | [PDF](https://arxiv.org/pdf/2611.02922)
+**Links:** [arXiv](https://arxiv.org/abs/2611.03428) | [PDF](https://arxiv.org/pdf/2611.03428)
 
 <details>
 <summary>Abstract</summary>
 
-Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning. We argue that the choice of algorithm is the least informative of the design axes. An inspector spacecraft has no rest state: when it stops thrusting, orbital dynamics carry it along a natural trajectory that can be used to observe the target at no fuel cost. On a controlled ladder in which one design axis is varied at a time, fuel efficiency turns out to be set by three things: whether the agent is allowed to drift, whether its state records wher...
+A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term r...
 
 </details>
 
@@ -1175,11 +1004,11 @@ Autonomous inspection of a resident space object is usually posed as a contest b
 <summary>Share</summary>
 
 ```
-An intelligent satellite must do nothing well
+Toward Uncertainty-Aware, Physics-Grounded Human World Models
 
-Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning.
+A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next.
 
-arXiv: https://arxiv.org/abs/2611.02922
+arXiv: https://arxiv.org/abs/2611.03428
 
 #worldmodels #robotics
 ```
@@ -1324,54 +1153,20 @@ arXiv: https://arxiv.org/abs/2610.39547
 
 ---
 
-### [Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation](https://arxiv.org/abs/2610.38266)
+### [Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models](https://arxiv.org/abs/2611.04028)
 
-**Authors:** Xiaofeng Han, Kaize Luo, Zenghuang Fu, Zichong Zhu, Zhe Feng et al. (9 authors)
-
-**Published:** 2026-10-28 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.38266) | [PDF](https://arxiv.org/pdf/2610.38266)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined e...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
-
-Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks.
-
-arXiv: https://arxiv.org/abs/2610.38266
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data](https://arxiv.org/abs/2611.03626)
-
-**Authors:** Rafal Karp, Gene Liu, Shih-Hsin Li, Eric Courtemanche, Shengze Wang et al. (13 authors)
+**Authors:** Siqiao Huang, Partha Kaushik, Michael Chen, Hengkai Pan, Kaiwen Geng et al. (8 authors)
 
 **Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; posted in last 2 days
+**Why surfaced:** "world model" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.03626) | [PDF](https://arxiv.org/pdf/2611.03626)
+**Links:** [arXiv](https://arxiv.org/abs/2611.04028) | [PDF](https://arxiv.org/pdf/2611.04028)
 
 <details>
 <summary>Abstract</summary>
 
-We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plugins in a two-stage workflow. First, world simulation generates gameplay while recording the world state, character movements, actions, and camera tracks needed for replay. Second, the recorded simulation is replayed to capture selected outputs, such as rendered video, images, and depth maps, at a s...
+Effective world modeling requires compressing salient history information that facilitates future prediction. However, most existing approaches inherit tokenization and conditioning mechanisms from video generation, where objectives are centered around perceptual realism rather than predictive utility. This discrepancy limits the world model's effectiveness, especially in environments dominated by visual nuisances or task-irrelevant background details. To this end, we introduce Compression Forcing (CF), a general framework that aligns history compression with the predictive objective of world...
 
 </details>
 
@@ -1379,11 +1174,11 @@ We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating a
 <summary>Share</summary>
 
 ```
-Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data
+Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
 
-We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications.
+Effective world modeling requires compressing salient history information that facilitates future prediction.
 
-arXiv: https://arxiv.org/abs/2611.03626
+arXiv: https://arxiv.org/abs/2611.04028
 
 #worldmodels #robotics
 ```
@@ -1392,20 +1187,20 @@ arXiv: https://arxiv.org/abs/2611.03626
 
 ---
 
-### [Predictive Safety Guardrails Do Not Always Make LLM Agents Safer](https://arxiv.org/abs/2611.02815)
+### [INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving](https://arxiv.org/abs/2611.02526)
 
-**Authors:** Weixiang Zhao, Zhihao Liu, Guancheng Li, Yanyan Zhao, Bing Qin et al. (6 authors)
+**Authors:** Zhan Chen, Songyan Zhang, Wenhui Huang, Zirui Li, Zhidong Wang et al. (8 authors)
 
-**Published:** 2026-11-02 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; posted in last 2 days
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.02815) | [PDF](https://arxiv.org/pdf/2611.02815)
+**Links:** [arXiv](https://arxiv.org/abs/2611.02526) | [PDF](https://arxiv.org/pdf/2611.02526)
 
 <details>
 <summary>Abstract</summary>
 
-Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps. This has motivated world-model-driven predictive safety guardrails, which anticipate future consequences before execution. However, existing evaluations largely focus on end-to-end safety outcomes, leaving unclear whether safety gains arise from reliable prediction and faithful use of predicted risks. In this work, we systematically diagnose the prediction-to-action pipeline along three dimensions: how world-model predict...
+Safe autonomous driving requires more than recognizing the current scene: the ego vehicle must anticipate how surrounding traffic participants will evolve under its own motion. However, existing end-to-end driving models typically encode scenes into dense visual or BEV features, leaving object-level interactions implicit. We propose (INTERACT INTERaction-aware Action-Conditioned Trajectory learning), a three-stage framework that learns a slot-based object-centric world model from unlabeled driving videos and transfers it to trajectory planning. INTERACT first learns recurrent slots that group...
 
 </details>
 
@@ -1413,11 +1208,45 @@ Large language model agents increasingly take consequential actions in digital a
 <summary>Share</summary>
 
 ```
-Predictive Safety Guardrails Do Not Always Make LLM Agents Safer
+INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving
 
-Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps.
+Safe autonomous driving requires more than recognizing the current scene: the ego vehicle must anticipate how surrounding traffic participants will evolve under its own motion.
 
-arXiv: https://arxiv.org/abs/2611.02815
+arXiv: https://arxiv.org/abs/2611.02526
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [AgiWorld: An Agentic Video World Model for Building Persistent Worlds](https://arxiv.org/abs/2611.02341)
+
+**Authors:** Shaoheng Fang, Yiqun Mei, Hanwen Jiang, Xin Sun, Haitian Zheng et al. (10 authors)
+
+**Published:** 2026-11-02 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.02341) | [PDF](https://arxiv.org/pdf/2611.02341)
+
+<details>
+<summary>Abstract</summary>
+
+Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts. However, such low-level control demands substantial user effort to realize a high-level intent, and the generated world struggles to remain persistent as the exploration proceeds. In this work, we present AgiWorld, an agentic video world model that explores and builds a persistent world from a single image and a free-form instruction. For high-level planning, our agent AgiWorld-Agent designs the world and the journey through it in a world state...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AgiWorld: An Agentic Video World Model for Building Persistent Worlds
+
+Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts.
+
+arXiv: https://arxiv.org/abs/2611.02341
 
 #worldmodels #robotics
 ```
@@ -1868,20 +1697,20 @@ arXiv: https://arxiv.org/abs/2610.39100
 
 ---
 
-### [Structural-Test Geometry as an Inductive Bias for Partially Observable World Models](https://arxiv.org/abs/2610.38903)
+### [An intelligent satellite must do nothing well](https://arxiv.org/abs/2611.02922)
 
-**Authors:** Todd Y. Zhou
+**Authors:** Fabrizio Pilone, Giordana Bucchioni
 
-**Published:** 2026-10-28 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-02 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "world model" in title
+**Why surfaced:** "world model" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2610.38903) | [PDF](https://arxiv.org/pdf/2610.38903)
+**Links:** [arXiv](https://arxiv.org/abs/2611.02922) | [PDF](https://arxiv.org/pdf/2611.02922)
 
 <details>
 <summary>Abstract</summary>
 
-Predictive world-model objectives need not organize latent histories according to distinctions required for later control. With privileged simulator access during training, should response-derived structural information be predicted, decoded, or imposed directly on latent geometry--and how do these choices compare with structured belief distillation? We define posterior-marginalized structural tests whose response distributions induce a pseudometric over histories, then train quotient-preserving (QP) world models by aligning shared latent Euclidean distances to that metric. Across a fixed six-...
+Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning. We argue that the choice of algorithm is the least informative of the design axes. An inspector spacecraft has no rest state: when it stops thrusting, orbital dynamics carry it along a natural trajectory that can be used to observe the target at no fuel cost. On a controlled ladder in which one design axis is varied at a time, fuel efficiency turns out to be set by three things: whether the agent is allowed to drift, whether its state records wher...
 
 </details>
 
@@ -1889,11 +1718,11 @@ Predictive world-model objectives need not organize latent histories according t
 <summary>Share</summary>
 
 ```
-Structural-Test Geometry as an Inductive Bias for Partially Observable World Models
+An intelligent satellite must do nothing well
 
-Predictive world-model objectives need not organize latent histories according to distinctions required for later control.
+Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning.
 
-arXiv: https://arxiv.org/abs/2610.38903
+arXiv: https://arxiv.org/abs/2611.02922
 
 #worldmodels #robotics
 ```
@@ -1962,6 +1791,74 @@ Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection
 Collecting naturalistic human manipulation demonstrations with accurate contact force and hand pose is essential for robot dexterous manipulation policy and foundational world model learning - yet no existing wearable...
 
 arXiv: https://arxiv.org/abs/2610.39076
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data](https://arxiv.org/abs/2611.03626)
+
+**Authors:** Rafal Karp, Gene Liu, Shih-Hsin Li, Eric Courtemanche, Shengze Wang et al. (13 authors)
+
+**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "world model" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.03626) | [PDF](https://arxiv.org/pdf/2611.03626)
+
+<details>
+<summary>Abstract</summary>
+
+We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plugins in a two-stage workflow. First, world simulation generates gameplay while recording the world state, character movements, actions, and camera tracks needed for replay. Second, the recorded simulation is replayed to capture selected outputs, such as rendered video, images, and depth maps, at a s...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data
+
+We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications.
+
+arXiv: https://arxiv.org/abs/2611.03626
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Predictive Safety Guardrails Do Not Always Make LLM Agents Safer](https://arxiv.org/abs/2611.02815)
+
+**Authors:** Weixiang Zhao, Zhihao Liu, Guancheng Li, Yanyan Zhao, Bing Qin et al. (6 authors)
+
+**Published:** 2026-11-02 | **Categories:** cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "world model" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.02815) | [PDF](https://arxiv.org/pdf/2611.02815)
+
+<details>
+<summary>Abstract</summary>
+
+Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps. This has motivated world-model-driven predictive safety guardrails, which anticipate future consequences before execution. However, existing evaluations largely focus on end-to-end safety outcomes, leaving unclear whether safety gains arise from reliable prediction and faithful use of predicted risks. In this work, we systematically diagnose the prediction-to-action pipeline along three dimensions: how world-model predict...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Predictive Safety Guardrails Do Not Always Make LLM Agents Safer
+
+Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps.
+
+arXiv: https://arxiv.org/abs/2611.02815
 
 #worldmodels #robotics
 ```
