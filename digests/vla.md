@@ -2,11 +2,46 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-05 01:53 UTC
+**Last updated:** 2026-11-05 21:46 UTC
 
-**Papers shown:** 64 (relevance ≥ 2, last 7 days)
+**Papers shown:** 72 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [From Pixels to Actions - Towards Native Vision-Language-Action Policies](https://arxiv.org/abs/2611.06918)
+
+**Authors:** Weichen Fan, Haiwen Diao, Penghao Wu, Siyuan Hu, Ziqi Huang et al. (17 authors)
+
+**Published:** 2026-11-04 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06918) | [PDF](https://arxiv.org/pdf/2611.06918) | [Code](https://github.com/EvolvingLMMs-Lab/NEO)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch c...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Pixels to Actions - Towards Native Vision-Language-Action Policies
+
+Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards.
+
+arXiv: https://arxiv.org/abs/2611.06918
+Code: https://github.com/EvolvingLMMs-Lab/NEO
+
+#VLA #robotics
+```
+
+</details>
 
 ---
 
@@ -107,6 +142,75 @@ Pretrained Vision-Language-Action (VLA) policies provide a strong starting point
 
 arXiv: https://arxiv.org/abs/2611.04391
 Project page: https://junhyeong-park.me/h2rb/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation](https://arxiv.org/abs/2611.06447)
+
+**Authors:** Shengzhe Zhang, Qi Zhang, Dazhong Shen, Chao Wang, Shaopeng Zhai et al. (6 authors)
+
+**Published:** 2026-11-04 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in title; 3 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.06447) | [PDF](https://arxiv.org/pdf/2611.06447)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions. However, the action prediction objective itself lacks fine-grained task-specific perceptual supervision, making it prone to relying on task-irrelevant visual shortcuts, leading attention away from target objects and key interaction areas, thereby limiting its operational performance and generalization ability. To address this, we propose Automatic Perception-Guided Attention Alignment for Robot Manipulation ($A^3$...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation
+
+Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions.
+
+arXiv: https://arxiv.org/abs/2611.06447
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning](https://arxiv.org/abs/2611.05667)
+
+**Authors:** Xinkai Jiang, Jing Jiang, Hongyi Zhou, Pankhuri Vanjani, Ahmad Baki et al. (10 authors)
+
+**Published:** 2026-11-03 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05667) | [PDF](https://arxiv.org/pdf/2611.05667) | [Project Page](https://intuitive-robots.github.io/PHIL-page/)
+
+<details>
+<summary>Abstract</summary>
+
+This paper presents Proactive Human-in-the-Loop (PHIL), a framework for proactive policy correction and preference-based post-training. PHIL enables operators to preview policy-predicted future motion and intervene before anticipated undesirable actions. During takeover, PHIL continues querying the policy and displaying its predicted trajectories in the physical workspace through an extended reality (XR) interface. PHIL pairs rejected policy predictions with corrective action chunks subsequently executed from the same physical state over the same horizon, and preference-based post-training enc...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning
+
+This paper presents Proactive Human-in-the-Loop (PHIL), a framework for proactive policy correction and preference-based post-training.
+
+arXiv: https://arxiv.org/abs/2611.05667
+Project page: https://intuitive-robots.github.io/PHIL-page/
 
 #VLA #robotics
 ```
@@ -536,6 +640,145 @@ Code: https://github.com/Ideal-ljl/AeroBrain
 
 ---
 
+### [MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic](https://arxiv.org/abs/2611.06007)
+
+**Authors:** Varun A. Paturkar, Shankar Gangisetty, C. V. Jawahar
+
+**Published:** 2026-11-04 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06007) | [PDF](https://arxiv.org/pdf/2611.06007) | [Code](https://github.com/VarunIIITH/MotoVerse)
+
+<details>
+<summary>Abstract</summary>
+
+Motorized Two-Wheelers (MTWs) dominate personal transport across much of the Global South, yet remain largely overlooked in predictive perception research for autonomous driving and ADAS. We introduce MotoVerse, a benchmark for predictive perception from an MTW's ego-centric perspective. MotoVerse comprises 949 maneuver clips collected in dense, unstructured traffic and trajectory annotations for over 31,000 surrounding road agents, including over 16,000 MTWs, enabling two complementary tasks: Ego-Rider Maneuver Anticipation (ERMA) and Traffic Agent Trajectory Prediction (TATP). Each clip is f...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic
+
+Motorized Two-Wheelers (MTWs) dominate personal transport across much of the Global South, yet remain largely overlooked in predictive perception research for autonomous driving and ADAS.
+
+arXiv: https://arxiv.org/abs/2611.06007
+Code: https://github.com/VarunIIITH/MotoVerse
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs](https://arxiv.org/abs/2611.06710)
+
+**Authors:** Muhammad Danish Waseem, Ahmed Ali-Eldin Hassan
+
+**Published:** 2026-11-04 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.06710) | [PDF](https://arxiv.org/pdf/2611.06710)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models map camera observations and language instructions to robot actions. However, their large backbones and repeated action generation can make inference take longer than the robot's real-time requirements for its next action. To reduce the load of VLA computations, researchers have proposed multiple optimization approaches, including quantization and pruning. These optimizations can be combined with other general optimizations such as better kernel compilation or using CUDA graphs instead of the eager mode. However, most of these optimization results are usually...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs
+
+Vision-language-action (VLA) models map camera observations and language instructions to robot actions.
+
+arXiv: https://arxiv.org/abs/2611.06710
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Can Astra Solve RoboMME without Breaking the Bank?](https://arxiv.org/abs/2611.06184)
+
+**Authors:** Bingao Chen, Haoquan Fang, C. Karen Liu
+
+**Published:** 2026-11-04 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06184) | [PDF](https://arxiv.org/pdf/2611.06184) | [Project Page](https://bingaochen.github.io/Astra-on-RoboMME/)
+
+<details>
+<summary>Abstract</summary>
+
+Robotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence. A large vision-language planner can read this history, but calling it before every action chunk is slow and costly. We present a three-tier system for the RoboMME benchmark. GPT-6 Astra (System 2) selects a grounded subtask from stored visual history, a $π_{0.5}$ vision-language-action policy (System 1) executes it, and a fine-tuned Qwen3-VL-4B monitor (System 1.5) checks after each action chunk whether the subtask...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Can Astra Solve RoboMME without Breaking the Bank?
+
+Robotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence.
+
+arXiv: https://arxiv.org/abs/2611.06184
+Project page: https://bingaochen.github.io/Astra-on-RoboMME/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics](https://arxiv.org/abs/2611.05567)
+
+**Authors:** Albert Wilcox, Frank Chang, Nhi Nguyen, Aishani Chakraborty, Jeremy A. Collins et al. (9 authors)
+
+**Published:** 2026-11-03 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05567) | [PDF](https://arxiv.org/pdf/2611.05567) | [Project Page](https://pairlab.github.io/MESA)
+
+<details>
+<summary>Abstract</summary>
+
+Despite growing interest in foundation models for robotic manipulation, systematic evaluation of their capabilities remains elusive. Existing benchmarks are either narrow and saturated, offering little signal on SOTA methods, broadly scoped, providing diversity at the cost of controlled experimentation, or require training on large, messy open-source datasets. We introduce MESA, an evaluation framework designed for precise, reproducible measurement of language-conditioned policy generalization. MESA provides five evaluation suites that isolate in-distribution performance and four distinct axes...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics
+
+Despite growing interest in foundation models for robotic manipulation, systematic evaluation of their capabilities remains elusive.
+
+arXiv: https://arxiv.org/abs/2611.05567
+Project page: https://pairlab.github.io/MESA
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs](https://arxiv.org/abs/2611.05249)
 
 **Authors:** Asher James Hancock, Boyi Li, Yuxiao Chen, Shuhan Tan, Wenhao Ding et al. (9 authors)
@@ -598,6 +841,41 @@ Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
 Video world models enable candidate actions to be evaluated through imagined outcomes, but high predicted rewards can favor trajectories with poor execution quality.
 
 arXiv: https://arxiv.org/abs/2611.04873
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Future Representation Distillation for Imagination-free World Action Models](https://arxiv.org/abs/2611.04527)
+
+**Authors:** Jaehyeong Jo, Sangwon Jang, Sihyun Yu, Seonghyeon Ye, Yekyung Nah et al. (8 authors)
+
+**Published:** 2026-11-03 (updated 2026-11-04) | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.04527) | [PDF](https://arxiv.org/pdf/2611.04527) | [Project Page](https://harryjo97.github.io/dreamfree/)
+
+<details>
+<summary>Abstract</summary>
+
+World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction. However, iterative video denoising is costly, and inaccurate visual predictions can compromise action prediction. Our key idea is to make this predictive knowledge available through visual representations computed from the current observation, enabling action prediction without generating future videos. We introduce DreamFree, a WAM that repurposes a pretrained video diffusion model as a predictive visual encoder through representation distillation. Th...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Future Representation Distillation for Imagination-free World Action Models
+
+World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction.
+
+arXiv: https://arxiv.org/abs/2611.04527
+Project page: https://harryjo97.github.io/dreamfree/
 
 #VLA #robotics
 ```
@@ -1603,20 +1881,20 @@ arXiv: https://arxiv.org/abs/2611.01011
 
 ---
 
-### [Future Representation Distillation for Imagination-Free World Action Models](https://arxiv.org/abs/2611.04527)
+### [Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation](https://arxiv.org/abs/2611.06475)
 
-**Authors:** Jaehyeong Jo, Sangwon Jang, Sihyun Yu, Seonghyeon Ye, Yekyung Nah et al. (8 authors)
+**Authors:** Sihang Chen, Chen Ye, Wei Chen, Xiaohan Lei, Zhipeng Tang et al. (11 authors)
 
-**Published:** 2026-11-03 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-04 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in abstract; posted in last 2 days
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.04527) | [PDF](https://arxiv.org/pdf/2611.04527)
+**Links:** [arXiv](https://arxiv.org/abs/2611.06475) | [PDF](https://arxiv.org/pdf/2611.06475)
 
 <details>
 <summary>Abstract</summary>
 
-World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction. However, iterative video denoising is costly, and inaccurate visual predictions can compromise action prediction. Our key idea is to make this predictive knowledge available through visual representations computed from the current observation, enabling action prediction without generating future videos. We introduce DreamFree, a WAM that repurposes a pretrained video diffusion model as a predictive visual encoder through representation distillation. Th...
+In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of such memory-dependent decision-making in mobile manipulation. To address this gap, we introduce RoboCasa-Mem, a new benchmark comprising nine mobile manipulation tasks that require agents to use interaction history at key decision points. Specifically, the tasks are grouped into two categories of memory: One is environment memory, which captures sp...
 
 </details>
 
@@ -1624,11 +1902,11 @@ World Action Models (WAMs) use the predictive knowledge of pretrained video diff
 <summary>Share</summary>
 
 ```
-Future Representation Distillation for Imagination-Free World Action Models
+Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation
 
-World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction.
+In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable.
 
-arXiv: https://arxiv.org/abs/2611.04527
+arXiv: https://arxiv.org/abs/2611.06475
 
 #VLA #robotics
 ```

@@ -9664,7 +9664,7 @@
   },
   "2611.04527": {
     "first_seen": "2026-11-04",
-    "title": "Future Representation Distillation for Imagination-Free World Action Models",
+    "title": "Future Representation Distillation for Imagination-free World Action Models",
     "topics": [
       "vla"
     ]
@@ -9750,6 +9750,133 @@
   "2611.05372": {
     "first_seen": "2026-11-04",
     "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05448": {
+    "first_seen": "2026-11-05",
+    "title": "Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.05567": {
+    "first_seen": "2026-11-05",
+    "title": "MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05577": {
+    "first_seen": "2026-11-05",
+    "title": "Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.05667": {
+    "first_seen": "2026-11-05",
+    "title": "Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.05847": {
+    "first_seen": "2026-11-05",
+    "title": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06007": {
+    "first_seen": "2026-11-05",
+    "title": "MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.06061": {
+    "first_seen": "2026-11-05",
+    "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2611.06120": {
+    "first_seen": "2026-11-05",
+    "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06184": {
+    "first_seen": "2026-11-05",
+    "title": "Can Astra Solve RoboMME without Breaking the Bank?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.06447": {
+    "first_seen": "2026-11-05",
+    "title": "$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.06475": {
+    "first_seen": "2026-11-05",
+    "title": "Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.06544": {
+    "first_seen": "2026-11-05",
+    "title": "MKD2World: A Typed Spatial MarkDown World Model For Web Agents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06653": {
+    "first_seen": "2026-11-05",
+    "title": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06710": {
+    "first_seen": "2026-11-05",
+    "title": "Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.06748": {
+    "first_seen": "2026-11-05",
+    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06817": {
+    "first_seen": "2026-11-05",
+    "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.06901": {
+    "first_seen": "2026-11-05",
+    "title": "Motion-guided Contrastive Regularization For Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.06918": {
+    "first_seen": "2026-11-05",
+    "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
     "topics": [
       "vla"
     ]

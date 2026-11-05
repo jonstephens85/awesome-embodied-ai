@@ -2,11 +2,47 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-05 01:53 UTC
+**Last updated:** 2026-11-05 21:46 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
+
+**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (31 authors)
+
+**Published:** 2026-11-04 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06817) | [PDF](https://arxiv.org/pdf/2611.06817) | [Project Page](https://dagroup-pku.github.io/open-humanscale/) | [Code](https://github.com/DAGroup-PKU/HumanNet)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scal...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes.
+
+arXiv: https://arxiv.org/abs/2611.06817
+Project page: https://dagroup-pku.github.io/open-humanscale/
+Code: https://github.com/DAGroup-PKU/HumanNet
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -14,7 +50,7 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
 
-**Published:** 2026-11-03 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-11-03 (updated 2026-11-04) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
 
@@ -219,6 +255,41 @@ Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 ---
 
+### [AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation](https://arxiv.org/abs/2611.00177)
+
+**Authors:** Hao Xue, Peng-Fei Zhang, Ying Cheng, Lanyun Zhu, Lei Zhu et al. (6 authors)
+
+**Published:** 2026-10-30 (updated 2026-11-04) | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.00177) | [PDF](https://arxiv.org/pdf/2611.00177) | [Code](https://github.com/xueha0/AuroraWorld)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos un...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from e...
+
+arXiv: https://arxiv.org/abs/2611.00177
+Code: https://github.com/xueha0/AuroraWorld
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos](https://arxiv.org/abs/2610.41402)
 
 **Authors:** Mohammed Aman Bhuiyan, Md. Sazzad Hossain Adib, Samiul Basir Bhuiyan, Mir Faiyaz Hossain, Syed Mohammed Shamsul Islam et al. (7 authors)
@@ -282,6 +353,42 @@ Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semant
 Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effe...
 
 arXiv: https://arxiv.org/abs/2610.42021
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds](https://arxiv.org/abs/2611.06061)
+
+**Authors:** Jiaao Yu, Yanjian Zhang, Haoyang Jiang, Guillaume Wisniewski, Nadi Tomeh et al. (6 authors)
+
+**Published:** 2026-11-04 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Also relevant to:** World Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.06061) | [PDF](https://arxiv.org/pdf/2611.06061)
+
+<details>
+<summary>Abstract</summary>
+
+Recent video world models allow users to explore generated environments through camera navigation. Continuous hand motion provides a fine-grained action channel for interacting with the people and objects encountered during exploration. We present TouchéWorld, a framework that integrates gesture-driven interaction into a camera-controlled video world model. Given an initial image and a scene-description prompt, the model generates video conditioned on temporally aligned camera and hand controls. We construct joint camera--hand training data from heterogeneous egocentric videos through annotati...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds
+
+Recent video world models allow users to explore generated environments through camera navigation.
+
+arXiv: https://arxiv.org/abs/2611.06061
 
 #egocentric #robotlearning
 ```
@@ -384,40 +491,6 @@ FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understandin
 Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
 
 arXiv: https://arxiv.org/abs/2611.01438
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation](https://arxiv.org/abs/2611.00177)
-
-**Authors:** Hao Xue, Peng-Fei Zhang, Ying Cheng, Lanyun Zhu, Lei Zhu et al. (6 authors)
-
-**Published:** 2026-10-30 | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.00177) | [PDF](https://arxiv.org/pdf/2611.00177)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos un...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
-
-Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from e...
-
-arXiv: https://arxiv.org/abs/2611.00177
 
 #egocentric #robotlearning
 ```
