@@ -9735,7 +9735,7 @@
   },
   "2611.05163": {
     "first_seen": "2026-11-04",
-    "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+    "title": "Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
     "topics": [
       "egocentric_data"
     ]
@@ -9862,7 +9862,7 @@
   },
   "2611.06817": {
     "first_seen": "2026-11-05",
-    "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "title": "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
     "topics": [
       "egocentric_data"
     ]
@@ -9879,6 +9879,132 @@
     "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
     "topics": [
       "vla"
+    ]
+  },
+  "2611.07272": {
+    "first_seen": "2026-11-06",
+    "title": "VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.07411": {
+    "first_seen": "2026-11-06",
+    "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.07513": {
+    "first_seen": "2026-11-06",
+    "title": "Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.07673": {
+    "first_seen": "2026-11-06",
+    "title": "Egocentric Action Recognition with Objects and Vision-Language Affordances",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.07712": {
+    "first_seen": "2026-11-06",
+    "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.07730": {
+    "first_seen": "2026-11-06",
+    "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.07850": {
+    "first_seen": "2026-11-06",
+    "title": "Learning Robotic World Models with Semantic and Visual Feedback",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.07867": {
+    "first_seen": "2026-11-06",
+    "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.07912": {
+    "first_seen": "2026-11-06",
+    "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.07939": {
+    "first_seen": "2026-11-06",
+    "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.08128": {
+    "first_seen": "2026-11-06",
+    "title": "FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.08156": {
+    "first_seen": "2026-11-06",
+    "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08338": {
+    "first_seen": "2026-11-06",
+    "title": "GPWM: Modeling the World as 3D Particle Motion",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.08373": {
+    "first_seen": "2026-11-06",
+    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08413": {
+    "first_seen": "2026-11-06",
+    "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08425": {
+    "first_seen": "2026-11-06",
+    "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08462": {
+    "first_seen": "2026-11-06",
+    "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08477": {
+    "first_seen": "2026-11-06",
+    "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+    "topics": [
+      "egocentric_data"
     ]
   }
 }

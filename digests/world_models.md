@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-06 01:54 UTC
+**Last updated:** 2026-11-06 21:17 UTC
 
-**Papers shown:** 44 (relevance ≥ 2, last 7 days)
+**Papers shown:** 51 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,7 +14,7 @@ Papers on world models for robotics, video prediction, interactive simulation, a
 
 **Authors:** Dujun Nie, Ruiqi Song, Zixuan Wang, Hanqing Wang, Yifan Han et al. (9 authors)
 
-**Published:** 2026-11-01 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★★☆
+**Published:** 2026-11-01 (updated 2026-11-05) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★★☆
 
 **Why surfaced:** "world model" in title; project page; code repo; robotics / embodied focus
 
@@ -38,6 +38,41 @@ Navigation world models predict future observations conditioned on navigation ac
 arXiv: https://arxiv.org/abs/2611.01844
 Project page: https://openspace-lab.github.io/OpenNWM/
 Code: https://github.com/OpenSpace-Lab/OpenNWM
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes](https://arxiv.org/abs/2611.07730)
+
+**Authors:** Seong-Eun Hong, JuYeong Hwang, Jinhyun Kim, Hanyoung Jang, HyeongYeop Kang
+
+**Published:** 2026-11-05 | **Categories:** cs.GR, cs.AI, cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.07730) | [PDF](https://arxiv.org/pdf/2611.07730) | [Project Page](https://seoneun.github.io/-NeurIPS-2026-Seeing-Beyond-the-Next-Step/)
+
+<details>
+<summary>Abstract</summary>
+
+Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of crossing pedestrians, or bottleneck a narrow passage. These failure modes are invisible from the current state alone, and acting on them requires reasoning about what each candidate action will cause. World models offer exactly this, namely action-conditioned predictions of the future, but rolling them out at every decision step is a cost deployable navigation systems cannot pay, and...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of cros...
+
+arXiv: https://arxiv.org/abs/2611.07730
+Project page: https://seoneun.github.io/-NeurIPS-2026-Seeing-Beyond-the-Next-Step/
 
 #worldmodels #robotics
 ```
@@ -73,6 +108,41 @@ Embodied video world models predict scene changes caused by robot actions, yet g
 
 arXiv: https://arxiv.org/abs/2611.06120
 Project page: https://metaengine-world.github.io/ReactWorld/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Learning Robotic World Models with Semantic and Visual Feedback](https://arxiv.org/abs/2611.07850)
+
+**Authors:** Hao Wu, Yuqi Li, Yizhou Zhao, Kun Wang, Xiao Luo et al. (10 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.07850) | [PDF](https://arxiv.org/pdf/2611.07850) | [Code](https://github.com/Alexander-wu/RoboImagine)
+
+<details>
+<summary>Abstract</summary>
+
+Robot world models predict action-conditioned future visual states to support robotic planning and decision making. However, visual reconstruction does not fully capture task progress, semantic evaluation alone provides limited constraints on fine-grained visual errors, and homogeneous predictions limit comparative feedback. We present RoboImagine, a framework for post-training autoregressive robotic world models through candidate-future comparisons with semantic and visual feedback. Diverse search promotes diversity among candidate trajectories under shared visual observations, action sequenc...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Learning Robotic World Models with Semantic and Visual Feedback
+
+Robot world models predict action-conditioned future visual states to support robotic planning and decision making.
+
+arXiv: https://arxiv.org/abs/2611.07850
+Code: https://github.com/Alexander-wu/RoboImagine
 
 #worldmodels #robotics
 ```
@@ -150,6 +220,76 @@ Project page: https://ys-qu.github.io/jev-ad-website
 
 ---
 
+### [WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation](https://arxiv.org/abs/2611.07939)
+
+**Authors:** Jiahao Cui, Jiaye Li, Wenhao Zhang, Yaoyi Li, Shan Luan et al. (10 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.07939) | [PDF](https://arxiv.org/pdf/2611.07939) | [Project Page](https://fudan-generative-vision.github.io/WAM-Sim)
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive driving world models systematically suffer from structural drift, identity drift, and quality decay over long rollout horizons due to transient conditioning signals that lack persistent state. We present WAM-Sim, a driving world model anchored by a persistent hierarchical memory and optimized via online flow-matching RL. WAM-Sim structures persistent context across three temporal and semantic scales: pose-aligned structural tokens encoding persistent road topology, read-only scene tokens supplying geolocated background appearance, and write-once instance tokens preserving indivi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+Autoregressive driving world models systematically suffer from structural drift, identity drift, and quality decay over long rollout horizons due to transient conditioning signals that lack persistent state.
+
+arXiv: https://arxiv.org/abs/2611.07939
+Project page: https://fudan-generative-vision.github.io/WAM-Sim
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State](https://arxiv.org/abs/2611.07867)
+
+**Authors:** Jihai Zhang, Yuhan Zhou, Junyou Li, Deheng Ye, Qi Dou et al. (6 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.07867) | [PDF](https://arxiv.org/pdf/2611.07867) | [Code](https://github.com/MajorDavidZhang/PlayGen-2)
+
+<details>
+<summary>Abstract</summary>
+
+Building a playable world requires more than generating plausible video: it demands responsive control, persistent spatial structure, and coherent interactions with dynamic entities. Using generated frames as the sole recurrent world representation ties these requirements to view-dependent appearance synthesis, making it difficult to maintain long-term spatial and temporal consistency in generation and interaction. We present PlayGen2, a real-time interactive world model that separates learned 3D state evolution from neural rendering. PlayGen2 maintains a persistent world memory comprising sta...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
+
+Building a playable world requires more than generating plausible video: it demands responsive control, persistent spatial structure, and coherent interactions with dynamic entities.
+
+arXiv: https://arxiv.org/abs/2611.07867
+Code: https://github.com/MajorDavidZhang/PlayGen-2
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [MKD2World: A Typed Spatial MarkDown World Model For Web Agents](https://arxiv.org/abs/2611.06544)
 
 **Authors:** Zhihao Nan, Sifan Zhou, Yiming Cheng, Jinkai Zheng, Zheng Zhu et al. (8 authors)
@@ -212,6 +352,41 @@ We present Xiaomi Auto World Model 2.0, a unified streaming causal world model f
 
 arXiv: https://arxiv.org/abs/2611.01677
 Project page: https://xiaomiautoworldmodel.github.io/CausalWorldModel/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [GPWM: Modeling the World as 3D Particle Motion](https://arxiv.org/abs/2611.08338)
+
+**Authors:** Robert Ren, Matthew Bronars, He Zhu, Yikai Tang, Jianing Zhang et al. (8 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.08338) | [PDF](https://arxiv.org/pdf/2611.08338) | [Project Page](https://robertren1122.github.io/gpwm/)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space. A single representation and architecture cover rigid, deformable, cloth, and granular materials, in both passive physics and robotic interaction. GPWM is an object-aware multi-resolution transformer that combines flow matching with diffusion forcing to generate coherent physical trajectories far beyond its training horizon. We train and eval...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+GPWM: Modeling the World as 3D Particle Motion
+
+We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time.
+
+arXiv: https://arxiv.org/abs/2611.08338
+Project page: https://robertren1122.github.io/gpwm/
 
 #worldmodels #robotics
 ```
@@ -456,6 +631,40 @@ Few-step autoregressive video diffusion enables efficient generation, yet mainta
 
 arXiv: https://arxiv.org/abs/2611.02782
 Project page: https://ziplab.co/History-Forcing-Project-Page/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving](https://arxiv.org/abs/2611.07912)
+
+**Authors:** Xiyan Su, Finn Rasmus Schäfer, Hojun Lim, Frank Diermeyer, Johannes Betz et al. (6 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.07912) | [PDF](https://arxiv.org/pdf/2611.07912)
+
+<details>
+<summary>Abstract</summary>
+
+World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study energy guidance as a general mechanism and present GuidedWAM, a model-agnostic framework for injecting driving objectives into frozen WAMs at sampling time. Our framework constructs each objective as differentiable energies on the sampler's intermediate clean-action estimate, which needs only forward access to the frozen model, and is stabilized by sam...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving
+
+World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training.
+
+arXiv: https://arxiv.org/abs/2611.07912
 
 #worldmodels #robotics
 ```
@@ -738,6 +947,40 @@ arXiv: https://arxiv.org/abs/2610.41330
 
 ---
 
+### [FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching](https://arxiv.org/abs/2611.08128)
+
+**Authors:** Zeping Zhang, Zhuoya Zhao, Samy Metari, Robert Laganière
+
+**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.08128) | [PDF](https://arxiv.org/pdf/2611.08128)
+
+<details>
+<summary>Abstract</summary>
+
+Current 4D occupancy world models use heavy cross-attention or deep recurrence to disentangle ego-motion from scene dynamics. This requires significant computational capacity. However, this effort is largely redundant since the ego-vehicle's intended future motion is provided by the downstream motion planner. We present FreeOcc, a lightweight continuous-time world model that introduces explicit $SE(2)$ geometric decoupling into a conditional flow-matching framework. By mathematically factoring out self-motion, we create a purely dynamic feature space. This space supports attention-free tempora...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching
+
+Current 4D occupancy world models use heavy cross-attention or deep recurrence to disentangle ego-motion from scene dynamics.
+
+arXiv: https://arxiv.org/abs/2611.08128
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Motion-guided Contrastive Regularization For Latent World Models](https://arxiv.org/abs/2611.06901)
 
 **Authors:** Yiwen Chen, Qiqi Hou, Jisoo Jeong, Yinhao Zhu, Huaizu Jiang et al. (6 authors)
@@ -981,7 +1224,7 @@ arXiv: https://arxiv.org/abs/2610.41654
 
 **Authors:** Yequan Bie, Dengyang Jiang, Zhixuan Chen, Xiaozhuan Liang, Haoxuan Che et al. (8 authors)
 
-**Published:** 2026-11-04 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-04 (updated 2026-11-05) | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world simulator" in abstract; posted in last 2 days
 

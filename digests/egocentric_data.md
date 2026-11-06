@@ -2,28 +2,28 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-06 01:54 UTC
+**Last updated:** 2026-11-06 21:17 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
 ---
 
-### [Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
+### [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
 
-**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (31 authors)
+**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (33 authors)
 
-**Published:** 2026-11-04 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-11-04 (updated 2026-11-05) | **Categories:** cs.CV | **Relevance:** ★★★★☆
 
 **Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits; project page; code repo; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06817) | [PDF](https://arxiv.org/pdf/2611.06817) | [Project Page](https://dagroup-pku.github.io/open-humanscale/) | [Code](https://github.com/DAGroup-PKU/HumanNet)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06817) | [PDF](https://arxiv.org/pdf/2611.06817) | [Project Page](https://dagroup-pku.github.io/open-humanwam/) | [Code](https://github.com/DAGroup-PKU/HumanNet)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scal...
+Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanWAM, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanWAM-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling...
 
 </details>
 
@@ -31,12 +31,12 @@ Egocentric human video offers a scalable source of manipulation priors for robot
 <summary>Share</summary>
 
 ```
-Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
 
 Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes.
 
 arXiv: https://arxiv.org/abs/2611.06817
-Project page: https://dagroup-pku.github.io/open-humanscale/
+Project page: https://dagroup-pku.github.io/open-humanwam/
 Code: https://github.com/DAGroup-PKU/HumanNet
 
 #egocentric #robotlearning
@@ -81,11 +81,11 @@ Project page: https://egoaction-bench.github.io
 
 ---
 
-### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
+### [Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
 
 **Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
 
-**Published:** 2026-11-03 (updated 2026-11-04) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+**Published:** 2026-11-03 (updated 2026-11-05) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page
 
@@ -102,12 +102,81 @@ Robot foundation models have shown remarkable performance in robot control, yet 
 <summary>Share</summary>
 
 ```
-RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
 
 Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations.
 
 arXiv: https://arxiv.org/abs/2611.05163
 Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling](https://arxiv.org/abs/2611.08477)
+
+**Authors:** Yanlin Jin, Bowen Yang, Cheng Zhang, Yifan Yang, Zhe Li et al. (7 authors)
+
+**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.08477) | [PDF](https://arxiv.org/pdf/2611.08477) | [Project Page](https://www.neiljin.site/egogeneralist_page/)
+
+<details>
+<summary>Abstract</summary>
+
+Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learning, making metric motion usable as both a spatial control signal and a recoverable generation target. Cross-stream action-video coupling establishes close correspondence between metric motion and vis...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+
+Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space.
+
+arXiv: https://arxiv.org/abs/2611.08477
+Project page: https://www.neiljin.site/egogeneralist_page/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
+
+**Authors:** Liuchuan Yu
+
+**Published:** 2026-11-05 | **Categories:** cs.RO, cs.HC | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric demonstration" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.07272) | [PDF](https://arxiv.org/pdf/2611.07272)
+
+<details>
+<summary>Abstract</summary>
+
+VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra. On-device head and hand tracking and stereo object localisation allow the operator to begin a demonstration at the table. We adapt HumanEgo's preprocessing to estimate grasp thresholds per recording, update object positions after release, and propagate segmentation masks between keyframes. We evaluate policies in simulation on two tabletop tasks recorded by one operator. For cube placement, we compare PICO and Project Aria recordings of t...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+
+VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
+
+arXiv: https://arxiv.org/abs/2611.07272
 
 #egocentric #robotlearning
 ```
@@ -224,7 +293,7 @@ Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 **Authors:** Hao Xue, Peng-Fei Zhang, Ying Cheng, Lanyun Zhu, Lei Zhu et al. (6 authors)
 
-**Published:** 2026-10-30 (updated 2026-11-04) | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-10-30 (updated 2026-11-05) | **Categories:** cs.AI, cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; code repo
 
@@ -318,6 +387,40 @@ Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semant
 Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effe...
 
 arXiv: https://arxiv.org/abs/2610.42021
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Egocentric Action Recognition with Objects and Vision-Language Affordances](https://arxiv.org/abs/2611.07673)
+
+**Authors:** Raúl Boix-Aldeguer, Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez
+
+**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.07673) | [PDF](https://arxiv.org/pdf/2611.07673)
+
+<details>
+<summary>Abstract</summary>
+
+Action recognition, and more specifically egocentric action recognition, is a core task in computer vision, with applications such as monitoring the daily life activities of elderly people and task assistance. Recent methods rely on visual modalities such as RGB video or depth. However, in egocentric video, an action is largely defined by its objects, which these methods rarely model. We propose a method that combines a frozen SlowFast video expert with an attention-based object expert by late fusion. Each object is represented with its affordances, that is, what can be done with it, generated...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Egocentric Action Recognition with Objects and Vision-Language Affordances
+
+Action recognition, and more specifically egocentric action recognition, is a core task in computer vision, with applications such as monitoring the daily life activities of elderly people and task assistance.
+
+arXiv: https://arxiv.org/abs/2611.07673
 
 #egocentric #robotlearning
 ```
