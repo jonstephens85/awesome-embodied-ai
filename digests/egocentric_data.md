@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-05 21:46 UTC
+**Last updated:** 2026-11-06 01:54 UTC
 
-**Papers shown:** 15 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -46,76 +46,6 @@ Code: https://github.com/DAGroup-PKU/HumanNet
 
 ---
 
-### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
-
-**Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
-
-**Published:** 2026-11-03 (updated 2026-11-04) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05163) | [PDF](https://arxiv.org/pdf/2611.05163) | [Project Page](https://ryan-seungyong-lee.github.io/RoboTryOn)
-
-<details>
-<summary>Abstract</summary>
-
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
-
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations.
-
-arXiv: https://arxiv.org/abs/2611.05163
-Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoContact: Evaluating Physical Intelligence with Egocentric Video](https://arxiv.org/abs/2610.39167)
-
-**Authors:** Adam Deryło, Alexey Gavryushin, Daniel Cremers, Marc Pollefeys, Xi Wang
-
-**Published:** 2026-10-29 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2610.39167) | [PDF](https://arxiv.org/pdf/2610.39167) | [Project Page](https://egocontact.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video has emerged as one of the most scalable sources of data for learning generalizable manipulation priors. Yet, despite its growing use in pretraining robotic policies, it has been underutilized as a validation tool for physical intelligence, a key component of which is understanding where to make contact with an object to achieve an intended interaction. We present EgoContact, a large-scale egocentric dataset for evaluating the generalizability and precision of learned manipulation priors through future contact-point prediction. EgoContact contains 22.5K manually verified intera...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoContact: Evaluating Physical Intelligence with Egocentric Video
-
-Egocentric video has emerged as one of the most scalable sources of data for learning generalizable manipulation priors.
-
-arXiv: https://arxiv.org/abs/2610.39167
-Project page: https://egocontact.github.io
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646)
 
 **Authors:** Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
@@ -143,6 +73,41 @@ Learning from human data offers a scalable path toward embodied intelligence, ye
 
 arXiv: https://arxiv.org/abs/2611.03646
 Project page: https://egoaction-bench.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
+
+**Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
+
+**Published:** 2026-11-03 (updated 2026-11-04) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05163) | [PDF](https://arxiv.org/pdf/2611.05163) | [Project Page](https://ryan-seungyong-lee.github.io/RoboTryOn)
+
+<details>
+<summary>Abstract</summary>
+
+Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+
+Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations.
+
+arXiv: https://arxiv.org/abs/2611.05163
+Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
 
 #egocentric #robotlearning
 ```
@@ -401,9 +366,9 @@ arXiv: https://arxiv.org/abs/2611.06061
 
 **Authors:** Guoning Chen, Zhexun Hu, Yifan Wei, Yixuan Weng, Bin Li et al. (6 authors)
 
-**Published:** 2026-11-03 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-03 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "Ego4D" in abstract; posted in last 2 days
+**Why surfaced:** "Ego4D" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.04913) | [PDF](https://arxiv.org/pdf/2611.04913)
 
@@ -423,40 +388,6 @@ EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long V
 Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy,...
 
 arXiv: https://arxiv.org/abs/2611.04913
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.40832)
-
-**Authors:** Mingzhi Pei, Zhangchen Ye, Ruoqu Chen, Liu Cao, Mengdi Xu
-
-**Published:** 2026-10-29 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.40832) | [PDF](https://arxiv.org/pdf/2610.40832)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world. Existing methods focus on either camera-frame hands or world-space hand trajectories, without jointly recovering the scene pointmaps or interaction information. Building a complete reconstruction from such specialized predictions therefore typically requires per-sequence optimization. We propose EgoHSI3R, a unified feed-forward framework for online 4D hand-scene interaction reconstruction from egocentric monocular vid...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
-
-Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world.
-
-arXiv: https://arxiv.org/abs/2610.40832
 
 #egocentric #robotlearning
 ```
@@ -491,40 +422,6 @@ FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understandin
 Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
 
 arXiv: https://arxiv.org/abs/2611.01438
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Hierarchical Step Decomposition for Training-free Online Video Step Grounding](https://arxiv.org/abs/2610.40153)
-
-**Authors:** Long Zhou, Luca Zanella, Paolo Rota, Massimiliano Mancini, Elisa Ricci
-
-**Published:** 2026-10-29 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "Ego4D" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2610.40153) | [PDF](https://arxiv.org/pdf/2610.40153)
-
-<details>
-<summary>Abstract</summary>
-
-Given a set of procedural steps, Video Step Grounding (VSG) aims to identify which steps occur in a video and localize when they are performed. Existing methods are either offline, requiring access to the full video before making predictions, or online, but relying on fixed-length video segments producing noisy, over-segmented outputs. In this work, we propose Hierarchical Step Decomposition (HSD), a training-free framework for online VSG that leverages the semantic understanding capabilities of Large Multimodal Models. HSD addresses two central challenges in online grounding: constructing sem...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Hierarchical Step Decomposition for Training-free Online Video Step Grounding
-
-Given a set of procedural steps, Video Step Grounding (VSG) aims to identify which steps occur in a video and localize when they are performed.
-
-arXiv: https://arxiv.org/abs/2610.40153
 
 #egocentric #robotlearning
 ```
