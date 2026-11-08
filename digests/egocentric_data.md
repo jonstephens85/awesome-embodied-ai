@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-07 19:54 UTC
+**Last updated:** 2026-11-08 00:57 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
@@ -122,7 +122,7 @@ Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
 
 **Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.08477) | [PDF](https://arxiv.org/pdf/2611.08477) | [Project Page](https://www.neiljin.site/egogeneralist_page/)
 
@@ -143,40 +143,6 @@ Modern video models possess strong visual priors, yet do not natively represent 
 
 arXiv: https://arxiv.org/abs/2611.08477
 Project page: https://www.neiljin.site/egogeneralist_page/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
-
-**Authors:** Liuchuan Yu
-
-**Published:** 2026-11-05 | **Categories:** cs.RO, cs.HC | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric demonstration" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.07272) | [PDF](https://arxiv.org/pdf/2611.07272)
-
-<details>
-<summary>Abstract</summary>
-
-VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra. On-device head and hand tracking and stereo object localisation allow the operator to begin a demonstration at the table. We adapt HumanEgo's preprocessing to estimate grasp thresholds per recording, update object positions after release, and propagate segmentation masks between keyframes. We evaluate policies in simulation on two tabletop tasks recorded by one operator. For cube placement, we compare PICO and Project Aria recordings of t...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
-
-VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
-
-arXiv: https://arxiv.org/abs/2611.07272
 
 #egocentric #robotlearning
 ```
@@ -220,13 +186,47 @@ Project page: https://chaitanya100100.github.io/EgoMo3R/
 
 ---
 
+### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
+
+**Authors:** Liuchuan Yu
+
+**Published:** 2026-11-05 | **Categories:** cs.RO, cs.HC | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric demonstration" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.07272) | [PDF](https://arxiv.org/pdf/2611.07272)
+
+<details>
+<summary>Abstract</summary>
+
+VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra. On-device head and hand tracking and stereo object localisation allow the operator to begin a demonstration at the table. We adapt HumanEgo's preprocessing to estimate grasp thresholds per recording, update object positions after release, and propagate segmentation masks between keyframes. We evaluate policies in simulation on two tabletop tasks recorded by one operator. For cube placement, we compare PICO and Project Aria recordings of t...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+
+VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
+
+arXiv: https://arxiv.org/abs/2611.07272
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Egocentric Action Recognition with Objects and Vision-Language Affordances](https://arxiv.org/abs/2611.07673)
 
 **Authors:** Raúl Boix-Aldeguer, Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez
 
-**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.07673) | [PDF](https://arxiv.org/pdf/2611.07673)
 
