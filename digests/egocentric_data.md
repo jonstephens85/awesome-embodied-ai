@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-08 20:12 UTC
+**Last updated:** 2026-11-09 01:18 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 8 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -151,41 +151,6 @@ Project page: https://www.neiljin.site/egogeneralist_page/
 
 ---
 
-### [EgoMo3R: Joint Egocentric Motion and Scene Reconstruction](https://arxiv.org/abs/2611.01627)
-
-**Authors:** Chaitanya Patel, Yusuke Kato, Rin Takahira, Kazuki Kozuka, Juan Carlos Niebles et al. (6 authors)
-
-**Published:** 2026-11-01 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01627) | [PDF](https://arxiv.org/pdf/2611.01627) | [Project Page](https://chaitanya100100.github.io/EgoMo3R/)
-
-<details>
-<summary>Abstract</summary>
-
-Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics. Although these tasks are inherently coupled, existing methods treat them separately. In particular, egocentric motion reconstruction methods typically assume access to metric, gravity-aligned camera trajectories from specialized inertial sensors. Recovering such trajectories from monocular egocentric video remains a significant challenge due to rapid head movements and motion blur. We present EgoMo3R, a joint optimization framework that simultaneou...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoMo3R: Joint Egocentric Motion and Scene Reconstruction
-
-Understanding holistic 3D human motion and the surrounding environment from egocentric video is fundamental for applications in AR/VR and robotics.
-
-arXiv: https://arxiv.org/abs/2611.01627
-Project page: https://chaitanya100100.github.io/EgoMo3R/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
 
 **Authors:** Liuchuan Yu
@@ -316,40 +281,6 @@ EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long V
 Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy,...
 
 arXiv: https://arxiv.org/abs/2611.04913
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding](https://arxiv.org/abs/2611.01438)
-
-**Authors:** Akul Santhosh, Aastha Jhunjhunwala
-
-**Published:** 2026-11-01 | **Categories:** cs.AI, cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.01438) | [PDF](https://arxiv.org/pdf/2611.01438)
-
-<details>
-<summary>Abstract</summary>
-
-Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video. Existing approaches either sub-sample frames uniformly, ignoring content and missing important events, or prune visual tokens inside the VLM to cut per-call cost while still invoking the model on every sampled frame. We introduce FOCUS, a training-free three-layer framework that reduces the number of invocations and steers each one towards what matters. Temporal gating measures inter-frame dissimilarity in the patch-embedding space of a smal...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding
-
-Processing every video frame through Vision-Language Models (VLMs) adds significant inference cost and limits their ability to comprehend real-time video.
-
-arXiv: https://arxiv.org/abs/2611.01438
 
 #egocentric #robotlearning
 ```

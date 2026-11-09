@@ -2,47 +2,11 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-08 20:12 UTC
+**Last updated:** 2026-11-09 01:18 UTC
 
-**Papers shown:** 38 (relevance ≥ 2, last 7 days)
+**Papers shown:** 32 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining](https://arxiv.org/abs/2611.01844)
-
-**Authors:** Dujun Nie, Ruiqi Song, Zixuan Wang, Hanqing Wang, Yifan Han et al. (9 authors)
-
-**Published:** 2026-11-01 (updated 2026-11-05) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★★☆
-
-**Why surfaced:** "world model" in title; project page; code repo; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01844) | [PDF](https://arxiv.org/pdf/2611.01844) | [Project Page](https://openspace-lab.github.io/OpenNWM/) | [Code](https://github.com/OpenSpace-Lab/OpenNWM)
-
-<details>
-<summary>Abstract</summary>
-
-Navigation world models predict future observations conditioned on navigation actions to support planning, but their generalization across real-world environments remains constrained by the limited coverage of action-labeled data. Action-free navigation videos provide diverse visual experience, yet lack the recorded actions required for action-conditioned training. We introduce OpenNWM, a generalist navigation world model with latent action pretraining. It learns universal latent actions from large-scale action-free videos through visual prediction pretraining, and further aligns them with phy...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining
-
-Navigation world models predict future observations conditioned on navigation actions to support planning, but their generalization across real-world environments remains constrained by the limited coverage of action-...
-
-arXiv: https://arxiv.org/abs/2611.01844
-Project page: https://openspace-lab.github.io/OpenNWM/
-Code: https://github.com/OpenSpace-Lab/OpenNWM
-
-#worldmodels #robotics
-```
-
-</details>
 
 ---
 
@@ -143,41 +107,6 @@ Large language models understand passengers' driving commands, but as driving ag
 
 arXiv: https://arxiv.org/abs/2611.05448
 Project page: https://ys-qu.github.io/jev-ad-website
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence](https://arxiv.org/abs/2611.01677)
-
-**Authors:** Zhenxin Zhu, Zhijian Huang, Cheng Chi, Yuru Wang, Jianhua Wu et al. (23 authors)
-
-**Published:** 2026-11-01 | **Categories:** cs.AI, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.01677) | [PDF](https://arxiv.org/pdf/2611.01677) | [Project Page](https://xiaomiautoworldmodel.github.io/CausalWorldModel/)
-
-<details>
-<summary>Abstract</summary>
-
-We present Xiaomi Auto World Model 2.0, a unified streaming causal world model for Physical AI. It models and generates causal physical evolution in the real world, and unifies heterogeneous conditioning inputs for view-consistent generation. The architecture integrates View-Temporal Attention (VTA) to capture cross-view spatial dependencies and temporal dynamics, together with Multi-view Rotary Position Encoding (RoPE) to encode positional relationships across views and time. WorldRec 2.0 reconstructs static and dynamic 3D Gaussians from multi-view, multi-temporal observations in a single for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence
-
-We present Xiaomi Auto World Model 2.0, a unified streaming causal world model for Physical AI.
-
-arXiv: https://arxiv.org/abs/2611.01677
-Project page: https://xiaomiautoworldmodel.github.io/CausalWorldModel/
 
 #worldmodels #robotics
 ```
@@ -670,42 +599,6 @@ arXiv: https://arxiv.org/abs/2611.02699
 
 ---
 
-### [SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts](https://arxiv.org/abs/2611.01600)
-
-**Authors:** Amir Hossain Raj, Xuesu Xiao
-
-**Published:** 2026-11-01 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.01600) | [PDF](https://arxiv.org/pdf/2611.01600)
-
-<details>
-<summary>Abstract</summary>
-
-Robots manipulating in cluttered spaces must often plan from partial views where foreground objects occlude the target, surrounding geometry, and usable free space. Reactive policies often miss these hidden constraints, while exhaustive search becomes computationally prohibitive in dense clutter. We present SCOUT, an occlusion-aware planning framework that bridges high-level deliberation with grounded physical rollouts. SCOUT leverages an object-centric scene representation to reconstruct hidden geometry and derive a relational planning state capturing blocker hierarchies and accessibility cor...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts
-
-Robots manipulating in cluttered spaces must often plan from partial views where foreground objects occlude the target, surrounding geometry, and usable free space.
-
-arXiv: https://arxiv.org/abs/2611.01600
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence](https://arxiv.org/abs/2611.04371)
 
 **Authors:** Wenhao Xu, Changwei Wang, Shunpeng Chen, Yukun Song, Sifan Zhou et al. (9 authors)
@@ -767,40 +660,6 @@ Humans imagine scene changes under hypothetical motions, an ability central to s
 
 arXiv: https://arxiv.org/abs/2611.03937
 Code: https://github.com/liuyifan22/FlowBench
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?](https://arxiv.org/abs/2611.01815)
-
-**Authors:** Anton Hristov, Aleksandar Slavov, Vasil Vasilev
-
-**Published:** 2026-11-01 | **Categories:** cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.01815) | [PDF](https://arxiv.org/pdf/2611.01815)
-
-<details>
-<summary>Abstract</summary>
-
-Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty. We present an evaluation framework that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error. On IntPhys2, a benchmark of physically possible and impossible events, we compare representations from latent prediction, masked pixel reconstruction, and simple visual statistics. Appearance remains easy to decode, while V-JEPA2...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?
-
-Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty.
-
-arXiv: https://arxiv.org/abs/2611.01815
 
 #worldmodels #robotics
 ```
@@ -1115,40 +974,6 @@ arXiv: https://arxiv.org/abs/2611.02341
 
 ---
 
-### [Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions](https://arxiv.org/abs/2611.01666)
-
-**Authors:** Bowen Xu, Boyu Chen
-
-**Published:** 2026-11-01 | **Categories:** cs.LG, q-bio.QM, stat.ME | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.01666) | [PDF](https://arxiv.org/pdf/2611.01666)
-
-<details>
-<summary>Abstract</summary>
-
-Action-conditioned world models are increasingly trained on data from randomized experiments, and whether their predictions respond to actions is usually checked by replacing or removing the actions and measuring the loss in accuracy. We show that such diagnostics report action effects where there are none: under autocorrelated designs, future actions stand in for history the model does not see, and a better model learns the stand-in better. When the design law is known, a conditional randomization test written as an e-value is valid in finite samples whatever the model, provided the resampler...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions
-
-Action-conditioned world models are increasingly trained on data from randomized experiments, and whether their predictions respond to actions is usually checked by replacing or removing the actions and measuring the...
-
-arXiv: https://arxiv.org/abs/2611.01666
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [An intelligent satellite must do nothing well](https://arxiv.org/abs/2611.02922)
 
 **Authors:** Fabrizio Pilone, Giordana Bucchioni
@@ -1175,40 +1000,6 @@ An intelligent satellite must do nothing well
 Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning.
 
 arXiv: https://arxiv.org/abs/2611.02922
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift](https://arxiv.org/abs/2611.02218)
-
-**Authors:** Qurban Ali, Badaruddin Chachar, Maqsood Ali, Sajjad Ali Rajper
-
-**Published:** 2026-11-01 | **Categories:** cs.RO, cs.LG | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.02218) | [PDF](https://arxiv.org/pdf/2611.02218)
-
-<details>
-<summary>Abstract</summary>
-
-RL locomotion policies trained under nominal simulation conditions may encounter distribution shifts that compromise safety. Predictive monitors could anticipate violations, but their world-model forecasts may become unreliable under shift, and ensemble disagreement is not calibrated. We evaluate predictive Signal Temporal Logic (STL) monitoring for frozen Ant-v5 and HalfCheetah-v5 policies using closed-loop world-model rollouts and a three-model ensemble. Across external-force, observation-noise, and mass shifts, predicted robustness ranks HalfCheetah's future STL violations strongly, whereas...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
-
-RL locomotion policies trained under nominal simulation conditions may encounter distribution shifts that compromise safety.
-
-arXiv: https://arxiv.org/abs/2611.02218
 
 #worldmodels #robotics
 ```
