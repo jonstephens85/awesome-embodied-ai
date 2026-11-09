@@ -9876,7 +9876,7 @@
   },
   "2611.06918": {
     "first_seen": "2026-11-05",
-    "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+    "title": "From Pixels to Actions -- Towards Native Vision-Language-Action Policies",
     "topics": [
       "vla"
     ]
@@ -10005,6 +10005,133 @@
     "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
     "topics": [
       "egocentric_data"
+    ]
+  },
+  "2611.08576": {
+    "first_seen": "2026-11-09",
+    "title": "Q-OIL: Optimistic Exploration in Learning from Human Interventions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08577": {
+    "first_seen": "2026-11-09",
+    "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08698": {
+    "first_seen": "2026-11-09",
+    "title": "VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08827": {
+    "first_seen": "2026-11-09",
+    "title": "ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08895": {
+    "first_seen": "2026-11-09",
+    "title": "Localizing and Editing the Goal Representation of a Vision-Language-Action Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08898": {
+    "first_seen": "2026-11-09",
+    "title": "FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.08917": {
+    "first_seen": "2026-11-09",
+    "title": "PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.08987": {
+    "first_seen": "2026-11-09",
+    "title": "VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09036": {
+    "first_seen": "2026-11-09",
+    "title": "ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.09041": {
+    "first_seen": "2026-11-09",
+    "title": "DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09124": {
+    "first_seen": "2026-11-09",
+    "title": "Toward the Era of Agentic Embodied Intelligence",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.09129": {
+    "first_seen": "2026-11-09",
+    "title": "TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.09355": {
+    "first_seen": "2026-11-09",
+    "title": "HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09376": {
+    "first_seen": "2026-11-09",
+    "title": "Can LLMs Debug Robots by Editing Their Weights?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09625": {
+    "first_seen": "2026-11-09",
+    "title": "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.09672": {
+    "first_seen": "2026-11-09",
+    "title": "ODEAction: From Predicting Chunks to Evolving Actions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09684": {
+    "first_seen": "2026-11-09",
+    "title": "SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.09892": {
+    "first_seen": "2026-11-09",
+    "title": "On Agentic Manipulation Policies",
+    "topics": [
+      "vla"
     ]
   }
 }

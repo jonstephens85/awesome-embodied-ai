@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-09 01:18 UTC
+**Last updated:** 2026-11-09 23:57 UTC
 
-**Papers shown:** 32 (relevance ≥ 2, last 7 days)
+**Papers shown:** 35 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -428,6 +428,40 @@ Project page: https://ziplab.co/History-Forcing-Project-Page/
 
 ---
 
+### [FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking](https://arxiv.org/abs/2611.08898)
+
+**Authors:** Xiaorui Wang, Zeyu Sha, Mingyang Yang, David Chen Wang, Feitian Zhang
+
+**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.08898) | [PDF](https://arxiv.org/pdf/2611.08898)
+
+<details>
+<summary>Abstract</summary>
+
+Reliable relative tracking is fundamental to cooperative autonomous underwater vehicles (AUVs), yet remains challenging under nonlinear vehicle dynamics and degraded underwater visual conditions. Active light markers improve robustness to appearance variation, but provide deliberately sparse observations that can become incomplete or corrupted by occlusion, reflections, and detection noise during dynamic motion. To address the resulting partial-observation control problem, this paper proposes FATHOM, a world-model-guided diffusion action-trajectory selection framework for sparse-marker AUV tra...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking
+
+Reliable relative tracking is fundamental to cooperative autonomous underwater vehicles (AUVs), yet remains challenging under nonlinear vehicle dynamics and degraded underwater visual conditions.
+
+arXiv: https://arxiv.org/abs/2611.08898
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [GPWM: Modeling the World as 3D Particle Motion](https://arxiv.org/abs/2611.08338)
 
 **Authors:** Robert Ren, Matthew Bronars, He Zhu, Yikai Tang, Jianing Zhang et al. (8 authors)
@@ -668,6 +702,42 @@ Code: https://github.com/liuyifan22/FlowBench
 
 ---
 
+### [Toward the Era of Agentic Embodied Intelligence](https://arxiv.org/abs/2611.09124)
+
+**Authors:** Chao Liang, Ke Chen, Fengxiaoxiao Li, Shibo Huang, Yufeng Sun et al. (10 authors)
+
+**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.09124) | [PDF](https://arxiv.org/pdf/2611.09124)
+
+<details>
+<summary>Abstract</summary>
+
+Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh codes adapt behavior with frozen weights at deployment. The action model, A2-WLA, adds motion-aware...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Toward the Era of Agentic Embodied Intelligence
+
+Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery.
+
+arXiv: https://arxiv.org/abs/2611.09124
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving](https://arxiv.org/abs/2611.07912)
 
 **Authors:** Xiyan Su, Finn Rasmus Schäfer, Hojun Lim, Frank Diermeyer, Johannes Betz et al. (6 authors)
@@ -762,6 +832,40 @@ Toward Uncertainty-Aware, Physics-Grounded Human World Models
 A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next.
 
 arXiv: https://arxiv.org/abs/2611.03428
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.09625)
+
+**Authors:** Maxime Burchi, Fayaz Ali Dharejo, Radu Timofte
+
+**Published:** 2026-11-06 | **Categories:** cs.LG, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.09625) | [PDF](https://arxiv.org/pdf/2611.09625)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based reinforcement learning (MBRL) approaches have demonstrated strong performance across diverse domains in recent years, learning accurate world models from agent trajectories. However, despite this progress, current approaches still struggle to surpass human performance on tasks that require long-term memory and planning. In this work, we address the problem of long-term memory in MBRL by moving beyond the commonly studied paradigm of architecture design. We introduce Test-Time Model-Based Reinforcement Learning (TT-MBRL), using gradient descent at test time to encode the memory of e...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+Model-based reinforcement learning (MBRL) approaches have demonstrated strong performance across diverse domains in recent years, learning accurate world models from agent trajectories.
+
+arXiv: https://arxiv.org/abs/2611.09625
 
 #worldmodels #robotics
 ```

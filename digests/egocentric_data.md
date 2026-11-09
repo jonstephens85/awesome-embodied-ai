@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-09 01:18 UTC
+**Last updated:** 2026-11-09 23:57 UTC
 
-**Papers shown:** 8 (relevance ≥ 2, last 7 days)
+**Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,7 +14,7 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (33 authors)
 
-**Published:** 2026-11-04 (updated 2026-11-05) | **Categories:** cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-11-04 (updated 2026-11-05) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★★☆
 
 **Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits; project page; code repo
 
@@ -73,6 +73,41 @@ Learning from human data offers a scalable path toward embodied intelligence, ye
 
 arXiv: https://arxiv.org/abs/2611.03646
 Project page: https://egoaction-bench.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
+
+**Authors:** Mohamed Elmoghany, Kehan Li, Ruoqu Chen, Tarun Chiruvolu, Shutong Zhang et al. (14 authors)
+
+**Published:** 2026-11-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "Ego-Exo" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.09036) | [PDF](https://arxiv.org/pdf/2611.09036) | [Project Page](https://tooluse-dataset.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Creative tool use is a fundamental human capability and an important step toward general-purpose embodied intelligence. It requires agents to reason about object affordances, physical constraints, and manipulation strategies, especially when standard tools are unavailable. However, progress in this area is limited by the lack of real-world datasets that capture human tool-use behavior with sufficient scale, fidelity, and diversity. Existing benchmarks are often simulation-based, focus on simplified interactions, or lack detailed observations and annotations. We introduce ToolDex, a large-scale...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use
+
+Creative tool use is a fundamental human capability and an important step toward general-purpose embodied intelligence.
+
+arXiv: https://arxiv.org/abs/2611.09036
+Project page: https://tooluse-dataset.github.io/
 
 #egocentric #robotlearning
 ```
@@ -177,6 +212,40 @@ VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demo
 VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
 
 arXiv: https://arxiv.org/abs/2611.07272
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation](https://arxiv.org/abs/2611.09129)
+
+**Authors:** Ao Li, Zhihao Yuan, Chubin Zhang, Kunrui Huang, Sheng Xu et al. (9 authors)
+
+**Published:** 2026-11-06 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.09129) | [PDF](https://arxiv.org/pdf/2611.09129)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video captures human-object interaction at scale but rarely includes tactile labels for hidden contact and pressure. We introduce TouchAnnotator, an ego-only bimanual tactile annotator trained with multi-source tactile supervision and privileged-view distillation. A canonical hand field unifies glove pressure, geometry-derived human contact, and robot fingertip deformation from six datasets and three embodiments, while source-aware masks preserve valid targets. During training, an EMA teacher observes synchronized ego and wrist views and distills hand-local representations and tacti...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation
+
+Egocentric video captures human-object interaction at scale but rarely includes tactile labels for hidden contact and pressure.
+
+arXiv: https://arxiv.org/abs/2611.09129
 
 #egocentric #robotlearning
 ```
