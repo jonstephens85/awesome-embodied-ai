@@ -10133,5 +10133,96 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.10013": {
+    "first_seen": "2026-11-10",
+    "title": "From Video to Digital Twin: An Exploratory Study of World Models and Gaussian Splatting on In-the-Wild Video",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10151": {
+    "first_seen": "2026-11-10",
+    "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10316": {
+    "first_seen": "2026-11-10",
+    "title": "The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10392": {
+    "first_seen": "2026-11-10",
+    "title": "Tiresias: Towards Language-Conditioned World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10435": {
+    "first_seen": "2026-11-10",
+    "title": "Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10443": {
+    "first_seen": "2026-11-10",
+    "title": "Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.10578": {
+    "first_seen": "2026-11-10",
+    "title": "EgoVeil: Personalized Privacy Reasoning for Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.10660": {
+    "first_seen": "2026-11-10",
+    "title": "Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10769": {
+    "first_seen": "2026-11-10",
+    "title": "Look Ahead: Search-Driven Reasoning in Embodied AI",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.10771": {
+    "first_seen": "2026-11-10",
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10806": {
+    "first_seen": "2026-11-10",
+    "title": "WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.10872": {
+    "first_seen": "2026-11-10",
+    "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.10894": {
+    "first_seen": "2026-11-10",
+    "title": "Zero-Shot VLA Adaptation with Retrieved Guidance",
+    "topics": [
+      "vla"
+    ]
   }
 }

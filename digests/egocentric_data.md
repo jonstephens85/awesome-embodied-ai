@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-09 23:57 UTC
+**Last updated:** 2026-11-10 03:52 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
@@ -38,41 +38,6 @@ Egocentric human video offers a scalable source of manipulation priors for robot
 arXiv: https://arxiv.org/abs/2611.06817
 Project page: https://dagroup-pku.github.io/open-humanwam/
 Code: https://github.com/DAGroup-PKU/HumanNet
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646)
-
-**Authors:** Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
-
-**Published:** 2026-11-02 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.03646) | [PDF](https://arxiv.org/pdf/2611.03646) | [Project Page](https://egoaction-bench.github.io)
-
-<details>
-<summary>Abstract</summary>
-
-Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally localized atomic actions associated with the left hand, right hand, or both hands. EgoActionBench contains 1,407 episodes with 41,132 human-refined action annotations. To evaluate such dense predictions...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
-
-Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations.
-
-arXiv: https://arxiv.org/abs/2611.03646
-Project page: https://egoaction-bench.github.io
 
 #egocentric #robotlearning
 ```
@@ -212,6 +177,40 @@ VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demo
 VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
 
 arXiv: https://arxiv.org/abs/2611.07272
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoVeil: Personalized Privacy Reasoning for Egocentric Video](https://arxiv.org/abs/2611.10578)
+
+**Authors:** Xue Wang, Yang Zhang
+
+**Published:** 2026-11-07 | **Categories:** cs.HC, cs.CV, cs.CY | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.10578) | [PDF](https://arxiv.org/pdf/2611.10578)
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in vision-language models (VLMs) enable AI systems to interpret egocentric video. Yet continuous visual capture raises privacy concerns because sensitive content is pervasive and varies across users and contexts. We present EgoVeil, a personalized privacy reasoning system that determines which visual content to obscure based on individual preferences while retaining context useful for downstream assistance. It converts localized visual regions into structured semantic observations and combines a privacy reasoner with an explicit user-specific memory for personalized privacy rea...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoVeil: Personalized Privacy Reasoning for Egocentric Video
+
+Recent advances in vision-language models (VLMs) enable AI systems to interpret egocentric video.
+
+arXiv: https://arxiv.org/abs/2611.10578
 
 #egocentric #robotlearning
 ```
