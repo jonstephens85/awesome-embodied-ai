@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-10 03:52 UTC
+**Last updated:** 2026-11-10 21:39 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 12 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -116,20 +116,20 @@ Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
 
 ---
 
-### [EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling](https://arxiv.org/abs/2611.08477)
+### [UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)
 
-**Authors:** Yanlin Jin, Bowen Yang, Cheng Zhang, Yifan Yang, Zhe Li et al. (7 authors)
+**Authors:** Ziqi Wang, Su Chen, Qiance Tang, Jieyu Lin, Ziyun Li et al. (7 authors)
 
-**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page
+**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.08477) | [PDF](https://arxiv.org/pdf/2611.08477) | [Project Page](https://www.neiljin.site/egogeneralist_page/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11562) | [PDF](https://arxiv.org/pdf/2611.11562) | [Project Page](https://sai-lab-nyu.github.io/utopi/)
 
 <details>
 <summary>Abstract</summary>
 
-Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learning, making metric motion usable as both a spatial control signal and a recoverable generation target. Cross-stream action-video coupling establishes close correspondence between metric motion and vis...
+As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform. However, egocentric videos exhibit significant temporal redundancy, imposing substantial memory and computational burdens on resource-constrained AR hardware. To address this challenge, we introduce UTOPI, a plug-and-play pre-compression module designed specifically for egocentric long videos on AR platforms. First, we leverage user motion signals to estimate inter-frame overlap and propose a viewpoint-shift-invariant pruning algorithm. Second, we exploit eye...
 
 </details>
 
@@ -137,12 +137,81 @@ Modern video models possess strong visual priors, yet do not natively represent 
 <summary>Share</summary>
 
 ```
-EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression
 
-Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space.
+As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform.
 
-arXiv: https://arxiv.org/abs/2611.08477
-Project page: https://www.neiljin.site/egogeneralist_page/
+arXiv: https://arxiv.org/abs/2611.11562
+Project page: https://sai-lab-nyu.github.io/utopi/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning](https://arxiv.org/abs/2611.10994)
+
+**Authors:** Mayur Deshmukh, Aaron Tung, Junyi Li, Nikash Bhardwaj, Ademi Adeniji et al. (8 authors)
+
+**Published:** 2026-11-07 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric dataset" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.10994) | [PDF](https://arxiv.org/pdf/2611.10994) | [Project Page](https://bitrobot-foundation.github.io/robomocap/)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid robots must coordinate locomotion and manipulation to navigate complex environments and perform everyday tasks. Learning such behaviours from human demonstrations requires accurate whole-body motion paired with egocentric vision, particularly for lower-body movements and foot placements that are frequently invisible from a first-person perspective. However, existing egocentric datasets often lack high-fidelity optical motion capture or systematic coverage of diverse loco-manipulation behaviours. To address this gap, we introduce RoboMoCap, a large-scale multimodal dataset combining eg...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning
+
+Humanoid robots must coordinate locomotion and manipulation to navigate complex environments and perform everyday tasks.
+
+arXiv: https://arxiv.org/abs/2611.10994
+Project page: https://bitrobot-foundation.github.io/robomocap/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870)
+
+**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, Yinghao Yang, Wendi Chen et al. (11 authors)
+
+**Published:** 2026-11-09 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.12870) | [PDF](https://arxiv.org/pdf/2611.12870)
+
+<details>
+<summary>Abstract</summary>
+
+World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demon...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+World action models jointly predict video and actions conditioned on language.
+
+arXiv: https://arxiv.org/abs/2611.12870
 
 #egocentric #robotlearning
 ```
