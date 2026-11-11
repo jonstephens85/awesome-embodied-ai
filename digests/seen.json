@@ -10519,5 +10519,152 @@
     "topics": [
       "egocentric_data"
     ]
+  },
+  "2611.13030": {
+    "first_seen": "2026-11-11",
+    "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.13034": {
+    "first_seen": "2026-11-11",
+    "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.13039": {
+    "first_seen": "2026-11-11",
+    "title": "Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.13113": {
+    "first_seen": "2026-11-11",
+    "title": "Building World Models from Intrinsic Motivation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13160": {
+    "first_seen": "2026-11-11",
+    "title": "How Much of Your VLA Is kNN",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.13229": {
+    "first_seen": "2026-11-11",
+    "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13348": {
+    "first_seen": "2026-11-11",
+    "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13486": {
+    "first_seen": "2026-11-11",
+    "title": "Hand-Object Contact Transition Detection in Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.13528": {
+    "first_seen": "2026-11-11",
+    "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13576": {
+    "first_seen": "2026-11-11",
+    "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13592": {
+    "first_seen": "2026-11-11",
+    "title": "Few-Shot Residual Adaptation of Pretrained Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.13610": {
+    "first_seen": "2026-11-11",
+    "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.13685": {
+    "first_seen": "2026-11-11",
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.14048": {
+    "first_seen": "2026-11-11",
+    "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14092": {
+    "first_seen": "2026-11-11",
+    "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.14365": {
+    "first_seen": "2026-11-11",
+    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14383": {
+    "first_seen": "2026-11-11",
+    "title": "An Energy-Based Perspective on Machine Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14419": {
+    "first_seen": "2026-11-11",
+    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14420": {
+    "first_seen": "2026-11-11",
+    "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14432": {
+    "first_seen": "2026-11-11",
+    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.14488": {
+    "first_seen": "2026-11-11",
+    "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+    "topics": [
+      "vla"
+    ]
   }
 }

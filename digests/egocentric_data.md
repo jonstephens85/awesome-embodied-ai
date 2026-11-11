@@ -2,19 +2,54 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-11 01:35 UTC
+**Last updated:** 2026-11-11 22:29 UTC
 
-**Papers shown:** 10 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
 ---
 
+### [From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence](https://arxiv.org/abs/2611.13610)
+
+**Authors:** Yi Wang, Jingqiu Wu, Lei Yao, Zhaoshuo Li, Haoyu Zhu et al. (10 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric human" in title; 3 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.13610) | [PDF](https://arxiv.org/pdf/2611.13610) | [Project Page](https://mikewu597.github.io/Ego2Robot_Learning/)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric human video (EHV) records close-range hand-object interaction (HOI) and the temporal structure of everyday activities, offering a potentially scalable source of experience for robot manipulation. Using this experience for robot control requires recovering useful supervision without recorded robot actions and accounting for differences in morphology, viewpoint, and action space. We define Ego2Robot learning as the process of learning or adapting robot manipulation policies from EHV, organized into four learning paradigms: explicit embodiment transfer, explicit action and task supervi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence
+
+Egocentric human video (EHV) records close-range hand-object interaction (HOI) and the temporal structure of everyday activities, offering a potentially scalable source of experience for robot manipulation.
+
+arXiv: https://arxiv.org/abs/2611.13610
+Project page: https://mikewu597.github.io/Ego2Robot_Learning/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
 
-**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (33 authors)
+**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (35 authors)
 
-**Published:** 2026-11-04 (updated 2026-11-05) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★★☆
+**Published:** 2026-11-04 (updated 2026-11-10) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★★☆
 
 **Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits; project page; code repo
 
@@ -38,6 +73,41 @@ Egocentric human video offers a scalable source of manipulation priors for robot
 arXiv: https://arxiv.org/abs/2611.06817
 Project page: https://dagroup-pku.github.io/open-humanwam/
 Code: https://github.com/DAGroup-PKU/HumanNet
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos](https://arxiv.org/abs/2611.13685)
+
+**Authors:** Lin Long, Tianren Ma, Zhong Chu, Di Wu, Maosong Cao et al. (8 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.13685) | [PDF](https://arxiv.org/pdf/2611.13685) | [Project Page](https://llong-cs.github.io/EgoGuidance)
+
+<details>
+<summary>Abstract</summary>
+
+In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction. We find that representations learned from egocentric videos improve downstream performance on out-of-distribution robot tasks, with further gains as video data scales. We also study the effects of objective choices and data curation, pr...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision.
+
+arXiv: https://arxiv.org/abs/2611.13685
+Project page: https://llong-cs.github.io/EgoGuidance
 
 #egocentric #robotlearning
 ```
@@ -108,6 +178,40 @@ Humanoid robots must coordinate locomotion and manipulation to navigate complex 
 
 arXiv: https://arxiv.org/abs/2611.10994
 Project page: https://bitrobot-foundation.github.io/robomocap/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Hand-Object Contact Transition Detection in Egocentric Video](https://arxiv.org/abs/2611.13486)
+
+**Authors:** Huy Anh Nguyen, Chang Dong, Feras Dayoub, Minh Hoai
+
+**Published:** 2026-11-10 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13486) | [PDF](https://arxiv.org/pdf/2611.13486)
+
+<details>
+<summary>Abstract</summary>
+
+This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an object (touch) and the moment contact is released (release). We propose a unified framework that jointly models the interacting hand and object to accurately localize both transition types. The proposed framework augments hand-centric spatiotemporal representations with object-aware features learned directly from the video and introduces a transition-aware event spotting formulat...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Hand-Object Contact Transition Detection in Egocentric Video
+
+This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an...
+
+arXiv: https://arxiv.org/abs/2611.13486
 
 #egocentric #robotlearning
 ```

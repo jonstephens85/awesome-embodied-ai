@@ -2,11 +2,47 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-11 01:35 UTC
+**Last updated:** 2026-11-11 22:29 UTC
 
-**Papers shown:** 53 (relevance ≥ 2, last 7 days)
+**Papers shown:** 60 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.14432)
+
+**Authors:** Ilia Larchenko, Gleb Zarin, Atindra Nair, Keerti Manney, Vitaly Kleban et al. (7 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.14432) | [PDF](https://arxiv.org/pdf/2611.14432) | [Project Page](https://robot-learning-collective.github.io/behavior-1k-2026/) | [Code](https://github.com/Robot-Learning-Collective/behavior-1k-solution-2026)
+
+<details>
+<summary>Abstract</summary>
+
+We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator.
+
+arXiv: https://arxiv.org/abs/2611.14432
+Project page: https://robot-learning-collective.github.io/behavior-1k-2026/
+Code: https://github.com/Robot-Learning-Collective/behavior-1k-solution-2026
+
+#VLA #robotics
+```
+
+</details>
 
 ---
 
@@ -49,7 +85,7 @@ Project page: https://j-x-chen.github.io/Thermo-VLA-web/
 
 **Authors:** Meituan Robotics Team, Caicheng Wang, Chen Zhao, Chengpeng Jin, Duo Xu et al. (38 authors)
 
-**Published:** 2026-11-05 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
+**Published:** 2026-11-05 (updated 2026-11-10) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★★☆
 
 **Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; project page; code repo
 
@@ -73,6 +109,41 @@ We present Meituan-Robotics-0 (MR0), a vision-language-action foundation model a
 arXiv: https://arxiv.org/abs/2611.08577
 Project page: https://meituan-robotics.github.io/Meituan-Robotics-0/
 Code: https://github.com/Meituan-Robotics/Meituan-Robotics-0
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [How Much of Your VLA Is kNN](https://arxiv.org/abs/2611.13160)
+
+**Authors:** Denis Grachev, Damien LaRocque, Omar Moured
+
+**Published:** 2026-11-09 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.13160) | [PDF](https://arxiv.org/pdf/2611.13160) | [Code](https://github.com/sereact/lerobot_knn)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations. In this work, we show that retrieving nearby demonstrations and reusing their action chunks achieves a success rate of 91.7 % on LIBERO without policy training. Under LIBERO-Plus perturbations, retrieval shows the smallest drop of all evaluated policies. Across nine publicly available VLAs, fine-tuning mostly makes the vision-language backbone a better retrieval key, and the actions of the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+How Much of Your VLA Is kNN
+
+Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations.
+
+arXiv: https://arxiv.org/abs/2611.13160
+Code: https://github.com/sereact/lerobot_knn
 
 #VLA #robotics
 ```
@@ -257,6 +328,41 @@ Code: https://github.com/EvolvingLMMs-Lab/NEO
 
 ---
 
+### [DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning](https://arxiv.org/abs/2611.14092)
+
+**Authors:** Huaijin Pi, Zehong Shen, Yong Wang, Kechun Xu, Changpeng Wang et al. (11 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.14092) | [PDF](https://arxiv.org/pdf/2611.14092) | [Project Page](https://robbyant-research.github.io/DexSeed/)
+
+<details>
+<summary>Abstract</summary>
+
+We study how to generate diverse, physically executable robot demonstrations for dexterous vision-language-action (VLA) learning. Existing demonstration-generation methods typically rely on costly teleoperated examples. Meanwhile, human hand--object datasets provide a reusable source, but existing transfer methods mainly reproduce given interactions. Turning these interactions into VLA training data further requires coverage of different objects and manipulation locations, together with executable arm and finger actions, and visual observations. To achieve this, we present DexSeed, a framework...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning
+
+We study how to generate diverse, physically executable robot demonstrations for dexterous vision-language-action (VLA) learning.
+
+arXiv: https://arxiv.org/abs/2611.14092
+Project page: https://robbyant-research.github.io/DexSeed/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA](https://arxiv.org/abs/2611.12382)
 
 **Authors:** Yuguang Yang, Zhewen Tan, Canyu Chen, Linlin Yang, Cheng Chi et al. (12 authors)
@@ -423,6 +529,74 @@ Language-guided embodied person tracking requires a mobile agent to identify a t
 
 arXiv: https://arxiv.org/abs/2611.09041
 Code: https://github.com/Dobot-Team/dobot_track
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030)
+
+**Authors:** Xiaoyang Xing, Chun-Mei Feng, Anthony Cohn, Xiaoliang Gong, Asoke Nandi
+
+**Published:** 2026-11-09 | **Categories:** cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in title; 3 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13030) | [PDF](https://arxiv.org/pdf/2611.13030)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency. Visual token pruning offers a practical way to reduce this cost, but identifying a compact set of tokens that preserves reliable action generation remains challenging. Existing methods largely rely on static or immediate heuristic cues to estimate token importance. We introduce APS-VLA, a framework that learns visual token selection from robot demonstrations while keeping the pretrained VLA backbone frozen. A lightweight...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models
+
+Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency.
+
+arXiv: https://arxiv.org/abs/2611.13030
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies](https://arxiv.org/abs/2611.14488)
+
+**Authors:** Chubin Zhang, Bo An
+
+**Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14488) | [PDF](https://arxiv.org/pdf/2611.14488)
+
+<details>
+<summary>Abstract</summary>
+
+Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progre...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+Memory-augmented vision-language-action (VLA) policies are meant to remember what happened.
+
+arXiv: https://arxiv.org/abs/2611.14488
 
 #VLA #robotics
 ```
@@ -781,7 +955,7 @@ Code: https://github.com/mt-clemente/lajepa
 
 **Authors:** Shengzhe Zhang, Qi Zhang, Dazhong Shen, Chao Wang, Shaopeng Zhai et al. (6 authors)
 
-**Published:** 2026-11-04 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-11-04 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "VLA" in title; 3 distinct keyword hits
 
@@ -1529,11 +1703,79 @@ Project page: https://bingaochen.github.io/Astra-on-RoboMME/
 
 ---
 
+### [RoboACE: Adversarial Co-Evolution for Robot Self-Improvement](https://arxiv.org/abs/2611.13034)
+
+**Authors:** Delin Zhao, Zhengrong Yue, Junlin He, Yali Wang
+
+**Published:** 2026-11-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13034) | [PDF](https://arxiv.org/pdf/2611.13034)
+
+<details>
+<summary>Abstract</summary>
+
+Robot agents can improve reusable skills, planning procedures, and recovery strategies from execution feedback, yet a fixed practice source leaves the search for new weaknesses unchanged. Useful practice depends on the agent's current capabilities, so the procedure that chooses practice must also be revisable. We present RoboACE (Robot Adversarial Co-Evolution), a framework that jointly evolves curriculum and execution harnesses around frozen foundation models. The curriculum harness uses accumulated capability evidence to propose informative challenges, while the execution harness responds wi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+Robot agents can improve reusable skills, planning procedures, and recovery strategies from execution feedback, yet a fixed practice source leaves the search for new weaknesses unchanged.
+
+arXiv: https://arxiv.org/abs/2611.13034
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks](https://arxiv.org/abs/2611.13039)
+
+**Authors:** Zequan Zeng, Kai Wang, Delvin Ce Zhang, Huaping Liu, Zhipeng Yuan et al. (7 authors)
+
+**Published:** 2026-11-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13039) | [PDF](https://arxiv.org/pdf/2611.13039)
+
+<details>
+<summary>Abstract</summary>
+
+Reliable medical laboratory automation requires robots to complete entire workflows in protocol order while handling changes during execution. A robot may execute each motion correctly yet fail the workflow by confusing visually similar stages or stalling after human intervention. We present Robo-MLT, a dual-system framework that couples explicit workflow monitoring with learned action generation. A vision--language planner composes an ordered atomic-skill sequence from the protocol and the initial workspace observation. A multiframe execution monitor detects when the active skill has complete...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+Reliable medical laboratory automation requires robots to complete entire workflows in protocol order while handling changes during execution.
+
+arXiv: https://arxiv.org/abs/2611.13039
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [Control-Aware Command Generation for Asynchronous Control and Action Inference with Vision-Based Policies towards Fast Execution](https://arxiv.org/abs/2611.11089)
 
 **Authors:** Takayuki Osa, Kazuki Ota
 
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits
 
@@ -1567,7 +1809,7 @@ arXiv: https://arxiv.org/abs/2611.11089
 
 **Authors:** Qishen Wang, Pengxiang Ding, Shifeng Bao, Mingyang Sun, Hengtao Li et al. (17 authors)
 
-**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-06 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
@@ -1576,7 +1818,7 @@ arXiv: https://arxiv.org/abs/2611.11089
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) models typically generate actions in chunks, organizing continuous robot execution into separately predicted segments and thus introducing potential discontinuities at action-chunk transitions. We propose ODEAction, a chunk-free action generation paradigm that replaces action-chunk prediction with Continuous Action Evolution. Given visual observations, language instructions, and robot proprioceptive information, ODEAction learns an action transition field defined over action space, where a transition vector characterizes the evolution rate of the current action wit...
+Vision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries. We propose ODEAction, a chunk-free action generation paradigm that replaces action chunk prediction with Continuous Action Evolution. We use an ordinary differential equation (ODE) to describe the continuous evolution of actions, and define the vector field of this ODE as the Action Transition Field to characterize how actions evolve with respect to evolution time. During inference, the mo...
 
 </details>
 
@@ -1586,7 +1828,7 @@ Vision-language-action (VLA) models typically generate actions in chunks, organi
 ```
 ODEAction: From Predicting Chunks to Evolving Actions
 
-Vision-language-action (VLA) models typically generate actions in chunks, organizing continuous robot execution into separately predicted segments and thus introducing potential discontinuities at action-chunk transit...
+Vision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries.
 
 arXiv: https://arxiv.org/abs/2611.09672
 

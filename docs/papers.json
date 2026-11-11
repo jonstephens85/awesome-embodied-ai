@@ -1,21 +1,93 @@
 {
-  "generated": "2026-11-11 01:35 UTC",
+  "generated": "2026-11-11 22:29 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
       "title": "Egocentric Data",
-      "count": 10
+      "count": 13
     },
     "vla": {
       "title": "Vision-Language-Action Models",
-      "count": 54
+      "count": 61
     },
     "world_models": {
       "title": "World Models",
-      "count": 44
+      "count": 55
     }
   },
   "papers": [
+    {
+      "id": "2611.13610",
+      "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+      "authors": [
+        "Yi Wang",
+        "Jingqiu Wu",
+        "Lei Yao",
+        "Zhaoshuo Li",
+        "Haoyu Zhu",
+        "Yirui Zhou",
+        "Huaiyuan Xu",
+        "Ying Zheng",
+        "Chuang Yang",
+        "Lap-Pui Chau"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 8.5,
+      "match_reasons": [
+        "\"egocentric human\" in title",
+        "3 distinct keyword hits",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "Egocentric human video (EHV) records close-range hand-object interaction (HOI) and the temporal structure of everyday activities, offering a potentially scalable source of experience for robot manipulation. Using this experience for robot control requires recovering useful supervision without recorded robot actions and accounting for differences in morphology, viewpoint, and action space. We define Ego2Robot learning as the process of learning or adapting robot manipulation policies from EHV, organized into four learning paradigms: explicit embodiment transfer, explicit action and task supervision, egocentric video representation pretraining, and latent action and dynamics modeling. The four paradigms differ in what they derive from human video: robot-format demonstrations, interpretable supervision, visual representations, or predictive models of actions and dynamics. For each paradigm, we trace what EHV information is extracted, how robot policies use it, and when the additional data is required. Besides, we review the benchmark datasets that cover EHV, robot demonstrations, and synthetic and simulated resources. This paper links EHV data's contribution to the task information preserved and the robot-specific grounding used during training or deployment. Finally, we identify challenges in physical feasibility, agent coordination, in-context adaptation, controlled evaluation, and predictive control.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13610",
+      "pdf_url": "https://arxiv.org/pdf/2611.13610",
+      "project_page": "https://mikewu597.github.io/Ego2Robot_Learning/",
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence\n\nEgocentric human video (EHV) records close-range hand-object interaction (HOI) and the temporal structure of everyday activities, offering a potentially scalable source of experience for robot manipulation.\n\narXiv: https://arxiv.org/abs/2611.13610\nProject page: https://mikewu597.github.io/Ego2Robot_Learning/\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2611.14432",
+      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+      "authors": [
+        "Ilia Larchenko",
+        "Gleb Zarin",
+        "Atindra Nair",
+        "Keerti Manney",
+        "Vitaly Kleban",
+        "Mirko Kiefer",
+        "Anjana Yodaiken"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 8.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page",
+        "code repo",
+        "posted in last 2 days"
+      ],
+      "abstract": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model for longer, optimizing some training parameters, making each training step slightly faster and reducing the gradient noise: a migration from 50 to 100 tasks (semantic stages built from the demonstrations' skill annotations, task and stage embeddings of new tasks warm-started from similar old ones, and a 21-dimensional action space matching the teleoperation controls); variance-reduced multi-sample flow matching with a simple noise-vs-compute model that picks the number of action-expert samples per observation without ablations; and a 200k-step training run, about one pass over the 211M frames of the demonstrations. A cloud evaluation infrastructure keeps a shared record with provenance, episode diagnostics and restorable simulator states, and runs six simulators on one GPU together faster than real time. On top of the learned policy, 14 tasks are routed to a GPT-6 Astra coding agent that controls the robot through observation and motion tools, starting every episode from a frozen copy of its own practice session on training instances. Across these 14 tasks, Astra's mean Q is 0.639, against 0.108 for the learned policy. The public submission included only part of the Astra results and scored 0.446 Q with 27.3% full-task success.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14432",
+      "pdf_url": "https://arxiv.org/pdf/2611.14432",
+      "project_page": "https://robot-learning-collective.github.io/behavior-1k-2026/",
+      "github_url": "https://github.com/Robot-Learning-Collective/behavior-1k-solution-2026",
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge\n\nWe describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator.\n\narXiv: https://arxiv.org/abs/2611.14432\nProject page: https://robot-learning-collective.github.io/behavior-1k-2026/\nCode: https://github.com/Robot-Learning-Collective/behavior-1k-solution-2026\n\n#VLA #robotics"
+    },
     {
       "id": "2611.11981",
       "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
@@ -93,7 +165,7 @@
         "Ziqin Wang"
       ],
       "published": "2026-11-05",
-      "updated": "2026-11-05",
+      "updated": "2026-11-10",
       "topics": [
         "vla"
       ],
@@ -128,6 +200,7 @@
         "Liangzhu Yang",
         "Chen Bian",
         "Shukai Gong",
+        "Ye Huang",
         "Yintianrun Zhang",
         "Zicong Cao",
         "Baohao Zhu",
@@ -149,11 +222,12 @@
         "Zhiyang Dou",
         "Zhen Dong",
         "Enze Xie",
+        "Wojciech Matusik",
         "Tat-Seng Chua",
         "Daquan Zhou"
       ],
       "published": "2026-11-04",
-      "updated": "2026-11-05",
+      "updated": "2026-11-10",
       "topics": [
         "egocentric_data"
       ],
@@ -173,6 +247,36 @@
       "first_seen": "2026-11-05",
       "is_new": false,
       "share_text": "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models\n\nEgocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes.\n\narXiv: https://arxiv.org/abs/2611.06817\nProject page: https://dagroup-pku.github.io/open-humanwam/\nCode: https://github.com/DAGroup-PKU/HumanNet\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2611.13160",
+      "title": "How Much of Your VLA Is kNN",
+      "authors": [
+        "Denis Grachev",
+        "Damien LaRocque",
+        "Omar Moured"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 7.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits",
+        "code repo",
+        "posted in last 2 days"
+      ],
+      "abstract": "Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations. In this work, we show that retrieving nearby demonstrations and reusing their action chunks achieves a success rate of 91.7 % on LIBERO without policy training. Under LIBERO-Plus perturbations, retrieval shows the smallest drop of all evaluated policies. Across nine publicly available VLAs, fine-tuning mostly makes the vision-language backbone a better retrieval key, and the actions of the VLAs remain close to the demonstrations. In addition, we introduce Local Action Consistency (LAC), an offline metric that measures whether nearby observations in representation space are also associated with similar future actions. We show that LAC tracks the success rate of retrieval and can guide the training of a retrieval key. Our evaluation and source code are available at https://github.com/sereact/lerobot_knn.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13160",
+      "pdf_url": "https://arxiv.org/pdf/2611.13160",
+      "project_page": null,
+      "github_url": "https://github.com/sereact/lerobot_knn",
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "How Much of Your VLA Is kNN\n\nVision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations.\n\narXiv: https://arxiv.org/abs/2611.13160\nCode: https://github.com/sereact/lerobot_knn\n\n#VLA #robotics"
     },
     {
       "id": "2611.10443",
@@ -416,6 +520,110 @@
       "first_seen": "2026-11-05",
       "is_new": false,
       "share_text": "From Pixels to Actions--Towards Native Vision-Language-Action Policies\n\nVision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards.\n\narXiv: https://arxiv.org/abs/2611.06918\nCode: https://github.com/EvolvingLMMs-Lab/NEO\n\n#VLA #robotics"
+    },
+    {
+      "id": "2611.13685",
+      "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+      "authors": [
+        "Lin Long",
+        "Tianren Ma",
+        "Zhong Chu",
+        "Di Wu",
+        "Maosong Cao",
+        "Qixiang Ye",
+        "Junbo Zhao",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 6.5,
+      "match_reasons": [
+        "\"egocentric video\" in title",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction. We find that representations learned from egocentric videos improve downstream performance on out-of-distribution robot tasks, with further gains as video data scales. We also study the effects of objective choices and data curation, providing insights into how to leverage action-free videos for scalable robot learning.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13685",
+      "pdf_url": "https://arxiv.org/pdf/2611.13685",
+      "project_page": "https://llong-cs.github.io/EgoGuidance",
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos\n\nIn this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision.\n\narXiv: https://arxiv.org/abs/2611.13685\nProject page: https://llong-cs.github.io/EgoGuidance\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2611.14092",
+      "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+      "authors": [
+        "Huaijin Pi",
+        "Zehong Shen",
+        "Yong Wang",
+        "Kechun Xu",
+        "Changpeng Wang",
+        "Dingkun Wei",
+        "Xueyang Wang",
+        "Wenjia Wang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Taku Komura"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 6.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "2 distinct keyword hits",
+        "project page",
+        "posted in last 2 days"
+      ],
+      "abstract": "We study how to generate diverse, physically executable robot demonstrations for dexterous vision-language-action (VLA) learning. Existing demonstration-generation methods typically rely on costly teleoperated examples. Meanwhile, human hand--object datasets provide a reusable source, but existing transfer methods mainly reproduce given interactions. Turning these interactions into VLA training data further requires coverage of different objects and manipulation locations, together with executable arm and finger actions, and visual observations. To achieve this, we present DexSeed, a framework for low-cost generation of dexterous robot data from human hand--object interactions. Our key idea is to expand human sequences while preserving their grasps and realizing the resulting motions under arm-tracking dynamics in physics simulation. Specifically, we organize source sequences by grasp mode with shared language descriptions. InteractionMesh-based retargeting and arm trajectory augmentation adapt these sequences to the robot hand, different object geometries, and pick-and-place locations while preserving local hand--object relationships. An RL finger-control policy produces executable rollouts, while the arm tracks precomputed trajectories. Rendered observations and recorded actions from successful rollouts are paired with grasp descriptions to fine-tune a VLA. Experiments show improved contact fidelity in retargeting and more reliable whole-arm execution than the evaluated baselines. Simulation evaluation and real-world deployment further demonstrate that a VLA fine-tuned solely on the generated demonstrations can execute language-specified grasps. Project page: https://robbyant-research.github.io/DexSeed/.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14092",
+      "pdf_url": "https://arxiv.org/pdf/2611.14092",
+      "project_page": "https://robbyant-research.github.io/DexSeed/",
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning\n\nWe study how to generate diverse, physically executable robot demonstrations for dexterous vision-language-action (VLA) learning.\n\narXiv: https://arxiv.org/abs/2611.14092\nProject page: https://robbyant-research.github.io/DexSeed/\n\n#VLA #robotics"
+    },
+    {
+      "id": "2611.14365",
+      "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+      "authors": [
+        "Guoqiang Liang",
+        "Yiqi Lin",
+        "Yanzhe Chen",
+        "Kevin Yuchen Ma",
+        "Mike Zheng Shou"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 6.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "code repo",
+        "robotics / embodied focus",
+        "posted in last 2 days"
+      ],
+      "abstract": "Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations. Building such models requires injecting low-dimensional robot signals (e.g. proprioception, actions, and values) into a latent space shaped by natural videos, and a key design choice is the interface through which these signals enter: existing schemes treat it as a formatting detail, spending a separate latent frame on each signal or bolting on dedicated encoders and decoders. We argue that signal injection is instead a distribution-alignment problem: how well a representation matches the prior of the pretrained VDMs during denoising. Using the relative reconstruction error of a frozen VDM denoiser as a probe, we find that conventional spatial encodings sit far off this prior, whereas frequency-domain packing yields latents that the denoiser corrects far less. Motivated by this diagnostic result, we propose MetaWAM, which folds all robot signals into a single unified meta-frame: each signal is assigned to a disjoint frequency-domain channel band and lifted to the spatial latent by an inverse DCT, yielding a decodable interface aligned with the pretrained VDM prior without any added module or architectural change. A fixed band layout together with slot-aware routing lets the same meta-frame support policy, world-model, and value prediction over a shared set of robot variables. On RoboCasa, MetaWAM reaches 68.9% success while collapsing the per-signal frames into one and cutting inference latency by 39%, and attains 85.0% success on three real-world Franka tasks. Code and models are available at https://github.com/showlab/MetaWAM",
+      "arxiv_url": "https://arxiv.org/abs/2611.14365",
+      "pdf_url": "https://arxiv.org/pdf/2611.14365",
+      "project_page": null,
+      "github_url": "https://github.com/showlab/MetaWAM",
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models\n\nPretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations.\n\narXiv: https://arxiv.org/abs/2611.14365\nCode: https://github.com/showlab/MetaWAM\n\n#worldmodels #robotics"
     },
     {
       "id": "2611.12382",
@@ -726,6 +934,37 @@
       "share_text": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation\n\nEmbodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics.\n\narXiv: https://arxiv.org/abs/2611.06120\nProject page: https://metaengine-world.github.io/ReactWorld/\n\n#worldmodels #robotics"
     },
     {
+      "id": "2611.13030",
+      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+      "authors": [
+        "Xiaoyang Xing",
+        "Chun-Mei Feng",
+        "Anthony Cohn",
+        "Xiaoliang Gong",
+        "Asoke Nandi"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 6.0,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "3 distinct keyword hits",
+        "posted in last 2 days"
+      ],
+      "abstract": "Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency. Visual token pruning offers a practical way to reduce this cost, but identifying a compact set of tokens that preserves reliable action generation remains challenging. Existing methods largely rely on static or immediate heuristic cues to estimate token importance. We introduce APS-VLA, a framework that learns visual token selection from robot demonstrations while keeping the pretrained VLA backbone frozen. A lightweight Decision Influence Estimator scores tokens conditioned on current visual observations, language instructions, and robot proprioception. Its training combines two complementary signals: action supervision matches both the full-input policy predictions and demonstrated actions, while an auxiliary visual transition objective uses demonstrated actions to predict subsequent visual features from the selected representation. At deployment, the estimator performs a single hard selection and packing step before the policy's native action-generation procedure; the auxiliary predictor is removed. Experiments with OpenVLA-OFT on LIBERO and with $π_{0.5}$ and XR-1 on RoboCasa365 demonstrate inference acceleration with modest changes in task success. Across five real-world tasks on two dual-arm platforms, APS-VLA reduces mean policy inference latency from 137.25 to 93.25 ms, achieving a $1.47\\times$ speedup with an average success rate of 61%, compared with 60% for the unpruned baseline. Together, these results support APS-VLA as a modular, plug-in framework for efficient robotic control across VLA architectures, preserving the underlying policy parameters and native action-generation procedure.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13030",
+      "pdf_url": "https://arxiv.org/pdf/2611.13030",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models\n\nVision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency.\n\narXiv: https://arxiv.org/abs/2611.13030\n\n#VLA #robotics"
+    },
+    {
       "id": "2611.11912",
       "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
       "authors": [
@@ -755,6 +994,34 @@
       "first_seen": "2026-11-10",
       "is_new": false,
       "share_text": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting\n\nLiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry and dense volumetric semantics, respectively, holding natural potential for mutual complementarity.\n\narXiv: https://arxiv.org/abs/2611.11912\nCode: https://github.com/lzzzzzm/LO-World\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.14488",
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "authors": [
+        "Chubin Zhang",
+        "Bo An"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 5.5,
+      "match_reasons": [
+        "\"VLA\" in title",
+        "2 distinct keyword hits",
+        "posted in last 2 days"
+      ],
+      "abstract": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progress. It cuts success from 47 to 16 of 50 on one task and from 44 to 10 on the other. When the same frames are withheld from memory, success returns, so the cause lies in memory rather than in the interruption itself. We trace the failure to a temporal shortcut: because demonstrations proceed at a steady pace, elapsed time predicts progress. Indeed, rescaling the time stamps alone makes the policy stop early when the clock runs fast and repeat when it runs slow. Surprisingly, removing the time encoding does not cure the failure, because the frames of a null event still occupy slots of the time-sampled memory. Across RoboMME's released designs, vulnerability follows how memory is indexed. Of the fixes the diagnosis suggests, training with injected pauses does not remove the failure and impairs counting, whereas indexing memory by events recovers half or more of the loss without retraining. A memory meant to remember what happened should count events rather than clock ticks.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14488",
+      "pdf_url": "https://arxiv.org/pdf/2611.14488",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies\n\nMemory-augmented vision-language-action (VLA) policies are meant to remember what happened.\n\narXiv: https://arxiv.org/abs/2611.14488\n\n#VLA #robotics"
     },
     {
       "id": "2611.12676",
@@ -1305,7 +1572,7 @@
         "Hui Xiong"
       ],
       "published": "2026-11-04",
-      "updated": "2026-11-04",
+      "updated": "2026-11-10",
       "topics": [
         "vla"
       ],
@@ -1350,6 +1617,72 @@
       "first_seen": "2026-11-05",
       "is_new": false,
       "share_text": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models\n\nJoint-Embedding Predictive Architectures (JEPAs) support planning by comparing predicted latent states with an encoded goal.\n\narXiv: https://arxiv.org/abs/2611.05847\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.14420",
+      "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+      "authors": [
+        "Runjia Li",
+        "Minghao Chen",
+        "Junyu Xie",
+        "Philip Torr",
+        "Andrea Vedaldi",
+        "Tomas Jakab"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 5.0,
+      "match_reasons": [
+        "\"world model\" in title",
+        "2 distinct keyword hits",
+        "posted in last 2 days"
+      ],
+      "abstract": "Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with the unlabeled video pretraining corpus. A common workaround jointly trains an action encoder to compress consecutive frames into a latent action and a decoder to reconstruct the next frame from the previous frame and that latent, forcing the latent to capture only new information. This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts. We argue for a different starting point: rather than learning actions from scratch, we start from a pretrained foundation model (V-JEPA 2), whose embeddings of a frame pair already carry substantial action information after large-scale, diverse video pretraining. The remaining challenge is to extract the action while discarding the scene. We propose a label-free contrastive adaptation framework that pulls together frame pairs sharing the same motion under a different scene and pushes apart pairs from the same scene with different motion, reshaping the geometry of the pretrained space without imposing a reconstruction bottleneck. We introduce a unified evaluation protocol along three axes (action expressiveness, scene invariance, and action-conditioned video generation quality) across robot manipulation, camera navigation, game, and driving benchmarks, most of which are unseen during adaptation. Compared with annotation-free latent-action methods, our representations are substantially more expressive while matching their scene invariance, and they yield world models that transfer demonstrated actions to new scenes more faithfully.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14420",
+      "pdf_url": "https://arxiv.org/pdf/2611.14420",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "OnlyAct: Extracting Action Representations from Foundation Models for World Models\n\nVideo world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with th...\n\narXiv: https://arxiv.org/abs/2611.14420\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.13576",
+      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+      "authors": [
+        "Huiyi Chen",
+        "Weitai Kang",
+        "Shicheng Fan",
+        "Xinshuo Wang",
+        "Zhixiang Shen",
+        "Yan Yan",
+        "Philip S. Yu",
+        "Baoxin Li"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 5.0,
+      "match_reasons": [
+        "\"world simulator\" in abstract",
+        "robotics / embodied focus",
+        "posted in last 2 days"
+      ],
+      "abstract": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounded diagnostic framework for evaluating physical commonsense in T2V generation. For each caption, PhyRubric constructs a caption-specific rubric before any video is seen, decomposing the caption into semantic and physical items, and derives scores from item-level verdicts grounded in timestamped evidence. We instantiate this framework as PhyRubric-Bench, which spans 34 categories across five physical domains, and scale it up to PhyRubric-Train with 3,788 videos, on which we fine-tune the open-source PhyRubric-Judge. Empirical results across ten T2V models show that physical commonsense remains far from solved, and that PhyRubric-Judge correlates more closely with human judgments than existing open-source judges while matching the frontier proprietary Gemini 4 Argon. Further analysis provides actionable insights for T2V models.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13576",
+      "pdf_url": "https://arxiv.org/pdf/2611.13576",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation\n\nAs text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.\n\narXiv: https://arxiv.org/abs/2611.13576\n\n#worldmodels #robotics"
     },
     {
       "id": "2611.11136",
@@ -1604,6 +1937,36 @@
       "share_text": "MKD2World: A Typed Spatial MarkDown World Model For Web Agents\n\nGraphical user interface (GUI) agents can improve decision-making with world-model foresight, provided that predicted states accurately reflect post-action interfaces.\n\narXiv: https://arxiv.org/abs/2611.06544\nCode: https://github.com/OmniAI-Lab-CUHKSZ/MKD2World\n\n#worldmodels #robotics"
     },
     {
+      "id": "2611.13592",
+      "title": "Few-Shot Residual Adaptation of Pretrained Latent World Models",
+      "authors": [
+        "Jakub Suliga",
+        "Pankhuri Vanjani",
+        "Nisarga Nilavadi",
+        "Wolfram Burgard",
+        "Rudolf Lioutikov"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "Pretrained latent world models can support visual planning and control, but their predictions may fail when physical dynamics change at deployment. We study whether such models can adapt from only a few interactions without modifying their pretrained weights or identifying the changed physical parameters. We introduce a few-shot residual adaptation approach that learns self-supervised corrections from latent prediction errors. The corrections are applied both inside the latent predictor and directly to its predicted latent state, while the pretrained world model remains frozen. We evaluate the approach in simulation and on a real robot under center-of-mass and friction shifts. These changes reduce the success of the frozen model to near zero. Using three interaction episodes for adaptation, our dual-site approach recovers 90\\% success under the center-of-mass shift and 100\\% under the modified friction on the real robot. Ablations show that correcting both locations outperforms single-site adaptation. Our diagnostics further suggest that much of the learned correction reduces a general prediction mismatch, while successful control also depends on shift-specific information captured during adaptation.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13592",
+      "pdf_url": "https://arxiv.org/pdf/2611.13592",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Few-Shot Residual Adaptation of Pretrained Latent World Models\n\nPretrained latent world models can support visual planning and control, but their predictions may fail when physical dynamics change at deployment.\n\narXiv: https://arxiv.org/abs/2611.13592\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2611.12806",
       "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
       "authors": [
@@ -1733,6 +2096,34 @@
       "first_seen": "2026-11-10",
       "is_new": false,
       "share_text": "Motion Belief Action: From a Visual Scene Map to Physical Decisions\n\nA robot that works among people must judge what it cannot see: whether an object is still where it was last seen, and whether a pull on a door or drawer is worth its risk.\n\narXiv: https://arxiv.org/abs/2611.12113\n\n#VLA #robotics"
+    },
+    {
+      "id": "2611.13229",
+      "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing",
+      "authors": [
+        "Nikita Sarawgi",
+        "Omey M. Manyar",
+        "Satyandra K. Gupta"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.5,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "Efficient robotic 3D reconstruction requires selecting views that contribute new surface measurements with few physical captures. Pretrained world models can guide this choice, but a predicted surface may not produce valid depth measurements under the operating conditions of the deployed sensor. We present a deployment adaptation methodology for next-best-view selection that learns a sensor-return adapter from limited local calibration data while keeping the pretrained predictor fixed. The adapter estimates measurement dropout over each predicted surface, allowing the selection method to favor views likely to fill gaps in the measured reconstruction. In a real-robot experiment with a structured-light sensor, the adapted method achieves higher measured surface coverage with 60% fewer captures than nominal selection. The adapted method recovers a surface region that the nominal method repeatedly targets but fails to measure. These results suggest that robots can reuse pretrained predictive models while adapting their decisions to local operating conditions in data-scarce environments.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13229",
+      "pdf_url": "https://arxiv.org/pdf/2611.13229",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing\n\nEfficient robotic 3D reconstruction requires selecting views that contribute new surface measurements with few physical captures.\n\narXiv: https://arxiv.org/abs/2611.13229\n\n#worldmodels #robotics"
     },
     {
       "id": "2611.12678",
@@ -1874,7 +2265,7 @@
         "Zhijie Deng"
       ],
       "published": "2026-11-08",
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "topics": [
         "world_models"
       ],
@@ -1884,7 +2275,7 @@
         "\"world model\" in abstract",
         "project page"
       ],
-      "abstract": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and visual feature changes, capturing both articulated hand dynamics and scene changes under demonstrated actions, including the motion of fingers occluded from the cameras. We then freeze the world model and align policy queries with its predictive world queries, transferring the learned spatial dynamics into policy latents and using them to condition action generation. At deployment, only the policy is retained, operating on RGB observations, language, and robot state without depth input or explicit future prediction. On 11 DexJoCo simulation tasks, DexForesight improves the overall success rate of the base policy from 49.4% to 60.5%. On three real-robot dexterous manipulation tasks, DexForesight achieves 58.3% success, compared with 50.0% for the strongest baseline.Project page https://dexforesight.github.io/",
+      "abstract": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and visual feature changes, capturing both articulated hand dynamics and scene changes under demonstrated actions, including the motion of fingers occluded from the cameras. We then freeze the world model and align policy queries with its predictive world queries, transferring the learned spatial dynamics into policy latents and using them to condition action generation. At deployment, only the policy is retained, operating on RGB observations, language, and robot state without depth input or explicit future prediction. On 11 DexJoCo simulation tasks, DexForesight improves the overall success rate of the base policy from 49.4% to 60.5%. On three real-robot dexterous manipulation tasks, DexForesight achieves 58.3% success, compared with 50.0% for the strongest baseline. Project page https://dexforesight.github.io/",
       "arxiv_url": "https://arxiv.org/abs/2611.11166",
       "pdf_url": "https://arxiv.org/pdf/2611.11166",
       "project_page": "https://dexforesight.github.io/",
@@ -2406,6 +2797,127 @@
       "share_text": "Can Astra Solve RoboMME without Breaking the Bank?\n\nRobotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence.\n\narXiv: https://arxiv.org/abs/2611.06184\nProject page: https://bingaochen.github.io/Astra-on-RoboMME/\n\n#VLA #robotics"
     },
     {
+      "id": "2611.13486",
+      "title": "Hand-Object Contact Transition Detection in Egocentric Video",
+      "authors": [
+        "Huy Anh Nguyen",
+        "Chang Dong",
+        "Feras Dayoub",
+        "Minh Hoai"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "egocentric_data"
+      ],
+      "primary_topic": "egocentric_data",
+      "score": 4.0,
+      "match_reasons": [
+        "\"egocentric video\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an object (touch) and the moment contact is released (release). We propose a unified framework that jointly models the interacting hand and object to accurately localize both transition types. The proposed framework augments hand-centric spatiotemporal representations with object-aware features learned directly from the video and introduces a transition-aware event spotting formulation tailored to contact transitions, without relying on external object or hand-object interaction detectors during inference. To support this task, we present ContactTransition, a dataset comprising 4,021 egocentric videos with 8,498 touch and 8,077 release annotations, together with object-of-interest supervision. Experiments demonstrate that the proposed method consistently outperforms strong two-stage and end-to-end event-spotting baselines on both transition types. Finally, we show that detected contact transitions provide effective temporal anchors for downstream egocentric hand-object reasoning.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13486",
+      "pdf_url": "https://arxiv.org/pdf/2611.13486",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Hand-Object Contact Transition Detection in Egocentric Video\n\nThis paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an...\n\narXiv: https://arxiv.org/abs/2611.13486\n\n#egocentric #robotlearning"
+    },
+    {
+      "id": "2611.14419",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "authors": [
+        "Souhaila Djaffal",
+        "Amna Jamal",
+        "Gagana Madhugiri Devaraja",
+        "Anidipta Pal",
+        "Jobst Heitzig"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.0,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14419",
+      "pdf_url": "https://arxiv.org/pdf/2611.14419",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning\n\nFormal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formaliz...\n\narXiv: https://arxiv.org/abs/2611.14419\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.13348",
+      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+      "authors": [
+        "Yikun Zhang",
+        "Minghao Guo",
+        "Guangxue Xu",
+        "Peter Yichen Chen",
+        "Wojciech Matusik",
+        "Wengong Jin",
+        "Jingjing Chai",
+        "Kaiyi Jiang"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.0,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of sequence, evolutionary, and structural information using MutationFormer, a mutation-biased attention architecture. Variants are represented as states in this joint latent space, and mutations define actions whose functional consequences are predicted. To support exploration of many mutants, we developed a fast, physics-constrained all-atom predictor that utilizes explicit geometric constraint enforcement to achieve >10 fold increase in speed than AlphaFold3 with guaranteed physical validity. Lastly, ProTEUS refines its prediction and understanding of protein activity through closed loop experimental feedback to guide evolution toward a desired phenotype. ProTEUS surpasses established models in both zero-shot and supervised fine-tuning mutation prediction tasks. We experimentally demonstrate its utility in two closed-loop multi-objective engineering campaigns on aldehyde dehydrogenase and levansucrase, yielding variants with >10 fold higher activity than wild type. ProTEUS provides a world-model framework that connects virtual evaluation of mutational outcomes with experimental learning for efficient protein evolution.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13348",
+      "pdf_url": "https://arxiv.org/pdf/2611.13348",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution\n\nProtein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space.\n\narXiv: https://arxiv.org/abs/2611.13348\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.13113",
+      "title": "Building World Models from Intrinsic Motivation",
+      "authors": [
+        "Reece Keller",
+        "Declan Kutscher",
+        "Xaq Pitkow",
+        "Aran Nayebi"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 4.0,
+      "match_reasons": [
+        "\"world model\" in title",
+        "posted in last 2 days"
+      ],
+      "abstract": "In the absence of extrinsic rewards or task supervision, human behavior is guided by intrinsic motivation---neural signals that drive curiosity, creativity, play, and other essential facets of intelligence. Intrinsic motivation plays an important developmental role in building robust world models that enable generalization and adaptation. Yet existing studies leave open how a broad range of intrinsic motivations interacts with world-model representation learning to support downstream control. This limits our understanding of which intrinsically collected experiences build reusable models. To address these gaps, we integrate 24 intrinsic objectives, including established methods and explicit variants spanning curiosity, entropy, and competency, into a common model-based reinforcement learning framework. We evaluate the world models they build through zero-shot, few-shot, and multi-task control in locomotion, manipulation, and open-ended gaming environments, using three representation-learning strategies: observation reconstruction, latent prediction, and redundancy reduction. Curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile, although the best individual pairing depends on the experiment. In compositional vision-based tasks, intrinsic motivation derived from both episodic and lifelong novelty---providing a complementary memory to the world model's generic recurrent state---achieves the best zero-shot transfer and few-shot adaptation. These findings motivate designing intrinsic motivation and representation learning jointly. Our results demonstrate world models as a powerful tool for measuring the quality of intrinsically motivated experience, and positions intrinsic motivation as a key ingredient for building world models autonomously.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13113",
+      "pdf_url": "https://arxiv.org/pdf/2611.13113",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Building World Models from Intrinsic Motivation\n\nIn the absence of extrinsic rewards or task supervision, human behavior is guided by intrinsic motivation---neural signals that drive curiosity, creativity, play, and other essential facets of intelligence.\n\narXiv: https://arxiv.org/abs/2611.13113\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2611.12557",
       "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
       "authors": [
@@ -2528,6 +3040,77 @@
       "share_text": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling\n\nModern video models possess strong visual priors, yet do not natively represent human action in metric 3D space.\n\narXiv: https://arxiv.org/abs/2611.08477\nProject page: https://www.neiljin.site/egogeneralist_page/\n\n#worldmodels #robotics"
     },
     {
+      "id": "2611.14048",
+      "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+      "authors": [
+        "Xuheng Zhang",
+        "Yiming Zhang",
+        "Jialin Gao",
+        "Hao Chen",
+        "Jiaming Liu",
+        "Ji Li",
+        "Runzhong Huang",
+        "Yinxi Wang",
+        "Chenyang Gu",
+        "Zihan Yang",
+        "Yaowei Liu",
+        "Zhonghao Yan",
+        "Ziyu Guo",
+        "Renrui Zhang",
+        "Peng Jia",
+        "Pheng-Ann Heng",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 3.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation, endowing policies with strong capabilities for modeling temporal and physical dynamics. Existing WAMs, encompassing both video-first action prediction and joint video-action modeling, directly transfer global physical representations from world models to action generation. However, global scene representations may underemphasize local robot-object interactions, creating a mismatch between representations optimized for world evolution and those required for manipulation. To bridge this gap, we propose LaST0.5, a novel WAM that introduces an interaction-centric physical representation between world modeling and action generation. Specifically, LaST0.5 learns a compact interaction-centric latent space under the supervision of visual interaction cues between the robot and the environment. This reasoning space is instantiated as a latent expert that bridges the world expert and the action expert within a Mixture-of-Transformers architecture. Furthermore, LaST0.5 performs adaptive world-to-action transfer by jointly predicting future representations and progress values, using progress consistency to adjust action execution and trigger future resampling. Finally, we pretrain LaST0.5 on a large-scale robotic data corpus comprising over 14k hours of data, establishing interaction-centric physical reasoning as a scalable and effective paradigm. LaST0.5 achieves 99.5% on LIBERO, surpasses the previous state of the art on ten evaluated RLBench tasks, and demonstrates robust long-horizon execution and precise dexterous manipulation in real-world experiments.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14048",
+      "pdf_url": "https://arxiv.org/pdf/2611.14048",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning\n\nWorld Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation, endowing policies with strong capabilities for modeling temporal and physical dynamics.\n\narXiv: https://arxiv.org/abs/2611.14048\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.13528",
+      "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+      "authors": [
+        "Yuchen Yang",
+        "Ming Ding",
+        "Xinyu Wu",
+        "Hesheng Wang"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 3.5,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Photorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation. 3D Gaussian splatting makes such representations attainable by supplying an explicit, renderable, and queryable scene model. We present GEMOR-GS (Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM) to make the Gaussian map geometrically accurate, globally refined, and re-enterable, providing a better appearance for robot perception and decision-making. To improve the 3DGS map, the LiDAR--camera extrinsic is first estimated offline by direct-method alignment over dedicated calibration segments and reused by all following online and offline processes. Under the calibrated geometry, keyframe poses and Gaussian parameters are refined alternately under a gated differentiable-rendering and LiDAR--projection objective. The final global reconstruction is then rebuilt from the refined keyframe schema with all online constraints lifted. For the robot SLAM lifecycle, the method recovers the pose from the 3DGS map after tracking loss through an XFeat bypass map, RANSAC-PnP coarse localization, and Gaussian RGB-D warp refinement. Experiments on one self-collected and five public sequences quantify each element: the offline reconstruction wins all paired keyframes against the online map by 14.3--19.9 dB, improves PSNR by approximately 9 dB over Gaussian-LIC2, and achieves 86--100% held-out relocalization success tied to extrinsic quality. The results show that GEMOR-GS improves the geometric accuracy, appearance fidelity, and re-enterability of the 3DGS map, serving as a dependable robot world model for SLAM and downstream tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13528",
+      "pdf_url": "https://arxiv.org/pdf/2611.13528",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM\n\nPhotorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation.\n\narXiv: https://arxiv.org/abs/2611.13528\n\n#worldmodels #robotics"
+    },
+    {
       "id": "2611.12870",
       "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
       "authors": [
@@ -2564,6 +3147,67 @@
       "share_text": "SWAM: Scaling World Action Models with Cross-Modal Alignment\n\nWorld action models jointly predict video and actions conditioned on language.\n\narXiv: https://arxiv.org/abs/2611.12870\n\n#egocentric #robotlearning"
     },
     {
+      "id": "2611.13034",
+      "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
+      "authors": [
+        "Delin Zhao",
+        "Zhengrong Yue",
+        "Junlin He",
+        "Yali Wang"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"VLA\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Robot agents can improve reusable skills, planning procedures, and recovery strategies from execution feedback, yet a fixed practice source leaves the search for new weaknesses unchanged. Useful practice depends on the agent's current capabilities, so the procedure that chooses practice must also be revisable. We present RoboACE (Robot Adversarial Co-Evolution), a framework that jointly evolves curriculum and execution harnesses around frozen foundation models. The curriculum harness uses accumulated capability evidence to propose informative challenges, while the execution harness responds with reusable revisions that expand execution capabilities. Alternating updates hold one side fixed as the other changes, and admitted challenges form fixed snapshots for comparing execution revisions. Starting from a compact set of LIBERO practice conditions, the resulting frozen deployment outperforms the evaluated controllers and agent systems across four LIBERO-family panels. On LIBERO-PRO, it reaches 74.0% success, exceeding the initial deployment by 15.0 percentage points and direct execution by its VLA controller by 13.5 points. Case studies document changes to evidence-guided practice selection, drawer-skill grounding, and controller intervention.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13034",
+      "pdf_url": "https://arxiv.org/pdf/2611.13034",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement\n\nRobot agents can improve reusable skills, planning procedures, and recovery strategies from execution feedback, yet a fixed practice source leaves the search for new weaknesses unchanged.\n\narXiv: https://arxiv.org/abs/2611.13034\n\n#VLA #robotics"
+    },
+    {
+      "id": "2611.13039",
+      "title": "Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks",
+      "authors": [
+        "Zequan Zeng",
+        "Kai Wang",
+        "Delvin Ce Zhang",
+        "Huaping Liu",
+        "Zhipeng Yuan",
+        "Junqin Yang",
+        "YunLong Zhang"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "topics": [
+        "vla"
+      ],
+      "primary_topic": "vla",
+      "score": 3.5,
+      "match_reasons": [
+        "\"vision-language-action\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Reliable medical laboratory automation requires robots to complete entire workflows in protocol order while handling changes during execution. A robot may execute each motion correctly yet fail the workflow by confusing visually similar stages or stalling after human intervention. We present Robo-MLT, a dual-system framework that couples explicit workflow monitoring with learned action generation. A vision--language planner composes an ordered atomic-skill sequence from the protocol and the initial workspace observation. A multiframe execution monitor detects when the active skill has completed or become infeasible, then advances the workflow or triggers replanning. A skill-conditioned vision--language--action policy generates the manipulation trajectories, and an asynchronous runtime coordinates it with the monitor. We evaluate Robo-MLT against four policy baselines and a VLM-based monitor baseline on blood gas analysis and blood sample tube sorting, with 50 nominal configurations per method and 20 sample-removal configurations. Robo-MLT achieves task success rates of 82\\% and 70\\%, exceeding $π_{0.5}$ by 30 and 22 percentage points, respectively. After an operator removes the sample being handled, the system revises the remaining plan and continues processing the other samples. These results indicate that, under the evaluated conditions, explicit workflow monitoring makes long-horizon laboratory manipulation more reliable and recoverable.",
+      "arxiv_url": "https://arxiv.org/abs/2611.13039",
+      "pdf_url": "https://arxiv.org/pdf/2611.13039",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks\n\nReliable medical laboratory automation requires robots to complete entire workflows in protocol order while handling changes during execution.\n\narXiv: https://arxiv.org/abs/2611.13039\n\n#VLA #robotics"
+    },
+    {
       "id": "2611.11089",
       "title": "Control-Aware Command Generation for Asynchronous Control and Action Inference with Vision-Based Policies towards Fast Execution",
       "authors": [
@@ -2571,7 +3215,7 @@
         "Kazuki Ota"
       ],
       "published": "2026-11-08",
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "topics": [
         "vla"
       ],
@@ -2674,7 +3318,7 @@
         "Cheng Chi"
       ],
       "published": "2026-11-06",
-      "updated": "2026-11-06",
+      "updated": "2026-11-10",
       "topics": [
         "vla"
       ],
@@ -2684,14 +3328,14 @@
         "\"VLA\" in abstract",
         "2 distinct keyword hits"
       ],
-      "abstract": "Vision-language-action (VLA) models typically generate actions in chunks, organizing continuous robot execution into separately predicted segments and thus introducing potential discontinuities at action-chunk transitions. We propose ODEAction, a chunk-free action generation paradigm that replaces action-chunk prediction with Continuous Action Evolution. Given visual observations, language instructions, and robot proprioceptive information, ODEAction learns an action transition field defined over action space, where a transition vector characterizes the evolution rate of the current action with respect to evolution time. During execution, the model takes the current action as its initial condition and integrates the learned field using an ordinary differential equation (ODE), recursively generating subsequent actions with explicit dependencies. ODEAction is implemented as an action head and does not depend on a specific vision-language backbone architecture. Experiments on LIBERO, EBench, RoboTwin, and real robots show that ODEAction improves both task performance and trajectory quality over matched action-chunking baselines, with particularly pronounced gains on fine manipulation tasks.",
+      "abstract": "Vision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries. We propose ODEAction, a chunk-free action generation paradigm that replaces action chunk prediction with Continuous Action Evolution. We use an ordinary differential equation (ODE) to describe the continuous evolution of actions, and define the vector field of this ODE as the Action Transition Field to characterize how actions evolve with respect to evolution time. During inference, the model takes the current action as the initial condition and numerically solves the ODE defined by the learned Action Transition Field, thereby recursively generating subsequent actions with explicit dependencies. ODEAction is implemented as a modular action head that can be integrated with different vision-language backbones. Experiments on LIBERO, EBench, RoboTwin, and real-robot tasks show that, compared with action-chunk-based baselines, ODEAction improves both task performance and trajectory quality, with particularly pronounced gains on fine manipulation tasks.",
       "arxiv_url": "https://arxiv.org/abs/2611.09672",
       "pdf_url": "https://arxiv.org/pdf/2611.09672",
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-09",
       "is_new": false,
-      "share_text": "ODEAction: From Predicting Chunks to Evolving Actions\n\nVision-language-action (VLA) models typically generate actions in chunks, organizing continuous robot execution into separately predicted segments and thus introducing potential discontinuities at action-chunk transit...\n\narXiv: https://arxiv.org/abs/2611.09672\n\n#VLA #robotics"
+      "share_text": "ODEAction: From Predicting Chunks to Evolving Actions\n\nVision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries.\n\narXiv: https://arxiv.org/abs/2611.09672\n\n#VLA #robotics"
     },
     {
       "id": "2611.09124",
@@ -2811,6 +3455,33 @@
       "first_seen": "2026-11-05",
       "is_new": false,
       "share_text": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models\n\nA robot action can satisfy shape and range constraints yet carry the wrong semantics: axes may be permuted, signs inverted, rotations rescaled, or gripper polarity reversed.\n\narXiv: https://arxiv.org/abs/2611.06653\n\n#worldmodels #robotics"
+    },
+    {
+      "id": "2611.14383",
+      "title": "An Energy-Based Perspective on Machine Learning",
+      "authors": [
+        "Bo Dai",
+        "Yilun Du"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "topics": [
+        "world_models"
+      ],
+      "primary_topic": "world_models",
+      "score": 3.0,
+      "match_reasons": [
+        "\"world model\" in abstract",
+        "posted in last 2 days"
+      ],
+      "abstract": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM is specified by three choices, the energy, which determines what the model represents; the inference procedure, which samples from or optimizes the energy; and the learning method, which fits the energy to data. We first develop these components, including sampling, variational inference, and learning by maximum likelihood, noise contrastive estimation, pseudolikelihood, score matching, and adversarial training, and show that the learning methods share one contrastive structure. We then show that discriminative models, generative models such as GANs, normalizing flows, diffusion and autoregressive models, representation learning methods such as contrastive learning, word2vec, BERT, denoising auto-encoders, and diffusion representations, reinforcement learning with EBM policies and world models, inverse reinforcement learning, and planning, as well as inference-time computation with verifiers, are all EBMs that differ in these three choices, mostly in how they handle the partition function and sampling. This view explains existing methods, organizes them into a common framework, and suggests new algorithms by replacing one component while keeping the others, with composition of energies as a principled way to combine learned models at inference time.",
+      "arxiv_url": "https://arxiv.org/abs/2611.14383",
+      "pdf_url": "https://arxiv.org/pdf/2611.14383",
+      "project_page": null,
+      "github_url": null,
+      "first_seen": "2026-11-11",
+      "is_new": true,
+      "share_text": "An Energy-Based Perspective on Machine Learning\n\nEnergy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many.\n\narXiv: https://arxiv.org/abs/2611.14383\n\n#worldmodels #robotics"
     },
     {
       "id": "2611.12353",

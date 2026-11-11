@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-11 01:35 UTC
+**Last updated:** 2026-11-11 22:29 UTC
 
-**Papers shown:** 42 (relevance ≥ 2, last 7 days)
+**Papers shown:** 53 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -72,6 +72,41 @@ Hierarchical Joint-Embedding Predictive Architectures (H-JEPA) enable long-horiz
 
 arXiv: https://arxiv.org/abs/2611.10806
 Code: https://github.com/hideinsewer/WARP-JEPA
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://arxiv.org/abs/2611.14365)
+
+**Authors:** Guoqiang Liang, Yiqi Lin, Yanzhe Chen, Kevin Yuchen Ma, Mike Zheng Shou
+
+**Published:** 2026-11-10 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.14365) | [PDF](https://arxiv.org/pdf/2611.14365) | [Code](https://github.com/showlab/MetaWAM)
+
+<details>
+<summary>Abstract</summary>
+
+Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations. Building such models requires injecting low-dimensional robot signals (e.g. proprioception, actions, and values) into a latent space shaped by natural videos, and a key design choice is the interface through which these signals enter: existing schemes treat it as a formatting detail, spending a separate latent frame on each signal or bolting on dedicated encoders and decoders. We argue that signal injection is instead a distribution-a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations.
+
+arXiv: https://arxiv.org/abs/2611.14365
+Code: https://github.com/showlab/MetaWAM
 
 #worldmodels #robotics
 ```
@@ -462,6 +497,74 @@ arXiv: https://arxiv.org/abs/2611.05847
 
 ---
 
+### [OnlyAct: Extracting Action Representations from Foundation Models for World Models](https://arxiv.org/abs/2611.14420)
+
+**Authors:** Runjia Li, Minghao Chen, Junyu Xie, Philip Torr, Andrea Vedaldi et al. (6 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14420) | [PDF](https://arxiv.org/pdf/2611.14420)
+
+<details>
+<summary>Abstract</summary>
+
+Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with the unlabeled video pretraining corpus. A common workaround jointly trains an action encoder to compress consecutive frames into a latent action and a decoder to reconstruct the next frame from the previous frame and that latent, forcing the latent to capture only new information. This has two limitations: learning the action space from scratch can limit generalization to unseen dom...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+OnlyAct: Extracting Action Representations from Foundation Models for World Models
+
+Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with th...
+
+arXiv: https://arxiv.org/abs/2611.14420
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation](https://arxiv.org/abs/2611.13576)
+
+**Authors:** Huiyi Chen, Weitai Kang, Shicheng Fan, Xinshuo Wang, Zhixiang Shen et al. (8 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world simulator" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13576) | [PDF](https://arxiv.org/pdf/2611.13576)
+
+<details>
+<summary>Abstract</summary>
+
+As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounded diagnostic framework for evaluating physical commonsense in T2V generation. For each caption, PhyRubric constructs a caption-specific rubric before any video is seen, decomposing the caption into se...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation
+
+As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.
+
+arXiv: https://arxiv.org/abs/2611.13576
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Tiresias: Towards Language-Conditioned World Models](https://arxiv.org/abs/2611.10392)
 
 **Authors:** Fengyi Wu, Yifei Dong, Yetong Sha, Lingdong Kong, Qiyu Hu et al. (9 authors)
@@ -637,6 +740,74 @@ Code: https://github.com/OmniAI-Lab-CUHKSZ/MKD2World
 
 ---
 
+### [Few-Shot Residual Adaptation of Pretrained Latent World Models](https://arxiv.org/abs/2611.13592)
+
+**Authors:** Jakub Suliga, Pankhuri Vanjani, Nisarga Nilavadi, Wolfram Burgard, Rudolf Lioutikov
+
+**Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13592) | [PDF](https://arxiv.org/pdf/2611.13592)
+
+<details>
+<summary>Abstract</summary>
+
+Pretrained latent world models can support visual planning and control, but their predictions may fail when physical dynamics change at deployment. We study whether such models can adapt from only a few interactions without modifying their pretrained weights or identifying the changed physical parameters. We introduce a few-shot residual adaptation approach that learns self-supervised corrections from latent prediction errors. The corrections are applied both inside the latent predictor and directly to its predicted latent state, while the pretrained world model remains frozen. We evaluate the...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+Pretrained latent world models can support visual planning and control, but their predictions may fail when physical dynamics change at deployment.
+
+arXiv: https://arxiv.org/abs/2611.13592
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing](https://arxiv.org/abs/2611.13229)
+
+**Authors:** Nikita Sarawgi, Omey M. Manyar, Satyandra K. Gupta
+
+**Published:** 2026-11-09 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13229) | [PDF](https://arxiv.org/pdf/2611.13229)
+
+<details>
+<summary>Abstract</summary>
+
+Efficient robotic 3D reconstruction requires selecting views that contribute new surface measurements with few physical captures. Pretrained world models can guide this choice, but a predicted surface may not produce valid depth measurements under the operating conditions of the deployed sensor. We present a deployment adaptation methodology for next-best-view selection that learns a sensor-return adapter from limited local calibration data while keeping the pretrained predictor fixed. The adapter estimates measurement dropout over each predicted surface, allowing the selection method to favor...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing
+
+Efficient robotic 3D reconstruction requires selecting views that contribute new surface measurements with few physical captures.
+
+arXiv: https://arxiv.org/abs/2611.13229
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678)
 
 **Authors:** Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, Tianjin Huang, Guangming Wang
@@ -709,7 +880,7 @@ arXiv: https://arxiv.org/abs/2611.11780
 
 **Authors:** Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye, Yaping Li et al. (9 authors)
 
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in abstract; project page
 
@@ -877,6 +1048,108 @@ Project page: https://robertren1122.github.io/gpwm/
 
 ---
 
+### [Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning](https://arxiv.org/abs/2611.14419)
+
+**Authors:** Souhaila Djaffal, Amna Jamal, Gagana Madhugiri Devaraja, Anidipta Pal, Jobst Heitzig
+
+**Published:** 2026-11-10 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14419) | [PDF](https://arxiv.org/pdf/2611.14419)
+
+<details>
+<summary>Abstract</summary>
+
+Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world mo...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning
+
+Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formaliz...
+
+arXiv: https://arxiv.org/abs/2611.14419
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [ProTEUS: A mutation-resolved world model for closed-loop protein evolution](https://arxiv.org/abs/2611.13348)
+
+**Authors:** Yikun Zhang, Minghao Guo, Guangxue Xu, Peter Yichen Chen, Wojciech Matusik et al. (8 authors)
+
+**Published:** 2026-11-09 | **Categories:** q-bio.BM, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13348) | [PDF](https://arxiv.org/pdf/2611.13348)
+
+<details>
+<summary>Abstract</summary>
+
+Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of sequence, evolutionary, and structural information using MutationFormer, a mutation-biased attentio...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ProTEUS: A mutation-resolved world model for closed-loop protein evolution
+
+Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space.
+
+arXiv: https://arxiv.org/abs/2611.13348
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Building World Models from Intrinsic Motivation](https://arxiv.org/abs/2611.13113)
+
+**Authors:** Reece Keller, Declan Kutscher, Xaq Pitkow, Aran Nayebi
+
+**Published:** 2026-11-09 | **Categories:** cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13113) | [PDF](https://arxiv.org/pdf/2611.13113)
+
+<details>
+<summary>Abstract</summary>
+
+In the absence of extrinsic rewards or task supervision, human behavior is guided by intrinsic motivation---neural signals that drive curiosity, creativity, play, and other essential facets of intelligence. Intrinsic motivation plays an important developmental role in building robust world models that enable generalization and adaptation. Yet existing studies leave open how a broad range of intrinsic motivations interacts with world-model representation learning to support downstream control. This limits our understanding of which intrinsically collected experiences build reusable models. To a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Building World Models from Intrinsic Motivation
+
+In the absence of extrinsic rewards or task supervision, human behavior is guided by intrinsic motivation---neural signals that drive curiosity, creativity, play, and other essential facets of intelligence.
+
+arXiv: https://arxiv.org/abs/2611.13113
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [WanderBench: Can World Models Explore Dynamic Worlds from Video?](https://arxiv.org/abs/2611.12557)
 
 **Authors:** Yuhang Chen, Jiheng Li, Jiale Wang, Zai Wang, Guangyue Liu
@@ -972,6 +1245,74 @@ Modern video models possess strong visual priors, yet do not natively represent 
 
 arXiv: https://arxiv.org/abs/2611.08477
 Project page: https://www.neiljin.site/egogeneralist_page/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning](https://arxiv.org/abs/2611.14048)
+
+**Authors:** Xuheng Zhang, Yiming Zhang, Jialin Gao, Hao Chen, Jiaming Liu et al. (17 authors)
+
+**Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14048) | [PDF](https://arxiv.org/pdf/2611.14048)
+
+<details>
+<summary>Abstract</summary>
+
+World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation, endowing policies with strong capabilities for modeling temporal and physical dynamics. Existing WAMs, encompassing both video-first action prediction and joint video-action modeling, directly transfer global physical representations from world models to action generation. However, global scene representations may underemphasize local robot-object interactions, creating a mismatch between representations optimized for world evolution and those required for manipulation. To bridge this gap, we pro...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation, endowing policies with strong capabilities for modeling temporal and physical dynamics.
+
+arXiv: https://arxiv.org/abs/2611.14048
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM](https://arxiv.org/abs/2611.13528)
+
+**Authors:** Yuchen Yang, Ming Ding, Xinyu Wu, Hesheng Wang
+
+**Published:** 2026-11-10 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.13528) | [PDF](https://arxiv.org/pdf/2611.13528)
+
+<details>
+<summary>Abstract</summary>
+
+Photorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation. 3D Gaussian splatting makes such representations attainable by supplying an explicit, renderable, and queryable scene model. We present GEMOR-GS (Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM) to make the Gaussian map geometrically accurate, globally refined, and re-enterable, providing a better appearance for robot perception and decision-making. To improve the 3DGS...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM
+
+Photorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation.
+
+arXiv: https://arxiv.org/abs/2611.13528
 
 #worldmodels #robotics
 ```
@@ -1144,6 +1485,40 @@ Detecting Silent Action-Interface Mismatch with Calibrated Relational World Mode
 A robot action can satisfy shape and range constraints yet carry the wrong semantics: axes may be permuted, signs inverted, rotations rescaled, or gripper polarity reversed.
 
 arXiv: https://arxiv.org/abs/2611.06653
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [An Energy-Based Perspective on Machine Learning](https://arxiv.org/abs/2611.14383)
+
+**Authors:** Bo Dai, Yilun Du
+
+**Published:** 2026-11-10 | **Categories:** cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14383) | [PDF](https://arxiv.org/pdf/2611.14383)
+
+<details>
+<summary>Abstract</summary>
+
+Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\propto\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM is specified by three choices, the energy, which determines what the model represents; the inference procedure, which samples from or optimizes the energy; and the learning method, which fits the energy to data. We first develop these components, including sampling, variational infer...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+An Energy-Based Perspective on Machine Learning
+
+Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\propto\exp(-E_θ(x))$, and are usually presented as one model family among many.
+
+arXiv: https://arxiv.org/abs/2611.14383
 
 #worldmodels #robotics
 ```
