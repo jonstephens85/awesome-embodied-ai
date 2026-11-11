@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-10 21:39 UTC
+**Last updated:** 2026-11-11 01:35 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -81,76 +81,6 @@ Project page: https://tooluse-dataset.github.io/
 
 ---
 
-### [Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163)
-
-**Authors:** Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
-
-**Published:** 2026-11-03 (updated 2026-11-05) | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05163) | [PDF](https://arxiv.org/pdf/2611.05163) | [Project Page](https://ryan-seungyong-lee.github.io/RoboTryOn)
-
-<details>
-<summary>Abstract</summary>
-
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
-
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations.
-
-arXiv: https://arxiv.org/abs/2611.05163
-Project page: https://ryan-seungyong-lee.github.io/RoboTryOn
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)
-
-**Authors:** Ziqi Wang, Su Chen, Qiance Tang, Jieyu Lin, Ziyun Li et al. (7 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11562) | [PDF](https://arxiv.org/pdf/2611.11562) | [Project Page](https://sai-lab-nyu.github.io/utopi/)
-
-<details>
-<summary>Abstract</summary>
-
-As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform. However, egocentric videos exhibit significant temporal redundancy, imposing substantial memory and computational burdens on resource-constrained AR hardware. To address this challenge, we introduce UTOPI, a plug-and-play pre-compression module designed specifically for egocentric long videos on AR platforms. First, we leverage user motion signals to estimate inter-frame overlap and propose a viewpoint-shift-invariant pruning algorithm. Second, we exploit eye...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression
-
-As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform.
-
-arXiv: https://arxiv.org/abs/2611.11562
-Project page: https://sai-lab-nyu.github.io/utopi/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning](https://arxiv.org/abs/2611.10994)
 
 **Authors:** Mayur Deshmukh, Aaron Tung, Junyi Li, Nikash Bhardwaj, Ademi Adeniji et al. (8 authors)
@@ -178,6 +108,41 @@ Humanoid robots must coordinate locomotion and manipulation to navigate complex 
 
 arXiv: https://arxiv.org/abs/2611.10994
 Project page: https://bitrobot-foundation.github.io/robomocap/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)
+
+**Authors:** Ziqi Wang, Su Chen, Qiance Tang, Jieyu Lin, Ziyun Li et al. (7 authors)
+
+**Published:** 2026-11-08 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11562) | [PDF](https://arxiv.org/pdf/2611.11562) | [Project Page](https://sai-lab-nyu.github.io/utopi/)
+
+<details>
+<summary>Abstract</summary>
+
+As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform. However, egocentric videos exhibit significant temporal redundancy, imposing substantial memory and computational burdens on resource-constrained AR hardware. To address this challenge, we introduce UTOPI, a plug-and-play pre-compression module designed specifically for egocentric long videos on AR platforms. First, we leverage user motion signals to estimate inter-frame overlap and propose a viewpoint-shift-invariant pruning algorithm. Second, we exploit eye...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression
+
+As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform.
+
+arXiv: https://arxiv.org/abs/2611.11562
+Project page: https://sai-lab-nyu.github.io/utopi/
 
 #egocentric #robotlearning
 ```
@@ -384,40 +349,6 @@ TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Ge
 Recent video world models allow users to explore generated environments through camera navigation.
 
 arXiv: https://arxiv.org/abs/2611.06061
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering](https://arxiv.org/abs/2611.04913)
-
-**Authors:** Guoning Chen, Zhexun Hu, Yifan Wei, Yixuan Weng, Bin Li et al. (6 authors)
-
-**Published:** 2026-11-03 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "Ego4D" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.04913) | [PDF](https://arxiv.org/pdf/2611.04913)
-
-<details>
-<summary>Abstract</summary>
-
-Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy, OCR sparse, and decisive actions briefly shown without narration. Existing VideoQA systems typically return labels or free-form text, making answer support difficult to inspect. We study Long Video Moment Question Answering (LVMQA), where a system returns timestamped answer-supporting evidence. We propose EP-LVMQA, an evidence-preserving coarse-to-fine framework comprising an Unce...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering
-
-Long instructional videos are increasingly used in medical education, industrial training, and procedural knowledge transfer, yet their evidence is often incomplete or unreliable: subtitles may be missing, ASR noisy,...
-
-arXiv: https://arxiv.org/abs/2611.04913
 
 #egocentric #robotlearning
 ```

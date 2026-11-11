@@ -2,46 +2,11 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-10 21:39 UTC
+**Last updated:** 2026-11-11 01:35 UTC
 
-**Papers shown:** 49 (relevance ≥ 2, last 7 days)
+**Papers shown:** 42 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation](https://arxiv.org/abs/2611.11605)
-
-**Authors:** Yunyi Gao, Yixing Shi, Yize Liu, Hai-Duong Tran, Nhat-Hoang P. Nguyen et al. (11 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "world model" in title; code repo; robotics / embodied focus; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11605) | [PDF](https://arxiv.org/pdf/2611.11605) | [Code](https://github.com/WANGSHUAIzzzz/ScanDreamer)
-
-<details>
-<summary>Abstract</summary>
-
-Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation. Recent world-model agents learn navigation through imagined experience (e.g., AirDreamer), but remain data-intensive and often lack explicit geometric memory and awareness of what the camera can observe. We propose ScanDreamer, a map-grounded world model that constructs an online 2D scan-memory map from depth images and vehicle pose. Our world model, actor, and critic are conditioned on this ma...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
-
-Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation.
-
-arXiv: https://arxiv.org/abs/2611.11605
-Code: https://github.com/WANGSHUAIzzzz/ScanDreamer
-
-#worldmodels #robotics
-```
-
-</details>
 
 ---
 
@@ -150,20 +115,20 @@ Code: https://github.com/thddydgnl/nearest-of-m-world-models
 
 ---
 
-### [Breaking survivorship bias in driving world models](https://arxiv.org/abs/2611.11516)
+### [ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation](https://arxiv.org/abs/2611.11605)
 
-**Authors:** Zihao Sheng, Zilin Huang, Yuhao Luo, Zhengyang Wan, Boyue Wang et al. (8 authors)
+**Authors:** Yunyi Gao, Yixing Shi, Yize Liu, Hai-Duong Tran, Nhat-Hoang P. Nguyen et al. (11 authors)
 
 **Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
+**Why surfaced:** "world model" in title; code repo; robotics / embodied focus
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11516) | [PDF](https://arxiv.org/pdf/2611.11516) | [Project Page](https://zihaosheng.github.io/NWM/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11605) | [PDF](https://arxiv.org/pdf/2611.11605) | [Code](https://github.com/WANGSHUAIzzzz/ScanDreamer)
 
 <details>
 <summary>Abstract</summary>
 
-World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data. We identify a survivorship bias in driving world models: because the futures recorded in prevailing driving datasets almost always end safely, existing models often imagine benign outcomes even when a collision is imminent. We introduce a neutral world model (NWM) that learns both routine and safety-critical futures from a mixture of routine driving and real accident videos with a bounding-box-guided objective...
+Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation. Recent world-model agents learn navigation through imagined experience (e.g., AirDreamer), but remain data-intensive and often lack explicit geometric memory and awareness of what the camera can observe. We propose ScanDreamer, a map-grounded world model that constructs an online 2D scan-memory map from depth images and vehicle pose. Our world model, actor, and critic are conditioned on this ma...
 
 </details>
 
@@ -171,47 +136,12 @@ World models allow autonomous vehicles to imagine the consequences of candidate 
 <summary>Share</summary>
 
 ```
-Breaking survivorship bias in driving world models
+ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
 
-World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data.
+Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation.
 
-arXiv: https://arxiv.org/abs/2611.11516
-Project page: https://zihaosheng.github.io/NWM/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset](https://arxiv.org/abs/2611.11085)
-
-**Authors:** Haonan Chen, Sicheng Isabella Lu, Haitian Li, Jiajin Wu, Hexiang Wei et al. (12 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11085) | [PDF](https://arxiv.org/pdf/2611.11085) | [Project Page](https://nus-lins-lab.github.io/ObjectWorld/)
-
-<details>
-<summary>Abstract</summary>
-
-Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation. This calls for an intermediate representation that can be supervised at scale and remains actionable for downstream control. We propose 3D full-object flow, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions. By extending visible-surface object flow to the full object geometry, this representation makes complete object motion explicit and applies uniformly to both rigid...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
-
-Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation.
-
-arXiv: https://arxiv.org/abs/2611.11085
-Project page: https://nus-lins-lab.github.io/ObjectWorld/
+arXiv: https://arxiv.org/abs/2611.11605
+Code: https://github.com/WANGSHUAIzzzz/ScanDreamer
 
 #worldmodels #robotics
 ```
@@ -282,41 +212,6 @@ Embodied video world models predict scene changes caused by robot actions, yet g
 
 arXiv: https://arxiv.org/abs/2611.06120
 Project page: https://metaengine-world.github.io/ReactWorld/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model](https://arxiv.org/abs/2611.05448)
-
-**Authors:** Yansong Qu, Jiancong Chen, Samuel Labi
-
-**Published:** 2026-11-03 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05448) | [PDF](https://arxiv.org/pdf/2611.05448) | [Project Page](https://ys-qu.github.io/jev-ad-website)
-
-<details>
-<summary>Abstract</summary>
-
-Large language models understand passengers' driving commands, but as driving agents they reason in generated text for seconds and must infer each action's consequences implicitly from the scene. We present Jev-AD, which pairs Jev, a typed decision model that answers predefined questions with probabilities, not generated text, with a language world model that predicts for every candidate action how nearby vehicles move over the next two seconds. Code turns these predictions into foreseen consequences, which Jev compares instead of inferring them from coordinates. In simulated highway merging (...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model
-
-Large language models understand passengers' driving commands, but as driving agents they reason in generated text for seconds and must infer each action's consequences implicitly from the scene.
-
-arXiv: https://arxiv.org/abs/2611.05448
-Project page: https://ys-qu.github.io/jev-ad-website
 
 #worldmodels #robotics
 ```
@@ -428,20 +323,20 @@ arXiv: https://arxiv.org/abs/2611.11869
 
 ---
 
-### [DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight](https://arxiv.org/abs/2611.11166)
+### [Breaking survivorship bias in driving world models](https://arxiv.org/abs/2611.11516)
 
-**Authors:** Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye, Yaping Li et al. (9 authors)
+**Authors:** Zihao Sheng, Zilin Huang, Yuhao Luo, Zhengyang Wan, Boyue Wang et al. (8 authors)
 
 **Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "world model" in abstract; project page; posted in last 2 days
+**Why surfaced:** "world model" in title; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11166) | [PDF](https://arxiv.org/pdf/2611.11166) | [Project Page](https://dexforesight.github.io/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11516) | [PDF](https://arxiv.org/pdf/2611.11516) | [Project Page](https://zihaosheng.github.io/NWM/)
 
 <details>
 <summary>Abstract</summary>
 
-Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and v...
+World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data. We identify a survivorship bias in driving world models: because the futures recorded in prevailing driving datasets almost always end safely, existing models often imagine benign outcomes even when a collision is imminent. We introduce a neutral world model (NWM) that learns both routine and safety-critical futures from a mixture of routine driving and real accident videos with a bounding-box-guided objective...
 
 </details>
 
@@ -449,12 +344,47 @@ Dexterous manipulation requires rich spatial foresight over both the surrounding
 <summary>Share</summary>
 
 ```
-DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
+Breaking survivorship bias in driving world models
 
-Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand.
+World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data.
 
-arXiv: https://arxiv.org/abs/2611.11166
-Project page: https://dexforesight.github.io/
+arXiv: https://arxiv.org/abs/2611.11516
+Project page: https://zihaosheng.github.io/NWM/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset](https://arxiv.org/abs/2611.11085)
+
+**Authors:** Haonan Chen, Sicheng Isabella Lu, Haitian Li, Jiajin Wu, Hexiang Wei et al. (12 authors)
+
+**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11085) | [PDF](https://arxiv.org/pdf/2611.11085) | [Project Page](https://nus-lins-lab.github.io/ObjectWorld/)
+
+<details>
+<summary>Abstract</summary>
+
+Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation. This calls for an intermediate representation that can be supervised at scale and remains actionable for downstream control. We propose 3D full-object flow, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions. By extending visible-surface object flow to the full object geometry, this representation makes complete object motion explicit and applies uniformly to both rigid...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
+
+Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation.
+
+arXiv: https://arxiv.org/abs/2611.11085
+Project page: https://nus-lins-lab.github.io/ObjectWorld/
 
 #worldmodels #robotics
 ```
@@ -524,40 +454,6 @@ Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World
 Joint-Embedding Predictive Architectures (JEPAs) support planning by comparing predicted latent states with an encoded goal.
 
 arXiv: https://arxiv.org/abs/2611.05847
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving](https://arxiv.org/abs/2611.05072)
-
-**Authors:** Junzhe Wang, Jinqing Zhang, Qingjie Liu
-
-**Published:** 2026-11-03 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.05072) | [PDF](https://arxiv.org/pdf/2611.05072)
-
-<details>
-<summary>Abstract</summary>
-
-Although existing candidate trajectory evaluators have substantially improved end-to-end planning accuracy, their underlying mechanism remains suboptimal. Model-based evaluators typically make scoring future-aware by explicitly predicting candidate-conditioned future states over the planning horizon, which we term rollout. However, rollout incurs high inference cost and accumulates prediction errors. We argue that planning does not require reconstructing a full future scene for each candidate, but only future-relevant information for reliable comparison. We therefore propose RFWorld, a Rollout...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving
-
-Although existing candidate trajectory evaluators have substantially improved end-to-end planning accuracy, their underlying mechanism remains suboptimal.
-
-arXiv: https://arxiv.org/abs/2611.05072
 
 #worldmodels #robotics
 ```
@@ -741,41 +637,6 @@ Code: https://github.com/OmniAI-Lab-CUHKSZ/MKD2World
 
 ---
 
-### [Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations](https://arxiv.org/abs/2611.05577)
-
-**Authors:** Manvendra Modgil
-
-**Published:** 2026-11-03 | **Categories:** cs.LG, cs.AI, physics.flu-dyn | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.05577) | [PDF](https://arxiv.org/pdf/2611.05577) | [Code](https://github.com/2025eb1100268-tech/readable-not-steerable)
-
-<details>
-<summary>Abstract</summary>
-
-Self-supervised world models are often said to organize their latents around physical quantities. We test this on 2D decaying Navier-Stokes flow in three pre-registered studies, each tested once on held-out data. In Study 1, a joint-embedding predictive architecture (JEPA) trained to predict the flow fails the pre-registered criteria for organizing its latent around fluid quantities better than an untrained network of the same architecture (not supported); a JEPA trained on non-physical linear dynamics and a static invariance model that never sees time do as well or better. In Study 2, plain a...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations
-
-Self-supervised world models are often said to organize their latents around physical quantities.
-
-arXiv: https://arxiv.org/abs/2611.05577
-Code: https://github.com/2025eb1100268-tech/readable-not-steerable
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678)
 
 **Authors:** Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, Tianjin Huang, Guangming Wang
@@ -844,20 +705,20 @@ arXiv: https://arxiv.org/abs/2611.11780
 
 ---
 
-### [K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation](https://arxiv.org/abs/2611.11521)
+### [DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight](https://arxiv.org/abs/2611.11166)
 
-**Authors:** Santosh Mohan Rajkumar, Sriram Narayanan, Samuel E. Otto, Debdipta Goswami
+**Authors:** Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye, Yaping Li et al. (9 authors)
 
-**Published:** 2026-11-08 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; posted in last 2 days
+**Why surfaced:** "world model" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.11521) | [PDF](https://arxiv.org/pdf/2611.11521)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11166) | [PDF](https://arxiv.org/pdf/2611.11166) | [Project Page](https://dexforesight.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging. While much progress has focused on pixel-based observations, many physical systems instead provide vector-valued measurements that reveal only part of the underlying state. We introduce K-PWM, a probabilistic world model for prediction and control under partial observation. K-PWM couples Koopman-bilinear latent dynamics with a nonlinear observation decoder and performs probabilistic latent-state inference thro...
+Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and v...
 
 </details>
 
@@ -865,11 +726,12 @@ World models learn internal simulators of environment dynamics for prediction, p
 <summary>Share</summary>
 
 ```
-K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation
+DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
 
-World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging.
+Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand.
 
-arXiv: https://arxiv.org/abs/2611.11521
+arXiv: https://arxiv.org/abs/2611.11166
+Project page: https://dexforesight.github.io/
 
 #worldmodels #robotics
 ```
@@ -1015,74 +877,6 @@ Project page: https://robertren1122.github.io/gpwm/
 
 ---
 
-### [PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations](https://arxiv.org/abs/2611.04870)
-
-**Authors:** Travis Davies, Wentao Ma, Lihao Guo, Tengfei Ma, Xiaowen Chang et al. (13 authors)
-
-**Published:** 2026-11-03 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.04870) | [PDF](https://arxiv.org/pdf/2611.04870)
-
-<details>
-<summary>Abstract</summary>
-
-A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive midtraining and posttraining. Starting from a pretrained video generator, we midtrain on 30,110 hours of robot demonstrations spanning 22 platforms. To improve action following, we introduce a unified cross-embodiment action representation and frame...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
-
-A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon roll...
-
-arXiv: https://arxiv.org/abs/2611.04870
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation](https://arxiv.org/abs/2611.04492)
-
-**Authors:** Jimmy Wang, Yifan Chou, Kaifeng Zhang, Yixuan Wang, Binghao Huang et al. (8 authors)
-
-**Published:** 2026-11-03 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; 2 distinct keyword hits; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.04492) | [PDF](https://arxiv.org/pdf/2611.04492)
-
-<details>
-<summary>Abstract</summary>
-
-Predicting how the world evolves in response to robot actions is central to policy learning, evaluation, and planning. However, many action-conditioned world models predict future observations in 2D image or video space without explicitly modeling the underlying 3D scene, making spatial consistency across viewpoints and over long-horizon interactions challenging. We introduce 3D World Simulator, an action-conditioned multimodal world modeling framework that jointly predicts appearance, geometry, and tactile observations from a unified 3D representation. Our approach combines a hybrid particle-...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation
-
-Predicting how the world evolves in response to robot actions is central to policy learning, evaluation, and planning.
-
-arXiv: https://arxiv.org/abs/2611.04492
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [WanderBench: Can World Models Explore Dynamic Worlds from Video?](https://arxiv.org/abs/2611.12557)
 
 **Authors:** Yuhang Chen, Jiheng Li, Jiale Wang, Zai Wang, Guangyue Liu
@@ -1186,20 +980,20 @@ Project page: https://www.neiljin.site/egogeneralist_page/
 
 ---
 
-### [Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence](https://arxiv.org/abs/2611.04371)
+### [K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation](https://arxiv.org/abs/2611.11521)
 
-**Authors:** Wenhao Xu, Changwei Wang, Shunpeng Chen, Yukun Song, Sifan Zhou et al. (9 authors)
+**Authors:** Santosh Mohan Rajkumar, Sriram Narayanan, Samuel E. Otto, Debdipta Goswami
 
-**Published:** 2026-11-03 (updated 2026-11-08) | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
+**Why surfaced:** "world model" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.04371) | [PDF](https://arxiv.org/pdf/2611.04371)
+**Links:** [arXiv](https://arxiv.org/abs/2611.11521) | [PDF](https://arxiv.org/pdf/2611.11521)
 
 <details>
 <summary>Abstract</summary>
 
-Scientific experiments are increasingly selected, executed and interpreted by learned systems that act through physical interfaces. Robot learning builds physical competence, whereas AI for science chooses which experiment to run, each reporting different endpoints. This review treats their interface as one problem, embodied AI for science, where the experiment itself is partially observed: specimen state, apparatus state and measurement processes are latent, actions are costly and irreversible, and missingness depends on execution and outcome. We organize the literature by three closures oper...
+World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging. While much progress has focused on pixel-based observations, many physical systems instead provide vector-valued measurements that reveal only part of the underlying state. We introduce K-PWM, a probabilistic world model for prediction and control under partial observation. K-PWM couples Koopman-bilinear latent dynamics with a nonlinear observation decoder and performs probabilistic latent-state inference thro...
 
 </details>
 
@@ -1207,45 +1001,11 @@ Scientific experiments are increasingly selected, executed and interpreted by le
 <summary>Share</summary>
 
 ```
-Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence
+K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation
 
-Scientific experiments are increasingly selected, executed and interpreted by learned systems that act through physical interfaces.
+World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging.
 
-arXiv: https://arxiv.org/abs/2611.04371
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ForeAct: Geometry-Guided Action Learning from World Representations](https://arxiv.org/abs/2611.11500)
-
-**Authors:** Wei Lu, Jiaxi Zhang, Yunheng Wang, Taowen Wang, Yuetong Fang et al. (11 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.11500) | [PDF](https://arxiv.org/pdf/2611.11500)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction. Existing approaches have largely treated these two aspects separately. World action models capture such dynamics by coupling action prediction with future video generation, but their reliance on iterative diffusion or rectified-flow inference leads to high computational cost, while their representations lack explicit spatial structure. Explicitly modeling scene geometry typically requires auxiliary modules that increase both parameter count and computational cost. Conversely, ge...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ForeAct: Geometry-Guided Action Learning from World Representations
-
-Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction.
-
-arXiv: https://arxiv.org/abs/2611.11500
+arXiv: https://arxiv.org/abs/2611.11521
 
 #worldmodels #robotics
 ```
@@ -1596,20 +1356,20 @@ arXiv: https://arxiv.org/abs/2611.06901
 
 ---
 
-### [A research world model of power engineering learns its dynamics and reveals what-ifs](https://arxiv.org/abs/2611.04566)
+### [ForeAct: Geometry-Guided Action Learning from World Representations](https://arxiv.org/abs/2611.11500)
 
-**Authors:** Fanping Sui, Ying Zhang, Liwei Lin
+**Authors:** Wei Lu, Jiaxi Zhang, Yunheng Wang, Taowen Wang, Yuetong Fang et al. (11 authors)
 
-**Published:** 2026-11-03 | **Categories:** cs.AI, eess.SY | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-08 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "world model" in title
+**Why surfaced:** "world model" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.04566) | [PDF](https://arxiv.org/pdf/2611.04566)
+**Links:** [arXiv](https://arxiv.org/abs/2611.11500) | [PDF](https://arxiv.org/pdf/2611.11500)
 
 <details>
 <summary>Abstract</summary>
 
-Decisions about the direction of research in power engineering determine which technologies mature and, through them, shape infrastructure that lasts decades, yet their consequences cannot be observed before they are taken, and existing forecasts of research fields extrapolate a single trajectory. Here we introduce research world models, which treat a research field as a dynamical system that can be acted upon, and establish one for power engineering from 1.1 million papers. A distilled language model reads each paper into role-typed concepts, two sophisticated, high-fidelity graph-temporal ne...
+Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction. Existing approaches have largely treated these two aspects separately. World action models capture such dynamics by coupling action prediction with future video generation, but their reliance on iterative diffusion or rectified-flow inference leads to high computational cost, while their representations lack explicit spatial structure. Explicitly modeling scene geometry typically requires auxiliary modules that increase both parameter count and computational cost. Conversely, ge...
 
 </details>
 
@@ -1617,11 +1377,11 @@ Decisions about the direction of research in power engineering determine which t
 <summary>Share</summary>
 
 ```
-A research world model of power engineering learns its dynamics and reveals what-ifs
+ForeAct: Geometry-Guided Action Learning from World Representations
 
-Decisions about the direction of research in power engineering determine which technologies mature and, through them, shape infrastructure that lasts decades, yet their consequences cannot be observed before they are...
+Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction.
 
-arXiv: https://arxiv.org/abs/2611.04566
+arXiv: https://arxiv.org/abs/2611.11500
 
 #worldmodels #robotics
 ```
