@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-11 22:29 UTC
+**Last updated:** 2026-11-12 02:35 UTC
 
-**Papers shown:** 13 (relevance ≥ 2, last 7 days)
+**Papers shown:** 11 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -37,42 +37,6 @@ Egocentric human video (EHV) records close-range hand-object interaction (HOI) a
 
 arXiv: https://arxiv.org/abs/2611.13610
 Project page: https://mikewu597.github.io/Ego2Robot_Learning/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
-
-**Authors:** Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv et al. (35 authors)
-
-**Published:** 2026-11-04 (updated 2026-11-10) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "egocentric video" in abstract; 3 distinct keyword hits; project page; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.06817) | [PDF](https://arxiv.org/pdf/2611.06817) | [Project Page](https://dagroup-pku.github.io/open-humanwam/) | [Code](https://github.com/DAGroup-PKU/HumanNet)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanWAM, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanWAM-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
-
-Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes.
-
-arXiv: https://arxiv.org/abs/2611.06817
-Project page: https://dagroup-pku.github.io/open-humanwam/
-Code: https://github.com/DAGroup-PKU/HumanNet
 
 #egocentric #robotlearning
 ```
@@ -255,40 +219,6 @@ Project page: https://sai-lab-nyu.github.io/utopi/
 
 ---
 
-### [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870)
-
-**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, Yinghao Yang, Wendi Chen et al. (11 authors)
-
-**Published:** 2026-11-09 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.12870) | [PDF](https://arxiv.org/pdf/2611.12870)
-
-<details>
-<summary>Abstract</summary>
-
-World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demon...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SWAM: Scaling World Action Models with Cross-Modal Alignment
-
-World action models jointly predict video and actions conditioned on language.
-
-arXiv: https://arxiv.org/abs/2611.12870
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
 
 **Authors:** Liuchuan Yu
@@ -357,6 +287,40 @@ arXiv: https://arxiv.org/abs/2611.10578
 
 ---
 
+### [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870)
+
+**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, Yinghao Yang, Wendi Chen et al. (11 authors)
+
+**Published:** 2026-11-09 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.12870) | [PDF](https://arxiv.org/pdf/2611.12870)
+
+<details>
+<summary>Abstract</summary>
+
+World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demon...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+World action models jointly predict video and actions conditioned on language.
+
+arXiv: https://arxiv.org/abs/2611.12870
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation](https://arxiv.org/abs/2611.09129)
 
 **Authors:** Ao Li, Zhihao Yuan, Chubin Zhang, Kunrui Huang, Sheng Xu et al. (9 authors)
@@ -417,42 +381,6 @@ Egocentric Action Recognition with Objects and Vision-Language Affordances
 Action recognition, and more specifically egocentric action recognition, is a core task in computer vision, with applications such as monitoring the daily life activities of elderly people and task assistance.
 
 arXiv: https://arxiv.org/abs/2611.07673
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds](https://arxiv.org/abs/2611.06061)
-
-**Authors:** Jiaao Yu, Yanjian Zhang, Haoyang Jiang, Guillaume Wisniewski, Nadi Tomeh et al. (6 authors)
-
-**Published:** 2026-11-04 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Also relevant to:** World Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.06061) | [PDF](https://arxiv.org/pdf/2611.06061)
-
-<details>
-<summary>Abstract</summary>
-
-Recent video world models allow users to explore generated environments through camera navigation. Continuous hand motion provides a fine-grained action channel for interacting with the people and objects encountered during exploration. We present TouchéWorld, a framework that integrates gesture-driven interaction into a camera-controlled video world model. Given an initial image and a scene-description prompt, the model generates video conditioned on temporally aligned camera and hand controls. We construct joint camera--hand training data from heterogeneous egocentric videos through annotati...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds
-
-Recent video world models allow users to explore generated environments through camera navigation.
-
-arXiv: https://arxiv.org/abs/2611.06061
 
 #egocentric #robotlearning
 ```
