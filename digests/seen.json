@@ -10708,5 +10708,196 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.15048": {
+    "first_seen": "2026-11-13",
+    "title": "Does Your World Model Know Actions Have Consequences?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15082": {
+    "first_seen": "2026-11-13",
+    "title": "Prediction or Persistence? What Future-Prediction Scores Miss About World Models",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2611.15117": {
+    "first_seen": "2026-11-13",
+    "title": "PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15131": {
+    "first_seen": "2026-11-13",
+    "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15215": {
+    "first_seen": "2026-11-13",
+    "title": "AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15260": {
+    "first_seen": "2026-11-13",
+    "title": "Driving World Models Move the Camera, Not the Scene",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15360": {
+    "first_seen": "2026-11-13",
+    "title": "CARE-Drive: Coupled Alternating Refinement for Ego-trajectories",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15381": {
+    "first_seen": "2026-11-13",
+    "title": "Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15490": {
+    "first_seen": "2026-11-13",
+    "title": "ActionCodec2: A Streaming Action Tokenizer",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15491": {
+    "first_seen": "2026-11-13",
+    "title": "What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15602": {
+    "first_seen": "2026-11-13",
+    "title": "CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15651": {
+    "first_seen": "2026-11-13",
+    "title": "Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15689": {
+    "first_seen": "2026-11-13",
+    "title": "What World Model Does Active Object Search Need? A Study under Imperfect Detection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.15937": {
+    "first_seen": "2026-11-13",
+    "title": "MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.16056": {
+    "first_seen": "2026-11-13",
+    "title": "Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.16246": {
+    "first_seen": "2026-11-13",
+    "title": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.16417": {
+    "first_seen": "2026-11-13",
+    "title": "VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.16419": {
+    "first_seen": "2026-11-13",
+    "title": "I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.16422": {
+    "first_seen": "2026-11-13",
+    "title": "BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.16424": {
+    "first_seen": "2026-11-13",
+    "title": "PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2611.16452": {
+    "first_seen": "2026-11-13",
+    "title": "Can an LVLM Perceive Event Boundaries Like a Human?",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.16579": {
+    "first_seen": "2026-11-13",
+    "title": "ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.16589": {
+    "first_seen": "2026-11-13",
+    "title": "STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.16645": {
+    "first_seen": "2026-11-13",
+    "title": "Rethinking Actions: Continuity-Aware Priors for World-Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.17110": {
+    "first_seen": "2026-11-13",
+    "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.17238": {
+    "first_seen": "2026-11-13",
+    "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.17318": {
+    "first_seen": "2026-11-13",
+    "title": "Spatial Foundry: A Multimodal Dataset for Spatial Intelligence",
+    "topics": [
+      "world_models"
+    ]
   }
 }
