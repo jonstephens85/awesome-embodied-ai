@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-12 22:02 UTC
+**Last updated:** 2026-11-13 02:16 UTC
 
-**Papers shown:** 11 (relevance ≥ 2, last 7 days)
+**Papers shown:** 9 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -16,7 +16,7 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Published:** 2026-11-10 | **Categories:** cs.RO | **Relevance:** ★★★★☆
 
-**Why surfaced:** "egocentric human" in title; 3 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "egocentric human" in title; 3 distinct keyword hits; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.13610) | [PDF](https://arxiv.org/pdf/2611.13610) | [Project Page](https://mikewu597.github.io/Ego2Robot_Learning/)
 
@@ -51,7 +51,7 @@ Project page: https://mikewu597.github.io/Ego2Robot_Learning/
 
 **Published:** 2026-11-10 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.13685) | [PDF](https://arxiv.org/pdf/2611.13685) | [Project Page](https://llong-cs.github.io/EgoGuidance)
 
@@ -150,40 +150,6 @@ Project page: https://bitrobot-foundation.github.io/robomocap/
 
 ---
 
-### [Hand-Object Contact Transition Detection in Egocentric Video](https://arxiv.org/abs/2611.13486)
-
-**Authors:** Huy Anh Nguyen, Chang Dong, Feras Dayoub, Minh Hoai
-
-**Published:** 2026-11-10 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.13486) | [PDF](https://arxiv.org/pdf/2611.13486)
-
-<details>
-<summary>Abstract</summary>
-
-This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an object (touch) and the moment contact is released (release). We propose a unified framework that jointly models the interacting hand and object to accurately localize both transition types. The proposed framework augments hand-centric spatiotemporal representations with object-aware features learned directly from the video and introduces a transition-aware event spotting formulat...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Hand-Object Contact Transition Detection in Egocentric Video
-
-This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an...
-
-arXiv: https://arxiv.org/abs/2611.13486
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)
 
 **Authors:** Ziqi Wang, Su Chen, Qiance Tang, Jieyu Lin, Ziyun Li et al. (7 authors)
@@ -219,20 +185,20 @@ Project page: https://sai-lab-nyu.github.io/utopi/
 
 ---
 
-### [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
+### [Hand-Object Contact Transition Detection in Egocentric Video](https://arxiv.org/abs/2611.13486)
 
-**Authors:** Liuchuan Yu
+**Authors:** Huy Anh Nguyen, Chang Dong, Feras Dayoub, Minh Hoai
 
-**Published:** 2026-11-05 | **Categories:** cs.RO, cs.HC | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-10 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric demonstration" in title
+**Why surfaced:** "egocentric video" in title
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.07272) | [PDF](https://arxiv.org/pdf/2611.07272)
+**Links:** [arXiv](https://arxiv.org/abs/2611.13486) | [PDF](https://arxiv.org/pdf/2611.13486)
 
 <details>
 <summary>Abstract</summary>
 
-VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra. On-device head and hand tracking and stereo object localisation allow the operator to begin a demonstration at the table. We adapt HumanEgo's preprocessing to estimate grasp thresholds per recording, update object positions after release, and propagate segmentation masks between keyframes. We evaluate policies in simulation on two tabletop tasks recorded by one operator. For cube placement, we compare PICO and Project Aria recordings of t...
+This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an object (touch) and the moment contact is released (release). We propose a unified framework that jointly models the interacting hand and object to accurately localize both transition types. The proposed framework augments hand-centric spatiotemporal representations with object-aware features learned directly from the video and introduces a transition-aware event spotting formulat...
 
 </details>
 
@@ -240,11 +206,11 @@ VREgo trains manipulation policies from demonstrations recorded on consumer VR h
 <summary>Share</summary>
 
 ```
-VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+Hand-Object Contact Transition Detection in Egocentric Video
 
-VREgo trains manipulation policies from demonstrations recorded on consumer VR headsets; we instantiate it with EgoKit on one such headset, the PICO 4 Ultra.
+This paper tackles the task of hand-object contact transition detection in egocentric video, which aims to localize the two temporal boundaries of a contact episode: the moment a hand first establishes contact with an...
 
-arXiv: https://arxiv.org/abs/2611.07272
+arXiv: https://arxiv.org/abs/2611.13486
 
 #egocentric #robotlearning
 ```
@@ -347,40 +313,6 @@ TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillati
 Egocentric video captures human-object interaction at scale but rarely includes tactile labels for hidden contact and pressure.
 
 arXiv: https://arxiv.org/abs/2611.09129
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Egocentric Action Recognition with Objects and Vision-Language Affordances](https://arxiv.org/abs/2611.07673)
-
-**Authors:** Raúl Boix-Aldeguer, Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez
-
-**Published:** 2026-11-05 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.07673) | [PDF](https://arxiv.org/pdf/2611.07673)
-
-<details>
-<summary>Abstract</summary>
-
-Action recognition, and more specifically egocentric action recognition, is a core task in computer vision, with applications such as monitoring the daily life activities of elderly people and task assistance. Recent methods rely on visual modalities such as RGB video or depth. However, in egocentric video, an action is largely defined by its objects, which these methods rarely model. We propose a method that combines a frozen SlowFast video expert with an attention-based object expert by late fusion. Each object is represented with its affordances, that is, what can be done with it, generated...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Egocentric Action Recognition with Objects and Vision-Language Affordances
-
-Action recognition, and more specifically egocentric action recognition, is a core task in computer vision, with applications such as monitoring the daily life activities of elderly people and task assistance.
-
-arXiv: https://arxiv.org/abs/2611.07673
 
 #egocentric #robotlearning
 ```

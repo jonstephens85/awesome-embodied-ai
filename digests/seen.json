@@ -10666,5 +10666,47 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.14815": {
+    "first_seen": "2026-11-13",
+    "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14834": {
+    "first_seen": "2026-11-13",
+    "title": "Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.14880": {
+    "first_seen": "2026-11-13",
+    "title": "FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14955": {
+    "first_seen": "2026-11-13",
+    "title": "The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.14969": {
+    "first_seen": "2026-11-13",
+    "title": "Scaling VLA Serving Under Robotic Execution Constraints",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.15011": {
+    "first_seen": "2026-11-13",
+    "title": "Fast Inference-Time Policy Refinement via Action-Affine World Models",
+    "topics": [
+      "world_models"
+    ]
   }
 }
