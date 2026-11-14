@@ -2,46 +2,11 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-13 21:48 UTC
+**Last updated:** 2026-11-14 01:53 UTC
 
-**Papers shown:** 55 (relevance ≥ 2, last 7 days)
+**Papers shown:** 45 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [Scaling VLA Serving Under Robotic Execution Constraints](https://arxiv.org/abs/2611.14969)
-
-**Authors:** Yue Zhang, Zicong Ye, Lufang Chen, Dance Yang, Mingyang Li et al. (17 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.RO, cs.DC | **Relevance:** ★★★★☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.14969) | [PDF](https://arxiv.org/pdf/2611.14969) | [Code](https://github.com/X-Square-Robot/xinfer)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation. In our production setting, hundreds of VLA-powered robots are already operating in real-world environments, creating an immediate need for efficient fleet serving. We present XInfer, a production-deployed VLA serving system designed to reduce the inference infrastructure cost of large-scale robotic deployments. XInfer jointly coordinates heterogeneous VLA computation with the evolving response requirements of robotic execution. By exploiting computational parallelism while managin...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Scaling VLA Serving Under Robotic Execution Constraints
-
-Vision-language-action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation.
-
-arXiv: https://arxiv.org/abs/2611.14969
-Code: https://github.com/X-Square-Robot/xinfer
-
-#VLA #robotics
-```
-
-</details>
 
 ---
 
@@ -221,20 +186,20 @@ Project page: https://see-want.github.io/
 
 ---
 
-### [MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes](https://arxiv.org/abs/2611.15937)
+### [Scaling VLA Serving Under Robotic Execution Constraints](https://arxiv.org/abs/2611.14969)
 
-**Authors:** Richard Shi, Mohammad Mahdavian, Mehrdad Momeni Zadeh, Mohammed Elmahgiubi, Amir Rasouli
+**Authors:** Yue Zhang, Zicong Ye, Lufang Chen, Dance Yang, Mingyang Li et al. (17 authors)
 
-**Published:** 2026-11-11 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-11-11 | **Categories:** cs.RO, cs.DC | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; code repo
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15937) | [PDF](https://arxiv.org/pdf/2611.15937) | [Project Page](https://mmahdavian.github.io/MOSAIC/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.14969) | [PDF](https://arxiv.org/pdf/2611.14969) | [Code](https://github.com/X-Square-Robot/xinfer)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet most rely primarily on 2D visual observations and language instructions, leaving scene geometry and obstacle relationships to be inferred implicitly. This limitation is particularly problematic in cluttered environments, where small spatial errors can lead to unintended contacts or collisions. We propose MOSAIC, a modular spatial- and obstacle-aware framework that can be integrated with pretrained VLA policies to improve object-level scene understanding and action generation. Our method augmen...
+Vision-language-action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation. In our production setting, hundreds of VLA-powered robots are already operating in real-world environments, creating an immediate need for efficient fleet serving. We present XInfer, a production-deployed VLA serving system designed to reduce the inference infrastructure cost of large-scale robotic deployments. XInfer jointly coordinates heterogeneous VLA computation with the evolving response requirements of robotic execution. By exploiting computational parallelism while managin...
 
 </details>
 
@@ -242,82 +207,12 @@ Vision-Language-Action (VLA) models have demonstrated strong performance in robo
 <summary>Share</summary>
 
 ```
-MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes
+Scaling VLA Serving Under Robotic Execution Constraints
 
-Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet most rely primarily on 2D visual observations and language instructions, leaving scene geometry and obstacle relati...
+Vision-language-action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation.
 
-arXiv: https://arxiv.org/abs/2611.15937
-Project page: https://mmahdavian.github.io/MOSAIC/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [ActionCodec2: A Streaming Action Tokenizer](https://arxiv.org/abs/2611.15490)
-
-**Authors:** Zibin Dong, Yicheng Liu, Shiduo Zhang, Tianyuan Yuan, Baijun Ye et al. (7 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15490) | [PDF](https://arxiv.org/pdf/2611.15490) | [Project Page](https://zibindong.github.io/actioncodec2-page/)
-
-<details>
-<summary>Abstract</summary>
-
-Most action tokenizers for autoregressive vision language action (VLA) models compress motion into chunks that must be decoded in full before their actions become executable. We introduce ActionCodec2, a non-neural streaming tokenizer that releases actions incrementally while keeping trajectory reconstruction error within a prescribed tolerance. Its encoder quantizes each step relative to the decoder's reconstructed state, so the selected motion primitive corrects residual error rather than allowing errors from independently quantized increments to accumulate. Finding the smallest such primiti...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ActionCodec2: A Streaming Action Tokenizer
-
-Most action tokenizers for autoregressive vision language action (VLA) models compress motion into chunks that must be decoded in full before their actions become executable.
-
-arXiv: https://arxiv.org/abs/2611.15490
-Project page: https://zibindong.github.io/actioncodec2-page/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning](https://arxiv.org/abs/2611.15381)
-
-**Authors:** Sven Schreiber, Bernard Burdiek, Lasse Huber-Saffer, Yung-Hui Li, Donglin Chen et al. (7 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15381) | [PDF](https://arxiv.org/pdf/2611.15381) | [Project Page](https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models have shown promising capabilities for robot manipulation, but their performance on accessible mobile bimanual platforms remains underexplored. We present a low-cost and reproducible mobile bimanual platform integrating two LeRobot SO-101 manipulators with a TurtleBot 4 and a LeRobot-ROS 2 software stack. Using long-horizon toilet cleaning as a case study, we collect 250 real-world demonstrations and evaluate $π_0$, $π_{0.5}$, SmolVLA, and GR00T under the same embodiment and task conditions. We further evaluate variants using SARM-derived task-progress signal...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning
-
-Vision-Language-Action (VLA) models have shown promising capabilities for robot manipulation, but their performance on accessible mobile bimanual platforms remains underexplored.
-
-arXiv: https://arxiv.org/abs/2611.15381
-Project page: https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/
+arXiv: https://arxiv.org/abs/2611.14969
+Code: https://github.com/X-Square-Robot/xinfer
 
 #VLA #robotics
 ```
@@ -396,76 +291,6 @@ Project page: https://sff-research.org
 
 ---
 
-### [On Agentic Manipulation Policies](https://arxiv.org/abs/2611.09892)
-
-**Authors:** Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi et al. (13 authors)
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.AI, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 3 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.09892) | [PDF](https://arxiv.org/pdf/2611.09892) | [Project Page](https://apple-aiml-research.github.io/ml-amp/)
-
-<details>
-<summary>Abstract</summary>
-
-Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-On Agentic Manipulation Policies
-
-Recent work on robot manipulation has focused on specialist policies trained on demonstrations.
-
-arXiv: https://arxiv.org/abs/2611.09892
-Project page: https://apple-aiml-research.github.io/ml-amp/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041)
-
-**Authors:** Shengjun Deng, Yinghan Zhang, Chengrui Wei, Liu Liang, Songyuan Liu et al. (11 authors)
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.09041) | [PDF](https://arxiv.org/pdf/2611.09041) | [Code](https://github.com/Dobot-Team/dobot_track)
-
-<details>
-<summary>Abstract</summary>
-
-Language-guided embodied person tracking requires a mobile agent to identify a target from a referring description and consistently follow the target under egocentric observations. We present DobotTrack, a target-grounded vision-language-action (VLA) framework that integrates auxiliary grounding supervision with efficient temporal modeling. We systematically investigate five auxiliary tasks---person segmentation, bounding-box grounding, visual-spatial classification (VSC), future DINO feature prediction, and future-frame prediction---and adopt complementary mask and bounding-box supervision to...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
-
-Language-guided embodied person tracking requires a mobile agent to identify a target from a referring description and consistently follow the target under egocentric observations.
-
-arXiv: https://arxiv.org/abs/2611.09041
-Code: https://github.com/Dobot-Team/dobot_track
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation](https://arxiv.org/abs/2611.16246)
 
 **Authors:** Jinze Tao, Yuxiao Han, Kangkang Dong, Yancong Wei, Xiaojun Zhu et al. (7 authors)
@@ -500,20 +325,20 @@ arXiv: https://arxiv.org/abs/2611.16246
 
 ---
 
-### [What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation](https://arxiv.org/abs/2611.15491)
+### [MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes](https://arxiv.org/abs/2611.15937)
 
-**Authors:** Zhuoyue Li, Zhendong Han, Pankhuri Vanjani, Wenting Li, Rudolf Lioutikov
+**Authors:** Richard Shi, Mohammad Mahdavian, Mehrdad Momeni Zadeh, Mohammed Elmahgiubi, Amir Rasouli
 
-**Published:** 2026-11-11 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-11-11 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.15491) | [PDF](https://arxiv.org/pdf/2611.15491)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15937) | [PDF](https://arxiv.org/pdf/2611.15937) | [Project Page](https://mmahdavian.github.io/MOSAIC/)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) models predict chunks of future actions, and when objects move, those chunks go stale before they are executed. We study what makes a pretrained VLA reactive, using \pihalf{} on two dynamic simulation benchmarks and three real-robot tasks. We vary the prediction and execution horizons, compare synchronous and asynchronous inference, test methods that deliver actions sooner or keep successive chunks continuous, and adapt the policy with motion cues and latent-space reinforcement learning. The best prediction horizon is about one second, and the best execution horizo...
+Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet most rely primarily on 2D visual observations and language instructions, leaving scene geometry and obstacle relationships to be inferred implicitly. This limitation is particularly problematic in cluttered environments, where small spatial errors can lead to unintended contacts or collisions. We propose MOSAIC, a modular spatial- and obstacle-aware framework that can be integrated with pretrained VLA policies to improve object-level scene understanding and action generation. Our method augmen...
 
 </details>
 
@@ -521,11 +346,82 @@ Vision-language-action (VLA) models predict chunks of future actions, and when o
 <summary>Share</summary>
 
 ```
-What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation
+MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes
 
-Vision-language-action (VLA) models predict chunks of future actions, and when objects move, those chunks go stale before they are executed.
+Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet most rely primarily on 2D visual observations and language instructions, leaving scene geometry and obstacle relati...
 
-arXiv: https://arxiv.org/abs/2611.15491
+arXiv: https://arxiv.org/abs/2611.15937
+Project page: https://mmahdavian.github.io/MOSAIC/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [ActionCodec2: A Streaming Action Tokenizer](https://arxiv.org/abs/2611.15490)
+
+**Authors:** Zibin Dong, Yicheng Liu, Shiduo Zhang, Tianyuan Yuan, Baijun Ye et al. (7 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15490) | [PDF](https://arxiv.org/pdf/2611.15490) | [Project Page](https://zibindong.github.io/actioncodec2-page/)
+
+<details>
+<summary>Abstract</summary>
+
+Most action tokenizers for autoregressive vision language action (VLA) models compress motion into chunks that must be decoded in full before their actions become executable. We introduce ActionCodec2, a non-neural streaming tokenizer that releases actions incrementally while keeping trajectory reconstruction error within a prescribed tolerance. Its encoder quantizes each step relative to the decoder's reconstructed state, so the selected motion primitive corrects residual error rather than allowing errors from independently quantized increments to accumulate. Finding the smallest such primiti...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ActionCodec2: A Streaming Action Tokenizer
+
+Most action tokenizers for autoregressive vision language action (VLA) models compress motion into chunks that must be decoded in full before their actions become executable.
+
+arXiv: https://arxiv.org/abs/2611.15490
+Project page: https://zibindong.github.io/actioncodec2-page/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning](https://arxiv.org/abs/2611.15381)
+
+**Authors:** Sven Schreiber, Bernard Burdiek, Lasse Huber-Saffer, Yung-Hui Li, Donglin Chen et al. (7 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15381) | [PDF](https://arxiv.org/pdf/2611.15381) | [Project Page](https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-Language-Action (VLA) models have shown promising capabilities for robot manipulation, but their performance on accessible mobile bimanual platforms remains underexplored. We present a low-cost and reproducible mobile bimanual platform integrating two LeRobot SO-101 manipulators with a TurtleBot 4 and a LeRobot-ROS 2 software stack. Using long-horizon toilet cleaning as a case study, we collect 250 real-world demonstrations and evaluate $π_0$, $π_{0.5}$, SmolVLA, and GR00T under the same embodiment and task conditions. We further evaluate variants using SARM-derived task-progress signal...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning
+
+Vision-Language-Action (VLA) models have shown promising capabilities for robot manipulation, but their performance on accessible mobile bimanual platforms remains underexplored.
+
+arXiv: https://arxiv.org/abs/2611.15381
+Project page: https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/
 
 #VLA #robotics
 ```
@@ -742,40 +638,6 @@ Project page: https://kimodo-policy.github.io/
 
 ---
 
-### [ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.08827)
-
-**Authors:** Sungwon Moon, Minji Kim, Hyemin Boo, Daeun Song, Jiyoung Lee
-
-**Published:** 2026-11-06 (updated 2026-11-11) | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.08827) | [PDF](https://arxiv.org/pdf/2611.08827)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models perform versatile manipulation tasks from language instructions, but their inference cost limits how fast a robot can respond in closed-loop control. Visual token pruning reduces this cost; however, prior methods estimate token redundancy from encoded visual embeddings or attention, only after the visual encoder has processed the entire observation. We propose ActPrune, a training-free token pruning method that moves the pruning decision ahead of the vision encoder by grounding it in a geometric prior derived from the robot's own action. The action chunk pre...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models
-
-Vision-language-action (VLA) models perform versatile manipulation tasks from language instructions, but their inference cost limits how fast a robot can respond in closed-loop control.
-
-arXiv: https://arxiv.org/abs/2611.08827
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030)
 
 **Authors:** Xiaoyang Xing, Chun-Mei Feng, Anthony Cohn, Xiaoliang Gong, Asoke Nandi
@@ -844,20 +706,20 @@ arXiv: https://arxiv.org/abs/2611.11136
 
 ---
 
-### [HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes](https://arxiv.org/abs/2611.09355)
+### [What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation](https://arxiv.org/abs/2611.15491)
 
-**Authors:** Boran Zhao, Yanbin Hu, Jun Ye, Zhenxian Hu, Yuxin Zhai et al. (7 authors)
+**Authors:** Zhuoyue Li, Zhendong Han, Pankhuri Vanjani, Wenting Li, Rudolf Lioutikov
 
-**Published:** 2026-11-06 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-11 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.09355) | [PDF](https://arxiv.org/pdf/2611.09355)
+**Links:** [arXiv](https://arxiv.org/abs/2611.15491) | [PDF](https://arxiv.org/pdf/2611.15491)
 
 <details>
 <summary>Abstract</summary>
 
-Memory plays a crucial role in long-horizon task execution and cross-task generalization for Vision-Language-Action (VLA) models operating in complex 3D scenes. However, existing VLA memory mechanisms suffer from memory noise, particularly in complex 3D scenes, as stored episodic memories contain extensive redundant details about scene layouts, object configurations, and robot-specific states, which obscure generalizable manipulation principles and hinder cross-task transfer. To address this challenge, we first introduce a hippocampus-inspired memory consolidation mechanism that synthesizes ex...
+Vision-language-action (VLA) models predict chunks of future actions, and when objects move, those chunks go stale before they are executed. We study what makes a pretrained VLA reactive, using \pihalf{} on two dynamic simulation benchmarks and three real-robot tasks. We vary the prediction and execution horizons, compare synchronous and asynchronous inference, test methods that deliver actions sooner or keep successive chunks continuous, and adapt the policy with motion cues and latent-space reinforcement learning. The best prediction horizon is about one second, and the best execution horizo...
 
 </details>
 
@@ -865,45 +727,11 @@ Memory plays a crucial role in long-horizon task execution and cross-task genera
 <summary>Share</summary>
 
 ```
-HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes
+What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation
 
-Memory plays a crucial role in long-horizon task execution and cross-task generalization for Vision-Language-Action (VLA) models operating in complex 3D scenes.
+Vision-language-action (VLA) models predict chunks of future actions, and when objects move, those chunks go stale before they are executed.
 
-arXiv: https://arxiv.org/abs/2611.09355
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117)
-
-**Authors:** Heng Li, Yang Li, Yifan Duan, Ren Fang, Matao Duan et al. (9 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15117) | [PDF](https://arxiv.org/pdf/2611.15117)
-
-<details>
-<summary>Abstract</summary>
-
-Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base. At the task level, short-horizon end-effector (EE) trajectories provide an interface for specifying the desired manipulation motion without prescribing how it should be realized by the arm and base. However, executing such trajectories remains challenging because the controller must determine when and how the base should move, and this decision depends on the mounted-arm morphology. We therefore present PolyMorphWBC, a hierarchical controller that takes an EE trajectory...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
-
-Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base.
-
-arXiv: https://arxiv.org/abs/2611.15117
+arXiv: https://arxiv.org/abs/2611.15491
 
 #VLA #robotics
 ```
@@ -1255,190 +1083,20 @@ arXiv: https://arxiv.org/abs/2611.10872
 
 ---
 
-### [SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning](https://arxiv.org/abs/2611.09684)
+### [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117)
 
-**Authors:** Jingye Zhang, Choo Sin Wai, Dake Zhong, Zhifang Liu, Yuhong Zhang et al. (11 authors)
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.09684) | [PDF](https://arxiv.org/pdf/2611.09684)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) policies have become a promising paradigm for end-to-end robot control, but their effectiveness still depends heavily on large volumes of demonstration data. In manipulation tasks, this dependence is compounded by structured spatiotemporal uncertainty in the action space: multiple nearby actions or trajectories may successfully solve the same task, while semantically equivalent demonstrations often unfold at different speeds. Standard pointwise supervision treats each demonstrated action as an exact target, imposing an unnecessary learning burden under such uncerta...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
-
-Vision-language-action (VLA) policies have become a promising paradigm for end-to-end robot control, but their effectiveness still depends heavily on large volumes of demonstration data.
-
-arXiv: https://arxiv.org/abs/2611.09684
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models](https://arxiv.org/abs/2611.08987)
-
-**Authors:** Takayuki Nishio
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.LG, cs.NI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.08987) | [PDF](https://arxiv.org/pdf/2611.08987)
-
-<details>
-<summary>Abstract</summary>
-
-Large vision-language-action (VLA) models generalize well but are difficult to run in real time on a robot, and small VLAs that run there fail more often. Remote inference over beyond-5G and 6G networks lets a robot use a large VLA on a server, but querying the server for every action chunk limits the number of robots per server. We propose VLA handover: the robot runs a small VLA (S-VLA) and switches to a large VLA (L-VLA) on a server only when the S-VLA is likely to fail. We formulate the switching as minimizing the request cost under a required success probability and, since this problem ca...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
-
-Large vision-language-action (VLA) models generalize well but are difficult to run in real time on a robot, and small VLAs that run there fail more often.
-
-arXiv: https://arxiv.org/abs/2611.08987
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation](https://arxiv.org/abs/2611.08917)
-
-**Authors:** Jiachen Tao, Gengyu Zhang, Haoxuan Wang, Bing Liu, Yan Yan
-
-**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.08917) | [PDF](https://arxiv.org/pdf/2611.08917)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language-Action (VLA) models promise a single language-conditioned policy adaptable to many manipulation behaviors, yet deployment additionally requires skill retention and long-horizon composition: a policy must retain previously acquired skills and reuse them inside composite tasks whose behavior changes across phases. The standard recipe absorbs every new task into one shared update, which provides neither a parameter-level locus for reusable skills nor a mechanism for invoking each skill along the trajectory. We observe that this missing structure is latent rather than absent: per-s...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
-
-Vision-Language-Action (VLA) models promise a single language-conditioned policy adaptable to many manipulation behaviors, yet deployment additionally requires skill retention and long-horizon composition: a policy mu...
-
-arXiv: https://arxiv.org/abs/2611.08917
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Localizing and Editing the Goal Representation of a Vision-Language-Action Model](https://arxiv.org/abs/2611.08895)
-
-**Authors:** Sudhanshu Srivastava, Faisal Aqlan
-
-**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.08895) | [PDF](https://arxiv.org/pdf/2611.08895)
-
-<details>
-<summary>Abstract</summary>
-
-Operators can state safety constraints for robots as prohibitions such as "do not put the bowl on the stove". We study whether OpenVLA follows such prohibitions and where it represents the goal it executes. The 10 tasks of LIBEROGoal share one scene, so we can label the goal that each rollout executes. We combine closed-loop rollouts with activation patching, linear probes, activation steering and runtime monitors. On LIBERO-Goal, negation had no detectable effect on which task OpenVLA executed. The model executed the forbidden task in 79% of negated rollouts and completed 78% of plain tasks....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Localizing and Editing the Goal Representation of a Vision-Language-Action Model
-
-Operators can state safety constraints for robots as prohibitions such as "do not put the bowl on the stove".
-
-arXiv: https://arxiv.org/abs/2611.08895
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [CARE-Drive: Coupled Alternating Refinement for Ego-trajectories](https://arxiv.org/abs/2611.15360)
-
-**Authors:** Xiao Ma, Yijun Chen, Zhiquan Hu, Jicheng Zhao, Yuming Li et al. (6 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15360) | [PDF](https://arxiv.org/pdf/2611.15360)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language-action (VLA) models bring multimodal understanding and world knowledge to end-to-end autonomous driving. To further improve the quality of predicted trajectories, existing studies introduce candidate refinement, residual denoising, and token correction. However, these methods typically focus on unified refinement of the entire trajectory, paying limited attention to the distinct physical quantities and their interactions. We further investigate physical specialization and coordination in trajectory refinement, centering on position and heading for simpler and more intuitive cor...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-CARE-Drive: Coupled Alternating Refinement for Ego-trajectories
-
-Vision-language-action (VLA) models bring multimodal understanding and world knowledge to end-to-end autonomous driving.
-
-arXiv: https://arxiv.org/abs/2611.15360
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction](https://arxiv.org/abs/2611.15651)
-
-**Authors:** Miao Pan, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li et al. (7 authors)
+**Authors:** Heng Li, Yang Li, Yifan Duan, Ren Fang, Matao Duan et al. (9 authors)
 
 **Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "VLA" in abstract; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.15651) | [PDF](https://arxiv.org/pdf/2611.15651)
+**Links:** [arXiv](https://arxiv.org/abs/2611.15117) | [PDF](https://arxiv.org/pdf/2611.15117)
 
 <details>
 <summary>Abstract</summary>
 
-Multimodal large language models are regarded as the cognitive foundation of embodied intelligence, but planning from instructions alone cannot make them reliable. During execution, actions deviate from intended effects, constrained by the embodiment and environment. An embodied brain must understand why execution deviates, identify what can be reliably realized, and revise decisions using interaction experience. These correspond to causal failure localization, capability-constrained adaptation, and experience-driven revision. Current embodied foundation models largely lack these capabilities....
+Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base. At the task level, short-horizon end-effector (EE) trajectories provide an interface for specifying the desired manipulation motion without prescribing how it should be realized by the arm and base. However, executing such trajectories remains challenging because the controller must determine when and how the base should move, and this decision depends on the mounted-arm morphology. We therefore present PolyMorphWBC, a hierarchical controller that takes an EE trajectory...
 
 </details>
 
@@ -1446,11 +1104,11 @@ Multimodal large language models are regarded as the cognitive foundation of emb
 <summary>Share</summary>
 
 ```
-Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
 
-Multimodal large language models are regarded as the cognitive foundation of embodied intelligence, but planning from instructions alone cannot make them reliable.
+Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base.
 
-arXiv: https://arxiv.org/abs/2611.15651
+arXiv: https://arxiv.org/abs/2611.15117
 
 #VLA #robotics
 ```
@@ -1629,20 +1287,20 @@ arXiv: https://arxiv.org/abs/2611.11089
 
 ---
 
-### [ODEAction: From Predicting Chunks to Evolving Actions](https://arxiv.org/abs/2611.09672)
+### [CARE-Drive: Coupled Alternating Refinement for Ego-trajectories](https://arxiv.org/abs/2611.15360)
 
-**Authors:** Qishen Wang, Pengxiang Ding, Shifeng Bao, Mingyang Sun, Hengtao Li et al. (17 authors)
+**Authors:** Xiao Ma, Yijun Chen, Zhiquan Hu, Jicheng Zhao, Yuming Li et al. (6 authors)
 
-**Published:** 2026-11-06 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-11 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.09672) | [PDF](https://arxiv.org/pdf/2611.09672)
+**Links:** [arXiv](https://arxiv.org/abs/2611.15360) | [PDF](https://arxiv.org/pdf/2611.15360)
 
 <details>
 <summary>Abstract</summary>
 
-Vision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries. We propose ODEAction, a chunk-free action generation paradigm that replaces action chunk prediction with Continuous Action Evolution. We use an ordinary differential equation (ODE) to describe the continuous evolution of actions, and define the vector field of this ODE as the Action Transition Field to characterize how actions evolve with respect to evolution time. During inference, the mo...
+Vision-language-action (VLA) models bring multimodal understanding and world knowledge to end-to-end autonomous driving. To further improve the quality of predicted trajectories, existing studies introduce candidate refinement, residual denoising, and token correction. However, these methods typically focus on unified refinement of the entire trajectory, paying limited attention to the distinct physical quantities and their interactions. We further investigate physical specialization and coordination in trajectory refinement, centering on position and heading for simpler and more intuitive cor...
 
 </details>
 
@@ -1650,11 +1308,11 @@ Vision-language-action (VLA) models typically generate actions in chunks, dividi
 <summary>Share</summary>
 
 ```
-ODEAction: From Predicting Chunks to Evolving Actions
+CARE-Drive: Coupled Alternating Refinement for Ego-trajectories
 
-Vision-language-action (VLA) models typically generate actions in chunks, dividing continuous robot execution into separately predicted action chunks, which can introduce discontinuities at chunk boundaries.
+Vision-language-action (VLA) models bring multimodal understanding and world knowledge to end-to-end autonomous driving.
 
-arXiv: https://arxiv.org/abs/2611.09672
+arXiv: https://arxiv.org/abs/2611.15360
 
 #VLA #robotics
 ```
@@ -1723,6 +1381,40 @@ Look Ahead: Search-Driven Reasoning in Embodied AI
 Search allows a robotic policy to evaluate candidate futures before committing to an action.
 
 arXiv: https://arxiv.org/abs/2611.10769
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction](https://arxiv.org/abs/2611.15651)
+
+**Authors:** Miao Pan, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li et al. (7 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "VLA" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.15651) | [PDF](https://arxiv.org/pdf/2611.15651)
+
+<details>
+<summary>Abstract</summary>
+
+Multimodal large language models are regarded as the cognitive foundation of embodied intelligence, but planning from instructions alone cannot make them reliable. During execution, actions deviate from intended effects, constrained by the embodiment and environment. An embodied brain must understand why execution deviates, identify what can be reliably realized, and revise decisions using interaction experience. These correspond to causal failure localization, capability-constrained adaptation, and experience-driven revision. Current embodied foundation models largely lack these capabilities....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+Multimodal large language models are regarded as the cognitive foundation of embodied intelligence, but planning from instructions alone cannot make them reliable.
+
+arXiv: https://arxiv.org/abs/2611.15651
 
 #VLA #robotics
 ```
@@ -1825,40 +1517,6 @@ When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary
 Advances in spatial understanding have enabled frontier models to power coding agents that control a real robot arm zero-shot and end-to-end, without task-specific demonstrations or retraining.
 
 arXiv: https://arxiv.org/abs/2611.11438
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376)
-
-**Authors:** Jusheng Zhang, Keze Wang, Liang Lin
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "VLA" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.09376) | [PDF](https://arxiv.org/pdf/2611.09376)
-
-<details>
-<summary>Abstract</summary>
-
-A language model can repair a robot policy's lexical instruction grounding by editing just 65 token-embedding rows. We bring weight-space programming to robot foundation policies: GPT-6 Astra reads weights and uses a CPU workspace and budgeted simulator feedback, without gradient updates or new demonstrations. Three independent sessions on $π_{0.5}$ all improve success on 765 held-out paraphrases; the best raises success from 86.3\% to 92.0\% (48 repairs, four regressions; exact paired $p=1.31\times10^{-10}$). Among the 335 instructions containing edited tokens, success rises from 74.3\% to 87...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Can LLMs Debug Robots by Editing Their Weights?
-
-A language model can repair a robot policy's lexical instruction grounding by editing just 65 token-embedding rows.
-
-arXiv: https://arxiv.org/abs/2611.09376
 
 #VLA #robotics
 ```

@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-13 21:48 UTC
+**Last updated:** 2026-11-14 01:53 UTC
 
-**Papers shown:** 53 (relevance ≥ 2, last 7 days)
+**Papers shown:** 48 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -81,41 +81,6 @@ Code: https://github.com/hideinsewer/WARP-JEPA
 
 ---
 
-### [What World Model Does Active Object Search Need? A Study under Imperfect Detection](https://arxiv.org/abs/2611.15689)
-
-**Authors:** Kyeongryeol Go
-
-**Published:** 2026-11-11 | **Categories:** cs.RO, eess.SY | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15689) | [PDF](https://arxiv.org/pdf/2611.15689) | [Code](https://github.com/gokyeongryeol/BAMOS)
-
-<details>
-<summary>Abstract</summary>
-
-In active object search, a robot must decide where to look and when to stop. Imperfect detection complicates both decisions: a non-detection may indicate occlusion, an out-of-view target, or a false negative, while a detection may be a false positive. This raises the question of which representations a world model needs to support reliable search under imperfect detection. We introduce Bayesian Active Miss-aware Object Search (BAMOS) to investigate how target belief, occupancy belief, and detector errors affect search decisions. Through comprehensive ablations in Isaac Sim and HSSD houses, we...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-What World Model Does Active Object Search Need? A Study under Imperfect Detection
-
-In active object search, a robot must decide where to look and when to stop.
-
-arXiv: https://arxiv.org/abs/2611.15689
-Code: https://github.com/gokyeongryeol/BAMOS
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation](https://arxiv.org/abs/2611.11605)
 
 **Authors:** Yunyi Gao, Yixing Shi, Yize Liu, Hai-Duong Tran, Nhat-Hoang P. Nguyen et al. (11 authors)
@@ -143,111 +108,6 @@ Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a
 
 arXiv: https://arxiv.org/abs/2611.11605
 Code: https://github.com/WANGSHUAIzzzz/ScanDreamer
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models](https://arxiv.org/abs/2611.15602)
-
-**Authors:** Qirui Li, Xin Zhang, Yabo Chen, Jinkun Hao, Paul L Rosin et al. (10 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15602) | [PDF](https://arxiv.org/pdf/2611.15602) | [Project Page](https://iapple233.github.io/CCW/)
-
-<details>
-<summary>Abstract</summary>
-
-Multiplayer generative world models must produce observations that agree on shared entities despite different camera motions and occlusions. Explicit world representations provide spatial control, but precise modeling of individual game maps limits scene diversity, while shared geometry alone cannot ensure consistent appearance across views. We present CoCode-World, a shared 3D proxy framework that separates structural control from visual synthesis for two-player video generation. Programmable proxies specify scene layout, motion, and occlusion, while RGB references guide character and scene a...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models
-
-Multiplayer generative world models must produce observations that agree on shared entities despite different camera motions and occlusions.
-
-arXiv: https://arxiv.org/abs/2611.15602
-Project page: https://iapple233.github.io/CCW/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Driving World Models Move the Camera, Not the Scene](https://arxiv.org/abs/2611.15260)
-
-**Authors:** Yuqiao Feng, Xiaoyu Ao
-
-**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15260) | [PDF](https://arxiv.org/pdf/2611.15260) | [Project Page](https://joefeng0571.github.io/retime-compose/)
-
-<details>
-<summary>Abstract</summary>
-
-Plan-conditioned driving world models are used to compare candidate plans, so their forecast should change with the plan as the real scene would, yet widely used control metrics check only whether the camera follows the command. Recorded drives already contain real outcomes of plans that were never driven: retiming a log gives pose-matched images and LiDAR for other speeds, and a stereo rig records a laterally shifted view. Against these references, released world models move their camera but barely move the scene: their scene response, the share of the real change in distance that the forecas...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Driving World Models Move the Camera, Not the Scene
-
-Plan-conditioned driving world models are used to compare candidate plans, so their forecast should change with the plan as the real scene would, yet widely used control metrics check only whether the camera follows t...
-
-arXiv: https://arxiv.org/abs/2611.15260
-Project page: https://joefeng0571.github.io/retime-compose/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Duo: A Reciprocal World Model for Full-Duplex Interaction](https://arxiv.org/abs/2611.15131)
-
-**Authors:** Hengyuan Cao, Biao Gong, Guoshan Lu, Qiyuan Zhang, Lin Liu et al. (20 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.CV, cs.SD | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15131) | [PDF](https://arxiv.org/pdf/2611.15131) | [Project Page](https://duo-v1.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself. In RWM, we identify two equally fundamental capabilities: Intent, which provides the cognition underlying world interactions, and Real...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Duo: A Reciprocal World Model for Full-Duplex Interaction
-
-In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time.
-
-arXiv: https://arxiv.org/abs/2611.15131
-Project page: https://duo-v1.github.io/
 
 #worldmodels #robotics
 ```
@@ -387,6 +247,41 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 arXiv: https://arxiv.org/abs/2611.16422
 Code: https://github.com/fuyichen0725/blinkmimic
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [What World Model Does Active Object Search Need? A Study under Imperfect Detection](https://arxiv.org/abs/2611.15689)
+
+**Authors:** Kyeongryeol Go
+
+**Published:** 2026-11-11 | **Categories:** cs.RO, eess.SY | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15689) | [PDF](https://arxiv.org/pdf/2611.15689) | [Code](https://github.com/gokyeongryeol/BAMOS)
+
+<details>
+<summary>Abstract</summary>
+
+In active object search, a robot must decide where to look and when to stop. Imperfect detection complicates both decisions: a non-detection may indicate occlusion, an out-of-view target, or a false negative, while a detection may be a false positive. This raises the question of which representations a world model needs to support reliable search under imperfect detection. We introduce Bayesian Active Miss-aware Object Search (BAMOS) to investigate how target belief, occupancy belief, and detector errors affect search decisions. Through comprehensive ablations in Isaac Sim and HSSD houses, we...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+What World Model Does Active Object Search Need? A Study under Imperfect Detection
+
+In active object search, a robot must decide where to look and when to stop.
+
+arXiv: https://arxiv.org/abs/2611.15689
+Code: https://github.com/gokyeongryeol/BAMOS
 
 #worldmodels #robotics
 ```
@@ -535,6 +430,111 @@ Project page: https://nus-lins-lab.github.io/ObjectWorld/
 
 ---
 
+### [CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models](https://arxiv.org/abs/2611.15602)
+
+**Authors:** Qirui Li, Xin Zhang, Yabo Chen, Jinkun Hao, Paul L Rosin et al. (10 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15602) | [PDF](https://arxiv.org/pdf/2611.15602) | [Project Page](https://iapple233.github.io/CCW/)
+
+<details>
+<summary>Abstract</summary>
+
+Multiplayer generative world models must produce observations that agree on shared entities despite different camera motions and occlusions. Explicit world representations provide spatial control, but precise modeling of individual game maps limits scene diversity, while shared geometry alone cannot ensure consistent appearance across views. We present CoCode-World, a shared 3D proxy framework that separates structural control from visual synthesis for two-player video generation. Programmable proxies specify scene layout, motion, and occlusion, while RGB references guide character and scene a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models
+
+Multiplayer generative world models must produce observations that agree on shared entities despite different camera motions and occlusions.
+
+arXiv: https://arxiv.org/abs/2611.15602
+Project page: https://iapple233.github.io/CCW/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Driving World Models Move the Camera, Not the Scene](https://arxiv.org/abs/2611.15260)
+
+**Authors:** Yuqiao Feng, Xiaoyu Ao
+
+**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15260) | [PDF](https://arxiv.org/pdf/2611.15260) | [Project Page](https://joefeng0571.github.io/retime-compose/)
+
+<details>
+<summary>Abstract</summary>
+
+Plan-conditioned driving world models are used to compare candidate plans, so their forecast should change with the plan as the real scene would, yet widely used control metrics check only whether the camera follows the command. Recorded drives already contain real outcomes of plans that were never driven: retiming a log gives pose-matched images and LiDAR for other speeds, and a stereo rig records a laterally shifted view. Against these references, released world models move their camera but barely move the scene: their scene response, the share of the real change in distance that the forecas...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Driving World Models Move the Camera, Not the Scene
+
+Plan-conditioned driving world models are used to compare candidate plans, so their forecast should change with the plan as the real scene would, yet widely used control metrics check only whether the camera follows t...
+
+arXiv: https://arxiv.org/abs/2611.15260
+Project page: https://joefeng0571.github.io/retime-compose/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Duo: A Reciprocal World Model for Full-Duplex Interaction](https://arxiv.org/abs/2611.15131)
+
+**Authors:** Hengyuan Cao, Biao Gong, Guoshan Lu, Qiyuan Zhang, Lin Liu et al. (20 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.CV, cs.SD | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.15131) | [PDF](https://arxiv.org/pdf/2611.15131) | [Project Page](https://duo-v1.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself. In RWM, we identify two equally fundamental capabilities: Intent, which provides the cognition underlying world interactions, and Real...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Duo: A Reciprocal World Model for Full-Duplex Interaction
+
+In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time.
+
+arXiv: https://arxiv.org/abs/2611.15131
+Project page: https://duo-v1.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting](https://arxiv.org/abs/2611.11912)
 
 **Authors:** Zhimin Liao, Ping Wei, Kai Mao, Shuaijia Chen
@@ -597,178 +597,6 @@ World models enable planning through internal simulation, while natural language
 
 arXiv: https://arxiv.org/abs/2611.10392
 Code: https://github.com/UWMILab/Tiresias
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Prediction or Persistence? What Future-Prediction Scores Miss About World Models](https://arxiv.org/abs/2611.15082)
-
-**Authors:** Animesh Maheshwari
-
-**Published:** 2026-11-11 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Also relevant to:** Egocentric Data
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15082) | [PDF](https://arxiv.org/pdf/2611.15082)
-
-<details>
-<summary>Abstract</summary>
-
-Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores. On its own, such a score cannot be read as evidence of prediction, because it mixes encoder quality, the near future's resemblance to the recent past, and the predictor's own contribution. We separate the three with a matched control. On 27,000 future-retrieval trials from household egocentric video, a model must pick the true continuation of a clip among eleven candidates from the same video (chance 0.091), ranked zero-shot by its own training criterion. Each model is pa...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Prediction or Persistence? What Future-Prediction Scores Miss About World Models
-
-Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores.
-
-arXiv: https://arxiv.org/abs/2611.15082
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention](https://arxiv.org/abs/2611.15215)
-
-**Authors:** Haoyi Zhang, Qi Zhang, Yunfan Ren, Yi Bin, Lei Zhu et al. (6 authors)
-
-**Published:** 2026-11-11 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15215) | [PDF](https://arxiv.org/pdf/2611.15215)
-
-<details>
-<summary>Abstract</summary>
-
-In robotics and embodied AI, a core challenge for world models is adapting to sudden, persistent, yet initially unknown changes in robot dynamics during interaction. For instance, when a robotic arm grasps an object with an unknown payload, the robot dynamics change suddenly. If the world model fails to adapt, its prediction errors accumulate over the open-loop rollout and ultimately mislead the robot's actions. Existing world models, however, struggle to simultaneously satisfy three critical requirements for dynamics adaptation: responsiveness, reacting promptly to sudden changes to curb pred...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
-
-In robotics and embodied AI, a core challenge for world models is adapting to sudden, persistent, yet initially unknown changes in robot dynamics during interaction.
-
-arXiv: https://arxiv.org/abs/2611.15215
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Does Your World Model Know Actions Have Consequences?](https://arxiv.org/abs/2611.15048)
-
-**Authors:** Ayush Gaggar, Jared Berry, Todd D. Murphey
-
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15048) | [PDF](https://arxiv.org/pdf/2611.15048)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied world models (WMs) are implicit learning systems that predict the next future latent state directly from observations and actions. Unique from other end-to-end learning systems, the dynamics predictor of WMs can simulate the environment's response to alternative actions without physical deployment nor pre-specifying states of the dynamical system. Current metrics focus on the quality of model outputs, e.g., clarity of reconstructions or task success, but fail to assess the fidelity of modeling consequences of counterfactual actions. Inspecting the forced response to action perturbatio...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Does Your World Model Know Actions Have Consequences?
-
-Embodied world models (WMs) are implicit learning systems that predict the next future latent state directly from observations and actions.
-
-arXiv: https://arxiv.org/abs/2611.15048
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Fast Inference-Time Policy Refinement via Action-Affine World Models](https://arxiv.org/abs/2611.15011)
-
-**Authors:** Run Wang, Yilin Mo, Liang Wu
-
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.15011) | [PDF](https://arxiv.org/pdf/2611.15011)
-
-<details>
-<summary>Abstract</summary>
-
-Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure. Refinement can correct these errors, but existing approaches often require additional on-policy learning or costly online planning. Our key insight is that a pretrained policy already supplies a useful nominal behavior: refinement can focus on predicting how small action corrections change its outcome. We therefore learn this local response in a form that is cheap to optimize. Our \textit{action-affine world model} (A\textsuperscript{2}WM) learns local action sensitivities offline...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Fast Inference-Time Policy Refinement via Action-Affine World Models
-
-Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure.
-
-arXiv: https://arxiv.org/abs/2611.15011
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals](https://arxiv.org/abs/2611.14955)
-
-**Authors:** Jaerock Kwon, Elahe Delavari, Donghyun Kim, Haewoon Nam
-
-**Published:** 2026-11-11 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.14955) | [PDF](https://arxiv.org/pdf/2611.14955)
-
-<details>
-<summary>Abstract</summary>
-
-Model-based planners that roll out imagined futures assume the transition model faithfully propagates task-relevant signals---a property rarely measured directly. In a single-seed case study of a Recurrent State Space Model world model with active-inference planning in the CARLA driving simulator, we identify a \textbf{posterior-prior gap}---posterior (observation-filtered) states retain obstacle information that imagined rollout states progressively lose: a supervised obstacle probe achieves AUC 0.85 on posterior states, but the same probe applied to imagined prior states shows monotonic deca...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals
-
-Model-based planners that roll out imagined futures assume the transition model faithfully propagates task-relevant signals---a property rarely measured directly.
-
-arXiv: https://arxiv.org/abs/2611.14955
 
 #worldmodels #robotics
 ```
@@ -914,108 +742,6 @@ arXiv: https://arxiv.org/abs/2611.10435
 
 ---
 
-### [The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics](https://arxiv.org/abs/2611.10316)
-
-**Authors:** Prerana Ramkumar, Suhas Suresh Bharadwaj, Fazal Hameed
-
-**Published:** 2026-11-06 | **Categories:** cs.AR, cs.LG, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10316) | [PDF](https://arxiv.org/pdf/2611.10316)
-
-<details>
-<summary>Abstract</summary>
-
-Embedded AI is moving from perception to prediction. Robots now use world models$\unicode{x2014}$learned simulators that predict the outcome of candidate actions in a compressed latent space before any is executed. Every predicted step must be computed on board within a tight power and thermal budget, yet the energy these steps fundamentally require, and how far real hardware sits from it, have not been characterized. We derive lower bounds on the arithmetic operations and the CMOS dynamic energy of a latent state transition from information theory and Boolean circuit complexity. Profiling a D...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics
-
-Embedded AI is moving from perception to prediction.
-
-arXiv: https://arxiv.org/abs/2611.10316
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking](https://arxiv.org/abs/2611.08898)
-
-**Authors:** Xiaorui Wang, Zeyu Sha, Mingyang Yang, David Chen Wang, Feitian Zhang
-
-**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.08898) | [PDF](https://arxiv.org/pdf/2611.08898)
-
-<details>
-<summary>Abstract</summary>
-
-Reliable relative tracking is fundamental to cooperative autonomous underwater vehicles (AUVs), yet remains challenging under nonlinear vehicle dynamics and degraded underwater visual conditions. Active light markers improve robustness to appearance variation, but provide deliberately sparse observations that can become incomplete or corrupted by occlusion, reflections, and detection noise during dynamic motion. To address the resulting partial-observation control problem, this paper proposes FATHOM, a world-model-guided diffusion action-trajectory selection framework for sparse-marker AUV tra...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking
-
-Reliable relative tracking is fundamental to cooperative autonomous underwater vehicles (AUVs), yet remains challenging under nonlinear vehicle dynamics and degraded underwater visual conditions.
-
-arXiv: https://arxiv.org/abs/2611.08898
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks](https://arxiv.org/abs/2611.14880)
-
-**Authors:** Yinuo Du, Christopher Kiekintveld
-
-**Published:** 2026-11-11 | **Categories:** cs.LG, cs.CR | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.14880) | [PDF](https://arxiv.org/pdf/2611.14880)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous cyber defense is widely studied with deep reinforcement learning, but most work trains policies inside simulators because learning requires many trial-and-error interactions. Simulator-based training carries a fidelity gap: trained policies face authentication delays, partial action failures, service dependencies, and user traffic patterns that the simulator did not represent, and degrade on transfer. Training directly in the network being defended removes the gap but makes every interaction slow and costly, so sample efficiency becomes the binding constraint. Model-based reinforcem...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks
-
-Autonomous cyber defense is widely studied with deep reinforcement learning, but most work trains policies inside simulators because learning requires many trial-and-error interactions.
-
-arXiv: https://arxiv.org/abs/2611.14880
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [OnlyAct: Extracting Action Representations from Foundation Models for World Models](https://arxiv.org/abs/2611.14420)
 
 **Authors:** Runjia Li, Minghao Chen, Junyu Xie, Philip Torr, Andrea Vedaldi et al. (6 authors)
@@ -1076,6 +802,178 @@ PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text
 As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.
 
 arXiv: https://arxiv.org/abs/2611.13576
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Prediction or Persistence? What Future-Prediction Scores Miss About World Models](https://arxiv.org/abs/2611.15082)
+
+**Authors:** Animesh Maheshwari
+
+**Published:** 2026-11-11 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Also relevant to:** Egocentric Data
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.15082) | [PDF](https://arxiv.org/pdf/2611.15082)
+
+<details>
+<summary>Abstract</summary>
+
+Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores. On its own, such a score cannot be read as evidence of prediction, because it mixes encoder quality, the near future's resemblance to the recent past, and the predictor's own contribution. We separate the three with a matched control. On 27,000 future-retrieval trials from household egocentric video, a model must pick the true continuation of a clip among eleven candidates from the same video (chance 0.091), ranked zero-shot by its own training criterion. Each model is pa...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Prediction or Persistence? What Future-Prediction Scores Miss About World Models
+
+Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores.
+
+arXiv: https://arxiv.org/abs/2611.15082
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention](https://arxiv.org/abs/2611.15215)
+
+**Authors:** Haoyi Zhang, Qi Zhang, Yunfan Ren, Yi Bin, Lei Zhu et al. (6 authors)
+
+**Published:** 2026-11-11 | **Categories:** cs.AI, cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.15215) | [PDF](https://arxiv.org/pdf/2611.15215)
+
+<details>
+<summary>Abstract</summary>
+
+In robotics and embodied AI, a core challenge for world models is adapting to sudden, persistent, yet initially unknown changes in robot dynamics during interaction. For instance, when a robotic arm grasps an object with an unknown payload, the robot dynamics change suddenly. If the world model fails to adapt, its prediction errors accumulate over the open-loop rollout and ultimately mislead the robot's actions. Existing world models, however, struggle to simultaneously satisfy three critical requirements for dynamics adaptation: responsiveness, reacting promptly to sudden changes to curb pred...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
+
+In robotics and embodied AI, a core challenge for world models is adapting to sudden, persistent, yet initially unknown changes in robot dynamics during interaction.
+
+arXiv: https://arxiv.org/abs/2611.15215
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Does Your World Model Know Actions Have Consequences?](https://arxiv.org/abs/2611.15048)
+
+**Authors:** Ayush Gaggar, Jared Berry, Todd D. Murphey
+
+**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.15048) | [PDF](https://arxiv.org/pdf/2611.15048)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied world models (WMs) are implicit learning systems that predict the next future latent state directly from observations and actions. Unique from other end-to-end learning systems, the dynamics predictor of WMs can simulate the environment's response to alternative actions without physical deployment nor pre-specifying states of the dynamical system. Current metrics focus on the quality of model outputs, e.g., clarity of reconstructions or task success, but fail to assess the fidelity of modeling consequences of counterfactual actions. Inspecting the forced response to action perturbatio...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Does Your World Model Know Actions Have Consequences?
+
+Embodied world models (WMs) are implicit learning systems that predict the next future latent state directly from observations and actions.
+
+arXiv: https://arxiv.org/abs/2611.15048
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Fast Inference-Time Policy Refinement via Action-Affine World Models](https://arxiv.org/abs/2611.15011)
+
+**Authors:** Run Wang, Yilin Mo, Liang Wu
+
+**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.15011) | [PDF](https://arxiv.org/pdf/2611.15011)
+
+<details>
+<summary>Abstract</summary>
+
+Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure. Refinement can correct these errors, but existing approaches often require additional on-policy learning or costly online planning. Our key insight is that a pretrained policy already supplies a useful nominal behavior: refinement can focus on predicting how small action corrections change its outcome. We therefore learn this local response in a form that is cheap to optimize. Our \textit{action-affine world model} (A\textsuperscript{2}WM) learns local action sensitivities offline...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Fast Inference-Time Policy Refinement via Action-Affine World Models
+
+Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure.
+
+arXiv: https://arxiv.org/abs/2611.15011
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals](https://arxiv.org/abs/2611.14955)
+
+**Authors:** Jaerock Kwon, Elahe Delavari, Donghyun Kim, Haewoon Nam
+
+**Published:** 2026-11-11 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14955) | [PDF](https://arxiv.org/pdf/2611.14955)
+
+<details>
+<summary>Abstract</summary>
+
+Model-based planners that roll out imagined futures assume the transition model faithfully propagates task-relevant signals---a property rarely measured directly. In a single-seed case study of a Recurrent State Space Model world model with active-inference planning in the CARLA driving simulator, we identify a \textbf{posterior-prior gap}---posterior (observation-filtered) states retain obstacle information that imagined rollout states progressively lose: a supervised obstacle probe achieves AUC 0.85 on posterior states, but the same probe applied to imagined prior states shows monotonic deca...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals
+
+Model-based planners that roll out imagined futures assume the transition model faithfully propagates task-relevant signals---a property rarely measured directly.
+
+arXiv: https://arxiv.org/abs/2611.14955
 
 #worldmodels #robotics
 ```
@@ -1288,42 +1186,6 @@ arXiv: https://arxiv.org/abs/2611.10660
 
 ---
 
-### [Toward the Era of Agentic Embodied Intelligence](https://arxiv.org/abs/2611.09124)
-
-**Authors:** Chao Liang, Ke Chen, Fengxiaoxiao Li, Shibo Huang, Yufeng Sun et al. (10 authors)
-
-**Published:** 2026-11-06 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.09124) | [PDF](https://arxiv.org/pdf/2611.09124)
-
-<details>
-<summary>Abstract</summary>
-
-Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh codes adapt behavior with frozen weights at deployment. The action model, A2-WLA, adds motion-aware...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Toward the Era of Agentic Embodied Intelligence
-
-Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery.
-
-arXiv: https://arxiv.org/abs/2611.09124
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [Spatial Foundry: A Multimodal Dataset for Spatial Intelligence](https://arxiv.org/abs/2611.17318)
 
 **Authors:** Ethan Lin, Yang Song
@@ -1350,6 +1212,40 @@ Spatial Foundry: A Multimodal Dataset for Spatial Intelligence
 Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment.
 
 arXiv: https://arxiv.org/abs/2611.17318
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks](https://arxiv.org/abs/2611.14880)
+
+**Authors:** Yinuo Du, Christopher Kiekintveld
+
+**Published:** 2026-11-11 | **Categories:** cs.LG, cs.CR | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.14880) | [PDF](https://arxiv.org/pdf/2611.14880)
+
+<details>
+<summary>Abstract</summary>
+
+Autonomous cyber defense is widely studied with deep reinforcement learning, but most work trains policies inside simulators because learning requires many trial-and-error interactions. Simulator-based training carries a fidelity gap: trained policies face authentication delays, partial action failures, service dependencies, and user traffic patterns that the simulator did not represent, and degrade on transfer. Training directly in the network being defended removes the gap but makes every interaction slow and costly, so sample efficiency becomes the binding constraint. Model-based reinforcem...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks
+
+Autonomous cyber defense is widely studied with deep reinforcement learning, but most work trains policies inside simulators because learning requires many trial-and-error interactions.
+
+arXiv: https://arxiv.org/abs/2611.14880
 
 #worldmodels #robotics
 ```
@@ -1520,74 +1416,6 @@ An Evaluation of Tabular Foundation Models as Training-Free World Models
 World models are widely considered to be a potential key component of model-based reinforcement learning and robot planning, but typically require task-specific training on substantial interaction data.
 
 arXiv: https://arxiv.org/abs/2611.11921
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation](https://arxiv.org/abs/2611.10151)
-
-**Authors:** Haoming Wang, Yongjian Fu, Ju Ren, Wei Gao
-
-**Published:** 2026-11-06 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10151) | [PDF](https://arxiv.org/pdf/2611.10151)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-Language Models (VLMs) have continuous deficiency in spatial reasoning tasks that require \emph{mental spatial transformation}, such as reasoning under hypothetical changes in viewpoint or position, known as perspective-taking tasks. Existing approaches either scale linguistic reasoning or augment VLMs with static geometric representations, but neither directly enables active transformation of the represented scene. World models offer this capability, yet existing systems typically communicate through synthesized RGB images, introducing a latent-to-pixel-to-latent bottleneck. We introdu...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation
-
-Vision-Language Models (VLMs) have continuous deficiency in spatial reasoning tasks that require \emph{mental spatial transformation}, such as reasoning under hypothetical changes in viewpoint or position, known as pe...
-
-arXiv: https://arxiv.org/abs/2611.10151
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.09625)
-
-**Authors:** Maxime Burchi, Fayaz Ali Dharejo, Radu Timofte
-
-**Published:** 2026-11-06 | **Categories:** cs.LG, cs.AI, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.09625) | [PDF](https://arxiv.org/pdf/2611.09625)
-
-<details>
-<summary>Abstract</summary>
-
-Model-based reinforcement learning (MBRL) approaches have demonstrated strong performance across diverse domains in recent years, learning accurate world models from agent trajectories. However, despite this progress, current approaches still struggle to surpass human performance on tasks that require long-term memory and planning. In this work, we address the problem of long-term memory in MBRL by moving beyond the commonly studied paradigm of architecture design. We introduce Test-Time Model-Based Reinforcement Learning (TT-MBRL), using gradient descent at test time to encode the memory of e...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
-
-Model-based reinforcement learning (MBRL) approaches have demonstrated strong performance across diverse domains in recent years, learning accurate world models from agent trajectories.
-
-arXiv: https://arxiv.org/abs/2611.09625
 
 #worldmodels #robotics
 ```

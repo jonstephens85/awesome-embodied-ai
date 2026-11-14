@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-13 21:48 UTC
+**Last updated:** 2026-11-14 01:53 UTC
 
-**Papers shown:** 15 (relevance ≥ 2, last 7 days)
+**Papers shown:** 13 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -108,41 +108,6 @@ In this paper, we investigate how human egocentric videos can benefit robot poli
 
 arXiv: https://arxiv.org/abs/2611.13685
 Project page: https://llong-cs.github.io/EgoGuidance
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
-
-**Authors:** Mohamed Elmoghany, Kehan Li, Ruoqu Chen, Tarun Chiruvolu, Shutong Zhang et al. (14 authors)
-
-**Published:** 2026-11-06 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "Ego-Exo" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.09036) | [PDF](https://arxiv.org/pdf/2611.09036) | [Project Page](https://tooluse-dataset.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Creative tool use is a fundamental human capability and an important step toward general-purpose embodied intelligence. It requires agents to reason about object affordances, physical constraints, and manipulation strategies, especially when standard tools are unavailable. However, progress in this area is limited by the lack of real-world datasets that capture human tool-use behavior with sufficient scale, fidelity, and diversity. Existing benchmarks are often simulation-based, focus on simplified interactions, or lack detailed observations and annotations. We introduce ToolDex, a large-scale...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use
-
-Creative tool use is a fundamental human capability and an important step toward general-purpose embodied intelligence.
-
-arXiv: https://arxiv.org/abs/2611.09036
-Project page: https://tooluse-dataset.github.io/
 
 #egocentric #robotlearning
 ```
@@ -394,40 +359,6 @@ arXiv: https://arxiv.org/abs/2611.16452
 
 ---
 
-### [Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition](https://arxiv.org/abs/2611.16056)
-
-**Authors:** Sadegh Rahmaniboldaji, Filip Rybansky, Quoc Vuong, Frank Guerin, Andrew Gilbert
-
-**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric dataset" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.16056) | [PDF](https://arxiv.org/pdf/2611.16056)
-
-<details>
-<summary>Abstract</summary>
-
-Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions. We introduce sub-action detection, a task that requires models to explicitly recognise the left- and right-hand roles and their manipulated objects within an ongoing high-level action. To address this challenge, we propose BiScopeNet, a framework that augments existing video-LLMs without modifying their vision encoders or language models. BiScopeNet incorporates two components: FocusAlign, a gated text-guided attention-based module that selectively aligns video features with tex...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition
-
-Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions.
-
-arXiv: https://arxiv.org/abs/2611.16056
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Hand-Object Contact Transition Detection in Egocentric Video](https://arxiv.org/abs/2611.13486)
 
 **Authors:** Huy Anh Nguyen, Chang Dong, Feras Dayoub, Minh Hoai
@@ -496,20 +427,20 @@ arXiv: https://arxiv.org/abs/2611.10578
 
 ---
 
-### [TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation](https://arxiv.org/abs/2611.09129)
+### [Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition](https://arxiv.org/abs/2611.16056)
 
-**Authors:** Ao Li, Zhihao Yuan, Chubin Zhang, Kunrui Huang, Sheng Xu et al. (9 authors)
+**Authors:** Sadegh Rahmaniboldaji, Filip Rybansky, Quoc Vuong, Frank Guerin, Andrew Gilbert
 
-**Published:** 2026-11-06 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract
+**Why surfaced:** "egocentric dataset" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.09129) | [PDF](https://arxiv.org/pdf/2611.09129)
+**Links:** [arXiv](https://arxiv.org/abs/2611.16056) | [PDF](https://arxiv.org/pdf/2611.16056)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric video captures human-object interaction at scale but rarely includes tactile labels for hidden contact and pressure. We introduce TouchAnnotator, an ego-only bimanual tactile annotator trained with multi-source tactile supervision and privileged-view distillation. A canonical hand field unifies glove pressure, geometry-derived human contact, and robot fingertip deformation from six datasets and three embodiments, while source-aware masks preserve valid targets. During training, an EMA teacher observes synchronized ego and wrist views and distills hand-local representations and tacti...
+Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions. We introduce sub-action detection, a task that requires models to explicitly recognise the left- and right-hand roles and their manipulated objects within an ongoing high-level action. To address this challenge, we propose BiScopeNet, a framework that augments existing video-LLMs without modifying their vision encoders or language models. BiScopeNet incorporates two components: FocusAlign, a gated text-guided attention-based module that selectively aligns video features with tex...
 
 </details>
 
@@ -517,11 +448,11 @@ Egocentric video captures human-object interaction at scale but rarely includes 
 <summary>Share</summary>
 
 ```
-TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation
+Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition
 
-Egocentric video captures human-object interaction at scale but rarely includes tactile labels for hidden contact and pressure.
+Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions.
 
-arXiv: https://arxiv.org/abs/2611.09129
+arXiv: https://arxiv.org/abs/2611.16056
 
 #egocentric #robotlearning
 ```
