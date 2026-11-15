@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-14 20:26 UTC
+**Last updated:** 2026-11-15 01:25 UTC
 
-**Papers shown:** 48 (relevance ≥ 2, last 7 days)
+**Papers shown:** 43 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -14,9 +14,9 @@ Papers on world models for robotics, video prediction, interactive simulation, a
 
 **Authors:** Ziying Song, Shengkai Zhang, Caiyan Jia, Lei Yang, Lin Liu et al. (13 authors)
 
-**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★★★★★
+**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★★★★☆
 
-**Why surfaced:** "world model" in title; project page; code repo; robotics / embodied focus; posted in last 2 days
+**Why surfaced:** "world model" in title; project page; code repo; robotics / embodied focus
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16579) | [PDF](https://arxiv.org/pdf/2611.16579) | [Project Page](https://adept-thu.github.io/ActWorld-JEPA/) | [Code](https://github.com/adept-thu/ActWorld-JEPA)
 
@@ -38,41 +38,6 @@ Joint-Embedding Predictive Architectures (JEPAs) enable future prediction in lat
 arXiv: https://arxiv.org/abs/2611.16579
 Project page: https://adept-thu.github.io/ActWorld-JEPA/
 Code: https://github.com/adept-thu/ActWorld-JEPA
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2611.10806)
-
-**Authors:** Junjie Li, Zhaojiacheng Zhou, Kaixiang Wang, Zihan Wang, QingSong Zhao et al. (7 authors)
-
-**Published:** 2026-11-07 | **Categories:** cs.AI | **Relevance:** ★★★★☆
-
-**Why surfaced:** "world model" in title; code repo; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.10806) | [PDF](https://arxiv.org/pdf/2611.10806) | [Code](https://github.com/hideinsewer/WARP-JEPA)
-
-<details>
-<summary>Abstract</summary>
-
-Hierarchical Joint-Embedding Predictive Architectures (H-JEPA) enable long-horizon visual control but rely on costly test-time gradient descent for planning. Our analysis reveals that iterative optimization consumes up to 97.7% of episode runtime and that low predicted rollout costs do not necessarily translate into successful control. We further identify a planning-horizon asymmetry between long-horizon top-level composition and short two-step subordinate planning. To address these challenges, we propose WARP-JEPA, a hierarchical amortized planning framework that replaces online gradient opti...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures
-
-Hierarchical Joint-Embedding Predictive Architectures (H-JEPA) enable long-horizon visual control but rely on costly test-time gradient descent for planning.
-
-arXiv: https://arxiv.org/abs/2611.10806
-Code: https://github.com/hideinsewer/WARP-JEPA
 
 #worldmodels #robotics
 ```
@@ -178,75 +143,6 @@ World models enable agents to plan and learn from imagined experience, but in an
 
 arXiv: https://arxiv.org/abs/2611.12324
 Code: https://github.com/third-intelligence/WARC
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Rethinking Actions: Continuity-Aware Priors for World-Model Planning](https://arxiv.org/abs/2611.16645)
-
-**Authors:** Shaobo Yang, Zichen Ai, Ziyang Ma, Qian Yang, Bin Fang
-
-**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.16645) | [PDF](https://arxiv.org/pdf/2611.16645)
-
-<details>
-<summary>Abstract</summary>
-
-Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness, we learn continuations from the temporal structure of demonstrated actions. Our locality-gated deep-kernel Gaussian-process prior, LG-DKGP, combines recent and longer-range executed action history, predicts a neural continuation, and learns a temporal Gaussian-process (GP) residual. A training-deriv...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Rethinking Actions: Continuity-Aware Priors for World-Model Planning
-
-Actions in expert demonstrations exhibit temporal structure.
-
-arXiv: https://arxiv.org/abs/2611.16645
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU](https://arxiv.org/abs/2611.16422)
-
-**Authors:** Fuyi Chen
-
-**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in abstract; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16422) | [PDF](https://arxiv.org/pdf/2611.16422) | [Code](https://github.com/fuyichen0725/blinkmimic)
-
-<details>
-<summary>Abstract</summary>
-
-Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time. SuperMimic showed that the policy can instead be trained by backpropagating through a world model learned from parallel simulation, and InstantTrack added Muon updates, a residual policy around the reference and an averaged deployed policy. We build on both and present BlinkMimic, a recipe that makes this training faster. On a simulated Unitree G1, BlinkMimic trains one policy for all 40 LAFAN1 clips in 3.4 minutes on a single R...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
-
-Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time.
-
-arXiv: https://arxiv.org/abs/2611.16422
-Code: https://github.com/fuyichen0725/blinkmimic
 
 #worldmodels #robotics
 ```
@@ -570,20 +466,20 @@ Code: https://github.com/lzzzzzm/LO-World
 
 ---
 
-### [Tiresias: Towards Language-Conditioned World Models](https://arxiv.org/abs/2611.10392)
+### [Rethinking Actions: Continuity-Aware Priors for World-Model Planning](https://arxiv.org/abs/2611.16645)
 
-**Authors:** Fengyi Wu, Yifei Dong, Yetong Sha, Lingdong Kong, Qiyu Hu et al. (9 authors)
+**Authors:** Shaobo Yang, Zichen Ai, Ziyang Ma, Qian Yang, Bin Fang
 
-**Published:** 2026-11-07 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; code repo
+**Why surfaced:** "world model" in title; robotics / embodied focus
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.10392) | [PDF](https://arxiv.org/pdf/2611.10392) | [Code](https://github.com/UWMILab/Tiresias)
+**Links:** [arXiv](https://arxiv.org/abs/2611.16645) | [PDF](https://arxiv.org/pdf/2611.16645)
 
 <details>
 <summary>Abstract</summary>
 
-World models enable planning through internal simulation, while natural language provides intuitive task specification. Yet, language-conditioned world modeling remains fragmented across domains with disparate action spaces, datasets, and evaluation protocols. We introduce LCWM, a shared task that maps an initial agent-view observation and a language instruction to an action sequence that fulfills the instruction. Its accompanying benchmark, LCWM-Bench, integrates 15 datasets across navigation, robotics, 3D gaming, and driving under a shared action interface and evaluation protocol, pairing 14...
+Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness, we learn continuations from the temporal structure of demonstrated actions. Our locality-gated deep-kernel Gaussian-process prior, LG-DKGP, combines recent and longer-range executed action history, predicts a neural continuation, and learns a temporal Gaussian-process (GP) residual. A training-deriv...
 
 </details>
 
@@ -591,12 +487,46 @@ World models enable planning through internal simulation, while natural language
 <summary>Share</summary>
 
 ```
-Tiresias: Towards Language-Conditioned World Models
+Rethinking Actions: Continuity-Aware Priors for World-Model Planning
 
-World models enable planning through internal simulation, while natural language provides intuitive task specification.
+Actions in expert demonstrations exhibit temporal structure.
 
-arXiv: https://arxiv.org/abs/2611.10392
-Code: https://github.com/UWMILab/Tiresias
+arXiv: https://arxiv.org/abs/2611.16645
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU](https://arxiv.org/abs/2611.16422)
+
+**Authors:** Fuyi Chen
+
+**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16422) | [PDF](https://arxiv.org/pdf/2611.16422) | [Code](https://github.com/fuyichen0725/blinkmimic)
+
+<details>
+<summary>Abstract</summary>
+
+Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time. SuperMimic showed that the policy can instead be trained by backpropagating through a world model learned from parallel simulation, and InstantTrack added Muon updates, a residual policy around the reference and an averaged deployed policy. We build on both and present BlinkMimic, a recipe that makes this training faster. On a simulated Unitree G1, BlinkMimic trains one policy for all 40 LAFAN1 clips in 3.4 minutes on a single R...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time.
+
+arXiv: https://arxiv.org/abs/2611.16422
+Code: https://github.com/fuyichen0725/blinkmimic
 
 #worldmodels #robotics
 ```
@@ -700,40 +630,6 @@ Dexterous manipulation requires rich spatial foresight over both the surrounding
 
 arXiv: https://arxiv.org/abs/2611.11166
 Project page: https://dexforesight.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams](https://arxiv.org/abs/2611.10435)
-
-**Authors:** Jamie Santos, Kagan Tumer
-
-**Published:** 2026-11-07 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in title; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10435) | [PDF](https://arxiv.org/pdf/2611.10435)
-
-<details>
-<summary>Abstract</summary>
-
-Autonomous robot teams deployed in remote, unstructured environments may face changes in the environment, hardware, and team composition that degrade previously effective policies. Shifting mission objectives can be handled by selecting a different solution from an existing Pareto set, but shifting deployment conditions can reorder the set itself, making previously dominated policies competitive or new policies necessary. However, evaluating these policies in new contexts while minimizing risk to the hardware remains an open problem. We argue that, although largely untested in this domain, wor...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams
-
-Autonomous robot teams deployed in remote, unstructured environments may face changes in the environment, hardware, and team composition that degrade previously effective policies.
-
-arXiv: https://arxiv.org/abs/2611.10435
 
 #worldmodels #robotics
 ```
@@ -1152,74 +1048,6 @@ arXiv: https://arxiv.org/abs/2611.11521
 
 ---
 
-### [Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning](https://arxiv.org/abs/2611.10660)
-
-**Authors:** Yinuo Jiang, Guangzhi Wang, Yiran Wang, Junfu Pu, Cheng Cheng et al. (8 authors)
-
-**Published:** 2026-11-07 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; robotics / embodied focus
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10660) | [PDF](https://arxiv.org/pdf/2611.10660)
-
-<details>
-<summary>Abstract</summary>
-
-Latent world models enable visual control by planning action sequences in compact representation spaces, but a gap remains between how latent dynamics are learned and how they are used for planning. First, teacher-forced training does not expose the dynamics model to the recursively predicted latent states encountered during planning. Second, sampling-based planners typically initialize action search from goal-agnostic proposals, without exploiting the action-conditioned dynamics learned by the world model. We introduce Dynamics-Informed Action Learning (DIAL) to bridge these two gaps. During...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning
-
-Latent world models enable visual control by planning action sequences in compact representation spaces, but a gap remains between how latent dynamics are learned and how they are used for planning.
-
-arXiv: https://arxiv.org/abs/2611.10660
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [Spatial Foundry: A Multimodal Dataset for Spatial Intelligence](https://arxiv.org/abs/2611.17318)
-
-**Authors:** Ethan Lin, Yang Song
-
-**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.17318) | [PDF](https://arxiv.org/pdf/2611.17318)
-
-<details>
-<summary>Abstract</summary>
-
-Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment. Images alone leave these relationships implicit, while disconnected annotations make it difficult to study appearance, camera motion, and scene changes under a common reference. We introduce Spatial Foundry, a collection of 5,280 furnished residential 3D scene configurations with editable assets and aligned visual, geometric, and temporal data. Its modalities include floor plans, perspective and panoramic RGB, metric depth, point clouds, meshes, instance-level 3D bound...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Spatial Foundry: A Multimodal Dataset for Spatial Intelligence
-
-Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment.
-
-arXiv: https://arxiv.org/abs/2611.17318
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks](https://arxiv.org/abs/2611.14880)
 
 **Authors:** Yinuo Du, Christopher Kiekintveld
@@ -1526,6 +1354,40 @@ arXiv: https://arxiv.org/abs/2611.11500
 
 ---
 
+### [Spatial Foundry: A Multimodal Dataset for Spatial Intelligence](https://arxiv.org/abs/2611.17318)
+
+**Authors:** Ethan Lin, Yang Song
+
+**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "world model" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.17318) | [PDF](https://arxiv.org/pdf/2611.17318)
+
+<details>
+<summary>Abstract</summary>
+
+Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment. Images alone leave these relationships implicit, while disconnected annotations make it difficult to study appearance, camera motion, and scene changes under a common reference. We introduce Spatial Foundry, a collection of 5,280 furnished residential 3D scene configurations with editable assets and aligned visual, geometric, and temporal data. Its modalities include floor plans, perspective and panoramic RGB, metric depth, point clouds, meshes, instance-level 3D bound...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Spatial Foundry: A Multimodal Dataset for Spatial Intelligence
+
+Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment.
+
+arXiv: https://arxiv.org/abs/2611.17318
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [An Energy-Based Perspective on Machine Learning](https://arxiv.org/abs/2611.14383)
 
 **Authors:** Bo Dai, Yilun Du
@@ -1620,40 +1482,6 @@ Benchmarking language models and agents for scientific reasoning in evolving mat
 Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions.
 
 arXiv: https://arxiv.org/abs/2611.12014
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [WorldFoundry: Towards Unified Infrastructure for World Intelligence](https://arxiv.org/abs/2611.10771)
-
-**Authors:** Juanxi Tian, Jiadong Hou, Baiang Li, Xin Lin, Zhengbo Jiao et al. (16 authors)
-
-**Published:** 2026-11-07 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10771) | [PDF](https://arxiv.org/pdf/2611.10771)
-
-<details>
-<summary>Abstract</summary>
-
-Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes unde...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-WorldFoundry: Towards Unified Infrastructure for World Intelligence
-
-Visual generative models increasingly blur the line between synthesizing observations and simulating environments.
-
-arXiv: https://arxiv.org/abs/2611.10771
 
 #worldmodels #robotics
 ```

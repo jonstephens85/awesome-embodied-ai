@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-14 20:26 UTC
+**Last updated:** 2026-11-15 01:25 UTC
 
-**Papers shown:** 45 (relevance ≥ 2, last 7 days)
+**Papers shown:** 40 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -73,111 +73,6 @@ Recent Vision-Language-Action (VLA) models have begun incorporating thermal sens
 
 arXiv: https://arxiv.org/abs/2611.11981
 Project page: https://j-x-chen.github.io/Thermo-VLA-web/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models](https://arxiv.org/abs/2611.10443)
-
-**Authors:** Jungin Park, Chaoran Zhu, Changjae Oh, Kwanghoon Sohn
-
-**Published:** 2026-11-07 | **Categories:** cs.RO | **Relevance:** ★★★★☆
-
-**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; code repo
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.10443) | [PDF](https://arxiv.org/pdf/2611.10443) | [Code](https://github.com/park-jungin/spark-vla)
-
-<details>
-<summary>Abstract</summary>
-
-Understanding three-dimensional physical structure has become essential for vision-language-action models (VLAs). However, existing approaches either rely on explicit geometric inputs at inference time or adopt a single visual pathway, potentially compromising the visual-semantic knowledge inherited from pre-trained models. We present SPARK-VLA, Spatial Representation distillation and Knowledge routing for VLAs, a preserve-specialize-route framework for spatially adapting VLAs without requiring external 3D inputs or experts at inference. SPARK-VLA consists of two key components: (1) spatial re...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models
-
-Understanding three-dimensional physical structure has become essential for vision-language-action models (VLAs).
-
-arXiv: https://arxiv.org/abs/2611.10443
-Code: https://github.com/park-jungin/spark-vla
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models](https://arxiv.org/abs/2611.16589)
-
-**Authors:** Zhuo Han, Yeqiang Wang, Xinran Wang, Hongwei Han, Yi Xiong et al. (11 authors)
-
-**Published:** 2026-11-12 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16589) | [PDF](https://arxiv.org/pdf/2611.16589) | [Project Page](https://stvla.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation often requires both spatial scene understanding and task history. However, many vision-language-action (VLA) policies rely primarily on current observations, without explicitly integrating spatial structure and task history. Appearance-based memories can be sensitive to occlusion and viewpoint changes, while spatial representations of the current scene alone do not preserve how the scene has changed during task execution. We introduce STVLA, a framework that incorporates features from a pretrained visual geometry foundation model into temporal memory alongside visual repre...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
-
-Robotic manipulation often requires both spatial scene understanding and task history.
-
-arXiv: https://arxiv.org/abs/2611.16589
-Project page: https://stvla.github.io/
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History](https://arxiv.org/abs/2611.16419)
-
-**Authors:** Xiangyi Jia, Kaixian Qu, Shengzhi Wang, Chenyu Yang, Robert Katzschmann et al. (6 authors)
-
-**Published:** 2026-11-12 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16419) | [PDF](https://arxiv.org/pdf/2611.16419) | [Project Page](https://see-want.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Vision-language models (VLMs) have become a powerful foundation for robotic scene understanding, task planning, and language-conditioned control. A natural question follows: can these models also decode what a human operator intends while teleoperating a robot, without any explicit instruction? We formulate this as hierarchical intent prediction, jointly inferring the ongoing atomic action and the broader mission it serves from a short visual teleoperation history. To study this, we introduce VI AMO (Vision Intention Action and Mission Ongoing), a dataset of 6,600 episodes from eleven robot so...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History
-
-Vision-language models (VLMs) have become a powerful foundation for robotic scene understanding, task planning, and language-conditioned control.
-
-arXiv: https://arxiv.org/abs/2611.16419
-Project page: https://see-want.github.io/
 
 #VLA #robotics
 ```
@@ -291,20 +186,20 @@ Project page: https://sff-research.org
 
 ---
 
-### [What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation](https://arxiv.org/abs/2611.16246)
+### [STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models](https://arxiv.org/abs/2611.16589)
 
-**Authors:** Jinze Tao, Yuxiao Han, Kangkang Dong, Yancong Wei, Xiaojun Zhu et al. (7 authors)
+**Authors:** Zhuo Han, Yeqiang Wang, Xinran Wang, Hongwei Han, Yi Xiong et al. (11 authors)
 
-**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-11-12 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.16246) | [PDF](https://arxiv.org/pdf/2611.16246)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16589) | [PDF](https://arxiv.org/pdf/2611.16589) | [Project Page](https://stvla.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-Navigation agents use a large language model (LLM) planner to call a vision-language-action (VLA) model. Each episode needs the LLM, adding cost and delay. We distill successful agent experience into the VLA instead of distilling the planner. The VLA then navigates alone at test time. Agent sessions are not VLA demonstrations. They include motions driven by planner tools and sub-instructions, along with detours. We present H2E, a task-level experience distillation method that converts these sessions into VLA training data. Every motion becomes a VLA action under the original task instruction,...
+Robotic manipulation often requires both spatial scene understanding and task history. However, many vision-language-action (VLA) policies rely primarily on current observations, without explicitly integrating spatial structure and task history. Appearance-based memories can be sensitive to occlusion and viewpoint changes, while spatial representations of the current scene alone do not preserve how the scene has changed during task execution. We introduce STVLA, a framework that incorporates features from a pretrained visual geometry foundation model into temporal memory alongside visual repre...
 
 </details>
 
@@ -312,11 +207,47 @@ Navigation agents use a large language model (LLM) planner to call a vision-lang
 <summary>Share</summary>
 
 ```
-What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
 
-Navigation agents use a large language model (LLM) planner to call a vision-language-action (VLA) model.
+Robotic manipulation often requires both spatial scene understanding and task history.
 
-arXiv: https://arxiv.org/abs/2611.16246
+arXiv: https://arxiv.org/abs/2611.16589
+Project page: https://stvla.github.io/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History](https://arxiv.org/abs/2611.16419)
+
+**Authors:** Xiangyi Jia, Kaixian Qu, Shengzhi Wang, Chenyu Yang, Robert Katzschmann et al. (6 authors)
+
+**Published:** 2026-11-12 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16419) | [PDF](https://arxiv.org/pdf/2611.16419) | [Project Page](https://see-want.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Vision-language models (VLMs) have become a powerful foundation for robotic scene understanding, task planning, and language-conditioned control. A natural question follows: can these models also decode what a human operator intends while teleoperating a robot, without any explicit instruction? We formulate this as hierarchical intent prediction, jointly inferring the ongoing atomic action and the broader mission it serves from a short visual teleoperation history. To study this, we introduce VI AMO (Vision Intention Action and Mission Ongoing), a dataset of 6,600 episodes from eleven robot so...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History
+
+Vision-language models (VLMs) have become a powerful foundation for robotic scene understanding, task planning, and language-conditioned control.
+
+arXiv: https://arxiv.org/abs/2611.16419
+Project page: https://see-want.github.io/
 
 #VLA #robotics
 ```
@@ -706,6 +637,40 @@ arXiv: https://arxiv.org/abs/2611.11136
 
 ---
 
+### [What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation](https://arxiv.org/abs/2611.16246)
+
+**Authors:** Jinze Tao, Yuxiao Han, Kangkang Dong, Yancong Wei, Xiaojun Zhu et al. (7 authors)
+
+**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.16246) | [PDF](https://arxiv.org/pdf/2611.16246)
+
+<details>
+<summary>Abstract</summary>
+
+Navigation agents use a large language model (LLM) planner to call a vision-language-action (VLA) model. Each episode needs the LLM, adding cost and delay. We distill successful agent experience into the VLA instead of distilling the planner. The VLA then navigates alone at test time. Agent sessions are not VLA demonstrations. They include motions driven by planner tools and sub-instructions, along with detours. We present H2E, a task-level experience distillation method that converts these sessions into VLA training data. Every motion becomes a VLA action under the original task instruction,...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+Navigation agents use a large language model (LLM) planner to call a vision-language-action (VLA) model.
+
+arXiv: https://arxiv.org/abs/2611.16246
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation](https://arxiv.org/abs/2611.15491)
 
 **Authors:** Zhuoyue Li, Zhendong Han, Pankhuri Vanjani, Wenting Li, Rudolf Lioutikov
@@ -1015,74 +980,6 @@ arXiv: https://arxiv.org/abs/2611.11098
 
 ---
 
-### [Zero-Shot VLA Adaptation with Retrieved Guidance](https://arxiv.org/abs/2611.10894)
-
-**Authors:** Subin Kim, Anh-Quan Pham, Dinesh Jayaraman
-
-**Published:** 2026-11-07 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10894) | [PDF](https://arxiv.org/pdf/2611.10894)
-
-<details>
-<summary>Abstract</summary>
-
-Pre-training large parametric "Vision-Language-Action" (VLA) models on large demonstration datasets has recently yielded promising results for general-purpose manipulation. However, these models still struggle under even small domain shifts relative to the training data, such as changes in camera viewpoint, background, object identity, or robot morphology. Motivated by the success of Retrieval-Augmented Generation (RAG) in language models, we pursue retrieval to boost VLA performance. Specifically, we seek to leverage retrieval from domain-mismatched, "in-the-wild" demonstration datasets like...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Zero-Shot VLA Adaptation with Retrieved Guidance
-
-Pre-training large parametric "Vision-Language-Action" (VLA) models on large demonstration datasets has recently yielded promising results for general-purpose manipulation.
-
-arXiv: https://arxiv.org/abs/2611.10894
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
-
-**Authors:** Kevin Park, Izat Rasyad, Dvij Kalaria, Shankar Sastry
-
-**Published:** 2026-11-07 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "vision-language-action" in title; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10872) | [PDF](https://arxiv.org/pdf/2611.10872)
-
-<details>
-<summary>Abstract</summary>
-
-Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction. Reinforcement learning in simulation offers an alternative for scaling this data, but designing task-specific rewards remains challenging. To address this, we propose DreamVLA, which uses generated motion trajectories to guide reinforcement learning (RL) in simulation, converting them into reliable task execution trajectories. These trajectories train VLA models in simulation wi...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
-
-Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction.
-
-arXiv: https://arxiv.org/abs/2611.10872
-
-#VLA #robotics
-```
-
-</details>
-
----
-
 ### [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117)
 
 **Authors:** Heng Li, Yang Li, Yifan Duan, Ren Fang, Matao Duan et al. (9 authors)
@@ -1313,74 +1210,6 @@ CARE-Drive: Coupled Alternating Refinement for Ego-trajectories
 Vision-language-action (VLA) models bring multimodal understanding and world knowledge to end-to-end autonomous driving.
 
 arXiv: https://arxiv.org/abs/2611.15360
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Where Should Models Run? A Collaborative Inference Framework for Embodied Intelligence in 6G](https://arxiv.org/abs/2611.11023)
-
-**Authors:** Wanlu Sun, Zhenhui Yuan, Xiang Ji, Yi Han, Qing Li et al. (6 authors)
-
-**Published:** 2026-11-07 | **Categories:** cs.LG, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.11023) | [PDF](https://arxiv.org/pdf/2611.11023)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied intelligence systems rely on fast and reliable inference to enable real-time perception, reasoning, and control. Recent advances in large-scale artificial intelligence (AI) models, including Large Language Models (LLMs) and Vision-Language-Action (VLA) models, have significantly enhanced the capabilities of embodied agents in complex environments. However, deploying these models remains challenging due to the limited computational resources and energy budgets of robotic platforms. A fundamental question is where inference should be executed. Collaborative inference, which partitions m...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Where Should Models Run? A Collaborative Inference Framework for Embodied Intelligence in 6G
-
-Embodied intelligence systems rely on fast and reliable inference to enable real-time perception, reasoning, and control.
-
-arXiv: https://arxiv.org/abs/2611.11023
-
-#VLA #robotics
-```
-
-</details>
-
----
-
-### [Look Ahead: Search-Driven Reasoning in Embodied AI](https://arxiv.org/abs/2611.10769)
-
-**Authors:** Ahmed Zeer, Osama Shbib, Muzaffer Kaan Yuce, Himmet Toprak Kesgin, Mehmet Fatih Amasyali
-
-**Published:** 2026-11-07 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.10769) | [PDF](https://arxiv.org/pdf/2611.10769)
-
-<details>
-<summary>Abstract</summary>
-
-Search allows a robotic policy to evaluate candidate futures before committing to an action. Motivated by test-time planning for vision-language action (VLA) models, we study selective search over action chunks in PushT using a frozen Action Chunking with Transformers (ACT) policy. Beam search generates perturbed alternatives around the policy prediction and scores them through rollouts from cloned simulator states. Across 50 evaluation episodes, beam search raises task success from 0% to 18% and increases average cumulative reward from 39.44 to 103.2. We introduce One Step Ahead (OSA), a gate...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Look Ahead: Search-Driven Reasoning in Embodied AI
-
-Search allows a robotic policy to evaluate candidate futures before committing to an action.
-
-arXiv: https://arxiv.org/abs/2611.10769
 
 #VLA #robotics
 ```
