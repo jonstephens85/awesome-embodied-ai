@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-15 20:49 UTC
+**Last updated:** 2026-11-16 23:58 UTC
 
-**Papers shown:** 11 (relevance ≥ 2, last 7 days)
+**Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -153,41 +153,6 @@ Project page: https://hfwang2001.github.io/physcapbench-site/
 
 ---
 
-### [UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)
-
-**Authors:** Ziqi Wang, Su Chen, Qiance Tang, Jieyu Lin, Ziyun Li et al. (7 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11562) | [PDF](https://arxiv.org/pdf/2611.11562) | [Project Page](https://sai-lab-nyu.github.io/utopi/)
-
-<details>
-<summary>Abstract</summary>
-
-As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform. However, egocentric videos exhibit significant temporal redundancy, imposing substantial memory and computational burdens on resource-constrained AR hardware. To address this challenge, we introduce UTOPI, a plug-and-play pre-compression module designed specifically for egocentric long videos on AR platforms. First, we leverage user motion signals to estimate inter-frame overlap and propose a viewpoint-shift-invariant pruning algorithm. Second, we exploit eye...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression
-
-As long-video understanding gains increasing attention, augmented reality (AR) devices are emerging as a compelling deployment platform.
-
-arXiv: https://arxiv.org/abs/2611.11562
-Project page: https://sai-lab-nyu.github.io/utopi/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110)
 
 **Authors:** Jiachun Jin, Zetong Zhou, Haonan Wang, Xiao Yang, Jun Zhu et al. (6 authors)
@@ -294,7 +259,7 @@ arXiv: https://arxiv.org/abs/2611.13486
 
 **Authors:** Yichi Zhang, Bo Wang, Zhenghan Zhu, Yutong Han, Jiayin Zou et al. (14 authors)
 
-**Published:** 2026-11-12 | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
+**Published:** 2026-11-12 (updated 2026-11-13) | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract
 

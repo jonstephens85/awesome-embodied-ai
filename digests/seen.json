@@ -10899,5 +10899,69 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.17394": {
+    "first_seen": "2026-11-16",
+    "title": "Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.17529": {
+    "first_seen": "2026-11-16",
+    "title": "Learning Latent Goal Costs for Visual World-Model Planning with an Expanding Curriculum",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.17626": {
+    "first_seen": "2026-11-16",
+    "title": "Joint World Action Models through Differentiable Trajectory Optimization",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.17775": {
+    "first_seen": "2026-11-16",
+    "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.17831": {
+    "first_seen": "2026-11-16",
+    "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.18176": {
+    "first_seen": "2026-11-16",
+    "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.18372": {
+    "first_seen": "2026-11-16",
+    "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.18397": {
+    "first_seen": "2026-11-16",
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.18562": {
+    "first_seen": "2026-11-16",
+    "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "topics": [
+      "vla"
+    ]
   }
 }

@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-15 20:49 UTC
+**Last updated:** 2026-11-16 23:58 UTC
 
-**Papers shown:** 43 (relevance ≥ 2, last 7 days)
+**Papers shown:** 41 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,41 +38,6 @@ Joint-Embedding Predictive Architectures (JEPAs) enable future prediction in lat
 arXiv: https://arxiv.org/abs/2611.16579
 Project page: https://adept-thu.github.io/ActWorld-JEPA/
 Code: https://github.com/adept-thu/ActWorld-JEPA
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation](https://arxiv.org/abs/2611.11605)
-
-**Authors:** Yunyi Gao, Yixing Shi, Yize Liu, Hai-Duong Tran, Nhat-Hoang P. Nguyen et al. (11 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; code repo; robotics / embodied focus
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11605) | [PDF](https://arxiv.org/pdf/2611.11605) | [Code](https://github.com/WANGSHUAIzzzz/ScanDreamer)
-
-<details>
-<summary>Abstract</summary>
-
-Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation. Recent world-model agents learn navigation through imagined experience (e.g., AirDreamer), but remain data-intensive and often lack explicit geometric memory and awareness of what the camera can observe. We propose ScanDreamer, a map-grounded world model that constructs an online 2D scan-memory map from depth images and vehicle pose. Our world model, actor, and critic are conditioned on this ma...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
-
-Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation.
-
-arXiv: https://arxiv.org/abs/2611.11605
-Code: https://github.com/WANGSHUAIzzzz/ScanDreamer
 
 #worldmodels #robotics
 ```
@@ -256,20 +221,20 @@ Code: https://github.com/thddydgnl/nearest-of-m-world-models
 
 ---
 
-### [Breaking survivorship bias in driving world models](https://arxiv.org/abs/2611.11516)
+### [V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations](https://arxiv.org/abs/2611.17831)
 
-**Authors:** Zihao Sheng, Zilin Huang, Yuhao Luo, Zhengyang Wan, Boyue Wang et al. (8 authors)
+**Authors:** Keuntae Kim, Dongjun Kim, Yong Suk Choi
 
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-11-13 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title; project page
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11516) | [PDF](https://arxiv.org/pdf/2611.11516) | [Project Page](https://zihaosheng.github.io/NWM/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.17831) | [PDF](https://arxiv.org/pdf/2611.17831) | [Code](https://github.com/kkt94/Llama-V-JEPA-LM)
 
 <details>
 <summary>Abstract</summary>
 
-World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data. We identify a survivorship bias in driving world models: because the futures recorded in prevailing driving datasets almost always end safely, existing models often imagine benign outcomes even when a collision is imminent. We introduce a neutral world model (NWM) that learns both routine and safety-critical futures from a mixture of routine driving and real accident videos with a bounding-box-guided objective...
+World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% while the VLM answers at chance. We show where dynamics lives in a frozen encoder: in a subspace shared...
 
 </details>
 
@@ -277,47 +242,12 @@ World models allow autonomous vehicles to imagine the consequences of candidate 
 <summary>Share</summary>
 
 ```
-Breaking survivorship bias in driving world models
+V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations
 
-World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data.
+World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone.
 
-arXiv: https://arxiv.org/abs/2611.11516
-Project page: https://zihaosheng.github.io/NWM/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset](https://arxiv.org/abs/2611.11085)
-
-**Authors:** Haonan Chen, Sicheng Isabella Lu, Haitian Li, Jiajin Wu, Hexiang Wei et al. (12 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11085) | [PDF](https://arxiv.org/pdf/2611.11085) | [Project Page](https://nus-lins-lab.github.io/ObjectWorld/)
-
-<details>
-<summary>Abstract</summary>
-
-Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation. This calls for an intermediate representation that can be supervised at scale and remains actionable for downstream control. We propose 3D full-object flow, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions. By extending visible-surface object flow to the full object geometry, this representation makes complete object motion explicit and applies uniformly to both rigid...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
-
-Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation.
-
-arXiv: https://arxiv.org/abs/2611.11085
-Project page: https://nus-lins-lab.github.io/ObjectWorld/
+arXiv: https://arxiv.org/abs/2611.17831
+Code: https://github.com/kkt94/Llama-V-JEPA-LM
 
 #worldmodels #robotics
 ```
@@ -466,6 +396,40 @@ Code: https://github.com/lzzzzzm/LO-World
 
 ---
 
+### [Learning Latent Goal Costs for Visual World-Model Planning with an Expanding Curriculum](https://arxiv.org/abs/2611.17529)
+
+**Authors:** Konstantinos Mylonas, Thrasyvoulos Spyropoulos
+
+**Published:** 2026-11-12 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.17529) | [PDF](https://arxiv.org/pdf/2611.17529)
+
+<details>
+<summary>Abstract</summary>
+
+Image-goal planning with a frozen visual world model depends on how predicted observations are scored against the goal. Mean-squared error (MSE) between embeddings from a pretrained visual encoder can provide a useful signal near a goal, yet favor states across an obstacle that are visually similar to the goal and difficult to reach. We fit a small residual adapter on top of frozen I-JEPA embeddings to improve this latent goal cost. Starting near each goal, a planner collects trajectories from progressively wider regions of initial states. The adapter learns from the order of observations alon...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Learning Latent Goal Costs for Visual World-Model Planning with an Expanding Curriculum
+
+Image-goal planning with a frozen visual world model depends on how predicted observations are scored against the goal.
+
+arXiv: https://arxiv.org/abs/2611.17529
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Rethinking Actions: Continuity-Aware Priors for World-Model Planning](https://arxiv.org/abs/2611.16645)
 
 **Authors:** Shaobo Yang, Zichen Ai, Ziyang Ma, Qian Yang, Bin Fang
@@ -603,41 +567,6 @@ arXiv: https://arxiv.org/abs/2611.11869
 
 ---
 
-### [DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight](https://arxiv.org/abs/2611.11166)
-
-**Authors:** Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye, Yaping Li et al. (9 authors)
-
-**Published:** 2026-11-08 (updated 2026-11-10) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "world model" in abstract; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.11166) | [PDF](https://arxiv.org/pdf/2611.11166) | [Project Page](https://dexforesight.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and v...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
-
-Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand.
-
-arXiv: https://arxiv.org/abs/2611.11166
-Project page: https://dexforesight.github.io/
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
 ### [OnlyAct: Extracting Action Representations from Foundation Models for World Models](https://arxiv.org/abs/2611.14420)
 
 **Authors:** Runjia Li, Minghao Chen, Junyu Xie, Philip Torr, Andrea Vedaldi et al. (6 authors)
@@ -698,6 +627,40 @@ PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text
 As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.
 
 arXiv: https://arxiv.org/abs/2611.13576
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models](https://arxiv.org/abs/2611.17775)
+
+**Authors:** Yu Zhou, Changsong Lei, Yixiang Wei, Kairui Wen, Huankun Sheng et al. (9 authors)
+
+**Published:** 2026-11-13 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.17775) | [PDF](https://arxiv.org/pdf/2611.17775)
+
+<details>
+<summary>Abstract</summary>
+
+World models that support planning, control, and interpretable reasoning require latent representations that genuinely encode action. Yet the large-scale video data from which such models are learned overwhelmingly lack action annotations. Latent-action models infer action-like variables from observation sequences, enabling action-aware learning from unlabeled videos or trajectories. A fundamental concern, however, remains: a latent that improves future prediction may simply encode the current state, episode progress, task identity, or other predictive shortcuts. Existing evaluation practices-...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models
+
+World models that support planning, control, and interpretable reasoning require latent representations that genuinely encode action.
+
+arXiv: https://arxiv.org/abs/2611.17775
 
 #worldmodels #robotics
 ```
@@ -1014,20 +977,20 @@ arXiv: https://arxiv.org/abs/2611.11780
 
 ---
 
-### [K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation](https://arxiv.org/abs/2611.11521)
+### [Joint World Action Models through Differentiable Trajectory Optimization](https://arxiv.org/abs/2611.17626)
 
-**Authors:** Santosh Mohan Rajkumar, Sriram Narayanan, Samuel E. Otto, Debdipta Goswami
+**Authors:** Mintae Kim, Koushil Sreenath
 
-**Published:** 2026-11-08 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-13 | **Categories:** cs.LG | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in title
+**Why surfaced:** "world model" in abstract; robotics / embodied focus
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.11521) | [PDF](https://arxiv.org/pdf/2611.11521)
+**Links:** [arXiv](https://arxiv.org/abs/2611.17626) | [PDF](https://arxiv.org/pdf/2611.17626)
 
 <details>
 <summary>Abstract</summary>
 
-World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging. While much progress has focused on pixel-based observations, many physical systems instead provide vector-valued measurements that reveal only part of the underlying state. We introduce K-PWM, a probabilistic world model for prediction and control under partial observation. K-PWM couples Koopman-bilinear latent dynamics with a nonlinear observation decoder and performs probabilistic latent-state inference thro...
+Joint world action models (WAMs) generate future actions and states together, modeling world-action trajectories rather than actions alone. However, trajectory imitation does not ensure that these trajectories are task-effective or consistent with dynamics. We present \textbf{world action trajectory optimization (WATO)}, which optimizes generated actions and future states jointly for control. WATO uses both as references in a dynamics-constrained trajectory optimization problem and differentiates the task loss through the optimized trajectory to train the generator. This makes generated trajec...
 
 </details>
 
@@ -1035,11 +998,11 @@ World models learn internal simulators of environment dynamics for prediction, p
 <summary>Share</summary>
 
 ```
-K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation
+Joint World Action Models through Differentiable Trajectory Optimization
 
-World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging.
+Joint world action models (WAMs) generate future actions and states together, modeling world-action trajectories rather than actions alone.
 
-arXiv: https://arxiv.org/abs/2611.11521
+arXiv: https://arxiv.org/abs/2611.17626
 
 #worldmodels #robotics
 ```
@@ -1312,40 +1275,6 @@ GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization
 Photorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation.
 
 arXiv: https://arxiv.org/abs/2611.13528
-
-#worldmodels #robotics
-```
-
-</details>
-
----
-
-### [ForeAct: Geometry-Guided Action Learning from World Representations](https://arxiv.org/abs/2611.11500)
-
-**Authors:** Wei Lu, Jiaxi Zhang, Yunheng Wang, Taowen Wang, Yuetong Fang et al. (11 authors)
-
-**Published:** 2026-11-08 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "world model" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.11500) | [PDF](https://arxiv.org/pdf/2611.11500)
-
-<details>
-<summary>Abstract</summary>
-
-Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction. Existing approaches have largely treated these two aspects separately. World action models capture such dynamics by coupling action prediction with future video generation, but their reliance on iterative diffusion or rectified-flow inference leads to high computational cost, while their representations lack explicit spatial structure. Explicitly modeling scene geometry typically requires auxiliary modules that increase both parameter count and computational cost. Conversely, ge...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ForeAct: Geometry-Guided Action Learning from World Representations
-
-Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction.
-
-arXiv: https://arxiv.org/abs/2611.11500
 
 #worldmodels #robotics
 ```
