@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-17 04:14 UTC
+**Last updated:** 2026-11-17 23:20 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
@@ -117,9 +117,9 @@ Project page: https://llong-cs.github.io/EgoGuidance
 
 ### [PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning](https://arxiv.org/abs/2611.16424)
 
-**Authors:** Haofeng Wang, Pengcheng Wen, Ruiqi Li, Yuhao Zhang, Tiange Zhang et al. (15 authors)
+**Authors:** Haofeng Wang, Xuanyi Liu, Pengcheng Wen, Ruiqi Li, Yuhao Zhang et al. (15 authors)
 
-**Published:** 2026-11-12 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-12 (updated 2026-11-16) | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in abstract; project page
 

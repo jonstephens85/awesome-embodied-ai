@@ -11147,5 +11147,110 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.20244": {
+    "first_seen": "2026-11-17",
+    "title": "Right Goal, Wrong Body: Re-grounding Frozen VLAs under Actuation Shift",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20314": {
+    "first_seen": "2026-11-17",
+    "title": "NF-VLA: A Normalizing-Flow Baseline for Vision-Language-Action Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20452": {
+    "first_seen": "2026-11-17",
+    "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.20460": {
+    "first_seen": "2026-11-17",
+    "title": "Stochastic Self-Distillation for Flow-Based Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20465": {
+    "first_seen": "2026-11-17",
+    "title": "ReRead: Wrong Predictions, Useful Representations - Correcting Frozen Robot Policies by Re-reading Their Own Representations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20631": {
+    "first_seen": "2026-11-17",
+    "title": "Instructions Before Actions: Prospective and Retrospective Language Supervision for Driving Vision-Language-Action Data",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20648": {
+    "first_seen": "2026-11-17",
+    "title": "Competent Autonomous Driving Through Fine Tuning Vision Language Action Models with Symbolic Traffic Rules",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20719": {
+    "first_seen": "2026-11-17",
+    "title": "ACiT: Proprioceptive-Prior Action Chunking with Inverted Transformers",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20899": {
+    "first_seen": "2026-11-17",
+    "title": "SciWorldBench: Do Video World Models Really Understand Scientific Experiments?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.20971": {
+    "first_seen": "2026-11-17",
+    "title": "FAVR: Flow-Aware Visual Residual Alignment for Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.21033": {
+    "first_seen": "2026-11-17",
+    "title": "POKE: Probe Offline, Keep Efficiently for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.21057": {
+    "first_seen": "2026-11-17",
+    "title": "WiTac: Wrist-Informed Tactile Representations for Contact-Rich Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.21060": {
+    "first_seen": "2026-11-17",
+    "title": "MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.21517": {
+    "first_seen": "2026-11-17",
+    "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.21607": {
+    "first_seen": "2026-11-17",
+    "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+    "topics": [
+      "vla"
+    ]
   }
 }

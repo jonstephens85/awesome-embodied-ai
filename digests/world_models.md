@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-17 04:14 UTC
+**Last updated:** 2026-11-17 23:20 UTC
 
-**Papers shown:** 41 (relevance ≥ 2, last 7 days)
+**Papers shown:** 44 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -109,6 +109,40 @@ An autonomous vehicle must foresee the consequences of its actions, especially i
 
 arXiv: https://arxiv.org/abs/2611.20107
 Project page: https://ys-qu.github.io/safer-website
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models](https://arxiv.org/abs/2611.21517)
+
+**Authors:** Itamar Mishani, Mukund Krishnakumar, Oren Salzman, Maxim Likhachev
+
+**Published:** 2026-11-16 | **Categories:** cs.RO, cs.AI | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.21517) | [PDF](https://arxiv.org/pdf/2611.21517)
+
+<details>
+<summary>Abstract</summary>
+
+Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized skills, solutions lie in a vast hybrid space of skill sequences and their parameters, and evaluating each candidate skill's feasibility and effect with a high-fidelity world model such as a physics simulator is computationally expensive. MOSAIC, a recent skill-centric approach, lets the skills guide a non-sequential search toward the regions of this...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models
+
+Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills.
+
+arXiv: https://arxiv.org/abs/2611.21517
 
 #worldmodels #robotics
 ```
@@ -605,6 +639,40 @@ Code: https://github.com/fuyichen0725/blinkmimic
 
 ---
 
+### [SciWorldBench: Do Video World Models Really Understand Scientific Experiments?](https://arxiv.org/abs/2611.20899)
+
+**Authors:** Xue Yang, Haonan Cai, Xinyu Hang, Zhimeng Huang, Xuanyi Liu et al. (7 authors)
+
+**Published:** 2026-11-16 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.20899) | [PDF](https://arxiv.org/pdf/2611.20899)
+
+<details>
+<summary>Abstract</summary>
+
+While the ability of video generation models to accurately depict scientific phenomena has received growing attention, determining whether these models genuinely understand the underlying principles remains a critical challenge. Existing benchmarks typically evaluate video samples in isolation, making it difficult to expose models that simply fit superficial visual priors. In scientific experiments, a small change in one condition produces a markedly different outcome even when the rest of the setup remains fixed. Capitalizing on this sensitivity, we introduce SciWorldBench, a benchmark compri...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SciWorldBench: Do Video World Models Really Understand Scientific Experiments?
+
+While the ability of video generation models to accurately depict scientific phenomena has received growing attention, determining whether these models genuinely understand the underlying principles remains a critical...
+
+arXiv: https://arxiv.org/abs/2611.20899
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [The Sense Paradigm for World Models](https://arxiv.org/abs/2611.19796)
 
 **Authors:** Haidong Hu
@@ -733,6 +801,40 @@ PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text
 As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.
 
 arXiv: https://arxiv.org/abs/2611.13576
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452)
+
+**Authors:** Nico Bohlinger, Jan Peters
+
+**Published:** 2026-11-16 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.20452) | [PDF](https://arxiv.org/pdf/2611.20452)
+
+<details>
+<summary>Abstract</summary>
+
+We present XMimic and XSoma, which learn humanoid motion tracking and locomotion on rough terrain in under a minute of training. Both follow SuperMimic, which learns a world model of the robot and optimizes the policy with analytic gradients through short rollouts imagined in this model. Existing implementations of this method do not make use of larger GPUs, as every training iteration is a long chain of small GPU operations that run one after another. XMimic and XSoma therefore shorten this chain and run the steps of every iteration at the same time on up to four GPUs. We compile the complete...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
+
+We present XMimic and XSoma, which learn humanoid motion tracking and locomotion on rough terrain in under a minute of training.
+
+arXiv: https://arxiv.org/abs/2611.20452
 
 #worldmodels #robotics
 ```
@@ -951,7 +1053,7 @@ arXiv: https://arxiv.org/abs/2611.15048
 
 **Authors:** Run Wang, Yilin Mo, Liang Wu
 
-**Published:** 2026-11-11 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-11 (updated 2026-11-16) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "world model" in title
 
@@ -960,7 +1062,7 @@ arXiv: https://arxiv.org/abs/2611.15048
 <details>
 <summary>Abstract</summary>
 
-Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure. Refinement can correct these errors, but existing approaches often require additional on-policy learning or costly online planning. Our key insight is that a pretrained policy already supplies a useful nominal behavior: refinement can focus on predicting how small action corrections change its outcome. We therefore learn this local response in a form that is cheap to optimize. Our \textit{action-affine world model} (A\textsuperscript{2}WM) learns local action sensitivities offline...
+Imitation policies can fail through compounding errors, while existing refinement methods often require additional on-policy learning or expensive online planning. Our key insight is that an imitation policy already supplies a useful action proposal: refinement can focus on predicting how small action corrections change its outcome. We learn an \textit{action-affine world model} (A\textsuperscript{2}WM) offline from perturbed policy rollouts. Conditioned on history and the proposal, it directly predicts the future as a nominal trajectory plus a linear response to corrections, avoiding recursiv...
 
 </details>
 
@@ -970,7 +1072,7 @@ Imitation policies can perform complex manipulation, yet small execution errors 
 ```
 Fast Inference-Time Policy Refinement via Action-Affine World Models
 
-Imitation policies can perform complex manipulation, yet small execution errors can accumulate and cause failure.
+Imitation policies can fail through compounding errors, while existing refinement methods often require additional on-policy learning or expensive online planning.
 
 arXiv: https://arxiv.org/abs/2611.15011
 
