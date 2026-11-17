@@ -10963,5 +10963,189 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.18761": {
+    "first_seen": "2026-11-17",
+    "title": "Frame First, Decode Once: Object-Centric Coordinates and Single-Pass Decoding for System-1 World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.18807": {
+    "first_seen": "2026-11-17",
+    "title": "Recovered or Memorized? Investigating Dynamical Consistency and Faithfulness in World Model Latents",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.18891": {
+    "first_seen": "2026-11-17",
+    "title": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.18979": {
+    "first_seen": "2026-11-17",
+    "title": "Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models",
+    "topics": [
+      "egocentric_data",
+      "world_models"
+    ]
+  },
+  "2611.19081": {
+    "first_seen": "2026-11-17",
+    "title": "RoboCoEvo: Expanding Robot Capabilities through Agent-Policy Co-Evolution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19131": {
+    "first_seen": "2026-11-17",
+    "title": "Wireless Edge-Assisted Adaptive Latent Reasoning for Vision-Language-Action Models in Physical AI",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19138": {
+    "first_seen": "2026-11-17",
+    "title": "SuperGlance: Driving at a Glance with a Vision-Language Model",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19183": {
+    "first_seen": "2026-11-17",
+    "title": "WA-JEPA: Goal-Aware Predictive Feedback Action Refinement for a World-Action Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19196": {
+    "first_seen": "2026-11-17",
+    "title": "Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19198": {
+    "first_seen": "2026-11-17",
+    "title": "Self-Calibrating Vision-Agent-Action: Deploying Pick-and-Place to New Robot Cells without Demonstrations or Fine-Tuning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19247": {
+    "first_seen": "2026-11-17",
+    "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19311": {
+    "first_seen": "2026-11-17",
+    "title": "Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19324": {
+    "first_seen": "2026-11-17",
+    "title": "MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19466": {
+    "first_seen": "2026-11-17",
+    "title": "Successive Convexification in Learned World Models for Safe Offline Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19559": {
+    "first_seen": "2026-11-17",
+    "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.19676": {
+    "first_seen": "2026-11-17",
+    "title": "Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19771": {
+    "first_seen": "2026-11-17",
+    "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19774": {
+    "first_seen": "2026-11-17",
+    "title": "When Backdoors Can Be Switched Off: Suppression-Aware Backdoor Attacks on Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.19796": {
+    "first_seen": "2026-11-17",
+    "title": "The Sense Paradigm for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19822": {
+    "first_seen": "2026-11-17",
+    "title": "The Flip Test: Video World Models Fail to Learn the World State",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.19969": {
+    "first_seen": "2026-11-17",
+    "title": "Value and Policy Calibration from Execution Feedback for Socially Compatible Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.20010": {
+    "first_seen": "2026-11-17",
+    "title": "PlanDiv: Test-Time Scaling with Latent Plans for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20011": {
+    "first_seen": "2026-11-17",
+    "title": "ReactBench-AD: Do Driving VLAs and World-Action Models React to Imminent Hazards in Their Path?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.20090": {
+    "first_seen": "2026-11-17",
+    "title": "Latent World Modeling for Point-Cloud Video Pretraining",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.20100": {
+    "first_seen": "2026-11-17",
+    "title": "EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.20107": {
+    "first_seen": "2026-11-17",
+    "title": "SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
   }
 }

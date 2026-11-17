@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-16 23:58 UTC
+**Last updated:** 2026-11-17 04:14 UTC
 
 **Papers shown:** 10 (relevance ≥ 2, last 7 days)
 
@@ -45,20 +45,20 @@ Project page: https://mikewu597.github.io/Ego2Robot_Learning/
 
 ---
 
-### [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870)
+### [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100)
 
-**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, Yinghao Yang, Wendi Chen et al. (11 authors)
+**Authors:** Ziqiang Liu, Xitong Chen, Min Li, Yiqun Li, Zhuoping Yin
 
-**Published:** 2026-11-09 (updated 2026-11-11) | **Categories:** cs.CV, cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-11-15 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; code repo
+**Why surfaced:** "egocentric demonstration" in abstract; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.12870) | [PDF](https://arxiv.org/pdf/2611.12870) | [Project Page](https://char-lotte-xia.github.io/swam-official/) | [Code](https://github.com/shaaaaron/SWAM)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.20100) | [PDF](https://arxiv.org/pdf/2611.20100) | [Project Page](https://xitong-c.github.io/EgoSwarm_Page/)
 
 <details>
 <summary>Abstract</summary>
 
-World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demon...
+Advancing from individual embodied intelligence to swarm embodied intelligence is a key step toward scalable, general-purpose embodied intelligence. Complex tasks often require multiple agents to divide responsibilities, coordinate handovers, and manipulate shared objects collaboratively. However, existing robot learning methods rely primarily on individual demonstrations, which provide limited supervision for modeling dependencies among agent actions, while collecting multi-robot demonstrations at scale remains difficult. Human egocentric demonstrations offer a scalable alternative, yet distr...
 
 </details>
 
@@ -66,13 +66,12 @@ World action models jointly predict video and actions conditioned on language. E
 <summary>Share</summary>
 
 ```
-SWAM: Scaling World Action Models with Cross-Modal Alignment
+EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations
 
-World action models jointly predict video and actions conditioned on language.
+Advancing from individual embodied intelligence to swarm embodied intelligence is a key step toward scalable, general-purpose embodied intelligence.
 
-arXiv: https://arxiv.org/abs/2611.12870
-Project page: https://char-lotte-xia.github.io/swam-official/
-Code: https://github.com/shaaaaron/SWAM
+arXiv: https://arxiv.org/abs/2611.20100
+Project page: https://xitong-c.github.io/EgoSwarm_Page/
 
 #egocentric #robotlearning
 ```
@@ -155,9 +154,9 @@ Project page: https://hfwang2001.github.io/physcapbench-site/
 
 ### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110)
 
-**Authors:** Jiachun Jin, Zetong Zhou, Haonan Wang, Xiao Yang, Jun Zhu et al. (6 authors)
+**Authors:** Jiachun Jin, Zetong Zhou, Haonan Wang, Zhijie Deng
 
-**Published:** 2026-11-12 | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-12 (updated 2026-11-15) | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits
 
