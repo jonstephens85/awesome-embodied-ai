@@ -11252,5 +11252,173 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.21690": {
+    "first_seen": "2026-11-18",
+    "title": "EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.21782": {
+    "first_seen": "2026-11-18",
+    "title": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.21846": {
+    "first_seen": "2026-11-18",
+    "title": "Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.21882": {
+    "first_seen": "2026-11-18",
+    "title": "WM-Quant: Rollout-Aware Post-Training Quantization for JEPA-Style World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.21938": {
+    "first_seen": "2026-11-18",
+    "title": "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.22001": {
+    "first_seen": "2026-11-18",
+    "title": "DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22077": {
+    "first_seen": "2026-11-18",
+    "title": "ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22294": {
+    "first_seen": "2026-11-18",
+    "title": "Perception into Imagination: Executable Memory for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22295": {
+    "first_seen": "2026-11-18",
+    "title": "Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utility",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22314": {
+    "first_seen": "2026-11-18",
+    "title": "Inertial Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22356": {
+    "first_seen": "2026-11-18",
+    "title": "SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22367": {
+    "first_seen": "2026-11-18",
+    "title": "FailureGen: Scalable Robot Failure Data Generation with World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22395": {
+    "first_seen": "2026-11-18",
+    "title": "CoBoVLA: Decoupling Language from Action with Discrete Codes for Robust and Interpretable Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22453": {
+    "first_seen": "2026-11-18",
+    "title": "VoxelSBFL: Voxel-Level Spectrum-Based Failure Prediction for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22470": {
+    "first_seen": "2026-11-18",
+    "title": "Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22483": {
+    "first_seen": "2026-11-18",
+    "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22491": {
+    "first_seen": "2026-11-18",
+    "title": "Progress Predicts Policy",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22537": {
+    "first_seen": "2026-11-18",
+    "title": "Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22543": {
+    "first_seen": "2026-11-18",
+    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22561": {
+    "first_seen": "2026-11-18",
+    "title": "Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22584": {
+    "first_seen": "2026-11-18",
+    "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22666": {
+    "first_seen": "2026-11-18",
+    "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22686": {
+    "first_seen": "2026-11-18",
+    "title": "CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22691": {
+    "first_seen": "2026-11-18",
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
   }
 }
