@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-18 03:13 UTC
+**Last updated:** 2026-11-18 22:50 UTC
 
-**Papers shown:** 45 (relevance ≥ 2, last 7 days)
+**Papers shown:** 49 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -314,6 +314,40 @@ Vision-language-action (VLA) models have emerged as a promising paradigm for gen
 
 arXiv: https://arxiv.org/abs/2611.14969
 Code: https://github.com/X-Square-Robot/xinfer
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models](https://arxiv.org/abs/2611.22736)
+
+**Authors:** Shaozhen Liu, Zhiwei Li, Jiayang Sun, Shuangjun Du, Yi Zhong et al. (9 authors)
+
+**Published:** 2026-11-17 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in title; 3 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.22736) | [PDF](https://arxiv.org/pdf/2611.22736)
+
+<details>
+<summary>Abstract</summary>
+
+Closed-loop vision-language-action (VLA) policies rely continuously on multi-view cameras, yet existing visual attacks typically hijack sensor streams with 2D patches or alter target object meshes that require retraining when manipulation objects change. We introduce RefCloth, a framework that optimizes one persistent adversarial tablecloth on a frozen source policy and deploys it zero-shot across unseen tasks and target models without modifying task objects or cameras. Throughout manipulation, static third-person and moving wrist views observe this shared world-bound texture under evolving oc...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models
+
+Closed-loop vision-language-action (VLA) policies rely continuously on multi-view cameras, yet existing visual attacks typically hijack sensor streams with 2D patches or alter target object meshes that require retrain...
+
+arXiv: https://arxiv.org/abs/2611.22736
 
 #VLA #robotics
 ```
@@ -841,6 +875,76 @@ Project page: https://so101-turtlebot4.github.io/mobile-bimanual-cleaning/
 
 ---
 
+### [Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2611.22880)
+
+**Authors:** Guoqing Wang, Pin Tang, Xiangxuan Ren, Chao Ma
+
+**Published:** 2026-11-17 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Also relevant to:** World Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.22880) | [PDF](https://arxiv.org/pdf/2611.22880)
+
+<details>
+<summary>Abstract</summary>
+
+Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures instead of merely reacting to current observations. However, most world VLA models generate future frames at the pixel level with plenty of dense visual tokens. Although such generated futures can be visually plausible, they preserve many driving-irrelevant appearance details, i.e., only a small portion of the tokens directly encode critical planning-relevant factors, such as agent geometry, motion d...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving
+
+Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures instead of merely re...
+
+arXiv: https://arxiv.org/abs/2611.22880
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies](https://arxiv.org/abs/2611.22878)
+
+**Authors:** Yuhan Wang, Ruiyang Wang, Jiaguan Zhu
+
+**Published:** 2026-11-17 | **Categories:** cs.AI, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.22878) | [PDF](https://arxiv.org/pdf/2611.22878)
+
+<details>
+<summary>Abstract</summary>
+
+Reinforcement learning (RL) enables post-training of flow-based vision-language-action (VLA) policies by optimizing expected task return through environment interaction. However, this optimization raises two challenges: policy updates can alter the velocity-field geometry underlying the score approximation used for stochastic transitions, and sparse multi-task rollouts can yield uneven learning signals across tasks and advantage signs. We introduce an RL framework that combines Outcome-Balanced Proximal Policy Optimization (PPO) with policy-induced flow rectification. Outcome-Balanced PPO rewe...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies
+
+Reinforcement learning (RL) enables post-training of flow-based vision-language-action (VLA) policies by optimizing expected task return through environment interaction.
+
+arXiv: https://arxiv.org/abs/2611.22878
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
 ### [FAVR: Flow-Aware Visual Residual Alignment for Vision-Language-Action Policies](https://arxiv.org/abs/2611.20971)
 
 **Authors:** Qixuan Wu, Xiaole Yang, Yuguang Yang, Canyu Chen, Linlin Yang et al. (8 authors)
@@ -1173,6 +1277,40 @@ Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utilit
 Retrieval-augmented vision-language-action (VLA) policies fill their context with the demonstrations whose frames look most like the current observation under frozen DINOv2 embeddings.
 
 arXiv: https://arxiv.org/abs/2611.22295
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [PAIR: Bringing Household Robots into the Smart Home](https://arxiv.org/abs/2611.23070)
+
+**Authors:** Junseong Pyo, Hyeongjin Kim, Jongwook Han, Seungwon Kook, Sungjib Lim et al. (6 authors)
+
+**Published:** 2026-11-17 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "VLA" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.23070) | [PDF](https://arxiv.org/pdf/2611.23070)
+
+<details>
+<summary>Abstract</summary>
+
+Household robots often need to operate appliances, and smart appliances offer both control panels and device APIs. Existing embodied AI simulation environments, however, model appliances solely as physical objects. We introduce PAIR, a smart-home simulation environment grounded in the Matter protocol~\footnote{https://csa-iot.org/all-solutions/matter/}, the industry standard for smart-home devices. PAIR provides 84 smart-device assets whose functional control panels and APIs act on a shared device state, with ambient conditions that evolve in response to both. From a survey of 1,443 requests,...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+PAIR: Bringing Household Robots into the Smart Home
+
+Household robots often need to operate appliances, and smart appliances offer both control panels and device APIs.
+
+arXiv: https://arxiv.org/abs/2611.23070
 
 #VLA #robotics
 ```

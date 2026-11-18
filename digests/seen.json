@@ -11420,5 +11420,69 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.22736": {
+    "first_seen": "2026-11-18",
+    "title": "RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22878": {
+    "first_seen": "2026-11-18",
+    "title": "Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.22880": {
+    "first_seen": "2026-11-18",
+    "title": "Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.22925": {
+    "first_seen": "2026-11-18",
+    "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22954": {
+    "first_seen": "2026-11-18",
+    "title": "Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22981": {
+    "first_seen": "2026-11-18",
+    "title": "SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.22998": {
+    "first_seen": "2026-11-18",
+    "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.23070": {
+    "first_seen": "2026-11-18",
+    "title": "PAIR: Bringing Household Robots into the Smart Home",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23118": {
+    "first_seen": "2026-11-18",
+    "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
+    "topics": [
+      "world_models"
+    ]
   }
 }

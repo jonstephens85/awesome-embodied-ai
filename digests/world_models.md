@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-18 03:13 UTC
+**Last updated:** 2026-11-18 22:50 UTC
 
-**Papers shown:** 51 (relevance ≥ 2, last 7 days)
+**Papers shown:** 56 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -82,6 +82,41 @@ Code: https://github.com/adept-thu/ActWorld-JEPA
 
 ---
 
+### [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118)
+
+**Authors:** Joyjeet Singh
+
+**Published:** 2026-11-17 | **Categories:** cs.RO, cs.LG | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.23118) | [PDF](https://arxiv.org/pdf/2611.23118) | [Code](https://github.com/joyjeet-singh/rwm-robot-level)
+
+<details>
+<summary>Abstract</summary>
+
+A legged robot can learn to walk inside a learned simulator: a neural network that predicts the robot's next state and is run forward on its own predictions. They are usually trained and checked one step ahead, although a policy uses them for a hundred steps or more. We audit one published system end to end, without a GPU: the dynamics model of the Robotic World Model (RWM) for the ANYmal D quadruped, and the uncertainty estimate of its follow-up, RWM-U. We rebuilt the model to match the released code's outputs, losses and gradients exactly, measured 101 trained simulators, 200 compressed copi...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D
+
+A legged robot can learn to walk inside a learned simulator: a neural network that predicts the robot's next state and is run forward on its own predictions.
+
+arXiv: https://arxiv.org/abs/2611.23118
+Code: https://github.com/joyjeet-singh/rwm-robot-level
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving](https://arxiv.org/abs/2611.20107)
 
 **Authors:** Yansong Qu, Zilin Huang, Zihao Sheng, Sikai Chen, Samuel Labi
@@ -109,6 +144,41 @@ An autonomous vehicle must foresee the consequences of its actions, especially i
 
 arXiv: https://arxiv.org/abs/2611.20107
 Project page: https://ys-qu.github.io/safer-website
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Code World Model 2.0: Towards Infinite Controllable Video Generation](https://arxiv.org/abs/2611.22925)
+
+**Authors:** Ruoyu Wang, Hao Zhong, Yanming Yang, Jiahao Tian, Lin Liu et al. (11 authors)
+
+**Published:** 2026-11-17 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "world model" in title; project page; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.22925) | [PDF](https://arxiv.org/pdf/2611.22925) | [Project Page](https://www.inclusion-ai.org/CodeWorldModel/)
+
+<details>
+<summary>Abstract</summary>
+
+Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming. Yet a practical renderer must address two challenges. Upstream proxies vary from coarse layouts to fine articulated geometry depending on the interaction, and streaming inference must operate in a few causal steps without accumulating drift across self-generated history. We present Invoker-Render, pairing a bidirectional creation model with a causal four-step streaming model under a shared conditioning...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Code World Model 2.0: Towards Infinite Controllable Video Generation
+
+Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming.
+
+arXiv: https://arxiv.org/abs/2611.22925
+Project page: https://www.inclusion-ai.org/CodeWorldModel/
 
 #worldmodels #robotics
 ```
@@ -220,6 +290,41 @@ Code: https://github.com/youngers2006/scwm
 
 ---
 
+### [SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning](https://arxiv.org/abs/2611.22981)
+
+**Authors:** Shuhan Ye, Hongbin Yu, Chong Wang, Hui Lu, Jiaming He et al. (8 authors)
+
+**Published:** 2026-11-17 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in abstract; code repo; robotics / embodied focus; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.22981) | [PDF](https://arxiv.org/pdf/2611.22981) | [Code](https://github.com/ShawnYE618/SpikWM)
+
+<details>
+<summary>Abstract</summary>
+
+Goal-conditioned planning with image observations and goals requires predictions that distinguish visual states and action consequences. Spiking neural networks offer sparse computation, but single-step spikes can obscure motion cues and merge actions with different physical outcomes. We propose the Spiking Latent World Model (SpikWM), an end-to-end joint-embedding predictive architecture (JEPA) with one simulation step per image and one neural update per latent position. Spiking Regional Encoding retains spatial cues through regional pooling. Bi-Spike Action Encoding combines positive and neg...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning
+
+Goal-conditioned planning with image observations and goals requires predictions that distinguish visual states and action consequences.
+
+arXiv: https://arxiv.org/abs/2611.22981
+Code: https://github.com/ShawnYE618/SpikWM
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
 ### [Inertial Video World Models](https://arxiv.org/abs/2611.22314)
 
 **Authors:** Yuan Gao, Fan Xu, Yu Guo, Yuxu Lu, Zhengru Fang et al. (7 authors)
@@ -247,6 +352,40 @@ The physical world has inertia: it evolves from what already exists rather than 
 
 arXiv: https://arxiv.org/abs/2611.22314
 Code: https://github.com/YuanGao-YG/InertialWorld
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model](https://arxiv.org/abs/2611.22998)
+
+**Authors:** Jiaqi Wu, Yongqi Dong, Yijie Zhong, Maple Shao, Yide Tao et al. (9 authors)
+
+**Published:** 2026-11-17 | **Categories:** cs.AI, cs.ET, cs.LG | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.22998) | [PDF](https://arxiv.org/pdf/2611.22998)
+
+<details>
+<summary>Abstract</summary>
+
+In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs. We propose a residual-guided reinforcement learning (RL) framework for lightweight trajectory selection with a frozen world model and a fixed candidate bank. The framework uses proximal policy optimization (PPO) to fine-tune a joint policy over candidate selection and bounded trajectory residuals. A context-conditioned ranking network learns candidate preferences from feedback obtained by evaluating local perturbations...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model
+
+In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs.
+
+arXiv: https://arxiv.org/abs/2611.22998
 
 #worldmodels #robotics
 ```
@@ -731,6 +870,40 @@ In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1
 
 arXiv: https://arxiv.org/abs/2611.15131
 Project page: https://duo-v1.github.io/
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives](https://arxiv.org/abs/2611.22954)
+
+**Authors:** Luzia Knoedler, Yihan Liu, Shaohang Han, Yifei Dong, Jana Tumova
+
+**Published:** 2026-11-17 | **Categories:** cs.RO, eess.SY | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; robotics / embodied focus; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.22954) | [PDF](https://arxiv.org/pdf/2611.22954)
+
+<details>
+<summary>Abstract</summary>
+
+Failure avoidance in complex robot-environment interactions is challenging because the underlying dynamics are difficult to model accurately, and available predictive models may not provide reliable derivatives. We present Sim2CBF, a failure-avoidance framework that solves the Control Barrier Function (CBF)-Safety Filter (SF) optimization problem using only forward-model evaluations, thereby avoiding differentiation of the predictive model. Specifically, we approximate the CBF constraint using finite differences and local linear interpolation over sampled control inputs while preserving failur...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives
+
+Failure avoidance in complex robot-environment interactions is challenging because the underlying dynamics are difficult to model accurately, and available predictive models may not provide reliable derivatives.
+
+arXiv: https://arxiv.org/abs/2611.22954
 
 #worldmodels #robotics
 ```
