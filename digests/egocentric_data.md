@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-18 22:50 UTC
+**Last updated:** 2026-11-19 02:52 UTC
 
-**Papers shown:** 9 (relevance ≥ 2, last 7 days)
+**Papers shown:** 8 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -16,7 +16,7 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Published:** 2026-11-16 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric video" in title; 3 distinct keyword hits; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; 3 distinct keyword hits
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.21938) | [PDF](https://arxiv.org/pdf/2611.21938)
 
@@ -150,40 +150,6 @@ arXiv: https://arxiv.org/abs/2611.17110
 
 ---
 
-### [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://arxiv.org/abs/2611.21690)
-
-**Authors:** Renhe Sun, Yueying Feng, Bohan Yu, Tong Niu, Yunqi Liu et al. (15 authors)
-
-**Published:** 2026-11-16 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.21690) | [PDF](https://arxiv.org/pdf/2611.21690)
-
-<details>
-<summary>Abstract</summary>
-
-The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike benchmarks centered on visible objects and activities, EgoLink evaluates whether models can interpret emotional and social cues, resolve visually grounded references, and convert user requests into verified tool-mediated actions. Its two tracks cover social reasoning in egocentric video and interactive agents that complete service tasks through dialogue, tool use, and closed-loop execution. Together, they test whether perce...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary
-
-The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action.
-
-arXiv: https://arxiv.org/abs/2611.21690
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.16417)
 
 **Authors:** Tong Rao, Zhihao Zhang, Yuntian Wang, Siyu Zhou, Hailong Qin et al. (6 authors)
@@ -252,6 +218,40 @@ arXiv: https://arxiv.org/abs/2611.17238
 
 ---
 
+### [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://arxiv.org/abs/2611.21690)
+
+**Authors:** Renhe Sun, Yueying Feng, Bohan Yu, Tong Niu, Yunqi Liu et al. (15 authors)
+
+**Published:** 2026-11-16 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.21690) | [PDF](https://arxiv.org/pdf/2611.21690)
+
+<details>
+<summary>Abstract</summary>
+
+The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike benchmarks centered on visible objects and activities, EgoLink evaluates whether models can interpret emotional and social cues, resolve visually grounded references, and convert user requests into verified tool-mediated actions. Its two tracks cover social reasoning in egocentric video and interactive agents that complete service tasks through dialogue, tool use, and closed-loop execution. Together, they test whether perce...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary
+
+The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action.
+
+arXiv: https://arxiv.org/abs/2611.21690
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Can an LVLM Perceive Event Boundaries Like a Human?](https://arxiv.org/abs/2611.16452)
 
 **Authors:** Hyolim Kang, Jungsoo Lee, Yeji Song, Whie Jung, Janghoon Cho et al. (6 authors)
@@ -278,40 +278,6 @@ Can an LVLM Perceive Event Boundaries Like a Human?
 Large Vision-Language Models (LVLMs) reason effectively about video content, but whether they perceive its event boundaries in a manner consistent with humans remains unclear.
 
 arXiv: https://arxiv.org/abs/2611.16452
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition](https://arxiv.org/abs/2611.16056)
-
-**Authors:** Sadegh Rahmaniboldaji, Filip Rybansky, Quoc Vuong, Frank Guerin, Andrew Gilbert
-
-**Published:** 2026-11-11 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric dataset" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.16056) | [PDF](https://arxiv.org/pdf/2611.16056)
-
-<details>
-<summary>Abstract</summary>
-
-Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions. We introduce sub-action detection, a task that requires models to explicitly recognise the left- and right-hand roles and their manipulated objects within an ongoing high-level action. To address this challenge, we propose BiScopeNet, a framework that augments existing video-LLMs without modifying their vision encoders or language models. BiScopeNet incorporates two components: FocusAlign, a gated text-guided attention-based module that selectively aligns video features with tex...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Sub-actions in Action: Text-Guided Hand-Role Alignment for Sub-Action Recognition
-
-Our objective is to enhance VLMs ability to distinguish the roles of the left and right hands in egocentric actions.
-
-arXiv: https://arxiv.org/abs/2611.16056
 
 #egocentric #robotlearning
 ```

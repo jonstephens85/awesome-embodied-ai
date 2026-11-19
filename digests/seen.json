@@ -11484,5 +11484,61 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.23491": {
+    "first_seen": "2026-11-19",
+    "title": "GRID-UAV: Geometry and Ray-depth Integrated Decision-making for Unmanned Aerial Vehicles",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23499": {
+    "first_seen": "2026-11-19",
+    "title": "BiCAT: Bimanual Coordination Action Tokenization",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23517": {
+    "first_seen": "2026-11-19",
+    "title": "RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23620": {
+    "first_seen": "2026-11-19",
+    "title": "How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.23676": {
+    "first_seen": "2026-11-19",
+    "title": "Finetuning VLAs for Dexterous Manipulation: The Right Checkpoint Is All You Need",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23685": {
+    "first_seen": "2026-11-19",
+    "title": "Measuring the Conservatism of Latent Safety Filters for World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.23714": {
+    "first_seen": "2026-11-19",
+    "title": "ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23843": {
+    "first_seen": "2026-11-19",
+    "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
   }
 }
