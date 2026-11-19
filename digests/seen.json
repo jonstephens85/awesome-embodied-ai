@@ -11540,5 +11540,267 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.23926": {
+    "first_seen": "2026-11-19",
+    "title": "GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23961": {
+    "first_seen": "2026-11-19",
+    "title": "3DTouch: A Tactile-aware VLA Model with 3D Geometric Relations for Dexterous Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23963": {
+    "first_seen": "2026-11-19",
+    "title": "CoRA-VTLA: Contact-Guided Attention and Queryable Response Memory for Tactile Post-Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.23970": {
+    "first_seen": "2026-11-19",
+    "title": "TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.24062": {
+    "first_seen": "2026-11-19",
+    "title": "JEPA Dots: Dual-Latent World Model for Language-Guided Robot Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24074": {
+    "first_seen": "2026-11-19",
+    "title": "SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24076": {
+    "first_seen": "2026-11-19",
+    "title": "Meaning Reaches Object Choice but Not Completion: Where Is a VLA Vulnerable to Landmark Synonyms?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24077": {
+    "first_seen": "2026-11-19",
+    "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24115": {
+    "first_seen": "2026-11-19",
+    "title": "Embodied Graph: A Relational World Model for Long-Horizon Tasks",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24138": {
+    "first_seen": "2026-11-19",
+    "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.24171": {
+    "first_seen": "2026-11-19",
+    "title": "Efficient World-Model Planning via Physics-Guided Search Distillation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24178": {
+    "first_seen": "2026-11-19",
+    "title": "Adaptive Action Horizon Selection via Flow-Field Uncertainty",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24187": {
+    "first_seen": "2026-11-19",
+    "title": "Worth Another Look:Constrained World-Model Planning for Visual Inspection",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24222": {
+    "first_seen": "2026-11-19",
+    "title": "Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24229": {
+    "first_seen": "2026-11-19",
+    "title": "ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24244": {
+    "first_seen": "2026-11-19",
+    "title": "CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24247": {
+    "first_seen": "2026-11-19",
+    "title": "Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.24360": {
+    "first_seen": "2026-11-19",
+    "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24408": {
+    "first_seen": "2026-11-19",
+    "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24409": {
+    "first_seen": "2026-11-19",
+    "title": "Risk-Triggered Search: Behavior-Preserving Safe Control",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24419": {
+    "first_seen": "2026-11-19",
+    "title": "PhysResponse: Probing the Physics of Video Generation with Controlled Interventions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24455": {
+    "first_seen": "2026-11-19",
+    "title": "Homeward: No Place Like the Training View",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24457": {
+    "first_seen": "2026-11-19",
+    "title": "ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24470": {
+    "first_seen": "2026-11-19",
+    "title": "When to Refine: Selective Search for Frozen Visual World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24494": {
+    "first_seen": "2026-11-19",
+    "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24512": {
+    "first_seen": "2026-11-19",
+    "title": "Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24585": {
+    "first_seen": "2026-11-19",
+    "title": "SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.24616": {
+    "first_seen": "2026-11-19",
+    "title": "EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.24731": {
+    "first_seen": "2026-11-19",
+    "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24778": {
+    "first_seen": "2026-11-19",
+    "title": "Counterfactual World Models: JEPAs That Reason About \"What If\"",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24816": {
+    "first_seen": "2026-11-19",
+    "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24836": {
+    "first_seen": "2026-11-19",
+    "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24840": {
+    "first_seen": "2026-11-19",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24864": {
+    "first_seen": "2026-11-19",
+    "title": "NereidVLA: Learning to Understand and Navigate the Underwater World",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.24869": {
+    "first_seen": "2026-11-19",
+    "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24925": {
+    "first_seen": "2026-11-19",
+    "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.24940": {
+    "first_seen": "2026-11-19",
+    "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+    "topics": [
+      "vla"
+    ]
   }
 }
