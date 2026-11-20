@@ -11802,5 +11802,105 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.24995": {
+    "first_seen": "2026-11-20",
+    "title": "EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.24999": {
+    "first_seen": "2026-11-20",
+    "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25105": {
+    "first_seen": "2026-11-20",
+    "title": "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25134": {
+    "first_seen": "2026-11-20",
+    "title": "GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25243": {
+    "first_seen": "2026-11-20",
+    "title": "Verify2Act: Critic-Guided Latent World Models for Verifying Language-Conditioned Manipulation Plans",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25251": {
+    "first_seen": "2026-11-20",
+    "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.25336": {
+    "first_seen": "2026-11-20",
+    "title": "MoRE: Mixture-of-Experts for Multi-Physics Robotic World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25347": {
+    "first_seen": "2026-11-20",
+    "title": "Search or Scoring? Diagnosing Why Visual World-Model Planners Fail",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25398": {
+    "first_seen": "2026-11-20",
+    "title": "RefreshGrad: An Online Adaptive Data-sampling Method for Diffusion-based Visuomotor Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25400": {
+    "first_seen": "2026-11-20",
+    "title": "Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25415": {
+    "first_seen": "2026-11-20",
+    "title": "Stuck in Place: Stall Diagnosis and Remedies for JEPA Planners",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25460": {
+    "first_seen": "2026-11-20",
+    "title": "LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.25461": {
+    "first_seen": "2026-11-20",
+    "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25474": {
+    "first_seen": "2026-11-20",
+    "title": "TuringPAI: A Foundation for On-Device Physical AI",
+    "topics": [
+      "vla"
+    ]
   }
 }

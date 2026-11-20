@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-19 22:54 UTC
+**Last updated:** 2026-11-20 02:44 UTC
 
-**Papers shown:** 12 (relevance ≥ 2, last 7 days)
+**Papers shown:** 8 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -186,22 +186,20 @@ arXiv: https://arxiv.org/abs/2611.24616
 
 ---
 
-### [PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning](https://arxiv.org/abs/2611.16424)
+### [EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video](https://arxiv.org/abs/2611.24995)
 
-**Authors:** Haofeng Wang, Xuanyi Liu, Pengcheng Wen, Ruiqi Li, Yuhao Zhang et al. (15 authors)
+**Authors:** Hongyu Wang, Chuhan Li, Congjin Xu, Xuandong Zhao, Hua Shen
 
-**Published:** 2026-11-12 (updated 2026-11-16) | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "world model" in abstract; project page
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
 
-**Also relevant to:** World Models
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.16424) | [PDF](https://arxiv.org/pdf/2611.16424) | [Project Page](https://hfwang2001.github.io/physcapbench-site/)
+**Links:** [arXiv](https://arxiv.org/abs/2611.24995) | [PDF](https://arxiv.org/pdf/2611.24995)
 
 <details>
 <summary>Abstract</summary>
 
-Physical AI aims to learn transferable physical knowledge from real-world experience to understand, predict, and act in the physical world. Internet videos and embodied demonstrations provide complementary observations of motion, interaction, and state evolution. A foundational data challenge is to measure and preserve this physical information as training supervision. In video-language pretraining, captions express observed processes in language, yet a semantically correct description can omit the interactions and transitions that define those processes. Rich physical experience in video does...
+Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions. Existing evaluations of multimodal foundation models (MFMs) examine observer localization, motion trajectories, and action feasibility, but leave the discovery and interpretation of evolving observer-entity interactions insufficiently assessed. We introduce EgoPass-Bench, a benchmark for observer-relative interaction understanding in real-world egocentric video. EgoPass-Bench comprises 284 manually reviewed evaluation clips recorded using Ray-Ban Meta (Gen 2) smart glasses a...
 
 </details>
 
@@ -209,46 +207,11 @@ Physical AI aims to learn transferable physical knowledge from real-world experi
 <summary>Share</summary>
 
 ```
-PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning
+EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video
 
-Physical AI aims to learn transferable physical knowledge from real-world experience to understand, predict, and act in the physical world.
+Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
 
-arXiv: https://arxiv.org/abs/2611.16424
-Project page: https://hfwang2001.github.io/physcapbench-site/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110)
-
-**Authors:** Jiachun Jin, Zetong Zhou, Haonan Wang, Zhijie Deng
-
-**Published:** 2026-11-12 (updated 2026-11-15) | **Categories:** cs.RO, cs.AI, cs.LG | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.17110) | [PDF](https://arxiv.org/pdf/2611.17110)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs can offer greater training efficiency and potentially lower inference costs by avoiding explicit pixel prediction during policy learning and execution. However, most existing LAMs learn latent actions solely through video reconstruction, which can cause their representations to cl...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models
-
-Embodied foundation models hinge on diverse robot interaction data, which are costly to collect.
-
-arXiv: https://arxiv.org/abs/2611.17110
+arXiv: https://arxiv.org/abs/2611.24995
 
 #egocentric #robotlearning
 ```
@@ -291,74 +254,6 @@ arXiv: https://arxiv.org/abs/2611.23970
 
 ---
 
-### [VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.16417)
-
-**Authors:** Tong Rao, Zhihao Zhang, Yuntian Wang, Siyu Zhou, Hailong Qin et al. (6 authors)
-
-**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.16417) | [PDF](https://arxiv.org/pdf/2611.16417)
-
-<details>
-<summary>Abstract</summary>
-
-We present VBot Exo2Ego Policy, a video generation model that turns third-person videos into first-person observations of a selected actor, offering a practical way to expand first-person operation data from abundant real-world footage. To support this goal, we introduce a lightweight data collection pipeline and mobile app that support first-person recording, third-person recording, and synchronized capture of both views. This setup combines accessible single-view collection with paired RGB and camera geometry for learning cross-view correspondence. Building on a pretrained video diffusion tr...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation
-
-We present VBot Exo2Ego Policy, a video generation model that turns third-person videos into first-person observations of a selected actor, offering a practical way to expand first-person operation data from abundant...
-
-arXiv: https://arxiv.org/abs/2611.16417
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [HEIR: Harness Egocentric Intent for Human-Robot Interactions](https://arxiv.org/abs/2611.17238)
-
-**Authors:** Yichi Zhang, Bo Wang, Zhenghan Zhu, Yutong Han, Jiayin Zou et al. (14 authors)
-
-**Published:** 2026-11-12 (updated 2026-11-13) | **Categories:** cs.RO | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.17238) | [PDF](https://arxiv.org/pdf/2611.17238)
-
-<details>
-<summary>Abstract</summary>
-
-For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot Interaction. HEIR pairs human speech, measured gaze, and egocentric video with robot observations and teleoperated navigation-manipulation trajectories, while each session preserves successive episodes, with each request fulfilled through multiple exe...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-HEIR: Harness Egocentric Intent for Human-Robot Interactions
-
-For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navi...
-
-arXiv: https://arxiv.org/abs/2611.17238
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://arxiv.org/abs/2611.21690)
 
 **Authors:** Renhe Sun, Yueying Feng, Bohan Yu, Tong Niu, Yunqi Liu et al. (15 authors)
@@ -385,40 +280,6 @@ EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summ
 The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action.
 
 arXiv: https://arxiv.org/abs/2611.21690
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Can an LVLM Perceive Event Boundaries Like a Human?](https://arxiv.org/abs/2611.16452)
-
-**Authors:** Hyolim Kang, Jungsoo Lee, Yeji Song, Whie Jung, Janghoon Cho et al. (6 authors)
-
-**Published:** 2026-11-12 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.16452) | [PDF](https://arxiv.org/pdf/2611.16452)
-
-<details>
-<summary>Abstract</summary>
-
-Large Vision-Language Models (LVLMs) reason effectively about video content, but whether they perceive its event boundaries in a manner consistent with humans remains unclear. We first investigate this through Generic Event Boundary Detection (GEBD), which identifies event boundaries naturally perceived by humans in continuous video, without relying on predefined event categories. On Kinetics-GEBD dataset, LVLMs miss many boundaries when predicting directly from frames, but effectively refine candidates proposed by an unsupervised discovery method, achieving state-of-the-art unsupervised GEBD...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Can an LVLM Perceive Event Boundaries Like a Human?
-
-Large Vision-Language Models (LVLMs) reason effectively about video content, but whether they perceive its event boundaries in a manner consistent with humans remains unclear.
-
-arXiv: https://arxiv.org/abs/2611.16452
 
 #egocentric #robotlearning
 ```
