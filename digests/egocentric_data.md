@@ -2,11 +2,47 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-20 02:44 UTC
+**Last updated:** 2026-11-20 22:29 UTC
 
-**Papers shown:** 8 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
+
+---
+
+### [EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams](https://arxiv.org/abs/2611.25849)
+
+**Authors:** Zhengru Fang, Zehao Liu, Mingyu Tsoi, Yaoyu Zhu, Junlong Li et al. (10 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★★★☆
+
+**Why surfaced:** "egocentric video" in title; project page; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.25849) | [PDF](https://arxiv.org/pdf/2611.25849) | [Project Page](https://egowitness.github.io/) | [Code](https://github.com/egowitness/EgoWitness)
+
+<details>
+<summary>Abstract</summary>
+
+Recalling where and when an object was last seen and who saw it requires recognizing it across days and people. Existing long-video benchmarks focus on events, object categories, or relative locations, leaving instance-level spatial memory largely untested in multimodal models. To address this gap, we present EgoWitness, a benchmark for instance-level spatial memory and reasoning in egocentric video. Its 8,453 human-verified questions span approximately 324 hours of week-long and short-horizon recordings and test seven abilities, from recognizing an object or room to recalling who saw it and r...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams
+
+Recalling where and when an object was last seen and who saw it requires recognizing it across days and people.
+
+arXiv: https://arxiv.org/abs/2611.25849
+Project page: https://egowitness.github.io/
+Code: https://github.com/egowitness/EgoWitness
+
+#egocentric #robotlearning
+```
+
+</details>
 
 ---
 
@@ -51,7 +87,7 @@ Project page: https://li-yaping.github.io/SHAPE/
 
 **Authors:** Xinke Lyu, Bowen Yang, Zhicheng Wang
 
-**Published:** 2026-11-18 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-11-18 (updated 2026-11-19) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
 
 **Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; posted in last 2 days
 
@@ -117,6 +153,40 @@ arXiv: https://arxiv.org/abs/2611.21938
 
 ---
 
+### [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519)
+
+**Authors:** Yinhe Wang, Shijun Shi, Feng Pan, Tao Tao, Wei Mao et al. (14 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.26519) | [PDF](https://arxiv.org/pdf/2611.26519)
+
+<details>
+<summary>Abstract</summary>
+
+Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state. We present ACE-Brain-0.7, a 9B vision--language model that combines spatial grounding, task understanding, and progress estimation. To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric human videos, robot episodes, and simulation. These questions span different stages of an execution and connect task-level judgments with observed progress and outcomes. We then fine-tune Qwen3.5-9B on this collection together with additional...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
+
+Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
+
+arXiv: https://arxiv.org/abs/2611.26519
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100)
 
 **Authors:** Ziqiang Liu, Xitong Chen, Min Li, Yiqun Li, Zhuoping Yin
@@ -144,6 +214,108 @@ Advancing from individual embodied intelligence to swarm embodied intelligence i
 
 arXiv: https://arxiv.org/abs/2611.20100
 Project page: https://xitong-c.github.io/EgoSwarm_Page/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380)
+
+**Authors:** Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu, Rundong Wang et al. (17 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.26380) | [PDF](https://arxiv.org/pdf/2611.26380)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning
+
+Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion.
+
+arXiv: https://arxiv.org/abs/2611.26380
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165)
+
+**Authors:** Tianyi Xu, Boyang Lyu, Yunkai Tang, Kairan Ding, Jiahang Li et al. (9 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.26165) | [PDF](https://arxiv.org/pdf/2611.26165)
+
+<details>
+<summary>Abstract</summary>
+
+Exocentric-to-egocentric (Exo2Ego) video generation transforms third-person recordings into first-person viewpoints, unlocking immersive AR/VR experiences and scalable demonstration synthesis for embodied robotics. Extending it to a streaming setting is expected to further enable live applications. However, existing methods suffer from degraded manipulation regions, overfitting and confinement to fixed-length clips with prohibitive latency. To address these limitations, we present StreamEgo, a real-time framework for unbounded, generalizable Exo2Ego video generation. To resolve intricate manip...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+StreamEgo: Streaming Exocentric-to-Egocentric Video Generation
+
+Exocentric-to-egocentric (Exo2Ego) video generation transforms third-person recordings into first-person viewpoints, unlocking immersive AR/VR experiences and scalable demonstration synthesis for embodied robotics.
+
+arXiv: https://arxiv.org/abs/2611.26165
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video Retrieval](https://arxiv.org/abs/2611.26120)
+
+**Authors:** Yuqi Guo, Michael Wray
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.26120) | [PDF](https://arxiv.org/pdf/2611.26120)
+
+<details>
+<summary>Abstract</summary>
+
+Video-language models (VLMs) achieve strong performance on video-text retrieval and are increasingly used for egocentric video understanding. Yet, despite gains in zero-shot retrieval, they have shown limitations in compositional understanding, and it remains unclear whether they understand compositional relationships between verbs and nouns. In this work, we introduce Ego-ExBind, a compositional diagnostic protocol for analyzing pretraining exposure and verb-noun binding in egocentric video-text retrieval. Ego-ExBind consists of an Exposure Ledger built from the EgoClip pretraining corpus use...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video Retrieval
+
+Video-language models (VLMs) achieve strong performance on video-text retrieval and are increasingly used for egocentric video understanding.
+
+arXiv: https://arxiv.org/abs/2611.26120
 
 #egocentric #robotlearning
 ```
@@ -212,6 +384,74 @@ EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egoce
 Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
 
 arXiv: https://arxiv.org/abs/2611.24995
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567)
+
+**Authors:** Amit Feldman, Ilan Shimshoni, Rotem Dror
+
+**Published:** 2026-11-19 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.25567) | [PDF](https://arxiv.org/pdf/2611.25567)
+
+<details>
+<summary>Abstract</summary>
+
+An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric videos. Using only observed video, task instructions, and prior predictions, our model identifies and...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Online Mistake Detection in Instruction-Conditioned Procedural Video
+
+An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.
+
+arXiv: https://arxiv.org/abs/2611.25567
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation](https://arxiv.org/abs/2611.25712)
+
+**Authors:** Deokhyun Ahn, Hyukjin Kim, Jae-Ho Han, Bumsub Ham, Heeseung Choi et al. (7 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "Ego-Exo" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.25712) | [PDF](https://arxiv.org/pdf/2611.25712)
+
+<details>
+<summary>Abstract</summary>
+
+Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone. Existing approaches leverage multimodal observations such as ego-exo video, gaze, pose, and inertial signals, but the gap between sensor-level evidence and abstract proficiency labels remains difficult to bridge. We present SkillLens, a proficiency estimation framework that uses atomic action descriptions as temporal guidance, rather than direct semantic supervision, to localize proficiency-relevant windows for dense visual-dynamics extraction....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation
+
+Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone.
+
+arXiv: https://arxiv.org/abs/2611.25712
 
 #egocentric #robotlearning
 ```

@@ -11902,5 +11902,287 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.25500": {
+    "first_seen": "2026-11-20",
+    "title": "PRIO: Pre-trained Representation for Interactive Objects in 4D Worlds",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25529": {
+    "first_seen": "2026-11-20",
+    "title": "CoachSI: Self-Improvement of Robot Policies with a Language Coach",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25553": {
+    "first_seen": "2026-11-20",
+    "title": "TwoPass: Draft-Guided Few-Step Video Prediction for Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25567": {
+    "first_seen": "2026-11-20",
+    "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.25580": {
+    "first_seen": "2026-11-20",
+    "title": "FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25589": {
+    "first_seen": "2026-11-20",
+    "title": "GraF-VTA: Neuro-Symbolic Trajectory Generation from Vision and Temporal Logic via Graph-Based Fusion",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25594": {
+    "first_seen": "2026-11-20",
+    "title": "Bradley-Terry Training Can Distort Outcome Probabilities of Initially Accurate Language World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25626": {
+    "first_seen": "2026-11-20",
+    "title": "Physical Laws without Physics Loss? Probing Learned Dynamics in Video World Models through Forced Response",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25632": {
+    "first_seen": "2026-11-20",
+    "title": "What One Sample Cannot See: Why Fewer Denoising Steps Can Score Higher on Physics Benchmarks",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25656": {
+    "first_seen": "2026-11-20",
+    "title": "A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25667": {
+    "first_seen": "2026-11-20",
+    "title": "CauSyncVLA: Causal Latent World Modeling for Asynchronous Robot Control",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.25671": {
+    "first_seen": "2026-11-20",
+    "title": "LATER: Learning Action-Conditioned Temporal Evidence Retrieval for Predictive World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25695": {
+    "first_seen": "2026-11-20",
+    "title": "DMT-Attack: Diffusion-Prior Texture Search for Closed-Loop Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25712": {
+    "first_seen": "2026-11-20",
+    "title": "SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.25838": {
+    "first_seen": "2026-11-20",
+    "title": "ContextRenderer: Dynamic-Context Video Generation for Interactive Game Worlds",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25849": {
+    "first_seen": "2026-11-20",
+    "title": "EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.25867": {
+    "first_seen": "2026-11-20",
+    "title": "Full Rank and Stable Sampling of $\\tanh$ Networks",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.25927": {
+    "first_seen": "2026-11-20",
+    "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25946": {
+    "first_seen": "2026-11-20",
+    "title": "Point Dynamics as Proxy for Robotic World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.25980": {
+    "first_seen": "2026-11-20",
+    "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26120": {
+    "first_seen": "2026-11-20",
+    "title": "Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video Retrieval",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.26145": {
+    "first_seen": "2026-11-20",
+    "title": "Can World Models Predict Rice Growth? Toward Agricultural World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26161": {
+    "first_seen": "2026-11-20",
+    "title": "One View, One Action: Spatially Generalizable VLAs through Observation-Aligned Experts and Cross Graph Consistency",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26165": {
+    "first_seen": "2026-11-20",
+    "title": "StreamEgo: Streaming Exocentric-to-Egocentric Video Generation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.26211": {
+    "first_seen": "2026-11-20",
+    "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26239": {
+    "first_seen": "2026-11-20",
+    "title": "Teaching Vision-Language-Action Models to Stop Safely",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26242": {
+    "first_seen": "2026-11-20",
+    "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26366": {
+    "first_seen": "2026-11-20",
+    "title": "World Models Favor Learned Priors over Visual Evidence",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26380": {
+    "first_seen": "2026-11-20",
+    "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.26385": {
+    "first_seen": "2026-11-20",
+    "title": "Beyond the Sink Interpretation: Radial Attention in Flow-Based VLA Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26405": {
+    "first_seen": "2026-11-20",
+    "title": "TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26419": {
+    "first_seen": "2026-11-20",
+    "title": "FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26420": {
+    "first_seen": "2026-11-20",
+    "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.26438": {
+    "first_seen": "2026-11-20",
+    "title": "Risk-Controlled Test-Time Adaptation for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26444": {
+    "first_seen": "2026-11-20",
+    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26516": {
+    "first_seen": "2026-11-20",
+    "title": "Plan4D: Generative Plannable 4D Worlds",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.26519": {
+    "first_seen": "2026-11-20",
+    "title": "ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.26565": {
+    "first_seen": "2026-11-20",
+    "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26596": {
+    "first_seen": "2026-11-20",
+    "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.26617": {
+    "first_seen": "2026-11-20",
+    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "topics": [
+      "world_models"
+    ]
   }
 }
