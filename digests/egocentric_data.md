@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-20 22:29 UTC
+**Last updated:** 2026-11-21 02:54 UTC
 
 **Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
@@ -52,7 +52,7 @@ Code: https://github.com/egowitness/EgoWitness
 
 **Published:** 2026-11-18 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
 
 **Also relevant to:** Vision-Language-Action Models
 
@@ -75,42 +75,6 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 
 arXiv: https://arxiv.org/abs/2611.24585
 Project page: https://li-yaping.github.io/SHAPE/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot](https://arxiv.org/abs/2611.24138)
-
-**Authors:** Xinke Lyu, Bowen Yang, Zhicheng Wang
-
-**Published:** 2026-11-18 (updated 2026-11-19) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits; posted in last 2 days
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24138) | [PDF](https://arxiv.org/pdf/2611.24138)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive. Recent ego-to-robot pipelines retarget first-person view human videos to robot data via transferring hand and arm motion. They judge fidelity mainly by visual appearance. However, trajectories often fail in terms of physics: fingers hover beside objects, and grippers close on empty space. We argue that how the object moves and the contacts that drive the motion count. Thus, we present Ego2X, an object-centric framework that converts monocular egocentric video into physically execu...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot
-
-Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive.
-
-arXiv: https://arxiv.org/abs/2611.24138
 
 #egocentric #robotlearning
 ```
@@ -179,6 +143,42 @@ ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
 Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
 
 arXiv: https://arxiv.org/abs/2611.26519
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot](https://arxiv.org/abs/2611.24138)
+
+**Authors:** Xinke Lyu, Bowen Yang, Zhicheng Wang
+
+**Published:** 2026-11-18 (updated 2026-11-19) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.24138) | [PDF](https://arxiv.org/pdf/2611.24138)
+
+<details>
+<summary>Abstract</summary>
+
+Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive. Recent ego-to-robot pipelines retarget first-person view human videos to robot data via transferring hand and arm motion. They judge fidelity mainly by visual appearance. However, trajectories often fail in terms of physics: fingers hover beside objects, and grippers close on empty space. We argue that how the object moves and the contacts that drive the motion count. Thus, we present Ego2X, an object-centric framework that converts monocular egocentric video into physically execu...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot
+
+Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive.
+
+arXiv: https://arxiv.org/abs/2611.24138
 
 #egocentric #robotlearning
 ```
@@ -324,74 +324,6 @@ arXiv: https://arxiv.org/abs/2611.26120
 
 ---
 
-### [EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions](https://arxiv.org/abs/2611.24616)
-
-**Authors:** Chunggi Lee, Hanspeter Pfister
-
-**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24616) | [PDF](https://arxiv.org/pdf/2611.24616)
-
-<details>
-<summary>Abstract</summary>
-
-Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down. A vision-language model (VLM) that sees a few evenly spaced frames usually misses it. Training-free methods rank frames with a separate image-text model or ask the VLM to write a time. In a controlled test, the VLM itself locates the moment better when it chooses among labeled frames, and we read this choice from its output distribution. With the same candidates, this choice lands on the evidence more often than image-text scores or a written time span, and it compares all can...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions
-
-Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down.
-
-arXiv: https://arxiv.org/abs/2611.24616
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video](https://arxiv.org/abs/2611.24995)
-
-**Authors:** Hongyu Wang, Chuhan Li, Congjin Xu, Xuandong Zhao, Hua Shen
-
-**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24995) | [PDF](https://arxiv.org/pdf/2611.24995)
-
-<details>
-<summary>Abstract</summary>
-
-Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions. Existing evaluations of multimodal foundation models (MFMs) examine observer localization, motion trajectories, and action feasibility, but leave the discovery and interpretation of evolving observer-entity interactions insufficiently assessed. We introduce EgoPass-Bench, a benchmark for observer-relative interaction understanding in real-world egocentric video. EgoPass-Bench comprises 284 manually reviewed evaluation clips recorded using Ray-Ban Meta (Gen 2) smart glasses a...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video
-
-Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
-
-arXiv: https://arxiv.org/abs/2611.24995
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567)
 
 **Authors:** Amit Feldman, Ilan Shimshoni, Rotem Dror
@@ -460,13 +392,81 @@ arXiv: https://arxiv.org/abs/2611.25712
 
 ---
 
+### [EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions](https://arxiv.org/abs/2611.24616)
+
+**Authors:** Chunggi Lee, Hanspeter Pfister
+
+**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.24616) | [PDF](https://arxiv.org/pdf/2611.24616)
+
+<details>
+<summary>Abstract</summary>
+
+Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down. A vision-language model (VLM) that sees a few evenly spaced frames usually misses it. Training-free methods rank frames with a separate image-text model or ask the VLM to write a time. In a controlled test, the VLM itself locates the moment better when it chooses among labeled frames, and we read this choice from its output distribution. With the same candidates, this choice lands on the evidence more often than image-text scores or a written time span, and it compares all can...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions
+
+Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down.
+
+arXiv: https://arxiv.org/abs/2611.24616
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video](https://arxiv.org/abs/2611.24995)
+
+**Authors:** Hongyu Wang, Chuhan Li, Congjin Xu, Xuandong Zhao, Hua Shen
+
+**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.24995) | [PDF](https://arxiv.org/pdf/2611.24995)
+
+<details>
+<summary>Abstract</summary>
+
+Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions. Existing evaluations of multimodal foundation models (MFMs) examine observer localization, motion trajectories, and action feasibility, but leave the discovery and interpretation of evolving observer-entity interactions insufficiently assessed. We introduce EgoPass-Bench, a benchmark for observer-relative interaction understanding in real-world egocentric video. EgoPass-Bench comprises 284 manually reviewed evaluation clips recorded using Ray-Ban Meta (Gen 2) smart glasses a...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video
+
+Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
+
+arXiv: https://arxiv.org/abs/2611.24995
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting](https://arxiv.org/abs/2611.23970)
 
 **Authors:** Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu et al. (7 authors)
 
-**Published:** 2026-11-18 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-18 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+**Why surfaced:** "egocentric video" in abstract
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.23970) | [PDF](https://arxiv.org/pdf/2611.23970)
 
