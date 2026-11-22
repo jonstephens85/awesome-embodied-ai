@@ -2,7 +2,7 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-21 21:27 UTC
+**Last updated:** 2026-11-22 01:46 UTC
 
 **Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
@@ -16,7 +16,7 @@ Papers on egocentric / first-person video datasets and learning robot or embodie
 
 **Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★★★☆
 
-**Why surfaced:** "egocentric video" in title; project page; code repo; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page; code repo
 
 **Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.25849) | [PDF](https://arxiv.org/pdf/2611.25849) | [Project Page](https://egowitness.github.io/) | [Code](https://github.com/egowitness/EgoWitness)
 
@@ -117,40 +117,6 @@ arXiv: https://arxiv.org/abs/2611.21938
 
 ---
 
-### [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519)
-
-**Authors:** Yinhe Wang, Shijun Shi, Feng Pan, Tao Tao, Wei Mao et al. (14 authors)
-
-**Published:** 2026-11-19 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.26519) | [PDF](https://arxiv.org/pdf/2611.26519)
-
-<details>
-<summary>Abstract</summary>
-
-Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state. We present ACE-Brain-0.7, a 9B vision--language model that combines spatial grounding, task understanding, and progress estimation. To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric human videos, robot episodes, and simulation. These questions span different stages of an execution and connect task-level judgments with observed progress and outcomes. We then fine-tune Qwen3.5-9B on this collection together with additional...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
-
-Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
-
-arXiv: https://arxiv.org/abs/2611.26519
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot](https://arxiv.org/abs/2611.24138)
 
 **Authors:** Xinke Lyu, Bowen Yang, Zhicheng Wang
@@ -222,13 +188,47 @@ Project page: https://xitong-c.github.io/EgoSwarm_Page/
 
 ---
 
+### [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519)
+
+**Authors:** Yinhe Wang, Shijun Shi, Feng Pan, Tao Tao, Wei Mao et al. (14 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.26519) | [PDF](https://arxiv.org/pdf/2611.26519)
+
+<details>
+<summary>Abstract</summary>
+
+Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state. We present ACE-Brain-0.7, a 9B vision--language model that combines spatial grounding, task understanding, and progress estimation. To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric human videos, robot episodes, and simulation. These questions span different stages of an execution and connect task-level judgments with observed progress and outcomes. We then fine-tune Qwen3.5-9B on this collection together with additional...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
+
+Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
+
+arXiv: https://arxiv.org/abs/2611.26519
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380)
 
 **Authors:** Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu, Rundong Wang et al. (17 authors)
 
 **Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
+**Why surfaced:** "egocentric video" in title
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.26380) | [PDF](https://arxiv.org/pdf/2611.26380)
 
@@ -262,7 +262,7 @@ arXiv: https://arxiv.org/abs/2611.26380
 
 **Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
+**Why surfaced:** "egocentric video" in title
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.26165) | [PDF](https://arxiv.org/pdf/2611.26165)
 
@@ -296,7 +296,7 @@ arXiv: https://arxiv.org/abs/2611.26165
 
 **Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; posted in last 2 days
+**Why surfaced:** "egocentric video" in title
 
 **Links:** [arXiv](https://arxiv.org/abs/2611.26120) | [PDF](https://arxiv.org/pdf/2611.26120)
 
@@ -316,74 +316,6 @@ Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video R
 Video-language models (VLMs) achieve strong performance on video-text retrieval and are increasingly used for egocentric video understanding.
 
 arXiv: https://arxiv.org/abs/2611.26120
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567)
-
-**Authors:** Amit Feldman, Ilan Shimshoni, Rotem Dror
-
-**Published:** 2026-11-19 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.25567) | [PDF](https://arxiv.org/pdf/2611.25567)
-
-<details>
-<summary>Abstract</summary>
-
-An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric videos. Using only observed video, task instructions, and prior predictions, our model identifies and...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Online Mistake Detection in Instruction-Conditioned Procedural Video
-
-An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.
-
-arXiv: https://arxiv.org/abs/2611.25567
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation](https://arxiv.org/abs/2611.25712)
-
-**Authors:** Deokhyun Ahn, Hyukjin Kim, Jae-Ho Han, Bumsub Ham, Heeseung Choi et al. (7 authors)
-
-**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "Ego-Exo" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.25712) | [PDF](https://arxiv.org/pdf/2611.25712)
-
-<details>
-<summary>Abstract</summary>
-
-Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone. Existing approaches leverage multimodal observations such as ego-exo video, gaze, pose, and inertial signals, but the gap between sensor-level evidence and abstract proficiency labels remains difficult to bridge. We present SkillLens, a proficiency estimation framework that uses atomic action descriptions as temporal guidance, rather than direct semantic supervision, to localize proficiency-relevant windows for dense visual-dynamics extraction....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation
-
-Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone.
-
-arXiv: https://arxiv.org/abs/2611.25712
 
 #egocentric #robotlearning
 ```
@@ -452,6 +384,74 @@ EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egoce
 Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
 
 arXiv: https://arxiv.org/abs/2611.24995
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567)
+
+**Authors:** Amit Feldman, Ilan Shimshoni, Rotem Dror
+
+**Published:** 2026-11-19 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.25567) | [PDF](https://arxiv.org/pdf/2611.25567)
+
+<details>
+<summary>Abstract</summary>
+
+An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric videos. Using only observed video, task instructions, and prior predictions, our model identifies and...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Online Mistake Detection in Instruction-Conditioned Procedural Video
+
+An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.
+
+arXiv: https://arxiv.org/abs/2611.25567
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation](https://arxiv.org/abs/2611.25712)
+
+**Authors:** Deokhyun Ahn, Hyukjin Kim, Jae-Ho Han, Bumsub Ham, Heeseung Choi et al. (7 authors)
+
+**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "Ego-Exo" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.25712) | [PDF](https://arxiv.org/pdf/2611.25712)
+
+<details>
+<summary>Abstract</summary>
+
+Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone. Existing approaches leverage multimodal observations such as ego-exo video, gaze, pose, and inertial signals, but the gap between sensor-level evidence and abstract proficiency labels remains difficult to bridge. We present SkillLens, a proficiency estimation framework that uses atomic action descriptions as temporal guidance, rather than direct semantic supervision, to localize proficiency-relevant windows for dense visual-dynamics extraction....
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation
+
+Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone.
+
+arXiv: https://arxiv.org/abs/2611.25712
 
 #egocentric #robotlearning
 ```
