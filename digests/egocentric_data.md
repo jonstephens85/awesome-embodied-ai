@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-22 21:32 UTC
+**Last updated:** 2026-11-24 02:44 UTC
 
-**Papers shown:** 15 (relevance ≥ 2, last 7 days)
+**Papers shown:** 18 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,6 +38,41 @@ Recalling where and when an object was last seen and who saw it requires recogni
 arXiv: https://arxiv.org/abs/2611.25849
 Project page: https://egowitness.github.io/
 Code: https://github.com/egowitness/EgoWitness
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916)
+
+**Authors:** Kheri Hughes, Qasim Ali, Nikash Bhardwaj, Owen Akhibi, Niresh Dravin et al. (15 authors)
+
+**Published:** 2026-11-20 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric dataset" in title; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.26916) | [PDF](https://arxiv.org/pdf/2611.26916) | [Project Page](https://robocap10k.com)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video is the most scalable source of manipulation data for robot learning, but its difficulty lies in producing high-quality supervision. Existing large corpora lack metric 3D labels or rely on heterogeneous devices, motion-capture labs, or a headset's built-in real-time tracker, whose accuracy is not reported for the released data. We introduce RoboCap-10k: 10,000 curated hours of unscripted manipulation recorded during workers' paid shifts in 11 countries, spanning 18 task families, 200 task types, and 2,000 tasks. Every hour is captured on one device, the RoboCap, a 250 g hat wit...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning
+
+Egocentric video is the most scalable source of manipulation data for robot learning, but its difficulty lies in producing high-quality supervision.
+
+arXiv: https://arxiv.org/abs/2611.26916
+Project page: https://robocap10k.com
 
 #egocentric #robotlearning
 ```
@@ -83,20 +118,20 @@ Project page: https://li-yaping.github.io/SHAPE/
 
 ---
 
-### [HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning](https://arxiv.org/abs/2611.21938)
+### [Ego2Ego: Generative Visual Perspective Taking Across Collaborators](https://arxiv.org/abs/2611.27459)
 
-**Authors:** Javad Amirian, Armin Kiani, Loïc Schaeffer, Tim Sprecher, Mohamed Taha et al. (6 authors)
+**Authors:** Chuhan Jiao, John Gideon, Anshul Gupta, Guy Rosman, Andreas Bulling
 
-**Published:** 2026-11-16 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★★☆☆
+**Published:** 2026-11-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in title; 3 distinct keyword hits
+**Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.21938) | [PDF](https://arxiv.org/pdf/2611.21938)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.27459) | [PDF](https://arxiv.org/pdf/2611.27459) | [Project Page](https://chuhan-jiao.github.io/ego2ego/)
 
 <details>
 <summary>Abstract</summary>
 
-Robot policies trained by imitation generalize poorly outside the environments and objects seen in training. Published data-scaling studies find that generalization grows with the diversity of training environments and objects rather than with more demonstrations per environment. Robot data is costly to collect across many environments, whereas egocentric human video can be recorded in the wild at scale; existing egocentric video, however, mostly shows daily-life activity and contains little skilled work in real workplaces. We present HubEgo-100K, a dataset built for diversity. This version of...
+Visual perspective taking, the ability to infer what another person sees from their position, is fundamental to human collaboration. However, prior works reduced perspective taking to state estimation, geometric reconstruction, or discrete question answering, whereas existing cross-view video generation methods either inferred the target view from the input video alone or required an external camera that observes the target person. We introduce generative visual perspective taking: Given an ego person's egocentric video, a scene point cloud, and a collaborator's camera trajectory, the task is...
 
 </details>
 
@@ -104,11 +139,48 @@ Robot policies trained by imitation generalize poorly outside the environments a
 <summary>Share</summary>
 
 ```
-HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning
+Ego2Ego: Generative Visual Perspective Taking Across Collaborators
 
-Robot policies trained by imitation generalize poorly outside the environments and objects seen in training.
+Visual perspective taking, the ability to infer what another person sees from their position, is fundamental to human collaboration.
 
-arXiv: https://arxiv.org/abs/2611.21938
+arXiv: https://arxiv.org/abs/2611.27459
+Project page: https://chuhan-jiao.github.io/ego2ego/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047)
+
+**Authors:** Zhaoshan Yang, Chenglei Li, Haoyu Lei, Yutao Zhang, Yuyu Yang et al. (12 authors)
+
+**Published:** 2026-11-20 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric perception" in title; 2 distinct keyword hits
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.27047) | [PDF](https://arxiv.org/pdf/2611.27047)
+
+<details>
+<summary>Abstract</summary>
+
+Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as pr...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
+
+Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments.
+
+arXiv: https://arxiv.org/abs/2611.27047
 
 #egocentric #robotlearning
 ```
@@ -153,20 +225,20 @@ arXiv: https://arxiv.org/abs/2611.24138
 
 ---
 
-### [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100)
+### [TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos](https://arxiv.org/abs/2611.26764)
 
-**Authors:** Ziqiang Liu, Xitong Chen, Min Li, Yiqun Li, Zhuoping Yin
+**Authors:** Jackson Codd, Haoyu Li, Xianyi Cheng
 
-**Published:** 2026-11-15 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-19 | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric demonstration" in abstract; project page
+**Why surfaced:** "egocentric video" in title
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.20100) | [PDF](https://arxiv.org/pdf/2611.20100) | [Project Page](https://xitong-c.github.io/EgoSwarm_Page/)
+**Links:** [arXiv](https://arxiv.org/abs/2611.26764) | [PDF](https://arxiv.org/pdf/2611.26764)
 
 <details>
 <summary>Abstract</summary>
 
-Advancing from individual embodied intelligence to swarm embodied intelligence is a key step toward scalable, general-purpose embodied intelligence. Complex tasks often require multiple agents to divide responsibilities, coordinate handovers, and manipulate shared objects collaboratively. However, existing robot learning methods rely primarily on individual demonstrations, which provide limited supervision for modeling dependencies among agent actions, while collecting multi-robot demonstrations at scale remains difficult. Human egocentric demonstrations offer a scalable alternative, yet distr...
+Egocentric videos offer a scalable source of human demonstrations for robot learning. However, recovering metric object geometry and motion from monocular video is hindered by scale-depth ambiguity and hand-induced occlusion, while image-derived contact and shape priors alone cannot uniquely determine metric scale. We introduce TacHOI, a training-free framework that integrates tactile contact with monocular vision for joint hand-object reconstruction and tracking, without requiring object templates or depth sensors. Starting from pretrained visual estimates, TacHOI uses tactile contact to cons...
 
 </details>
 
@@ -174,12 +246,11 @@ Advancing from individual embodied intelligence to swarm embodied intelligence i
 <summary>Share</summary>
 
 ```
-EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations
+TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos
 
-Advancing from individual embodied intelligence to swarm embodied intelligence is a key step toward scalable, general-purpose embodied intelligence.
+Egocentric videos offer a scalable source of human demonstrations for robot learning.
 
-arXiv: https://arxiv.org/abs/2611.20100
-Project page: https://xitong-c.github.io/EgoSwarm_Page/
+arXiv: https://arxiv.org/abs/2611.26764
 
 #egocentric #robotlearning
 ```
@@ -392,6 +463,74 @@ arXiv: https://arxiv.org/abs/2611.24995
 
 ---
 
+### [Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition](https://arxiv.org/abs/2611.28090)
+
+**Authors:** Yuzhe Hao, Ikuro Sato, Rei Kawakami, Koichi Shinoda
+
+**Published:** 2026-11-17 | **Categories:** cs.CV, cs.MM | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in title
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.28090) | [PDF](https://arxiv.org/pdf/2611.28090)
+
+<details>
+<summary>Abstract</summary>
+
+Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementary cues from first-person vision (V) and inertial sensor data (S) to recognize daily activities, where video mainly captures appearance and object-related context while inertial signals capture motion cues that video may miss. However, existing pre-training methods typically supervise the fused representation with a single joint objective, which may underemphasize the complementarity between the two modalities and limit the model's ability to learn from distinct modality-oriented signals. To address this issue, we...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition
+
+Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementary cues from first-person vision (V) and inertial sensor data (S) to recognize daily activities, where video mainly captures appearance a...
+
+arXiv: https://arxiv.org/abs/2611.28090
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoLAM: Learning Latent Actions from Hand and Head Motion](https://arxiv.org/abs/2611.27290)
+
+**Authors:** Ziyi Ding, Yiwei Wang, Zhongxing Wei, Xianxin Lai, Yechi Liu et al. (14 authors)
+
+**Published:** 2026-11-20 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.27290) | [PDF](https://arxiv.org/pdf/2611.27290)
+
+<details>
+<summary>Abstract</summary>
+
+Latent action models let a robot policy learn from video by turning the change between two frames into a training target. In egocentric video, a cup can move across the image because a hand pushes it or because the wearer turns. Both changes help predict the next frame, but only the first describes manipulation. During training, EgoLAM supervises the action code with measured wrist motion and supplies camera motion separately to the forward model. Even when the wearer turns while pushing a cup, the training target still describes how the hand pushed it. The action encoder pools object slots ar...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoLAM: Learning Latent Actions from Hand and Head Motion
+
+Latent action models let a robot policy learn from video by turning the change between two frames into a training target.
+
+arXiv: https://arxiv.org/abs/2611.27290
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567)
 
 **Authors:** Amit Feldman, Ilan Shimshoni, Rotem Dror
@@ -486,40 +625,6 @@ TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Han
 Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions.
 
 arXiv: https://arxiv.org/abs/2611.23970
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://arxiv.org/abs/2611.21690)
-
-**Authors:** Renhe Sun, Yueying Feng, Bohan Yu, Tong Niu, Yunqi Liu et al. (15 authors)
-
-**Published:** 2026-11-16 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.21690) | [PDF](https://arxiv.org/pdf/2611.21690)
-
-<details>
-<summary>Abstract</summary>
-
-The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike benchmarks centered on visible objects and activities, EgoLink evaluates whether models can interpret emotional and social cues, resolve visually grounded references, and convert user requests into verified tool-mediated actions. Its two tracks cover social reasoning in egocentric video and interactive agents that complete service tasks through dialogue, tool use, and closed-loop execution. Together, they test whether perce...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary
-
-The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action.
-
-arXiv: https://arxiv.org/abs/2611.21690
 
 #egocentric #robotlearning
 ```
