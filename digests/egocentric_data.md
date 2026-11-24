@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-24 02:44 UTC
+**Last updated:** 2026-11-24 05:40 UTC
 
-**Papers shown:** 18 (relevance ≥ 2, last 7 days)
+**Papers shown:** 21 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -81,6 +81,41 @@ Project page: https://robocap10k.com
 
 ---
 
+### [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)
+
+**Authors:** Ziyao Zeng, Xiatao Sun, Hao Wang, Ziyu Guo, Youheng Yao et al. (11 authors)
+
+**Published:** 2026-11-23 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29850) | [PDF](https://arxiv.org/pdf/2611.29850) | [Project Page](https://adonis-galaxy.github.io/Ego2Wrist/)
+
+<details>
+<summary>Abstract</summary>
+
+Wrist cameras provide an action-centric view that is directly relevant to robot manipulation. However, collecting human wrist-camera videos at scale is challenging due to cumbersome setups that can interfere with natural hand movements. In contrast, head-mounted human egocentric videos are much easier to scale. We introduce Ego2Wrist, which synthesizes synchronized wrist-camera views from human egocentric videos and task descriptions. Trained on approximately 940 hours of paired head- and wrist-camera recordings, Ego2Wrist jointly generates three views. To evaluate generated wrist views withou...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video
+
+Wrist cameras provide an action-centric view that is directly relevant to robot manipulation.
+
+arXiv: https://arxiv.org/abs/2611.29850
+Project page: https://adonis-galaxy.github.io/Ego2Wrist/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
 
 **Authors:** Yaping Li, Zhihong Liu, Jiacheng Li, Yi Yang, Wenchao Yue et al. (13 authors)
@@ -110,6 +145,41 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 
 arXiv: https://arxiv.org/abs/2611.24585
 Project page: https://li-yaping.github.io/SHAPE/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model](https://arxiv.org/abs/2611.29218)
+
+**Authors:** Gaoge Han, Yongkang Cheng, Shaoli Huang, Jing Zhang, Mingming Gong et al. (7 authors)
+
+**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29218) | [PDF](https://arxiv.org/pdf/2611.29218) | [Code](https://github.com/gaogehan/Ego-HMB)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images. Unlike conventional motion in-betweening, which requires structured 3D endpoint poses, this setting uses raw first-person observations available from wearable devices in VR/AR and robotics. It presents challenges due to viewpoint variations, partial body visibility, and temporal ambiguity under cross-modal endpoint constraints. To address these challenges, we propose Ego-HMB, a unified diffusion-based framework that learns endpoint pose estimation and te...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model
+
+We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images.
+
+arXiv: https://arxiv.org/abs/2611.29218
+Code: https://github.com/gaogehan/Ego-HMB
 
 #egocentric #robotlearning
 ```
@@ -157,7 +227,7 @@ Project page: https://chuhan-jiao.github.io/ego2ego/
 
 **Authors:** Zhaoshan Yang, Chenglei Li, Haoyu Lei, Yutao Zhang, Yuyu Yang et al. (12 authors)
 
-**Published:** 2026-11-20 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-20 (updated 2026-11-23) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric perception" in title; 2 distinct keyword hits
 
@@ -293,11 +363,45 @@ arXiv: https://arxiv.org/abs/2611.26519
 
 ---
 
+### [HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation](https://arxiv.org/abs/2611.29693)
+
+**Authors:** Chaoyang Zhang, Shaohao Rui, Xiaofeng Mao, Yuanxun Xu, Haoyuan Xia et al. (8 authors)
+
+**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.29693) | [PDF](https://arxiv.org/pdf/2611.29693)
+
+<details>
+<summary>Abstract</summary>
+
+Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion. However, existing egocentric video datasets struggle to provide scene diversity, meaningful hand-object interactions, and reliable motion annotations simultaneously. To address these limitations, we introduce HandiVid, a high-quality dataset comprising 200K curated and annotated egocentric interaction video clips for hand-driven interactive video generation. We develop a unified data processing pipeline that integrates public...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation
+
+Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion.
+
+arXiv: https://arxiv.org/abs/2611.29693
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380)
 
-**Authors:** Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu, Rundong Wang et al. (17 authors)
+**Authors:** Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu, Rundong Wang et al. (18 authors)
 
-**Published:** 2026-11-19 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-19 (updated 2026-11-23) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in title
 
