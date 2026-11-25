@@ -13119,5 +13119,366 @@
     "topics": [
       "vla"
     ]
+  },
+  "2611.31452": {
+    "first_seen": "2026-11-25",
+    "title": "Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31488": {
+    "first_seen": "2026-11-25",
+    "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31511": {
+    "first_seen": "2026-11-25",
+    "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31535": {
+    "first_seen": "2026-11-25",
+    "title": "Hi3R-VLA: Grounding Semantics and Actions in 3D",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31577": {
+    "first_seen": "2026-11-25",
+    "title": "FabricBench: A Standardized Policy Benchmark for Bimanual Fabric Manipulation with a Contact-Driven Deformable Simulator",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31715": {
+    "first_seen": "2026-11-25",
+    "title": "Sparks of Weight-Space Programming for Robot Foundation Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31740": {
+    "first_seen": "2026-11-25",
+    "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31803": {
+    "first_seen": "2026-11-25",
+    "title": "SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.31836": {
+    "first_seen": "2026-11-25",
+    "title": "Gaze World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.31843": {
+    "first_seen": "2026-11-25",
+    "title": "Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.31903": {
+    "first_seen": "2026-11-25",
+    "title": "Beyond Expert Replay: Cross-Instruction Anchoring for Continual Vision-Language-Action Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31910": {
+    "first_seen": "2026-11-25",
+    "title": "ReJEPA: Bounded Predictive Regulation for Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.31954": {
+    "first_seen": "2026-11-25",
+    "title": "Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31958": {
+    "first_seen": "2026-11-25",
+    "title": "SPAR: Self-Referenced World-Model Rewards for Physical Alignment in Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.31998": {
+    "first_seen": "2026-11-25",
+    "title": "ADE: A Zero-Training Unlearning Method for Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32016": {
+    "first_seen": "2026-11-25",
+    "title": "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32017": {
+    "first_seen": "2026-11-25",
+    "title": "Learning Agent States for Latent Action Modeling",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32029": {
+    "first_seen": "2026-11-25",
+    "title": "Do Occupancy World Models Really Follow Actions?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32081": {
+    "first_seen": "2026-11-25",
+    "title": "KeyMemVLA: Subtask-Guided Key Memory for Long-Horizon Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32098": {
+    "first_seen": "2026-11-25",
+    "title": "ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.32101": {
+    "first_seen": "2026-11-25",
+    "title": "Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.32113": {
+    "first_seen": "2026-11-25",
+    "title": "PhysRF-WorldJEPA: Transforming Heterogeneous Large Language Models into Manifold-Decoupled Millimeter-Wave Radar World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32140": {
+    "first_seen": "2026-11-25",
+    "title": "LiteSTAR: Low-Rank Channel Modulation for Temporally Consistent CVD Video Compensation",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.32152": {
+    "first_seen": "2026-11-25",
+    "title": "RoboProbe: Benchmarking Physical Plausibility of Robot World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32206": {
+    "first_seen": "2026-11-25",
+    "title": "Seeing Is Not Reaching: Instruction Shortcuts Override Visual Grounding in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32216": {
+    "first_seen": "2026-11-25",
+    "title": "NativeDrive: Native Multimodal Foundations for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32228": {
+    "first_seen": "2026-11-25",
+    "title": "Disentangling Visual Dynamics for World Model Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32233": {
+    "first_seen": "2026-11-25",
+    "title": "Roboclock: A Unified Benchmark for Time-Aware Robotic Intelligence",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32245": {
+    "first_seen": "2026-11-25",
+    "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32260": {
+    "first_seen": "2026-11-25",
+    "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.32304": {
+    "first_seen": "2026-11-25",
+    "title": "Sparse Poison, Strong Hijack: Efficient Trajectory-Level Backdoors in Vision-Language-Action Models with Only 1\\% Poisoning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32353": {
+    "first_seen": "2026-11-25",
+    "title": "Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32357": {
+    "first_seen": "2026-11-25",
+    "title": "CriticJEPA: World Models Are Better Critics Than Optimizers",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32473": {
+    "first_seen": "2026-11-25",
+    "title": "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32483": {
+    "first_seen": "2026-11-25",
+    "title": "CodeWAM: A Code World Action Model for End-to-End Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32510": {
+    "first_seen": "2026-11-25",
+    "title": "GeoVLDrive: Geometry-Grounded Vision-Language Reasoning for Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32564": {
+    "first_seen": "2026-11-25",
+    "title": "MXI-MemICL: Towards In-Context Robot Manipulation through Self-Retrieved Interaction Memory",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32639": {
+    "first_seen": "2026-11-25",
+    "title": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32654": {
+    "first_seen": "2026-11-25",
+    "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.32663": {
+    "first_seen": "2026-11-25",
+    "title": "Economic World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32665": {
+    "first_seen": "2026-11-25",
+    "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.32705": {
+    "first_seen": "2026-11-25",
+    "title": "Knocked Off Course: Tracing Uncommanded Motion from Perception to Action in Embodied VLAs",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.32745": {
+    "first_seen": "2026-11-25",
+    "title": "MemAnchorWorld: A Sparse World Model with Horizon-Conditioned Memory Retrieval for Autonomous Driving",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32776": {
+    "first_seen": "2026-11-25",
+    "title": "Learning World Models through Contrastive Identification of Actions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32786": {
+    "first_seen": "2026-11-25",
+    "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32811": {
+    "first_seen": "2026-11-25",
+    "title": "Interactive Neural Computers",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32825": {
+    "first_seen": "2026-11-25",
+    "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32858": {
+    "first_seen": "2026-11-25",
+    "title": "What Does a Skill Vocabulary Cost? A Closed-Loop Decomposition over Demonstrated Motions",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.32876": {
+    "first_seen": "2026-11-25",
+    "title": "MemHand: Memory-Enhanced World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.32900": {
+    "first_seen": "2026-11-25",
+    "title": "Motion Conditioned World Modeling for Embodied Visual Tracking",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.32944": {
+    "first_seen": "2026-11-25",
+    "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+    "topics": [
+      "world_models"
+    ]
   }
 }

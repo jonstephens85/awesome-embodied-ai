@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-25 00:22 UTC
+**Last updated:** 2026-11-25 04:41 UTC
 
-**Papers shown:** 22 (relevance ≥ 2, last 7 days)
+**Papers shown:** 27 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -118,6 +118,41 @@ Project page: https://robocap10k.com
 
 ---
 
+### [MemHand: Memory-Enhanced World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2611.32876)
+
+**Authors:** Junyi Ma, Zhangshuo Qi, Erhang Zhang, Mingjie Li, Hesheng Wang
+
+**Published:** 2026-11-24 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.32876) | [PDF](https://arxiv.org/pdf/2611.32876) | [Project Page](https://irmvlab.github.io/memhand.github.io)
+
+<details>
+<summary>Abstract</summary>
+
+Recovering the continuous world-space motion of both hands from egocentric video is essential for applications such as human-to-robot policy transfer and augmented reality. Achieving this goes beyond reconstructing the hands from each individual frame, as the context that a frame needs is often spread over time, especially around occlusions or when a hand moves out of sight. Recent works have explored how to exploit temporal context, yet they mostly draw it from fixed-length windows. Such windows cannot guarantee that every frame has the context required to reconstruct the hands in world space...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+MemHand: Memory-Enhanced World-Space Hand Motion Reconstruction from Egocentric Videos
+
+Recovering the continuous world-space motion of both hands from egocentric video is essential for applications such as human-to-robot policy transfer and augmented reality.
+
+arXiv: https://arxiv.org/abs/2611.32876
+Project page: https://irmvlab.github.io/memhand.github.io
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)
 
 **Authors:** Ziyao Zeng, Xiatao Sun, Hao Wang, Ziyu Guo, Youheng Yao et al. (11 authors)
@@ -157,11 +192,11 @@ Project page: https://adonis-galaxy.github.io/Ego2Wrist/
 
 **Authors:** Yuxi Wang, Yufei Liu, Chengkai Jin, Qingyue Chen, Wenqi Ouyang et al. (11 authors)
 
-**Published:** 2026-11-23 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+**Published:** 2026-11-23 (updated 2026-11-24) | **Categories:** cs.CV | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; code repo; posted in last 2 days
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30597) | [PDF](https://arxiv.org/pdf/2611.30597) | [Code](https://github.com/NTUYWANG103/ViDiHand)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30597) | [PDF](https://arxiv.org/pdf/2611.30597) | [Project Page](https://vidihand2.github.io/)
 
 <details>
 <summary>Abstract</summary>
@@ -179,7 +214,77 @@ ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion 
 Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion.
 
 arXiv: https://arxiv.org/abs/2611.30597
-Code: https://github.com/NTUYWANG103/ViDiHand
+Project page: https://vidihand2.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling](https://arxiv.org/abs/2611.32098)
+
+**Authors:** Zixiao Gu, Qiren Qin, Yu He, Zhengyang Liu, Da Huang et al. (11 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric perception" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.32098) | [PDF](https://arxiv.org/pdf/2611.32098)
+
+<details>
+<summary>Abstract</summary>
+
+Robotics foundation models are now widely used for manipulation, and egocentric videos offer rich data for scaling. However, existing methods overlook the human active priors captured in egocentric videos, which limits performance in unstructured scenes. They act on given observations instead of actively seeking information as humans do. We propose ActiveBridge, a training framework that learns these human active priors and transfers them to robots through world-action modeling. We design a robot that actively controls its viewpoint through head actions to acquire the visual information needed...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling
+
+Robotics foundation models are now widely used for manipulation, and egocentric videos offer rich data for scaling.
+
+arXiv: https://arxiv.org/abs/2611.32098
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260)
+
+**Authors:** Yiming Zeng, Jiangyuxuan Dai, Yuheng Na, Tan Zhu Xuan, Zihan Lin et al. (15 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric demonstration" in title; 2 distinct keyword hits; posted in last 2 days
+
+**Also relevant to:** Vision-Language-Action Models
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.32260) | [PDF](https://arxiv.org/pdf/2611.32260)
+
+<details>
+<summary>Abstract</summary>
+
+Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation. Recent efforts convert egocentric human demonstrations into humanoid training data. However, most methods still require wearable motion trackers and leave important hand-object interaction cues implicit. Many also mix in real-robot teleoperation data for VLA post-training. These dependencies limit scalable data collection, while implicit interaction cues make precise contact harder to learn. To overcome these limitations, we propose EgoLoAF, the first paradigm to derive all training data fo...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances
+
+Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation.
+
+arXiv: https://arxiv.org/abs/2611.32260
 
 #egocentric #robotlearning
 ```
@@ -217,6 +322,40 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 
 arXiv: https://arxiv.org/abs/2611.24585
 Project page: https://li-yaping.github.io/SHAPE/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations](https://arxiv.org/abs/2611.32101)
+
+**Authors:** Ange Bao, Haishan Zhang, Lingzi Xie, Shuang Li, Pei Zhao et al. (7 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.32101) | [PDF](https://arxiv.org/pdf/2611.32101)
+
+<details>
+<summary>Abstract</summary>
+
+Learning dexterous manipulation from egocentric human demonstrations offers a scalable path toward robot skill acquisition. Vision alone, however, provides limited information about physical contacts and the demonstrator's force intent, leading to ambiguities in interpreting hand-object interactions. Capturing human touch via tactile sensing is therefore crucial for reliable human-to-robot dexterous skill transfer. We present Ego2Real, a framework that leverages egocentric demonstrations and tactile gloves to transfer bimanual dexterous manipulation skills to robotic hands. Ego2Real incorporat...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations
+
+Learning dexterous manipulation from egocentric human demonstrations offers a scalable path toward robot skill acquisition.
+
+arXiv: https://arxiv.org/abs/2611.32101
 
 #egocentric #robotlearning
 ```
@@ -427,6 +566,40 @@ ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
 Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
 
 arXiv: https://arxiv.org/abs/2611.26519
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [LiteSTAR: Low-Rank Channel Modulation for Temporally Consistent CVD Video Compensation](https://arxiv.org/abs/2611.32140)
+
+**Authors:** Peiyang Lin, Sichen Lin, Yipeng Liao, Liqun Lin, Xu Wang et al. (6 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.32140) | [PDF](https://arxiv.org/pdf/2611.32140)
+
+<details>
+<summary>Abstract</summary>
+
+Color Vision Deficiency (CVD) affects a large population worldwide, yet practical recoloring must run continuously on-device. Frame-wise video recoloring produces color flickering, while existing methods rely on costly cross-frame alignment in pixel or feature space. We observe that color flickering correlates with variations in channel-wise responses, with color-sensitive variations concentrated in a low-rank subspace. Based on this observation, we propose Lightweight Spatio-Temporal Adaptive Recoloring (LiteSTAR), built around LiCaD, a plug-and-play Lightweight Channel-Adaptive Decoder. LiCa...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+LiteSTAR: Low-Rank Channel Modulation for Temporally Consistent CVD Video Compensation
+
+Color Vision Deficiency (CVD) affects a large population worldwide, yet practical recoloring must run continuously on-device.
+
+arXiv: https://arxiv.org/abs/2611.32140
 
 #egocentric #robotlearning
 ```
