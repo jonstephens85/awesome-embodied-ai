@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-24 05:40 UTC
+**Last updated:** 2026-11-25 00:22 UTC
 
-**Papers shown:** 21 (relevance ≥ 2, last 7 days)
+**Papers shown:** 22 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,6 +38,43 @@ Recalling where and when an object was last seen and who saw it requires recogni
 arXiv: https://arxiv.org/abs/2611.25849
 Project page: https://egowitness.github.io/
 Code: https://github.com/egowitness/EgoWitness
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898)
+
+**Authors:** Qinyue Li, Weijie Qiao, Qingyi Tao, Zerui Gong, Zhe Yang et al. (10 authors)
+
+**Published:** 2026-11-23 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "world model" in title; project page; posted in last 2 days
+
+**Also relevant to:** Vision-Language-Action Models, World Models
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30898) | [PDF](https://arxiv.org/pdf/2611.30898) | [Project Page](https://pawteam-eai.github.io/native-lam/)
+
+<details>
+<summary>Abstract</summary>
+
+Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, entangled across all layers. Viewing the world model as a LAM, we show that these dynamics can be extrac...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+World Models as Native Latent Action Models
+
+Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space.
+
+arXiv: https://arxiv.org/abs/2611.30898
+Project page: https://pawteam-eai.github.io/native-lam/
 
 #egocentric #robotlearning
 ```
@@ -116,6 +153,41 @@ Project page: https://adonis-galaxy.github.io/Ego2Wrist/
 
 ---
 
+### [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597)
+
+**Authors:** Yuxi Wang, Yufei Liu, Chengkai Jin, Qingyue Chen, Wenqi Ouyang et al. (11 authors)
+
+**Published:** 2026-11-23 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30597) | [PDF](https://arxiv.org/pdf/2611.30597) | [Code](https://github.com/NTUYWANG103/ViDiHand)
+
+<details>
+<summary>Abstract</summary>
+
+Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based hand depth estimation from direct regression into fine-grained geometric constraint solving. Specifically, we introduce Fine-Grained Geometric Lifting and Clip-Level Ray Fitting, which recover metric...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild
+
+Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion.
+
+arXiv: https://arxiv.org/abs/2611.30597
+Code: https://github.com/NTUYWANG103/ViDiHand
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
 
 **Authors:** Yaping Li, Zhihong Liu, Jiacheng Li, Yi Yang, Wenchao Yue et al. (13 authors)
@@ -145,41 +217,6 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 
 arXiv: https://arxiv.org/abs/2611.24585
 Project page: https://li-yaping.github.io/SHAPE/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model](https://arxiv.org/abs/2611.29218)
-
-**Authors:** Gaoge Han, Yongkang Cheng, Shaoli Huang, Jing Zhang, Mingming Gong et al. (7 authors)
-
-**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric human" in abstract; code repo; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29218) | [PDF](https://arxiv.org/pdf/2611.29218) | [Code](https://github.com/gaogehan/Ego-HMB)
-
-<details>
-<summary>Abstract</summary>
-
-We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images. Unlike conventional motion in-betweening, which requires structured 3D endpoint poses, this setting uses raw first-person observations available from wearable devices in VR/AR and robotics. It presents challenges due to viewpoint variations, partial body visibility, and temporal ambiguity under cross-modal endpoint constraints. To address these challenges, we propose Ego-HMB, a unified diffusion-based framework that learns endpoint pose estimation and te...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model
-
-We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images.
-
-arXiv: https://arxiv.org/abs/2611.29218
-Code: https://github.com/gaogehan/Ego-HMB
 
 #egocentric #robotlearning
 ```
@@ -295,6 +332,41 @@ arXiv: https://arxiv.org/abs/2611.24138
 
 ---
 
+### [Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model](https://arxiv.org/abs/2611.29218)
+
+**Authors:** Gaoge Han, Yongkang Cheng, Shaoli Huang, Jing Zhang, Mingming Gong et al. (7 authors)
+
+**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; code repo
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29218) | [PDF](https://arxiv.org/pdf/2611.29218) | [Code](https://github.com/gaogehan/Ego-HMB)
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images. Unlike conventional motion in-betweening, which requires structured 3D endpoint poses, this setting uses raw first-person observations available from wearable devices in VR/AR and robotics. It presents challenges due to viewpoint variations, partial body visibility, and temporal ambiguity under cross-modal endpoint constraints. To address these challenges, we propose Ego-HMB, a unified diffusion-based framework that learns endpoint pose estimation and te...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model
+
+We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images.
+
+arXiv: https://arxiv.org/abs/2611.29218
+Code: https://github.com/gaogehan/Ego-HMB
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos](https://arxiv.org/abs/2611.26764)
 
 **Authors:** Jackson Codd, Haoyu Li, Xianyi Cheng
@@ -355,40 +427,6 @@ ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents
 Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.
 
 arXiv: https://arxiv.org/abs/2611.26519
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation](https://arxiv.org/abs/2611.29693)
-
-**Authors:** Chaoyang Zhang, Shaohao Rui, Xiaofeng Mao, Yuanxun Xu, Haoyuan Xia et al. (8 authors)
-
-**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.29693) | [PDF](https://arxiv.org/pdf/2611.29693)
-
-<details>
-<summary>Abstract</summary>
-
-Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion. However, existing egocentric video datasets struggle to provide scene diversity, meaningful hand-object interactions, and reliable motion annotations simultaneously. To address these limitations, we introduce HandiVid, a high-quality dataset comprising 200K curated and annotated egocentric interaction video clips for hand-driven interactive video generation. We develop a unified data processing pipeline that integrates public...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation
-
-Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion.
-
-arXiv: https://arxiv.org/abs/2611.29693
 
 #egocentric #robotlearning
 ```
@@ -567,20 +605,20 @@ arXiv: https://arxiv.org/abs/2611.24995
 
 ---
 
-### [Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition](https://arxiv.org/abs/2611.28090)
+### [HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation](https://arxiv.org/abs/2611.29693)
 
-**Authors:** Yuzhe Hao, Ikuro Sato, Rei Kawakami, Koichi Shinoda
+**Authors:** Chaoyang Zhang, Shaohao Rui, Xiaofeng Mao, Yuanxun Xu, Haoyuan Xia et al. (8 authors)
 
-**Published:** 2026-11-17 | **Categories:** cs.CV, cs.MM | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-22 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
 
-**Why surfaced:** "egocentric human" in title
+**Why surfaced:** "egocentric video" in abstract
 
-**Links:** [arXiv](https://arxiv.org/abs/2611.28090) | [PDF](https://arxiv.org/pdf/2611.28090)
+**Links:** [arXiv](https://arxiv.org/abs/2611.29693) | [PDF](https://arxiv.org/pdf/2611.29693)
 
 <details>
 <summary>Abstract</summary>
 
-Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementary cues from first-person vision (V) and inertial sensor data (S) to recognize daily activities, where video mainly captures appearance and object-related context while inertial signals capture motion cues that video may miss. However, existing pre-training methods typically supervise the fused representation with a single joint objective, which may underemphasize the complementarity between the two modalities and limit the model's ability to learn from distinct modality-oriented signals. To address this issue, we...
+Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion. However, existing egocentric video datasets struggle to provide scene diversity, meaningful hand-object interactions, and reliable motion annotations simultaneously. To address these limitations, we introduce HandiVid, a high-quality dataset comprising 200K curated and annotated egocentric interaction video clips for hand-driven interactive video generation. We develop a unified data processing pipeline that integrates public...
 
 </details>
 
@@ -588,11 +626,11 @@ Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementa
 <summary>Share</summary>
 
 ```
-Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition
+HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation
 
-Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementary cues from first-person vision (V) and inertial sensor data (S) to recognize daily activities, where video mainly captures appearance a...
+Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion.
 
-arXiv: https://arxiv.org/abs/2611.28090
+arXiv: https://arxiv.org/abs/2611.29693
 
 #egocentric #robotlearning
 ```

@@ -12948,5 +12948,176 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.30363": {
+    "first_seen": "2026-11-25",
+    "title": "SOAR: temporal Structure-guided One-step Action generation for Robotic manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30389": {
+    "first_seen": "2026-11-25",
+    "title": "AgentMoT: An Agentic Mixture-of-Transformers for End-to-End Autonomous Driving",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30477": {
+    "first_seen": "2026-11-25",
+    "title": "OVOGO: Offline Value-Guided On-Policy Generative Optimization for Flow-Based Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30490": {
+    "first_seen": "2026-11-25",
+    "title": "EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.30516": {
+    "first_seen": "2026-11-25",
+    "title": "JEPA-ICL: Progress-Aligned Latent Plans for In-Context Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30534": {
+    "first_seen": "2026-11-25",
+    "title": "DelayOPSD: On-Policy Self-Distillation from a Synchronous Teacher for Real-time Asynchronous Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30550": {
+    "first_seen": "2026-11-25",
+    "title": "Body and Soul: Decoupling Robotic Brain and Policy with RoboHarness-Zero",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30572": {
+    "first_seen": "2026-11-25",
+    "title": "VeriTouch: Verified Visuo-Tactile World Models that Improve Robot Policy Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30573": {
+    "first_seen": "2026-11-25",
+    "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30597": {
+    "first_seen": "2026-11-25",
+    "title": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.30632": {
+    "first_seen": "2026-11-25",
+    "title": "GeoMerge-OPD: Balanced Skill Integration in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30637": {
+    "first_seen": "2026-11-25",
+    "title": "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.30659": {
+    "first_seen": "2026-11-25",
+    "title": "ActField: Learning Action Effects as Continuous-Time Latent Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30666": {
+    "first_seen": "2026-11-25",
+    "title": "Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30714": {
+    "first_seen": "2026-11-25",
+    "title": "LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30836": {
+    "first_seen": "2026-11-25",
+    "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30898": {
+    "first_seen": "2026-11-25",
+    "title": "World Models as Native Latent Action Models",
+    "topics": [
+      "egocentric_data",
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.30907": {
+    "first_seen": "2026-11-25",
+    "title": "DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.30989": {
+    "first_seen": "2026-11-25",
+    "title": "WorldLeague: Benchmarking Physical Agency",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31038": {
+    "first_seen": "2026-11-25",
+    "title": "Boltz-Flow: Generating High-Quality Robot Action from Boltzmann Machine",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31099": {
+    "first_seen": "2026-11-25",
+    "title": "NoveltyGate: Novelty, Not Error, Decides Which VLA Prefix Tokens to Compute Exactly",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31126": {
+    "first_seen": "2026-11-25",
+    "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31129": {
+    "first_seen": "2026-11-25",
+    "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.31240": {
+    "first_seen": "2026-11-25",
+    "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+    "topics": [
+      "vla"
+    ]
   }
 }
