@@ -13480,5 +13480,40 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.32996": {
+    "first_seen": "2026-11-25",
+    "title": "PAVE: Preference-Aligned Visual Egocentric Learning for the Blind and Low-Vision Users",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.33010": {
+    "first_seen": "2026-11-25",
+    "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33035": {
+    "first_seen": "2026-11-25",
+    "title": "Hybrid AI for AI-Native RAN Control: A Functional Perspective",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33137": {
+    "first_seen": "2026-11-25",
+    "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33141": {
+    "first_seen": "2026-11-25",
+    "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
+    "topics": [
+      "world_models"
+    ]
   }
 }

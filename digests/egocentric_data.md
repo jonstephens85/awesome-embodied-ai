@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-25 04:41 UTC
+**Last updated:** 2026-11-25 23:59 UTC
 
-**Papers shown:** 27 (relevance ≥ 2, last 7 days)
+**Papers shown:** 28 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -322,6 +322,41 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 
 arXiv: https://arxiv.org/abs/2611.24585
 Project page: https://li-yaping.github.io/SHAPE/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [PAVE: Preference-Aligned Visual Egocentric Learning for the Blind and Low-Vision Users](https://arxiv.org/abs/2611.32996)
+
+**Authors:** Nan Li, Shaofeng Liang, Shiyun Zhao, Keni Shi, Zhencheng Huang et al. (11 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in abstract; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.32996) | [PDF](https://arxiv.org/pdf/2611.32996) | [Code](https://github.com/shawnliang420/PAVE)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video question answering enables blind and low-vision (BLV) users to query their immediate surroundings through natural language. However, existing benchmarks and models primarily optimize for semantic agreement with reference answers, reducing visual assistance to a purely factual matching task. In real-world scenarios, a factually correct response remains practically unhelpful if it lacks the spatial orientation, actionable detail, or conciseness required by the immediate task of the user. Drawing upon real BLV egocentric videos and authentic user queries from EgoBlind, we constru...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+PAVE: Preference-Aligned Visual Egocentric Learning for the Blind and Low-Vision Users
+
+Egocentric video question answering enables blind and low-vision (BLV) users to query their immediate surroundings through natural language.
+
+arXiv: https://arxiv.org/abs/2611.32996
+Code: https://github.com/shawnliang420/PAVE
 
 #egocentric #robotlearning
 ```

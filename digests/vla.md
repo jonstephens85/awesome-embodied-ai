@@ -2,9 +2,9 @@
 
 Papers on VLAs and vision-language-action architectures for robotics.
 
-**Last updated:** 2026-11-25 04:41 UTC
+**Last updated:** 2026-11-25 23:59 UTC
 
-**Papers shown:** 121 (relevance ≥ 2, last 7 days)
+**Papers shown:** 123 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -566,6 +566,41 @@ World action models (WAMs) typically adapt large pretrained video generators to 
 
 arXiv: https://arxiv.org/abs/2611.31740
 Project page: https://shaolonl-16.github.io/leanwam/
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010)
+
+**Authors:** Xuanchen Liu, Hejun Zhang, Boxuan Dong, Ying Wu, Heshuai Li et al. (8 authors)
+
+**Published:** 2026-11-24 | **Categories:** cs.CV, cs.AI, cs.RO | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; code repo; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.33010) | [PDF](https://arxiv.org/pdf/2611.33010) | [Code](https://github.com/iPPLab/robodojo-mirror)
+
+<details>
+<summary>Abstract</summary>
+
+Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on RoboDojo that preserves task objectives, success criteria, and policy checkpoints while comparing a mirror-free baseline with single-mirror, dual-mirror, and mirrored-tabletop conditions. Across five policies spanning Vision-Language-Action models, World Action Models, and agent...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies
+
+Can a simple mirror expose the limitations of today's robotic manipulation policies?
+
+arXiv: https://arxiv.org/abs/2611.33010
+Code: https://github.com/iPPLab/robodojo-mirror
 
 #VLA #robotics
 ```
@@ -1157,6 +1192,41 @@ Knocked Off Course: Tracing Uncommanded Motion from Perception to Action in Embo
 Vision-Language-Action models (VLAs) enable simultaneous processing of egocentric video and textual target descriptions to produce action commands for embodied tracking platforms.
 
 arXiv: https://arxiv.org/abs/2611.32705
+
+#VLA #robotics
+```
+
+</details>
+
+---
+
+### [Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action](https://arxiv.org/abs/2611.33137)
+
+**Authors:** Yueh-Cheng Liu, Snehal Jauhri, Matthias Nießner, Angela Dai
+
+**Published:** 2026-11-24 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "vision-language-action" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.33137) | [PDF](https://arxiv.org/pdf/2611.33137) | [Project Page](https://liu115.github.io/physicl)
+
+<details>
+<summary>Abstract</summary>
+
+We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its value as training data across inverse rendering, 3D reconstruction, scene understanding, and mobile manipulation. Across these tasks, training state-of-the-art methods with our scenes improves perfor...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action
+
+We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces.
+
+arXiv: https://arxiv.org/abs/2611.33137
+Project page: https://liu115.github.io/physicl
 
 #VLA #robotics
 ```

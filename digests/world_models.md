@@ -2,9 +2,9 @@
 
 Papers on world models for robotics, video prediction, interactive simulation, and planning.
 
-**Last updated:** 2026-11-25 04:41 UTC
+**Last updated:** 2026-11-25 23:59 UTC
 
-**Papers shown:** 129 (relevance ≥ 2, last 7 days)
+**Papers shown:** 131 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -1508,6 +1508,40 @@ Interactive video world models turn user commands into the exploration of a gene
 
 arXiv: https://arxiv.org/abs/2611.24408
 Code: https://github.com/chuangwang123/strideworld
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction](https://arxiv.org/abs/2611.33141)
+
+**Authors:** Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman, Max Simchowitz, Aviral Kumar
+
+**Published:** 2026-11-24 | **Categories:** cs.RO, cs.CV, cs.LG | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in title; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.33141) | [PDF](https://arxiv.org/pdf/2611.33141)
+
+<details>
+<summary>Abstract</summary>
+
+World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to train such proxies without sacrificing action-prediction quality remains unclear. An effective proxy need not generate a high-resolution frame; it only needs to provide enough information to distinguish between possible futures. This leads to the design principle behind iWAM: rather than denoising an...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction
+
+World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act.
+
+arXiv: https://arxiv.org/abs/2611.33141
 
 #worldmodels #robotics
 ```
@@ -3387,6 +3421,40 @@ Measuring the Conservatism of Latent Safety Filters for World Models
 A latent safety filter decides from the latent of a world model whether a planned action is safe.
 
 arXiv: https://arxiv.org/abs/2611.23685
+
+#worldmodels #robotics
+```
+
+</details>
+
+---
+
+### [Hybrid AI for AI-Native RAN Control: A Functional Perspective](https://arxiv.org/abs/2611.33035)
+
+**Authors:** Sabrine Aroua, Osama Arouk, Pegah Alizadeh
+
+**Published:** 2026-11-24 | **Categories:** cs.AI | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "world model" in abstract; posted in last 2 days
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.33035) | [PDF](https://arxiv.org/pdf/2611.33035)
+
+<details>
+<summary>Abstract</summary>
+
+AI-native radio access network (RAN) control involves interdependent decisions across network entities, protocol layers, and timescales. Understanding how AI and conventional methods can jointly support these decisions requires a common basis for comparing their functional roles. This survey introduces a technique-agnostic taxonomy of RAN decision-making organized around four complementary capabilities: Representation and Reasoning, Prediction and Simulation, Adaptive Control, and Decision Synthesis. These capabilities are defined by their roles in the control process, independently of the tec...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Hybrid AI for AI-Native RAN Control: A Functional Perspective
+
+AI-native radio access network (RAN) control involves interdependent decisions across network entities, protocol layers, and timescales.
+
+arXiv: https://arxiv.org/abs/2611.33035
 
 #worldmodels #robotics
 ```
