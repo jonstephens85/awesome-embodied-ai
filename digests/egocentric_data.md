@@ -2,9 +2,9 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-25 23:59 UTC
+**Last updated:** 2026-11-26 03:50 UTC
 
-**Papers shown:** 28 (relevance ≥ 2, last 7 days)
+**Papers shown:** 25 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
 
@@ -38,43 +38,6 @@ Recalling where and when an object was last seen and who saw it requires recogni
 arXiv: https://arxiv.org/abs/2611.25849
 Project page: https://egowitness.github.io/
 Code: https://github.com/egowitness/EgoWitness
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898)
-
-**Authors:** Qinyue Li, Weijie Qiao, Qingyi Tao, Zerui Gong, Zhe Yang et al. (10 authors)
-
-**Published:** 2026-11-23 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "world model" in title; project page; posted in last 2 days
-
-**Also relevant to:** Vision-Language-Action Models, World Models
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30898) | [PDF](https://arxiv.org/pdf/2611.30898) | [Project Page](https://pawteam-eai.github.io/native-lam/)
-
-<details>
-<summary>Abstract</summary>
-
-Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, entangled across all layers. Viewing the world model as a LAM, we show that these dynamics can be extrac...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-World Models as Native Latent Action Models
-
-Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space.
-
-arXiv: https://arxiv.org/abs/2611.30898
-Project page: https://pawteam-eai.github.io/native-lam/
 
 #egocentric #robotlearning
 ```
@@ -118,6 +81,76 @@ Project page: https://robocap10k.com
 
 ---
 
+### [EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography](https://arxiv.org/abs/2611.34224)
+
+**Authors:** Guanglong Sun, Kanglei Zhou, Ziteng Wang, Nana Wang, Hengkai Tan et al. (9 authors)
+
+**Published:** 2026-11-25 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.34224) | [PDF](https://arxiv.org/pdf/2611.34224) | [Project Page](https://egomyo.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces. We therefore formulate physical hand state estimation from egocentric video and wrist surface electromyography (sEMG), combining visual geometry with neuromuscular evidence to jointly recover these coupled components. To support this task, we introduce EgoMyo, a benchmark spanning 5.75M video frames, 50 participants, 34 contact configurations, and repeated donnings, synchronizing these inputs with 3D hand pose and with contact and nor...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography
+
+Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces.
+
+arXiv: https://arxiv.org/abs/2611.34224
+Project page: https://egomyo.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding](https://arxiv.org/abs/2611.33565)
+
+**Authors:** Saif Mahmud, Vineet Parikh, Bharath Hariharan, Cheng Zhang
+
+**Published:** 2026-11-25 | **Categories:** cs.CV, cs.HC | **Relevance:** ★★★☆☆
+
+**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.33565) | [PDF](https://arxiv.org/pdf/2611.33565) | [Project Page](https://saif-mahmud.github.io/projects/ego-carbs)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen. An exocentric camera recovers this context, but it must be installed wherever the activity happens. Active acoustic sensing can recover it from the wearables themselves: a device's speaker emits inaudible chirps, and its microphone senses the motion of the hands, arms, and nearby objects from their echoes. Yet no public dataset pairs it with egocentric video. We present EgoCARBS, with two deliverables. The first is a multimodal dataset and benchmark: 15...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding
+
+Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen.
+
+arXiv: https://arxiv.org/abs/2611.33565
+Project page: https://saif-mahmud.github.io/projects/ego-carbs
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
 ### [MemHand: Memory-Enhanced World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2611.32876)
 
 **Authors:** Junyi Ma, Zhangshuo Qi, Erhang Zhang, Mingjie Li, Hesheng Wang
@@ -145,76 +178,6 @@ Recovering the continuous world-space motion of both hands from egocentric video
 
 arXiv: https://arxiv.org/abs/2611.32876
 Project page: https://irmvlab.github.io/memhand.github.io
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)
-
-**Authors:** Ziyao Zeng, Xiatao Sun, Hao Wang, Ziyu Guo, Youheng Yao et al. (11 authors)
-
-**Published:** 2026-11-23 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29850) | [PDF](https://arxiv.org/pdf/2611.29850) | [Project Page](https://adonis-galaxy.github.io/Ego2Wrist/)
-
-<details>
-<summary>Abstract</summary>
-
-Wrist cameras provide an action-centric view that is directly relevant to robot manipulation. However, collecting human wrist-camera videos at scale is challenging due to cumbersome setups that can interfere with natural hand movements. In contrast, head-mounted human egocentric videos are much easier to scale. We introduce Ego2Wrist, which synthesizes synchronized wrist-camera views from human egocentric videos and task descriptions. Trained on approximately 940 hours of paired head- and wrist-camera recordings, Ego2Wrist jointly generates three views. To evaluate generated wrist views withou...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video
-
-Wrist cameras provide an action-centric view that is directly relevant to robot manipulation.
-
-arXiv: https://arxiv.org/abs/2611.29850
-Project page: https://adonis-galaxy.github.io/Ego2Wrist/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597)
-
-**Authors:** Yuxi Wang, Yufei Liu, Chengkai Jin, Qingyue Chen, Wenqi Ouyang et al. (11 authors)
-
-**Published:** 2026-11-23 (updated 2026-11-24) | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30597) | [PDF](https://arxiv.org/pdf/2611.30597) | [Project Page](https://vidihand2.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based hand depth estimation from direct regression into fine-grained geometric constraint solving. Specifically, we introduce Fine-Grained Geometric Lifting and Clip-Level Ray Fitting, which recover metric...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild
-
-Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion.
-
-arXiv: https://arxiv.org/abs/2611.30597
-Project page: https://vidihand2.github.io/
 
 #egocentric #robotlearning
 ```
@@ -293,22 +256,22 @@ arXiv: https://arxiv.org/abs/2611.32260
 
 ---
 
-### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
+### [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898)
 
-**Authors:** Yaping Li, Zhihong Liu, Jiacheng Li, Yi Yang, Wenchao Yue et al. (13 authors)
+**Authors:** Qinyue Li, Weijie Qiao, Qingyi Tao, Zerui Gong, Zhe Yang et al. (10 authors)
 
-**Published:** 2026-11-18 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
+**Published:** 2026-11-23 | **Categories:** cs.CV, cs.LG, cs.RO | **Relevance:** ★★★☆☆
 
-**Why surfaced:** "VLA" in abstract; 2 distinct keyword hits; project page
+**Why surfaced:** "world model" in title; project page
 
-**Also relevant to:** Vision-Language-Action Models
+**Also relevant to:** Vision-Language-Action Models, World Models
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.24585) | [PDF](https://arxiv.org/pdf/2611.24585) | [Project Page](https://li-yaping.github.io/SHAPE/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30898) | [PDF](https://arxiv.org/pdf/2611.30898) | [Project Page](https://pawteam-eai.github.io/native-lam/)
 
 <details>
 <summary>Abstract</summary>
 
-Egocentric human recordings are far cheaper than dexterous robot demonstrations, promising stronger pretraining and direct skill learning without task-specific robot data. Yet humans and robots differ in morphology and kinematics, so human recordings lack the joint positions and actuator commands that supervise robot policies, providing only retargeted end-effector (EEF) actions. This raises two questions: how human data should supervise the policy, and how a dexterous robot should read out actions at deployment. We address both in SHAPE (Supervision from Human Action tokens with Parallel Exec...
+Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, entangled across all layers. Viewing the world model as a LAM, we show that these dynamics can be extrac...
 
 </details>
 
@@ -316,12 +279,12 @@ Egocentric human recordings are far cheaper than dexterous robot demonstrations,
 <summary>Share</summary>
 
 ```
-SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data
+World Models as Native Latent Action Models
 
-Egocentric human recordings are far cheaper than dexterous robot demonstrations, promising stronger pretraining and direct skill learning without task-specific robot data.
+Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space.
 
-arXiv: https://arxiv.org/abs/2611.24585
-Project page: https://li-yaping.github.io/SHAPE/
+arXiv: https://arxiv.org/abs/2611.30898
+Project page: https://pawteam-eai.github.io/native-lam/
 
 #egocentric #robotlearning
 ```
@@ -357,6 +320,76 @@ Egocentric video question answering enables blind and low-vision (BLV) users to 
 
 arXiv: https://arxiv.org/abs/2611.32996
 Code: https://github.com/shawnliang420/PAVE
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)
+
+**Authors:** Ziyao Zeng, Xiatao Sun, Hao Wang, Ziyu Guo, Youheng Yao et al. (11 authors)
+
+**Published:** 2026-11-23 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.29850) | [PDF](https://arxiv.org/pdf/2611.29850) | [Project Page](https://adonis-galaxy.github.io/Ego2Wrist/)
+
+<details>
+<summary>Abstract</summary>
+
+Wrist cameras provide an action-centric view that is directly relevant to robot manipulation. However, collecting human wrist-camera videos at scale is challenging due to cumbersome setups that can interfere with natural hand movements. In contrast, head-mounted human egocentric videos are much easier to scale. We introduce Ego2Wrist, which synthesizes synchronized wrist-camera views from human egocentric videos and task descriptions. Trained on approximately 940 hours of paired head- and wrist-camera recordings, Ego2Wrist jointly generates three views. To evaluate generated wrist views withou...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video
+
+Wrist cameras provide an action-centric view that is directly relevant to robot manipulation.
+
+arXiv: https://arxiv.org/abs/2611.29850
+Project page: https://adonis-galaxy.github.io/Ego2Wrist/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597)
+
+**Authors:** Yuxi Wang, Yufei Liu, Chengkai Jin, Qingyue Chen, Wenqi Ouyang et al. (11 authors)
+
+**Published:** 2026-11-23 (updated 2026-11-24) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric human" in abstract; 2 distinct keyword hits; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.30597) | [PDF](https://arxiv.org/pdf/2611.30597) | [Project Page](https://vidihand2.github.io/)
+
+<details>
+<summary>Abstract</summary>
+
+Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based hand depth estimation from direct regression into fine-grained geometric constraint solving. Specifically, we introduce Fine-Grained Geometric Lifting and Clip-Level Ray Fitting, which recover metric...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild
+
+Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion.
+
+arXiv: https://arxiv.org/abs/2611.30597
+Project page: https://vidihand2.github.io/
 
 #egocentric #robotlearning
 ```
@@ -462,42 +495,6 @@ BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo For
 Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments.
 
 arXiv: https://arxiv.org/abs/2611.27047
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot](https://arxiv.org/abs/2611.24138)
-
-**Authors:** Xinke Lyu, Bowen Yang, Zhicheng Wang
-
-**Published:** 2026-11-18 (updated 2026-11-19) | **Categories:** cs.RO, cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric human" in title; 2 distinct keyword hits
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24138) | [PDF](https://arxiv.org/pdf/2611.24138)
-
-<details>
-<summary>Abstract</summary>
-
-Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive. Recent ego-to-robot pipelines retarget first-person view human videos to robot data via transferring hand and arm motion. They judge fidelity mainly by visual appearance. However, trajectories often fail in terms of physics: fingers hover beside objects, and grippers close on empty space. We argue that how the object moves and the contacts that drive the motion count. Thus, we present Ego2X, an object-centric framework that converts monocular egocentric video into physically execu...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot
-
-Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive.
-
-arXiv: https://arxiv.org/abs/2611.24138
 
 #egocentric #robotlearning
 ```
@@ -647,7 +644,7 @@ arXiv: https://arxiv.org/abs/2611.32140
 
 **Authors:** Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu, Rundong Wang et al. (18 authors)
 
-**Published:** 2026-11-19 (updated 2026-11-23) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-19 (updated 2026-11-25) | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in title
 
@@ -737,74 +734,6 @@ Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video R
 Video-language models (VLMs) achieve strong performance on video-text retrieval and are increasingly used for egocentric video understanding.
 
 arXiv: https://arxiv.org/abs/2611.26120
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions](https://arxiv.org/abs/2611.24616)
-
-**Authors:** Chunggi Lee, Hanspeter Pfister
-
-**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24616) | [PDF](https://arxiv.org/pdf/2611.24616)
-
-<details>
-<summary>Abstract</summary>
-
-Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down. A vision-language model (VLM) that sees a few evenly spaced frames usually misses it. Training-free methods rank frames with a separate image-text model or ask the VLM to write a time. In a controlled test, the VLM itself locates the moment better when it chooses among labeled frames, and we read this choice from its output distribution. With the same candidates, this choice lands on the evidence more often than image-text scores or a written time span, and it compares all can...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions
-
-Questions about long egocentric video often depend on one brief moment, such as the second a hand puts an object down.
-
-arXiv: https://arxiv.org/abs/2611.24616
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video](https://arxiv.org/abs/2611.24995)
-
-**Authors:** Hongyu Wang, Chuhan Li, Congjin Xu, Xuandong Zhao, Hua Shen
-
-**Published:** 2026-11-18 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric video" in title
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.24995) | [PDF](https://arxiv.org/pdf/2611.24995)
-
-<details>
-<summary>Abstract</summary>
-
-Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions. Existing evaluations of multimodal foundation models (MFMs) examine observer localization, motion trajectories, and action feasibility, but leave the discovery and interpretation of evolving observer-entity interactions insufficiently assessed. We introduce EgoPass-Bench, a benchmark for observer-relative interaction understanding in real-world egocentric video. EgoPass-Bench comprises 284 manually reviewed evaluation clips recorded using Ray-Ban Meta (Gen 2) smart glasses a...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video
-
-Understanding an egocentric environment requires reasoning about how surrounding entities affect the observer's actions.
-
-arXiv: https://arxiv.org/abs/2611.24995
 
 #egocentric #robotlearning
 ```
@@ -941,40 +870,6 @@ SkillLens: Action-Guided Dense Visual Dynamics for Proficiency Estimation
 Human proficiency estimation is challenging because skill is a high-level and often subjective property that is not captured by action identity alone.
 
 arXiv: https://arxiv.org/abs/2611.25712
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting](https://arxiv.org/abs/2611.23970)
-
-**Authors:** Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu et al. (7 authors)
-
-**Published:** 2026-11-18 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.23970) | [PDF](https://arxiv.org/pdf/2611.23970)
-
-<details>
-<summary>Abstract</summary>
-
-Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions. However, different manipulation intentions can lead to substantially different hand trajectories even when interacting with the same object. Existing methods have not sufficiently explored the intrinsic relationships between articulated hand movements and object semantics to capture such operation-dependent motion patterns. Therefore, we propose TOMAS, a topology-aware operation modeling and adaptive staging framework for egocentric hand forecasting....
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting
-
-Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions.
-
-arXiv: https://arxiv.org/abs/2611.23970
 
 #egocentric #robotlearning
 ```

@@ -13515,5 +13515,259 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.33352": {
+    "first_seen": "2026-11-26",
+    "title": "Why Does Sensor Depth Fail Learned Manipulation Policies? Finding the Failure Mode with ACT",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33378": {
+    "first_seen": "2026-11-26",
+    "title": "DreamTour: Layout Steering for Training-Free World Exploration",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33390": {
+    "first_seen": "2026-11-26",
+    "title": "RoboARC: Physical Puzzles for Robotic Manipulation under Spatial Constraints",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33398": {
+    "first_seen": "2026-11-26",
+    "title": "Best-of-$N$ Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33467": {
+    "first_seen": "2026-11-26",
+    "title": "SplatWAM: Splatting World Action Models for Real-Time 3D Imagination",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33565": {
+    "first_seen": "2026-11-26",
+    "title": "EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.33591": {
+    "first_seen": "2026-11-26",
+    "title": "VivaWorld: Long-Horizon Video World Model With Compositional 3D Priors",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33635": {
+    "first_seen": "2026-11-26",
+    "title": "FreshVLA: Frequency-Regularized Time Scale Hierarchical Latent Actions for Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33682": {
+    "first_seen": "2026-11-26",
+    "title": "WorldUAV: Scaling UAV Data Synthesis via World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33693": {
+    "first_seen": "2026-11-26",
+    "title": "GeoTex: Geometry-as-Texture Encoding and History-Grounded 4D Occupancy Forecasting",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33734": {
+    "first_seen": "2026-11-26",
+    "title": "DualCast: Dual-Image Conditioned Diffusion Transformers for Digital Human E-Commerce Video Generation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33739": {
+    "first_seen": "2026-11-26",
+    "title": "RegHarness: Regulating What Code-as-Policy Agents Keep from Steps to Skills",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33745": {
+    "first_seen": "2026-11-26",
+    "title": "WhatIf: Counterfactual World Models over Action-Grounded Causal Graphs for Robotic Manipulation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33764": {
+    "first_seen": "2026-11-26",
+    "title": "Improving Building Energy Efficiency with an Indoor Environmental World Model and Counterfactual Adaptive Learning",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33769": {
+    "first_seen": "2026-11-26",
+    "title": "FailPoint-X: A Policy-Matched, Failure-Anchored Benchmark for Offline VLA Post-Training from Human Takeovers",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33779": {
+    "first_seen": "2026-11-26",
+    "title": "DuoWM:Integrating Dual 6-DoF Visual Flows into Action-Conditioned Drone World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33794": {
+    "first_seen": "2026-11-26",
+    "title": "Keep or Roll Back? Out-of-Loop Judges for Self-Improving VLA and End-to-End Embodied Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33810": {
+    "first_seen": "2026-11-26",
+    "title": "FlipVLA: Backdoor Attacks on Vision-Language-Action(VLA) Models Only Through Bit Flips",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33816": {
+    "first_seen": "2026-11-26",
+    "title": "$\\widetilde{\\varepsilon}$: Does Initial Noise Induce Directional Bias in Vision-Language-Action Models?",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33872": {
+    "first_seen": "2026-11-26",
+    "title": "Normalizing Flows are Capable World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33878": {
+    "first_seen": "2026-11-26",
+    "title": "Off the Driven Path: Transferable Road Understanding in Driving VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33880": {
+    "first_seen": "2026-11-26",
+    "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33925": {
+    "first_seen": "2026-11-26",
+    "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33934": {
+    "first_seen": "2026-11-26",
+    "title": "Towards 360$^\\circ$ Embodied UAV Tracking Without Turning",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.33939": {
+    "first_seen": "2026-11-26",
+    "title": "CondUQ: Calibrated Conditional Uncertainty Quantification Using Distribution Matching",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.33993": {
+    "first_seen": "2026-11-26",
+    "title": "Aegis-VLA: Reliability-Gated Action Refinement via a Trajectory World Model for Dynamic Object Manipulation",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.34014": {
+    "first_seen": "2026-11-26",
+    "title": "Hetero-Associative Visuomotor Memory: Soft Recall as a Base for Learned Residuals in Few-Demonstration Imitation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34054": {
+    "first_seen": "2026-11-26",
+    "title": "CARE-WM: Same-Horizon Self-Conditioning with Constraint-Adaptive Regularization for Latent World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34115": {
+    "first_seen": "2026-11-26",
+    "title": "A Simple Yet Effective Agent for Open-World Aerial Object Search",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34130": {
+    "first_seen": "2026-11-26",
+    "title": "WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34224": {
+    "first_seen": "2026-11-26",
+    "title": "EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.34257": {
+    "first_seen": "2026-11-26",
+    "title": "CamAct: Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion",
+    "topics": [
+      "egocentric_data",
+      "vla"
+    ]
+  },
+  "2611.34280": {
+    "first_seen": "2026-11-26",
+    "title": "Escapingthe instruction blackhole of vision-language-action policies via optimal-transport wormholes",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34287": {
+    "first_seen": "2026-11-26",
+    "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34288": {
+    "first_seen": "2026-11-26",
+    "title": "Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34302": {
+    "first_seen": "2026-11-26",
+    "title": "Co-World Model for Human-Video-to-Robot Transfer via Co-Constructed Shared Latent Dynamics",
+    "topics": [
+      "world_models"
+    ]
   }
 }
