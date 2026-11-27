@@ -13769,5 +13769,174 @@
     "topics": [
       "world_models"
     ]
+  },
+  "2611.34352": {
+    "first_seen": "2026-11-27",
+    "title": "Beyond Natural-Language Instructions: Temporal Logic as a Task Language for VLA Models with Visual-Logical Fusion",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34360": {
+    "first_seen": "2026-11-27",
+    "title": "One Patch, Many Policies: Object-Associated Physical Patch Attacks on Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34422": {
+    "first_seen": "2026-11-27",
+    "title": "Can Visual World Models See Force?",
+    "topics": [
+      "vla",
+      "world_models"
+    ]
+  },
+  "2611.34435": {
+    "first_seen": "2026-11-27",
+    "title": "Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34449": {
+    "first_seen": "2026-11-27",
+    "title": "HoloBrain-0.5 Technical Report",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34489": {
+    "first_seen": "2026-11-27",
+    "title": "Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans",
+    "topics": [
+      "egocentric_data"
+    ]
+  },
+  "2611.34509": {
+    "first_seen": "2026-11-27",
+    "title": "Long-Horizon Planning with Latent World Models via Graph Anchors",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34538": {
+    "first_seen": "2026-11-27",
+    "title": "Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34560": {
+    "first_seen": "2026-11-27",
+    "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34597": {
+    "first_seen": "2026-11-27",
+    "title": "$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34614": {
+    "first_seen": "2026-11-27",
+    "title": "Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34644": {
+    "first_seen": "2026-11-27",
+    "title": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34656": {
+    "first_seen": "2026-11-27",
+    "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34675": {
+    "first_seen": "2026-11-27",
+    "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34693": {
+    "first_seen": "2026-11-27",
+    "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34698": {
+    "first_seen": "2026-11-27",
+    "title": "A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34730": {
+    "first_seen": "2026-11-27",
+    "title": "WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34739": {
+    "first_seen": "2026-11-27",
+    "title": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34741": {
+    "first_seen": "2026-11-27",
+    "title": "ELMO: Emergent Representations In Imitation Learning Via Dynamic Hierarchical Action Chunking",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34778": {
+    "first_seen": "2026-11-27",
+    "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34830": {
+    "first_seen": "2026-11-27",
+    "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
+    "topics": [
+      "world_models"
+    ]
+  },
+  "2611.34864": {
+    "first_seen": "2026-11-27",
+    "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34914": {
+    "first_seen": "2026-11-27",
+    "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+    "topics": [
+      "vla"
+    ]
+  },
+  "2611.34943": {
+    "first_seen": "2026-11-27",
+    "title": "Tracking Any Point with Agentic Visual Reasoning",
+    "topics": [
+      "egocentric_data"
+    ]
   }
 }
