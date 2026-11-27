@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27 00:18 UTC",
+  "generated": "2026-11-27 03:51 UTC",
   "window_days": 7,
   "topics": {
     "egocentric_data": {
@@ -84,7 +84,7 @@
       "project_page": "https://syed-nazmus-sakib.github.io/graph-anchors/",
       "github_url": "https://github.com/syed-nazmus-sakib/graph-anchors",
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Long-Horizon Planning with Latent World Models via Graph Anchors\n\nLatent world models plan in a compact latent space by predicting the outcomes of actions.\n\narXiv: https://arxiv.org/abs/2611.34509\nProject page: https://syed-nazmus-sakib.github.io/graph-anchors/\nCode: https://github.com/syed-nazmus-sakib/graph-anchors\n\n#worldmodels #robotics"
     },
     {
@@ -225,7 +225,7 @@
       "project_page": "https://tlf-tlf.github.io/M2AdaptVLAPage/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation\n\nEffective robotic manipulation calls for multimodal memory and rapid adaptation to shifts in contact dynamics.\n\narXiv: https://arxiv.org/abs/2611.34560\nProject page: https://tlf-tlf.github.io/M2AdaptVLAPage/\n\n#VLA #robotics"
     },
     {
@@ -481,7 +481,7 @@
       "project_page": null,
       "github_url": "https://github.com/showlab/ShowNow",
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models\n\nInteractive world models must generate video continuously while responding promptly to user actions.\n\narXiv: https://arxiv.org/abs/2611.34693\nCode: https://github.com/showlab/ShowNow\n\n#worldmodels #robotics"
     },
     {
@@ -517,7 +517,7 @@
       "project_page": "https://xmz111.github.io/Dianjing/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model\n\nModern video generators excel at producing visually plausible futures guided by text and image prompts.\n\narXiv: https://arxiv.org/abs/2611.34435\nProject page: https://xmz111.github.io/Dianjing/\n\n#worldmodels #robotics"
     },
     {
@@ -676,7 +676,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs\n\nVision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wron...\n\narXiv: https://arxiv.org/abs/2611.34914\n\n#VLA #robotics"
     },
     {
@@ -707,7 +707,7 @@
       "project_page": "https://dtu-bench.github.io/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation\n\nVision-language-action (VLA) policies perform well on fixed-instruction robotic manipulation benchmarks, but their ability to adapt to instruction changes during execution remains understudied.\n\narXiv: https://arxiv.org/abs/2611.34538\nProject page: https://dtu-bench.github.io/\n\n#VLA #robotics"
     },
     {
@@ -747,7 +747,7 @@
       "project_page": "https://horizonrobotics.github.io/robot_lab/holobrain_0_5/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "HoloBrain-0.5 Technical Report\n\nWe present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments.\n\narXiv: https://arxiv.org/abs/2611.34449\nProject page: https://horizonrobotics.github.io/robot_lab/holobrain_0_5/\n\n#VLA #robotics"
     },
     {
@@ -841,7 +841,7 @@
       "project_page": "https://www.deveshnath.com/projects/micrompc/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation\n\nWe present $μ$MPC, a fast model predictive control (MPC) framework that reduces online computation using learned Koopman-linearized dynamics.\n\narXiv: https://arxiv.org/abs/2611.34597\nProject page: https://www.deveshnath.com/projects/micrompc/\n\n#worldmodels #robotics"
     },
     {
@@ -1252,7 +1252,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models\n\nPretrained vision-language-action (VLA) models rarely satisfy all behavioral requirements of a new platform, and teams without a large deployed fleet lack the data to address the resulting failures.\n\narXiv: https://arxiv.org/abs/2611.34698\n\n#VLA #robotics"
     },
     {
@@ -1607,7 +1607,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies\n\nSince vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection...\n\narXiv: https://arxiv.org/abs/2611.34864\n\n#VLA #robotics"
     },
     {
@@ -1637,7 +1637,7 @@
       "project_page": "https://uoft-isl.github.io/elmo.github.io/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "ELMO: Emergent Representations In Imitation Learning Via Dynamic Hierarchical Action Chunking\n\nRobot trajectories naturally decompose into variable-length phases with distinct semantic intents, such as reaching, grasping, and lifting.\n\narXiv: https://arxiv.org/abs/2611.34741\nProject page: https://uoft-isl.github.io/elmo.github.io/\n\n#VLA #robotics"
     },
     {
@@ -1670,7 +1670,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Beyond Natural-Language Instructions: Temporal Logic as a Task Language for VLA Models with Visual-Logical Fusion\n\nRobotic tasks combine object relations, logical dependencies, and temporal requirements, which robot planning and industrial control commonly specify in temporal logic (TL).\n\narXiv: https://arxiv.org/abs/2611.34352\n\n#VLA #robotics"
     },
     {
@@ -1800,7 +1800,7 @@
       "project_page": "https://kaiknower.github.io/RoboEvo2/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution\n\nRobots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice.\n\narXiv: https://arxiv.org/abs/2611.34675\nProject page: https://kaiknower.github.io/RoboEvo2/\n\n#VLA #robotics"
     },
     {
@@ -1829,7 +1829,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models\n\nWorld models are evaluated by predicting future observations from actions.\n\narXiv: https://arxiv.org/abs/2611.34739\n\n#worldmodels #robotics"
     },
     {
@@ -1865,7 +1865,7 @@
       "project_page": "https://xyz1206.github.io/MotionRep/",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics\n\nMany embodied world models predict future states in latent spaces optimized for RGB reconstruction, which do not explicitly prioritize object-level semantics and geometry relevant to motion generation.\n\narXiv: https://arxiv.org/abs/2611.34644\nProject page: https://xyz1206.github.io/MotionRep/\n\n#worldmodels #robotics"
     },
     {
@@ -2988,7 +2988,7 @@
       "project_page": "https://agentap.cs.virginia.edu",
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Tracking Any Point with Agentic Visual Reasoning\n\nA general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition.\n\narXiv: https://arxiv.org/abs/2611.34943\nProject page: https://agentap.cs.virginia.edu\n\n#egocentric #robotlearning"
     },
     {
@@ -3017,7 +3017,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models\n\nVision-Language-Action (VLA) models introduce language reasoning into end-to-end autonomous driving.\n\narXiv: https://arxiv.org/abs/2611.34614\n\n#VLA #robotics"
     },
     {
@@ -3076,7 +3076,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models\n\nWorld models predict how an environment responds to actions, so that candidate actions can be evaluated before execution.\n\narXiv: https://arxiv.org/abs/2611.34830\n\n#worldmodels #robotics"
     },
     {
@@ -3434,7 +3434,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents\n\nRecent vision-language models (VLMs) can act as robot-use agents that understand diverse scenes and control robots through policy code and tools.\n\narXiv: https://arxiv.org/abs/2611.34778\n\n#VLA #robotics"
     },
     {
@@ -3498,7 +3498,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Can Visual World Models See Force?\n\nWorld models and vision-language-action policy models are increasingly proposed as foundations for robot manipulation.\n\narXiv: https://arxiv.org/abs/2611.34422\n\n#worldmodels #robotics"
     },
     {
@@ -4481,7 +4481,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "One Patch, Many Policies: Object-Associated Physical Patch Attacks on Robotic Manipulation\n\nVision-Language-Action (VLA) and World Action Models (WAMs) are vulnerable to adversarial visual interference, motivating the study of universal and transferable physical patch attacks.\n\narXiv: https://arxiv.org/abs/2611.34360\n\n#VLA #robotics"
     },
     {
@@ -4551,7 +4551,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions\n\nVideo world models aim to create interactive physical worlds that capture how diverse materials move and interact.\n\narXiv: https://arxiv.org/abs/2611.34730\n\n#worldmodels #robotics"
     },
     {
@@ -4589,7 +4589,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Do We Still Need Reinforcement Learning When We Can Read the World Model?\n\nReinforcement learning has achieved remarkable success in sequential decision-making, but learning effective policies often requires substantial interaction experience.\n\narXiv: https://arxiv.org/abs/2611.34656\n\n#worldmodels #robotics"
     },
     {
@@ -5297,7 +5297,7 @@
       "project_page": null,
       "github_url": null,
       "first_seen": "2026-11-27",
-      "is_new": true,
+      "is_new": false,
       "share_text": "Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans\n\nA first-person (ego) image reveals what a camera sees, but not who or what carries it.\n\narXiv: https://arxiv.org/abs/2611.34489\n\n#egocentric #robotlearning"
     },
     {
