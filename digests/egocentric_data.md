@@ -2,116 +2,11 @@
 
 Papers on egocentric / first-person video datasets and learning robot or embodied skills from human-centric data.
 
-**Last updated:** 2026-11-27 23:54 UTC
+**Last updated:** 2026-11-28 03:38 UTC
 
-**Papers shown:** 19 (relevance ≥ 2, last 7 days)
+**Papers shown:** 15 (relevance ≥ 2, last 7 days)
 
 [Dashboard](../docs/index.html) · [What's new](latest.md) · [Back to Home](../README.md)
-
----
-
-### [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916)
-
-**Authors:** Kheri Hughes, Qasim Ali, Nikash Bhardwaj, Owen Akhibi, Niresh Dravin et al. (15 authors)
-
-**Published:** 2026-11-20 | **Categories:** cs.RO | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric dataset" in title; 2 distinct keyword hits; project page
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.26916) | [PDF](https://arxiv.org/pdf/2611.26916) | [Project Page](https://robocap10k.com)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video is the most scalable source of manipulation data for robot learning, but its difficulty lies in producing high-quality supervision. Existing large corpora lack metric 3D labels or rely on heterogeneous devices, motion-capture labs, or a headset's built-in real-time tracker, whose accuracy is not reported for the released data. We introduce RoboCap-10k: 10,000 curated hours of unscripted manipulation recorded during workers' paid shifts in 11 countries, spanning 18 task families, 200 task types, and 2,000 tasks. Every hour is captured on one device, the RoboCap, a 250 g hat wit...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning
-
-Egocentric video is the most scalable source of manipulation data for robot learning, but its difficulty lies in producing high-quality supervision.
-
-arXiv: https://arxiv.org/abs/2611.26916
-Project page: https://robocap10k.com
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography](https://arxiv.org/abs/2611.34224)
-
-**Authors:** Guanglong Sun, Kanglei Zhou, Ziteng Wang, Nana Wang, Hengkai Tan et al. (9 authors)
-
-**Published:** 2026-11-25 | **Categories:** cs.CV | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.34224) | [PDF](https://arxiv.org/pdf/2611.34224) | [Project Page](https://egomyo.github.io/)
-
-<details>
-<summary>Abstract</summary>
-
-Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces. We therefore formulate physical hand state estimation from egocentric video and wrist surface electromyography (sEMG), combining visual geometry with neuromuscular evidence to jointly recover these coupled components. To support this task, we introduce EgoMyo, a benchmark spanning 5.75M video frames, 50 participants, 34 contact configurations, and repeated donnings, synchronizing these inputs with 3D hand pose and with contact and nor...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography
-
-Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces.
-
-arXiv: https://arxiv.org/abs/2611.34224
-Project page: https://egomyo.github.io/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding](https://arxiv.org/abs/2611.33565)
-
-**Authors:** Saif Mahmud, Vineet Parikh, Bharath Hariharan, Cheng Zhang
-
-**Published:** 2026-11-25 | **Categories:** cs.CV, cs.HC | **Relevance:** ★★★☆☆
-
-**Why surfaced:** "egocentric video" in title; project page; posted in last 2 days
-
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.33565) | [PDF](https://arxiv.org/pdf/2611.33565) | [Project Page](https://saif-mahmud.github.io/projects/ego-carbs)
-
-<details>
-<summary>Abstract</summary>
-
-Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen. An exocentric camera recovers this context, but it must be installed wherever the activity happens. Active acoustic sensing can recover it from the wearables themselves: a device's speaker emits inaudible chirps, and its microphone senses the motion of the hands, arms, and nearby objects from their echoes. Yet no public dataset pairs it with egocentric video. We present EgoCARBS, with two deliverables. The first is a multimodal dataset and benchmark: 15...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding
-
-Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen.
-
-arXiv: https://arxiv.org/abs/2611.33565
-Project page: https://saif-mahmud.github.io/projects/ego-carbs
-
-#egocentric #robotlearning
-```
-
-</details>
 
 ---
 
@@ -152,20 +47,20 @@ Project page: https://pawteam-eai.github.io/native-lam/
 
 ---
 
-### [Tracking Any Point with Agentic Visual Reasoning](https://arxiv.org/abs/2611.34943)
+### [EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography](https://arxiv.org/abs/2611.34224)
 
-**Authors:** Xuweiyi Chen, Jin Yao, Linzhan Mou, Lei Gong, Di Liu et al. (11 authors)
+**Authors:** Guanglong Sun, Kanglei Zhou, Ziteng Wang, Nana Wang, Hengkai Tan et al. (9 authors)
 
 **Published:** 2026-11-25 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
-**Why surfaced:** "egocentric video" in abstract; project page; posted in last 2 days
+**Why surfaced:** "egocentric video" in title; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.34943) | [PDF](https://arxiv.org/pdf/2611.34943) | [Project Page](https://agentap.cs.virginia.edu)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.34224) | [PDF](https://arxiv.org/pdf/2611.34224) | [Project Page](https://egomyo.github.io/)
 
 <details>
 <summary>Abstract</summary>
 
-A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate...
+Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces. We therefore formulate physical hand state estimation from egocentric video and wrist surface electromyography (sEMG), combining visual geometry with neuromuscular evidence to jointly recover these coupled components. To support this task, we introduce EgoMyo, a benchmark spanning 5.75M video frames, 50 participants, 34 contact configurations, and repeated donnings, synchronizing these inputs with 3D hand pose and with contact and nor...
 
 </details>
 
@@ -173,12 +68,47 @@ A general-purpose Vision-Language Model (VLM) has surpassed expert vision models
 <summary>Share</summary>
 
 ```
-Tracking Any Point with Agentic Visual Reasoning
+EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography
 
-A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition.
+Physical hand interaction depends on configuration, contact, and force, yet nearly identical appearances can conceal different contact states and exerted forces.
 
-arXiv: https://arxiv.org/abs/2611.34943
-Project page: https://agentap.cs.virginia.edu
+arXiv: https://arxiv.org/abs/2611.34224
+Project page: https://egomyo.github.io/
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding](https://arxiv.org/abs/2611.33565)
+
+**Authors:** Saif Mahmud, Vineet Parikh, Bharath Hariharan, Cheng Zhang
+
+**Published:** 2026-11-25 | **Categories:** cs.CV, cs.HC | **Relevance:** ★★☆☆☆
+
+**Why surfaced:** "egocentric video" in title; project page
+
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.33565) | [PDF](https://arxiv.org/pdf/2611.33565) | [Project Page](https://saif-mahmud.github.io/projects/ego-carbs)
+
+<details>
+<summary>Abstract</summary>
+
+Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen. An exocentric camera recovers this context, but it must be installed wherever the activity happens. Active acoustic sensing can recover it from the wearables themselves: a device's speaker emits inaudible chirps, and its microphone senses the motion of the hands, arms, and nearby objects from their echoes. Yet no public dataset pairs it with egocentric video. We present EgoCARBS, with two deliverables. The first is a multimodal dataset and benchmark: 15...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding
+
+Egocentric video records what a person looks at, but often misses what their body does: the hands leave the frame, and arm motion goes unseen.
+
+arXiv: https://arxiv.org/abs/2611.33565
+Project page: https://saif-mahmud.github.io/projects/ego-carbs
 
 #egocentric #robotlearning
 ```
@@ -362,20 +292,20 @@ arXiv: https://arxiv.org/abs/2611.32260
 
 ---
 
-### [Ego2Ego: Generative Visual Perspective Taking Across Collaborators](https://arxiv.org/abs/2611.27459)
+### [Tracking Any Point with Agentic Visual Reasoning](https://arxiv.org/abs/2611.34943)
 
-**Authors:** Chuhan Jiao, John Gideon, Anshul Gupta, Guy Rosman, Andreas Bulling
+**Authors:** Xuweiyi Chen, Jin Yao, Linzhan Mou, Lei Gong, Di Liu et al. (11 authors)
 
-**Published:** 2026-11-20 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
+**Published:** 2026-11-25 | **Categories:** cs.CV | **Relevance:** ★★☆☆☆
 
 **Why surfaced:** "egocentric video" in abstract; project page
 
-**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.27459) | [PDF](https://arxiv.org/pdf/2611.27459) | [Project Page](https://chuhan-jiao.github.io/ego2ego/)
+**Links:** 🔗 [arXiv](https://arxiv.org/abs/2611.34943) | [PDF](https://arxiv.org/pdf/2611.34943) | [Project Page](https://agentap.cs.virginia.edu)
 
 <details>
 <summary>Abstract</summary>
 
-Visual perspective taking, the ability to infer what another person sees from their position, is fundamental to human collaboration. However, prior works reduced perspective taking to state estimation, geometric reconstruction, or discrete question answering, whereas existing cross-view video generation methods either inferred the target view from the input video alone or required an external camera that observes the target person. We introduce generative visual perspective taking: Given an ego person's egocentric video, a scene point cloud, and a collaborator's camera trajectory, the task is...
+A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate...
 
 </details>
 
@@ -383,48 +313,12 @@ Visual perspective taking, the ability to infer what another person sees from th
 <summary>Share</summary>
 
 ```
-Ego2Ego: Generative Visual Perspective Taking Across Collaborators
+Tracking Any Point with Agentic Visual Reasoning
 
-Visual perspective taking, the ability to infer what another person sees from their position, is fundamental to human collaboration.
+A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition.
 
-arXiv: https://arxiv.org/abs/2611.27459
-Project page: https://chuhan-jiao.github.io/ego2ego/
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047)
-
-**Authors:** Zhaoshan Yang, Chenglei Li, Haoyu Lei, Yutao Zhang, Yuyu Yang et al. (12 authors)
-
-**Published:** 2026-11-20 (updated 2026-11-23) | **Categories:** cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "egocentric perception" in title; 2 distinct keyword hits
-
-**Also relevant to:** Vision-Language-Action Models
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.27047) | [PDF](https://arxiv.org/pdf/2611.27047)
-
-<details>
-<summary>Abstract</summary>
-
-Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as pr...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
-
-Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments.
-
-arXiv: https://arxiv.org/abs/2611.27047
+arXiv: https://arxiv.org/abs/2611.34943
+Project page: https://agentap.cs.virginia.edu
 
 #egocentric #robotlearning
 ```
@@ -503,40 +397,6 @@ Code: https://github.com/gaogehan/Ego-HMB
 
 ---
 
-### [Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans](https://arxiv.org/abs/2611.34489)
-
-**Authors:** Yifan Jin, Zheng Zhang, Tianwen Qian, Dong Wang, Bo Zhao et al. (7 authors)
-
-**Published:** 2026-11-25 | **Categories:** cs.CV, cs.RO | **Relevance:** ★★☆☆☆
-
-**Why surfaced:** "Ego-Exo" in abstract; posted in last 2 days
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.34489) | [PDF](https://arxiv.org/pdf/2611.34489)
-
-<details>
-<summary>Abstract</summary>
-
-A first-person (ego) image reveals what a camera sees, but not who or what carries it. Given a synchronized third-person (exo) image, camera wearer identification asks who is ego: which candidate carries the ego camera? We extend this task beyond humans to robots, vehicles, animals, and drones, and broaden its spatial scope (where is ego) from selecting a provided candidate mask to wearer segmentation with absence prediction and mutual camera localization across ego-exo views. We introduce FindEgo-1M, comprising 1.16M real and simulated ego-exo pairs across 12 wearer types, 17 domains, and 111...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans
-
-A first-person (ego) image reveals what a camera sees, but not who or what carries it.
-
-arXiv: https://arxiv.org/abs/2611.34489
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
 ### [Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations](https://arxiv.org/abs/2611.32101)
 
 **Authors:** Ange Bao, Haishan Zhang, Lingzi Xie, Shuang Li, Pei Zhao et al. (7 authors)
@@ -563,6 +423,40 @@ Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile
 Learning dexterous manipulation from egocentric human demonstrations offers a scalable path toward robot skill acquisition.
 
 arXiv: https://arxiv.org/abs/2611.32101
+
+#egocentric #robotlearning
+```
+
+</details>
+
+---
+
+### [Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans](https://arxiv.org/abs/2611.34489)
+
+**Authors:** Yifan Jin, Zheng Zhang, Tianwen Qian, Dong Wang, Bo Zhao et al. (7 authors)
+
+**Published:** 2026-11-25 | **Categories:** cs.CV, cs.RO | **Relevance:** ★☆☆☆☆
+
+**Why surfaced:** "Ego-Exo" in abstract
+
+**Links:** [arXiv](https://arxiv.org/abs/2611.34489) | [PDF](https://arxiv.org/pdf/2611.34489)
+
+<details>
+<summary>Abstract</summary>
+
+A first-person (ego) image reveals what a camera sees, but not who or what carries it. Given a synchronized third-person (exo) image, camera wearer identification asks who is ego: which candidate carries the ego camera? We extend this task beyond humans to robots, vehicles, animals, and drones, and broaden its spatial scope (where is ego) from selecting a provided candidate mask to wearer segmentation with absence prediction and mutual camera localization across ego-exo views. We introduce FindEgo-1M, comprising 1.16M real and simulated ego-exo pairs across 12 wearer types, 17 domains, and 111...
+
+</details>
+
+<details>
+<summary>Share</summary>
+
+```
+Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans
+
+A first-person (ego) image reveals what a camera sees, but not who or what carries it.
+
+arXiv: https://arxiv.org/abs/2611.34489
 
 #egocentric #robotlearning
 ```
@@ -631,40 +525,6 @@ HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation
 Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion.
 
 arXiv: https://arxiv.org/abs/2611.29693
-
-#egocentric #robotlearning
-```
-
-</details>
-
----
-
-### [EgoLAM: Learning Latent Actions from Hand and Head Motion](https://arxiv.org/abs/2611.27290)
-
-**Authors:** Ziyi Ding, Yiwei Wang, Zhongxing Wei, Xianxin Lai, Yechi Liu et al. (14 authors)
-
-**Published:** 2026-11-20 | **Categories:** cs.CV, cs.AI | **Relevance:** ★☆☆☆☆
-
-**Why surfaced:** "egocentric video" in abstract
-
-**Links:** [arXiv](https://arxiv.org/abs/2611.27290) | [PDF](https://arxiv.org/pdf/2611.27290)
-
-<details>
-<summary>Abstract</summary>
-
-Latent action models let a robot policy learn from video by turning the change between two frames into a training target. In egocentric video, a cup can move across the image because a hand pushes it or because the wearer turns. Both changes help predict the next frame, but only the first describes manipulation. During training, EgoLAM supervises the action code with measured wrist motion and supplies camera motion separately to the forward model. Even when the wearer turns while pushing a cup, the training target still describes how the hand pushed it. The action encoder pools object slots ar...
-
-</details>
-
-<details>
-<summary>Share</summary>
-
-```
-EgoLAM: Learning Latent Actions from Hand and Head Motion
-
-Latent action models let a robot policy learn from video by turning the change between two frames into a training target.
-
-arXiv: https://arxiv.org/abs/2611.27290
 
 #egocentric #robotlearning
 ```
